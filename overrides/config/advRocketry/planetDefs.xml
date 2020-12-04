@@ -1,0 +1,120 @@
+<galaxy>
+<star blackHole="false" name="Sol" numGasGiants="0" numPlanets="2" size="1.0" temp="100" x="0" y="0">
+               
+<planet DIMID="0" dimMapping="" name="Earth">
+            <isKnown>true</isKnown>
+            <fogColor>1.0,1.0,1.0</fogColor>
+            <skyColor>1.0,1.0,1.0</skyColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <avgTemperature>287</avgTemperature>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <planet DIMID="3" name="Luna">
+                <isKnown>true</isKnown>
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>150</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
+                <orbitalPhi>10</orbitalPhi>
+                <avgTemperature>255</avgTemperature>
+                <rotationalPeriod>128000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <generateVolcanos>false</generateVolcanos>
+                <generateStructures>false</generateStructures>
+                <generateGeodes>false</generateGeodes>
+                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+                <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+            </planet>
+        </planet>
+        
+    </star>
+    <star blackHole="false" name="Sol-235" numGasGiants="0" numPlanets="3" size="1.0" temp="100" x="50" y="50">
+        <planet DIMID="400" name="Carbon Wasteland" temp="100" customIcon="CarbonWorld">
+            <isKnown>true</isKnown>
+            <skyColor>0x696969</skyColor>
+            <fogColor>0x696969</fogColor>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>20</orbitalTheta>
+            <orbitalPhi>90</orbitalPhi>
+            <rotationalPeriod>14000</rotationalPeriod>
+            <atmosphereDensity>100</atmosphereDensity>
+            <generateCraters>false</generateCraters>
+            <generateVolcanos>false</generateVolcanos>
+            <generateStructures>false</generateStructures>
+            <generateGeodes>false</generateGeodes>
+            <hasOxygen>false</hasOxygen>
+            <fillerBlock>gregtech:granite</fillerBlock>
+            <!-- Advanced rocketry charcoal log -->
+            <artifact>advancedrocketry:charcoallog</artifact>
+            <biomeIds>advancedrocketry:Stormland,24</biomeIds> 
+            <oceanBlock>gregtech:Fluid.oil_medium</oceanBlock>
+            </planet>
+            <planet DIMID="401" name="Cosmic Wasteland" temp="100" customIcon="MarsLike">
+                <isKnown>true</isKnown>
+                <skyColor>0xadd8e6</skyColor>
+                <fogColor>0xf70d1a</fogColor>
+                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>40</orbitalTheta>
+                <orbitalPhi>90</orbitalPhi>
+                <hasOxygen>false</hasOxygen>
+                <rotationalPeriod>14000</rotationalPeriod>
+                <atmosphereDensity>150</atmosphereDensity>
+                <generateCraters>false</generateCraters>
+                <generateVolcanos>false</generateVolcanos>
+                <generateStructures>false</generateStructures>
+                <generateGeodes>false</generateGeodes>
+                <!-- oxi ferric sand-->
+               <artifact>advancedrocketry:hotturf</artifact> 
+                <biomeIds>advancedrocketry:crystalchasms,advancedrocketry:hotdryrock</biomeIds> 
+                </planet>
+                <planet DIMID="402" name="Saline Wasteland" temp="100" customIcon="Venusian">
+                    <isKnown>true</isKnown>
+                    <skyColor>0xD3D3D3</skyColor>
+                    <gravitationalMultiplier>100</gravitationalMultiplier>
+                    <orbitalDistance>100</orbitalDistance>
+                    <orbitalTheta>60</orbitalTheta>
+                    <orbitalPhi>90</orbitalPhi>
+                    <hasOxygen>false</hasOxygen>
+                    <rotationalPeriod>14000</rotationalPeriod>
+                    <atmosphereDensity>150</atmosphereDensity>
+                    <generateCraters>false</generateCraters>
+                    <generateVolcanos>false</generateVolcanos>
+                    <generateStructures>false</generateStructures>
+                    <generateGeodes>false</generateGeodes>
+                    <!-- block of salt -->
+                    <artifact>gregtech:compressed_7:9</artifact> 
+                    <biomeIds>advancedrocketry:alien forest,24</biomeIds> 
+                    </planet>
+    <planet DIMID="403" name="Molten earth" temp="10" customIcon="MarsLike">
+        <isKnown>true</isKnown>
+        <skyColor>0x8b0000</skyColor>
+        <fogColor>0xffcccb </fogColor>
+        <gravitationalMultiplier>100</gravitationalMultiplier>
+        <orbitalDistance>40</orbitalDistance>
+        <orbitalTheta>120</orbitalTheta>
+        <orbitalPhi>90</orbitalPhi>
+        <rotationalPeriod>14000</rotationalPeriod>
+        <hasOxygen>false</hasOxygen>
+        <atmosphereDensity>150</atmosphereDensity>
+        <generateCraters>false</generateCraters>
+        <generateVolcanos>false</generateVolcanos>
+        <generateStructures>false</generateStructures>
+        <generateGeodes>false</generateGeodes>
+        <oceanBlock>Minecraft:lava</oceanBlock>
+    <!-- block of platinum -->
+        <artifact>gregtech:compressed_2:6</artifact> 
+         <biomeIds>advancedrocketry:volcanicbarren</biomeIds>  
+        </planet>
+</star>
+ </galaxy>
