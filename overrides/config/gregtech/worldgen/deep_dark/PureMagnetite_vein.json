@@ -1,0 +1,32 @@
+{
+    "weight": 80,
+    "density": 0.3,
+    "max_height": 40,
+    "min_height": 10,
+    "dimension_filter": [
+        "dimension_id:-11325"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            19,
+            22
+        ]
+    },
+    "filler": {
+        "type": "ga_simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 50,
+                    "value": "ore:pure:magnetite"
+                },
+
+                {
+                    "weight": 50,
+                    "value": "ore:pure:vanadium_magnetite"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "weight": 10,
+    "density": 0.4,
+    "max_height": 40,
+    "min_height": 20,
+    "dimension_filter": [
+        "dimension_id:-11325"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            8,
+            8
+        ]
+    },
+    "filler": {
+        "type": "ga_simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 60,
+                    "value": "ore:pure:scheelite"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:pure:tungstate"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:pure:lithium"
+                },
+                {
+                    "weight": 5,
+                    "value": "ore:pure:tellurium"
+                }
+            ]
+        }
+    }
+}
