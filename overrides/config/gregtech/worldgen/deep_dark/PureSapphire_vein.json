@@ -1,0 +1,39 @@
+{
+    "weight": 20,
+    "density": 0.3,
+    "max_height": 40,
+    "min_height": 10,
+    "dimension_filter": [
+        "dimension_id:-11325"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            16,
+            17
+        ]
+    },
+    "filler": {
+        "type": "ga_simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 30,
+                    "value": "ore:pure:almandine"
+                },
+                {
+                    "weight": 30,
+                    "value": "ore:pure:pyrope"
+                },
+                {
+                    "weight": 30,
+                    "value": "ore:pure:sapphire"
+                },
+                {
+                    "weight": 10,
+                    "value": "ore:pure:green_sapphire"
+                }
+            ]
+        }
+    }
+}

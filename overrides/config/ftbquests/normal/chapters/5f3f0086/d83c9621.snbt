@@ -1,0 +1,81 @@
+{
+	title: "The start of a long journey",
+	x: 2.5d,
+	y: -5.0d,
+	text: [
+		"Same old same old, punch a tree."
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a545637c",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "c56b57af",
+		type: "item",
+		item: "minecraft:leather_helmet"
+	},
+	{
+		uid: "fd1fcb5a",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "ff71ec93",
+		type: "item",
+		item: "minecraft:leather_leggings"
+	},
+	{
+		uid: "12c0c90b",
+		type: "item",
+		item: "minecraft:leather_boots"
+	},
+	{
+		uid: "0e81b2ff",
+		type: "item",
+		item: "thermalfoundation:tool.hammer_copper"
+	},
+	{
+		uid: "b7ae37a2",
+		type: "item",
+		item: "thermalfoundation:tool.excavator_copper"
+	},
+	{
+		uid: "734771b4",
+		type: "item",
+		item: {
+			id: "scannable:scanner",
+			tag: {
+				energy: 500000
+			}
+		}
+	},
+	{
+		uid: "9782fc6d",
+		type: "item",
+		item: "scannable:module_range",
+		count: 2
+	},
+	{
+		uid: "01f3e840",
+		type: "item",
+		item: "scannable:module_ore_common"
+	},
+	{
+		uid: "f9ea8b96",
+		type: "item",
+		item: "scannable:module_ore_rare"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+  "inventory": {
+    "0:4": "thermalfoundation:tool.hammer_copper",
+    "1:0": "minecraft:leather_boots",
+    "0:1": "thermalexpansion:satchel,1,0,{Inventory:{},Accessible:1b}",
+    "0:2": "actuallyadditions:item_food,16,17",
+    "1:3": "minecraft:leather_helmet",
+    "0:3": "minecraft:torch,16",
+    "1:2": "minecraft:leather_chestplate",
+    "0:5": "thermalfoundation:tool.excavator_copper",
+    "1:1": "minecraft:leather_leggings",
+    "0:0": "scannable:scanner,1,0,{items:{Size:9,Items:[{Slot:0,id:\"scannable:module_range\",Count:1b,Damage:0s},{Slot:1,id:\"scannable:module_range\",Count:1b,Damage:0s},{Slot:2,id:\"scannable:module_ore_common\",Count:1b,Damage:0s},{Slot:3,id:\"scannable:module_ore_rare\",Count:1b,Damage:0s}]},energy:500000}"
+  }
+}

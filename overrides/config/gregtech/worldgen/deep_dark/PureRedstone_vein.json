@@ -1,0 +1,35 @@
+{
+    "weight": 60,
+    "density": 0.4,
+    "max_height": 40,
+    "min_height": 10,
+    "dimension_filter": [
+        "dimension_id:-11325"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            12,
+            12
+        ]
+    },
+    "filler": {
+        "type": "ga_simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 80,
+                    "value": "ore:pure:redstone"
+                },
+                {
+                    "weight": 10,
+                    "value": "ore:pure:ruby"
+                },
+                {
+                    "weight": 10,
+                    "value": "ore:pure:cinnabar"
+                }
+            ]
+        }
+    }
+}

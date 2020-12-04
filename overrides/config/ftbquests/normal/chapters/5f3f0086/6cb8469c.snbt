@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "d8966ff3",
+		type: "checkmark",
+		title: "Important things to note about gregtech community edition."
+	}],
+	rewards: [{
+		uid: "7b7510f5",
+		type: "item",
+		item: "minecraft:bread",
+		count: 10
+	}]
+}
