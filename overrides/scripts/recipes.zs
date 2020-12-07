@@ -18,7 +18,6 @@ rh(<actuallyadditions:block_firework_box>);
 rh(<actuallyadditions:block_canola_press>);
 rh(<actuallyadditions:block_heat_collector>);
 rh(<actuallyadditions:block_coffee_machine>);
-recipes.remove(<thermaldynamics:duct_0:9>);
 recipes.remove(<simplyjetpacks:metaitemmods:20>);
 furnace.remove(<gregtech:meta_item_1:10074>, <gregtech:meta_item_1:2074>);
 recipes.remove(<thermalfoundation:material:128>);
@@ -174,7 +173,6 @@ recipes.addShaped(<redstonearsenal:armor.plate_flux>, [[<redstonearsenal:materia
 recipes.addShapeless(<simplyjetpacks:metaitemmods:28>, [<simplyjetpacks:metaitemmods:27>,<minecraft:glowstone_dust>]);
 recipes.addShapeless(<simplyjetpacks:metaitemmods:30>, [<simplyjetpacks:metaitemmods:29>,<gregtech:meta_item_1:2952>]);
 recipes.addShaped(<minecraft:end_rod>, [[null, <minecraft:blaze_rod>, null],[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <gregtech:meta_item_1:10072>, <minecraft:end_stone>]]);
-recipes.addShaped(<thermaldynamics:duct_0:9> * 5, [[<gregtech:cable:354>, <enderio:block_fused_quartz>, <gregtech:cable:354>],[<enderio:block_fused_quartz>, <gregtech:cable:354>, <enderio:block_fused_quartz>], [<gregtech:cable:354>, <enderio:block_fused_quartz>, <gregtech:cable:354>]]);
 recipes.addShaped(<simplyjetpacks:metaitemmods:18>, [[<redstonearsenal:material:32>, <gregtech:meta_item_1:10071>, <redstonearsenal:material:32>],[<gregtech:meta_item_1:10071>, <minecraft:glowstone>, <gregtech:meta_item_1:10071>], [<redstonearsenal:material:32>, <gregtech:meta_item_1:10071>, <redstonearsenal:material:32>]]);
 recipes.addShaped(<simplyjetpacks:metaitemmods:20>, [[<redstonearsenal:material:32>, <gregtech:meta_item_1:10071>, <redstonearsenal:material:32>],[<gregtech:meta_item_1:10071>, <enderio:block_fused_quartz>, <gregtech:meta_item_1:10071>], [<redstonearsenal:material:32>, <gregtech:meta_item_1:10071>, <redstonearsenal:material:32>]]);
 recipes.addShaped(<simplyjetpacks:metaitemmods:21>, [[null, null, null],[null, <simplyjetpacks:metaitemmods:20>, <gregtech:meta_item_1:2952>], [null, null, null]]);
