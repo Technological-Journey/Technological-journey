@@ -175,14 +175,6 @@ macerator.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 
-solidifier.recipeBuilder()
-.inputs([<thermaldynamics:duct_0:9>])
-.fluidInputs(<liquid: cryotheum> * 1000)
-.outputs([<thermaldynamics:duct_0:5>])
-.duration(160)
-.EUt(32)
-.buildAndRegister();
-
 macerator.recipeBuilder()
 .inputs([<gregtech:mineral:2>])
 .outputs([<gregtech:meta_item_1:2240> * 4])
