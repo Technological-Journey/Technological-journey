@@ -1,0 +1,23 @@
+Eio is Steam/lv.  
+Nether Quartz no longer spawns in the Overworld.
+Applied energistics starts in LV/MV with Polyethylene.
+Actually additions requires MV to make empowered crystals with Polyethylene
+Advanced rocketry starts in HV, you need to go to the moon to get rutile.
+In EV you need to make the warp core(GT titanium is the trim).
+Then you will need to get the artifacts to warp to the other planets. 
+Molten earth has the metals for the rest of gt progression. 
+Cosmic is needed to get liquid air and has cryotheum and pyrotheum ore. 
+Saline has rich salt and lepidolite ore. As well the rig can get liquid chlorine and fluoride. 
+Charbon wasteland is needed to get rich oilsand ore, graphite, and has raw oil oceans.
+In EV the random things portal to the end can be made.
+Late EV early IV the Deep dark portal can be crafted.
+It has pure variants of valuable Overworld veins.
+Lazy ae2 is spread throughout HV-EV with the circuit etcher requiring UHV as it removes the circuit requirement from Applied energistics processors.
+Working on Avarty for the end game with cosmic neutronium being a tier 4 fusion recipe.
+
+Artifact list(dimID) '/advancedRocketry goto DimID' can be used to get to them.
+Molten earth(403) =  Platinum block(requires nickel refining to obtain).
+Cosmic wasteland(401) = Oxidized ferric sand
+Carbon wasteland(400) = charcoal log
+Saline Wasteland(402) = salt block
+
