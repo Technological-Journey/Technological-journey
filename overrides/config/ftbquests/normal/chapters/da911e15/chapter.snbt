@@ -1,0 +1,7 @@
+{
+	title: "This is all of the circuits, it will be updated when the new ones are finished.",
+	icon: "gtadditions:ga_meta_item 1 32339",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

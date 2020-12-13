@@ -1,0 +1,26 @@
+{
+	x: -36.0d,
+	y: -11.5d,
+	text: [
+		"This is the first way to make steel and the gateway to LV,"
+	],
+	dependencies: [
+		"f0a2c074",
+		"fbbf63e9"
+	],
+	tasks: [{
+		uid: "019b6152",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 510"
+		}]
+	},
+	{
+		uid: "f693868d",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 32L
+	}]
+}
