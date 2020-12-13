@@ -1,0 +1,12 @@
+{
+	title: "Gregtech energy is weird",
+	x: -0.5d,
+	y: -5.5d,
+	text: [
+		"There are two things to worry about with energy: Voltage and amperage. Voltage represents the tiers of machines and energy. Each tiers voltage is 4x the voltage of the previous. ULV= 16, LV is 32. Second is amperage, amperage is calculated by source. This means that you can place as many 1 amp generators on a 1x cable with no issues. Every single block generator outputs 1 amp of energy to the cable attached. Multiblock generators  can output up to 4 amps, this means that you can get by with 4x cable for the most part. Each machine can take 2 amps in per face, with this you can power a HV machine with 2 faces and 4 amps of MV power. Higher voltage machines can be placed on lower tiers, but will explode if placed on higher tier lines. For generators lower tiers  can be placed on higher tiers, but will burn up the cables if placed on lower tier ones. The new hatches can increase the amount of amps that multiblocks can import and export, this means that outbound cables will need to match or be greater amperage than the energy output."
+	],
+	tasks: [{
+		uid: "59070b6f",
+		type: "checkmark"
+	}]
+}

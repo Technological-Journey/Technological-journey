@@ -1,0 +1,19 @@
+{
+	title: "Important things about GTCE multiblocks",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"Gregtech multiblocks have a unique feature, this is the ability to share blocks. All non-functional blocks can be shared between one or more controllers. This allows you to reduce the cost of the more expensive multiblocks."
+	],
+	tasks: [{
+		uid: "d8966ff3",
+		type: "checkmark",
+		title: "Important things to note about gregtech community edition."
+	}],
+	rewards: [{
+		uid: "7b7510f5",
+		type: "item",
+		item: "minecraft:bread",
+		count: 10
+	}]
+}

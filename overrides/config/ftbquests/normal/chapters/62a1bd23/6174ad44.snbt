@@ -1,0 +1,22 @@
+{
+	x: 2.5d,
+	y: 7.5d,
+	dependencies: [
+		"c7d8e5d6"
+	],
+	tasks: [{
+		uid: "3bbf6ea2",
+		type: "fluid",
+		fluid: "chlorine"
+	},
+	{
+		uid: "5fb02bb0",
+		type: "fluid",
+		fluid: "fluorine"
+	},
+	{
+		uid: "ade4442a",
+		type: "fluid",
+		fluid: "salt_water"
+	}]
+}

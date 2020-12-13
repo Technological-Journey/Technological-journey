@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"This pack uses Gregtech and Gregicality for progression. with supporting roles from Advanced rocketry and other mods."
+	],
+	tasks: [{
+		uid: "ccef0064",
+		type: "checkmark",
+		title: "This pack will travel though many planets and though gregtech.",
+		icon: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			}
+		}
+	}],
+	rewards: [{
+		uid: "e14b4629",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			}
+		}
+	}]
+}

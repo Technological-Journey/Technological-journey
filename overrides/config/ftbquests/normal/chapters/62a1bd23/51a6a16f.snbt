@@ -1,0 +1,28 @@
+{
+	x: -7.0d,
+	y: 2.5d,
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "989306a0",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_wulfenite_0"
+		}]
+	},
+	{
+		uid: "7d4114e8",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_molybdenite_0"
+		}]
+	},
+	{
+		uid: "5b5a0770",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_powellite_0"
+		}]
+	}]
+}

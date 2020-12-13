@@ -1,0 +1,23 @@
+{
+	title: "Cosmic Wasteland dim ID 401",
+	x: -2.5d,
+	y: 5.5d,
+	text: [
+		"This planet has a variety of hot and cold regions. With these extreme temperatures you can find both cryothium and pyrotheum ore, this planet is also the only place that you can find the rare liquid gas, "
+	],
+	dependencies: [
+		"81372634"
+	],
+	tasks: [{
+		uid: "c7abe43d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:hotturf"
+		}]
+	},
+	{
+		uid: "cb4c0a59",
+		type: "dimension",
+		dim: 401
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -5.5d,
+	y: 3.0d,
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "b9cd4212",
+		type: "item",
+		items: [{
+			item: "gregtech:poor_ore_diamond_0"
+		}]
+	},
+	{
+		uid: "a65c5f19",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_nether_star_0"
+		}]
+	}]
+}

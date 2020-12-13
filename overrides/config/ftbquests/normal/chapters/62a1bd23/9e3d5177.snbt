@@ -1,0 +1,28 @@
+{
+	x: -5.0d,
+	y: 4.5d,
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "99e18cdc",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_naquadriatic_compound_0"
+		}]
+	},
+	{
+		uid: "06f5ceb4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_enriched_naquadric_compound_0"
+		}]
+	},
+	{
+		uid: "438d2b66",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_naquadriatic_compound_0"
+		}]
+	}]
+}

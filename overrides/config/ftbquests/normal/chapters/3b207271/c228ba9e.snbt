@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"There is no losses LV cable. Soldering alloy cables are the cheapest and lose the least eu per block."
+	],
+	dependencies: [
+		"a8585975"
+	],
+	tasks: [{
+		uid: "83bbb01e",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 7180"
+		}]
+	}]
+}
