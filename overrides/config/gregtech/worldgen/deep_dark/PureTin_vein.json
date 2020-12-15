@@ -4,7 +4,7 @@
     "max_height": 40,
     "min_height": 20,
     "dimension_filter": [
-        "dimension_id:-11325"
+        "dimension_id:10"
     ],
     "generator": {
         "type": "ellipsoid",
