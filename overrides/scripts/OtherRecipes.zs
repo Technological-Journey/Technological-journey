@@ -263,3 +263,5 @@ ADVFusion.recipeBuilder()
     .EUt(8000000)
     .property("eu_to_start",30000000) 
     .buildAndRegister();*/
+    recipes.addShaped(<beneath:teleporterbeneath>,[[<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>],[<gregtech:meta_item_1:10300>,<gregtech:machine:2221>,<gregtech:meta_item_1:10235>],[<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>]]);
+    <beneath:teleporterbeneath>.displayName = "Deep Dark Portal";
