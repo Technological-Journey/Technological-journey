@@ -263,5 +263,18 @@ ADVFusion.recipeBuilder()
     .EUt(8000000)
     .property("eu_to_start",30000000) 
     .buildAndRegister();*/
+    
     recipes.addShaped(<beneath:teleporterbeneath>,[[<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>],[<gregtech:meta_item_1:10300>,<gregtech:machine:2221>,<gregtech:meta_item_1:10235>],[<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>]]);
     <beneath:teleporterbeneath>.displayName = "Deep Dark Portal";
+    assembler.recipeBuilder()
+        .inputs([<gregtech:meta_item_1:13184>,<enderio:item_alloy_ingot:6>])
+        .outputs([<enderio:item_dark_steel_upgrade>])
+        .duration(100)
+        .EUt(32)
+        .buildAndRegister();
+
+recipes.addShaped(<trashcans:ultimate_trash_can>, [[null, <trashcans:item_trash_can>, null],[<trashcans:energy_trash_can>, <ore:craftingToolHardHammer>, <trashcans:liquid_trash_can>], [null, null, null]]);
+recipes.addShaped(<trashcans:item_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:2197>, <gregtech:meta_item_1:12184>], [null, <ore:craftingToolHardHammer>, null]]);
+recipes.addShaped(<trashcans:item_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:meta_item_2:19018>, <gregtech:meta_item_1:12184>], [null, <ore:craftingToolHardHammer>, null]]);
+recipes.addShaped(<trashcans:item_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:803>, <gregtech:meta_item_1:12184>], [null, <ore:craftingToolHardHammer>, null]]);
+
