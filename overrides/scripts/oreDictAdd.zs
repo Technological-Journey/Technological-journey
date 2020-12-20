@@ -68,7 +68,7 @@ import mods.jei.JEI.removeAndHide as h;
 	<ore:circuitGood>.remove(<gregtech:meta_item_2:32489>);
 	<ore:circuitGood>.remove(<gregtech:meta_item_2:32490>);
 	<ore:ingotCosmicNeutronium>.remove(<gregtech:meta_item_1:10712>);
-	<ore:blockCosmicNeutronium>.remove(<gregtech:compressed_17>);
+	//<ore:blockCosmicNeutronium>.remove(<gregtech:compressed_17>);
 	<ore:nuggetCosmicNeutronium>.remove(<gregtech:meta_item_1:9712>);
 	
 //hide Vulps dust
@@ -334,12 +334,14 @@ h(<advancedrocketry:ic:5>);
 h(<advancedrocketry:planetselector>);
 
 h(<advancedrocketry:planetselector>);
+/*
 h(<gregtech:meta_item_2:32507>);
 h(<gregtech:meta_item_2:32490>);
 h(<gregtech:meta_item_2:32489>);
 h(<gregtech:meta_item_1:10712>);
-h(<gregtech:compressed_17>);
+//h(<gregtech:compressed_17>);
 h(<gregtech:meta_item_1:9712>);
+*/
 
 //ae2 stuff
 recipes.remove(<threng:machine:2>);
