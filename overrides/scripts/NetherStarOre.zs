@@ -15,7 +15,7 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:cryotheum>.addFlags(["GENERATE_ORE"]);
 <material:pyrotheum>.addFlags(["GENERATE_ORE"]);
 //<material:ender_pearl>.addFlags(["GENERATE_ORE"]);
-/*
-val cosmicNeutronium = MaterialRegistry.createIngotMaterial(712, "cosmic_neutronium", 0x000000, "shiny", 4);
+
+val cosmicNeutronium = MaterialRegistry.createIngotMaterial(515, "cosmic_neutronium", 0x000000, "shiny", 4);
 cosmicNeutronium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE"]);
-cosmicNeutronium.setCableProperties(2147483647, 8, 0);*/
+cosmicNeutronium.setCableProperties(536870912, 8, 0);
