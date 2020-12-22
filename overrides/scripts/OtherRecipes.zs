@@ -276,4 +276,21 @@ recipes.addShaped(<trashcans:ultimate_trash_can>, [[null, <trashcans:item_trash_
 recipes.addShaped(<trashcans:liquid_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:2197>, <gregtech:meta_item_1:12184>], [null,null, null]]);
 recipes.addShaped(<trashcans:energy_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:meta_item_2:19018>, <gregtech:meta_item_1:12184>], [null,null, null]]);
 recipes.addShaped(<trashcans:item_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:803>, <gregtech:meta_item_1:12184>], [null, null, null]]);
-
+fluid_extractor.recipeBuilder()
+        .inputs([<minecraftfuture:honeycomb>])
+        .fluidOutputs(<liquid:honey> * 500)
+        .duration(100)
+        .EUt(32)
+        .buildAndRegister();
+fluid_extractor.recipeBuilder()
+        .inputs([<minecraftfuture:honey_bottle>])
+        .fluidOutputs(<liquid:honey> * 250)
+        .duration(100)
+        .EUt(32)
+        .buildAndRegister();
+fluid_canner.recipeBuilder()
+        .fluidInputs([<liquid:honey> * 250])
+        .outputs(<minecraftfuture:honey_bottle>)
+        .duration(100)
+        .EUt(32)
+        .buildAndRegister();
