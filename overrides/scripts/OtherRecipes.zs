@@ -294,3 +294,22 @@ fluid_canner.recipeBuilder()
         .duration(100)
         .EUt(32)
         .buildAndRegister();
+        
+recipes.addShaped(<snad:snad:1>, [[<minecraft:sand:1>, <minecraft:sand:1>, <minecraft:sand:1>],[<minecraft:sand:1>, <minecraft:sand:1>, <minecraft:sand:1>], [<minecraft:sand:1>, <minecraft:sand:1>, <minecraft:sand:1>]]);
+recipes.addShaped(<snad:snad>, [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
+
+chemreactor.recipeBuilder()
+.inputs([<snad:snad> * 64])
+.fluidInputs( <liquid:lava> * 10000)
+.outputs(<minecraft:end_stone>)
+.duration(600)
+.EUt(2040)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+.inputs([<snad:snad:1> * 64])
+.fluidInputs( <liquid:lava> * 10000)
+.outputs(<minecraft:end_stone>)
+.duration(600)
+.EUt(2040)
+.buildAndRegister();
