@@ -362,3 +362,10 @@ recipes.remove(<actuallyadditions:block_misc:9>);
 
 furnace.remove(<gregtech:meta_item_1:10712>);
 <draconicevolution:draconium_block:1>.addTooltip(format.darkRed("Do not place this block in world"));
+recipes.remove(<snad:snad:1>);
+recipes.remove(<snad:snad>);
+h(<advancedrocketry:oxygenfluid>);
+h(<advancedrocketry:hydrogenfluid>);
+h(<advancedrocketry:rocketfuel>);
+h(<advancedrocketry:nitrogenfluid>);
+h(<advancedrocketry:enrichedlavafluid>);
