@@ -125,7 +125,7 @@ engraver.recipeBuilder()
     recipes.addShaped(<libvulpes:holoprojector>, [[<minecraft:glass_pane>, <gregtech:meta_item_1:32682>, <minecraft:glass_pane>],[null, <gregtech:machine:503>, null], [null, null, null]]);
 
 chemreactor.recipeBuilder()
-.inputs([<gregtech:meta_item_1:2033> * 2,<gregtech:meta_item_1:4001>*1])
+.inputs([<gregtech:meta_item_1:2033> * 2,<gregtech:meta_item_1:2001>*1])
 .fluidInputs( <liquid:oxygen> * 2000)
 .outputs([<advancedrocketry:thermite> * 3])
 .duration(600)
@@ -175,12 +175,7 @@ alloy.recipeBuilder()
     .duration(160)
     .EUt(32)
     .buildAndRegister();
-assembler.recipeBuilder()
-    .inputs([<ore:logWood>,<thermalfoundation:storage_resource:1> * 4])
-    .outputs([<advancedrocketry:charcoallog>])
-    .duration(160)
-    .EUt(32)
-    .buildAndRegister();
+
     chemreactor.recipeBuilder()
 .inputs([<ore:sand> * 2,<gregtech:meta_item_1:2033>])
 .fluidInputs( <liquid:oxygen> * 2000)

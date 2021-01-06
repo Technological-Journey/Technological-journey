@@ -22,5 +22,5 @@ cosmicNeutronium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE"]
 cosmicNeutronium.setCableProperties(536870912, 8, 0);
 val lvSuper = MaterialRegistry.createIngotMaterial(516, "lv_superconductor", 0xf8f8ff, "dull", 4);
 val lvBase = MaterialRegistry.createIngotMaterial(517, "lv_superconductor_base", 0xffffff, "dull", 4);
-lvBase.setCableProperties(32, 4, 4);
+lvBase.setCableProperties(32, 4, 6);
 lvSuper.setCableProperties(32, 4, 0);

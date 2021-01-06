@@ -435,16 +435,19 @@ Utils.removeRecipeByOutput(circuit_assembler, [<gtadditions:ga_meta_item:32202>]
 
 circuit_assembler.recipeBuilder()
 .inputs([<gtadditions:ga_meta_item:32201> * 4,<gregtech:meta_item_2:32452> * 4,<gregtech:meta_item_2:32455> * 4,<gregtech:meta_item_2:32477> * 2,<gregtech:meta_item_1:12001> * 2, <gregtech:cable:516> * 2])
-.fluidInputs(<liquid:soldering_alloy> * 1000)
+.fluidInputs(<liquid:soldering_alloy> * 40)
 .outputs([<gtadditions:ga_meta_item:32202>])
-.duration(300)
+.duration(150)
 .EUt(32)
 .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
 .inputs([<gtadditions:ga_meta_item:32201> * 4,<gtadditions:ga_meta_item:32242> * 4,<gtadditions:ga_meta_item:32241>* 4,<gregtech:meta_item_2:32477> * 2,<gregtech:meta_item_1:12001> * 2, <gregtech:cable:516> * 2])
-.fluidInputs(<liquid:soldering_alloy> * 1000)
+.fluidInputs(<liquid:soldering_alloy> * 40)
 .outputs([<gtadditions:ga_meta_item:32202>])
-.duration(300)
+.duration(150)
 .EUt(32)
 .buildAndRegister();
+furnace.remove(<thermalfoundation:material:833>, <gregtech:meta_item_1:32627>);
+recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gregtech:meta_item_1:12033>, <gregtech:metal_casing:8>],[<gregtech:meta_item_1:12033>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12033>], [<gregtech:metal_casing:8>, <gregtech:meta_item_1:12033>, <gregtech:metal_casing:8>]]);
+recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>],[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], [<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>]]);

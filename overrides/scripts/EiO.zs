@@ -130,23 +130,3 @@ alloy.recipeBuilder()
 for recipe in RecipeMaps.getCokeOvenRecipes(){
     recipe.remove();
     }
-CokeOvenRecipeBuilder.start()
-    .input(<ore:logWood> * 1)
-    .output(<minecraft:coal:1>)
-    .fluidOutput(<liquid:creosote> * 250)
-    .duration(660)
-    .buildAndRegister();
-
-    CokeOvenRecipeBuilder.start()
-    .input(<minecraft:coal:1>)
-    .output(<gregtech:meta_item_1:8357>)
-    .fluidOutput(<liquid:creosote> * 500)
-    .duration(1350)
-    .buildAndRegister();
-
-    CokeOvenRecipeBuilder.start()
-    .input(<minecraft:coal>)
-    .output(<gregtech:meta_item_1:8357>)
-    .fluidOutput(<liquid:creosote> * 4500)
-    .duration(1350)
-    .buildAndRegister();

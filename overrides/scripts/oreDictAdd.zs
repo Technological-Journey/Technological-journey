@@ -369,3 +369,6 @@ h(<advancedrocketry:hydrogenfluid>);
 h(<advancedrocketry:rocketfuel>);
 h(<advancedrocketry:nitrogenfluid>);
 h(<advancedrocketry:enrichedlavafluid>);
+h(<gregtech:machine:526>);
+h(<gregtech:machine:527>);
+h(<gregtech:machine:17>);
