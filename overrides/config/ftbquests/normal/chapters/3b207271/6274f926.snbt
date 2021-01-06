@@ -5,10 +5,10 @@
 		"e5988795"
 	],
 	tasks: [{
-		uid: "578fb8b8",
+		uid: "9c0c4b2e",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 71"
+			item: "gregtech:machine 1 70"
 		}]
 	}]
 }
