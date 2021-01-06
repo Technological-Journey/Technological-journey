@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: -2.0d,
 	text: [
-		"Soldering alloy cables are the cheapest to start."
+		""
 	],
 	dependencies: [
 		"a8585975"
