@@ -9,16 +9,25 @@
 
     "generator": {
         "type": "ellipsoid",
-        "radius": [5, 5]
+        "radius": [15, 15]
     },
     "filler": {
         "type": "simple",
         "value": {
             "type": "weight_random",
             "values": [{
-                "weight": 100,
-                "value": "ore:aluminium"
-            }]
+                    "weight": 50,
+                    "value": "ore:aluminium"
+                },
+                {
+                    "weight": 25,
+                    "value": "ore:sphalerite"
+                },
+                {
+                    "weight": 25,
+                    "value": "ore:zinc"
+                }
+            ]
         }
     }
 }
