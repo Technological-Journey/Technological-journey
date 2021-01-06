@@ -412,7 +412,7 @@ blast_furnace.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-.inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610>,<gregtech:fluid_pipe:1184> *3])
+.inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610>,<gregtech:fluid_pipe:184>])
 .fluidInputs(<liquid:nitrogen> * 1000)
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
 .outputs([<gregtech:cable:516> * 3])
@@ -429,3 +429,22 @@ blast_furnace.recipeBuilder()
     .duration(350)
     .EUt(512)
     .buildAndRegister();
+recipes.addShaped(<gregtech:meta_item_1:32519>, [[<gregtech:meta_item_1:2063>, <gregtech:meta_item_1:2063>, <gregtech:meta_item_1:2063>],[<gregtech:meta_item_1:2063>, <gregtech:meta_item_1:2063>, <gregtech:meta_item_1:2063>], [null, <gregtech:meta_item_1:32500>, null]]);
+
+Utils.removeRecipeByOutput(circuit_assembler, [<gtadditions:ga_meta_item:32202>], [], false); 
+
+circuit_assembler.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32201> * 4,<gregtech:meta_item_2:32452> * 4,<gregtech:meta_item_2:32455> * 4,<gregtech:meta_item_2:32477> * 2,<gregtech:meta_item_1:12001> * 2, <gregtech:cable:516> * 2])
+.fluidInputs(<liquid:soldering_alloy> * 1000)
+.outputs([<gtadditions:ga_meta_item:32202>])
+.duration(300)
+.EUt(32)
+.buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32201> * 4,<gtadditions:ga_meta_item:32242> * 4,<gtadditions:ga_meta_item:32241>* 4,<gregtech:meta_item_2:32477> * 2,<gregtech:meta_item_1:12001> * 2, <gregtech:cable:516> * 2])
+.fluidInputs(<liquid:soldering_alloy> * 1000)
+.outputs([<gtadditions:ga_meta_item:32202>])
+.duration(300)
+.EUt(32)
+.buildAndRegister();
