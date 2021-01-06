@@ -5,19 +5,6 @@
 		"5c605de6"
 	],
 	tasks: [{
-		uid: "4d71359c",
-		type: "item",
-		items: [{
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "fermented_biomass",
-				Amount: 1000
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
 		uid: "c44ba927",
 		type: "item",
 		items: [{
