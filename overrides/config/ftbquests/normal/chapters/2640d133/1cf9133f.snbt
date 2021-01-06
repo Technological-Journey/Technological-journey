@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"This will allow you to make plates cheaper"
+	],
+	dependencies: [
+		"e5988795"
+	],
+	tasks: [{
+		uid: "c549b8b3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 120"
+		}]
+	}]
+}

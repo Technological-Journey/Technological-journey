@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"This will allow you to get gold easier, though sepreatring washed magnesite."
+	],
+	dependencies: [
+		"e5988795"
+	],
+	tasks: [{
+		uid: "d3d79c93",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 250"
+		}]
+	}]
+}
