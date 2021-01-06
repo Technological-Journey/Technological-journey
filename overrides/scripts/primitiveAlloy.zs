@@ -23,8 +23,8 @@ val primitive_alloy = Builder.start(loc, meta)
         FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
             .aisle(
                 "CCC",
-                "CCC",
-                "CSC")
+                "CSC",
+                "CCC")
             .aisle(
                 "CCC",
                 "C C",
@@ -50,8 +50,8 @@ val primitive_alloy = Builder.start(loc, meta)
                 "CCC",
                 "ECC")
             .aisle(
-                "SCC",
-                "C C",
+                "CCC",
+                "S C",
                 "CCC")
             .aisle(
                 "OCC",
