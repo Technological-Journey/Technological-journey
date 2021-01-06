@@ -3,13 +3,14 @@
 	y: 0.0d,
 	dependencies: [
 		"c7932c16",
-		"7af635ec"
+		"7af635ec",
+		"45000dae"
 	],
 	tasks: [{
-		uid: "9f3a35af",
+		uid: "cdca8952",
 		type: "item",
 		items: [{
-			item: "gregtech:machine_casing 1 2"
+			item: "gregtech:machine 1 502"
 		}]
 	}]
 }
