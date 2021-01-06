@@ -451,3 +451,5 @@ circuit_assembler.recipeBuilder()
 furnace.remove(<thermalfoundation:material:833>, <gregtech:meta_item_1:32627>);
 recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gregtech:meta_item_1:12033>, <gregtech:metal_casing:8>],[<gregtech:meta_item_1:12033>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12033>], [<gregtech:metal_casing:8>, <gregtech:meta_item_1:12033>, <gregtech:metal_casing:8>]]);
 recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>],[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], [<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>]]);
+Utils.removeRecipeByOutput(hammer, [<gregtech:meta_item_1:10197>], [], false); 
+Utils.removeRecipeByOutput(largeHammer, [<gregtech:meta_item_1:10197>], [], false); 
