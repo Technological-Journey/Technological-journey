@@ -1,0 +1,77 @@
+{
+    "name": "gregtech:compressed_17",
+    "target-item": "advancedrocketry:charcoallog",
+    "target-meta": 0,
+    "target-count": 1,
+
+    "duration": 100,
+
+    "catalyst": "thermalfoundation:storage_resource",
+    "catalyst-meta": "1",
+
+
+    "input-types": {
+        "a": {
+            "id": "thermalfoundation:storage_resource",
+            "meta": 1
+        },
+        "b": {
+            "id": "minecraft:log",
+            "meta": 0
+        }
+    },
+    "shape": [
+        [
+            [
+                "a",
+                "a",
+                "a"
+            ],
+            [
+                "a",
+                "a",
+                "a"
+            ],
+            [
+                "a",
+                "a",
+                "a"
+            ]
+        ],
+        [
+            [
+                "a",
+                "a",
+                "a"
+            ],
+            [
+                "a",
+                "b",
+                "a"
+            ],
+            [
+                "a",
+                "a",
+                "a"
+            ]
+        ],
+        [
+            [
+                "a",
+                "a",
+                "a"
+            ],
+            [
+                "a",
+                "a",
+                "a"
+            ],
+            [
+                "a",
+                "a",
+                "a"
+            ]
+        ]
+    ]
+
+}
