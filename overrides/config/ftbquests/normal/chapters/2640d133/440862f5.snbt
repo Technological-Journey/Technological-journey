@@ -1,17 +1,49 @@
 {
-	x: -32.0d,
+	x: -32.5d,
 	y: -16.0d,
 	text: [
 		"The steam alloy smelter will allow you to make bronze without the mortar and pestle."
 	],
-	dependencies: [
-		"405c0f5b"
-	],
 	tasks: [{
-		uid: "0d9d9f6a",
+		uid: "91191feb",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 17"
+			item: "gregtech:machine 1 1002"
 		}]
+	},
+	{
+		uid: "5ca1e006",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 22L
+	},
+	{
+		uid: "15aaf6d5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}]
+	},
+	{
+		uid: "cb61e373",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 701"
+		}]
+	},
+	{
+		uid: "1061461d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 702"
+		}]
+	}],
+	rewards: [{
+		uid: "ec3c8351",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 64
 	}]
 }

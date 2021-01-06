@@ -1,22 +1,50 @@
 {
-	x: -32.0d,
-	y: -14.5d,
+	title: "Coke Oven",
+	x: -31.5d,
+	y: -16.0d,
 	text: [
-		"This will allow  you to make charcoal and creosote. can be automated with oven hatches."
+		"This will allow  you to make charcoal and creosote."
 	],
 	tasks: [{
-		uid: "4936676b",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 526"
-		}]
-	},
-	{
 		uid: "58771ba0",
 		type: "item",
 		items: [{
 			item: "gregtech:metal_casing 1 8"
 		}],
 		count: 25L
+	},
+	{
+		uid: "ee642095",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	},
+	{
+		uid: "d0a42945",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 701"
+		}]
+	},
+	{
+		uid: "8302c5c6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 703"
+		}]
+	},
+	{
+		uid: "756ee431",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}]
+	}],
+	rewards: [{
+		uid: "e64e5075",
+		type: "item",
+		item: "gregtech:log",
+		count: 32
 	}]
 }
