@@ -8,10 +8,10 @@
 		"312e3e54"
 	],
 	tasks: [{
-		uid: "8f30f3dc",
+		uid: "cda19db5",
 		type: "item",
 		items: [{
-			item: "extrautils2:teleporter 1 1"
+			item: "beneath:teleporterbeneath"
 		}]
 	}],
 	rewards: [{
