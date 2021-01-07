@@ -101,7 +101,7 @@ primitive_alloy.noEnergy = true;
     .buildAndRegister();
     primitive_alloy.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2209> * 4)
-    .notConsumable(<gregtech:meta_item_1:32307>.withTag({not_consumed: 1 as byte}))
+    .notConsumable(<gregtech:meta_item_1:32307>)
     .outputs(<gregtech:meta_item_2:32454> * 4)
     .fluidInputs(<liquid:steam> * 1000)
     .duration(150)
