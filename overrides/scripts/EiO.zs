@@ -2,8 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import scripts.commonNames;
 //EIO metals to gregtech 
-import mods.gregtech.recipe.CokeOvenRecipeBuilder;
-import mods.gregtech.recipe.RecipeMaps;
+
 
 //end Alloy
 alloy.recipeBuilder()
@@ -127,6 +126,4 @@ alloy.recipeBuilder()
 <enderio:item_endergy_conduit:11>.displayName = "Superconducting Energy Conduit";
 <enderio:item_power_conduit:2>.displayName = "Tungstensteel Energy Conduit";
 
-for recipe in RecipeMaps.getCokeOvenRecipes(){
-    recipe.remove();
-    }
+

@@ -10,6 +10,8 @@ import scripts.commonNames;
 import mods.gregtech.recipe.PBFRecipeBuilder;
 import mods.gtadditions.recipe.Utils;
 import mods.enderio.Vat as vat;
+import mods.gregtech.recipe.CokeOvenRecipeBuilder;
+import mods.gregtech.recipe.RecipeMaps;
 //import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
 
 
@@ -453,3 +455,19 @@ recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gregtec
 recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>],[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], [<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>]]);
 Utils.removeRecipeByOutput(hammer, [<gregtech:meta_item_1:10197>], [], false); 
 Utils.removeRecipeByOutput(largeHammer, [<gregtech:meta_item_1:10197>], [], false); 
+recipes.remove(<enderio:item_extract_speed_upgrade>);
+recipes.addShaped(<enderio:item_extract_speed_upgrade>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<gregtech:meta_item_1:10095>, <minecraft:piston>, <gregtech:meta_item_1:10095>], [<gregtech:meta_item_1:10095>, <minecraft:redstone>, <gregtech:meta_item_1:10095>]]);
+recipes.remove(<enderio:item_liquid_conduit:2>);
+recipes.remove(<enderio:item_liquid_conduit>);
+recipes.addShaped(<enderio:item_liquid_conduit>, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:2> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_nugget:5>, <enderio:item_liquid_conduit:1>, <enderio:item_alloy_nugget:5>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:2> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_nugget:5>, <enderio:block_fused_quartz:8>, <enderio:item_alloy_nugget:5>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+for recipe in RecipeMaps.getCokeOvenRecipes(){
+    recipe.remove();
+    }
+recipes.addShaped(<contenttweaker:steammotor>, [[<minecraft:stick>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:14033>],[<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:14033>, <gregtech:meta_item_1:12095>], [<minecraft:iron_ingot>, <gregtech:meta_item_1:12095>, <minecraft:stick>]]);
+recipes.addShaped(<contenttweaker:steampiston>, [[<gregtech:meta_item_2:26033>, <minecraft:stick>, <minecraft:stick>],[<gregtech:meta_item_2:26033>, <contenttweaker:steammotor>, <minecraft:iron_ingot>], [<minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>]]);
+recipes.remove(<gregtech:meta_item_1:32600>);
+recipes.addShaped(<gregtech:meta_item_1:32600>, [[<gregtech:cable:5071>, <gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>],[<gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>], [<gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>, <gregtech:cable:5071>]]);
+recipes.remove(<gregtech:meta_item_2:32450>);
+recipes.addShaped(<gregtech:meta_item_2:32450>, [[null, null, null],[<gregtech:meta_item_2:16018>, <gregtech:meta_item_2:32454>, <gregtech:meta_item_2:16018>], [<gtadditions:ga_meta_item:32307>, <gtadditions:ga_meta_item:32307>, <gtadditions:ga_meta_item:32307>]]);

@@ -70,7 +70,7 @@ import mods.jei.JEI.removeAndHide as h;
 	<ore:ingotCosmicNeutronium>.remove(<gregtech:meta_item_1:10712>);
 	//<ore:blockCosmicNeutronium>.remove(<gregtech:compressed_17>);
 	<ore:nuggetCosmicNeutronium>.remove(<gregtech:meta_item_1:9712>);
-	
+	<ore:naquadah>.add(<gregtech:meta_item_1:2307>);
 //hide Vulps dust
 h(<libvulpes:productdust:1>);
 h(<libvulpes:productdust:2>);
@@ -373,3 +373,7 @@ h(<gregtech:machine:526>);
 h(<gregtech:machine:527>);
 h(<gregtech:machine:17>);
 h(<gregtech:machine:18>);
+
+
+
+

@@ -1,4 +1,4 @@
-// No special #loader, just use the default crafttweaker one.
+
 
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
@@ -48,20 +48,20 @@ val primitive_alloy = Builder.start(loc, meta)
             .aisle(
                 "ICC",
                 "CCC",
-                "ECC")
+                "CCC")
             .aisle(
-                "CCC",
+                "ICC",
                 "S C",
                 "CCC")
             .aisle(
-                "OCC",
+                "OCE",
                 "CCC",
                 "CCC")
             .where("C", <metastate:gregtech:metal_casing:1>)
             .where("S", IBlockInfo.controller(loc))
-            .where("I", MetaTileEntities.ITEM_IMPORT_BUS[1], IFacing.west())
-            .where("O", MetaTileEntities.ITEM_EXPORT_BUS[1], IFacing.west())
-            .where("E", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.west())
+            .where("I", MetaTileEntities.ITEM_IMPORT_BUS[0], IFacing.west())
+            .where("O", MetaTileEntities.ITEM_EXPORT_BUS[0], IFacing.west())
+            .where("E", MetaTileEntities.FLUID_IMPORT_HATCH[0], IFacing.east())
             .where(" ", IBlockInfo.EMPTY)
             .build())
 .withRecipeMap(

@@ -48,9 +48,9 @@ val coke_oven_2 = Builder.start(loc, meta)
             .aisle(
                 "ICC",
                 "CCC",
-                "ECC")
+                "CCC")
             .aisle(
-                "CCC",
+                "ECC",
                 "S C",
                 "CCC")
             .aisle(
