@@ -451,7 +451,6 @@ circuit_assembler.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 furnace.remove(<thermalfoundation:material:833>, <gregtech:meta_item_1:32627>);
-recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gregtech:meta_item_1:12033>, <gregtech:metal_casing:8>],[<gregtech:meta_item_1:12033>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12033>], [<gregtech:metal_casing:8>, <gregtech:meta_item_1:12033>, <gregtech:metal_casing:8>]]);
 recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>],[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], [<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>]]);
 Utils.removeRecipeByOutput(hammer, [<gregtech:meta_item_1:10197>], [], false); 
 Utils.removeRecipeByOutput(largeHammer, [<gregtech:meta_item_1:10197>], [], false); 
@@ -471,3 +470,17 @@ recipes.remove(<gregtech:meta_item_1:32600>);
 recipes.addShaped(<gregtech:meta_item_1:32600>, [[<gregtech:cable:5071>, <gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>],[<gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>], [<gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>, <gregtech:cable:5071>]]);
 recipes.remove(<gregtech:meta_item_2:32450>);
 recipes.addShaped(<gregtech:meta_item_2:32450>, [[null, null, null],[<gregtech:meta_item_2:16018>, <gregtech:meta_item_2:32454>, <gregtech:meta_item_2:16018>], [<gtadditions:ga_meta_item:32307>, <gtadditions:ga_meta_item:32307>, <gtadditions:ga_meta_item:32307>]]);
+recipes.addShaped(<gregtech:machine:1003>, [[<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>]]);
+recipes.remove(<gregtech:machine:9>);
+recipes.remove(<gregtech:machine:10>);
+recipes.remove(<gregtech:machine:11>);
+recipes.remove(<gregtech:machine:7>);
+recipes.addShaped(<gregtech:machine:9>, [[<contenttweaker:steampiston>, <gregtech:fluid_pipe:1095>, <contenttweaker:steampiston>],[<gregtech:fluid_pipe:1095>, <gregtech:machine_casing:10>, <gregtech:fluid_pipe:1095>], [<contenttweaker:steammotor>, <gregtech:fluid_pipe:1095>, <contenttweaker:steammotor>]]);
+recipes.addShaped(<gregtech:machine:10>, [[<contenttweaker:steampiston>, <gregtech:fluid_pipe:1184>, <contenttweaker:steampiston>],[<gregtech:fluid_pipe:1184>, <gregtech:machine_casing:12>, <gregtech:fluid_pipe:1184>], [<contenttweaker:steammotor>, <gregtech:fluid_pipe:1184>, <contenttweaker:steammotor>]]);
+recipes.remove(<gregtech:machine:12>);
+recipes.addShaped(<gregtech:machine:12>, [[<gregtech:fluid_pipe:1184>, <gregtech:fluid_pipe:1184>, <gregtech:fluid_pipe:1184>],[<contenttweaker:steammotor>, <gregtech:machine_casing:12>, <contenttweaker:steampiston>], [<gregtech:fluid_pipe:1184>, <gregtech:fluid_pipe:1184>, <gregtech:fluid_pipe:1184>]]);
+recipes.addShaped(<gregtech:machine:11>, [[<gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>],[<contenttweaker:steammotor>, <gregtech:machine_casing:10>, <contenttweaker:steampiston>], [<gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>]]);
+recipes.addShaped(<gregtech:machine:7>, [[<gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>],[<contenttweaker:steampiston>, <gregtech:machine_casing:10>, <minecraft:glass>], [<gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>]]);
+recipes.remove(<gregtech:machine:2235>);
+recipes.addShaped(<gregtech:machine:2235>, [[<minecraft:glass>, <gregtech:meta_item_2:18095>, <minecraft:glass>],[<contenttweaker:steampiston>, <gregtech:fluid_pipe:1184>, <contenttweaker:steampiston>], [<gregtech:fluid_pipe:1184>, <gregtech:machine_casing:10>, <gregtech:fluid_pipe:1184>]]);
+recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <contenttweaker:steammotor>, <gregtech:metal_casing:8>],[<contenttweaker:steampiston>, null, <contenttweaker:steammotor>], [<gregtech:metal_casing:8>, <contenttweaker:steampiston>, <gregtech:metal_casing:8>]]);
