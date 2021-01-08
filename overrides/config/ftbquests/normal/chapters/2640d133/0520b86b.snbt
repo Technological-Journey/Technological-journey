@@ -1,0 +1,44 @@
+{
+	x: -0.5d,
+	y: 5.0d,
+	dependencies: [
+		"88f17395",
+		"94bc6058"
+	],
+	tasks: [{
+		uid: "25ee2ffd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	},
+	{
+		uid: "0a5daa26",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 22L
+	},
+	{
+		uid: "c30d1ee5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "c319bd51",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 701"
+		}]
+	},
+	{
+		uid: "b49fcb12",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 703"
+		}]
+	}]
+}

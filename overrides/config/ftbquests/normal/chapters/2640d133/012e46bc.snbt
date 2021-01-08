@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"The large bronze boiler can provide steam for up to 16 LV steam turbines. It can be fueled by creosote, charcoal, and any other burnable fuels."
+	],
+	dependencies: [
+		"ab7bedfb",
+		"0520b86b"
+	],
+	tasks: [{
+		uid: "3f84002f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 521"
+		}]
+	}]
+}

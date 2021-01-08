@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"62fd1790"
+	],
+	tasks: [{
+		uid: "f2f315d9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:steammotor"
+		}]
+	}]
+}
