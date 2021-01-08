@@ -13,7 +13,3 @@ SteamPiston.register();
 var SteamMotor = VanillaFactory.createItem("SteamMotor");
 SteamMotor.maxStackSize = 64;
 SteamMotor.register();
-
-var SteamCircuit = VanillaFactory.createItem("SteamCircuit");
-SteamCircuit.maxStackSize = 64;
-SteamCircuit.register();
