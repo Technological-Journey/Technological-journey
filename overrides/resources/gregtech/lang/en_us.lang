@@ -4,6 +4,13 @@ material.lv_superconductor_base= LV Super Conductor base
 multiblocktweaker.machine.coke_oven_2.name=Coke Oven
 recipemap.coke_oven_2.name=Coke Oven
 multiblocktweaker.multiblock.coke_oven_2.description= 
+
 multiblocktweaker.machine.primitive_alloy.name=Primitive Alloy Smelter
 recipemap.primitive_alloy.name=Primitive Alloy Smelter
 multiblocktweaker.multiblock.primitive_alloy.description= 
+
+multiblocktweaker.machine.primitive_asssembler.name=Primitive Asssembler
+recipemap.primitiveasssembler.name=Primitive Asssembler
+multiblocktweaker.multiblock.primitive_asssembler.description= 
+item.contenttweaker.SteamMotor.name=Steam Motor
+item.contenttweaker.SteamPiston.name=Steam Piston
