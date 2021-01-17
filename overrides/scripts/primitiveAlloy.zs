@@ -102,12 +102,14 @@ primitive_alloy.noEnergy = true;
     .fluidInputs(<liquid:steam> * 1000)
     .duration(600)
     .buildAndRegister();
+    
     primitive_alloy.recipeMap.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32037> * 4)
     .outputs(<gregtech:meta_item_1:10197> * 4)
     .fluidInputs(<liquid:steam> * 1000)
     .duration(150)
     .buildAndRegister();
+    
     primitive_alloy.recipeMap.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2209> * 4)
     .notConsumable(<gregtech:meta_item_1:32307>)
@@ -115,4 +117,17 @@ primitive_alloy.noEnergy = true;
     .fluidInputs(<liquid:steam> * 1000)
     .duration(150)
     .buildAndRegister();
+    primitive_alloy.recipeMap.recipeBuilder()
+    .inputs([<ore:ingotIron>,<gregtech:meta_item_1:2822>])
+    .outputs([<enderio:item_alloy_ingot:5>])
+    .duration(160)
+    .fluidInputs(<liquid:steam> * 1000)
+    .buildAndRegister();
+primitive_alloy.recipeMap.recipeBuilder()
+    .inputs([<minecraft:quartz> * 4])
+    .outputs([<enderio:block_fused_quartz>])
+    .fluidInputs(<liquid:steam> * 1000)
+    .duration(160)
+    .buildAndRegister();
+
 
