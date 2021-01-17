@@ -93,7 +93,7 @@ coke_oven_2.noEnergy = true;
     coke_oven_2.recipeMap.recipeBuilder()
     .inputs(<minecraft:coal>)
     .outputs(<gregtech:meta_item_1:8357>)
-    .fluidOutputs(<liquid:creosote> * 750)
+    .fluidOutputs(<liquid:creosote> * 4500)
     .duration(900)
     .buildAndRegister();
     coke_oven_2.recipeMap .recipeBuilder()

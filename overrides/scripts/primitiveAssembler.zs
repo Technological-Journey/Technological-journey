@@ -10,6 +10,7 @@ import mods.gregtech.multiblock.IBlockInfo;
 import mods.gregtech.multiblock.Multiblock;
 import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.MetaTileEntities;
+import mods.gregtech.render.Textures;
 
 import mods.gregtech.recipe.RecipeMap;
 
@@ -22,27 +23,36 @@ val primitive_asssembler = Builder.start(loc, meta)
     .withPattern(
         FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
             .aisle(
-                "CCCCC",
+                "DDDDD",
                 "CCSCC",
-                "CCCCC")
+                "FFFFF")
             .aisle(
-                "CCCCC",
+                "DDDDD",
                 "C   C",
-                "CCCCC")
+                "FFFFF")
             .aisle(
-                "CCCCC",
+                "DDDDD",
                 "C   C",
-                "CCCCC")
+                "FFFFF")
             .aisle(
-                "CCCCC",
+                "DDDDD",
                 "C   C",
-                "CCCCC")
+                "FFFFF")
             .aisle(
+                "DDDDD",
                 "CCCCC",
-                "CCCCC",
-                "CCCCC")
-            .whereOr("C",
-                <metastate:gregtech:metal_casing:1>,
+                "FFFFF")
+            .where("C",
+                <metastate:gregtech:metal_casing:1>)
+                .whereOr("F",
+                <metastate:gregtech:machine_casing:13>,
+                IBlockMatcher.abilityPartPredicate(
+                    MultiblockAbility.IMPORT_FLUIDS,
+                    MultiblockAbility.IMPORT_ITEMS,
+                    MultiblockAbility.EXPORT_ITEMS
+                ))
+                 .whereOr("D",
+                <metastate:gregtech:machine_casing:10>,
                 IBlockMatcher.abilityPartPredicate(
                     MultiblockAbility.IMPORT_FLUIDS,
                     MultiblockAbility.IMPORT_ITEMS,
@@ -54,29 +64,31 @@ val primitive_asssembler = Builder.start(loc, meta)
     .addDesign(
         FactoryMultiblockShapeInfo.start()
         .aisle(
-                "ICCCC",
+                "IMMMM",
                 "CCCCC",
-                "CCCCC")
+                "DDDDD")
             .aisle(
-                "ICCCC",
+                "IMMMM",
                 "C   C",
-                "CCCCC")
+                "DDDDD")
             .aisle(
-                "ICCCC",
+                "IMMMM",
                 "S   C",
-                "CCCCC")
+                "DDDDD")
             .aisle(
-                "OCCCC",
+                "OMMMM",
                 "C   C",
-                "CCCCC")
+                "DDDDD")
             .aisle(
-                "ECCCC",
+                "EMMMM",
                 "CCCCC",
-                "CCCCC")
+                "DDDDD")
+            .where("M", <metastate:gregtech:machine_casing:13>)
+            .where("D", <metastate:gregtech:machine_casing:10>)
             .where("C", <metastate:gregtech:metal_casing:1>)
             .where("S", IBlockInfo.controller(loc))
-            .where("I", MetaTileEntities.ITEM_IMPORT_BUS[1], IFacing.west())
-            .where("O", MetaTileEntities.ITEM_EXPORT_BUS[1], IFacing.west())
+            .where("I", MetaTileEntities.ITEM_IMPORT_BUS[0], IFacing.west())
+            .where("O", MetaTileEntities.ITEM_EXPORT_BUS[0], IFacing.west())
             .where("E", MetaTileEntities.FLUID_IMPORT_HATCH[0], IFacing.west())
             .where(" ", IBlockInfo.EMPTY)
             .build())
@@ -87,6 +99,7 @@ val primitive_asssembler = Builder.start(loc, meta)
                         .maxInputs(4)
                         .maxOutputs(2)
                         .build())
+//.withTexture(Textures.PRIMITIVE_BRICKS)
 .buildAndRegister() as Multiblock;
 
 primitive_asssembler.noEnergy = true;

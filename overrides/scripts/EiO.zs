@@ -125,5 +125,3 @@ alloy.recipeBuilder()
 <enderio:item_power_conduit:1>.displayName = "Titanium Energy Conduit";
 <enderio:item_endergy_conduit:11>.displayName = "Superconducting Energy Conduit";
 <enderio:item_power_conduit:2>.displayName = "Tungstensteel Energy Conduit";
-
-

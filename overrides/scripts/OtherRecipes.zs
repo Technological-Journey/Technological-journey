@@ -484,3 +484,7 @@ recipes.addShaped(<gregtech:machine:7>, [[<gregtech:fluid_pipe:1095>, <gregtech:
 recipes.remove(<gregtech:machine:2235>);
 recipes.addShaped(<gregtech:machine:2235>, [[<minecraft:glass>, <gregtech:meta_item_2:18095>, <minecraft:glass>],[<contenttweaker:steampiston>, <gregtech:fluid_pipe:1184>, <contenttweaker:steampiston>], [<gregtech:fluid_pipe:1184>, <gregtech:machine_casing:10>, <gregtech:fluid_pipe:1184>]]);
 recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <contenttweaker:steammotor>, <gregtech:metal_casing:8>],[<contenttweaker:steampiston>, null, <contenttweaker:steammotor>], [<gregtech:metal_casing:8>, <contenttweaker:steampiston>, <gregtech:metal_casing:8>]]);
+recipes.remove(<gregtech:machine:500>);
+recipes.addShaped(<gregtech:machine:500>, [[null, null, null],[<gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>], [<gregtech:cable:5071>, <gregtech:machine_casing>, <gregtech:cable:5071>]]);
+
+

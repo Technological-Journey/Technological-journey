@@ -22,19 +22,26 @@ val primitive_alloy = Builder.start(loc, meta)
     .withPattern(
         FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
             .aisle(
-                "CCC",
+                "DDD",
                 "CSC",
                 "CCC")
             .aisle(
-                "CCC",
+                "D D",
                 "C C",
                 "CCC")
             .aisle(
-                "CCC",
+                "DDD",
                 "CCC",
                 "CCC")
             .whereOr("C",
                 <metastate:gregtech:metal_casing:1>,
+                IBlockMatcher.abilityPartPredicate(
+                    MultiblockAbility.IMPORT_FLUIDS,
+                    MultiblockAbility.IMPORT_ITEMS,
+                    MultiblockAbility.EXPORT_ITEMS
+                ))
+                .whereOr("D",
+                <metastate:gregtech:machine_casing:10>,
                 IBlockMatcher.abilityPartPredicate(
                     MultiblockAbility.IMPORT_FLUIDS,
                     MultiblockAbility.IMPORT_ITEMS,
@@ -48,15 +55,16 @@ val primitive_alloy = Builder.start(loc, meta)
             .aisle(
                 "ICC",
                 "CCC",
-                "CCC")
+                "DDD")
             .aisle(
                 "ICC",
                 "S C",
-                "CCC")
+                "D D")
             .aisle(
                 "OCE",
                 "CCC",
-                "CCC")
+                "DDD")
+            .where("D", <metastate:gregtech:machine_casing:10>)
             .where("C", <metastate:gregtech:metal_casing:1>)
             .where("S", IBlockInfo.controller(loc))
             .where("I", MetaTileEntities.ITEM_IMPORT_BUS[0], IFacing.west())
@@ -71,6 +79,7 @@ val primitive_alloy = Builder.start(loc, meta)
                         .maxInputs(2)
                         .maxOutputs(1)
                         .build())
+//.withTexture(Textures.PRIMITIVE_BLAST_FURNACE_OVERLAY)
 .buildAndRegister() as Multiblock;
 
 primitive_alloy.noEnergy = true;
@@ -106,3 +115,10 @@ primitive_alloy.noEnergy = true;
     .fluidInputs(<liquid:steam> * 1000)
     .duration(150)
     .buildAndRegister();
+/*
+primitive_alloy.recipeMap.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32124>.withTag({Charge: 0 as long})])
+.outputs([<gtadditions:ga_meta_item:32124>.withTag({Charge: 9223372036854775807 as long})])
+.duration(1717986918)
+.EUt(536870912)
+.buildAndRegister(); */

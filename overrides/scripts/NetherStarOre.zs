@@ -4,14 +4,6 @@ import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.Material;
 var materialList = MaterialRegistry.getAllMaterials();
 
-
-
-
-
-
-
-
-
 <material:nether_star>.addFlags(["GENERATE_ORE"]);
 <material:cryotheum>.addFlags(["GENERATE_ORE"]);
 <material:pyrotheum>.addFlags(["GENERATE_ORE"]);
