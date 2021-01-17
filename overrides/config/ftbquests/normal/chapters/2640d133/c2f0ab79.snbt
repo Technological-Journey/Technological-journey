@@ -13,14 +13,6 @@
 		}]
 	},
 	{
-		uid: "974d7543",
-		type: "item",
-		items: [{
-			item: "gregtech:metal_casing 1 1"
-		}],
-		count: 21L
-	},
-	{
 		uid: "36ddf28d",
 		type: "item",
 		items: [{
@@ -41,5 +33,21 @@
 		items: [{
 			item: "gregtech:machine 1 701"
 		}]
+	},
+	{
+		uid: "4ea71ca4",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 12L
+	},
+	{
+		uid: "2b799f63",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 10"
+		}],
+		count: 8L
 	}]
 }

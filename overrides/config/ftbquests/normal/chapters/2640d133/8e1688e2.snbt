@@ -58,12 +58,11 @@
 			item: "gregtech:machine_casing 1 13"
 		}],
 		count: 20L
-	},
-	{
-		uid: "baf53e27",
+	}],
+	rewards: [{
+		uid: "727f497a",
 		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 10184"
-		}]
+		item: "gregtech:meta_item_1 1 10184",
+		count: 10
 	}]
 }
