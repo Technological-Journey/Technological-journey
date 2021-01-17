@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		"These are useful to find ore. And give a better picture then the scanner"
+	],
+	tasks: [{
+		uid: "9324f5ac",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item2 1 100"
+		}],
+		ignore_nbt: 1b
+	}]
+}
