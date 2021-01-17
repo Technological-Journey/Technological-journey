@@ -1,0 +1,69 @@
+{
+	x: 1.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "409212fb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1003"
+		}]
+	},
+	{
+		uid: "f10b39c9",
+		type: "item",
+		items: [{
+			id: "gregtech:machine_casing",
+			tag: {
+				Energy: 0,
+				Mode: -1
+			},
+			Damage: 10s
+		}],
+		count: 25L
+	},
+	{
+		uid: "d55809e2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}],
+		count: 3L
+	},
+	{
+		uid: "9c83f4a6",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 15L
+	},
+	{
+		uid: "fae0ebdf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 701"
+		}]
+	},
+	{
+		uid: "dac9314a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 702"
+		}]
+	},
+	{
+		uid: "fd6a2cd2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 13"
+		}],
+		count: 20L
+	},
+	{
+		uid: "baf53e27",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10184"
+		}]
+	}]
+}
