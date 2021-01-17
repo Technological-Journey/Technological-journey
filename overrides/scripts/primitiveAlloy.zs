@@ -115,10 +115,4 @@ primitive_alloy.noEnergy = true;
     .fluidInputs(<liquid:steam> * 1000)
     .duration(150)
     .buildAndRegister();
-/*
-primitive_alloy.recipeMap.recipeBuilder()
-.inputs([<gtadditions:ga_meta_item:32124>.withTag({Charge: 0 as long})])
-.outputs([<gtadditions:ga_meta_item:32124>.withTag({Charge: 9223372036854775807 as long})])
-.duration(1717986918)
-.EUt(536870912)
-.buildAndRegister(); */
+
