@@ -10,7 +10,7 @@ recipemap.primitive_alloy.name=Primitive Alloy Smelter
 multiblocktweaker.multiblock.primitive_alloy.description= 
 
 multiblocktweaker.machine.primitive_asssembler.name=Primitive Asssembler
-recipemap.primitiveasssembler.name=Primitive Asssembler
+recipemap.primitive_asssembler.name=Primitive Asssembler
 multiblocktweaker.multiblock.primitive_asssembler.description= 
 item.contenttweaker.SteamMotor.name=Steam Motor
 item.contenttweaker.SteamPiston.name=Steam Piston
