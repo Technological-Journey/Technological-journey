@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
-
+<recipe name="Tweak: Wood Hopper" disabled="true" />
+<recipe name="Gear, ae2 messes things up" disabled="true" />
+<recipe name="Gear, just to be sure" disabled="true" />
+<recipe name="Gear, better save than sorry" disabled="true" />
 </enderio:recipes>
