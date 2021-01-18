@@ -248,9 +248,6 @@ centrifuge.findRecipe(48000,null,[<fluid:liquid_air>* 53000]).remove();
     arc.findRecipe(1800,[<gregtech:compressed_0:15>],[<liquid:oxygen>* 540]).remove();
     recipes.addShaped(<thermalfoundation:material:640>, [[null, null, null],[null, <actuallyadditions:item_misc:16>, null], [null, null, null]]);
     recipes.addShaped(<thermalfoundation:material:656>, [[null, <gregtech:meta_item_1:13183>, null],[<gregtech:meta_item_1:13183>, <gregtech:meta_item_2:19183>, <gregtech:meta_item_1:13183>], [null, <gregtech:meta_item_1:13183>, null]]);
-    recipes.removeShaped(<minecraft:hopper>);
-    recipes.removeShaped(<minecraft:hopper>, [[<minecraft:iron_ingot>, <ore:logWood>, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <ore:logWood>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
-    recipes.addShaped(<minecraft:hopper>, [[<gregtech:meta_item_1:12033>, <ore:craftingToolWrench>, <gregtech:meta_item_1:12033>],[<gregtech:meta_item_1:12033>, <minecraft:trapped_chest>, <gregtech:meta_item_1:12033>], [null, <gregtech:meta_item_1:12033>, null]]);
 
 
 
