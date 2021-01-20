@@ -483,5 +483,6 @@ recipes.addShaped(<gregtech:machine:2235>, [[<minecraft:glass>, <gregtech:meta_i
 recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <contenttweaker:steammotor>, <gregtech:metal_casing:8>],[<contenttweaker:steampiston>, null, <contenttweaker:steammotor>], [<gregtech:metal_casing:8>, <contenttweaker:steampiston>, <gregtech:metal_casing:8>]]);
 recipes.remove(<gregtech:machine:500>);
 recipes.addShaped(<gregtech:machine:500>, [[null, null, null],[<gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>], [<gregtech:cable:5071>, <gregtech:machine_casing>, <gregtech:cable:5071>]]);
+recipes.removeShaped(<minecraft:hopper>, [[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
 
 
