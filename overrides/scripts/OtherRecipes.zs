@@ -488,3 +488,7 @@ recipes.addShaped(<gregtech:machine:1301>, [[<ore:circuitMaster>, <gregtech:meta
 recipes.addShaped(<gregtech:machine:1304>, [[<ore:circuitSuperconductor>, <gregtech:meta_item_1:12311>, <ore:circuitSuperconductor>],[<gregtech:meta_item_1:12311>, <gregtech:machine:508>, <gregtech:meta_item_1:12311>], [<ore:circuitSuperconductor>, <gregtech:meta_item_1:32677>, <ore:circuitSuperconductor>]]);
 recipes.addShaped(<gregtech:machine:1302>, [[<ore:circuitUltimate>, <gregtech:meta_item_1:12207>, <ore:circuitUltimate>],[<gregtech:meta_item_1:12207>, <gregtech:machine:507>, <gregtech:meta_item_1:12207>], [<ore:circuitUltimate>, <gregtech:meta_item_1:32676>, <ore:circuitUltimate>]]);
 recipes.addShaped(<gregtech:machine:1300>, [[<ore:circuitMaster>, <gregtech:meta_item_1:12859>, <ore:circuitMaster>],[<gregtech:meta_item_1:12859>, <gregtech:machine:506>, <gregtech:meta_item_1:12859>], [<ore:circuitMaster>, <gregtech:meta_item_1:32675>, <ore:circuitMaster>]]);
+//Needs to be updated when max circuits come out
+recipes.addShaped(<gregtech:machine:1307>, [[<ore:circuitUmv>, <gtadditions:ga_meta_item:32383>, <ore:circuitUmv>],[<gregtech:meta_item_1:12993>, <gregtech:machine:509>, <gregtech:meta_item_1:12993>], [<ore:circuitUmv>, <gregtech:meta_item_1:12993>, <ore:circuitUmv>]]);
+recipes.addShaped(<gregtech:machine:1306>, [[<ore:circuitUmv>, <gregtech:meta_item_1:12993>, <ore:circuitUmv>],[<gregtech:meta_item_1:12993>, <gregtech:machine:509>, <gregtech:meta_item_1:12993>], [<ore:circuitUmv>, <gtadditions:ga_meta_item:32383>, <ore:circuitUmv>]]);
+
