@@ -248,21 +248,7 @@ centrifuge.findRecipe(48000,null,[<fluid:liquid_air>* 53000]).remove();
     arc.findRecipe(1800,[<gregtech:compressed_0:15>],[<liquid:oxygen>* 540]).remove();
     recipes.addShaped(<thermalfoundation:material:640>, [[null, null, null],[null, <actuallyadditions:item_misc:16>, null], [null, null, null]]);
     recipes.addShaped(<thermalfoundation:material:656>, [[null, <gregtech:meta_item_1:13183>, null],[<gregtech:meta_item_1:13183>, <gregtech:meta_item_2:19183>, <gregtech:meta_item_1:13183>], [null, <gregtech:meta_item_1:13183>, null]]);
-
-
-
-
-    
-  //ADV_FUSION_RECIPES.recipeBuilder().fluidInputs(Adamantium.getFluid(125), Neutronium.getFluid(125)).fluidOutputs(Vibranium.getFluid(125)).duration(100).EUt(8000000).coilTier(2).euStart(2500000000L).buildAndRegister(); 
-/*
-ADVFusion.recipeBuilder()
-    .fluidInputs(<fluid:vibranium> * 15,<fluid:neutronium> * 15)
-    .fluidOutputs(<fluid:cosmic_neutronium>* 15)
-    .duration(100)
-    .property("coilTier",2)
-    .EUt(8000000)
-    .property("eu_to_start",30000000) 
-    .buildAndRegister();*/
+//    recipes.removeShaped(<minecraft:hopper>);
     
     recipes.addShaped(<beneath:teleporterbeneath>,[[<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>],[<gregtech:meta_item_1:10300>,<gregtech:machine:2221>,<gregtech:meta_item_1:10235>],[<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>]]);
     <beneath:teleporterbeneath>.displayName = "Deep Dark Portal";
@@ -484,5 +470,21 @@ recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <content
 recipes.remove(<gregtech:machine:500>);
 recipes.addShaped(<gregtech:machine:500>, [[null, null, null],[<gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>], [<gregtech:cable:5071>, <gregtech:machine_casing>, <gregtech:cable:5071>]]);
 recipes.removeShaped(<minecraft:hopper>, [[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
-
-
+  //ADV_FUSION_RECIPES.recipeBuilder().fluidInputs(Adamantium.getFluid(125), Neutronium.getFluid(125)).fluidOutputs(Vibranium.getFluid(125)).duration(100).EUt(8000000).coilTier(2).euStart(2500000000L).buildAndRegister(); 
+/*
+ADVFusion.recipeBuilder()
+    .fluidInputs(<fluid:degenerate_rhenium_plasma> * 15,<fluid:neutron_plasma> * 15)
+    .fluidOutputs(<fluid:plasma.cosmic_neutronium>* 15)
+    .duration(100)
+    .property("coilTier",2)
+    .EUt(8000000)
+    .property("eu_to_start",30000000) 
+    .euReturn(2)
+    .buildAndRegister();
+    */
+recipes.addShaped(<gregtech:machine:1305>, [[<ore:circuitSuperconductor>, <gregtech:meta_item_1:32677>, <ore:circuitSuperconductor>],[<gregtech:meta_item_1:12311>, <gregtech:machine:508>, <gregtech:meta_item_1:12311>], [<ore:circuitSuperconductor>, <gregtech:meta_item_1:12311>, <ore:circuitSuperconductor>]]);
+recipes.addShaped(<gregtech:machine:1303>, [[<ore:circuitUltimate>, <gregtech:meta_item_1:32676>, <ore:circuitUltimate>],[<gregtech:meta_item_1:12207>, <gregtech:machine:507>, <gregtech:meta_item_1:12207>], [<ore:circuitUltimate>, <gregtech:meta_item_1:12207>, <ore:circuitUltimate>]]);
+recipes.addShaped(<gregtech:machine:1301>, [[<ore:circuitMaster>, <gregtech:meta_item_1:32675>, <ore:circuitMaster>],[<gregtech:meta_item_1:12859>, <gregtech:machine:506>, <gregtech:meta_item_1:12859>], [<ore:circuitMaster>, <gregtech:meta_item_1:12859>, <ore:circuitMaster>]]);
+recipes.addShaped(<gregtech:machine:1304>, [[<ore:circuitSuperconductor>, <gregtech:meta_item_1:12311>, <ore:circuitSuperconductor>],[<gregtech:meta_item_1:12311>, <gregtech:machine:508>, <gregtech:meta_item_1:12311>], [<ore:circuitSuperconductor>, <gregtech:meta_item_1:32677>, <ore:circuitSuperconductor>]]);
+recipes.addShaped(<gregtech:machine:1302>, [[<ore:circuitUltimate>, <gregtech:meta_item_1:12207>, <ore:circuitUltimate>],[<gregtech:meta_item_1:12207>, <gregtech:machine:507>, <gregtech:meta_item_1:12207>], [<ore:circuitUltimate>, <gregtech:meta_item_1:32676>, <ore:circuitUltimate>]]);
+recipes.addShaped(<gregtech:machine:1300>, [[<ore:circuitMaster>, <gregtech:meta_item_1:12859>, <ore:circuitMaster>],[<gregtech:meta_item_1:12859>, <gregtech:machine:506>, <gregtech:meta_item_1:12859>], [<ore:circuitMaster>, <gregtech:meta_item_1:32675>, <ore:circuitMaster>]]);
