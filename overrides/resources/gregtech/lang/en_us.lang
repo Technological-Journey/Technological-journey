@@ -14,3 +14,12 @@ recipemap.primitive_asssembler.name=Primitive Asssembler
 multiblocktweaker.multiblock.primitive_asssembler.description= 
 item.contenttweaker.SteamMotor.name=Steam Motor
 item.contenttweaker.SteamPiston.name=Steam Piston
+
+devtech.machine.chest_iv.name=Black Hole-Quantum Chest IV
+devtech.machine.tank_iv.name=Black Hole-Quantum Tank IV
+devtech.machine.chest_v.name=Black Hole-Quantum Chest V
+devtech.machine.tank_v.name=Black Hole-Quantum Tank V
+devtech.machine.chest_vi.name=Black Hole-Quantum Chest VI
+devtech.machine.tank_vi.name=Black Hole-Quantum Tank VI
+devtech.machine.chest_vii.name=Black Hole-Quantum Chest VII
+devtech.machine.tank_vii.name=Black Hole-Quantum Tank VII
