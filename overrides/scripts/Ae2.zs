@@ -303,3 +303,25 @@ assembler.recipeBuilder()
 .duration(160)
 .EUt(128)
 .buildAndRegister();
+
+mixer.recipeBuilder()
+.inputs([<appliedenergistics2:material:1>,<minecraft:redstone> * 4,<gregtech:meta_item_1:2201>])
+.outputs([<appliedenergistics2:material:7> * 2])
+.duration(130)
+.EUt(32)
+.buildAndRegister();
+
+macerator.recipeBuilder()
+.inputs([<appliedenergistics2:material>])
+.outputs([<gregtech:meta_item_1:2202>])
+.duration(130)
+.EUt(32)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:material:10>])
+.notConsumable(<appliedenergistics2:material:13>)
+.outputs([<appliedenergistics2:material:16>])
+.duration(160)
+.EUt(32)
+.buildAndRegister();
