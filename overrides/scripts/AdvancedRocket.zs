@@ -12,6 +12,7 @@ import scripts.commonNames;
 
 mods.advancedrocketry.ChemicalReactor.clear(); 
 mods.advancedrocketry.PrecisionAssembler.clear(); 
+
 mods.advancedrocketry.CuttingMachine.clear();
 mods.advancedrocketry.RollingMachine.clear();
 mods.advancedrocketry.Lathe.clear();
@@ -195,3 +196,36 @@ autoclave.recipeBuilder()
 <advancedrocketry:hotturf>.addTooltip("ID 401 artifact");
 <gregtech:compressed_7:9>.addTooltip("ID 402 artifact");
 <gregtech:compressed_2:6>.addTooltip("ID 403 artifact");
+
+//low tank
+extruder.recipeBuilder()
+.inputs([<minecraft:iron_ingot> *16])
+.notConsumable(<gregtech:meta_item_1:32313>)
+.outputs([<advancedrocketry:pressuretank>])
+.duration(600)
+.EUt(32)
+.buildAndRegister();
+//med tank
+extruder.recipeBuilder()
+.inputs([<gregtech:meta_item_1:10184> *16])
+.notConsumable(<gregtech:meta_item_1:32313>)
+.outputs([<advancedrocketry:pressuretank:1>])
+.duration(600)
+.EUt(128)
+.buildAndRegister();
+// large tank
+extruder.recipeBuilder()
+.inputs([<gregtech:meta_item_1:10183> *16])
+.notConsumable(<gregtech:meta_item_1:32313>)
+.outputs([<advancedrocketry:pressuretank:2>])
+.duration(600)
+.EUt(512)
+.buildAndRegister();
+//max tank
+extruder.recipeBuilder()
+.inputs([<gregtech:meta_item_1:10072> *16])
+.notConsumable(<gregtech:meta_item_1:32313>)
+.outputs([<advancedrocketry:pressuretank:3>])
+.duration(600)
+.EUt(1048)
+.buildAndRegister();

@@ -204,39 +204,6 @@ mixer.recipeBuilder()
 .duration(240)
 .EUt(512)
 .buildAndRegister();
-
-//low tank
-extruder.recipeBuilder()
-.inputs([<minecraft:iron_ingot> *16])
-.notConsumable(<gregtech:meta_item_1:32313>)
-.outputs([<advancedrocketry:pressuretank>])
-.duration(600)
-.EUt(32)
-.buildAndRegister();
-//med tank
-extruder.recipeBuilder()
-.inputs([<gregtech:meta_item_1:10184> *16])
-.notConsumable(<gregtech:meta_item_1:32313>)
-.outputs([<advancedrocketry:pressuretank:1>])
-.duration(600)
-.EUt(128)
-.buildAndRegister();
-// large tank
-extruder.recipeBuilder()
-.inputs([<gregtech:meta_item_1:10183> *16])
-.notConsumable(<advancedrocketry:pressuretank:2>)
-.outputs([<advancedrocketry:pressuretank:2>])
-.duration(600)
-.EUt(512)
-.buildAndRegister();
-//max tank
-extruder.recipeBuilder()
-.inputs([<gregtech:meta_item_1:10072> *16])
-.notConsumable(<advancedrocketry:pressuretank:2>)
-.outputs([<advancedrocketry:pressuretank:3>])
-.duration(600)
-.EUt(1048)
-.buildAndRegister();
 freezer.findRecipe(48000,null,[<fluid:air>* 4000]).remove();
 centrifuge.findRecipe(48000,null,[<fluid:liquid_air>* 53000]).remove();
 
@@ -488,8 +455,6 @@ recipes.addShaped(<gregtech:machine:1300>, [[<ore:circuitMaster>, <gregtech:meta
 recipes.addShaped(<gregtech:machine:1307>, [[<ore:circuitUmv>, <gtadditions:ga_meta_item:32383>, <ore:circuitUmv>],[<gregtech:meta_item_1:12993>, <gregtech:machine:509>, <gregtech:meta_item_1:12993>], [<ore:circuitUmv>, <gregtech:meta_item_1:12993>, <ore:circuitUmv>]]);
 recipes.addShaped(<gregtech:machine:1306>, [[<ore:circuitUmv>, <gregtech:meta_item_1:12993>, <ore:circuitUmv>],[<gregtech:meta_item_1:12993>, <gregtech:machine:509>, <gregtech:meta_item_1:12993>], [<ore:circuitUmv>, <gtadditions:ga_meta_item:32383>, <ore:circuitUmv>]]);
 recipes.addShaped(<gregtech:compressed_0>, [[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>],[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>], [<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>]]);
-furnace.addRecipe(<minecraft:glass>, <gregtech:meta_item_1:2960>, 0.0);
-recipes.addShaped(<gregtech:compressed_8:4>, [[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>],[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>], [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>]]);
 furnace.addRecipe(<minecraft:glass>, <gregtech:meta_item_1:2960>, 0.0);
 //copper 
 Utils.removeRecipeByOutput(arc,[<gregtech:meta_item_1:10087>],[],false);
