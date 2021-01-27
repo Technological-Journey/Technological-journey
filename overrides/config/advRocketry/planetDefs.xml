@@ -93,7 +93,7 @@
                     <generateStructures>false</generateStructures>
                     <generateGeodes>false</generateGeodes>
                     <!-- block of salt -->
-                    <artifact>gregtech:compressed_7:9</artifact> 
+                    <artifact>gregtech:compressed_7 9</artifact> 
                     <biomeIds>advancedrocketry:alien forest,24</biomeIds> 
                     </planet>
     <planet DIMID="403" name="Molten earth" temp="10" customIcon="MarsLike">
@@ -113,7 +113,7 @@
         <generateGeodes>false</generateGeodes>
         <oceanBlock>Minecraft:lava</oceanBlock>
     <!-- block of platinum -->
-        <artifact>gregtech:compressed_2:6</artifact> 
+        <artifact>gregtech:compressed_2 6</artifact> 
          <biomeIds>advancedrocketry:volcanicbarren</biomeIds>  
         </planet>
 </star>
