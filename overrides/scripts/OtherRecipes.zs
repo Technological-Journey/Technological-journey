@@ -465,3 +465,4 @@ arc.recipeBuilder()
 .duration(600)
 .EUt(128)
 .buildAndRegister();
+recipes.addShaped(<gregtech:compressed_8:4>, [[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>],[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>], [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>]]);
