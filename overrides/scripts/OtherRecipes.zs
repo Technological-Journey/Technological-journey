@@ -406,7 +406,7 @@ recipes.remove(<enderio:item_liquid_conduit:2>);
 recipes.remove(<enderio:item_liquid_conduit>);
 recipes.addShaped(<enderio:item_liquid_conduit>, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.addShaped(<enderio:item_liquid_conduit:2> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_nugget:5>, <enderio:item_liquid_conduit:1>, <enderio:item_alloy_nugget:5>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
-recipes.addShaped(<enderio:item_liquid_conduit:2> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_nugget:5>, <enderio:block_fused_quartz:8>, <enderio:item_alloy_nugget:5>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.addShaped(<enderio:item_liquid_conduit:2> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_alloy_nugget:5>, <ore:fusedQuartz>, <enderio:item_alloy_nugget:5>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 for recipe in RecipeMaps.getCokeOvenRecipes(){
     recipe.remove();
     }

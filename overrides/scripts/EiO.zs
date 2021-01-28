@@ -74,13 +74,7 @@ alloy.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
     //.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-    alloy.recipeBuilder()
-    .inputs([<minecraft:quartz> * 4])
-    .outputs([<enderio:block_fused_quartz>])
-    .duration(160)
-    .EUt(32)
-    .buildAndRegister();
-    //organic black dye
+   //organic black dye
     alloy.recipeBuilder()
     .inputs([<minecraft:coal>, <minecraft:tallgrass:1> * 2])
     .outputs([<enderio:item_material:50> *2])
