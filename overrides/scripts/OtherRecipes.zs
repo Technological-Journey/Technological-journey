@@ -466,3 +466,7 @@ arc.recipeBuilder()
 .EUt(128)
 .buildAndRegister();
 recipes.addShaped(<gregtech:compressed_8:4>, [[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>],[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>], [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>]]);
+recipes.addShaped(<bonsaitrees:bonsaipot:1>, [[<gregtech:meta_item_1:12729>, <bonsaitrees:bonsaipot>, <gregtech:meta_item_1:12729>],[<gregtech:meta_item_1:12729>, null, <gregtech:meta_item_1:12729>], [<gregtech:meta_item_1:12729>, <actuallyadditions:block_item_viewer_hopping>, <gregtech:meta_item_1:12729>]]);
+recipes.addShaped(<bonsaitrees:bonsaipot>, [[null, null, null],[<gregtech:meta_item_1:13207>, null, <gregtech:meta_item_1:13207>], [<gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>]]);
+recipes.remove(<bonsaitrees:bonsaipot:1>);
+recipes.remove(<bonsaitrees:bonsaipot>);
