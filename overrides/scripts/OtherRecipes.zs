@@ -35,7 +35,7 @@ mixer.recipeBuilder()
 .fluidInputs(<liquid:lava> * 9000)
 .outputs([<fluxnetworks:flux> * 64])
 .duration(240)
-.EUt(2097152)
+.EUt(33554432)
 .buildAndRegister();
 
 macerator.recipeBuilder()
