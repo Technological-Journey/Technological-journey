@@ -160,32 +160,32 @@ assembler.recipeBuilder()
 .inputs([<minecraft:gold_ingot>])
 .notConsumable(<appliedenergistics2:material:15>)
 .outputs([<appliedenergistics2:material:18>])
-.duration(160)
-.EUt(32)
+.duration(300)
+.EUt(128)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<minecraft:diamond>])
 .notConsumable(<appliedenergistics2:material:14>)
 .outputs([<appliedenergistics2:material:17>])
-.duration(160)
-.EUt(32)
+.duration(300)
+.EUt(128)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:material>])
 .notConsumable(<appliedenergistics2:material:13>)
 .outputs([<appliedenergistics2:material:16>])
-.duration(160)
-.EUt(32)
+.duration(300)
+.EUt(128)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:10061>])
 .notConsumable(<appliedenergistics2:material:19>)
 .outputs([<appliedenergistics2:material:20>])
-.duration(160)
-.EUt(32)
+.duration(300)
+.EUt(128)
 .buildAndRegister();
 // processers
 assembler.recipeBuilder()
@@ -322,6 +322,93 @@ assembler.recipeBuilder()
 .inputs([<appliedenergistics2:material:10>])
 .notConsumable(<appliedenergistics2:material:13>)
 .outputs([<appliedenergistics2:material:16>])
-.duration(160)
+.duration(300)
+.EUt(128)
+.buildAndRegister();
+//me drive parts
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12184> * 4,<ore:circuitBasic>, <ore:crystalCertusQuartz> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+.outputs([<appliedenergistics2:material:35>])
+.duration(300)
 .EUt(32)
 .buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:35> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<appliedenergistics2:material:36>])
+.duration(300)
+.EUt(512)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:36> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+.outputs([<appliedenergistics2:material:37>])
+.duration(300)
+.EUt(8192)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12047> * 4,<ore:circuitUltimate>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:37> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+.outputs([<appliedenergistics2:material:38>])
+.duration(300)
+.EUt(131072)
+.buildAndRegister();
+//fluid drive parts
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12184> * 4,<ore:circuitBasic>, <ore:dyeBlue> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+.outputs([<appliedenergistics2:material:54>])
+.duration(300)
+.EUt(32)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <ore:dyeBlue> * 4,<appliedenergistics2:material:54> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<appliedenergistics2:material:55>])
+.duration(300)
+.EUt(512)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>,<ore:dyeBlue> * 4,<appliedenergistics2:material:55> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+.outputs([<appliedenergistics2:material:56>])
+.duration(300)
+.EUt(8192)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12047> * 4,<ore:circuitUltimate>, <ore:dyeBlue> * 4,<appliedenergistics2:material:56> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+.outputs([<appliedenergistics2:material:57>])
+.duration(300)
+.EUt(131072)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:machine:501>,<ore:crystalPureFluix> * 4,<ore:circuitBasic>])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+.outputs([<appliedenergistics2:controller>])
+.duration(300)
+.EUt(32)
+.buildAndRegister();
+recipes.addShaped(<appliedenergistics2:chest>, [[<actuallyadditions:block_giant_chest>, <gregtech:machine:710>, <actuallyadditions:block_giant_chest>],[<gregtech:machine:710>, <appliedenergistics2:material:24>, <gregtech:machine:711>], [<actuallyadditions:block_giant_chest>, <gregtech:machine:711>, <actuallyadditions:block_giant_chest>]]);
+recipes.addShaped(<appliedenergistics2:drive>, [[<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>],[<appliedenergistics2:part:16>, <appliedenergistics2:chest>, <appliedenergistics2:part:16>], [<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>]]);
+recipes.remove(<appliedenergistics2:chest>);
+recipes.remove(<appliedenergistics2:drive>);
+recipes.remove(<appliedenergistics2:controller>);
+recipes.remove(<appliedenergistics2:material:57>);
+recipes.remove(<appliedenergistics2:material:56>);
+recipes.remove(<appliedenergistics2:material:55>);
+recipes.remove(<appliedenergistics2:material:54>);
+recipes.remove(<appliedenergistics2:material:38>);
+recipes.remove(<appliedenergistics2:material:37>);
+recipes.remove(<appliedenergistics2:material:36>);
+recipes.remove(<appliedenergistics2:material:35>);
+recipes.remove(<appliedenergistics2:molecular_assembler>);
+recipes.addShaped(<appliedenergistics2:molecular_assembler>, [[<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>],[<appliedenergistics2:material:43>, <gregtech:machine:501>, <appliedenergistics2:material:44>], [<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>]]);
