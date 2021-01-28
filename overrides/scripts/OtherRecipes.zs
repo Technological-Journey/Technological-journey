@@ -470,3 +470,5 @@ recipes.addShaped(<bonsaitrees:bonsaipot:1>, [[<gregtech:meta_item_1:12729>, <bo
 recipes.addShaped(<bonsaitrees:bonsaipot>, [[null, null, null],[<gregtech:meta_item_1:13207>, null, <gregtech:meta_item_1:13207>], [<gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>]]);
 recipes.remove(<bonsaitrees:bonsaipot:1>);
 recipes.remove(<bonsaitrees:bonsaipot>);
+recipes.remove(<gregtech:machine:2540>);
+recipes.addShaped(<gregtech:machine:2540>, [[<gregtech:meta_item_1:32643>, <ore:circuitExtreme>, <gregtech:meta_item_1:32643>],[<gregtech:meta_item_1:32603>, <gregtech:machine:504>, <gregtech:meta_item_1:32603>], [<gregtech:meta_item_2:26072>, <gregtech:cable:235>, <gregtech:meta_item_2:26072>]]);
