@@ -374,6 +374,6 @@ h(<gregtech:machine:527>);
 h(<gregtech:machine:17>);
 h(<gregtech:machine:18>);
 h(<gregtech:machine:13>);
-
+h(<appliedenergistics2:vibration_chamber>);
 
 
