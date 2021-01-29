@@ -490,3 +490,29 @@ large_chem.recipeBuilder()
 .duration(18000)
 .EUt(240)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(tower,[],[<liquid:sulfuric_heavy_fuel>],false);
+tower.recipeBuilder()
+.fluidInputs(<liquid:oil_heavy> * 1500)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 2500,<liquid:sulfuric_light_fuel> * 450,<liquid:sulfuric_naphtha> * 150,<liquid:sulfuric_gas> *6000)
+.duration(600)
+.EUt(288)
+.buildAndRegister();
+tower.recipeBuilder()
+.fluidInputs(<liquid:oil_medium> * 1000)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 150,<liquid:sulfuric_light_fuel> * 500,<liquid:sulfuric_naphtha> * 200,<liquid:sulfuric_gas> *600)
+.duration(600)
+.EUt(288)
+.buildAndRegister();
+tower.recipeBuilder()
+.fluidInputs(<liquid:oil_light> * 1500)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 100,<liquid:sulfuric_light_fuel> * 200,<liquid:sulfuric_naphtha> * 300,<liquid:sulfuric_gas> *2500)
+.duration(600)
+.EUt(288)
+.buildAndRegister();
+tower.recipeBuilder()
+.fluidInputs(<liquid:oil> * 500)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 150,<liquid:sulfuric_light_fuel> * 500,<liquid:sulfuric_naphtha> * 200,<liquid:sulfuric_gas> *600)
+.duration(600)
+.EUt(288)
+.buildAndRegister();
