@@ -516,3 +516,9 @@ tower.recipeBuilder()
 .duration(600)
 .EUt(288)
 .buildAndRegister();
+recipes.remove(<gregtech:machine:92>);
+recipes.remove(<gregtech:machine:91>);
+recipes.remove(<gregtech:machine:90>);
+recipes.addShaped(<gregtech:machine:92>, [[<gregtech:cable:7026>, <gregtech:meta_item_1:10012>, <gregtech:cable:7026>],[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], [<gregtech:meta_item_1:12183>, <gregtech:meta_item_1:12183>, <gregtech:meta_item_1:12183>]]);
+recipes.addShaped(<gregtech:machine:91>, [[<gregtech:cable:7018>, <gregtech:meta_item_1:10012>, <gregtech:cable:7018>],[<ore:circuitGood>, <gregtech:machine:502>, <ore:circuitGood>], [<gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12001>]]);
+recipes.addShaped(<gregtech:machine:90>, [[<gregtech:cable:7071>, <gregtech:meta_item_1:10012>, <gregtech:cable:7071>],[<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>], [<gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>]]);
