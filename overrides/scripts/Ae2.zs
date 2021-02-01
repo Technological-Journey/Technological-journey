@@ -412,3 +412,17 @@ recipes.remove(<appliedenergistics2:material:36>);
 recipes.remove(<appliedenergistics2:material:35>);
 recipes.remove(<appliedenergistics2:molecular_assembler>);
 recipes.addShaped(<appliedenergistics2:molecular_assembler>, [[<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>],[<appliedenergistics2:material:43>, <gregtech:machine:501>, <appliedenergistics2:material:44>], [<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>]]);
+
+// Written by MadMan310
+val ae2 as IMod = loadedMods["appliedenergistics2"];
+val ae2Items as IItemStack[] = ae2.items;
+for item in ae2Items {
+    if(item.displayName has "Cable Facade") {
+        if(item.displayName has "MAX Power Cell") {
+            item.addTooltip(format.darkAqua("All facades are still craftable, they are just hidden from JEI to avoid clutter"));
+        }
+        else {
+            mods.jei.JEI.hide(item);
+        }
+    }
+}
