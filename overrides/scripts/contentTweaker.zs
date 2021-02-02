@@ -15,3 +15,7 @@ SteamPiston.register();
 var SteamMotor = VanillaFactory.createItem("SteamMotor");
 SteamMotor.maxStackSize = 64;
 SteamMotor.register();
+
+var certificate_of_being_a_noob = VanillaFactory.createItem("certificate_of_being_a_noob");
+certificate_of_being_a_noob.maxStackSize = 1;
+certificate_of_being_a_noob.register();
