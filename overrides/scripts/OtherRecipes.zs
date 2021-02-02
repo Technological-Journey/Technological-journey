@@ -523,3 +523,66 @@ recipes.addShaped(<gregtech:machine:92>, [[<gregtech:cable:7026>, <gregtech:meta
 recipes.addShaped(<gregtech:machine:91>, [[<gregtech:cable:7018>, <gregtech:meta_item_1:10012>, <gregtech:cable:7018>],[<ore:circuitGood>, <gregtech:machine:502>, <ore:circuitGood>], [<gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12001>]]);
 recipes.addShaped(<gregtech:machine:90>, [[<gregtech:cable:7071>, <gregtech:meta_item_1:10012>, <gregtech:cable:7071>],[<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>], [<gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>]]);
 recipes.addShaped(<gregtech:compressed_8:3>, [[<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>],[<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>], [<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>]]);
+
+recipes.remove(<actuallyadditions:block_fermenting_barrel>);
+
+fluid_extractor.recipeBuilder()
+.inputs(<actuallyadditions:item_canola_seed> * 20)
+.fluidOutputs(<liquid:canolaoil> * 500)
+.duration(150)
+.EUt(16)
+.buildAndRegister();
+
+fluid_extractor.recipeBuilder()
+.inputs(<actuallyadditions:item_misc:13> * 10)
+.fluidOutputs(<liquid:canolaoil> * 500)
+.duration(150)
+.EUt(16)
+.buildAndRegister();
+
+fermenter.recipeBuilder()
+.fluidInputs(<liquid:canolaoil> * 4000)
+.fluidOutputs(<liquid:refinedcanolaoil> * 4000)
+.duration(300)
+.EUt(16)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+.inputs(<actuallyadditions:item_misc:23> * 20)
+.fluidInputs(<liquid:refinedcanolaoil> * 4000)
+.fluidOutputs( <liquid:crystaloil> * 4000)
+.duration(300)
+.EUt(16)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+.fluidInputs(<liquid:crystaloil> * 4000, <liquid: creosote> * 4000)
+.fluidOutputs( <liquid:empoweredoil> * 8000)
+.duration(300)
+.EUt(16)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+.inputs([<gregtech:meta_item_1:373>])
+.fluidInputs( <liquid:empoweredoil> * 10000, <liquid: ethanol> * 1000)
+.fluidOutputs(<liquid: bio_diesel> * 10000, <liquid: glycerol> * 1000)
+.duration(120)
+.EUt(32)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+.inputs([<gregtech:meta_item_1:373>])
+.fluidInputs( <liquid:empoweredoil>* 10000, <liquid: methanol> * 1000)
+.fluidOutputs(<liquid: bio_diesel> * 10000, <liquid: glycerol> * 1000)
+.duration(120)
+.EUt(32)
+.buildAndRegister();
+recipes.remove(<enderio:block_farm_station>);
+
+assembler.recipeBuilder()
+.inputs([<gregtech:machine:501>,<ore:circuitBasic> *2,<enderio:item_material:41>,<minecraft:diamond_hoe>])
+.outputs([<enderio:block_farm_station>])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+.duration(160)
+.EUt(32)
+.buildAndRegister();
