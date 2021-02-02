@@ -527,14 +527,14 @@ recipes.addShaped(<gregtech:compressed_8:3>, [[<gregtech:meta_item_1:10183>, <gr
 recipes.remove(<actuallyadditions:block_fermenting_barrel>);
 
 fluid_extractor.recipeBuilder()
-.inputs(<actuallyadditions:item_canola_seed> * 20)
+.inputs(<actuallyadditions:item_canola_seed> * 10)
 .fluidOutputs(<liquid:canolaoil> * 500)
 .duration(150)
 .EUt(16)
 .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
-.inputs(<actuallyadditions:item_misc:13> * 10)
+.inputs(<actuallyadditions:item_misc:13> * 5)
 .fluidOutputs(<liquid:canolaoil> * 500)
 .duration(150)
 .EUt(16)
@@ -548,7 +548,7 @@ fermenter.recipeBuilder()
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
-.inputs(<actuallyadditions:item_misc:23> * 20)
+.inputs(<actuallyadditions:item_misc:23> * 8)
 .fluidInputs(<liquid:refinedcanolaoil> * 4000)
 .fluidOutputs( <liquid:crystaloil> * 4000)
 .duration(300)
