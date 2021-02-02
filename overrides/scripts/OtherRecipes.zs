@@ -586,3 +586,12 @@ assembler.recipeBuilder()
 .duration(160)
 .EUt(32)
 .buildAndRegister();
+
+<contenttweaker:certificate_of_being_a_noob>.addTooltip(format.darkBlue("Image by Emperdog"));
+
+extruder.recipeBuilder()
+.inputs([<gregtech:compressed_14:10> * 64, <gregtech:compressed_14:10> * 64])
+.outputs([<contenttweaker:certificate_of_being_a_noob>])
+.duration(30000000)
+.EUt(3)
+.buildAndRegister();
