@@ -478,6 +478,7 @@ recipes.remove(<extracells:storage.component:2>);
 recipes.remove(<extracells:storage.component:8>);
 recipes.remove(<extracells:storage.component:9>);
 recipes.remove(<extracells:storage.component:10>);
+recipes.remove(<extracells:storage.component:3>);
 recipes.addShaped(<appliedenergistics2:molecular_assembler>, [[<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>],[<appliedenergistics2:material:43>, <gregtech:machine:501>, <appliedenergistics2:material:44>], [<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>]]);
 h(<extracells:part.base:10>);
 h(<extracells:part.base:11>);
@@ -497,6 +498,10 @@ h(<extracells:hardmedrive>);
 h(<extracells:vibrantchamberfluid>);
 h(<extracells:terminal.universal.wireless>);
 h(<extracells:terminal.fluid.wireless>);
+h(<extracells:storage.component:4>);
+h(<extracells:storage.component:5>);
+h(<extracells:storage.component:6>);
+h(<extracells:storage.component:7>);
 // Written by MadMan310
 val ae2 as IMod = loadedMods["appliedenergistics2"];
 val ae2Items as IItemStack[] = ae2.items;
