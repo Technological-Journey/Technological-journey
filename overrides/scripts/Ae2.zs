@@ -11,6 +11,7 @@ import mods.appliedenergistics2.Inscriber;
 import mods.threng.Etcher as Etcher;
 import mods.threng.Aggregator;
 import crafttweaker.mods.IMod;
+import mods.jei.JEI.removeAndHide as h;
 
 Inscriber.removeRecipe(<appliedenergistics2:material:20>); 
 Inscriber.removeRecipe(<appliedenergistics2:material:24>); 
@@ -326,6 +327,7 @@ assembler.recipeBuilder()
 .EUt(128)
 .buildAndRegister();
 //me drive parts
+//1k
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12184> * 4,<ore:circuitBasic>, <ore:crystalCertusQuartz> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
@@ -333,31 +335,65 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(32)
 .buildAndRegister();
-
+//4k
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:35> * 4])
+.inputs([<gregtech:meta_item_1:12001> * 4,<ore:circuitGood>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:35> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:36>])
 .duration(300)
-.EUt(512)
+.EUt(128)
 .buildAndRegister();
-
+//16
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:36> * 4])
+.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:36> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:37>])
 .duration(300)
-.EUt(8192)
+.EUt(512)
 .buildAndRegister();
-
+//64
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12047> * 4,<ore:circuitUltimate>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:37> * 4])
+.inputs([<gregtech:meta_item_1:12072> * 4,<ore:circuitExtreme>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:37> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
 .outputs([<appliedenergistics2:material:38>])
 .duration(300)
-.EUt(131072)
+.EUt(1048)
 .buildAndRegister();
+//256
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:38> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+.outputs([<extracells:storage.component>])
+.duration(300)
+.EUt(4192)
+.buildAndRegister();
+//1024
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12859> * 4,<ore:circuitMaster>, <ore:crystalCertusQuartz> * 4,<extracells:storage.component> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+.outputs([<extracells:storage.component:1>])
+.duration(300)
+.EUt(16768)
+//4096
+.buildAndRegister();
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12207> * 4,<ore:circuitUltimate>, <ore:crystalCertusQuartz> * 4,<extracells:storage.component:1> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+.outputs([<extracells:storage.component:2>])
+.duration(300)
+.EUt(67072)
+.buildAndRegister();
+//16384
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12311> * 4,<ore:circuitSuperconductor>, <ore:crystalCertusQuartz> * 4,<extracells:storage.component:2> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 7}))
+.outputs([<extracells:storage.component:3>])
+.duration(300)
+.EUt(268288)
+.buildAndRegister();
+
 //fluid drive parts
+//1k
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12184> * 4,<ore:circuitBasic>, <ore:dyeBlue> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
@@ -365,29 +401,53 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(32)
 .buildAndRegister();
-
+//4k
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <ore:dyeBlue> * 4,<appliedenergistics2:material:54> * 4])
+.inputs([<gregtech:meta_item_1:12001> * 4,<ore:circuitGood>, <ore:dyeBlue> * 4,<appliedenergistics2:material:54> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:55>])
 .duration(300)
-.EUt(512)
+.EUt(128)
 .buildAndRegister();
-
+//16
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>,<ore:dyeBlue> * 4,<appliedenergistics2:material:55> * 4])
+.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>,<ore:dyeBlue> * 4,<appliedenergistics2:material:55> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:56>])
 .duration(300)
-.EUt(8192)
+.EUt(512)
 .buildAndRegister();
-
+//64
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12047> * 4,<ore:circuitUltimate>, <ore:dyeBlue> * 4,<appliedenergistics2:material:56> * 4])
+.inputs([<gregtech:meta_item_1:12072> * 4,<ore:circuitExtreme>, <ore:dyeBlue> * 4,<appliedenergistics2:material:56> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
 .outputs([<appliedenergistics2:material:57>])
 .duration(300)
-.EUt(131072)
+.EUt(1048)
+.buildAndRegister();
+//256
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:dyeBlue> * 4,<appliedenergistics2:material:57> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+.outputs([<extracells:storage.component:8>])
+.duration(300)
+.EUt(4192)
+.buildAndRegister();
+//1024
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12859> * 4,<ore:circuitMaster>, <ore:dyeBlue> * 4,<extracells:storage.component:8> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+.outputs([<extracells:storage.component:9>])
+.duration(300)
+.EUt(16768)
+.buildAndRegister();
+//4096
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12311> * 4,<ore:circuitMaster>, <ore:dyeBlue> * 4,<extracells:storage.component:9> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 6}))
+.outputs([<extracells:storage.component:10>])
+.duration(300)
+.EUt(67072)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -397,6 +457,7 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(32)
 .buildAndRegister();
+
 recipes.addShaped(<appliedenergistics2:chest>, [[<actuallyadditions:block_giant_chest>, <gregtech:machine:710>, <actuallyadditions:block_giant_chest>],[<gregtech:machine:710>, <appliedenergistics2:material:24>, <gregtech:machine:711>], [<actuallyadditions:block_giant_chest>, <gregtech:machine:711>, <actuallyadditions:block_giant_chest>]]);
 recipes.addShaped(<appliedenergistics2:drive>, [[<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>],[<appliedenergistics2:part:16>, <appliedenergistics2:chest>, <appliedenergistics2:part:16>], [<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>]]);
 recipes.remove(<appliedenergistics2:chest>);
@@ -411,8 +472,31 @@ recipes.remove(<appliedenergistics2:material:37>);
 recipes.remove(<appliedenergistics2:material:36>);
 recipes.remove(<appliedenergistics2:material:35>);
 recipes.remove(<appliedenergistics2:molecular_assembler>);
+recipes.remove(<extracells:storage.component>);
+recipes.remove(<extracells:storage.component:1>);
+recipes.remove(<extracells:storage.component:2>);
+recipes.remove(<extracells:storage.component:8>);
+recipes.remove(<extracells:storage.component:9>);
+recipes.remove(<extracells:storage.component:10>);
 recipes.addShaped(<appliedenergistics2:molecular_assembler>, [[<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>],[<appliedenergistics2:material:43>, <gregtech:machine:501>, <appliedenergistics2:material:44>], [<minecraft:crafting_table>, <ore:circuitBasic>, <minecraft:crafting_table>]]);
-
+h(<extracells:part.base:10>);
+h(<extracells:part.base:11>);
+h(<extracells:part.base:9>);
+h(<extracells:part.base>);
+h(<extracells:part.base:1>);
+h(<extracells:part.base:8>);
+h(<extracells:part.base:3>);
+h(<extracells:part.base:4>);
+h(<extracells:part.base:6>);
+h(<extracells:part.base:7>);
+h(<extracells:part.base:5>);
+h(<extracells:part.base:2>);
+h(<extracells:ecbaseblock>);
+h(<extracells:fluidfiller>);
+h(<extracells:hardmedrive>);
+h(<extracells:vibrantchamberfluid>);
+h(<extracells:terminal.universal.wireless>);
+h(<extracells:terminal.fluid.wireless>);
 // Written by MadMan310
 val ae2 as IMod = loadedMods["appliedenergistics2"];
 val ae2Items as IItemStack[] = ae2.items;
@@ -424,5 +508,13 @@ for item in ae2Items {
         else {
             mods.jei.JEI.hide(item);
         }
+    }
+}
+
+val ae3 as IMod = loadedMods["extracells"];
+val ae3Items as IItemStack[] = ae3.items;
+for item in ae3Items {
+    if(item.displayName has "ME Fluid Pattern") {
+            h(item);
     }
 }
