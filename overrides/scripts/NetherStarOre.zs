@@ -9,9 +9,9 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:pyrotheum>.addFlags(["GENERATE_ORE"]);
 //<material:ender_pearl>.addFlags(["GENERATE_ORE"]);
 
-val cosmicNeutronium = MaterialRegistry.createIngotMaterial(515, "cosmic_neutronium", 0x000000, "shiny", 4);
-cosmicNeutronium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE"]);
-cosmicNeutronium.setCableProperties(536870912, 8, 0);
+//val cosmicNeutronium = MaterialRegistry.createIngotMaterial(515, "cosmic_neutronium", 0x000000, "shiny", 4);
+//cosmicNeutronium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE"]);
+//cosmicNeutronium.setCableProperties(536870912, 8, 0);
 val lvSuper = MaterialRegistry.createIngotMaterial(516, "lv_superconductor", 0xf8f8ff, "dull", 4);
 val lvBase = MaterialRegistry.createIngotMaterial(517, "lv_superconductor_base", 0xffffff, "dull", 4);
 lvBase.setCableProperties(32, 4, 6);
@@ -27,6 +27,6 @@ chaos.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_M
 
 val dragonstem = MaterialRegistry.createFluidMaterial(521,  "dragonstem", 0xff0000, "FLUID", null);
 
-val chaosalloy = MaterialRegistry.createIngotMaterial(522, "chaosalloy",  0x696969, "dull", 10, null, 100.0f, 6, 128000000);
+val chaosalloy = MaterialRegistry.createIngotMaterial(522, "chaosalloy",  0x696969, "dull", 10, null, 100.0f, 6, 1280000);
 chaosalloy.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_PLASMA"]);
 val rawchaos = MaterialRegistry.createFluidMaterial(523,  "rawchaos", 0x696969, "FLUID", null);
