@@ -502,6 +502,10 @@ h(<extracells:storage.component:4>);
 h(<extracells:storage.component:5>);
 h(<extracells:storage.component:6>);
 h(<extracells:storage.component:7>);
+h(<extracells:storage.fluid>);
+h(<extracells:storage.fluid:1>);
+h(<extracells:storage.fluid:2>);
+h(<extracells:storage.fluid:3>);
 // Written by MadMan310
 val ae2 as IMod = loadedMods["appliedenergistics2"];
 val ae2Items as IItemStack[] = ae2.items;
