@@ -3,7 +3,7 @@ material.lv_superconductor= LV Super Conductor
 material.lv_superconductor_base= LV Super Conductor base
 multiblocktweaker.machine.coke_oven_2.name=Coke Oven
 recipemap.coke_oven_2.name=Coke Oven
-multiblocktweaker.multiblock.coke_oven_2.description= 
+multiblocktweaker.multiblock.coke_oven_2.description=The Coke Oven is a multiblock structure used for getting coke and creosote in the early game.
 
 multiblocktweaker.machine.primitive_alloy.name=Primitive Alloy Smelter
 recipemap.primitive_alloy.name=Primitive Alloy Smelter
@@ -15,6 +15,10 @@ multiblocktweaker.multiblock.primitive_asssembler.description=
 item.contenttweaker.SteamMotor.name=Steam Motor
 item.contenttweaker.SteamPiston.name=Steam Piston
 
+multiblocktweaker.machine.armor_infuser.name=Armor Infuser
+multiblocktweaker.machine.armor_infuser.description=A very powerful multiblock structure, used for upgrading draconium-based armor and tools.
+recipemap.armor_infuser.name=Armor Infusion
+
 devtech.machine.chest_iv.name=Black Hole-Quantum Chest IV
 devtech.machine.tank_iv.name=Black Hole-Quantum Tank IV
 devtech.machine.chest_v.name=Black Hole-Quantum Chest V
@@ -23,3 +27,10 @@ devtech.machine.chest_vi.name=Black Hole-Quantum Chest VI
 devtech.machine.tank_vi.name=Black Hole-Quantum Tank VI
 devtech.machine.chest_vii.name=Black Hole-Quantum Chest VII
 devtech.machine.tank_vii.name=Black Hole-Quantum Tank VII
+item.contenttweaker.certificate_of_being_a_noob.name=Certificate of Being a Noob
+material.draconium=Draconium
+material.awaken_draconium=Awaken Draconium
+material.dragonstem=Draconic Stem Cell Fluid
+material.chaosalloy=Chaos Infinity Alloy
+material.rawchaos=Raw Chaos
+material.chaos=Refined Chaos
