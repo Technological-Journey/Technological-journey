@@ -22,11 +22,11 @@ draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE"]);
 val awaken_draconium = MaterialRegistry.createIngotMaterial(519, "awaken_draconium",  0xff571a, "shiny", 10, null, 20.0f, 6, 128000);
 
 awaken_draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_METAL_CASING","GENERATE_PLASMA"]);
-val chaos = MaterialRegistry.createIngotMaterial(520, "chaos",  0x000000, "dull", 10, null, 25.0f, 6, 1280000);
+val chaos = MaterialRegistry.createIngotMaterial(520, "chaos",  0x696969, "dull", 10, null, 25.0f, 6, 1280000);
 chaos.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_METAL_CASING","GENERATE_PLASMA"]);
 
 val dragonstem = MaterialRegistry.createFluidMaterial(521,  "dragonstem", 0xff0000, "FLUID", null);
 
 val chaosalloy = MaterialRegistry.createIngotMaterial(522, "chaosalloy",  0x696969, "dull", 10, null, 100.0f, 6, 1280000);
 chaosalloy.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_PLASMA"]);
-val rawchaos = MaterialRegistry.createFluidMaterial(523,  "rawchaos", 0x696969, "FLUID", null);
+val rawchaos = MaterialRegistry.createFluidMaterial(523,  "rawchaos", 0x000000, "FLUID", null);
