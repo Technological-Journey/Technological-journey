@@ -16,7 +16,7 @@ item.contenttweaker.SteamMotor.name=Steam Motor
 item.contenttweaker.SteamPiston.name=Steam Piston
 
 multiblocktweaker.machine.armor_infuser.name=Armor Infuser
-multiblocktweaker.machine.armor_infuser.description=A very powerful multiblock structure, used for upgrading draconium-based armor and tools.
+multiblocktweaker.multiblock.armor_infuser.description=A very powerful multiblock structure, used for upgrading draconium-based armor and tools.
 recipemap.armor_infuser.name=Armor Infusion
 
 devtech.machine.chest_iv.name=Black Hole-Quantum Chest IV
