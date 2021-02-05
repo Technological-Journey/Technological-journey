@@ -19,3 +19,6 @@ SteamMotor.register();
 var certificate_of_being_a_noob = VanillaFactory.createItem("certificate_of_being_a_noob");
 certificate_of_being_a_noob.maxStackSize = 1;
 certificate_of_being_a_noob.register();
+
+var awakenedcasing = VanillaFactory.createBlock("awakenedcasing", <blockmaterial:iron>);
+awakenedcasing.register();

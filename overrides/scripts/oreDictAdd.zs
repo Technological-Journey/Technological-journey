@@ -376,4 +376,7 @@ h(<gregtech:machine:18>);
 h(<gregtech:machine:13>);
 h(<appliedenergistics2:vibration_chamber>);
 
+// Hides internal contenttweaker things
+h(<contenttweaker:awakenedcasing>);
+
 
