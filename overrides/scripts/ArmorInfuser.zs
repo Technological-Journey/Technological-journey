@@ -97,6 +97,7 @@ val armor_infuser = Builder.start(loc, meta)
                         MultiblockAbility.IMPORT_FLUIDS,
                         MultiblockAbility.IMPORT_ITEMS,
                         MultiblockAbility.INPUT_ENERGY,
+                        MultiblockAbility.EXPORT_FLUIDS,
                         MultiblockAbility.EXPORT_ITEMS
                 ))
                 .where("F", <metastate:gregtech:multiblock_casing:4>)
@@ -150,7 +151,7 @@ val armor_infuser = Builder.start(loc, meta)
                     "  F  ",
                     "CCCCC")
                 .aisle(
-                    "CCWCC",
+                    "CCWXC",
                     "     ",
                     "     ",
                     "AAAAA",
@@ -168,6 +169,7 @@ val armor_infuser = Builder.start(loc, meta)
                 .where("I", MetaTileEntities.ITEM_IMPORT_BUS[2], IFacing.west())
                 .where("O", MetaTileEntities.ITEM_EXPORT_BUS[2], IFacing.west())
                 .where("W", MetaTileEntities.FLUID_IMPORT_HATCH[5], IFacing.south())
+                .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[5], IFacing.south())
                 .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[8], IFacing.north())
                 .build())
 .withRecipeMap(
