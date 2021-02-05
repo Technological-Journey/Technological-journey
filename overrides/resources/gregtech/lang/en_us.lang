@@ -3,7 +3,7 @@ material.lv_superconductor= LV Super Conductor
 material.lv_superconductor_base= LV Super Conductor base
 multiblocktweaker.machine.coke_oven_2.name=Coke Oven
 recipemap.coke_oven_2.name=Coke Oven
-multiblocktweaker.multiblock.coke_oven_2.description= 
+multiblocktweaker.multiblock.coke_oven_2.description=The Coke Oven is a multiblock structure used for getting coke and creosote in the early game.
 
 multiblocktweaker.machine.primitive_alloy.name=Primitive Alloy Smelter
 recipemap.primitive_alloy.name=Primitive Alloy Smelter
@@ -14,6 +14,10 @@ recipemap.primitive_asssembler.name=Primitive Asssembler
 multiblocktweaker.multiblock.primitive_asssembler.description= 
 item.contenttweaker.SteamMotor.name=Steam Motor
 item.contenttweaker.SteamPiston.name=Steam Piston
+
+multiblocktweaker.machine.armor_infuser.name=Armor Infuser
+multiblocktweaker.multiblock.armor_infuser.description=A very powerful multiblock structure, used for upgrading draconium-based armor and tools.
+recipemap.armor_infuser.name=Armor Infusion
 
 devtech.machine.chest_iv.name=Black Hole-Quantum Chest IV
 devtech.machine.tank_iv.name=Black Hole-Quantum Tank IV
