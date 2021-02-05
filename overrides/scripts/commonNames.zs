@@ -59,9 +59,9 @@ global tower             as RecipeMap = RecipeMap.getByName("distillation_tower"
 global unpack            as RecipeMap = RecipeMap.getByName("unpacker");
 global wiremill          as RecipeMap = RecipeMap.getByName("wiremill");
 global ADVFusion         as RecipeMap = RecipeMap.getByName("adv_fusion");
-
-
-
+global Stellar           as RecipeMap = RecipeMap.getByName("stellar_forge");
+global condenser         as RecipeMap = RecipeMap.getByName("plasma_condenser");
+global bioreactor        as RecipeMap = RecipeMap.getByName("bio_reactor");
 
 
 
