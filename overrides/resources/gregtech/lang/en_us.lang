@@ -7,17 +7,21 @@ multiblocktweaker.multiblock.coke_oven_2.description=The Coke Oven is a multiblo
 
 multiblocktweaker.machine.primitive_alloy.name=Primitive Alloy Smelter
 recipemap.primitive_alloy.name=Primitive Alloy Smelter
-multiblocktweaker.multiblock.primitive_alloy.description= 
+multiblocktweaker.multiblock.primitive_alloy.description=The Primitive Alloy Smelter is a multiblock structure that can smelt alloys (Duh!)
 
 multiblocktweaker.machine.primitive_asssembler.name=Primitive Asssembler
 recipemap.primitive_asssembler.name=Primitive Asssembler
-multiblocktweaker.multiblock.primitive_asssembler.description= 
+multiblocktweaker.multiblock.primitive_asssembler.description=The Primitive Assembler is an early-game method of assembling various components, as well as crafting some items more efficiently.
 item.contenttweaker.SteamMotor.name=Steam Motor
 item.contenttweaker.SteamPiston.name=Steam Piston
 
 multiblocktweaker.machine.armor_infuser.name=Armor Infuser
-multiblocktweaker.multiblock.armor_infuser.description=A very powerful multiblock structure, used for upgrading draconium-based armor and tools.
+multiblocktweaker.multiblock.armor_infuser.description=A very powerful multiblock structure used for upgrading draconium-based armor and tools.
 recipemap.armor_infuser.name=Armor Infusion
+
+multiblocktweaker.machine.chaos_replicator.name=Chaos Replicator
+multiblocktweaker.multiblock.chaos_replicator.description=A multiblock structure used to fabricate pure chaos shards from various materials. 
+recipemap.chaos_replicator.name=Chaotic Replication
 
 devtech.machine.chest_iv.name=Black Hole-Quantum Chest IV
 devtech.machine.tank_iv.name=Black Hole-Quantum Tank IV
@@ -29,7 +33,7 @@ devtech.machine.chest_vii.name=Black Hole-Quantum Chest VII
 devtech.machine.tank_vii.name=Black Hole-Quantum Tank VII
 item.contenttweaker.certificate_of_being_a_noob.name=Certificate of Being a Noob
 material.draconium=Draconium
-material.awaken_draconium=Awaken Draconium
+material.awaken_draconium=Awakened Draconium
 material.dragonstem=Draconic Stem Cell Fluid
 material.chaosalloy=Chaos Infinity Alloy
 material.rawchaos=Raw Chaos
