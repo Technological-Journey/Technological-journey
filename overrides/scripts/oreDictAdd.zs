@@ -378,5 +378,6 @@ h(<appliedenergistics2:vibration_chamber>);
 
 // Hides internal contenttweaker things
 h(<contenttweaker:awakenedcasing>);
+h(<contenttweaker:chaoticcasing>);
 
 

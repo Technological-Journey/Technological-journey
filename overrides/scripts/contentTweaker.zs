@@ -22,3 +22,6 @@ certificate_of_being_a_noob.register();
 
 var awakenedcasing = VanillaFactory.createBlock("awakenedcasing", <blockmaterial:iron>);
 awakenedcasing.register();
+
+var chaoticcasing = VanillaFactory.createBlock("chaoticcasing", <blockmaterial:iron>);
+chaoticcasing.register();
