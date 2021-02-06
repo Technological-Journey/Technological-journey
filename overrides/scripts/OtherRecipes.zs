@@ -595,3 +595,6 @@ extruder.recipeBuilder()
 .duration(30000000)
 .EUt(3)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2300>], [], false); 
+Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2300>], [], false); 
