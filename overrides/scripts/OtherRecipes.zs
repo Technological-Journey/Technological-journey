@@ -598,3 +598,4 @@ extruder.recipeBuilder()
 
 Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2300>], [], false); 
 Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2300>], [], false); 
+recipes.addShaped(<enderio:item_material:48>, [[null, <minecraft:tallgrass:1>, null],[<minecraft:tallgrass:1>, null, <minecraft:tallgrass:1>], [null, <minecraft:tallgrass:1>, null]]);
