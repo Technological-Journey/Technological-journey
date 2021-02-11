@@ -626,3 +626,10 @@ furnace.remove(<libvulpes:productingot:9>);
 furnace.remove(<libvulpes:productingot:10>);
 furnace.remove(<advancedrocketry:productingot:1>);
 furnace.remove(<advancedrocketry:productingot>);
+
+Clustermill.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32027>])
+.outputs([<gtadditions:ga_meta_item:32028> * 4])
+.duration(90)
+.EUt(30)
+.buildAndRegister();
