@@ -599,3 +599,30 @@ extruder.recipeBuilder()
 Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2300>], [], false); 
 Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2300>], [], false); 
 recipes.addShaped(<enderio:item_material:48>, [[null, <minecraft:tallgrass:1>, null],[<minecraft:tallgrass:1>, null, <minecraft:tallgrass:1>], [null, <minecraft:tallgrass:1>, null]]);
+
+centrifuge.recipeBuilder()
+.inputs([<advancedrocketry:moonturf>])
+.outputs([<gregtech:meta_item_1:1061>])
+.chancedOutput(<gregtech:meta_item_1:1061>,3000,400)
+.fluidOutputs(<liquid:helium3> * 40)
+.duration(120)
+.EUt(32)
+.buildAndRegister();
+
+centrifuge.recipeBuilder()
+.inputs([<advancedrocketry:moonturf_dark>])
+.outputs([<gregtech:meta_item_1:1061>])
+.chancedOutput(<gregtech:meta_item_1:1061>,3000,400)
+.fluidOutputs(<liquid:helium3> * 40)
+.duration(120)
+.EUt(32)
+.buildAndRegister();
+furnace.remove(<libvulpes:productingot:7>);
+furnace.remove(<libvulpes:productingot:6>);
+furnace.remove(<libvulpes:productingot:3>);
+furnace.remove(<libvulpes:productingot:4>);
+furnace.remove(<libvulpes:productingot:5>);
+furnace.remove(<libvulpes:productingot:9>);
+furnace.remove(<libvulpes:productingot:10>);
+furnace.remove(<advancedrocketry:productingot:1>);
+furnace.remove(<advancedrocketry:productingot>);
