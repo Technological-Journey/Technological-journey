@@ -485,7 +485,7 @@ reactor.recipeBuilder()
 
 large_chem.recipeBuilder()
 .inputs(<gregtech:meta_item_1:2125> * 6, <gregtech:meta_item_1:2063> * 3)
-.outputs(<gregtech:meta_item_1:1038> * 12)
+.outputs(<gregtech:meta_item_1:1038> * 8)
 .fluidOutputs(<liquid:chlorine> * 2000)
 .duration(300)
 .EUt(240)
