@@ -633,3 +633,13 @@ Clustermill.recipeBuilder()
 .duration(90)
 .EUt(30)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtechenergistics:metaitem1:8>], [], false); 
+
+ assembler.recipeBuilder()
+ .inputs(<gregtech:meta_item_1:12071> * 2, <minecraft:redstone> * 2)
+ .outputs(<gregtechenergistics:metaitem1:8>)
+ .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+ .duration(200)
+ .EUt(128)
+ .buildAndRegister();
