@@ -650,3 +650,21 @@ Utils.removeRecipeByOutput(assembler, [<gregtechenergistics:metaitem1:8>], [], f
 .duration(1200)
 .EUt(2097152)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:10001>], [], false); 
+blast_furnace.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2001>)
+    .outputs(<gregtech:meta_item_1:10001>)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+    .property("temperature", 1700) //this is a minimal temperature at which the item will be smelted
+    .duration(844)
+    .EUt(120)
+    .buildAndRegister();
+Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:10006>], [], false); 
+    blast_furnace.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2001> * 2, <gtadditions:ga_dust:95> * 2)
+    .outputs(<gtadditions:ga_dust:96> * 2,<gregtech:meta_item_1:10006>)
+    .property("temperature", 700) //this is a minimal temperature at which the item will be smelted
+    .duration(240)
+    .EUt(500)
+    .buildAndRegister();
