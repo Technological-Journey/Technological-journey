@@ -643,3 +643,10 @@ Utils.removeRecipeByOutput(assembler, [<gregtechenergistics:metaitem1:8>], [], f
  .duration(200)
  .EUt(128)
  .buildAndRegister();
+ 
+ freezer.recipeBuilder()
+.fluidInputs(<liquid:air>* 1000)
+.fluidOutputs(<liquid:liquid_air> * 1000)
+.duration(1200)
+.EUt(2097152)
+.buildAndRegister();
