@@ -668,3 +668,13 @@ Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:10006>], [], fa
     .duration(240)
     .EUt(500)
     .buildAndRegister();
+recipes.addShapeless(<gregtech:meta_item_1:8357>, [<thermalfoundation:material:802>]);
+recipes.addShapeless(<gregtech:compressed_15:4>, [<thermalfoundation:storage_resource:1>]);
+recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockFuelCoke>, null], [null, null, null]]);
+recipes.removeShaped(<gregtech:compressed_15:4>, [[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>],[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>], [<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>]]);
+recipes.removeShaped(<thermalfoundation:storage_resource:1>, [[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>],[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>], [<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>]]);
+recipes.removeShapeless(<thermalfoundation:material:802> * 9, [ <gregtech:compressed_15:4>]);
+recipes.removeShapeless(<thermalfoundation:material:802> * 9, [ <thermalfoundation:storage_resource:1>]);
+recipes.removeShaped(<thermalfoundation:material:802>, [[null, null, null],[null, <gregtech:compressed_15:4>, null], [null, null, null]]);
+recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockCoke>, null], [null, null, null]]);
+recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockFuelCoke>, null], [null, null, null]]);
