@@ -375,5 +375,6 @@ h(<gregtech:machine:17>);
 h(<gregtech:machine:18>);
 h(<gregtech:machine:13>);
 h(<appliedenergistics2:vibration_chamber>);
-
+h(<thermalfoundation:storage_resource:1>);
+h(<thermalfoundation:material:802>);
 
