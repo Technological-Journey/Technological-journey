@@ -6,14 +6,14 @@
 
     "duration": 100,
 
-    "catalyst": "thermalfoundation:storage_resource",
-    "catalyst-meta": "1",
+    "catalyst": "gregtech:compressed_15",
+    "catalyst-meta": "4",
 
 
     "input-types": {
         "a": {
-            "id": "thermalfoundation:storage_resource",
-            "meta": 1
+            "id": "gregtech:compressed_15",
+            "meta": 4
         },
         "b": {
             "id": "minecraft:log",
