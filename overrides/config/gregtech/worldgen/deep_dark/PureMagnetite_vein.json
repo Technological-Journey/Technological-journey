@@ -23,8 +23,13 @@
                 },
 
                 {
-                    "weight": 50,
+                    "weight": 25,
                     "value": "ore:pure:vanadium_magnetite"
+                },
+
+                {
+                    "weight": 25,
+                    "value": "ore:pure:precious_metal"
                 }
             ]
         }
