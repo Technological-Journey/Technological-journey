@@ -225,14 +225,14 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:quartz_glass> * 4,<gregtech:meta_item_1:32610> * 4,<gregtech:machine:501>])
 .outputs([<appliedenergistics2:fluid_interface>])
-.duration(160)
+.duration(150)
 .EUt(32)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:quartz_glass> * 4,<gregtech:meta_item_1:32640> * 4,<gregtech:machine:501>])
 .outputs([<appliedenergistics2:interface>])
-.duration(160)
+.duration(150)
 .EUt(32)
 .buildAndRegister();
 
@@ -527,3 +527,53 @@ for item in ae3Items {
             h(item);
     }
 }
+
+assembler.recipeBuilder()
+.inputs([<gregtech:machine:503>,<appliedenergistics2:quartz_glass> * 2,<gregtech:meta_item_1:32612> *2 ])
+.outputs([<appliedenergistics2:fluid_interface>])
+.duration(150)
+.EUt(512)
+.buildAndRegister();
+assembler.recipeBuilder()
+.inputs([<gregtech:machine:503>,<appliedenergistics2:quartz_glass> * 2,<gregtech:meta_item_1:32642> *2])
+.outputs([<appliedenergistics2:interface>])
+.duration(150)
+.EUt(512)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:32614>,<appliedenergistics2:quartz_glass>,<gregtech:machine:505>])
+.outputs([<appliedenergistics2:fluid_interface>])
+.duration(150)
+.EUt(8192)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:32644>,<appliedenergistics2:quartz_glass> ,<gregtech:machine:505>])
+.outputs([<appliedenergistics2:interface>])
+.duration(150)
+.EUt(8192)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:32616>,<appliedenergistics2:quartz_glass>,<gregtech:machine:507> * 2])
+.outputs([<appliedenergistics2:fluid_interface> * 2])
+.duration(150)
+.EUt(131072)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:32646>,<appliedenergistics2:quartz_glass> ,<gregtech:machine:507> * 2])
+.outputs([<appliedenergistics2:interface> * 2])
+.duration(150)
+.EUt(131072)
+.buildAndRegister();
+recipes.addShapeless(<appliedenergistics2:interface>, [<appliedenergistics2:part:440>]);
+recipes.addShapeless(<appliedenergistics2:fluid_interface>, [<appliedenergistics2:part:441>]);
+
+assembler.recipeBuilder()
+.inputs([<enderio:item_material:4> * 5,<enderio:item_me_conduit> * 4])
+.outputs([<enderio:item_me_conduit:1> * 8])
+.duration(150)
+.EUt(32)
+.buildAndRegister();
