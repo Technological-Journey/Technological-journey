@@ -213,7 +213,7 @@ centrifuge.findRecipe(48000,null,[<fluid:liquid_air>* 53000]).remove();
     recipes.addShaped(<thermalfoundation:material:656>, [[null, <gregtech:meta_item_1:13183>, null],[<gregtech:meta_item_1:13183>, <gregtech:meta_item_2:19183>, <gregtech:meta_item_1:13183>], [null, <gregtech:meta_item_1:13183>, null]]);
 //    recipes.removeShaped(<minecraft:hopper>);
     
-    recipes.addShaped(<beneath:teleporterbeneath>,[[<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>,<gregtech:meta_item_1:10300>],[<gregtech:meta_item_1:10300>,<gregtech:machine:2221>,<gregtech:meta_item_1:10235>],[<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>,<gregtech:meta_item_1:10235>]]);
+    recipes.addShaped(<beneath:teleporterbeneath>, [[<gregtech:meta_item_1:10032>, <gregtech:meta_item_1:10047>, <gregtech:meta_item_1:10047>],[<gregtech:meta_item_1:10032>, <gregtech:machine:2223>, <gregtech:meta_item_1:10047>], [<gregtech:meta_item_1:10032>, <gregtech:meta_item_1:10032>, <gregtech:meta_item_1:10047>]]);
     <beneath:teleporterbeneath>.displayName = "Deep Dark Portal";
     assembler.recipeBuilder()
         .inputs([<gregtech:meta_item_1:13184>,<enderio:item_alloy_ingot:6>])
