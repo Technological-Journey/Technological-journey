@@ -18,16 +18,12 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 45,
+                    "weight": 50,
                     "value": "ore:pure:platinum_metallic_powder"
                 },
                 {
-                    "weight": 35,
+                    "weight": 50,
                     "value": "ore:pure:palladium_metallic_powder"
-                },
-                {
-                    "weight": 20,
-                    "value": "ore:pure:rarest_metal_residue"
                 }
             ]
         }
