@@ -4,7 +4,7 @@
     "max_height": 40,
     "min_height": 10,
     "dimension_filter": [
-        "dimension_id:10"
+        "dimension_id:404"
     ],
 
     "generator": {
