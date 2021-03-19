@@ -678,3 +678,7 @@ recipes.removeShapeless(<thermalfoundation:material:802> * 9, [ <thermalfoundati
 recipes.removeShaped(<thermalfoundation:material:802>, [[null, null, null],[null, <gregtech:compressed_15:4>, null], [null, null, null]]);
 recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockCoke>, null], [null, null, null]]);
 recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockFuelCoke>, null], [null, null, null]]);
+recipes.addShaped(<danknull:dank_null_panel_0>, [[<minecraft:redstone_block>, <minecraft:coal_block>, <minecraft:redstone_block>],[<minecraft:coal_block>, <minecraft:glass>, <minecraft:coal_block>], [<minecraft:redstone_block>, <minecraft:coal_block>, <minecraft:redstone_block>]]);
+recipes.addShaped(<danknull:dank_null_0>, [[<danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>],[<danknull:dank_null_panel_0>, <minecraft:coal_block>, <danknull:dank_null_panel_0>], [<danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>]]);
+recipes.remove(<danknull:dank_null_0>);
+recipes.remove(<danknull:dank_null_panel_0>);
