@@ -46,14 +46,14 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //black
 assembler.recipeBuilder()
-.inputs([<actuallyadditions:block_crystal:3>,<actuallyadditions:block_misc:5> *2,<gregtech:compressed_10> * 2 ])
+.inputs([<actuallyadditions:block_crystal:3>,<ore:blockCharcoal> * 2,<gregtech:compressed_10> * 2 ])
 .fluidInputs(<liquid:plastic> * 288)
 .outputs([<actuallyadditions:block_crystal_empowered:3>])
 .duration(160)
 .EUt(128)
 .buildAndRegister();
 assembler.recipeBuilder()
-.inputs([<actuallyadditions:item_crystal:3>,<actuallyadditions:block_misc:5> *2,<gregtech:compressed_10> * 2 ])
+.inputs([<actuallyadditions:item_crystal:3>,<ore:blockCharcoal> * 2,<gregtech:compressed_10> * 2 ])
 .fluidInputs(<liquid:plastic> * 288)
 .outputs([<actuallyadditions:item_crystal_empowered:3>])
 .duration(160)
