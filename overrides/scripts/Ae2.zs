@@ -556,15 +556,15 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:32616>,<appliedenergistics2:quartz_glass>,<gregtech:machine:507> * 2])
-.outputs([<appliedenergistics2:fluid_interface> * 2])
+.inputs([<gregtech:meta_item_1:32616>,<appliedenergistics2:quartz_glass> * 16,<gregtech:machine:507> * 16])
+.outputs([<appliedenergistics2:fluid_interface> * 16])
 .duration(150)
 .EUt(131072)
 .buildAndRegister();
 
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:32646>,<appliedenergistics2:quartz_glass> ,<gregtech:machine:507> * 2])
-.outputs([<appliedenergistics2:interface> * 2])
+.inputs([<gregtech:meta_item_1:32646>,<appliedenergistics2:quartz_glass> * 16,<gregtech:machine:507> * 16])
+.outputs([<appliedenergistics2:interface> * 16])
 .duration(150)
 .EUt(131072)
 .buildAndRegister();
@@ -573,7 +573,7 @@ recipes.addShapeless(<appliedenergistics2:fluid_interface>, [<appliedenergistics
 
 assembler.recipeBuilder()
 .inputs([<enderio:item_material:4> * 5,<enderio:item_me_conduit> * 4])
-.outputs([<enderio:item_me_conduit:1> * 8])
+.outputs([<enderio:item_me_conduit:1> * 4])
 .duration(150)
-.EUt(32)
+.EUt(512)
 .buildAndRegister();
