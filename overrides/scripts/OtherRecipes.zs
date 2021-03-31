@@ -692,7 +692,7 @@ implosion.recipeBuilder()
 .buildAndRegister();
 
 mixer.recipeBuilder()
-.inputs(<ore:dustRedstone>,<ore:dustGold>)
+.inputs(<ore:dustRedstone>,<gregtech:meta_item_1:2026>)
 .outputs(<minecraft:glowstone_dust> * 2)
 .duration(120)
 .EUt(30)
