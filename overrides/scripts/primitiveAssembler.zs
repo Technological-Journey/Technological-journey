@@ -128,3 +128,10 @@ primitive_asssembler.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:steam> * 1000)
     .duration(150)
     .buildAndRegister();
+
+    primitive_asssembler.recipeMap.recipeBuilder()
+    .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:blaze"}) *9)
+    .outputs(<minecraft:blaze_rod> * 3,<enderio:item_soul_vial> *9)
+    .fluidInputs(<liquid:steam> * 4000)
+    .duration(150)
+    .buildAndRegister();
