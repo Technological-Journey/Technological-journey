@@ -682,3 +682,18 @@ recipes.addShaped(<danknull:dank_null_panel_0>, [[<minecraft:redstone_block>, <m
 recipes.addShaped(<danknull:dank_null_0>, [[<danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>],[<danknull:dank_null_panel_0>, <minecraft:coal_block>, <danknull:dank_null_panel_0>], [<danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>, <danknull:dank_null_panel_0>]]);
 recipes.remove(<danknull:dank_null_0>);
 recipes.remove(<danknull:dank_null_panel_0>);
+
+implosion.recipeBuilder()
+.inputs(<minecraft:blaze_powder> *15)
+.outputs(<minecraft:blaze_rod> *3)
+.property("explosives", 10)
+.duration(20)
+.EUt(30)
+.buildAndRegister();
+
+mixer.recipeBuilder()
+.inputs(<ore:dustRedstone>,<ore:dustGold>)
+.outputs(<minecraft:glowstone_dust> * 2)
+.duration(120)
+.EUt(30)
+.buildAndRegister();
