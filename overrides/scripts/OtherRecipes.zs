@@ -697,3 +697,10 @@ mixer.recipeBuilder()
 .duration(120)
 .EUt(30)
 .buildAndRegister();
+
+centrifuge.recipeBuilder()
+.inputs([<advancedrocketry:electricmushroom>])
+.fluidOutputs(<liquid:methane> * 500)
+.duration(100)
+.EUt(32)
+.buildAndRegister();
