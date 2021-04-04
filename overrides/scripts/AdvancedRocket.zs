@@ -171,18 +171,18 @@ macerator.recipeBuilder()
 .buildAndRegister();
 
 alloy.recipeBuilder()
-    .inputs([<advancedrocketry:hotturf>,<minecraft:glass>])
+    .inputs([<advancedrocketry:hotturf> * 10,<minecraft:glass>])
     .outputs([<gtadditions:ga_transparent_casing>])
-    .duration(160)
-    .EUt(32)
+    .duration(300)
+    .EUt(2048)
     .buildAndRegister();
 
     chemreactor.recipeBuilder()
 .inputs([<ore:sand> * 2,<gregtech:meta_item_1:2033>])
 .fluidInputs( <liquid:oxygen> * 2000)
 .outputs([<advancedrocketry:hotturf>])
-.duration(600)
-.EUt(32)
+.duration(1200)
+.EUt(512)
 .buildAndRegister();
 
 autoclave.recipeBuilder()
