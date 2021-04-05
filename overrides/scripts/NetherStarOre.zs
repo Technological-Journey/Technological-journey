@@ -16,3 +16,5 @@ val lvSuper = MaterialRegistry.createIngotMaterial(516, "lv_superconductor", 0xf
 val lvBase = MaterialRegistry.createIngotMaterial(517, "lv_superconductor_base", 0xffffff, "dull", 4);
 lvBase.setCableProperties(32, 4, 6);
 lvSuper.setCableProperties(32, 4, 0);
+
+val boosted_octane_gasoline = MaterialRegistry.createFluidMaterial(524,  "boosted_octane_gasoline", 0x696969, "FLUID", null);
