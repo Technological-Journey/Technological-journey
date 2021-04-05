@@ -705,11 +705,11 @@ centrifuge.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 
-large_chem.recipeBuilder()
-.fluidInputs(<liquid:high_octane> *60000, <liquid:tetranitromethane> *3000, <liquid:toluene> * 1000)
+mixer.recipeBuilder()
+.fluidInputs(<liquid:high_octane> *60000, <liquid:tetranitromethane> *4000)
 .fluidOutputs(<liquid:boosted_octane_gasoline> * 64000)
-.duration(20)
-.EUt(2048)
+.duration(40)
+.EUt(512)
 .buildAndRegister();
 
 recipes.remove(<gregtech:machine:2514>);
