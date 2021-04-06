@@ -715,3 +715,12 @@ mixer.recipeBuilder()
 recipes.remove(<gregtech:machine:2514>);
 recipes.addShaped(<gregtech:machine:2514>, [[<gregtech:meta_item_1:12300>, <gregtech:machine:63>, <gregtech:meta_item_1:12300>],[<gregtech:machine:62>, <ore:circuitExtreme>, <gregtech:machine:62>], [<gregtech:meta_item_1:12300>, <gregtech:machine:505>, <gregtech:meta_item_1:12300>]]);
 
+Utils.removeRecipeByOutput(large_chem, [], [<liquid:ortho_xylene> * 10000], false);
+large_chem.recipeBuilder()
+.fluidInputs(<liquid:methanol> *1000, <liquid:toluene> * 1000)
+.fluidOutputs(<liquid:ortho_xylene> * 1000,<liquid:water> * 1000 )
+.circuit(1)
+.duration(4000)
+.EUt(120)
+.buildAndRegister();
+
