@@ -1,0 +1,39 @@
+{
+    "dims": [{
+            "dimID": 0,
+            "dimName": "Overworld"
+        },
+        {
+            "dimID": 1,
+            "dimName": "End"
+        },
+        {
+            "dimID": -1,
+            "dimName": "Nether"
+        },
+        {
+            "dimID": 400,
+            "dimName": "Coal asteroid"
+        },
+        {
+            "dimID": 401,
+            "dimName": "cosmic wasteland"
+        },
+        {
+            "dimID": 402,
+            "dimName": "Saline Wasteland"
+        },
+        {
+            "dimID": 403,
+            "dimName": "Molten earth"
+        },
+        {
+            "dimID": 3,
+            "dimName": "Moon"
+        },
+        {
+            "dimID": 4,
+            "dimName": "Deep dark"
+        }
+    ]
+}
