@@ -724,3 +724,20 @@ large_chem.recipeBuilder()
 .EUt(120)
 .buildAndRegister();
 
+Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32492>], [], false);
+
+circuit_assembler.recipeBuilder()
+.inputs(<gregtech:meta_item_2:32481> * 4,<gregtech:meta_item_2:16001> * 2, <gtadditions:ga_meta_item:32033>, <gregtech:meta_item_2:32458> *8,<gregtech:meta_item_2:32460> *8,<gregtech:meta_item_2:32459> *8 )
+.outputs(<gregtech:meta_item_2:32492> * 4)
+.fluidInputs(<liquid:soldering_alloy> *200)
+.duration(150)
+.EUt(2000)
+.buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+.inputs(<gregtech:meta_item_2:32481> * 4,<gregtech:meta_item_2:16001> * 2, <gtadditions:ga_meta_item:32033>, <gtadditions:ga_meta_item:32246>* 4, <gtadditions:ga_meta_item:32244>* 4,<gtadditions:ga_meta_item:32245> *4)
+.outputs(<gregtech:meta_item_2:32492> * 4)
+.fluidInputs(<liquid:soldering_alloy> *200)
+.duration(150)
+.EUt(2000)
+.buildAndRegister();
