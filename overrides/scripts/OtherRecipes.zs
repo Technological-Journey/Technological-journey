@@ -746,4 +746,4 @@ circuit_assembler.recipeBuilder()
 recipes.addShapeless(<thermalfoundation:material:657>, [<architecturecraft:sawblade>]);
 recipes.addShapeless(<appliedenergistics2:part:221>, [<appliedenergistics2:part:220>,<ore:gemLapis>]);
 recipes.addShapeless(<appliedenergistics2:part:220>, [<appliedenergistics2:part:221>]);
-
+furnace.remove(<gregtech:meta_item_1:10047>);
