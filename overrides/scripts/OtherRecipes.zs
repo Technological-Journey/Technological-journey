@@ -742,3 +742,8 @@ circuit_assembler.recipeBuilder()
 .duration(150)
 .EUt(2000)
 .buildAndRegister();
+
+recipes.addShapeless(<thermalfoundation:material:657>, [<architecturecraft:sawblade>]);
+recipes.addShapeless(<appliedenergistics2:part:221>, [<appliedenergistics2:part:220>,<ore:gemLapis>]);
+recipes.addShapeless(<appliedenergistics2:part:220>, [<appliedenergistics2:part:221>]);
+
