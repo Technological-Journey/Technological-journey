@@ -24,7 +24,7 @@
                 <orbitalDistance>150</orbitalDistance>
                 <orbitalTheta>0</orbitalTheta>
                 <orbitalPhi>10</orbitalPhi>
-                <hasOxygen>true</hasOxygen>
+                <hasOxygen>false</hasOxygen>
                 <avgTemperature>255</avgTemperature>
                 <rotationalPeriod>128000</rotationalPeriod>
                 <atmosphereDensity>0</atmosphereDensity>
@@ -53,7 +53,7 @@
             <generateVolcanos>false</generateVolcanos>
             <generateStructures>false</generateStructures>
             <generateGeodes>false</generateGeodes>
-            <hasOxygen>true</hasOxygen>
+            <hasOxygen>false</hasOxygen>
             <fillerBlock>gregtech:granite</fillerBlock>
             <!-- Advanced rocketry charcoal log -->
             <artifact>advancedrocketry:charcoallog</artifact>
@@ -68,7 +68,7 @@
                 <orbitalDistance>100</orbitalDistance>
                 <orbitalTheta>40</orbitalTheta>
                 <orbitalPhi>90</orbitalPhi>
-                <hasOxygen>true</hasOxygen>
+                <hasOxygen>false</hasOxygen>
                 <rotationalPeriod>14000</rotationalPeriod>
                 <atmosphereDensity>150</atmosphereDensity>
                 <generateCraters>false</generateCraters>
@@ -86,7 +86,7 @@
                     <orbitalDistance>100</orbitalDistance>
                     <orbitalTheta>60</orbitalTheta>
                     <orbitalPhi>90</orbitalPhi>
-                    <hasOxygen>true</hasOxygen>
+                    <hasOxygen>false</hasOxygen>
                     <rotationalPeriod>14000</rotationalPeriod>
                     <atmosphereDensity>150</atmosphereDensity>
                     <generateCraters>false</generateCraters>
@@ -106,7 +106,7 @@
         <orbitalTheta>120</orbitalTheta>
         <orbitalPhi>90</orbitalPhi>
         <rotationalPeriod>14000</rotationalPeriod>
-        <hasOxygen>true</hasOxygen>
+        <hasOxygen>false</hasOxygen>
         <atmosphereDensity>150</atmosphereDensity>
         <generateCraters>false</generateCraters>
         <generateVolcanos>false</generateVolcanos>
