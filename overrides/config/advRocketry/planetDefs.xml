@@ -39,7 +39,7 @@
         
     </star>
     <star blackHole="false" name="Sol-235" numGasGiants="0" numPlanets="3" size="1.0" temp="100" x="50" y="50">
-        <planet DIMID="400" name="Carbon Wasteland" temp="100" customIcon="CarbonWorld">
+        <planet DIMID="400" name="Titan" temp="100" customIcon="CarbonWorld">
             <isKnown>true</isKnown>
             <skyColor>0x696969</skyColor>
             <fogColor>0x696969</fogColor>
@@ -79,13 +79,31 @@
                <artifact>advancedrocketry:hotturf</artifact> 
                 <biomeIds>advancedrocketry:crystalchasms,advancedrocketry:hotdryrock</biomeIds> 
                 </planet>
-                <planet DIMID="402" name="Saline Wasteland" temp="100" customIcon="Venusian">
+                <planet DIMID="405" name="Mars" temp="10" customIcon="MarsLike">
+                    <isKnown>true</isKnown>
+                    <skyColor>0xFF6347</skyColor>
+                    <gravitationalMultiplier>100</gravitationalMultiplier>
+                    <orbitalDistance>130</orbitalDistance>
+                    <orbitalTheta>80</orbitalTheta>
+                    <orbitalPhi>100</orbitalPhi>
+                    <hasOxygen>false</hasOxygen>
+                    <rotationalPeriod>14000</rotationalPeriod>
+                    <atmosphereDensity>150</atmosphereDensity>
+                    <generateCraters>false</generateCraters>
+                    <generateVolcanos>false</generateVolcanos>
+                    <generateStructures>false</generateStructures>
+                    <generateGeodes>false</generateGeodes>
+                    <oceanBlock>Minecraft:lava</oceanBlock>
+                    <!-- block of Californiuum -->
+                    <artifact>gregtech:compressed_24 8</artifact> 
+                    <biomeIds>advancedrocketry:volcanicbarren</biomeIds> 
+                <planet DIMID="402" name="Phobos" temp="100" customIcon="Venusian">
                     <isKnown>true</isKnown>
                     <skyColor>0xD3D3D3</skyColor>
                     <gravitationalMultiplier>100</gravitationalMultiplier>
                     <orbitalDistance>100</orbitalDistance>
-                    <orbitalTheta>60</orbitalTheta>
-                    <orbitalPhi>90</orbitalPhi>
+                    <orbitalTheta>100</orbitalTheta>
+                    <orbitalPhi>100</orbitalPhi>
                     <hasOxygen>false</hasOxygen>
                     <rotationalPeriod>14000</rotationalPeriod>
                     <atmosphereDensity>150</atmosphereDensity>
@@ -97,7 +115,8 @@
                     <artifact>gregtech:compressed_7 9</artifact> 
                     <biomeIds>advancedrocketry:alien forest,24</biomeIds> 
                     </planet>
-    <planet DIMID="403" name="Molten earth" temp="10" customIcon="MarsLike">
+                </planet>
+    <planet DIMID="403" name="Mercury" temp="10" customIcon="MarsLike">
         <isKnown>true</isKnown>
         <skyColor>0x8b0000</skyColor>
         <fogColor>0xffcccb </fogColor>
