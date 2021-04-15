@@ -747,3 +747,17 @@ recipes.addShapeless(<thermalfoundation:material:657>, [<architecturecraft:sawbl
 recipes.addShapeless(<appliedenergistics2:part:221>, [<appliedenergistics2:part:220>,<ore:gemLapis>]);
 recipes.addShapeless(<appliedenergistics2:part:220>, [<appliedenergistics2:part:221>]);
 furnace.remove(<gregtech:meta_item_1:10047>);
+
+macerator.recipeBuilder()
+.inputs([<libvulpes:ore0>])
+.outputs(<libvulpes:productdust> * 2)
+.duration(120)
+.EUt(17)
+.buildAndRegister();
+
+electrolyzer.recipeBuilder()
+.inputs([<libvulpes:productdust>])
+.outputs(<gregtech:meta_item_1:2036> * 2)
+.duration(120)
+.EUt(17)
+.buildAndRegister();
