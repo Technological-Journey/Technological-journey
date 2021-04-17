@@ -761,3 +761,13 @@ electrolyzer.recipeBuilder()
 .duration(120)
 .EUt(17)
 .buildAndRegister();
+
+chemreactor.findRecipe(1920, [<gregtech:meta_item_2:32467>,<gregtech:cable:5354> * 8], null).remove();
+large_chem.findRecipe(1920, [<gregtech:meta_item_2:32467>,<gregtech:cable:5354> * 8], null).remove();
+
+decay.recipeBuilder()
+.fluidInputs(<liquid:radium> * 1000)
+.fluidOutputs(<liquid:radon> * 1000)
+.duration(180)
+.EUt(10000)
+.buildAndRegister();
