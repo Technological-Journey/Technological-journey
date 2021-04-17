@@ -10,6 +10,7 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:plutonium_radioactive>.addFlags(["GENERATE_ORE"]);
 <material:neptunium>.addFlags(["GENERATE_ORE"]);
 <material:rhodium_salt>.addFlags(["GENERATE_ORE"]);
+<material:californium>.addFlags(["GENERATE_ORE"]);
 
 //val cosmicNeutronium = MaterialRegistry.createIngotMaterial(515, "cosmic_neutronium", 0x000000, "shiny", 4);
 //cosmicNeutronium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE"]);
