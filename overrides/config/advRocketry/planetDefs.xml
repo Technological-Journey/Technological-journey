@@ -96,7 +96,7 @@
                     <oceanBlock>Minecraft:lava</oceanBlock>
                     <!-- block of Californiuum -->
                     <artifact>gregtech:compressed_24 8</artifact> 
-                    <biomeIds>advancedrocketry:volcanicbarren</biomeIds> 
+                    <biomeIds>advancedrocketry:hotdryrock</biomeIds> 
                 <planet DIMID="402" name="Phobos" temp="100" customIcon="Venusian">
                     <isKnown>true</isKnown>
                     <skyColor>0xD3D3D3</skyColor>
