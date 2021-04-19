@@ -18,8 +18,12 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 90,
+                    "weight": 70,
                     "value": "ore:pure:uranium_radioactive"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:uranium"
                 },
                 {
                     "weight": 8,
