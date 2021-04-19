@@ -771,3 +771,60 @@ decay.recipeBuilder()
 .duration(180)
 .EUt(10000)
 .buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32130> * 4, <enderio:block_normal_wireless_charger>])
+.outputs([<mechtech:mt_meta_item:2000> * 4])
+.duration(200)
+.EUt(2048)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gregtech:machine:502>])
+.outputs([<gtadditions:ga_meta_item:32571>])
+.duration(200)
+.EUt(128)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gtadditions:ga_meta_item:32571>])
+.outputs([<gtadditions:ga_meta_item:32572>])
+.duration(200)
+.EUt(512)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gtadditions:ga_meta_item:32572>])
+.outputs([<gtadditions:ga_meta_item:32573>])
+.duration(200)
+.EUt(2048)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gtadditions:ga_meta_item:32573>])
+.outputs([<gtadditions:ga_meta_item:32574>])
+.duration(200)
+.EUt(8192)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gtadditions:ga_meta_item:32574>])
+.outputs([<gtadditions:ga_meta_item:32575>])
+.duration(200)
+.EUt(32768)
+.buildAndRegister();
+
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gtadditions:ga_meta_item:32575>])
+.outputs([<gtadditions:ga_meta_item:32576>])
+.duration(200)
+.EUt(131072)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gtadditions:ga_meta_item:32576>])
+.outputs([<gtadditions:ga_meta_item:32577>])
+.duration(200)
+.EUt(524288)
+.buildAndRegister();
