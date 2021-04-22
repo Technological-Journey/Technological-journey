@@ -93,7 +93,6 @@
                     <generateVolcanos>false</generateVolcanos>
                     <generateStructures>false</generateStructures>
                     <generateGeodes>false</generateGeodes>
-                    <oceanBlock>Minecraft:lava</oceanBlock>
                     <!-- block of Californiuum -->
                     <artifact>gregtech:compressed_24 8</artifact> 
                     <biomeIds>advancedrocketry:hotdryrock</biomeIds> 
