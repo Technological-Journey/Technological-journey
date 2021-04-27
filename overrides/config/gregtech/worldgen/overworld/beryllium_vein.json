@@ -16,20 +16,24 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 50,
+                    "weight": 30,
                     "value": "ore:beryllium"
                 },
                 {
-                    "weight": 30,
+                    "weight": 15,
                     "value": "ore:emerald"
                 },
                 {
-                    "weight": 18,
+                    "weight": 15,
                     "value": "ore:thorium"
                 },
                 {
                     "weight": 20,
                     "value": "ore:poor:bastnasite"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:uraninite"
                 }
             ]
         }
