@@ -18,9 +18,14 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                "weight": 100,
-                "value": "ore:pure:aluminium"
-            }]
+                    "weight": 50,
+                    "value": "ore:pure:aluminium"
+                },
+                {
+                    "weight": 50,
+                    "value": "ore:pure:sphalerite"
+                }
+            ]
         }
     }
 }
