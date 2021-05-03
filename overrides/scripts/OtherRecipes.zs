@@ -648,8 +648,8 @@ Utils.removeRecipeByOutput(assembler, [<gregtechenergistics:metaitem1:8>], [], f
  freezer.recipeBuilder()
 .fluidInputs(<liquid:air>* 1000)
 .fluidOutputs(<liquid:liquid_air> * 1000)
-.duration(1200)
-.EUt(2097152)
+.duration(30)
+.EUt(8192)
 .buildAndRegister();
 
 Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:10001>], [], false); 
