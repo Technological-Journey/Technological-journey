@@ -213,7 +213,7 @@ centrifuge.findRecipe(48000,null,[<fluid:liquid_air>* 53000]).remove();
     recipes.addShaped(<thermalfoundation:material:656>, [[null, <gregtech:meta_item_1:13183>, null],[<gregtech:meta_item_1:13183>, <gregtech:meta_item_2:19183>, <gregtech:meta_item_1:13183>], [null, <gregtech:meta_item_1:13183>, null]]);
 //    recipes.removeShaped(<minecraft:hopper>);
     
-    recipes.addShaped(<beneath:teleporterbeneath>, [[<gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13032>],[<gregtech:meta_item_1:13047>, <gregtech:machine:2548>, <gregtech:meta_item_1:13032>], [<gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13032>, <gregtech:meta_item_1:13032>]]);
+   recipes.addShaped(<beneath:teleporterbeneath>, [[<gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13032>],[<gregtech:meta_item_1:13047>, <gregtech:machine:2548>, <gregtech:meta_item_1:13032>], [<gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13032>, <gregtech:meta_item_1:13032>]]);
     <beneath:teleporterbeneath>.displayName = "Deep Dark Portal";
     assembler.recipeBuilder()
         .inputs([<gregtech:meta_item_1:13184>,<enderio:item_alloy_ingot:6>])
@@ -637,38 +637,20 @@ Clustermill.recipeBuilder()
 
 Utils.removeRecipeByOutput(assembler, [<gregtechenergistics:metaitem1:8>], [], false); 
 
- assembler.recipeBuilder()
- .inputs(<gregtech:meta_item_1:12071> * 2, <minecraft:redstone> * 2)
- .outputs(<gregtechenergistics:metaitem1:8>)
- .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
- .duration(200)
- .EUt(128)
- .buildAndRegister();
- 
- freezer.recipeBuilder()
+assembler.recipeBuilder()
+.inputs(<gregtech:meta_item_1:12071> * 2, <minecraft:redstone> * 2)
+.outputs(<gregtechenergistics:metaitem1:8>)
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.duration(200)
+.EUt(128)
+.buildAndRegister();
+
+freezer.recipeBuilder()
 .fluidInputs(<liquid:air>* 1000)
 .fluidOutputs(<liquid:liquid_air> * 1000)
 .duration(30)
 .EUt(8192)
 .buildAndRegister();
-
-Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:10001>], [], false); 
-blast_furnace.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2001>)
-    .outputs(<gregtech:meta_item_1:10001>)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
-    .property("temperature", 1700) //this is a minimal temperature at which the item will be smelted
-    .duration(844)
-    .EUt(120)
-    .buildAndRegister();
-Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:10006>], [], false); 
-    blast_furnace.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2001> * 2, <gtadditions:ga_dust:95> * 2)
-    .outputs(<gtadditions:ga_dust:96> * 2,<gregtech:meta_item_1:10006>)
-    .property("temperature", 700) //this is a minimal temperature at which the item will be smelted
-    .duration(240)
-    .EUt(500)
-    .buildAndRegister();
 recipes.addShapeless(<gregtech:meta_item_1:8357>, [<thermalfoundation:material:802>]);
 recipes.addShapeless(<gregtech:compressed_15:4>, [<thermalfoundation:storage_resource:1>]);
 recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockFuelCoke>, null], [null, null, null]]);
@@ -715,13 +697,7 @@ mixer.recipeBuilder()
 
 recipes.remove(<gregtech:machine:2514>);
 recipes.addShaped(<gregtech:machine:2514>, [[<gregtech:meta_item_1:12300>, <gregtech:machine:63>, <gregtech:meta_item_1:12300>],[<gregtech:machine:62>, <ore:circuitExtreme>, <gregtech:machine:62>], [<gregtech:meta_item_1:12300>, <gregtech:machine:505>, <gregtech:meta_item_1:12300>]]);
-blast_alloy.recipeBuilder()
-.inputs([<gregtech:meta_item_1:2071> * 18,<gregtech:meta_item_1:2003> * 2])
-.fluidOutputs(<liquid:soldering_alloy> * 2880)
-.circuit(2)
-.duration(60)
-.EUt(512)
-.buildAndRegister();
+furnace.remove(<gregtech:meta_item_1:2047>);
 
 Utils.removeRecipeByOutput(large_chem, [], [<liquid:ortho_xylene> * 10000], false);
 large_chem.recipeBuilder()
@@ -730,6 +706,14 @@ large_chem.recipeBuilder()
 .circuit(1)
 .duration(4000)
 .EUt(120)
+.buildAndRegister();
+
+blast_alloy.recipeBuilder()
+.inputs([<gregtech:meta_item_1:2071> * 18,<gregtech:meta_item_1:2003> * 2])
+.fluidOutputs(<liquid:soldering_alloy> * 2880)
+.circuit(2)
+.duration(60)
+.EUt(512)
 .buildAndRegister();
 
 Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32492>], [], false);
@@ -835,6 +819,7 @@ assembler.recipeBuilder()
 .duration(200)
 .EUt(524288)
 .buildAndRegister();
+
 
 Utils.removeRecipeByOutput(fusion, [], [<liquid:plutonium> * 16], false);
 fusion.recipeBuilder()
