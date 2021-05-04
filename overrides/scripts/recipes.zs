@@ -67,7 +67,6 @@ recipes.remove(<draconicevolution:wyvern_core>);
 recipes.remove(<draconicevolution:draconic_core>);
 recipes.remove(<gtadditions:ga_meta_item:32036>);
 rh(<thermalfoundation:geode>);
-rh(<gtadditions:ga_meta_item:32200>);
 rh(<enderio:item_material:55>);
 rh(<enderio:block_enhanced_sag_mill>);
 rh(<enderio:block_simple_sag_mill>);
@@ -139,7 +138,6 @@ recipes.addShaped(<draconicevolution:grinder>, [[<draconicevolution:draconium_in
 recipes.addShaped(<draconicevolution:draconic_core>, [[<draconicevolution:draconium_ingot>, <gregtech:meta_item_1:10072>, <draconicevolution:draconium_ingot>],[<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:32673>, <gregtech:meta_item_1:10072>], [<draconicevolution:draconium_ingot>, <gregtech:meta_item_1:10072>, <draconicevolution:draconium_ingot>]]);
 recipes.addShaped(<draconicevolution:wyvern_core>, [[<draconicevolution:draconium_ingot>, <draconicevolution:draconic_core>, <draconicevolution:draconium_ingot>],[<draconicevolution:draconic_core>, <gregtech:meta_item_1:32674>, <draconicevolution:draconic_core>], [<draconicevolution:draconium_ingot>, <draconicevolution:draconic_core>, <draconicevolution:draconium_ingot>]]);
 recipes.addShaped(<gtadditions:ga_meta_item:32036> * 4, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],[<minecraft:sand>, <gregtech:meta_item_2:32012>, <minecraft:sand>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
-recipes.addShaped(<gtadditions:ga_meta_item:32200>, [[<gregtech:meta_item_1:12184>, <gregtech:meta_item_2:32487>, <gregtech:cable:5237>],[<gregtech:meta_item_2:32487>, <gregtech:meta_item_2:32451>, <gregtech:meta_item_2:32487>], [<gregtech:cable:5237>, <gregtech:meta_item_2:32487>, <gregtech:meta_item_1:12184>]]);
 recipes.addShapeless(<enderio:item_material:1>,[<ore:dyeBlack>,<enderio:item_material>]);
 recipes.addShaped("clay1", <ore:blockClay>.firstItem *8,[[<ore:sand>,<ore:sand>,<ore:sand>],[<ore:sand>,null,<ore:sand>],[<ore:sand>,<ore:sand>,<ore:sand>]]);
 //File End

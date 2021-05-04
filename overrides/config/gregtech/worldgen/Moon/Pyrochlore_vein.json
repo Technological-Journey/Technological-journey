@@ -1,17 +1,13 @@
 {
-    "weight": 20,
-    "density": 0.4,
-    "max_height": 256,
-    "min_height": 0,
+    "weight": 70,
+    "density": 0.6,
+    "min_height": 10,
     "dimension_filter": [
-        "dimension_id:404"
+        "dimension_id:3"
     ],
     "generator": {
         "type": "ellipsoid",
-        "radius": [
-            8,
-            8
-        ]
+        "radius": [15, 15]
     },
     "filler": {
         "type": "simple",
@@ -19,12 +15,13 @@
             "type": "weight_random",
             "values": [{
                     "weight": 50,
-                    "value": "ore_dict:oreChromite"
+                    "value": "ore:pyrochlore"
                 },
                 {
                     "weight": 50,
-                    "value": "ore:tantalite"
+                    "value": "ore:columbite"
                 }
+
 
             ]
         }

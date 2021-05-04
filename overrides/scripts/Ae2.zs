@@ -577,3 +577,6 @@ assembler.recipeBuilder()
 .duration(150)
 .EUt(512)
 .buildAndRegister();
+
+recipes.remove(<extracells:part.base:12>);
+recipes.addShapeless(<extracells:part.base:12>, [<gregtech:meta_item_1:32102>,<appliedenergistics2:part:260>]);

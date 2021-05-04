@@ -1,7 +1,7 @@
 {
     "weight": 25,
     "density": 0.3,
-    "max_height": 40,
+    "max_height": 256,
     "min_height": 10,
     "dimension_filter": [
         "dimension_id:404"
