@@ -828,3 +828,15 @@ assembler.recipeBuilder()
 .duration(200)
 .EUt(524288)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(fusion, [], [<liquid:plutonium> * 16], false);
+fusion.recipeBuilder()
+.fluidInputs(<liquid:helium> * 16, <liquid:uranium> * 16)
+.fluidOutputs(<liquid:plutonium> * 16)
+.property("eu_to_start",120000000) 
+.duration(128)
+.EUt(32000)
+.buildAndRegister();
+
+recipes.addShaped(<gregtech:machine:2543>, [[<ore:circuitMaster>, <gregtech:meta_item_2:26235>, <ore:circuitMaster>],[<gregtech:meta_item_2:26235>, <gregtech:machine:506>, <gregtech:meta_item_2:26235>], [<gregtech:fluid_pipe:3235>, <gregtech:meta_item_2:26235>, <gregtech:fluid_pipe:3235>]]);
+recipes.remove(<gregtech:machine:2543>);
