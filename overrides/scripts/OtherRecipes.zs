@@ -715,6 +715,13 @@ mixer.recipeBuilder()
 
 recipes.remove(<gregtech:machine:2514>);
 recipes.addShaped(<gregtech:machine:2514>, [[<gregtech:meta_item_1:12300>, <gregtech:machine:63>, <gregtech:meta_item_1:12300>],[<gregtech:machine:62>, <ore:circuitExtreme>, <gregtech:machine:62>], [<gregtech:meta_item_1:12300>, <gregtech:machine:505>, <gregtech:meta_item_1:12300>]]);
+blast_alloy.recipeBuilder()
+.inputs([<gregtech:meta_item_1:2071> * 18,<gregtech:meta_item_1:2003> * 2])
+.fluidOutputs(<liquid:soldering_alloy> * 2880)
+.circuit(2)
+.duration(60)
+.EUt(512)
+.buildAndRegister();
 
 Utils.removeRecipeByOutput(large_chem, [], [<liquid:ortho_xylene> * 10000], false);
 large_chem.recipeBuilder()
