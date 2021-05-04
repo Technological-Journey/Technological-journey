@@ -840,3 +840,6 @@ fusion.recipeBuilder()
 
 recipes.addShaped(<gregtech:machine:2543>, [[<ore:circuitMaster>, <gregtech:meta_item_2:26235>, <ore:circuitMaster>],[<gregtech:meta_item_2:26235>, <gregtech:machine:506>, <gregtech:meta_item_2:26235>], [<gregtech:fluid_pipe:3235>, <gregtech:meta_item_2:26235>, <gregtech:fluid_pipe:3235>]]);
 recipes.remove(<gregtech:machine:2543>);
+
+blast_furnace.findRecipe(480, [<minecraft:emerald_block>,<gtadditions:ga_meta_item:32017> ],[<liquid:helium> * 1000]).remove();
+blast_furnace.findRecipe(480, [<gtadditions:ga_meta_item:32017>,<gregtech:compressed_9:11>],[<liquid:helium> * 1000]).remove();
