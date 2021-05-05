@@ -247,14 +247,14 @@ recipes.addShaped(<snad:snad:1>, [[<minecraft:sand:1>, <minecraft:sand:1>, <mine
 recipes.addShaped(<snad:snad>, [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
 
 chemreactor.recipeBuilder()
-.inputs([<snad:snad> * 64])
+.inputs([<snad:snad> * 8])
 .fluidInputs( <liquid:lava> * 10000)
 .outputs(<minecraft:end_stone>)
 .duration(600)
 .EUt(2040)
 .buildAndRegister();
 chemreactor.recipeBuilder()
-.inputs([<snad:snad:1> * 64])
+.inputs([<snad:snad:1> * 8])
 .fluidInputs( <liquid:lava> * 10000)
 .outputs(<minecraft:end_stone>)
 .duration(600)
@@ -266,18 +266,18 @@ Utils.removeRecipeByOutput(pyro, [], [<liquid:fermented_biomass> * 10000], false
 
 pyro.recipeBuilder()
 .inputs([<gregtech:meta_item_2:32570> * 5])
-.fluidInputs([<liquid:water> * 144])
+.fluidInputs([<liquid:water> * 1000])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
-.chancedOutput(<gregtech:meta_item_2:32570> * 1, 15, 100)
-.fluidOutputs([<liquid:fermentation_base> * 144])
+.chancedOutput(<gregtech:meta_item_2:32570> * 1, 45, 100)
+.fluidOutputs([<liquid:fermentation_base> * 1000])
 .duration(600)
 .EUt(128)
 .buildAndRegister();
 //.notConsumable(X)
 chemplant.recipeBuilder()
 .inputs([<gregtech:meta_item_2:32570> * 5])
-.fluidInputs( <liquid:fermentation_base> * 144,<liquid:biomass> * 144 )
-.fluidOutputs(<liquid:fermented_biomass> * 288)
+.fluidInputs( <liquid:fermentation_base> * 1000,<liquid:biomass> * 1000 )
+.fluidOutputs(<liquid:fermented_biomass> * 2000)
 .duration(1200)
 .EUt(128)
 .buildAndRegister();
