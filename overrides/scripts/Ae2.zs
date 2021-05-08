@@ -542,7 +542,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:32614>,<appliedenergistics2:quartz_glass>,<gregtech:machine:505>])
-.outputs([<appliedenergistics2:fluid_interface> * 4])
+.outputs([<appliedenergistics2:fluid_interface> * 8])
 .duration(150)
 .EUt(8192)
 .buildAndRegister();
