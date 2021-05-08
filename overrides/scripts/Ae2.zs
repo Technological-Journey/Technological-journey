@@ -223,14 +223,14 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:quartz_glass> * 4,<gregtech:meta_item_1:32610> * 4,<gregtech:machine:501>])
-.outputs([<appliedenergistics2:fluid_interface>])
+.outputs([<appliedenergistics2:fluid_interface> * 2])
 .duration(150)
 .EUt(32)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:quartz_glass> * 4,<gregtech:meta_item_1:32640> * 4,<gregtech:machine:501>])
-.outputs([<appliedenergistics2:interface>])
+.outputs([<appliedenergistics2:interface> *2])
 .duration(150)
 .EUt(32)
 .buildAndRegister();
@@ -529,40 +529,40 @@ for item in ae3Items {
 
 assembler.recipeBuilder()
 .inputs([<gregtech:machine:503>,<appliedenergistics2:quartz_glass> * 2,<gregtech:meta_item_1:32612> *2 ])
-.outputs([<appliedenergistics2:fluid_interface>])
+.outputs([<appliedenergistics2:fluid_interface> * 4])
 .duration(150)
 .EUt(512)
 .buildAndRegister();
 assembler.recipeBuilder()
 .inputs([<gregtech:machine:503>,<appliedenergistics2:quartz_glass> * 2,<gregtech:meta_item_1:32642> *2])
-.outputs([<appliedenergistics2:interface>])
+.outputs([<appliedenergistics2:interface> * 4])
 .duration(150)
 .EUt(512)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:32614>,<appliedenergistics2:quartz_glass>,<gregtech:machine:505>])
-.outputs([<appliedenergistics2:fluid_interface>])
+.outputs([<appliedenergistics2:fluid_interface> * 4])
 .duration(150)
 .EUt(8192)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:32644>,<appliedenergistics2:quartz_glass> ,<gregtech:machine:505>])
-.outputs([<appliedenergistics2:interface>])
+.outputs([<appliedenergistics2:interface> * 8])
 .duration(150)
 .EUt(8192)
 .buildAndRegister();
 
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:32616>,<appliedenergistics2:quartz_glass> * 16,<gregtech:machine:507> * 16])
+.inputs([<gregtech:meta_item_1:32616>,<appliedenergistics2:quartz_glass> * 1,<gregtech:machine:507> * 1])
 .outputs([<appliedenergistics2:fluid_interface> * 16])
 .duration(150)
 .EUt(131072)
 .buildAndRegister();
 
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:32646>,<appliedenergistics2:quartz_glass> * 16,<gregtech:machine:507> * 16])
+.inputs([<gregtech:meta_item_1:32646>,<appliedenergistics2:quartz_glass> * 1,<gregtech:machine:507> * 1])
 .outputs([<appliedenergistics2:interface> * 16])
 .duration(150)
 .EUt(131072)
