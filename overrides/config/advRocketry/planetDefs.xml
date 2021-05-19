@@ -94,7 +94,7 @@
                     <generateStructures>false</generateStructures>
                     <generateGeodes>false</generateGeodes>
                     <!-- block of Californiuum -->
-                    <artifact>gregtech:compressed_24 8</artifact> 
+                    <artifact>gregtech:meta_block_compressed_49 13</artifact> 
                     <biomeIds>advancedrocketry:hotdryrock</biomeIds> 
                 <planet DIMID="402" name="Phobos" temp="100" customIcon="Venusian">
                     <isKnown>true</isKnown>
@@ -111,7 +111,7 @@
                     <generateStructures>false</generateStructures>
                     <generateGeodes>false</generateGeodes>
                     <!-- block of salt -->
-                    <artifact>gregtech:compressed_7 9</artifact> 
+                    <artifact>gregtech:meta_block_compressed_9 11</artifact> 
                     <biomeIds>advancedrocketry:alien forest,24</biomeIds> 
                     </planet>
                 </planet>
@@ -132,7 +132,7 @@
         <generateGeodes>false</generateGeodes>
         <oceanBlock>Minecraft:lava</oceanBlock>
     <!-- block of platinum -->
-        <artifact>gregtech:compressed_2 6</artifact> 
+        <artifact>gregtech:meta_block_compressed_3 3</artifact> 
          <biomeIds>advancedrocketry:volcanicbarren</biomeIds>  
         </planet>
 </star>
