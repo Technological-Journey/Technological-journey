@@ -1,19 +1,19 @@
 {
-    "name": "gregtech:compressed_17",
+    "name": "advancedrocketry:charcoallog",
     "target-item": "advancedrocketry:charcoallog",
     "target-meta": 0,
     "target-count": 1,
 
     "duration": 100,
 
-    "catalyst": "gregtech:compressed_15",
-    "catalyst-meta": "4",
+    "catalyst": "gregtech:meta_block_compressed_22",
+    "catalyst-meta": "5",
 
 
     "input-types": {
         "a": {
-            "id": "gregtech:compressed_15",
-            "meta": 4
+            "id": "gregtech:meta_block_compressed_22",
+            "meta": 5
         },
         "b": {
             "id": "minecraft:log",
