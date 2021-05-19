@@ -2,6 +2,7 @@ import mods.jei.JEI.removeAndHide as rh;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+
 furnace.remove(<minecraft:nether_star>);
 recipes.remove(<actuallyadditions:block_misc:7>);
 recipes.remove(<actuallyadditions:block_lava_factory_controller>);
@@ -89,19 +90,17 @@ recipes.addShapeless(<ae2wtlib:wut_creative>.withTag({StoredTerminals: [{id: "wp
 recipes.addShaped(<thermalfoundation:material:512>, [[<minecraft:redstone>, null, <minecraft:redstone>],[null, <gregtech:meta_item_1:10297>, null], [<minecraft:redstone>, null, <minecraft:redstone>]]);
 recipes.addShaped(<libvulpes:holoprojector>, [[<minecraft:glass_pane>, <gregtech:meta_item_1:32682>, <minecraft:glass_pane>],[null, <gregtech:machine:503>, null], [null, null, null]]);
 recipes.addShaped(<libvulpes:holoprojector>, [[<minecraft:glass_pane>, <gregtech:meta_item_1:32682>, <minecraft:glass_pane>],[null, <gregtech:machine:503>, null], [null, null, null]]);
-recipes.addShapeless(<gregtech:meta_item_1:10001>, [<gregtech:compressed_0>]);
-recipes.addShapeless(<gregtech:meta_item_1:10126> *9, [<gregtech:compressed_6>]);
-recipes.addShaped(<gregtech:meta_item_1:10062> * 9, [[null, null, null],[null, <gregtech:compressed_3>, null], [null, null, null]]);
-recipes.addShaped(<gregtech:meta_item_1:10001>* 9, [[null, null, null],[null, <gregtech:compressed_0>, null], [null, null, null]]);
-recipes.addShaped(<gregtech:meta_item_1:10044> * 9, [[null, null, null],[null, <gregtech:compressed_2:1>, null], [null, null, null]]);
-recipes.addShapeless(<gregtech:meta_item_1:10112> * 9, [<gregtech:compressed_2:6>]);
-recipes.addShapeless(<gregtech:meta_item_1:10032>* 9, [<gregtech:compressed_1:7>]);
-recipes.addShapeless(<gregtech:meta_item_1:10184> * 9, [<gregtech:compressed_8:4>]);
-recipes.addShapeless(<gregtech:meta_item_1:10112>* 9, [<gregtech:compressed_5:7>]);
-recipes.addShapeless(<gregtech:meta_item_1:10095>* 9, [<gregtech:compressed_4:10>]);
-recipes.addShapeless(<gregtech:meta_item_1:10035> * 9, [<gregtech:compressed_1:9>]);
-recipes.addShaped(<gregtech:compressed_1:9>, [[<gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>],[<gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>], [<gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>]]);
-recipes.addShaped(<gregtech:compressed_3:10>, [[<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>],[<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>], [<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>]]);
+recipes.addShapeless(<gregtech:meta_item_1:10001> * 9, [<gregtech:meta_block_compressed_0:1>]);
+recipes.addShapeless(<gregtech:meta_item_1:10126> *9, [<gregtech:meta_block_compressed_7:14>]);
+recipes.addShaped(<gregtech:meta_item_1:10062> * 9, [[null, null, null],[null, <gregtech:meta_block_compressed_3:14>, null], [null, null, null]]);
+recipes.addShaped(<gregtech:meta_item_1:10044> * 9, [[null, null, null],[null, <gregtech:meta_block_compressed_2:12>, null], [null, null, null]]);
+recipes.addShapeless(<gregtech:meta_item_1:10112> * 9, [<gregtech:meta_block_compressed_7>]);
+recipes.addShapeless(<gregtech:meta_item_1:10032>* 9, [<gregtech:meta_block_compressed_2>]);
+recipes.addShapeless(<gregtech:meta_item_1:10184> * 9, [<gregtech:meta_block_compressed_11:8>]);
+recipes.addShapeless(<gregtech:meta_item_1:10095>* 9, [<gregtech:meta_block_compressed_5:15>]);
+recipes.addShapeless(<gregtech:meta_item_1:10035> * 9, [<gregtech:meta_block_compressed_2:3>]);
+recipes.addShaped(<gregtech:meta_block_compressed_2:3>, [[<gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>],[<gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>], [<gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>, <gregtech:meta_item_1:10035>]]);
+recipes.addShaped(<gregtech:meta_block_compressed_4:8>, [[<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>],[<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>], [<gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>, <gregtech:meta_item_1:10072>]]);
 recipes.addShaped(<storagedrawers:upgrade_creative>, [[<gregtech:machine:1013>, <gregtech:machine:1013>, <gregtech:machine:1013>],[<gregtech:machine:1013>, <draconicevolution:draconium_chest>, <gregtech:machine:1013>], [<gregtech:machine:1013>, <gregtech:machine:1013>, <gregtech:machine:1013>]]);
 recipes.addShaped(<appliedenergistics2:creative_storage_cell>, [[<gregtech:meta_item_1:13993>, <gregtech:meta_item_1:13993>, <draconicevolution:draconium_chest>],[<gregtech:meta_item_1:13993>, <gtadditions:ga_meta_item:32124>.withTag({Charge: 9223372036854775807 as long}), <gregtech:meta_item_1:13993>], [<gregtech:meta_item_1:13993>, <gregtech:meta_item_1:13993>, <gregtech:meta_item_1:13993>]]);
 recipes.addShaped(<minecraft:end_rod>, [[null, <minecraft:blaze_rod>, null],[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <gregtech:meta_item_1:10072>, <minecraft:end_stone>]]);
@@ -110,7 +109,6 @@ furnace.addRecipe(<actuallyadditions:item_dust:7>, <gregtech:meta_item_1:2203>, 
 furnace.addRecipe(<gregtech:meta_item_1:10061>, <gregtech:meta_item_1:2061>, 0.0);
 furnace.addRecipe(<thermalfoundation:material:833>,<gregtech:meta_item_1:32627>, 0.0);
 recipes.addShapeless(<minecraft:wheat_seeds>* 3, [<minecraft:wheat>]);
-recipes.addShapeless(<gregtech:meta_item_1:10184> * 9, [<gregtech:compressed_8:4>]);
 recipes.addShaped(<gregtech:fluid_pipe:3095>, [[<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>],[<gregtech:fluid_pipe:2095>, <gregtech:meta_tool:6>, <gregtech:fluid_pipe:2095>], [<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>]]);
 furnace.addRecipe(<gregtech:meta_item_1:10197>,<minecraft:iron_ingot>, 0.0);
 recipes.addShapeless(<gregtech:meta_item_1:2026>, [<appliedenergistics2:material:51>]);
