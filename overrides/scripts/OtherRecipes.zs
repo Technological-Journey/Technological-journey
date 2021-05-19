@@ -454,7 +454,7 @@ recipes.addShaped(<gregtech:machine:1300>, [[<ore:circuitMaster>, <gregtech:meta
 //Needs to be updated when max circuits come out
 recipes.addShaped(<gregtech:machine:1307>, [[<ore:circuitUmv>, <gtadditions:ga_meta_item:32383>, <ore:circuitUmv>],[<gregtech:meta_item_1:12993>, <gregtech:machine:509>, <gregtech:meta_item_1:12993>], [<ore:circuitUmv>, <gregtech:meta_item_1:12993>, <ore:circuitUmv>]]);
 recipes.addShaped(<gregtech:machine:1306>, [[<ore:circuitUmv>, <gregtech:meta_item_1:12993>, <ore:circuitUmv>],[<gregtech:meta_item_1:12993>, <gregtech:machine:509>, <gregtech:meta_item_1:12993>], [<ore:circuitUmv>, <gtadditions:ga_meta_item:32383>, <ore:circuitUmv>]]);
-recipes.addShaped(<gregtech:compressed_0>, [[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>],[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>], [<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>]]);
+recipes.addShaped(<gregtech:meta_block_compressed_0:1>, [[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>],[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>], [<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>]]);
 furnace.addRecipe(<minecraft:glass>, <gregtech:meta_item_1:2960>, 0.0);
 //copper 
 Utils.removeRecipeByOutput(arc,[<gregtech:meta_item_1:10087>],[],false);
@@ -465,7 +465,7 @@ arc.recipeBuilder()
 .duration(600)
 .EUt(128)
 .buildAndRegister();
-recipes.addShaped(<gregtech:compressed_8:4>, [[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>],[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>], [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>]]);
+recipes.addShaped(<gregtech:meta_block_compressed_11:8>, [[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>],[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>], [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>]]);
 recipes.addShaped(<bonsaitrees:bonsaipot:1>, [[<gregtech:meta_item_1:12729>, <bonsaitrees:bonsaipot>, <gregtech:meta_item_1:12729>],[<gregtech:meta_item_1:12729>, null, <gregtech:meta_item_1:12729>], [<gregtech:meta_item_1:12729>, <actuallyadditions:block_item_viewer_hopping>, <gregtech:meta_item_1:12729>]]);
 recipes.addShaped(<bonsaitrees:bonsaipot>, [[null, null, null],[<gregtech:meta_item_1:13207>, null, <gregtech:meta_item_1:13207>], [<gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>]]);
 recipes.remove(<bonsaitrees:bonsaipot:1>);
@@ -523,7 +523,7 @@ recipes.remove(<gregtech:machine:90>);
 recipes.addShaped(<gregtech:machine:92>, [[<gregtech:cable:7026>, <gregtech:meta_item_1:10012>, <gregtech:cable:7026>],[<ore:circuitAdvanced>, <gregtech:machine:503>, <ore:circuitAdvanced>], [<gregtech:meta_item_1:12183>, <gregtech:meta_item_1:12183>, <gregtech:meta_item_1:12183>]]);
 recipes.addShaped(<gregtech:machine:91>, [[<gregtech:cable:7018>, <gregtech:meta_item_1:10012>, <gregtech:cable:7018>],[<ore:circuitGood>, <gregtech:machine:502>, <ore:circuitGood>], [<gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12001>]]);
 recipes.addShaped(<gregtech:machine:90>, [[<gregtech:cable:7071>, <gregtech:meta_item_1:10012>, <gregtech:cable:7071>],[<ore:circuitBasic>, <gregtech:machine:501>, <ore:circuitBasic>], [<gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>]]);
-recipes.addShaped(<gregtech:compressed_8:3>, [[<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>],[<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>], [<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>]]);
+recipes.addShaped(<gregtech:meta_block_compressed_11:7>, [[<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>],[<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>], [<gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>, <gregtech:meta_item_1:10183>]]);
 
 recipes.remove(<actuallyadditions:block_fermenting_barrel>);
 
@@ -591,7 +591,7 @@ assembler.recipeBuilder()
 <contenttweaker:certificate_of_being_a_noob>.addTooltip(format.darkBlue("Image by Emperdog"));
 
 extruder.recipeBuilder()
-.inputs([<gregtech:compressed_14:10> * 64, <gregtech:compressed_14:10> * 64])
+.inputs([<gregtech:meta_block_compressed_19:7> * 64, <gregtech:meta_block_compressed_19:7> * 64])
 .outputs([<contenttweaker:certificate_of_being_a_noob>])
 .duration(30000000)
 .EUt(3)
@@ -652,13 +652,13 @@ freezer.recipeBuilder()
 .EUt(8192)
 .buildAndRegister();
 recipes.addShapeless(<gregtech:meta_item_1:8357>, [<thermalfoundation:material:802>]);
-recipes.addShapeless(<gregtech:compressed_15:4>, [<thermalfoundation:storage_resource:1>]);
+recipes.addShapeless(<gregtech:meta_block_compressed_22:5>, [<thermalfoundation:storage_resource:1>]);
 recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockFuelCoke>, null], [null, null, null]]);
-recipes.removeShaped(<gregtech:compressed_15:4>, [[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>],[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>], [<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>]]);
+recipes.removeShaped(<gregtech:meta_block_compressed_22:5>, [[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>],[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>], [<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>]]);
 recipes.removeShaped(<thermalfoundation:storage_resource:1>, [[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>],[<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>], [<ore:fuelCoke>, <ore:fuelCoke>, <ore:fuelCoke>]]);
-recipes.removeShapeless(<thermalfoundation:material:802> * 9, [ <gregtech:compressed_15:4>]);
+recipes.removeShapeless(<thermalfoundation:material:802> * 9, [ <gregtech:meta_block_compressed_22:5>]);
 recipes.removeShapeless(<thermalfoundation:material:802> * 9, [ <thermalfoundation:storage_resource:1>]);
-recipes.removeShaped(<thermalfoundation:material:802>, [[null, null, null],[null, <gregtech:compressed_15:4>, null], [null, null, null]]);
+recipes.removeShaped(<thermalfoundation:material:802>, [[null, null, null],[null, <gregtech:meta_block_compressed_22:5>, null], [null, null, null]]);
 recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockCoke>, null], [null, null, null]]);
 recipes.removeShaped(<thermalfoundation:material:802> * 9, [[null, null, null],[null, <ore:blockFuelCoke>, null], [null, null, null]]);
 recipes.addShaped(<danknull:dank_null_panel_0>, [[<minecraft:redstone_block>, <minecraft:coal_block>, <minecraft:redstone_block>],[<minecraft:coal_block>, <minecraft:glass>, <minecraft:coal_block>], [<minecraft:redstone_block>, <minecraft:coal_block>, <minecraft:redstone_block>]]);
@@ -834,4 +834,5 @@ recipes.addShaped(<gregtech:machine:2543>, [[<ore:circuitMaster>, <gregtech:meta
 recipes.remove(<gregtech:machine:2543>);
 
 blast_furnace.findRecipe(480, [<minecraft:emerald_block>,<gtadditions:ga_meta_item:32017> ],[<liquid:helium> * 1000]).remove();
-blast_furnace.findRecipe(480, [<gtadditions:ga_meta_item:32017>,<gregtech:compressed_9:11>],[<liquid:helium> * 1000]).remove();
+blast_furnace.findRecipe(480, [<gtadditions:ga_meta_item:32017>,<gregtech:meta_block_compressed_13:4>],[<liquid:helium> * 1000]).remove();
+
