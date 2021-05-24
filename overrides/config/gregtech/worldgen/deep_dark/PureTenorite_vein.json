@@ -11,7 +11,7 @@
         "radius": [17, 18]
     },
     "filler": {
-        "type": "simple",
+        "type": "ga_simple",
         "value": {
             "type": "weight_random",
             "values": [{
