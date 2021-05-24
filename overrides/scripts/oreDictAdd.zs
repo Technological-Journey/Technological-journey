@@ -10,8 +10,8 @@ import mods.jei.JEI.removeAndHide as h;
 
 <ore:itemSilicon>.add(<gregtech:meta_item_1:2061>);
 <ore:dustQuartz>.add(<gregtech:meta_item_1:2201>);
-<ore:blockCoalCoke>.add(<gregtech:compressed_15:4>);
-<ore:blockWarpCoreRim>.add(<gregtech:compressed_3:10>);
+<ore:blockCoalCoke>.add(<gregtech:meta_block_compressed_22:5>);
+<ore:blockWarpCoreRim>.add(<gregtech:meta_block_compressed_4:8>);
 <ore:blockWarpCoreRim>.remove(<libvulpes:metal0:7>);
 
 	<ore:gearNickel>.remove(<thermalfoundation:material:261>);
@@ -345,7 +345,7 @@ h(<gregtech:meta_item_2:32507>);
 h(<gregtech:meta_item_2:32490>);
 h(<gregtech:meta_item_2:32489>);
 h(<gregtech:meta_item_1:10712>);
-//h(<gregtech:compressed_17>);
+//h(	_17>);
 h(<gregtech:meta_item_1:9712>);
 */
 
