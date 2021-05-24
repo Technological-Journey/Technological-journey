@@ -239,6 +239,7 @@ fluid_extractor.recipeBuilder()
         .buildAndRegister();
 fluid_canner.recipeBuilder()
         .fluidInputs([<liquid:honey> * 250])
+        .inputs([<minecraft:glass_bottle>])
         .outputs(<minecraftfuture:honey_bottle>)
         .duration(100)
         .EUt(32)
@@ -763,12 +764,6 @@ decay.recipeBuilder()
 .EUt(10000)
 .buildAndRegister();
 
-assembler.recipeBuilder()
-.inputs([<gtadditions:ga_meta_item:32130> * 4, <enderio:block_normal_wireless_charger>])
-.outputs([<mechtech:mt_meta_item:2000> * 4])
-.duration(200)
-.EUt(2048)
-.buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<enderio:block_reservoir> * 4, <gregtech:machine:502>])
@@ -836,3 +831,10 @@ recipes.remove(<gregtech:machine:2543>);
 blast_furnace.findRecipe(480, [<minecraft:emerald_block>,<gtadditions:ga_meta_item:32017> ],[<liquid:helium> * 1000]).remove();
 blast_furnace.findRecipe(480, [<gtadditions:ga_meta_item:32017>,<gregtech:meta_block_compressed_13:4>],[<liquid:helium> * 1000]).remove();
 
+circuit_assembler.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32033>, <gregtech:meta_item_2:16001> * 8,<gregtech:meta_item_2:32486>])
+.fluidInputs(<liquid:soldering_alloy> * 200)
+.outputs([<gregtech:meta_item_2:32492> * 4])
+.duration(50)
+.EUt(9600)
+.buildAndRegister();
