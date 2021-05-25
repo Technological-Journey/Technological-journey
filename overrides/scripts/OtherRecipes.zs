@@ -838,3 +838,15 @@ circuit_assembler.recipeBuilder()
 .duration(50)
 .EUt(9600)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32309>.withTag({"GT.Detrav": {}})], [], false);
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32402>], [], false);
+
+assembly_line.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32426> * 32,<gtadditions:ga_meta_item:32406> * 16,<gtadditions:ga_meta_item:32407> *16,<gtadditions:ga_meta_item:32408> * 16, <gtadditions:ga_meta_item:32405> * 16,<gtadditions:ga_meta_item:32015>, <gregtech:ga_cable:739> * 4,<gregtech:meta_item_1:19840> * 16,<gtadditions:ga_meta_item:32401> * 3, <gregtech:meta_item_1:12312> *2 ])
+.fluidInputs(<liquid:sterilized_growth_medium> * 1000,<liquid:titanium> *1296,<liquid:plastic> * 2592 )
+.outputs([<gtadditions:ga_meta_item:32402>])
+.duration(400)
+.EUt(480000)
+.buildAndRegister();
+recipes.addShaped(<gtadditions:ga_meta_item:32309>.withTag({"GT.Detrav": {}}), [[<gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>, <contenttweaker:steammotor>],[<contenttweaker:steampiston>, <gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>], [<gtadditions:ga_meta_item:1184>, <contenttweaker:steampiston>, <gtadditions:ga_meta_item:1184>]]);
