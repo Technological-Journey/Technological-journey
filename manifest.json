@@ -9,8 +9,16 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "Technological Journey",
-    "version": "0.2.4",
+    "version": "0.3.2",
     "author": "Technological Journey Dev team",
+    "projectID": 422473,
+    "externalDependencies": [
+    {
+      "name": "Applied Energistics 2 Trousers Edition",
+      "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v41/appliedenergistics2-rv6-stable-7.omni-fixes-v41.jar",
+      "sha": "BD4618B9CBE13C939960A65C18F2ABAF"
+    }
+  ],
     "files": [{
             "projectID": 318551,
             "fileID": 3101596,
