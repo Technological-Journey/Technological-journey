@@ -109,7 +109,6 @@ furnace.addRecipe(<actuallyadditions:item_dust:7>, <gregtech:meta_item_1:2203>, 
 furnace.addRecipe(<gregtech:meta_item_1:10061>, <gregtech:meta_item_1:2061>, 0.0);
 furnace.addRecipe(<thermalfoundation:material:833>,<gregtech:meta_item_1:32627>, 0.0);
 recipes.addShapeless(<minecraft:wheat_seeds>* 3, [<minecraft:wheat>]);
-recipes.addShaped(<gregtech:fluid_pipe:3095>, [[<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>],[<gregtech:fluid_pipe:2095>, <gregtech:meta_tool:6>, <gregtech:fluid_pipe:2095>], [<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>]]);
 furnace.addRecipe(<gregtech:meta_item_1:10197>,<minecraft:iron_ingot>, 0.0);
 recipes.addShapeless(<gregtech:meta_item_1:2026>, [<appliedenergistics2:material:51>]);
 recipes.addShaped(<enderio:item_redstone_conduit> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<gregtech:meta_item_1:10237>, <gregtech:meta_item_1:10237>, <gregtech:meta_item_1:10237>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
