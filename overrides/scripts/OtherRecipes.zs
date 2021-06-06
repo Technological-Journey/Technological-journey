@@ -850,3 +850,5 @@ assembly_line.recipeBuilder()
 .EUt(480000)
 .buildAndRegister();
 recipes.addShaped(<gtadditions:ga_meta_item:32309>.withTag({"GT.Detrav": {}}), [[<gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>, <contenttweaker:steammotor>],[<contenttweaker:steampiston>, <gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>], [<gtadditions:ga_meta_item:1184>, <contenttweaker:steampiston>, <gtadditions:ga_meta_item:1184>]]);
+recipes.remove(<gregtech:machine:2004>);
+recipes.addShaped(<gregtech:machine:2004>, [[<gregtech:multiblock_casing:2>, <gregtech:meta_item_1:32655>, <gregtech:multiblock_casing:2>],[<ore:circuitMaster>, <gregtech:machine:506>, <ore:circuitMaster>], [<gregtech:multiblock_casing:2>, <gregtech:meta_item_1:32655>, <gregtech:multiblock_casing:2>]]);
