@@ -395,4 +395,4 @@ h(<danknull:dank_null_panel_3>);
 h(<danknull:dank_null_panel_4>);
 h(<danknull:dank_null_panel_5>);
 h(<danknull:danknull_dock>);
-
+h(<gregtech:machine:2005>);
