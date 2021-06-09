@@ -1,20 +1,11 @@
 {
     "images": {
         "title": {
-            "image": "custommainmenu:textures/gui/minecraft.png",
-            "posX": -137,
-            "posY": 30,
-            "width": 512,
-            "height": 512,
-            "alignment": "top_center"
-        },
-
-        "edition": {
-            "image": "custommainmenu:textures/gui/edition.png",
-            "posX": -49,
-            "posY": 67,
-            "width": 128,
-            "height": 16,
+            "image": "textures:Logoish.png",
+            "posX": -132,
+            "posY": 82,
+            "width": 250,
+            "height": 80,
             "alignment": "top_center"
         }
     },
@@ -56,7 +47,7 @@
             }
         },
         "discord": {
-            "text": "Join Us On Discord!",
+            "text": "Join Us On Discord",
             "posX": -100,
             "posY": 121,
             "width": 200,
@@ -65,12 +56,25 @@
                 "type": "openLink",
                 "link": "https://discord.gg/sKbWskxXdG"
             }
+
+        },
+        "copyright": {
+            "text": "Music by Argofox: SVRGE-BROKEN ",
+            "posX": -100,
+            "posY": 145,
+            "width": 200,
+            "height": 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://www.youtube.com/watch?v=vkNwWbl1urw&t=0s"
+            }
+
         },
 
         "options": {
             "text": "menu.options",
             "posX": -100,
-            "posY": 148,
+            "posY": 170,
             "width": 98,
             "height": 20,
             "action": {
@@ -82,7 +86,7 @@
         "quit": {
             "text": "menu.quit",
             "posX": 2,
-            "posY": 148,
+            "posY": 170,
             "width": 98,
             "height": 20,
             "action": {
@@ -93,7 +97,7 @@
         "language": {
             "text": "",
             "posX": -124,
-            "posY": 148,
+            "posY": 170,
             "width": 20,
             "height": 20,
             "action": {
@@ -101,7 +105,6 @@
                 "gui": "languages"
             }
         }
-
     },
 
     "labels": {
@@ -128,20 +131,10 @@
     },
 
     "other": {
-        "splash-text": {
-            "posX": 90,
-            "posY": 70,
-            "color": -256,
-            "alignment": "top_center",
-            "texts": "file:minecraft:texts/splashes.txt"
-        },
 
-        "panorama": {
-            "images": "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate": true,
-            "animationSpeed": 1,
-            "blur": true,
-            "gradient": true
+        "background": {
+            "image": "textures:main4.png"
+
         }
     }
 }
