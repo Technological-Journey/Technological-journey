@@ -59,14 +59,14 @@
 
         },
         "copyright": {
-            "text": "Music by Argofox: SVRGE-BROKEN ",
+            "text": "Music by Argofox",
             "posX": -100,
             "posY": 145,
             "width": 200,
             "height": 20,
             "action": {
                 "type": "openLink",
-                "link": "https://www.youtube.com/watch?v=vkNwWbl1urw&t=0s"
+                "link": "https://www.youtube.com/channel/UC56Qctnsu8wAyvzf4Yx6LIw"
             }
 
         },
