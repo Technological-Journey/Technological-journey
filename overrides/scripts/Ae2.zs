@@ -458,7 +458,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 recipes.addShaped(<appliedenergistics2:chest>, [[<actuallyadditions:block_giant_chest>, <gregtech:machine:710>, <actuallyadditions:block_giant_chest>],[<gregtech:machine:710>, <appliedenergistics2:material:24>, <gregtech:machine:711>], [<actuallyadditions:block_giant_chest>, <gregtech:machine:711>, <actuallyadditions:block_giant_chest>]]);
-recipes.addShaped(<appliedenergistics2:drive>, [[<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>],[<appliedenergistics2:part:16>,<ore:circuitBasic>, <appliedenergistics2:part:16>], [<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>]]);
+recipes.addShaped(<appliedenergistics2:drive>, [[<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>],[<appliedenergistics2:part:16>,<gregtech:meta_item_1:32680>, <appliedenergistics2:part:16>], [<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>]]);
 recipes.remove(<appliedenergistics2:chest>);
 recipes.remove(<appliedenergistics2:drive>);
 recipes.remove(<appliedenergistics2:controller>);
