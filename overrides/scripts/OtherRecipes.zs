@@ -862,3 +862,7 @@ assembler.recipeBuilder()
 .duration(80)
 .EUt(7904)
 .buildAndRegister();
+
+recipes.remove(<gregtech:machine:2530>);
+recipes.addShaped(<gregtech:machine:2530>, [[<gtadditions:ga_multiblock_casing:1>, <ore:circuitExtreme>, <gtadditions:ga_multiblock_casing:1>],[<gregtech:meta_item_1:32603>, <gregtech:machine:193>, <gregtech:meta_item_1:32603>], [<gtadditions:ga_multiblock_casing:1>, <ore:circuitExtreme>, <gtadditions:ga_multiblock_casing:1>]]);
+
