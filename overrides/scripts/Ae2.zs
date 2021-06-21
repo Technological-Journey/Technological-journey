@@ -432,22 +432,6 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(4192)
 .buildAndRegister();
-//1024
-assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12859> * 4,<ore:circuitMaster>, <ore:dyeBlue> * 4,<extracells:storage.component:8> * 4])
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
-.outputs([<extracells:storage.component:9>])
-.duration(300)
-.EUt(16768)
-.buildAndRegister();
-//4096
-assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12311> * 4,<ore:circuitMaster>, <ore:dyeBlue> * 4,<extracells:storage.component:9> * 4])
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
-.outputs([<extracells:storage.component:10>])
-.duration(300)
-.EUt(67072)
-.buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<gregtech:machine:501>,<ore:crystalPureFluix> * 4,<ore:circuitBasic>])

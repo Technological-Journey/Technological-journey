@@ -77,6 +77,12 @@ for i in sift{
 	<ore:siftable>.add(i);
 
 }
+var remove =[<gregtech:meta_item_2:16001>,<gregtech:meta_item_2:16014>,<gregtech:meta_item_2:16016>,<gregtech:meta_item_2:16018>,<gregtech:meta_item_2:16022>,<gregtech:meta_item_2:16026>,<gregtech:meta_item_2:16032>,<gregtech:meta_item_2:16033>,<gregtech:meta_item_2:16035>,<gregtech:meta_item_2:16142>,<gregtech:meta_item_2:16180>,<gregtech:meta_item_2:16183>,<gregtech:meta_item_2:16184>,<gregtech:meta_item_2:16189>,<gregtech:meta_item_2:16192>,<gregtech:meta_item_2:16197>,<gregtech:meta_item_2:16200>,<gregtech:meta_item_2:16207>,<gregtech:meta_item_2:16079>,<gregtech:meta_item_2:16087>,<gregtech:meta_item_2:16094>,<gregtech:meta_item_2:16095>,<gregtech:meta_item_2:16109>,<gregtech:meta_item_2:16112>,<gregtech:meta_item_2:16126>,<gregtech:meta_item_2:16129>,<gregtech:meta_item_2:16135>,<gregtech:meta_item_2:16043>,<gregtech:meta_item_2:16049>,<gregtech:meta_item_2:16052>,<gregtech:meta_item_2:16074>,<gregtech:meta_item_2:16072>,<gregtech:meta_item_2:16071>,<gregtech:meta_item_2:16062>,<gregtech:meta_item_2:16051>,<gregtech:meta_item_2:16047>,<gregtech:meta_item_2:16227>,<gregtech:meta_item_2:16228>,<gregtech:meta_item_2:16229>,<gregtech:meta_item_2:16230>,<gregtech:meta_item_2:16235>,<gregtech:meta_item_2:16237>,<gregtech:meta_item_2:16238>,<gregtech:meta_item_2:16297>,<gregtech:meta_item_2:16298>,<gregtech:meta_item_2:16714>,<gregtech:meta_item_2:16715>,<gregtech:meta_item_2:16716>,<gregtech:meta_item_2:16717>,<gregtech:meta_item_2:16718>,<gregtech:meta_item_2:16719>,<gregtech:meta_item_2:16720>,<gregtech:meta_item_2:16721>,<gregtech:meta_item_2:16731>,<gregtech:meta_item_2:16470>,<gregtech:meta_item_2:16671>,<gregtech:meta_item_2:16682>,<gregtech:meta_item_2:16683>,<gregtech:meta_item_2:16692>,<gregtech:meta_item_2:16699>,<gregtech:meta_item_2:16706>,<gregtech:meta_item_2:16707>,<gregtech:meta_item_2:16710>,<gregtech:meta_item_2:16299>,<gregtech:meta_item_2:16300>,<gregtech:meta_item_2:16301>,<gregtech:meta_item_2:16302>,<gregtech:meta_item_2:16303>,<gregtech:meta_item_2:16308>,<gregtech:meta_item_2:16311>,<gregtech:meta_item_2:16312>,<gregtech:meta_item_2:16304>,<gregtech:meta_item_2:16732>,<gregtech:meta_item_2:16733>,<gregtech:meta_item_2:16734>,<gregtech:meta_item_2:16735>,<gregtech:meta_item_2:16736>,<gregtech:meta_item_2:16742>,<gregtech:meta_item_2:16743>,<gregtech:meta_item_2:16755>,<gregtech:meta_item_2:16763>,<gregtech:meta_item_2:16858>,<gregtech:meta_item_2:16859>,<gregtech:meta_item_2:16869>,<gregtech:meta_item_2:16883>,<gregtech:meta_item_2:16905>,<gregtech:meta_item_2:16912>,<gregtech:meta_item_2:16940>,<gregtech:meta_item_2:16941>,<gregtech:meta_item_2:16942>,<gregtech:meta_item_2:16824>,<gregtech:meta_item_2:16850>,<gregtech:meta_item_2:16851>,<gregtech:meta_item_2:16852>,<gregtech:meta_item_2:16853>,<gregtech:meta_item_2:16854>,<gregtech:meta_item_2:16855>,<gregtech:meta_item_2:16856>,<gregtech:meta_item_2:16857>,<gregtech:meta_item_2:16780>,<gregtech:meta_item_2:16786>,<gregtech:meta_item_2:16791>,<gregtech:meta_item_2:16797>,<gregtech:meta_item_2:16801>,<gregtech:meta_item_2:16807>,<gregtech:meta_item_2:16814>,<gregtech:meta_item_2:16818>,<gregtech:meta_item_2:16822>,<gregtech:meta_item_2:16943>,<gregtech:meta_item_2:16963>,<gregtech:meta_item_2:16979>,<gregtech:meta_item_2:16980>,<gregtech:meta_item_2:16981>,<gregtech:meta_item_2:16982>,<gregtech:meta_item_2:16983>,<gregtech:meta_item_2:16984>,<gregtech:meta_item_2:16985>,<gregtech:meta_item_2:16986>,<gregtech:meta_item_2:16987>,<gregtech:meta_item_2:16989>,<gregtech:meta_item_2:16993>]as IItemStack[];
+for i in remove{
+
+recipes.remove(i);
+
+}
 //hide Vulps dust
 h(<libvulpes:productdust:1>);
 h(<libvulpes:productdust:2>);
@@ -396,3 +402,7 @@ h(<danknull:dank_null_panel_4>);
 h(<danknull:dank_null_panel_5>);
 h(<danknull:danknull_dock>);
 h(<gregtech:machine:2005>);
+h(<extracells:storage.fluid:5>.withTag({fuzzyMode: "IGNORE_ALL"}));
+h(<extracells:storage.fluid:6>.withTag({fuzzyMode: "IGNORE_ALL"}));
+h(<extracells:storage.component:9>);
+h(<extracells:storage.component:10>);
