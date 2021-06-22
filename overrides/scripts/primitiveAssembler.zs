@@ -135,3 +135,10 @@ primitive_asssembler.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:steam> * 4000)
     .duration(150)
     .buildAndRegister();
+
+    primitive_asssembler.recipeMap.recipeBuilder()
+    .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:zombie"}) *9)
+    .outputs(<minecraft:skull:2> * 3,<enderio:item_soul_vial> *9)
+    .fluidInputs(<liquid:steam> * 4000)
+    .duration(150)
+    .buildAndRegister();
