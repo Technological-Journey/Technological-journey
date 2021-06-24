@@ -130,4 +130,21 @@ primitive_alloy.recipeMap.recipeBuilder()
     .duration(160)
     .buildAndRegister();
 
-
+    primitive_alloy.recipeMap.recipeBuilder()
+    .inputs([<ore:ingotIron>,<gregtech:meta_item_1:10822>])
+    .outputs([<enderio:item_alloy_ingot:5>])
+    .duration(160)
+    .fluidInputs(<liquid:steam> * 1000)
+    .buildAndRegister();
+        primitive_alloy.recipeMap.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2822>])
+    .outputs([<enderio:item_alloy_ingot:5>])
+    .duration(160)
+    .fluidInputs(<liquid:steam> * 1000)
+    .buildAndRegister();
+        primitive_alloy.recipeMap.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:10822>])
+    .outputs([<enderio:item_alloy_ingot:5>])
+    .duration(160)
+    .fluidInputs(<liquid:steam> * 1000)
+    .buildAndRegister();
