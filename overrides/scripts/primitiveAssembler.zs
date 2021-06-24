@@ -46,6 +46,7 @@ val primitive_asssembler = Builder.start(loc, meta)
                 <metastate:gregtech:metal_casing:1>)
                 .whereOr("F",
                 <metastate:gregtech:machine_casing:13>,
+                <metastate:gregtech:machine_casing:10>,
                 IBlockMatcher.abilityPartPredicate(
                     MultiblockAbility.IMPORT_FLUIDS,
                     MultiblockAbility.IMPORT_ITEMS,
@@ -83,7 +84,7 @@ val primitive_asssembler = Builder.start(loc, meta)
                 "EMMMM",
                 "CCCCC",
                 "DDDDD")
-            .where("M", <metastate:gregtech:machine_casing:13>)
+            .where("M", <metastate:gregtech:machine_casing:10>)
             .where("D", <metastate:gregtech:machine_casing:10>)
             .where("C", <metastate:gregtech:metal_casing:1>)
             .where("S", IBlockInfo.controller(loc))
