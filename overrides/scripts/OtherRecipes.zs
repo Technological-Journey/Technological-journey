@@ -874,3 +874,7 @@ assembler.recipeBuilder()
 .duration(80)
 .EUt(7904)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:soldering_alloy>], false);
+Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:battery_alloy>], false);
+Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:tin_alloy>], false);
