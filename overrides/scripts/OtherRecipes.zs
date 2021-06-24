@@ -878,3 +878,17 @@ assembler.recipeBuilder()
 Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:soldering_alloy>], false);
 Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:battery_alloy>], false);
 Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:tin_alloy>], false);
+
+assembler.recipeBuilder()
+.inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:blaze"}))
+.outputs(<minecraft:blaze_rod> )
+.EUt(120)
+.duration(150)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:zombie"}))
+.outputs(<minecraft:skull:2>)
+.EUt(120)
+.duration(150)
+.buildAndRegister();
