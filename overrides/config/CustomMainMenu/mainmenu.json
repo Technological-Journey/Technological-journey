@@ -58,23 +58,11 @@
             }
 
         },
-        "copyright": {
-            "text": "Music by Argofox",
-            "posX": -100,
-            "posY": 145,
-            "width": 200,
-            "height": 20,
-            "action": {
-                "type": "openLink",
-                "link": "https://www.youtube.com/channel/UC56Qctnsu8wAyvzf4Yx6LIw"
-            }
-
-        },
 
         "options": {
             "text": "menu.options",
             "posX": -100,
-            "posY": 170,
+            "posY": 145,
             "width": 98,
             "height": 20,
             "action": {
@@ -86,7 +74,7 @@
         "quit": {
             "text": "menu.quit",
             "posX": 2,
-            "posY": 170,
+            "posY": 145,
             "width": 98,
             "height": 20,
             "action": {
@@ -97,7 +85,7 @@
         "language": {
             "text": "",
             "posX": -124,
-            "posY": 170,
+            "posY": 145,
             "width": 20,
             "height": 20,
             "action": {
