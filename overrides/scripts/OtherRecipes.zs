@@ -709,14 +709,6 @@ large_chem.recipeBuilder()
 .EUt(120)
 .buildAndRegister();
 
-blast_alloy.recipeBuilder()
-.inputs([<gregtech:meta_item_1:2071> * 18,<gregtech:meta_item_1:2003> * 2])
-.fluidOutputs(<liquid:soldering_alloy> * 2880)
-.circuit(2)
-.duration(60)
-.EUt(512)
-.buildAndRegister();
-
 Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32492>], [], false);
 
 circuit_assembler.recipeBuilder()
@@ -862,7 +854,6 @@ assembler.recipeBuilder()
 .duration(80)
 .EUt(7904)
 .buildAndRegister();
-
 recipes.remove(<gregtech:machine:2530>);
 recipes.addShaped(<gregtech:machine:2530>, [[<gtadditions:ga_multiblock_casing:1>, <ore:circuitExtreme>, <gtadditions:ga_multiblock_casing:1>],[<gregtech:meta_item_1:32603>, <gregtech:machine:193>, <gregtech:meta_item_1:32603>], [<gtadditions:ga_multiblock_casing:1>, <ore:circuitExtreme>, <gtadditions:ga_multiblock_casing:1>]]);
 
@@ -875,9 +866,6 @@ assembler.recipeBuilder()
 .EUt(7904)
 .buildAndRegister();
 
-Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:soldering_alloy>], false);
-Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:battery_alloy>], false);
-Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:tin_alloy>], false);
 
 assembler.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:blaze"}))
@@ -892,3 +880,6 @@ assembler.recipeBuilder()
 .EUt(120)
 .duration(150)
 .buildAndRegister();
+
+recipes.remove(<gregtech:machine:4212>);
+recipes.addShaped(<gregtech:machine:4212>, [[<gregtech:fluid_pipe:2095>, <gregtech:fluid_pipe:2095>, <gregtech:fluid_pipe:2095>],[<contenttweaker:steampiston>, <gregtech:machine_casing:10>, <contenttweaker:steampiston>], [<gregtech:meta_item_2:18095>, <gregtech:fluid_pipe:2095>, <gregtech:meta_item_2:18095>]]);
