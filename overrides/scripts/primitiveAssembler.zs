@@ -118,7 +118,7 @@ primitive_asssembler.recipeMap.recipeBuilder()
     .duration(150)
     .buildAndRegister();
     primitive_asssembler.recipeMap.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:19297> * 3, <gregtech:cable:18>* 4,<gregtech:cable:5071> * 2)
+    .inputs(<gregtech:meta_item_2:19297> * 2, <gregtech:cable:18>* 2,<gregtech:cable:5071> * 2)
     .outputs(<gregtech:meta_item_1:32600>)
     .fluidInputs(<liquid:steam> * 1000)
     .duration(150)
