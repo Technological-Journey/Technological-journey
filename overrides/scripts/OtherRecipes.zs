@@ -883,3 +883,6 @@ assembler.recipeBuilder()
 
 recipes.remove(<gregtech:machine:4212>);
 recipes.addShaped(<gregtech:machine:4212>, [[<gregtech:fluid_pipe:2095>, <gregtech:fluid_pipe:2095>, <gregtech:fluid_pipe:2095>],[<contenttweaker:steampiston>, <gregtech:machine_casing:10>, <contenttweaker:steampiston>], [<gregtech:meta_item_2:18095>, <gregtech:fluid_pipe:2095>, <gregtech:meta_item_2:18095>]]);
+
+recipes.addShaped(<gregtech:meta_item_2:32455> * 2, [[<gregtech:meta_item_1:32627>, <gregtech:cable:18>, <gregtech:meta_item_1:32627>],[<gregtech:cable:18>, <gregtech:meta_item_1:2101>, <gregtech:cable:18>], [null, <gregtech:cable:18>, null]]);
+recipes.addShaped(<gregtech:meta_item_2:32455> * 2, [[<gregtech:meta_item_1:32627>, <gregtech:cable:18>, <gregtech:meta_item_1:32627>],[<gregtech:cable:18>, <gregtech:meta_item_1:2106>, <gregtech:cable:18>], [null, <gregtech:cable:18>, null]]);
