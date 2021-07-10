@@ -412,7 +412,7 @@ for recipe in RecipeMaps.getCokeOvenRecipes(){
     recipe.remove();
     }
 recipes.addShaped(<contenttweaker:steammotor>, [[<minecraft:stick>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:14033>],[<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:14033>, <gregtech:meta_item_1:12095>], [<minecraft:iron_ingot>, <gregtech:meta_item_1:12095>, <minecraft:stick>]]);
-recipes.addShaped(<contenttweaker:steampiston>, [[<gregtech:meta_item_2:26033>, <minecraft:stick>, <minecraft:stick>],[<gregtech:meta_item_2:26033>, <contenttweaker:steammotor>, <minecraft:iron_ingot>], [<minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>, <minecraft:heavy_weighted_pressure_plate>]]);
+recipes.addShaped(<contenttweaker:steampiston>, [[<gregtech:meta_item_2:26033>, <minecraft:stick>, <minecraft:stick>],[<gregtech:meta_item_2:26033>, <contenttweaker:steammotor>, <minecraft:iron_ingot>], [<gtadditions:ga_meta_item:1033>, <gtadditions:ga_meta_item:1033>, <gtadditions:ga_meta_item:1033>]]);
 recipes.remove(<gregtech:meta_item_1:32600>);
 recipes.addShaped(<gregtech:meta_item_1:32600>, [[<gregtech:cable:5071>, <gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>],[<gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>], [<gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>, <gregtech:cable:5071>]]);
 recipes.remove(<gregtech:meta_item_2:32450>);
@@ -635,7 +635,7 @@ Clustermill.recipeBuilder()
 .duration(90)
 .EUt(30)
 .buildAndRegister();
-
+/*
 Utils.removeRecipeByOutput(assembler, [<gregtechenergistics:metaitem1:8>], [], false); 
 
 assembler.recipeBuilder()
@@ -645,7 +645,7 @@ assembler.recipeBuilder()
 .duration(200)
 .EUt(128)
 .buildAndRegister();
-
+*/
 freezer.recipeBuilder()
 .fluidInputs(<liquid:air>* 1000)
 .fluidOutputs(<liquid:liquid_air> * 1000)
