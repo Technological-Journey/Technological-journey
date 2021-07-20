@@ -886,3 +886,6 @@ recipes.addShaped(<gregtech:machine:4212>, [[<gregtech:fluid_pipe:2095>, <gregte
 
 recipes.addShaped(<gregtech:meta_item_2:32455> * 2, [[<gregtech:meta_item_1:32627>, <gregtech:cable:18>, <gregtech:meta_item_1:32627>],[<gregtech:cable:18>, <gregtech:meta_item_1:2101>, <gregtech:cable:18>], [null, <gregtech:cable:18>, null]]);
 recipes.addShaped(<gregtech:meta_item_2:32455> * 2, [[<gregtech:meta_item_1:32627>, <gregtech:cable:18>, <gregtech:meta_item_1:32627>],[<gregtech:cable:18>, <gregtech:meta_item_1:2106>, <gregtech:cable:18>], [null, <gregtech:cable:18>, null]]);
+recipes.remove(<apotheosis:hellshelf>);
+recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <ore:logWood>, <minecraft:nether_brick>],[<minecraft:book>, <minecraft:book>, <minecraft:book>], [<minecraft:nether_brick>, <ore:logWood>, <minecraft:nether_brick>]]);
+recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],[null, <minecraft:bookshelf>, null], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
