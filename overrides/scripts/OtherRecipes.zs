@@ -474,6 +474,7 @@ recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.remove(<gregtech:machine:2540>);
 recipes.addShaped(<gregtech:machine:2540>, [[<gregtech:meta_item_1:32643>, <ore:circuitExtreme>, <gregtech:meta_item_1:32643>],[<gregtech:meta_item_1:32603>, <gregtech:machine:504>, <gregtech:meta_item_1:32603>], [<gregtech:meta_item_2:26072>, <gregtech:cable:235>, <gregtech:meta_item_2:26072>]]);
 
+/*
 electrolyzer.findRecipe(240, [<gregtech:meta_item_1:2125> * 3], null).remove();
 
 reactor.recipeBuilder()
@@ -492,6 +493,7 @@ large_chem.recipeBuilder()
 .duration(300)
 .EUt(240)
 .buildAndRegister();
+*/
 
 Utils.removeRecipeByOutput(tower,[],[<liquid:sulfuric_heavy_fuel>],false);
 tower.recipeBuilder()
