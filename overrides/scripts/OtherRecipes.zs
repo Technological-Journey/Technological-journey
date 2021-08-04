@@ -474,7 +474,6 @@ recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.remove(<gregtech:machine:2540>);
 recipes.addShaped(<gregtech:machine:2540>, [[<gregtech:meta_item_1:32643>, <ore:circuitExtreme>, <gregtech:meta_item_1:32643>],[<gregtech:meta_item_1:32603>, <gregtech:machine:504>, <gregtech:meta_item_1:32603>], [<gregtech:meta_item_2:26072>, <gregtech:cable:235>, <gregtech:meta_item_2:26072>]]);
 
-/*
 electrolyzer.findRecipe(240, [<gregtech:meta_item_1:2125> * 3], null).remove();
 
 reactor.recipeBuilder()
@@ -493,7 +492,6 @@ large_chem.recipeBuilder()
 .duration(300)
 .EUt(240)
 .buildAndRegister();
-*/
 
 Utils.removeRecipeByOutput(tower,[],[<liquid:sulfuric_heavy_fuel>],false);
 tower.recipeBuilder()
@@ -531,56 +529,57 @@ recipes.addShaped(<gregtech:meta_block_compressed_11:7>, [[<gregtech:meta_item_1
 recipes.remove(<actuallyadditions:block_fermenting_barrel>);
 
 fluid_extractor.recipeBuilder()
-.inputs(<actuallyadditions:item_canola_seed> * 10)
+.inputs(<actuallyadditions:item_canola_seed> * 5)
 .fluidOutputs(<liquid:canolaoil> * 500)
 .duration(150)
 .EUt(16)
 .buildAndRegister();
 
 fluid_extractor.recipeBuilder()
-.inputs(<actuallyadditions:item_misc:13> * 5)
+.inputs(<actuallyadditions:item_misc:13> * 10)
 .fluidOutputs(<liquid:canolaoil> * 500)
 .duration(150)
 .EUt(16)
 .buildAndRegister();
 
 fermenter.recipeBuilder()
-.fluidInputs(<liquid:canolaoil> * 4000)
-.fluidOutputs(<liquid:refinedcanolaoil> * 4000)
+.fluidInputs(<liquid:canolaoil> * 10000)
+.fluidOutputs(<liquid:refinedcanolaoil> * 10000)
 .duration(300)
 .EUt(16)
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
 .inputs(<actuallyadditions:item_misc:23> * 8)
-.fluidInputs(<liquid:refinedcanolaoil> * 4000)
-.fluidOutputs( <liquid:crystaloil> * 4000)
+.fluidInputs(<liquid:refinedcanolaoil> * 10000)
+.fluidOutputs( <liquid:crystaloil> * 10000)
 .duration(300)
 .EUt(16)
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
-.fluidInputs(<liquid:crystaloil> * 4000, <liquid: creosote> * 4000)
-.fluidOutputs( <liquid:empoweredoil> * 8000)
+.fluidInputs(<liquid:crystaloil> * 5000, <liquid: creosote> * 5000)
+.fluidOutputs( <liquid:empoweredoil> * 10000)
 .duration(300)
 .EUt(16)
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
 .inputs([<gregtech:meta_item_1:373>])
-.fluidInputs( <liquid:empoweredoil> * 10000, <liquid: ethanol> * 1000)
-.fluidOutputs(<liquid: bio_diesel> * 10000, <liquid: glycerol> * 1000)
+.fluidInputs( <liquid:empoweredoil> * 20000, <liquid: ethanol> * 1000)
+.fluidOutputs(<liquid: bio_diesel> * 20000, <liquid: glycerol> * 1000)
 .duration(120)
 .EUt(32)
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
 .inputs([<gregtech:meta_item_1:373>])
-.fluidInputs( <liquid:empoweredoil>* 10000, <liquid: methanol> * 1000)
-.fluidOutputs(<liquid: bio_diesel> * 10000, <liquid: glycerol> * 1000)
+.fluidInputs( <liquid:empoweredoil>* 20000, <liquid: methanol> * 1000)
+.fluidOutputs(<liquid: bio_diesel> * 20000, <liquid: glycerol> * 1000)
 .duration(120)
 .EUt(32)
 .buildAndRegister();
+
 recipes.remove(<enderio:block_farm_station>);
 
 assembler.recipeBuilder()
@@ -677,12 +676,14 @@ implosion.recipeBuilder()
 .EUt(30)
 .buildAndRegister();
 
+/*
 mixer.recipeBuilder()
 .inputs(<ore:dustRedstone>,<gregtech:meta_item_1:2026>)
 .outputs(<minecraft:glowstone_dust> * 2)
 .duration(120)
 .EUt(30)
 .buildAndRegister();
+*/
 
 centrifuge.recipeBuilder()
 .inputs([<advancedrocketry:electricmushroom>])
@@ -891,3 +892,4 @@ recipes.addShaped(<gregtech:meta_item_2:32455> * 2, [[<gregtech:meta_item_1:3262
 recipes.remove(<apotheosis:hellshelf>);
 recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <ore:logWood>, <minecraft:nether_brick>],[<minecraft:book>, <minecraft:book>, <minecraft:book>], [<minecraft:nether_brick>, <ore:logWood>, <minecraft:nether_brick>]]);
 recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],[null, <minecraft:bookshelf>, null], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
+
