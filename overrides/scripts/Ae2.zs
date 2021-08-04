@@ -12,6 +12,7 @@ import mods.threng.Etcher as Etcher;
 import mods.threng.Aggregator;
 import crafttweaker.mods.IMod;
 import mods.jei.JEI.removeAndHide as h;
+import mods.gtadditions.recipe.Utils;
 
 Inscriber.removeRecipe(<appliedenergistics2:material:20>); 
 Inscriber.removeRecipe(<appliedenergistics2:material:24>); 
@@ -563,3 +564,19 @@ assembler.recipeBuilder()
 
 recipes.remove(<extracells:part.base:12>);
 recipes.addShapeless(<extracells:part.base:12>, [<gregtech:meta_item_1:32102>,<appliedenergistics2:part:260>]);
+
+//Fix certus
+
+autoclave.findRecipe(24,[<metaitem:dustCertusQuartz>],[<fluid:water> * 200]).remove();
+autoclave.findRecipe(24,[<metaitem:dustCertusQuartz>],[<fluid:distilled_water> * 200]).remove();
+
+autoclave.recipeBuilder()
+.inputs(<ore:dustCertusQuartz>)
+.fluidInputs(<liquid:water> * 250)
+.outputs(<gregtech:meta_item_1:8202>)
+.EUt(32)
+.duration(80)
+.buildAndRegister();
+
+furnace.remove(<appliedenergistics2:material:5>);
+
