@@ -406,3 +406,4 @@ h(<extracells:storage.fluid:5>.withTag({fuzzyMode: "IGNORE_ALL"}));
 h(<extracells:storage.fluid:6>.withTag({fuzzyMode: "IGNORE_ALL"}));
 h(<extracells:storage.component:9>);
 h(<extracells:storage.component:10>);
+h(<actuallyadditions:block_atomic_reconstructor>);
