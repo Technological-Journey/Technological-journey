@@ -119,3 +119,7 @@ alloy.recipeBuilder()
 <enderio:item_power_conduit:1>.displayName = "Titanium Energy Conduit";
 <enderio:item_endergy_conduit:11>.displayName = "Superconducting Energy Conduit";
 <enderio:item_power_conduit:2>.displayName = "Tungstensteel Energy Conduit";
+
+recipes.remove(<enderio:block_soul_binder>);
+recipes.addShaped(<enderio:block_soul_binder>, [[<enderio:item_alloy_ingot:7>, <minecraft:skull:2>, <enderio:item_alloy_ingot:7>],[<minecraft:skull:2>, <enderio:item_material:53>, <minecraft:skull:2>], [<enderio:item_alloy_ingot:7>, <minecraft:skull:2>, <enderio:item_alloy_ingot:7>]]);
+
