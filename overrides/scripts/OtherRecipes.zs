@@ -566,16 +566,16 @@ chemreactor.recipeBuilder()
 
 chemreactor.recipeBuilder()
 .inputs([<gregtech:meta_item_1:373>])
-.fluidInputs( <liquid:empoweredoil> * 50000, <liquid: ethanol> * 1000)
-.fluidOutputs(<liquid: bio_diesel> * 50000, <liquid: glycerol> * 1000)
+.fluidInputs( <liquid:empoweredoil> * 10000, <liquid: ethanol> * 1000)
+.fluidOutputs(<liquid: bio_diesel> * 10000, <liquid: glycerol> * 1000)
 .duration(120)
 .EUt(32)
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
 .inputs([<gregtech:meta_item_1:373>])
-.fluidInputs( <liquid:empoweredoil>* 50000, <liquid: methanol> * 1000)
-.fluidOutputs(<liquid: bio_diesel> * 50000, <liquid: glycerol> * 1000)
+.fluidInputs( <liquid:empoweredoil>* 10000, <liquid: methanol> * 1000)
+.fluidOutputs(<liquid: bio_diesel> * 10000, <liquid: glycerol> * 1000)
 .duration(120)
 .EUt(32)
 .buildAndRegister();
