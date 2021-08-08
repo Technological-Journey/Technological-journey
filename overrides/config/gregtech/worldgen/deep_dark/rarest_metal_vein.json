@@ -18,9 +18,18 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                "weight": 100,
-                "value": "ore:rarest_metal_residue"
-            }]
+                    "weight": 80,
+                    "value": "ore:rarest_metal_residue"
+                },
+                {
+                    "weight": 5,
+                    "value": "ore:poor:bowieite"
+                },
+                {
+                    "weight": 15,
+                    "value": "ore:celestine"
+                }
+            ]
         }
     }
 }
