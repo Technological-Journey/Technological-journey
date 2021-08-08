@@ -892,4 +892,6 @@ recipes.addShaped(<gregtech:meta_item_2:32455> * 2, [[<gregtech:meta_item_1:3262
 recipes.remove(<apotheosis:hellshelf>);
 recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <ore:logWood>, <minecraft:nether_brick>],[<minecraft:book>, <minecraft:book>, <minecraft:book>], [<minecraft:nether_brick>, <ore:logWood>, <minecraft:nether_brick>]]);
 recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],[null, <minecraft:bookshelf>, null], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
+recipes.addShapeless(<gregtech:machine:430>, [<actuallyadditions:block_atomic_reconstructor>]);
+recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 45 as short}]}), [[<minecraft:red_nether_brick>, <minecraft:netherrack>, <minecraft:red_nether_brick>],[<minecraft:netherrack>, <minecraft:book>, <minecraft:netherrack>], [<minecraft:nether_brick>, <minecraft:netherrack>, <minecraft:nether_brick>]]);
 
