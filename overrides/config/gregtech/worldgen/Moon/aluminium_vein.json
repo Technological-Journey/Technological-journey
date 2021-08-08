@@ -16,12 +16,18 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                "weight": 50,
-                "value": "ore:aluminium"
-            }, {
-                "weight": 50,
-                "value": "ore:bauxite"
-            }]
+                    "weight": 25,
+                    "value": "ore:aluminium"
+                },
+                {
+                    "weight": 25,
+                    "value": "ore:gallite"
+                },
+                {
+                    "weight": 50,
+                    "value": "ore:bauxite"
+                }
+            ]
         }
     }
 }
