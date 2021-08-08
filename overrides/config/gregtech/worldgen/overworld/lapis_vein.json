@@ -26,11 +26,15 @@
                 },
                 {
                     "weight": 10,
+                    "value": "ore:barytocalcite"
+                },
+                {
+                    "weight": 5,
                     "value": "ore:sodalite"
                 },
                 {
-                    "weight": 10,
-                    "value": "ore:poor:sodalite"
+                    "weight": 5,
+                    "value": "ore:witherite"
                 },
                 {
                     "weight": 35,
