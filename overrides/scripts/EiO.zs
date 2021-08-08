@@ -122,4 +122,8 @@ alloy.recipeBuilder()
 
 recipes.remove(<enderio:block_soul_binder>);
 recipes.addShaped(<enderio:block_soul_binder>, [[<enderio:item_alloy_ingot:7>, <minecraft:skull:2>, <enderio:item_alloy_ingot:7>],[<minecraft:skull:2>, <enderio:item_material:53>, <minecraft:skull:2>], [<enderio:item_alloy_ingot:7>, <minecraft:skull:2>, <enderio:item_alloy_ingot:7>]]);
-
+recipes.addShapeless(<enderio:block_decoration1:15>, [<enderio:item_conduit_facade:2>]);
+recipes.addShaped(<enderio:item_conduit_facade:2>, [[null, null, null],[null, <enderio:item_conduit_facade>, <appliedenergistics2:quartz_vibrant_glass>], [null, null, null]]);
+recipes.addShaped(<enderio:item_conduit_facade:2>, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_material:4>, <appliedenergistics2:quartz_vibrant_glass>, <enderio:item_material:4>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
+recipes.remove(<enderio:block_decoration1:15>);
+recipes.remove(<enderio:item_conduit_facade:2>);
