@@ -60,14 +60,14 @@
             <biomeIds>advancedrocketry:Stormland,24</biomeIds> 
             <oceanBlock>gregtech:Fluid.oil_medium</oceanBlock>
             </planet>
-            <planet DIMID="401" name="Cosmic Wasteland" temp="100" customIcon="MarsLike">
+            <planet DIMID="401" name="Pluto" temp="100" customIcon="MarsLike">
                 <isKnown>true</isKnown>
                 <skyColor>0xadd8e6</skyColor>
                 <fogColor>0xf70d1a</fogColor>
                 <gravitationalMultiplier>100</gravitationalMultiplier>
-                <orbitalDistance>100</orbitalDistance>
-                <orbitalTheta>40</orbitalTheta>
-                <orbitalPhi>90</orbitalPhi>
+                <orbitalDistance>600</orbitalDistance>
+                <orbitalTheta>400</orbitalTheta>
+                <orbitalPhi>900</orbitalPhi>
                 <hasOxygen>false</hasOxygen>
                 <rotationalPeriod>14000</rotationalPeriod>
                 <atmosphereDensity>150</atmosphereDensity>
@@ -77,7 +77,7 @@
                 <generateGeodes>false</generateGeodes>
                 <!-- oxi ferric sand-->
                <artifact>advancedrocketry:hotturf</artifact> 
-                <biomeIds>advancedrocketry:crystalchasms,advancedrocketry:hotdryrock</biomeIds> 
+                <biomeIds>advancedrocketry:crystalchasms</biomeIds> 
                 </planet>
                 <planet DIMID="405" name="Mars" temp="10" customIcon="MarsLike">
                     <isKnown>true</isKnown>
