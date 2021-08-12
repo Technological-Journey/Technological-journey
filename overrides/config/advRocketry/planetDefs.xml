@@ -69,7 +69,7 @@
                 <orbitalTheta>400</orbitalTheta>
                 <orbitalPhi>900</orbitalPhi>
                 <hasOxygen>false</hasOxygen>
-                <rotationalPeriod>14000</rotationalPeriod>
+                <rotationalPeriod>56000</rotationalPeriod>
                 <atmosphereDensity>150</atmosphereDensity>
                 <generateCraters>false</generateCraters>
                 <generateVolcanos>false</generateVolcanos>
