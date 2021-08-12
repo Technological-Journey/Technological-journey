@@ -13,19 +13,23 @@
         },
         {
             "dimID": 400,
-            "dimName": "Coal asteroid"
+            "dimName": "Titan"
         },
         {
             "dimID": 401,
-            "dimName": "cosmic wasteland"
+            "dimName": "Pluto"
         },
         {
             "dimID": 402,
-            "dimName": "Saline Wasteland"
+            "dimName": "Phobos"
         },
         {
             "dimID": 403,
-            "dimName": "Molten earth"
+            "dimName": "Mercury"
+        },
+        {
+            "dimID": 405,
+            "dimName": "Mars"
         },
         {
             "dimID": 3,
