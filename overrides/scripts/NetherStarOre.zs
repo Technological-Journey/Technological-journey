@@ -21,5 +21,5 @@ lvBase.setCableProperties(32, 4, 6);
 lvSuper.setCableProperties(32, 4, 0);
 
 val starmetalalloy = MaterialRegistry.createIngotMaterial(524, "star_metal_alloy", 0x050A30, "shiny", 4,null,0,0,0,7000);
-util.registerFluid("magically_boosted_high_octane_gasoline",0xdf362d,"C₆H₁₈?");
+util.registerFluid("magically_boosted_high_octane_rocketfuel",0xdf362d,"C₆H₁₈?");
 starmetalalloy.addFlags(["GENERATE_PLATE"]);
