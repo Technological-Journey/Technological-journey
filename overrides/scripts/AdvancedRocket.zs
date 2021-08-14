@@ -177,13 +177,6 @@ alloy.recipeBuilder()
     .EUt(2048)
     .buildAndRegister();
 
-    chemreactor.recipeBuilder()
-.inputs([<ore:sand> * 2,<gregtech:meta_item_1:2033>])
-.fluidInputs( <liquid:oxygen> * 2000)
-.outputs([<advancedrocketry:hotturf>])
-.duration(1200)
-.EUt(512)
-.buildAndRegister();
 
 autoclave.recipeBuilder()
 .inputs([<libvulpes:productdust>])
@@ -193,7 +186,7 @@ autoclave.recipeBuilder()
 .EUt(512)
 .buildAndRegister();
 <advancedrocketry:charcoallog>.addTooltip("ID 400 artifact");
-<advancedrocketry:hotturf>.addTooltip("ID 401 artifact");
+<gregtech:meta_block_compressed_18:12>.addTooltip("ID 401 artifact");
 <gregtech:meta_block_compressed_9:11>.addTooltip("ID 402 artifact");
 <gregtech:meta_block_compressed_3:3>.addTooltip("ID 403 artifact");
 <gregtech:meta_block_compressed_49:13>.addTooltip("ID 405 artifact");
