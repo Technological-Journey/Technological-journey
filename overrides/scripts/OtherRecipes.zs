@@ -692,13 +692,6 @@ centrifuge.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 
-mixer.recipeBuilder()
-.fluidInputs(<liquid:high_octane> *60000, <liquid:tetranitromethane> *4000)
-.fluidOutputs(<liquid:boosted_octane_gasoline> * 64000)
-.duration(40)
-.EUt(512)
-.buildAndRegister();
-
 recipes.remove(<gregtech:machine:2514>);
 recipes.addShaped(<gregtech:machine:2514>, [[<gregtech:meta_item_1:12300>, <gregtech:machine:63>, <gregtech:meta_item_1:12300>],[<gregtech:machine:62>, <ore:circuitExtreme>, <gregtech:machine:62>], [<gregtech:meta_item_1:12300>, <gregtech:machine:505>, <gregtech:meta_item_1:12300>]]);
 furnace.remove(<gregtech:meta_item_1:2047>);
