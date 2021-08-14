@@ -20,4 +20,6 @@ val lvBase = MaterialRegistry.createIngotMaterial(517, "lv_superconductor_base",
 lvBase.setCableProperties(32, 4, 6);
 lvSuper.setCableProperties(32, 4, 0);
 
-val boosted_octane_gasoline = MaterialRegistry.createFluidMaterial(524,  "boosted_octane_gasoline", 0x696969, "FLUID", null);
+val starmetalalloy = MaterialRegistry.createIngotMaterial(524, "star_metal_alloy", 0x050A30, "shiny", 4,null,0,0,0,7000);
+util.registerFluid("magically_boosted_high_octane_gasoline",0xdf362d,"C₆H₁₈?");
+starmetalalloy.addFlags(["GENERATE_PLATE"]);
