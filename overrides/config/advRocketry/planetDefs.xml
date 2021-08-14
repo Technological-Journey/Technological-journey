@@ -75,8 +75,8 @@
                 <generateVolcanos>false</generateVolcanos>
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
-                <!-- oxi ferric sand-->
-               <artifact>advancedrocketry:hotturf</artifact> 
+                <!-- block of tungstencarbide-->
+               <artifact>gregtech:meta_block_compressed_18 12</artifact> 
                 <biomeIds>advancedrocketry:crystalchasms</biomeIds> 
                 </planet>
                 <planet DIMID="405" name="Mars" temp="10" customIcon="MarsLike">
