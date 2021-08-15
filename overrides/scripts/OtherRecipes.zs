@@ -212,9 +212,7 @@ centrifuge.findRecipe(48000,null,[<fluid:liquid_air>* 53000]).remove();
     recipes.addShaped(<thermalfoundation:material:640>, [[null, null, null],[null, <actuallyadditions:item_misc:16>, null], [null, null, null]]);
     recipes.addShaped(<thermalfoundation:material:656>, [[null, <gregtech:meta_item_1:13183>, null],[<gregtech:meta_item_1:13183>, <gregtech:meta_item_2:19183>, <gregtech:meta_item_1:13183>], [null, <gregtech:meta_item_1:13183>, null]]);
 //    recipes.removeShaped(<minecraft:hopper>);
-    
-   recipes.addShaped(<beneath:teleporterbeneath>, [[<gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13032>],[<gregtech:meta_item_1:13047>, <gregtech:machine:2548>, <gregtech:meta_item_1:13032>], [<gregtech:meta_item_1:13047>, <gregtech:meta_item_1:13032>, <gregtech:meta_item_1:13032>]]);
-    <beneath:teleporterbeneath>.displayName = "Deep Dark Portal";
+
     assembler.recipeBuilder()
         .inputs([<gregtech:meta_item_1:13184>,<enderio:item_alloy_ingot:6>])
         .outputs([<enderio:item_dark_steel_upgrade>])
@@ -398,7 +396,6 @@ circuit_assembler.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 furnace.remove(<thermalfoundation:material:833>, <gregtech:meta_item_1:32627>);
-recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>],[<gregtech:meta_item_1:12095>, null, <gregtech:meta_item_1:12095>], [<gregtech:metal_casing:1>, <gregtech:meta_item_1:12095>, <gregtech:metal_casing:1>]]);
 Utils.removeRecipeByOutput(hammer, [<gregtech:meta_item_1:10197>], [], false); 
 //Utils.removeRecipeByOutput(largeHammer, [<gregtech:meta_item_1:10197>], [], false); 
 recipes.remove(<enderio:item_extract_speed_upgrade>);
@@ -430,7 +427,6 @@ recipes.addShaped(<gregtech:machine:11>, [[<gregtech:fluid_pipe:1095>, <gregtech
 recipes.addShaped(<gregtech:machine:7>, [[<gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>],[<contenttweaker:steampiston>, <gregtech:machine_casing:10>, <minecraft:glass>], [<gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>, <gregtech:fluid_pipe:1095>]]);
 recipes.remove(<gregtech:machine:2235>);
 recipes.addShaped(<gregtech:machine:2235>, [[<minecraft:glass>, <gregtech:meta_item_2:18095>, <minecraft:glass>],[<contenttweaker:steampiston>, <gregtech:fluid_pipe:1184>, <contenttweaker:steampiston>], [<gregtech:fluid_pipe:1184>, <gregtech:machine_casing:10>, <gregtech:fluid_pipe:1184>]]);
-recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <contenttweaker:steammotor>, <gregtech:metal_casing:8>],[<contenttweaker:steampiston>, null, <contenttweaker:steammotor>], [<gregtech:metal_casing:8>, <contenttweaker:steampiston>, <gregtech:metal_casing:8>]]);
 recipes.remove(<gregtech:machine:500>);
 recipes.addShaped(<gregtech:machine:500>, [[null, null, null],[<gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>], [<gregtech:cable:5071>, <gregtech:machine_casing>, <gregtech:cable:5071>]]);
 recipes.removeShaped(<minecraft:hopper>, [[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
@@ -887,4 +883,8 @@ recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <ore:logWo
 recipes.addShaped(<apotheosis:hellshelf>, [[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],[null, <minecraft:bookshelf>, null], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
 recipes.addShapeless(<gregtech:machine:430>, [<actuallyadditions:block_atomic_reconstructor>]);
 recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 45 as short}]}), [[<minecraft:red_nether_brick>, <minecraft:netherrack>, <minecraft:red_nether_brick>],[<minecraft:netherrack>, <minecraft:book>, <minecraft:netherrack>], [<minecraft:nether_brick>, <minecraft:netherrack>, <minecraft:nether_brick>]]);
+
+// coke oven and primitve alloy
+recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>]]);
+recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>],[<gtadditions:ga_meta_item:1095>, null, <gtadditions:ga_meta_item:1095>], [<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>]]);
 
