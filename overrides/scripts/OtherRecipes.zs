@@ -489,30 +489,30 @@ large_chem.recipeBuilder()
 .EUt(240)
 .buildAndRegister();
 */
-Utils.removeRecipeByOutput(tower,[],[<liquid:sulfuric_heavy_fuel>],false);
+Utils.removeRecipeByOutput(tower,[],[<liquid:sulfuric_heavy_fuel>],false); //triple all values-
 tower.recipeBuilder()
-.fluidInputs(<liquid:oil_heavy> * 1500)
-.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 2500,<liquid:sulfuric_light_fuel> * 450,<liquid:sulfuric_naphtha> * 150,<liquid:sulfuric_gas> *6000)
-.duration(600)
-.EUt(288)
+.fluidInputs(<liquid:oil_heavy> * 4500)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 7500,<liquid:sulfuric_light_fuel> * 1350,<liquid:sulfuric_naphtha> * 450,<liquid:sulfuric_gas> *18000)
+.duration(400)
+.EUt(10)
+.buildAndRegister();
+tower.recipeBuilder() 
+.fluidInputs(<liquid:oil_medium> * 3000)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 450,<liquid:sulfuric_light_fuel> * 1500,<liquid:sulfuric_naphtha> * 600,<liquid:sulfuric_gas> *1800)
+.duration(400)
+.EUt(10)
 .buildAndRegister();
 tower.recipeBuilder()
-.fluidInputs(<liquid:oil_medium> * 1000)
-.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 150,<liquid:sulfuric_light_fuel> * 500,<liquid:sulfuric_naphtha> * 200,<liquid:sulfuric_gas> *600)
-.duration(600)
-.EUt(288)
+.fluidInputs(<liquid:oil_light> * 450)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 300,<liquid:sulfuric_light_fuel> * 600,<liquid:sulfuric_naphtha> * 900,<liquid:sulfuric_gas> *7500)
+.duration(400)
+.EUt(10)
 .buildAndRegister();
 tower.recipeBuilder()
-.fluidInputs(<liquid:oil_light> * 1500)
-.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 100,<liquid:sulfuric_light_fuel> * 200,<liquid:sulfuric_naphtha> * 300,<liquid:sulfuric_gas> *2500)
-.duration(600)
-.EUt(288)
-.buildAndRegister();
-tower.recipeBuilder()
-.fluidInputs(<liquid:oil> * 500)
-.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 150,<liquid:sulfuric_light_fuel> * 500,<liquid:sulfuric_naphtha> * 200,<liquid:sulfuric_gas> *600)
-.duration(600)
-.EUt(288)
+.fluidInputs(<liquid:oil> * 1500)
+.fluidOutputs(<liquid:sulfuric_heavy_fuel> * 450,<liquid:sulfuric_light_fuel> * 1500,<liquid:sulfuric_naphtha> * 600,<liquid:sulfuric_gas> *1800)
+.duration(400)
+.EUt(10)
 .buildAndRegister();
 recipes.remove(<gregtech:machine:92>);
 recipes.remove(<gregtech:machine:91>);
@@ -846,9 +846,10 @@ assembler.recipeBuilder()
 .duration(80)
 .EUt(7904)
 .buildAndRegister();
+/*
 recipes.remove(<gregtech:machine:2530>);
 recipes.addShaped(<gregtech:machine:2530>, [[<gtadditions:ga_multiblock_casing:1>, <ore:circuitExtreme>, <gtadditions:ga_multiblock_casing:1>],[<gregtech:meta_item_1:32603>, <gregtech:machine:193>, <gregtech:meta_item_1:32603>], [<gtadditions:ga_multiblock_casing:1>, <ore:circuitExtreme>, <gtadditions:ga_multiblock_casing:1>]]);
-
+*/
 Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32131>], [], true);
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12184> * 2, <ore:circuitBasic> * 2])
@@ -888,3 +889,62 @@ recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl:
 recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>]]);
 recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>],[<gtadditions:ga_meta_item:1095>, null, <gtadditions:ga_meta_item:1095>], [<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>]]);
 
+Utils.removeRecipeByOutput(mixer, [], [<liquid:nitro_fuel> * 750], true);
+
+mixer.recipeBuilder()
+.fluidInputs(<liquid:bio_diesel> * 1000 ,<liquid:tetranitromethane> * 20 )
+.fluidOutputs(<liquid:nitro_fuel> * 1000)
+.EUt(480)
+.duration(20)
+.buildAndRegister();
+
+Utils.removeRecipeByOutput(largeMix, [], [<liquid:nitro_fuel> * 750], true);
+
+largeMix.recipeBuilder()
+.fluidInputs(<liquid:bio_diesel> * 1000, <liquid:tetranitromethane> * 20)
+.fluidOutputs(<liquid:nitro_fuel> * 1000)
+.circuit(2)
+.EUt(480)
+.duration(20)
+.buildAndRegister();
+
+Utils.removeRecipeByOutput(mixer, [], [<liquid:nitro_fuel> * 1000], true);
+
+mixer.recipeBuilder()
+.fluidInputs(<liquid:fuel> * 2000 ,<liquid:tetranitromethane> * 20 )
+.fluidOutputs(<liquid:nitro_fuel> * 2000)
+.EUt(480)
+.duration(20)
+.buildAndRegister();
+
+Utils.removeRecipeByOutput(largeMix, [], [<liquid:nitro_fuel> * 1000], true);
+
+largeMix.recipeBuilder()
+.fluidInputs(<liquid:fuel> * 2000, <liquid:tetranitromethane> * 20)
+.fluidOutputs(<liquid:nitro_fuel> * 2000)
+.circuit(2)
+.EUt(480)
+.duration(20)
+.buildAndRegister();
+
+
+
+//Nitro Benzeene
+
+Utils.removeRecipeByOutput(chemreactor, [], [<liquid:nitro_benzene> * 1000], true);
+
+chemreactor.recipeBuilder()
+.fluidInputs(<liquid:nitration_mixture> * 2000, <liquid:benzene> * 5000, <liquid:distilled_water> * 2000)
+.fluidOutputs(<liquid:nitro_benzene> * 8000, <liquid:diluted_sulfuric_acid> * 1000)
+.EUt(320)
+.duration(120)
+.buildAndRegister();
+
+Utils.removeRecipeByOutput(large_chem, [], [<liquid:nitro_benzene> * 1000], true);
+
+large_chem.recipeBuilder()
+.fluidInputs(<liquid:nitration_mixture> * 2000, <liquid:benzene> * 5000,<liquid:distilled_water> * 2000)
+.fluidOutputs(<liquid:nitro_benzene> * 8000, <liquid:diluted_sulfuric_acid> * 1000)
+.EUt(320)
+.duration(120)
+.buildAndRegister();
