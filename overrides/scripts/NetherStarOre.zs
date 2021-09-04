@@ -1,6 +1,6 @@
 #loader gregtech
 import mods.gregtech.material.MaterialRegistry;
-
+import mods.gtadditions.recipe.Utils as util;
 import mods.gregtech.material.Material;
 var materialList = MaterialRegistry.getAllMaterials();
 
