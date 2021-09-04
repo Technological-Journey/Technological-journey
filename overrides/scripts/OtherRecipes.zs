@@ -948,3 +948,13 @@ large_chem.recipeBuilder()
 .EUt(320)
 .duration(120)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:machine:4239>], [], true);
+
+assembler.recipeBuilder()
+.inputs(<gregtech:meta_item_1:32600> * 4, <gregtech:meta_item_1:32610> * 4,<gregtech:machine:501>, <gregtech:frame_steel>, <gregtech:meta_item_2:26017> * 2, <ore:circuitBasic>)
+.circuit(2)
+.outputs(<gregtech:machine:4239>)
+.EUt(30)
+.duration(400)
+.buildAndRegister();
