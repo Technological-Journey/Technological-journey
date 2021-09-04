@@ -79,26 +79,48 @@ coke_oven_2.noEnergy = true;
     coke_oven_2.recipeMap.recipeBuilder()
     .inputs(<ore:logWood> * 1)
     .outputs(<minecraft:coal:1>)
-    .fluidOutputs(<liquid:creosote> * 250)
-    .duration(450)
+    .fluidOutputs(<liquid:creosote> * 1000)
+    .duration(180)
     .buildAndRegister();
 
     coke_oven_2.recipeMap.recipeBuilder()
     .inputs(<minecraft:coal:1>)
     .outputs(<gregtech:meta_item_1:8357>)
-    .fluidOutputs(<liquid:creosote> * 500)
-    .duration(900)
+    .fluidOutputs(<liquid:creosote> * 1000)
+    .duration(180)
     .buildAndRegister();
 
     coke_oven_2.recipeMap.recipeBuilder()
     .inputs(<minecraft:coal>)
     .outputs(<gregtech:meta_item_1:8357>)
-    .fluidOutputs(<liquid:creosote> * 750)
-    .duration(900)
+    .fluidOutputs(<liquid:creosote> * 1800)
+    .duration(360)
     .buildAndRegister();
+
+    coke_oven_2.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:8211> * 2)
+    .outputs(<gregtech:meta_item_1:8357>)
+    .fluidOutputs(<liquid:creosote> * 1800)
+    .duration(360)
+    .buildAndRegister();
+
+    coke_oven_2.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2106>)
+    .outputs(<gregtech:meta_item_1:2357>)
+    .fluidOutputs(<liquid:creosote> * 1800)
+    .duration(360)
+    .buildAndRegister();
+
+    coke_oven_2.recipeMap.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2211>* 2)
+    .outputs(<gregtech:meta_item_1:2357>)
+    .fluidOutputs(<liquid:creosote> * 1800)
+    .duration(360)
+    .buildAndRegister();
+
     coke_oven_2.recipeMap .recipeBuilder()
     .inputs(<gregtech:meta_item_1:32627> * 2)
     .outputs(<thermalfoundation:material:833>)
-    .fluidOutputs(<liquid:creosote> * 500)
+    .fluidOutputs(<liquid:creosote> * 750)
     .duration(150)
     .buildAndRegister();

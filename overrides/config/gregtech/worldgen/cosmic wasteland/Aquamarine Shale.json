@@ -6,12 +6,9 @@
     "dimension_filter": [
         "dimension_id:401"
     ],
-    "biome_map": {
-        "hotdryrock": 0
-    },
     "generator": {
         "type": "ellipsoid",
-        "radius": [20, 20]
+        "radius": [2, 2]
     },
     "filler": {
         "type": "ga_simple",
@@ -19,7 +16,7 @@
             "type": "weight_random",
             "values": [{
                 "weight": 100,
-                "value": "ore:poor:cryotheum"
+                "value": "block:astralsorcery:blockcustomsandore"
             }]
         }
     }
