@@ -889,11 +889,12 @@ recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl:
 recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>]]);
 recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>],[<gtadditions:ga_meta_item:1095>, null, <gtadditions:ga_meta_item:1095>], [<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>]]);
 
+/*
 Utils.removeRecipeByOutput(mixer, [], [<liquid:nitro_fuel> * 750], true);
 
 mixer.recipeBuilder()
-.fluidInputs(<liquid:bio_diesel> * 1000 ,<liquid:tetranitromethane> * 20 )
-.fluidOutputs(<liquid:nitro_fuel> * 1000)
+.fluidInputs([<liquid:bio_diesel> * 1000 ,<liquid:tetranitromethane> * 20])
+.fluidOutputs([<liquid:nitro_fuel> * 1000])
 .EUt(480)
 .duration(20)
 .buildAndRegister();
@@ -901,18 +902,19 @@ mixer.recipeBuilder()
 Utils.removeRecipeByOutput(largeMix, [], [<liquid:nitro_fuel> * 750], true);
 
 largeMix.recipeBuilder()
-.fluidInputs(<liquid:bio_diesel> * 1000, <liquid:tetranitromethane> * 20)
-.fluidOutputs(<liquid:nitro_fuel> * 1000)
+.fluidInputs([<liquid:bio_diesel> * 1000, <liquid:tetranitromethane> * 20])
+.fluidOutputs([<liquid:nitro_fuel> * 1000])
 .circuit(2)
 .EUt(480)
 .duration(20)
 .buildAndRegister();
+*/
 
 Utils.removeRecipeByOutput(mixer, [], [<liquid:nitro_fuel> * 1000], true);
 
 mixer.recipeBuilder()
-.fluidInputs(<liquid:fuel> * 2000 ,<liquid:tetranitromethane> * 20 )
-.fluidOutputs(<liquid:nitro_fuel> * 2000)
+.fluidInputs([<liquid:fuel> * 2000 ,<liquid:tetranitromethane> * 20 ])
+.fluidOutputs([<liquid:nitro_fuel> * 2000])
 .EUt(480)
 .duration(20)
 .buildAndRegister();
@@ -920,8 +922,8 @@ mixer.recipeBuilder()
 Utils.removeRecipeByOutput(largeMix, [], [<liquid:nitro_fuel> * 1000], true);
 
 largeMix.recipeBuilder()
-.fluidInputs(<liquid:fuel> * 2000, <liquid:tetranitromethane> * 20)
-.fluidOutputs(<liquid:nitro_fuel> * 2000)
+.fluidInputs([<liquid:fuel> * 2000, <liquid:tetranitromethane> * 20])
+.fluidOutputs([<liquid:nitro_fuel> * 2000])
 .circuit(2)
 .EUt(480)
 .duration(20)
