@@ -960,3 +960,14 @@ assembler.recipeBuilder()
 .EUt(30)
 .duration(400)
 .buildAndRegister();
+
+
+distillery.findRecipe(100, [<gregtech:meta_item_1:32766>.withTag({Configuration: 0})], [<fluid:biomass>* 2000]).remove();
+
+distillery.recipeBuilder()
+.fluidInputs(<liquid:biomass> * 2000)
+.fluidOutputs(<liquid:ethanol> * 600)
+.circuit(0)
+.EUt(16)
+.duration(80)
+.buildAndRegister();
