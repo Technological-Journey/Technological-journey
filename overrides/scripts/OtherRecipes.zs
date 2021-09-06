@@ -971,3 +971,5 @@ distillery.recipeBuilder()
 .EUt(16)
 .duration(80)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(centrifuge, [], [<liquid:oil> * 100], true);
