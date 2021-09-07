@@ -414,7 +414,7 @@ recipes.remove(<gregtech:meta_item_1:32600>);
 recipes.addShaped(<gregtech:meta_item_1:32600>, [[<gregtech:cable:5071>, <gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>],[<gregtech:meta_item_2:16018>, <gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>], [<gregtech:meta_item_1:14297>, <gregtech:meta_item_2:16018>, <gregtech:cable:5071>]]);
 recipes.remove(<gregtech:meta_item_2:32450>);
 recipes.addShaped(<gregtech:meta_item_2:32450>, [[null, null, null],[<gregtech:meta_item_2:16018>, <gregtech:meta_item_2:32454>, <gregtech:meta_item_2:16018>], [<gtadditions:ga_meta_item:32307>, <gtadditions:ga_meta_item:32307>, <gtadditions:ga_meta_item:32307>]]);
-recipes.addShaped(<gregtech:machine:1003>, [[<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>]]);
+//recipes.addShaped(<gregtech:machine:1003>, [[<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>]]);
 recipes.remove(<gregtech:machine:9>);
 recipes.remove(<gregtech:machine:10>);
 recipes.remove(<gregtech:machine:11>);
