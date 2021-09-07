@@ -72,6 +72,8 @@ import mods.jei.JEI.removeAndHide as h;
 	<ore:blockTitanium>.remove(<libvulpes:metal0:7>);
 	<ore:ingotTitanium>.remove(<libvulpes:productingot:7>);
 	<ore:naquadah>.add(<gregtech:meta_item_1:2307>);
+	
+	/*
 	var sift = [<gregtech:meta_item_1:6111>,<gregtech:meta_item_1:6713>,<gregtech:meta_item_1:6092>,<gregtech:meta_item_1:6211>,<gregtech:meta_item_1:6331>,<gregtech:meta_item_1:6187>,<gregtech:meta_item_1:6281>,<gregtech:meta_item_1:6161>,<gregtech:meta_item_1:6206>,<gregtech:meta_item_1:6154>,<gregtech:meta_item_1:6216>,<gregtech:meta_item_1:6214>,<gregtech:meta_item_1:6190>,<gregtech:meta_item_1:6226>,<gregtech:meta_item_1:6203>,<gregtech:meta_item_1:6201>,<gregtech:meta_item_1:6128>,<gregtech:meta_item_1:6117>,<gregtech:meta_item_1:6243>,<gregtech:meta_item_1:6113>,<gregtech:meta_item_1:6910>,<gregtech:meta_item_1:6103>,<gregtech:meta_item_1:6247>,<gregtech:meta_item_1:6202>,<gregtech:meta_item_1:6157>,<gregtech:meta_item_1:6213>,<gregtech:meta_item_1:6122>,<gregtech:meta_item_1:6244>,<gregtech:meta_item_1:6085>,<gregtech:meta_item_1:6212>,<gregtech:meta_item_1:6106>,<gregtech:meta_item_1:6867>,<gregtech:meta_item_1:2902>,<gregtech:meta_item_1:2892>,<gregtech:meta_item_1:2864>] as IItemStack[];
 for i in sift{
 
@@ -84,6 +86,8 @@ for i in remove{
 recipes.remove(i);
 
 }
+*/
+
 //hide Vulps dust
 h(<libvulpes:productdust:1>);
 h(<libvulpes:productdust:2>);
@@ -347,12 +351,15 @@ h(<advancedrocketry:ic:5>);
 h(<advancedrocketry:planetselector>);
 
 h(<advancedrocketry:planetselector>);
+h(<variegated:silvered_apple>);
+h(<variegated:silvered_apple:1>);
+<variegated:defiled_ground>.displayName = "Cursed Earth";
+
 /*
 h(<gregtech:meta_item_2:32507>);
 h(<gregtech:meta_item_2:32490>);
 h(<gregtech:meta_item_2:32489>);
 h(<gregtech:meta_item_1:10712>);
-//h(	_17>);
 h(<gregtech:meta_item_1:9712>);
 */
 
