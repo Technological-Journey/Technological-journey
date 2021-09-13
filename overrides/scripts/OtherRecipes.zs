@@ -31,7 +31,7 @@ macerator.recipeBuilder()
 .buildAndRegister();
 
 mixer.recipeBuilder()
-.inputs([<minecraft:redstone> *64])
+.inputs([<minecraft:redstone> * 64])
 .fluidInputs(<liquid:lava> * 9000)
 .outputs([<fluxnetworks:flux> * 64])
 .duration(240)
@@ -212,13 +212,14 @@ centrifuge.findRecipe(48000,null,[<fluid:liquid_air>* 53000]).remove();
     recipes.addShaped(<thermalfoundation:material:640>, [[null, null, null],[null, <actuallyadditions:item_misc:16>, null], [null, null, null]]);
     recipes.addShaped(<thermalfoundation:material:656>, [[null, <gregtech:meta_item_1:13183>, null],[<gregtech:meta_item_1:13183>, <gregtech:meta_item_2:19183>, <gregtech:meta_item_1:13183>], [null, <gregtech:meta_item_1:13183>, null]]);
 //    recipes.removeShaped(<minecraft:hopper>);
-
+/*
     assembler.recipeBuilder()
-        .inputs([<gregtech:meta_item_1:13184>,<enderio:item_alloy_ingot:6>])
+        .inputs([<gtadditions:ga_meta_item:1184>,<enderio:item_alloy_ingot:6>])
         .outputs([<enderio:item_dark_steel_upgrade>])
         .duration(100)
         .EUt(32)
         .buildAndRegister();
+        */
 recipes.addShaped(<trashcans:ultimate_trash_can>, [[null, <trashcans:item_trash_can>, null],[<trashcans:energy_trash_can>, null, <trashcans:liquid_trash_can>], [null, null, null]]);
 recipes.addShaped(<trashcans:liquid_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:machine:2197>, <gregtech:meta_item_1:12184>], [null,null, null]]);
 recipes.addShaped(<trashcans:energy_trash_can>, [[null, <gregtech:meta_item_1:12184>, null],[<gregtech:meta_item_1:12184>, <gregtech:meta_item_2:19018>, <gregtech:meta_item_1:12184>], [null,null, null]]);
@@ -970,3 +971,62 @@ Utils.removeRecipeByOutput(centrifuge, [], [<liquid:oil> * 100], true);
 
 recipes.addShaped(<variegated:defiled_ground> * 4, [[<ore:itemSkull>, <minecraft:soul_sand>, <ore:itemSkull>],[<minecraft:soul_sand>, <enderio:item_alloy_ingot:7>, <minecraft:soul_sand>], [<ore:itemSkull>, <minecraft:soul_sand>, <ore:itemSkull>]]);
 recipes.remove(<variegated:defiled_ground>);
+
+//concrete recipes
+
+mixer.recipeBuilder()
+.inputs([<minecraft:concrete_powder> * 64])
+.fluidInputs(<liquid:water> * 100)
+.outputs([<minecraft:concrete> * 64])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+val i = 0;
+for i in 1 to 16{
+mixer.recipeBuilder()
+
+.inputs([itemUtils.getItem("minecraft:concrete_powder", i)* 64])
+.fluidInputs(<liquid:water> * 1000)
+.outputs(itemUtils.getItem("minecraft:concrete",i) * 64)
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+}
+recipes.remove(<gregtech:machine:4024>);
+recipes.addShaped(<gregtech:machine:4024>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<gregtech:meta_item_1:12184>, <gregtech:machine:501>, <gregtech:meta_item_1:12184>], [<gregtech:cable:5071>, <gregtech:meta_item_2:8184>, <gregtech:cable:5071>]]);
+recipes.remove(<randomthings:ingredient:1>);
+recipes.addShaped(<randomthings:ingredient:1>, [[null, <enderio:item_material:43>, null],[<minecraft:ender_pearl>, <minecraft:ghast_tear>, <minecraft:ender_pearl>], [null, <minecraft:ender_pearl>, null]]);
+recipes.addShaped(<randomthings:obsidianskull>, [[<minecraft:obsidian>, <minecraft:blaze_rod>, <minecraft:obsidian>],[<minecraft:nether_brick>, <enderio:item_material:43>, <minecraft:nether_brick>], [<minecraft:obsidian>, <minecraft:blaze_rod>, <minecraft:obsidian>]]);
+recipes.remove(<randomthings:obsidianskull>);
+
+recipes.remove(<actuallyadditions:block_player_interface>);
+recipes.remove(<draconicevolution:entity_detector:1>);
+recipes.remove(<actuallyadditions:item_player_probe>);
+recipes.addShaped(<draconicevolution:entity_detector:1>, [[<ore:blockRedstone>, <ore:itemSkull>, <ore:blockRedstone>],[<ore:blockLapis>, <minecraft:diamond>, <ore:blockLapis>], [<draconicevolution:draconium_ingot>, <draconicevolution:entity_detector>, <draconicevolution:draconium_ingot>]]);
+recipes.addShaped(<actuallyadditions:item_player_probe>, [[<minecraft:iron_bars>, null, <minecraft:iron_bars>],[<minecraft:iron_bars>, <minecraft:iron_helmet>, <minecraft:iron_bars>], [<actuallyadditions:item_crystal_empowered>, <ore:itemSkull>, <actuallyadditions:item_crystal_empowered>]]);
+recipes.addShaped(<actuallyadditions:block_player_interface>, [[<actuallyadditions:block_misc:8>, <ore:itemSkull>, <actuallyadditions:block_misc:8>],[<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:block_misc:8>, <actuallyadditions:item_crystal_empowered:2>], [<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8>, <actuallyadditions:block_misc:8>]]);
+recipes.remove(<draconicevolution:diss_enchanter>);
+recipes.addShaped(<draconicevolution:diss_enchanter>, [[<minecraft:emerald>, <gtadditions:ga_meta_item:1001>, <minecraft:emerald>],[<gtadditions:ga_meta_item:1001>, <minecraft:enchanting_table>, <gtadditions:ga_meta_item:1001>], [<minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>]]);
+//MOB stuff
+recipes.remove(<mob_grinding_utils:fan>);
+recipes.addShaped(<mob_grinding_utils:fan>, [[<gregtech:meta_item_1:12001>, <minecraft:redstone>, <gregtech:cable:5071>],[<minecraft:redstone>, <gregtech:machine:501>, <gregtech:meta_item_2:18184>], [<gregtech:meta_item_1:12001>, <minecraft:redstone>, <gregtech:cable:5071>]]);
+recipes.remove(<mob_grinding_utils:spikes>);
+recipes.addShaped(<mob_grinding_utils:spikes>, [[null, <gregtech:meta_item_2:33>, null],[<gregtech:meta_item_2:33>, <gregtech:machine:501>, <gregtech:meta_item_2:33>], [<gtadditions:ga_meta_item:1033>, <gtadditions:ga_meta_item:1033>, <gtadditions:ga_meta_item:1033>]]);
+recipes.remove(<mob_grinding_utils:saw>);
+recipes.addShaped(<mob_grinding_utils:saw>, [[<gregtech:meta_item_1:12183>, <gregtech:meta_item_2:183>, <gregtech:meta_item_1:12183>],[<gregtech:meta_item_2:25111>, <mob_grinding_utils:spikes>, <gregtech:meta_item_2:25111>], [<gregtech:meta_item_1:12183>, <gregtech:meta_item_1:12183>, <gregtech:meta_item_1:12183>]]);
+recipes.remove(<mob_grinding_utils:fan_upgrade:1>);
+recipes.remove(<mob_grinding_utils:fan_upgrade>);
+recipes.addShaped(<mob_grinding_utils:fan_upgrade:1>, [[<gregtech:meta_item_1:12033>, <minecraft:feather>, <gregtech:meta_item_1:12033>],[null, <gregtech:meta_item_2:18184>, null], [<gregtech:meta_item_1:12033>, <minecraft:feather>, <gregtech:meta_item_1:12033>]]);
+recipes.addShaped(<mob_grinding_utils:fan_upgrade>, [[<gregtech:meta_item_1:12033>, null, <gregtech:meta_item_1:12033>],[<minecraft:feather>, <gregtech:meta_item_2:18184>, <minecraft:feather>], [<gregtech:meta_item_1:12033>, null, <gregtech:meta_item_1:12033>]]);
+recipes.addShaped(<mob_grinding_utils:fan_upgrade:2>, [[<gregtech:meta_item_1:12033>, <minecraft:feather>, <gregtech:meta_item_1:12033>],[<minecraft:feather>, <gregtech:meta_item_2:18184>, <minecraft:feather>], [<gregtech:meta_item_1:12033>, <minecraft:feather>, <gregtech:meta_item_1:12033>]]);
+recipes.remove(<mob_grinding_utils:saw_upgrade:4>);
+recipes.remove(<mob_grinding_utils:saw_upgrade:3>);
+recipes.remove(<mob_grinding_utils:saw_upgrade>);
+recipes.remove(<mob_grinding_utils:fan_upgrade:2>);
+recipes.remove(<mob_grinding_utils:saw_upgrade:2>);
+recipes.addShaped(<mob_grinding_utils:saw_upgrade:4>, [[<gregtech:meta_item_1:12026>, <minecraft:spider_eye>, <gregtech:meta_item_1:12026>],[<minecraft:spider_eye>, <gregtech:meta_item_1:12215>, <minecraft:spider_eye>], [<gregtech:meta_item_1:12026>, <minecraft:spider_eye>, <gregtech:meta_item_1:12026>]]);
+recipes.addShaped(<mob_grinding_utils:saw_upgrade:3>, [[<gregtech:meta_item_1:12026>, <minecraft:rotten_flesh>, <gregtech:meta_item_1:12026>],[<minecraft:rotten_flesh>, <gregtech:meta_item_1:12215>, <minecraft:rotten_flesh>], [<gregtech:meta_item_1:12026>, <minecraft:rotten_flesh>, <gregtech:meta_item_1:12026>]]);
+recipes.addShaped(<mob_grinding_utils:saw_upgrade:2>, [[<gregtech:meta_item_1:12026>, <minecraft:blaze_powder>, <gregtech:meta_item_1:12026>],[<minecraft:blaze_powder>, <gregtech:meta_item_1:12215>, <minecraft:blaze_powder>], [<gregtech:meta_item_1:12026>, <minecraft:blaze_powder>, <gregtech:meta_item_1:12026>]]);
+recipes.addShaped(<mob_grinding_utils:saw_upgrade>, [[<gregtech:meta_item_1:12026>, <gregtech:meta_item_2:33>, <gregtech:meta_item_1:12026>],[<gregtech:meta_item_2:33>, <gregtech:meta_item_1:12215>, <gregtech:meta_item_2:33>], [<gregtech:meta_item_1:12026>, <gregtech:meta_item_2:33>, <gregtech:meta_item_1:12026>]]);
+//TODO finish removing nether stars from recipes and make OP mobs(more OP Not just health) only spawn on AR planets and DD
