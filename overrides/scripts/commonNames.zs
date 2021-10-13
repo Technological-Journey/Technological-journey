@@ -38,6 +38,7 @@ global fusion            as RecipeMap = RecipeMap.getByName("fusion_reactor");
 global hammer            as RecipeMap = RecipeMap.getByName("forge_hammer");
 global implosion         as RecipeMap = RecipeMap.getByName("implosion_compressor");
 global large_chem        as RecipeMap = RecipeMap.getByName("large_chemical_reactor");
+global large_centrifuge  as recipemap = RecipeMap.getByName("LARGE_CENTRIFUGE_RECIPES");
 global largeHammer       as RecipeMap = RecipeMap.getByName("large_forge_hammer");
 global largeMix          as RecipeMap = RecipeMap.getByName("large_mixer");
 global lathe             as RecipeMap = RecipeMap.getByName("lathe");
@@ -59,30 +60,7 @@ global tower             as RecipeMap = RecipeMap.getByName("distillation_tower"
 global unpack            as RecipeMap = RecipeMap.getByName("unpacker");
 global wiremill          as RecipeMap = RecipeMap.getByName("wiremill");
 global ADVFusion         as RecipeMap = RecipeMap.getByName("adv_fusion");
+global simple_qbit       as RecipeMap = RecipeMap.getByName("simple_qubit_generator");
 global Stellar           as RecipeMap = RecipeMap.getByName("stellar_forge");
 global condenser         as RecipeMap = RecipeMap.getByName("plasma_condenser");
 global bioreactor        as RecipeMap = RecipeMap.getByName("bio_reactor");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
