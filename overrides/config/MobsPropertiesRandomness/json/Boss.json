@@ -1,0 +1,20 @@
+{
+    "group": "boss",
+    "attributes": [{
+            "dimensions": [1],
+            "id": "generic.maxHealth",
+            "modifier": {
+                "min": 20,
+                "max": 30
+            }
+        },
+        {
+            "dimensions": [1],
+            "id": "generic.armor_toughness",
+            "modifier": {
+                "min": 3,
+                "max": 4
+            }
+        }
+    ]
+}

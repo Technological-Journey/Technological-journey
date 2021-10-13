@@ -1,0 +1,8 @@
+{
+    "name": "boss",
+    "mobs": [
+        "minecraft:ender_dragon",
+        "draconicevolution:chaosguardian",
+        "minecraft:wither"
+    ]
+}

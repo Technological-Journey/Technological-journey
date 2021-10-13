@@ -1,0 +1,15 @@
+{
+    "name": "hostiles",
+    "mobs": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:wither_skeleton",
+        "minecraft:spider",
+        "minecraft:creeper",
+        "minecraft:wither_skeleton",
+        "minecraft:zombie_pigman",
+        "minecraft:blaze",
+        "minecraft:enderman",
+        "minecraft:ghast"
+    ]
+}

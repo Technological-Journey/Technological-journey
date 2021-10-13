@@ -1,0 +1,223 @@
+ {
+     "group": "hostiles",
+     "attributes": [{
+             "dimensions": [1,
+                 3,
+                 9,
+                 400,
+                 401,
+                 402,
+                 403,
+                 404,
+                 405
+             ],
+             "id": "generic.maxHealth",
+             "modifier": {
+                 "min": 80,
+                 "max": 200
+             },
+             "affected_by_difficulty": true
+         },
+         {
+             "dimensions": [1,
+                 3,
+                 9,
+                 400,
+                 401,
+                 402,
+                 403,
+                 404,
+                 405
+             ],
+             "id": "generic.armor_toughness",
+             "modifier": {
+                 "min": 3,
+                 "max": 4
+             },
+
+             "affected_by_difficulty": true
+
+         },
+         {
+             "dimensions": [1,
+                 3,
+                 9,
+                 400,
+                 401,
+                 402,
+                 403,
+                 404,
+                 405
+             ],
+             "id": "generic.attack_damage",
+             "modifier": {
+                 "min": 4,
+                 "max": 10
+             },
+
+             "affected_by_difficulty": true
+
+         }
+     ],
+     "equipment": {
+         "head": {
+
+             "chance": {
+                 "amount": 20
+             },
+             "items": [{
+                     "id": "minecraft:iron_helmet",
+                     "weight": 30
+                 },
+                 {
+                     "id": "minecraft:diamond_helmet",
+                     "weight": 10
+                 },
+                 {
+                     "id": "minecraft:chainmail_helmet",
+                     "weight": 25
+                 },
+                 {
+                     "id": "enderio:item_dark_steel_helmet",
+                     "weight": 5,
+                     "drop_chance": -100
+                 },
+                 {
+                     "id": "gtadditions:ga_armor",
+
+                     "weight": 1,
+                     "data": 2,
+                     "drop_chance": -100
+                 }
+             ]
+         },
+         "chest": {
+
+             "chance": {
+                 "amount": 20
+             },
+             "items": [{
+                     "id": "minecraft:iron_chestplate",
+                     "weight": 30
+                 },
+                 {
+                     "id": "minecraft:diamond_chestplate",
+                     "weight": 10
+                 },
+                 {
+                     "id": "minecraft:chainmail_chestplate",
+                     "weight": 25
+                 },
+                 {
+                     "id": "enderio:item_dark_steel_chestplate",
+                     "weight": 5,
+                     "drop_chance": -100
+                 },
+                 {
+                     "id": "gtadditions:ga_armor",
+                     "weight": 100,
+                     "data": 2,
+                     "drop_chance": -100
+                 },
+                 {
+                     "id": "gtadditions:ga_armor",
+                     "nbt": "{Fluid:{FluidName:\"light_fuel\",Amount:5000}}",
+                     "weight": 5,
+                     "data": 8,
+                     "drop_chance": 10
+                 }
+             ]
+         },
+         "legs": {
+
+             "chance": {
+                 "amount": 20
+             },
+             "items": [{
+                     "id": "minecraft:iron_leggings",
+                     "weight": 30
+                 },
+                 {
+                     "id": "minecraft:diamond_leggings",
+                     "weight": 10
+                 },
+                 {
+                     "id": "minecraft:chainmail_leggings",
+                     "weight": 25
+                 },
+                 {
+                     "id": "enderio:item_dark_steel_leggings",
+                     "weight": 5,
+                     "drop_chance": -100
+                 },
+                 {
+                     "id": "gtadditions:ga_armor",
+                     "weight": 1,
+                     "data": 1,
+                     "drop_chance": -100
+                 }
+             ]
+         },
+         "main_hand": {
+
+             "chance": {
+                 "amount": 20
+             },
+             "items": [{
+                     "id": "minecraft:stone_sword",
+                     "weight": 30
+                 },
+                 {
+                     "id": "minecraft:diamond_sword",
+                     "weight": 10
+                 },
+                 {
+                     "id": "randomthings:spectresword",
+                     "weight": 25,
+                     "drop_chance": 5
+                 },
+                 {
+                     "id": "astralsorcery:itemcrystalsword",
+                     "weight": 5,
+                     "drop_chance": -100,
+                     "nbt": "{astralsorcery: {size: 1800, fract: 0, purity: 100, sizeOverride: -1, collect: 100}}"
+                 },
+                 {
+                     "id": "mob_grinding_utils:null_sword",
+                     "weight": 1,
+                     "drop_chance": -100
+                 }
+             ]
+         },
+         "feets": {
+
+             "chance": {
+                 "amount": 20
+             },
+             "items": [{
+                     "id": "minecraft:iron_boots",
+                     "weight": 30
+                 },
+                 {
+                     "id": "minecraft:diamond_boots",
+                     "weight": 10
+                 },
+                 {
+                     "id": "minecraft:chainmail_boots",
+                     "weight": 25
+                 },
+                 {
+                     "id": "enderio:item_dark_steel_boots",
+                     "weight": 5,
+                     "drop_chance": -100
+                 },
+                 {
+                     "id": "gtadditions:ga_armor",
+                     "weight": 1,
+                     "data": 3,
+                     "drop_chance": -100
+                 }
+             ]
+         }
+     }
+ }
