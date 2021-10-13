@@ -6,7 +6,7 @@ import scripts.commonNames;
 
 //end Alloy
 alloy.recipeBuilder()
-    .inputs([<ore:endstone>,<ore:ingotDarkSteel> ])
+    .inputs([<minecraft:ender_eye>,<enderio:item_alloy_ingot>])
     .outputs([<enderio:item_alloy_ingot:8>])
     .duration(160)
     .EUt(32)
@@ -34,7 +34,7 @@ alloy.recipeBuilder()
     .buildAndRegister();
     // dark steel
     alloy.recipeBuilder()
-    .inputs([<ore:ingotIron>,<ore:stoneObsidian>])
+    .inputs([<gregtech:meta_item_1:10184>,<ore:stoneObsidian>])
     .outputs([<enderio:item_alloy_ingot:6>])
     .duration(160)
     .EUt(32)
@@ -110,7 +110,7 @@ macerator.recipeBuilder()
 .buildAndRegister();
 
 alloy.recipeBuilder()
-    .inputs([<enderio:item_alloy_ingot:6> *2,<minecraft:nether_star> ])
+    .inputs([<enderio:item_alloy_ingot:6>,<enderio:item_alloy_ingot:8> ])
     .outputs([<enderio:item_alloy_endergy_ingot:3> *2])
     .duration(160)
     .EUt(32)
@@ -127,3 +127,10 @@ recipes.addShaped(<enderio:item_conduit_facade:2>, [[null, null, null],[null, <e
 recipes.addShaped(<enderio:item_conduit_facade:2>, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<enderio:item_material:4>, <appliedenergistics2:quartz_vibrant_glass>, <enderio:item_material:4>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
 recipes.remove(<enderio:block_decoration1:15>);
 recipes.remove(<enderio:item_conduit_facade:2>);
+
+    assembler.recipeBuilder()
+        .inputs([<gtadditions:ga_meta_item:1184>,<enderio:item_alloy_ingot:6>])
+        .outputs([<enderio:item_dark_steel_upgrade>])
+        .duration(100)
+        .EUt(32)
+        .buildAndRegister();
