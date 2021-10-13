@@ -1004,13 +1004,13 @@ largeMix.recipeBuilder()
 .EUt(16)
 .buildAndRegister();
 
-val i = 0;
-for i in 1 to 16{
+val f = 0;
+for f in 1 to 16{
 largeMix.recipeBuilder()
 
-.inputs([itemUtils.getItem("minecraft:concrete_powder", i)* 64])
+.inputs([itemUtils.getItem("minecraft:concrete_powder", f)* 64])
 .fluidInputs(<liquid:water> * 1000)
-.outputs(itemUtils.getItem("minecraft:concrete",i) * 64)
+.outputs(itemUtils.getItem("minecraft:concrete",f) * 64)
 .duration(100)
 .EUt(16)
 .buildAndRegister();
