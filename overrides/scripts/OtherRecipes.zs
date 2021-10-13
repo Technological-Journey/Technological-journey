@@ -177,17 +177,17 @@ autoclave.recipeBuilder()
 blast_furnace.recipeBuilder()
     .inputs(<thermalfoundation:material:101> * 1)
     .outputs(<thermalfoundation:material:165> * 1)
-    .property("temperature", 2700) //this is a minimal temperature at which the item will be smelted
-    .duration(40)
-    .EUt(512)
+    .property("temperature", 4500) //this is a minimal temperature at which the item will be smelted
+    .duration(1530)
+    .EUt(120)
     .buildAndRegister();
 
     blast_furnace.recipeBuilder()
     .inputs(<thermalfoundation:material:102> * 1)
     .outputs(<thermalfoundation:material:166> * 1)
-    .property("temperature", 2700) //this is a minimal temperature at which the item will be smelted
-    .duration(40)
-    .EUt(512)
+    .property("temperature", 4500) //this is a minimal temperature at which the item will be smelted
+    .duration(1530)
+    .EUt(120)
     .buildAndRegister();
 
 mixer.recipeBuilder()
@@ -854,7 +854,7 @@ assembler.recipeBuilder()
 .circuit(4)
 .outputs([<gtadditions:ga_meta_item:32131>])
 .duration(80)
-.EUt(7904)
+.EUt(32)
 .buildAndRegister();
 
 
@@ -968,6 +968,7 @@ distillery.recipeBuilder()
 .buildAndRegister();
 
 Utils.removeRecipeByOutput(centrifuge, [], [<liquid:oil> * 100], true);
+Utils.removeRecipeByOutput(large_centrifuge, [], [<liquid:oil> * 100], true);
 
 recipes.addShaped(<variegated:defiled_ground> * 4, [[<ore:itemSkull>, <minecraft:soul_sand>, <ore:itemSkull>],[<minecraft:soul_sand>, <enderio:item_alloy_ingot:7>, <minecraft:soul_sand>], [<ore:itemSkull>, <minecraft:soul_sand>, <ore:itemSkull>]]);
 recipes.remove(<variegated:defiled_ground>);
@@ -993,19 +994,29 @@ mixer.recipeBuilder()
 .EUt(16)
 .buildAndRegister();
 }
+//Large concrete recipes
+
+largeMix.recipeBuilder()
+.inputs([<minecraft:concrete_powder> * 64])
+.fluidInputs(<liquid:water> * 100)
+.outputs([<minecraft:concrete> * 64])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+val i = 0;
+for i in 1 to 16{
+largeMix.recipeBuilder()
+
+.inputs([itemUtils.getItem("minecraft:concrete_powder", i)* 64])
+.fluidInputs(<liquid:water> * 1000)
+.outputs(itemUtils.getItem("minecraft:concrete",i) * 64)
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+}
 recipes.remove(<gregtech:machine:4024>);
 recipes.addShaped(<gregtech:machine:4024>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<gregtech:meta_item_1:12184>, <gregtech:machine:501>, <gregtech:meta_item_1:12184>], [<gregtech:cable:5071>, <gregtech:meta_item_2:8184>, <gregtech:cable:5071>]]);
-recipes.remove(<randomthings:ingredient:1>);
-recipes.addShaped(<randomthings:ingredient:1>, [[null, <enderio:item_material:43>, null],[<minecraft:ender_pearl>, <minecraft:ghast_tear>, <minecraft:ender_pearl>], [null, <minecraft:ender_pearl>, null]]);
-recipes.addShaped(<randomthings:obsidianskull>, [[<minecraft:obsidian>, <minecraft:blaze_rod>, <minecraft:obsidian>],[<minecraft:nether_brick>, <enderio:item_material:43>, <minecraft:nether_brick>], [<minecraft:obsidian>, <minecraft:blaze_rod>, <minecraft:obsidian>]]);
-recipes.remove(<randomthings:obsidianskull>);
-
-recipes.remove(<actuallyadditions:block_player_interface>);
-recipes.remove(<draconicevolution:entity_detector:1>);
-recipes.remove(<actuallyadditions:item_player_probe>);
-recipes.addShaped(<draconicevolution:entity_detector:1>, [[<ore:blockRedstone>, <ore:itemSkull>, <ore:blockRedstone>],[<ore:blockLapis>, <minecraft:diamond>, <ore:blockLapis>], [<draconicevolution:draconium_ingot>, <draconicevolution:entity_detector>, <draconicevolution:draconium_ingot>]]);
-recipes.addShaped(<actuallyadditions:item_player_probe>, [[<minecraft:iron_bars>, null, <minecraft:iron_bars>],[<minecraft:iron_bars>, <minecraft:iron_helmet>, <minecraft:iron_bars>], [<actuallyadditions:item_crystal_empowered>, <ore:itemSkull>, <actuallyadditions:item_crystal_empowered>]]);
-recipes.addShaped(<actuallyadditions:block_player_interface>, [[<actuallyadditions:block_misc:8>, <ore:itemSkull>, <actuallyadditions:block_misc:8>],[<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:block_misc:8>, <actuallyadditions:item_crystal_empowered:2>], [<actuallyadditions:block_misc:8>, <actuallyadditions:item_misc:8>, <actuallyadditions:block_misc:8>]]);
 recipes.remove(<draconicevolution:diss_enchanter>);
 recipes.addShaped(<draconicevolution:diss_enchanter>, [[<minecraft:emerald>, <gtadditions:ga_meta_item:1001>, <minecraft:emerald>],[<gtadditions:ga_meta_item:1001>, <minecraft:enchanting_table>, <gtadditions:ga_meta_item:1001>], [<minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>]]);
 //MOB stuff
@@ -1029,4 +1040,14 @@ recipes.addShaped(<mob_grinding_utils:saw_upgrade:4>, [[<gregtech:meta_item_1:12
 recipes.addShaped(<mob_grinding_utils:saw_upgrade:3>, [[<gregtech:meta_item_1:12026>, <minecraft:rotten_flesh>, <gregtech:meta_item_1:12026>],[<minecraft:rotten_flesh>, <gregtech:meta_item_1:12215>, <minecraft:rotten_flesh>], [<gregtech:meta_item_1:12026>, <minecraft:rotten_flesh>, <gregtech:meta_item_1:12026>]]);
 recipes.addShaped(<mob_grinding_utils:saw_upgrade:2>, [[<gregtech:meta_item_1:12026>, <minecraft:blaze_powder>, <gregtech:meta_item_1:12026>],[<minecraft:blaze_powder>, <gregtech:meta_item_1:12215>, <minecraft:blaze_powder>], [<gregtech:meta_item_1:12026>, <minecraft:blaze_powder>, <gregtech:meta_item_1:12026>]]);
 recipes.addShaped(<mob_grinding_utils:saw_upgrade>, [[<gregtech:meta_item_1:12026>, <gregtech:meta_item_2:33>, <gregtech:meta_item_1:12026>],[<gregtech:meta_item_2:33>, <gregtech:meta_item_1:12215>, <gregtech:meta_item_2:33>], [<gregtech:meta_item_1:12026>, <gregtech:meta_item_2:33>, <gregtech:meta_item_1:12026>]]);
-//TODO finish removing nether stars from recipes and make OP mobs(more OP Not just health) only spawn on AR planets and DD
+
+lathe.recipeBuilder()
+.inputs([<gregtech:meta_item_1:16033>])
+.outputs([<appliedenergistics2:part:120> * 10])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+furnace.remove(<thermalfoundation:material:165>);
+furnace.remove(<thermalfoundation:material:166>);
+recipes.addShaped(<thermalfoundation:material:1026>, [[null, <gregtech:meta_item_1:2065>, null],[<gregtech:meta_item_1:2065>, <minecraft:blaze_powder>, <gregtech:meta_item_1:2065>], [null, <gregtech:meta_item_1:2065>, null]]);
