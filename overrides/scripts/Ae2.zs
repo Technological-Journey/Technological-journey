@@ -1,3 +1,5 @@
+#ignoreBracketErrors
+
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -361,7 +363,15 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //256
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:38> * 4])
+.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:crystalCertusQuartz> * 4,<ore:circuitExtreme>, <appliedenergistics2:material:38> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<extracells:storage.component>])
+.duration(300)
+.EUt(4192)
+.buildAndRegister();
+//256 alt
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4,<gtadditions:ga_meta_item:32213> * 4,<ore:circuitExtreme>, <ore:crystalCertusQuartz> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<extracells:storage.component>])
 .duration(300)
@@ -434,6 +444,19 @@ assembler.recipeBuilder()
 .EUt(4192)
 .buildAndRegister();
 
+//256
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4,<gtadditions:ga_meta_item:32213> *5, <ore:dyeBlue> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+.outputs([<extracells:storage.component:8>])
+.duration(300)
+.EUt(4192)
+.buildAndRegister();
+
+
+if (<appliedenergistics2:controller> as bool) {
+
+recipes.remove(<appliedenergistics2:controller>);
 assembler.recipeBuilder()
 .inputs([<gregtech:machine:501>,<ore:crystalPureFluix> * 4,<ore:circuitBasic>])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
@@ -441,12 +464,24 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(32)
 .buildAndRegister();
+assembler.recipeBuilder()
+.inputs([<enderio:item_material:4> * 5,<enderio:item_me_conduit> * 4])
+.outputs([<enderio:item_me_conduit:1> * 4])
+.duration(150)
+.EUt(512)
+.buildAndRegister();
+}
+else{
+h(<enderio:item_me_conduit:1>);
+}
+
+
+
 
 recipes.addShaped(<appliedenergistics2:chest>, [[<actuallyadditions:block_giant_chest>, <gregtech:machine:710>, <actuallyadditions:block_giant_chest>],[<gregtech:machine:710>, <appliedenergistics2:material:24>, <gregtech:machine:711>], [<actuallyadditions:block_giant_chest>, <gregtech:machine:711>, <actuallyadditions:block_giant_chest>]]);
 recipes.addShaped(<appliedenergistics2:drive>, [[<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>],[<appliedenergistics2:part:16>,<gregtech:meta_item_1:32680>, <appliedenergistics2:part:16>], [<gregtech:machine:501>, <appliedenergistics2:material:24>, <gregtech:machine:501>]]);
 recipes.remove(<appliedenergistics2:chest>);
 recipes.remove(<appliedenergistics2:drive>);
-recipes.remove(<appliedenergistics2:controller>);
 recipes.remove(<appliedenergistics2:material:57>);
 recipes.remove(<appliedenergistics2:material:56>);
 recipes.remove(<appliedenergistics2:material:55>);
@@ -554,13 +589,6 @@ assembler.recipeBuilder()
 .buildAndRegister();
 recipes.addShapeless(<appliedenergistics2:interface>, [<appliedenergistics2:part:440>]);
 recipes.addShapeless(<appliedenergistics2:fluid_interface>, [<appliedenergistics2:part:441>]);
-
-assembler.recipeBuilder()
-.inputs([<enderio:item_material:4> * 5,<enderio:item_me_conduit> * 4])
-.outputs([<enderio:item_me_conduit:1> * 4])
-.duration(150)
-.EUt(512)
-.buildAndRegister();
 
 recipes.remove(<extracells:part.base:12>);
 recipes.addShapeless(<extracells:part.base:12>, [<gregtech:meta_item_1:32102>,<appliedenergistics2:part:260>]);
