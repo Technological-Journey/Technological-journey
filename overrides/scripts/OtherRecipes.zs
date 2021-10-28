@@ -32,10 +32,37 @@ macerator.recipeBuilder()
 
 mixer.recipeBuilder()
 .inputs([<minecraft:redstone> * 64])
-.fluidInputs(<liquid:lava> * 9000)
+.fluidInputs(<liquid:lava> * 1000)
 .outputs([<fluxnetworks:flux> * 64])
 .duration(240)
-.EUt(33554432)
+.EUt(524288)
+.buildAndRegister();
+recipes.remove(<fluxnetworks:fluxcore>);
+recipes.remove(<fluxnetworks:fluxpoint>);
+recipes.remove(<fluxnetworks:fluxplug>);
+recipes.addShapeless(<fluxnetworks:fluxplug>,[<fluxnetworks:fluxplug>]);
+recipes.addShapeless(<fluxnetworks:fluxpoint>,[<fluxnetworks:fluxpoint>]);
+assembler.recipeBuilder()
+.inputs([<fluxnetworks:flux> * 4,<enderio:block_reinforced_obsidian> * 4,<gregtech:meta_item_1:32724> * 2])
+.outputs([<fluxnetworks:fluxcore> * 2])
+.duration(240)
+.EUt(524288)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<fluxnetworks:fluxcore>  * 8,<gregtech:meta_block_compressed_46:8>])
+.outputs([<fluxnetworks:fluxpoint> * 2])
+.circuit(0)
+.duration(240)
+.EUt(524288)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<fluxnetworks:fluxcore>  * 8,<gregtech:meta_block_compressed_46:8>])
+.outputs([<fluxnetworks:fluxplug> * 2])
+.circuit(1)
+.duration(240)
+.EUt(524288)
 .buildAndRegister();
 
 macerator.recipeBuilder()
@@ -248,11 +275,22 @@ recipes.addShaped(<snad:snad>, [[<minecraft:sand>, <minecraft:sand>, <minecraft:
 
 chemreactor.recipeBuilder()
 .inputs([<snad:snad> * 8])
+.circuit(0)
 .fluidInputs( <liquid:lava> * 10000)
 .outputs(<minecraft:end_stone>)
 .duration(600)
 .EUt(2040)
 .buildAndRegister();
+
+large_chem.recipeBuilder()
+.inputs([<snad:snad>,<minecraft:obsidian> ])
+.circuit(1)
+.fluidInputs( <liquid:lava> * 1000)
+.outputs(<minecraft:end_stone> *2)
+.duration(600)
+.EUt(2040)
+.buildAndRegister();
+
 chemreactor.recipeBuilder()
 .inputs([<snad:snad:1> * 8])
 .fluidInputs( <liquid:lava> * 10000)
@@ -464,8 +502,8 @@ arc.recipeBuilder()
 .EUt(128)
 .buildAndRegister();
 recipes.addShaped(<gregtech:meta_block_compressed_11:8>, [[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>],[<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>], [<gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>, <gregtech:meta_item_1:10184>]]);
-recipes.addShaped(<bonsaitrees:bonsaipot:1>, [[<gregtech:meta_item_1:12729>, <bonsaitrees:bonsaipot>, <gregtech:meta_item_1:12729>],[<gregtech:meta_item_1:12729>, null, <gregtech:meta_item_1:12729>], [<gregtech:meta_item_1:12729>, <actuallyadditions:block_item_viewer_hopping>, <gregtech:meta_item_1:12729>]]);
-recipes.addShaped(<bonsaitrees:bonsaipot>, [[null, null, null],[<gregtech:meta_item_1:13207>, null, <gregtech:meta_item_1:13207>], [<gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>, <gregtech:meta_item_1:13207>]]);
+recipes.addShaped(<bonsaitrees:bonsaipot:1>, [[<gtadditions:ga_meta_item:1859>, <bonsaitrees:bonsaipot>, <gtadditions:ga_meta_item:1859>],[<gtadditions:ga_meta_item:1859>, null, <gtadditions:ga_meta_item:1859>], [<gtadditions:ga_meta_item:1859>, null, <gtadditions:ga_meta_item:1859>]]);
+recipes.addShaped(<bonsaitrees:bonsaipot>, [[null, null, null],[<gtadditions:ga_meta_item:1235>, null, <gtadditions:ga_meta_item:1235>], [<gtadditions:ga_meta_item:1235>, <gtadditions:ga_meta_item:1235>, <gtadditions:ga_meta_item:1235>]]);
 recipes.remove(<bonsaitrees:bonsaipot:1>);
 recipes.remove(<bonsaitrees:bonsaipot>);
 recipes.remove(<gregtech:machine:2540>);
@@ -1051,3 +1089,13 @@ lathe.recipeBuilder()
 furnace.remove(<thermalfoundation:material:165>);
 furnace.remove(<thermalfoundation:material:166>);
 recipes.addShaped(<thermalfoundation:material:1026>, [[null, <gregtech:meta_item_1:2065>, null],[<gregtech:meta_item_1:2065>, <minecraft:blaze_powder>, <gregtech:meta_item_1:2065>], [null, <gregtech:meta_item_1:2065>, null]]);
+
+assembler.recipeBuilder()
+.inputs(<gtadditions:ga_meta_item:32579>,<ore:circuitGood>,<appliedenergistics2:material:42>,<ae2wtlib:infinity_booster_card>)
+.circuit(0)
+.outputs(<mechtech:mt_meta_item:2000>)
+.EUt(30)
+.duration(524288)
+.buildAndRegister();
+
+recipes.addShapeless(<gregtech:metal_casing_grisium>,[<gtadditions:ga_metal_casing_1:8>]);
