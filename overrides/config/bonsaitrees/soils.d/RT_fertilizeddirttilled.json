@@ -1,8 +1,8 @@
 {
-    "name": "randomthings:fertilizeddirttilled",
+    "name": "randomthings:fertilizeddirt",
     "mod": "randomthings",
     "soil": {
-        "name": "randomthings:fertilizeddirttilled",
+        "name": "randomthings:fertilizeddirt",
         "data": 0,
         "ignoreMeta": false
     },
