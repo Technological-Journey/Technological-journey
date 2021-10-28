@@ -1,0 +1,16 @@
+{
+    "name": "randomthings:fertilizeddirttilled",
+    "mod": "randomthings",
+    "soil": {
+        "name": "randomthings:fertilizeddirttilled",
+        "data": 0,
+        "ignoreMeta": false
+    },
+
+    "modifiers": {
+        "growTime": 0.5,
+        "dropChance": 1.5
+    },
+
+    "providedTags": ["dirt", "grass"]
+}

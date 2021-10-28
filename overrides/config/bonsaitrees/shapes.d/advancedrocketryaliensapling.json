@@ -1,0 +1,60 @@
+{
+    "type": "advancedrocketry:aliensapling",
+    "version": 1,
+    "ref": {
+        "a": {
+            "name": "advancedrocketry:alienwood",
+            "meta": 4
+        },
+        "b": {
+            "name": "advancedrocketry:alienleaves",
+            "meta": 1
+        },
+        "c": {
+            "name": "advancedrocketry:charcoallog",
+            "meta": 0
+        }
+    },
+    "shape": [
+        [
+            "     ",
+            "     ",
+            "cccc ",
+            " ccc ",
+            "     ",
+            "     "
+        ],
+        [
+            "  b  ",
+            "  bb ",
+            "cbbbc",
+            "cbbbc",
+            "     ",
+            "     "
+        ],
+        [
+            " bbb ",
+            " bab ",
+            "cbabc",
+            "cbabc",
+            "  a  ",
+            "  a  "
+        ],
+        [
+            "  b  ",
+            " bbb ",
+            "cbbbc",
+            "cbbbc",
+            "     ",
+            "     "
+        ],
+        [
+            "     ",
+            "     ",
+            "ccccc",
+            " cccc",
+            "     ",
+            "     "
+        ]
+    ]
+}
