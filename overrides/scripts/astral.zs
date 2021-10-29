@@ -162,6 +162,23 @@ mixer.recipeBuilder()
 .EUt(1150)
 .buildAndRegister();
 
+//Illumination power
+largeMix.recipeBuilder()
+.inputs([<minecraft:glowstone_dust> * 4, <ore:gemAquamarine>])
+.circuit(1)
+.outputs([<astralsorcery:itemusabledust> * 16])
+.duration(30)
+.EUt(800)
+.buildAndRegister();
+//Nocturnal powder
+largeMix.recipeBuilder()
+.inputs([<astralsorcery:itemusabledust>, <minecraft:dye:4>, <gregtech:meta_item_1:2012> * 3])
+.circuit(1)
+.outputs([<astralsorcery:itemusabledust:1>* 4])
+.duration(30)
+.EUt(1150)
+.buildAndRegister();
+
 //starMetal ore to dust
 macerator.recipeBuilder()
 .inputs([<astralsorcery:blockcustomore:1>])
@@ -191,8 +208,9 @@ well.removeLiquefaction(<minecraft:ice>,<liquid:water>);
 well.removeLiquefaction(<minecraft:snow>,<liquid:water>);
 well.removeLiquefaction(<minecraft:netherrack>,<liquid:lava>);
 well.removeLiquefaction(<minecraft:magma>,<liquid:lava>);
-well.removeLiquefaction(<astralsorcery:itemcraftingcomponent:4>,<liquid:astralsorcery.liquidstarlight>);
-well.removeLiquefaction(<astralsorcery:itemcraftingcomponent>,<liquid:astralsorcery.liquidstarlight>);
+//well.removeLiquefaction(<astralsorcery:itemcraftingcomponent:4>,<liquid:astralsorcery.liquidstarlight>);
+//well.removeLiquefaction(<astralsorcery:itemcraftingcomponent>,<liquid:astralsorcery.liquidstarlight>);
+well.addLiquefaction(<randomthings:ingredient:2>,<liquid:astralsorcery.liquidstarlight>, 20, 1000, 0xFFFFFF);
 
 //fix mineralis ritual
 <ore:oreCopper>.remove(<libvulpes:ore0:4>);
@@ -224,6 +242,14 @@ blast_furnace.recipeBuilder()
 <liquid:star_metal_alloy>.addTooltip("(AxSx)Nq(Ir₃Os)");
 
 chemreactor.recipeBuilder()
+.fluidInputs(<liquid:high_octane> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_c> * 2000)
+.inputs(<astralsorcery:itemcraftingcomponent:2>,<randomthings:ingredient:2>)
+.fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
+.duration(20)
+.EUt(1024)
+.buildAndRegister();
+
+large_chem.recipeBuilder()
 .fluidInputs(<liquid:high_octane> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_c> * 2000)
 .inputs(<astralsorcery:itemcraftingcomponent:2>,<randomthings:ingredient:2>)
 .fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
@@ -329,5 +355,3 @@ assembler.recipeBuilder()
 .duration(120)
 .EUt(4194304)
 .buildAndRegister();
-//gate tier 4 altar and fountian
-//Rewrrite AR Rocket to be cheaper
