@@ -218,10 +218,10 @@ assembler.recipeBuilder()
 
 
 assembler.recipeBuilder()
-.inputs([<appliedenergistics2:material:13>,<appliedenergistics2:material:14>,<appliedenergistics2:material:15>,<appliedenergistics2:material:19>,<appliedenergistics2:quartz_glass>* 2,<threng:material:4>,<appliedenergistics2:material:43>,<gregtech:machine:3239>])
+.inputs([<appliedenergistics2:material:13>,<appliedenergistics2:material:14>,<appliedenergistics2:material:15>,<appliedenergistics2:material:19>,<appliedenergistics2:quartz_glass>* 2,<threng:material:4>,<appliedenergistics2:material:43>,<gregtech:machine:505>])
 .outputs([<threng:machine:2>])
 .duration(160)
-.EUt(2097152)
+.EUt(8192)
 .buildAndRegister();
 
 assembler.recipeBuilder()
