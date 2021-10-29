@@ -1099,3 +1099,11 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 recipes.addShapeless(<gregtech:metal_casing_grisium>,[<gtadditions:ga_metal_casing_1:8>]);
+Utils.removeRecipeByOutput(assembler, [<gregtech:machine:15000>], [], false);
+
+assembler.recipeBuilder()
+.inputs(<ore:circuitExtreme> *2,<appliedenergistics2:material:42>,<ae2wtlib:infinity_booster_card>,<gregtech:machine:504>,<gtadditions:ga_metal_casing_1:8>)
+.outputs(<gregtech:machine:15000>)
+.EUt(30)
+.duration(2048)
+.buildAndRegister();
