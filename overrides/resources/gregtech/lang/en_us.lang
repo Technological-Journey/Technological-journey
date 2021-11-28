@@ -28,3 +28,25 @@ fluid.starlight_rocketfuel=Starlight Rocket Fuel
 material.star_metal_alloy=Star Metal Alloy
 material.aquamarine=Aquamarine
 Featherweight.name=Angel block
+
+material.draconium=Draconium
+material.awaken_draconium=Awakened Draconium
+fluid.dragonstem=Draconic Stem Cell Fluid
+material.chaosalloy=Chaos Infinity Alloy
+fluid.rawchaos=Raw Chaos
+material.chaos=Refined Chaos
+multiblocktweaker.machine.armor_infuser.name=Armor Infuser
+multiblocktweaker.multiblock.armor_infuser.description=A very powerful multiblock structure used for upgrading draconium-based armor and tools.
+recipemap.armor_infuser.name=Armor Infusion
+
+multiblocktweaker.machine.chaos_replicator.name=Chaos Replicator
+multiblocktweaker.multiblock.chaos_replicator.description=A multiblock structure used to fabricate pure chaos shards from various materials.
+recipemap.chaos_replicator.name=Chaotic Replication
+tile.contenttweaker.draconiccasing.name=Draconic Casing
+tile.contenttweaker.awakenedcasing.name=Awakened Draconium Casing
+tile.contenttweaker.chaoticcasing.name=Refined Chaos Casing
+multiblocktweaker.machine.dragon_egg_replicator.name=Dragon Egg Replicator
+multiblocktweaker.multiblock.dragon_egg_replicator.description=A multiblock structure used to fabricate dragon hearts.
+recipemap.dragon_egg_replicator.name=Dragon Egg Replicator
+item.contenttweaker.RefinedChaosCrystal.name=Refined Chaos Crystal
+item.contenttweaker.RefinedChaosShard.name=Refined Chaos Shard
