@@ -72,7 +72,19 @@ import mods.jei.JEI.removeAndHide as h;
 	<ore:blockTitanium>.remove(<libvulpes:metal0:7>);
 	<ore:ingotTitanium>.remove(<libvulpes:productingot:7>);
 	<ore:naquadah>.add(<gregtech:meta_item_1:2307>);
-	
+
+	<ore:blockDraconium>.remove(<draconicevolution:draconium_block>);
+	//h(<draconicevolution:draconium_block>);
+	<ore:ingotDraconium>.remove(<draconicevolution:draconium_ingot>);
+	h(<draconicevolution:draconium_ingot>);
+	<ore:nuggetDraconium>.remove(<draconicevolution:nugget>);
+	h(<draconicevolution:nugget>);
+	<ore:blockDraconiumAwakened>.remove(<draconicevolution:draconic_block>);
+	//h(<draconicevolution:draconic_block>);
+	<ore:ingotDraconiumAwakened>.remove(<draconicevolution:draconic_ingot>);
+	h(<draconicevolution:draconic_ingot>);
+	<ore:nuggetDraconiumAwakened>.remove(<draconicevolution:nugget:1>);
+	h(<draconicevolution:nugget:1>);
 	/*
 	var sift = [<gregtech:meta_item_1:6111>,<gregtech:meta_item_1:6713>,<gregtech:meta_item_1:6092>,<gregtech:meta_item_1:6211>,<gregtech:meta_item_1:6331>,<gregtech:meta_item_1:6187>,<gregtech:meta_item_1:6281>,<gregtech:meta_item_1:6161>,<gregtech:meta_item_1:6206>,<gregtech:meta_item_1:6154>,<gregtech:meta_item_1:6216>,<gregtech:meta_item_1:6214>,<gregtech:meta_item_1:6190>,<gregtech:meta_item_1:6226>,<gregtech:meta_item_1:6203>,<gregtech:meta_item_1:6201>,<gregtech:meta_item_1:6128>,<gregtech:meta_item_1:6117>,<gregtech:meta_item_1:6243>,<gregtech:meta_item_1:6113>,<gregtech:meta_item_1:6910>,<gregtech:meta_item_1:6103>,<gregtech:meta_item_1:6247>,<gregtech:meta_item_1:6202>,<gregtech:meta_item_1:6157>,<gregtech:meta_item_1:6213>,<gregtech:meta_item_1:6122>,<gregtech:meta_item_1:6244>,<gregtech:meta_item_1:6085>,<gregtech:meta_item_1:6212>,<gregtech:meta_item_1:6106>,<gregtech:meta_item_1:6867>,<gregtech:meta_item_1:2902>,<gregtech:meta_item_1:2892>,<gregtech:meta_item_1:2864>] as IItemStack[];
 for i in sift{
@@ -355,6 +367,7 @@ h(<variegated:silvered_apple>);
 h(<variegated:silvered_apple:1>);
 <variegated:defiled_ground>.displayName = "Cursed Earth";
 
+
 /*
 h(<gregtech:meta_item_2:32507>);
 h(<gregtech:meta_item_2:32490>);
@@ -421,3 +434,20 @@ h(<mob_grinding_utils:gm_chicken_feed>);
 h(<mob_grinding_utils:mob_swab>);
 h(<mob_grinding_utils:dark_oak_stone>);
 h(<mob_grinding_utils:saw_upgrade:1>);
+
+//DE
+h(<draconicevolution:draconium_chest>);
+h(<draconicevolution:flow_gate>);
+h(<draconicevolution:flow_gate:8>);
+h(<draconicevolution:reactor_part:4>);
+h(<draconicevolution:reactor_component>);
+h(<draconicevolution:reactor_component:1>);
+h(<draconicevolution:reactor_part:1>);
+h(<draconicevolution:reactor_part>);
+h(<draconicevolution:reactor_part:2>);
+h(<draconicevolution:reactor_part:3>);
+h(<draconicevolution:reactor_core>);
+h(<draconicevolution:crafting_injector:2>);
+h(<draconicevolution:crafting_injector:1>);
+h(<draconicevolution:crafting_injector>);
+//h(<draconicadditions:chaos_stabilizer_core>);

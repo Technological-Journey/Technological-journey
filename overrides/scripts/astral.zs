@@ -280,12 +280,12 @@ electrolyzer.recipeBuilder()
 .buildAndRegister();
 */
 
-blast_furnace.recipeBuilder()
+large_chem.recipeBuilder()
     .inputs(rock_crystal,<astralsorcery:itemcraftingcomponent:2>)
     .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 1000)
     .outputs(<astralsorcery:blockcelestialcrystals:4>)
     .circuit(1)
-    .property("temperature", 5000)
+    //.property("temperature", 5000)
     .duration(500)
     .EUt(30000)
 .buildAndRegister();
