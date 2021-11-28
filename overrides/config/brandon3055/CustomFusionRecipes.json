@@ -1,0 +1,446 @@
+[{
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaos_crystal_stable",
+        "catalyst": "draconicevolution:chaos_shard"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_block,4",
+        "catalyst": "draconicevolution:draconium_block,4"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,1",
+        "catalyst": "draconicevolution:crafting_injector"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,3",
+        "catalyst": "draconicevolution:crafting_injector,1,2"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:energy_crystal,4,2",
+        "catalyst": "draconicevolution:energy_crystal,4,1"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_component",
+        "catalyst": "draconicevolution:reactor_part"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:reactor_component,1,1",
+        "catalyst": "draconicevolution:wyvern_core"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconium_chest",
+        "catalyst": "minecraft:chest"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:ender_energy_manipulator",
+        "catalyst": "minecraft:skull,1,1"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_pick",
+        "catalyst": "draconicevolution:wyvern_pick"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_shovel",
+        "catalyst": "draconicevolution:wyvern_shovel"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_axe",
+        "catalyst": "draconicevolution:wyvern_axe"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_bow",
+        "catalyst": "draconicevolution:wyvern_bow"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_sword",
+        "catalyst": "draconicevolution:wyvern_sword"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_hoe",
+        "catalyst": "minecraft:diamond_hoe"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_staff_of_power",
+        "catalyst": "draconicevolution:draconic_pick"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:dislocator_advanced",
+        "catalyst": "draconicevolution:dislocator"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_helm",
+        "catalyst": "draconicevolution:wyvern_helm"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_legs",
+        "catalyst": "draconicevolution:wyvern_legs"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_boots",
+        "catalyst": "draconicevolution:wyvern_boots"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:reactor_core"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_energy_core",
+        "catalyst": "draconicevolution:draconic_energy_core"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_staff_of_power",
+        "catalyst": "draconicevolution:draconic_staff_of_power"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_bow",
+        "catalyst": "draconicevolution:draconic_bow"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_helm",
+        "catalyst": "draconicevolution:draconic_helm"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_chest",
+        "catalyst": "draconicevolution:draconic_chest"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_legs",
+        "catalyst": "draconicevolution:draconic_legs"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicadditions:chaotic_boots",
+        "catalyst": "draconicevolution:draconic_boots"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicadditions:chaotic_staff_of_power",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicadditions:chaotic_bow",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicadditions:chaotic_helm",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicadditions:chaotic_chest",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicadditions:chaotic_legs",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicadditions:chaotic_boots",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconium_capacitor",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconium_capacitor,1,1",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_helm",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_chest",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_legs",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_boots",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_helm",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_chest",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_legs",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_boots",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_hoe",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_pick",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_shovel",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_staff_of_power",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_sword",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_axe",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:draconic_bow",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_axe",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_bow",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_pick",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_shovel",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicadditions:chaos_stabilizer_core",
+        "catalyst": "draconicevolution:wyvern_sword",
+        "energy": 1000,
+        "tier": 1,
+        "ingredients": [
+            "draconicadditions:chaos_stabilizer_core"
+        ]
+    }
+]
