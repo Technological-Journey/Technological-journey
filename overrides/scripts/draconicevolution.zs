@@ -287,7 +287,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     recipes.remove(<thermalfoundation:upgrade:256>);
 
     assembly_line.recipeBuilder()
-    .inputs(<draconicevolution:chaotic_core> * 32,<gregtech:meta_item_1:12857> * 64,<gregtech:meta_item_1:12729> * 64,<thermalfoundation:upgrade> ,<thermalfoundation:upgrade:1> ,<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 1920000000}),<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 1920000000}),<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 1920000000}),<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 1920000000}),<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 1920000000}),<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 1920000000}))
+    .inputs(<draconicevolution:chaotic_core> * 32,<draconicadditions:chaotic_energy_core> * 32,<gregtech:meta_item_1:12857> * 64,<gregtech:meta_item_1:12729> * 64,<thermalfoundation:upgrade> ,<thermalfoundation:upgrade:1> ,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>)
     .fluidInputs(<liquid:soldering_alloy> *20736,<liquid:chaosalloy> * 4608,<liquid:chaos> * 9216)
     .outputs(<draconicevolution:draconium_capacitor:2>)
     .duration(500)
