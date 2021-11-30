@@ -355,3 +355,10 @@ assembler.recipeBuilder()
 .duration(120)
 .EUt(4194304)
 .buildAndRegister();
+
+macerator.recipeBuilder()
+.inputs([<astralsorcery:itemcraftingcomponent:1>])
+.outputs([<astralsorcery:itemcraftingcomponent:2>])
+.duration(30)
+.EUt(128)
+.buildAndRegister();
