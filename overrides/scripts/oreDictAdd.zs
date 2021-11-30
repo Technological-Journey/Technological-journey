@@ -6,6 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.oredict.IOreDict;
 import mods.jei.JEI.removeAndHide as h;
+import mods.gtadditions.recipe.Utils;
 
 // Oredict for wrenches
 <ore:GTWrench>.addItems([<gregtech:meta_tool:8>.withEmptyTag(), <gregtech:meta_tool:29>.withEmptyTag(), <gregtech:meta_tool:30>.withEmptyTag(), <gregtech:meta_tool:31>.withEmptyTag()]);
@@ -85,13 +86,14 @@ import mods.jei.JEI.removeAndHide as h;
 	h(<draconicevolution:draconic_ingot>);
 	<ore:nuggetDraconiumAwakened>.remove(<draconicevolution:nugget:1>);
 	h(<draconicevolution:nugget:1>);
-	/*
+
 	var sift = [<gregtech:meta_item_1:6111>,<gregtech:meta_item_1:6713>,<gregtech:meta_item_1:6092>,<gregtech:meta_item_1:6211>,<gregtech:meta_item_1:6331>,<gregtech:meta_item_1:6187>,<gregtech:meta_item_1:6281>,<gregtech:meta_item_1:6161>,<gregtech:meta_item_1:6206>,<gregtech:meta_item_1:6154>,<gregtech:meta_item_1:6216>,<gregtech:meta_item_1:6214>,<gregtech:meta_item_1:6190>,<gregtech:meta_item_1:6226>,<gregtech:meta_item_1:6203>,<gregtech:meta_item_1:6201>,<gregtech:meta_item_1:6128>,<gregtech:meta_item_1:6117>,<gregtech:meta_item_1:6243>,<gregtech:meta_item_1:6113>,<gregtech:meta_item_1:6910>,<gregtech:meta_item_1:6103>,<gregtech:meta_item_1:6247>,<gregtech:meta_item_1:6202>,<gregtech:meta_item_1:6157>,<gregtech:meta_item_1:6213>,<gregtech:meta_item_1:6122>,<gregtech:meta_item_1:6244>,<gregtech:meta_item_1:6085>,<gregtech:meta_item_1:6212>,<gregtech:meta_item_1:6106>,<gregtech:meta_item_1:6867>,<gregtech:meta_item_1:2902>,<gregtech:meta_item_1:2892>,<gregtech:meta_item_1:2864>] as IItemStack[];
 for i in sift{
 
 	<ore:siftable>.add(i);
 
 }
+	/*
 var remove =[<gregtech:meta_item_2:16001>,<gregtech:meta_item_2:16014>,<gregtech:meta_item_2:16016>,<gregtech:meta_item_2:16018>,<gregtech:meta_item_2:16022>,<gregtech:meta_item_2:16026>,<gregtech:meta_item_2:16032>,<gregtech:meta_item_2:16033>,<gregtech:meta_item_2:16035>,<gregtech:meta_item_2:16142>,<gregtech:meta_item_2:16180>,<gregtech:meta_item_2:16183>,<gregtech:meta_item_2:16184>,<gregtech:meta_item_2:16189>,<gregtech:meta_item_2:16192>,<gregtech:meta_item_2:16197>,<gregtech:meta_item_2:16200>,<gregtech:meta_item_2:16207>,<gregtech:meta_item_2:16079>,<gregtech:meta_item_2:16087>,<gregtech:meta_item_2:16094>,<gregtech:meta_item_2:16095>,<gregtech:meta_item_2:16109>,<gregtech:meta_item_2:16112>,<gregtech:meta_item_2:16126>,<gregtech:meta_item_2:16129>,<gregtech:meta_item_2:16135>,<gregtech:meta_item_2:16043>,<gregtech:meta_item_2:16049>,<gregtech:meta_item_2:16052>,<gregtech:meta_item_2:16074>,<gregtech:meta_item_2:16072>,<gregtech:meta_item_2:16071>,<gregtech:meta_item_2:16062>,<gregtech:meta_item_2:16051>,<gregtech:meta_item_2:16047>,<gregtech:meta_item_2:16227>,<gregtech:meta_item_2:16228>,<gregtech:meta_item_2:16229>,<gregtech:meta_item_2:16230>,<gregtech:meta_item_2:16235>,<gregtech:meta_item_2:16237>,<gregtech:meta_item_2:16238>,<gregtech:meta_item_2:16297>,<gregtech:meta_item_2:16298>,<gregtech:meta_item_2:16714>,<gregtech:meta_item_2:16715>,<gregtech:meta_item_2:16716>,<gregtech:meta_item_2:16717>,<gregtech:meta_item_2:16718>,<gregtech:meta_item_2:16719>,<gregtech:meta_item_2:16720>,<gregtech:meta_item_2:16721>,<gregtech:meta_item_2:16731>,<gregtech:meta_item_2:16470>,<gregtech:meta_item_2:16671>,<gregtech:meta_item_2:16682>,<gregtech:meta_item_2:16683>,<gregtech:meta_item_2:16692>,<gregtech:meta_item_2:16699>,<gregtech:meta_item_2:16706>,<gregtech:meta_item_2:16707>,<gregtech:meta_item_2:16710>,<gregtech:meta_item_2:16299>,<gregtech:meta_item_2:16300>,<gregtech:meta_item_2:16301>,<gregtech:meta_item_2:16302>,<gregtech:meta_item_2:16303>,<gregtech:meta_item_2:16308>,<gregtech:meta_item_2:16311>,<gregtech:meta_item_2:16312>,<gregtech:meta_item_2:16304>,<gregtech:meta_item_2:16732>,<gregtech:meta_item_2:16733>,<gregtech:meta_item_2:16734>,<gregtech:meta_item_2:16735>,<gregtech:meta_item_2:16736>,<gregtech:meta_item_2:16742>,<gregtech:meta_item_2:16743>,<gregtech:meta_item_2:16755>,<gregtech:meta_item_2:16763>,<gregtech:meta_item_2:16858>,<gregtech:meta_item_2:16859>,<gregtech:meta_item_2:16869>,<gregtech:meta_item_2:16883>,<gregtech:meta_item_2:16905>,<gregtech:meta_item_2:16912>,<gregtech:meta_item_2:16940>,<gregtech:meta_item_2:16941>,<gregtech:meta_item_2:16942>,<gregtech:meta_item_2:16824>,<gregtech:meta_item_2:16850>,<gregtech:meta_item_2:16851>,<gregtech:meta_item_2:16852>,<gregtech:meta_item_2:16853>,<gregtech:meta_item_2:16854>,<gregtech:meta_item_2:16855>,<gregtech:meta_item_2:16856>,<gregtech:meta_item_2:16857>,<gregtech:meta_item_2:16780>,<gregtech:meta_item_2:16786>,<gregtech:meta_item_2:16791>,<gregtech:meta_item_2:16797>,<gregtech:meta_item_2:16801>,<gregtech:meta_item_2:16807>,<gregtech:meta_item_2:16814>,<gregtech:meta_item_2:16818>,<gregtech:meta_item_2:16822>,<gregtech:meta_item_2:16943>,<gregtech:meta_item_2:16963>,<gregtech:meta_item_2:16979>,<gregtech:meta_item_2:16980>,<gregtech:meta_item_2:16981>,<gregtech:meta_item_2:16982>,<gregtech:meta_item_2:16983>,<gregtech:meta_item_2:16984>,<gregtech:meta_item_2:16985>,<gregtech:meta_item_2:16986>,<gregtech:meta_item_2:16987>,<gregtech:meta_item_2:16989>,<gregtech:meta_item_2:16993>]as IItemStack[];
 for i in remove{
 
@@ -167,6 +169,8 @@ h(<enderio:item_material:29>);
 h(<enderio:item_material:32>);
 h(<enderio:item_material:33>);
 h(<enderio:item_material:38>);
+h(<enderio:item_capacitor_silver>);
+h(<enderio:item_capacitor_energetic_silver>);
 //hide TE Dust
 h(<thermalfoundation:material:768>);
 h(<thermalfoundation:material:769>);
@@ -451,3 +455,14 @@ h(<draconicevolution:crafting_injector:2>);
 h(<draconicevolution:crafting_injector:1>);
 h(<draconicevolution:crafting_injector>);
 //h(<draconicadditions:chaos_stabilizer_core>);
+
+h(<gtadditions:ga_meta_item:32230>);
+h(<gtadditions:ga_meta_item:32231>);
+var megnet = [<gtadditions:ga_meta_item:32220>,<gtadditions:ga_meta_item:32221>,<gtadditions:ga_meta_item:32222>,<gtadditions:ga_meta_item:32223>,<gtadditions:ga_meta_item:32224>,<gtadditions:ga_meta_item:32225>,<gtadditions:ga_meta_item:32226>,<gtadditions:ga_meta_item:32227>,<gtadditions:ga_meta_item:32228>,<gtadditions:ga_meta_item:32229>,<gtadditions:ga_meta_item:32232>] as IItemStack[];
+var circuitdict = [<ore:circuitPrimitive>,<ore:circuitBasic>,<ore:circuitGood>,<ore:circuitAdvanced>,<ore:circuitExtreme>,<ore:circuitElite>,<ore:circuitMaster>,<ore:circuitUltimate>,<ore:circuitSuperconductor>,<ore:circuitInfinite>,<ore:circuitUev>] as IOreDictEntry[];
+
+for i in 0 to 11{
+	circuitdict[i].remove(megnet[i]);
+	h(megnet[i]);
+	Utils.removeRecipeByOutput(circuit_assembler, [megnet[i]], [], false);
+}
