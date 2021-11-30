@@ -354,3 +354,14 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     recipes.addShaped(<draconicadditions:chaos_stabilizer_core>, [[<draconicadditions:chaotic_helm>, <draconicadditions:chaotic_staff_of_power>, <draconicadditions:chaotic_chest>],[<draconicevolution:draconic_energy_core>, <draconicadditions:chaotic_energy_core>, <draconicevolution:draconic_energy_core>], [<draconicadditions:chaotic_legs>, <draconicadditions:chaotic_bow>, <draconicadditions:chaotic_boots>]]);
 
+
+    Utils.removeRecipeByOutput(assembler, [<gregtech:ga_cable:726> * 32], [], true);
+
+    assembler.recipeBuilder()
+    .inputs(<gregtech:ga_cable:727> * 32, <gregtech:fluid_pipe:851> *7,<gtadditions:ga_meta_item:32366>)
+    .fluidInputs(<liquid:nitrogen> * 16000)
+    .outputs(<gregtech:ga_cable:726> * 32)
+    .duration(500)
+    .EUt(7864320)
+    .buildAndRegister();
+
