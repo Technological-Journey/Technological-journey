@@ -363,15 +363,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //256
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:crystalCertusQuartz> * 4,<ore:circuitExtreme>, <appliedenergistics2:material:38> * 4])
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-.outputs([<extracells:storage.component>])
-.duration(300)
-.EUt(4192)
-.buildAndRegister();
-//256 alt
-assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4,<gtadditions:ga_meta_item:32213> * 4,<ore:circuitExtreme>, <ore:crystalCertusQuartz> * 4])
+.inputs([<gregtech:meta_item_1:12235> * 4, <ore:crystalCertusQuartz> * 4,<ore:circuitExtreme>, <appliedenergistics2:material:38> * 4])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<extracells:storage.component>])
 .duration(300)
