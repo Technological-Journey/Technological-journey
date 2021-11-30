@@ -1201,3 +1201,68 @@ fusion.recipeBuilder()
 .duration(64)
 .EUt(32768)
 .buildAndRegister();
+
+//grappling hooks
+
+recipes.remove(<hooked:microcrafting:2>);
+
+lathe.recipeBuilder()
+.inputs(<gregtech:meta_item_1:14033>)
+.outputs(<hooked:microcrafting:2> * 2)
+.duration(64)
+.EUt(30)
+.buildAndRegister();
+
+lathe.recipeBuilder()
+.inputs(<gregtech:meta_item_1:14184>)
+.outputs( <hooked:microcrafting:2>* 4)
+.duration(64)
+.EUt(30)
+.buildAndRegister();
+
+recipes.remove(<hooked:hook:3>);
+recipes.remove(<hooked:hook:2>);
+recipes.remove(<hooked:hook:1>);
+recipes.addShaped(<hooked:hook:3>, [[<gregtech:meta_item_1:12215>, <gregtech:meta_item_1:12215>, <actuallyadditions:block_crystal>],[null, <hooked:hook:2>, <gregtech:meta_item_1:12215>], [<gregtech:meta_item_1:12215>, null, <gregtech:meta_item_1:12215>]]);
+recipes.addShaped(<hooked:hook:2>, [[null, <gregtech:meta_item_1:12111>, <gregtech:meta_item_1:12111>],[null, <hooked:hook:1>, <gregtech:meta_item_1:12111>], [<gregtech:meta_item_1:12111>, null, null]]);
+recipes.addShaped(<hooked:hook:1>, [[<gregtech:meta_item_1:13033>, <gregtech:meta_item_1:13033>, <gregtech:meta_item_2:1033>],[null, <hooked:microcrafting:3>, <gregtech:meta_item_1:13033>], [<hooked:microcrafting:3>, null, <gregtech:meta_item_1:13033>]]);
+
+recipes.addShaped(<fluxnetworks:fluxpoint>, [[null, null, null],[null, <fluxnetworks:fluxplug>, null], [null, null, null]]);
+recipes.addShaped(<fluxnetworks:fluxplug>, [[null, null, null],[null, <fluxnetworks:fluxpoint>, null], [null, null, null]]);
+
+    blast_furnace.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2913> * 64)
+    .fluidInputs(<liquid:radon> * 288)
+    .outputs(<gregtech:meta_item_1:15913>)
+    .property("temperature", 9200) //this is a minimal temperature at which the item will be smelted
+    .duration(1530)
+    .EUt(120)
+    .buildAndRegister();
+
+recipes.remove(<enderio:item_advanced_item_filter>);
+recipes.addShaped(<enderio:item_advanced_item_filter>, [[<gregtech:meta_item_1:12215>, <gregtech:meta_item_1:12111>, <gregtech:meta_item_1:12215>],[<gregtech:meta_item_1:12111>, <enderio:item_basic_item_filter>, <gregtech:meta_item_1:12111>], [<gregtech:meta_item_1:12215>, <gregtech:meta_item_1:12111>, <gregtech:meta_item_1:12215>]]);
+
+        fluid_extractor.recipeBuilder()
+        .inputs([<actuallyadditions:item_solidified_experience> * 64])
+        .fluidOutputs(<liquid:xpjuice> * 10240)
+        .duration(100)
+        .EUt(30)
+        .buildAndRegister();
+
+        compressor.recipeBuilder()
+        .inputs([<minecraft:apple> * 8])
+        .outputs([<gregtech:meta_item_2:32570>])
+        .duration(300)
+        .EUt(2)
+        .buildAndRegister();
+
+        hammer.recipeBuilder()
+        .inputs([<advancedrocketry:charcoallog>])
+        .outputs([<minecraft:coal:1> * 4])
+        .duration(100)
+        .EUt(30)
+        .buildAndRegister();
+        recipes.remove(<enderio:item_capacitor_vivid>);
+        recipes.addShaped(<enderio:item_capacitor_vivid>, [[<gregtech:meta_item_1:12227>, <gregtech:meta_item_1:2834>, <gregtech:meta_item_1:12227>],[<enderio:item_basic_capacitor:2>, <minecraft:lapis_block>, <enderio:item_basic_capacitor:2>], [<gregtech:meta_item_1:12227>, <gregtech:meta_item_1:2834>, <gregtech:meta_item_1:12227>]]);
+
+        Utils.removeRecipeByOutput(forming, [<gtadditions:ga_meta_item:32230>], [], false);
