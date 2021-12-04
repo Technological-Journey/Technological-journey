@@ -287,7 +287,7 @@ large_chem.recipeBuilder()
 .circuit(1)
 .fluidInputs( <liquid:lava> * 1000)
 .outputs(<minecraft:end_stone> *2)
-.duration(600)
+.duration(300)
 .EUt(2040)
 .buildAndRegister();
 
@@ -1111,59 +1111,6 @@ assembler.recipeBuilder()
 .EUt(30)
 .duration(2048)
 .buildAndRegister();
-//Break 3
-Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:11032>],[], true);
-
-blast_furnace.recipeBuilder()
-    .inputs(<ore:dustIridium>)
-    .circuit(0)
-    .outputs(<gregtech:meta_item_1:11032>)
-    .property("temperature", 2719) //this is a minimal temperature at which the item will be smelted
-    .duration(10440)
-    .EUt(120)
-    .buildAndRegister();
-
-//fix acetic acid
-
-chemreactor.findRecipe(30, [null], [<liquid:methanol> * 1000,<liquid:carbon_monoxide> * 1000]).remove();
-large_chem.findRecipe(30, [null], [<liquid:methanol> * 1000,<liquid:carbon_monoxide> * 1000]).remove();
-
-large_chem.recipeBuilder()
-.fluidInputs([<liquid:methanol> * 1000,<liquid:carbon_monoxide> * 1000])
-.circuit(2)
-.fluidOutputs(<liquid:acetic_acid> * 1000)
-.EUt(30)
-.duration(300)
-.buildAndRegister();
-
-chemreactor.recipeBuilder()
-.fluidInputs([<liquid:methanol> * 1000,<liquid:carbon_monoxide> * 1000])
-.circuit(2)
-.fluidOutputs(<liquid:acetic_acid> * 1000)
-.EUt(30)
-.duration(300)
-.buildAndRegister();
-
-Utils.removeRecipeByOutput(chemreactor, [], [<liquid:sodium_formate> * 1000], true);
-Utils.removeRecipeByOutput(large_chem, [], [<liquid:sodium_formate>* 1000], true);
-
-large_chem.recipeBuilder()
-.inputs(<gregtech:meta_item_1:2373> * 3)
-.fluidInputs([<liquid:carbon_monoxide> * 1000])
-.circuit(1)
-.fluidOutputs(<liquid:sodium_formate> * 1000)
-.EUt(30)
-.duration(60)
-.buildAndRegister();
-
-chemreactor.recipeBuilder()
-.inputs(<gregtech:meta_item_1:2373> * 3)
-.fluidInputs([<liquid:carbon_monoxide> * 1000])
-.circuit(1)
-.fluidOutputs(<liquid:sodium_formate> * 1000)
-.EUt(30)
-.duration(60)
-.buildAndRegister();
 
 Utils.removeRecipeByOutput(fusion, [], [<liquid:rutherfordium>], false);
 Utils.removeRecipeByOutput(fusion, [], [<liquid:duranium>], false);
@@ -1266,3 +1213,14 @@ recipes.addShaped(<enderio:item_advanced_item_filter>, [[<gregtech:meta_item_1:1
         recipes.addShaped(<enderio:item_capacitor_vivid>, [[<gregtech:meta_item_1:12227>, <gregtech:meta_item_1:2834>, <gregtech:meta_item_1:12227>],[<enderio:item_basic_capacitor:2>, <minecraft:lapis_block>, <enderio:item_basic_capacitor:2>], [<gregtech:meta_item_1:12227>, <gregtech:meta_item_1:2834>, <gregtech:meta_item_1:12227>]]);
 
         Utils.removeRecipeByOutput(forming, [<gtadditions:ga_meta_item:32230>], [], false);
+        recipes.remove(<minecraft:end_crystal>);
+        recipes.removeShaped(<minecraft:end_crystal>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>],[<ore:paneGlassColorless>, <gregtech:meta_item_1:32725>, <ore:paneGlassColorless>], [<ore:paneGlassColorless>, <gregtech:meta_item_1:32672>, <ore:paneGlassColorless>]]);
+
+        Utils.removeRecipeByOutput(tower, [], [<liquid:argon>], false);
+
+        tower.recipeBuilder()
+        .fluidInputs(<liquid:liquid_air> * 100000)
+        .fluidOutputs(<liquid:nitrogen> * 78000,<liquid:oxygen> * 20000,<liquid:argon> * 1000,<liquid:carbon_dioxide> * 500, <liquid:neon> * 100, <liquid:helium> * 50,<liquid:methane> * 20,<liquid:krypton> * 10, <liquid:hydrogen> * 5, <liquid:xenon>)
+        .duration(600)
+        .EUt(510)
+        .buildAndRegister();
