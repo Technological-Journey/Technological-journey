@@ -21,10 +21,6 @@
                     "value": "ore_dict:oreAstralStarmetal"
                 },
                 {
-                    "weight": 20,
-                    "value": "block:astralsorcery:blockcustomore"
-                },
-                {
                     "weight": 60,
                     "value": "ore_dict:oreAquamarine"
                 }
