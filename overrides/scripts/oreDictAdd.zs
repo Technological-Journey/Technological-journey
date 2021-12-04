@@ -455,6 +455,7 @@ h(<draconicevolution:crafting_injector:2>);
 h(<draconicevolution:crafting_injector:1>);
 h(<draconicevolution:crafting_injector>);
 //h(<draconicadditions:chaos_stabilizer_core>);
+h(<gregtech:machine:811>);
 
 h(<gtadditions:ga_meta_item:32230>);
 h(<gtadditions:ga_meta_item:32231>);
