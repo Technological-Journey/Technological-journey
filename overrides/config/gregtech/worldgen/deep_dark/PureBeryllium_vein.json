@@ -1,5 +1,5 @@
 {
-    "weight": 35,
+    "weight": 50,
     "density": 0.3,
     "max_height": 256,
     "min_height": 10,
@@ -9,8 +9,8 @@
     "generator": {
         "type": "ellipsoid",
         "radius": [
-            9,
-            9
+            14,
+            14
         ]
     },
     "filler": {
@@ -23,7 +23,7 @@
                 },
                 {
                     "weight": 50,
-                    "value": "ore:pure:thorium"
+                    "value": "ore:pure:emerald"
                 }
             ]
         }
