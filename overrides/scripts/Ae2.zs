@@ -600,3 +600,6 @@ autoclave.recipeBuilder()
 
 furnace.remove(<appliedenergistics2:material:5>);
 
+//Fix security station
+recipes.remove(<appliedenergistics2:security_station>);
+recipes.addShaped(<appliedenergistics2:security_station>, [[<gregtech:meta_item_1:12033>, <appliedenergistics2:chest>, <gregtech:meta_item_1:12033>],[<appliedenergistics2:part:16>, <appliedenergistics2:material:35>, <appliedenergistics2:part:16>], [<gregtech:meta_item_1:12033>, <appliedenergistics2:material:24>, <gregtech:meta_item_1:12033>]]);
