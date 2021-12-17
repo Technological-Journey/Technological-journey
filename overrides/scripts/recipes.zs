@@ -72,7 +72,7 @@ rh(<enderio:block_enhanced_sag_mill>);
 rh(<enderio:block_simple_sag_mill>);
 rh(<enderio:item_capacitor_crystalline>);
 rh(<enderio:item_capacitor_grainy>);
-rh(<enderio:item_capacitor_stellar>);
+rh(<enderio:item_capacitor_vivid>);
 rh(<enderio:item_capacitor_melodic>);
 rh(<enderio:block_stirling_generator>);
 rh(<enderio:block_sag_mill>);
