@@ -1415,13 +1415,13 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 
-Utils.removeRecipeByOutput(largeMix, [], [<liquid:hyper_fluid_iv>], true);
+Utils.removeRecipeByOutput(largeMix, [], [<liquid:hyper_fluid_iv>], false);
 
 largeMix.recipeBuilder()
 .inputs([<gregtech:meta_item_1:2775> * 4])
 .fluidInputs(<liquid:hyper_fluid_iii> * 1000 )
 .fluidOutputs([<liquid:hyper_fluid_iv> * 3000])
-.duration(2)
+.duration(1)
 .EUt(8000000)
 .buildAndRegister();
 
