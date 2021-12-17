@@ -297,7 +297,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 3000)
 .outputs(<gregtech:cable:516> * 9)
 .duration(120)
-.EUt(4194304)
+.EUt(32)
 .buildAndRegister();
 //MV Super
 assembler.recipeBuilder()
@@ -305,7 +305,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 3000)
 .outputs(<gregtech:cable:970>* 9)
 .duration(120)
-.EUt(4194304)
+.EUt(128)
 .buildAndRegister();
 //HV super
 assembler.recipeBuilder()
@@ -313,7 +313,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 3000)
 .outputs(<gregtech:cable:969>* 9)
 .duration(120)
-.EUt(4194304)
+.EUt(512)
 .buildAndRegister();
 //EV super
 assembler.recipeBuilder()
@@ -321,7 +321,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 3000)
 .outputs(<gregtech:cable:968> * 18)
 .duration(120)
-.EUt(4194304)
+.EUt(2048)
 .buildAndRegister();
 //IV super
 assembler.recipeBuilder()
@@ -329,7 +329,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 4000)
 .outputs(<gregtech:cable:967> * 12)
 .duration(120)
-.EUt(4194304)
+.EUt(8192)
 .buildAndRegister();
 //LUV super
 assembler.recipeBuilder()
