@@ -1199,7 +1199,7 @@ recipes.remove(<hooked:hook:2>);
 recipes.remove(<hooked:hook:1>);
 recipes.addShaped(<hooked:hook:3>, [[<gregtech:meta_item_1:12215>, <gregtech:meta_item_1:12215>, <actuallyadditions:block_crystal>],[null, <hooked:hook:2>, <gregtech:meta_item_1:12215>], [<gregtech:meta_item_1:12215>, null, <gregtech:meta_item_1:12215>]]);
 recipes.addShaped(<hooked:hook:2>, [[null, <gregtech:meta_item_1:12111>, <gregtech:meta_item_1:12111>],[null, <hooked:hook:1>, <gregtech:meta_item_1:12111>], [<gregtech:meta_item_1:12111>, null, null]]);
-recipes.addShaped(<hooked:hook:1>, [[<gregtech:meta_item_1:13033>, <gregtech:meta_item_1:13033>, <gregtech:meta_item_2:1033>],[null, <hooked:microcrafting:3>, <gregtech:meta_item_1:13033>], [<hooked:microcrafting:3>, null, <gregtech:meta_item_1:13033>]]);
+recipes.addShaped(<hooked:hook:1>, [[<gtadditions:ga_meta_item:1033>, <gtadditions:ga_meta_item:1033>, <gregtech:meta_item_2:1033>],[null, <hooked:microcrafting:3>, <gtadditions:ga_meta_item:1033>], [<hooked:microcrafting:3>, null, <gtadditions:ga_meta_item:1033>]]);
 
 recipes.addShaped(<fluxnetworks:fluxpoint>, [[null, null, null],[null, <fluxnetworks:fluxplug>, null], [null, null, null]]);
 recipes.addShaped(<fluxnetworks:fluxplug>, [[null, null, null],[null, <fluxnetworks:fluxpoint>, null], [null, null, null]]);
@@ -1341,6 +1341,14 @@ implosion.recipeBuilder()
 .EUt(30)
 .buildAndRegister();
 //comp blocks
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_conveyor_casing:13>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_field_gen_casing:13>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_motor_casing:13>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_piston_casing:13>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_pump_casing:13>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_robot_arm_casing:13>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_sensor_casing:13>], [], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_emitter_casing:13>], [], true);
 //motor
 assembler.recipeBuilder()
 .inputs([<gtadditions:ga_motor_casing:9> ,<gtadditions:ga_meta_item:32504>])
@@ -1406,14 +1414,6 @@ assembler.recipeBuilder()
 .EUt(7864320)
 .buildAndRegister();
 
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_conveyor_casing:13>], [], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_field_gen_casing:13>], [], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_motor_casing:13>], [], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_piston_casing:13>], [], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_pump_casing:13>], [], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_robot_arm_casing:13>], [], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_sensor_casing:13>], [], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_emitter_casing:13>], [], true);
 
 Utils.removeRecipeByOutput(largeMix, [], [<liquid:hyper_fluid_iv>], true);
 
@@ -1433,3 +1433,6 @@ electrolyzer.recipeBuilder()
 .duration(1244)
 .EUt(30)
 .buildAndRegister();
+
+recipes.remove(<randomthings:spectreenergyinjector>);
+recipes.addShaped(<randomthings:spectreenergyinjector>, [[<minecraft:obsidian>, <randomthings:spectrelens>, <minecraft:obsidian>],[<randomthings:ingredient:12>, <randomthings:spectrecharger>, <randomthings:ingredient:12>], [<minecraft:obsidian>, <randomthings:ingredient:12>, <minecraft:obsidian>]]);
