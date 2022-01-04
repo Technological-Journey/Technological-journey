@@ -2,7 +2,7 @@
     "minecraft": {
         "version": "1.12.2",
         "modLoaders": [{
-            "id": "forge-14.23.5.2854",
+            "id": "forge-14.23.5.2860",
             "primary": true
         }]
     },
@@ -673,6 +673,11 @@
         {
             "projectID": 256717,
             "fileID": 2666198,
+            "required": true
+        },
+        {
+            "projectID": 361579,
+            "fileID": 3164181,
             "required": true
         }
               
