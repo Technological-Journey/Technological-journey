@@ -407,9 +407,9 @@ blast_furnace.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-.inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610>,<gregtech:fluid_pipe:184>])
+.inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610> * 2,<gregtech:fluid_pipe:184>])
 .fluidInputs(<liquid:nitrogen> * 1000)
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<gregtech:cable:516> * 3])
 .duration(350)
 .EUt(32)
