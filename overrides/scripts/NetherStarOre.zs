@@ -50,18 +50,18 @@ lvBase.setCableProperties(32, 4, 6);
 lvSuper.setCableProperties(32, 4, 0);
 
 val draconium = MaterialRegistry.createIngotMaterial(518, "draconium", 0x573d85, "dull", 10, null, 30.0f, 6, 12800,9200);
-draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ORE","GENERATE_ROD","GENERATE_FRAME",]);
+draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ORE","GENERATE_ROD","GENERATE_FRAME","GENERATE_BOLT_SCREW"]);
 
 val awaken_draconium = MaterialRegistry.createIngotMaterial(519, "awaken_draconium",  0xff571a, "shiny", 10, null, 40.0f, 6, 128000);
-awaken_draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ROD","GENERATE_FRAME","GENERATE_PLASMA"]);
+awaken_draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ROD","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_BOLT_SCREW"]);
 
 val chaos = MaterialRegistry.createIngotMaterial(520, "chaos",  0x696969, "dull", 10, null, 50.0f, 6, 1280000);
-chaos.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ROD","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_FINE_WIRE"]);
+chaos.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ROD","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_FINE_WIRE","GENERATE_BOLT_SCREW"]);
 
 //val dragonstem = MaterialRegistry.createFluidMaterial(521,  "dragonstem", 0xff0000, "FLUID", null);
 
 val chaosalloy = MaterialRegistry.createIngotMaterial(521, "chaosalloy",  0x696969, "dull", 10, null, 60.0f, 6, 1280000);
-chaosalloy.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_PLASMA","GENERATE_FINE_WIRE"]);
+chaosalloy.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_PLASMA","GENERATE_FINE_WIRE","GENERATE_BOLT_SCREW"]);
 
 //val rawchaos = MaterialRegistry.createFluidMaterial(523,  "rawchaos", 0x000000, "FLUID", null);
 
@@ -76,6 +76,7 @@ aquamarine.addFlags(["GENERATE_ORE"]);
 util.registerFluid("dragonstem",0xff0000);
 
 util.registerFluid("rawchaos",0x000000);
+util.registerFluid("pahoehoe_lava",0x964B00);
 
 //wire properties for draconic
 draconium.setCableProperties(524288, 10, 0);

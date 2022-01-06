@@ -38,6 +38,7 @@ global fusion            as RecipeMap = RecipeMap.getByName("fusion_reactor");
 global hammer            as RecipeMap = RecipeMap.getByName("forge_hammer");
 global implosion         as RecipeMap = RecipeMap.getByName("implosion_compressor");
 global large_chem        as RecipeMap = RecipeMap.getByName("large_chemical_reactor");
+global large_engrav      as RecipeMap = RecipeMap.getByName("large_engraver");
 global large_centrifuge  as RecipeMap = RecipeMap.getByName("large_centrifuge");
 global largeHammer       as RecipeMap = RecipeMap.getByName("large_forge_hammer");
 global largeMix          as RecipeMap = RecipeMap.getByName("large_mixer");

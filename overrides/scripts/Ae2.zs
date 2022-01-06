@@ -447,7 +447,7 @@ assembler.recipeBuilder()
 
 
 if (<appliedenergistics2:controller> as bool) {
-
+recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.remove(<appliedenergistics2:controller>);
 assembler.recipeBuilder()
 .inputs([<gregtech:machine:501>,<ore:crystalPureFluix> * 4,<ore:circuitBasic>])
@@ -603,3 +603,5 @@ furnace.remove(<appliedenergistics2:material:5>);
 //Fix security station
 recipes.remove(<appliedenergistics2:security_station>);
 recipes.addShaped(<appliedenergistics2:security_station>, [[<gregtech:meta_item_1:12033>, <appliedenergistics2:chest>, <gregtech:meta_item_1:12033>],[<appliedenergistics2:part:16>, <appliedenergistics2:material:35>, <appliedenergistics2:part:16>], [<gregtech:meta_item_1:12033>, <appliedenergistics2:material:24>, <gregtech:meta_item_1:12033>]]);
+recipes.addShaped(<appliedenergistics2:quantum_ring>, [[<minecraft:iron_ingot>, <appliedenergistics2:material:22>, <minecraft:iron_ingot>],[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>, <appliedenergistics2:material:35>], [<minecraft:iron_ingot>, <appliedenergistics2:material:22>, <minecraft:iron_ingot>]]);
+recipes.addShapeless(<appliedenergistics2:part:222>, [<gregtech:meta_item_1:32102>,<appliedenergistics2:part:220>]);
