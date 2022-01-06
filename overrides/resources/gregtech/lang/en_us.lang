@@ -1,6 +1,6 @@
 material.cosmic_neutronium=Cosmic Neutronium
-material.lv_superconductor= LV Super Conductor
-material.lv_superconductor_base= LV Super Conductor base
+material.lv_superconductor= LV Superconductor
+material.lv_superconductor_base= LV Superconductor base
 multiblocktweaker.machine.coke_oven_2.name=Coke Oven
 recipemap.coke_oven_2.name=Coke Oven
 multiblocktweaker.multiblock.coke_oven_2.description= 
@@ -9,9 +9,9 @@ multiblocktweaker.machine.primitive_alloy.name=Primitive Alloy Smelter
 recipemap.primitive_alloy.name=Primitive Alloy Smelter
 multiblocktweaker.multiblock.primitive_alloy.description= 
 
-multiblocktweaker.machine.primitive_asssembler.name=Primitive Assembler
-recipemap.primitive_asssembler.name=Primitive Assembler
-multiblocktweaker.multiblock.primitive_asssembler.description= 
+multiblocktweaker.machine.heat_exchanger.name=Heat Exchanger
+recipemap.heat_exchanger.name=Heat Exchanger
+multiblocktweaker.multiblock.heat_exchanger.description=The Heat Exchanger will cool lava down into pahoehoe lava by transfuring heat to the water provided. As a byproduct, hot steam is created. This steam can be used in a turbine to generate energy.
 item.contenttweaker.steammotor.name=Steam Motor
 item.contenttweaker.steampiston.name=Steam Piston
 
@@ -35,6 +35,7 @@ fluid.dragonstem=Draconic Stem Cell Fluid
 material.chaosalloy=Chaos Infinity Alloy
 fluid.rawchaos=Raw Chaos
 material.chaos=Refined Chaos
+fluid.pahoehoe_lava=Pahoehoe Lava
 multiblocktweaker.machine.armor_infuser.name=Armor Infuser
 multiblocktweaker.multiblock.armor_infuser.description=A very powerful multiblock structure used for upgrading draconium-based armor and tools.
 recipemap.armor_infuser.name=Armor Infusion
@@ -50,3 +51,5 @@ multiblocktweaker.multiblock.dragon_egg_replicator.description=A multiblock stru
 recipemap.dragon_egg_replicator.name=Dragon Egg Replicator
 item.contenttweaker.refinedchaoscrystal.name=Refined Chaos Crystal
 item.contenttweaker.refinedchaosshard.name=Refined Chaos Shard
+devtech.machine.vial_processor.name=Vial Processor
+recipemap.vial_processor.name=Vial Processor
