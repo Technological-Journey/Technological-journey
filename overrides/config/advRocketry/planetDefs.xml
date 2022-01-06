@@ -1,6 +1,5 @@
 <galaxy>
 <star blackHole="false" name="Sol" numGasGiants="0" numPlanets="2" size="1.0" temp="100" x="0" y="0">
-               
 <planet DIMID="0" dimMapping="" name="Earth">
             <isKnown>true</isKnown>
             <fogColor>1.0,1.0,1.0</fogColor>
@@ -36,7 +35,6 @@
                 <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
             </planet>
         </planet>
-        
     </star>
     <star blackHole="false" name="Sol-235" numGasGiants="0" numPlanets="3" size="1.0" temp="100" x="50" y="50">
         <planet DIMID="400" name="Titan" temp="100" customIcon="CarbonWorld">
@@ -96,6 +94,7 @@
                     <!-- block of Californiuum -->
                     <artifact>gregtech:meta_block_compressed_49 13</artifact> 
                     <biomeIds>advancedrocketry:hotdryrock</biomeIds> 
+                </planet>
                 <planet DIMID="402" name="Phobos" temp="100" customIcon="Venusian">
                     <isKnown>true</isKnown>
                     <skyColor>0xD3D3D3</skyColor>
@@ -114,7 +113,6 @@
                     <artifact>gregtech:meta_block_compressed_9 11</artifact> 
                     <biomeIds>advancedrocketry:alien forest,24</biomeIds> 
                     </planet>
-                </planet>
     <planet DIMID="403" name="Mercury" temp="10" customIcon="MarsLike">
         <isKnown>true</isKnown>
         <skyColor>0x8b0000</skyColor>
