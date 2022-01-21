@@ -102,7 +102,7 @@ Etcher.removeRecipe(<threng:material:14>);
 Etcher.addRecipe(<threng:material:14>, <minecraft:redstone>,<threng:material:13>,<gregtech:meta_item_1:10061>);
 
 mixer.recipeBuilder()
-.inputs([<appliedenergistics2:material>,<minecraft:redstone> * 4])
+.inputs([<appliedenergistics2:material>,<minecraft:redstone>])
 .outputs([<appliedenergistics2:material:1>])
 .duration(30)
 .EUt(32)
@@ -308,7 +308,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 mixer.recipeBuilder()
-.inputs([<appliedenergistics2:material:1>,<minecraft:redstone> * 4,<gregtech:meta_item_1:2201>])
+.inputs([<appliedenergistics2:material:1>,<minecraft:redstone>,<gregtech:meta_item_1:2201>])
 .outputs([<appliedenergistics2:material:7> * 2])
 .duration(130)
 .EUt(32)
@@ -339,7 +339,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //4k
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12001> * 4,<ore:circuitGood>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:35> * 4])
+.inputs([<gregtech:meta_item_1:12001> * 4,<ore:circuitGood>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:35> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:36>])
 .duration(300)
@@ -347,7 +347,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //16
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:36> * 4])
+.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:36> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:37>])
 .duration(300)
@@ -355,7 +355,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //64
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12072> * 4,<ore:circuitExtreme>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:37> * 4])
+.inputs([<gregtech:meta_item_1:12072> * 4,<ore:circuitExtreme>, <ore:crystalCertusQuartz> * 4,<appliedenergistics2:material:37> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:38>])
 .duration(300)
@@ -363,7 +363,16 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //256
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4, <ore:crystalCertusQuartz> * 4,<ore:circuitExtreme>, <appliedenergistics2:material:38> * 4])
+.inputs([<gregtech:meta_item_1:12235> * 4, <ore:crystalCertusQuartz> * 4,<ore:circuitElite>, <appliedenergistics2:material:38> * 3])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<extracells:storage.component>])
+.duration(300)
+.EUt(4192)
+.buildAndRegister();
+// start of new one
+//256
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4, <gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32018> * 4,<ore:circuitExtreme>])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<extracells:storage.component>])
 .duration(300)
@@ -371,7 +380,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //1024
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12859> * 4,<ore:circuitMaster>, <ore:crystalCertusQuartz> * 4,<extracells:storage.component> * 4])
+.inputs([<gregtech:meta_item_1:12859> * 4,<ore:circuitMaster>,<gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32018> * 4,<extracells:storage.component> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<extracells:storage.component:1>])
 .duration(300)
@@ -379,7 +388,7 @@ assembler.recipeBuilder()
 //4096
 .buildAndRegister();
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12207> * 4,<ore:circuitUltimate>, <ore:crystalCertusQuartz> * 4,<extracells:storage.component:1> * 4])
+.inputs([<gregtech:meta_item_1:12207> * 4,<ore:circuitUltimate>, <gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32018> * 4,<extracells:storage.component:1> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<extracells:storage.component:2>])
 .duration(300)
@@ -387,7 +396,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //16384
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12311> * 4,<ore:circuitSuperconductor>, <ore:crystalCertusQuartz> * 4,<extracells:storage.component:2> * 4])
+.inputs([<gregtech:meta_item_1:12311> * 4,<ore:circuitSuperconductor>, <gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32015> * 4,<extracells:storage.component:2> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<extracells:storage.component:3>])
 .duration(300)
@@ -405,7 +414,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //4k
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12001> * 4,<ore:circuitGood>, <ore:dyeBlue> * 4,<appliedenergistics2:material:54> * 4])
+.inputs([<gregtech:meta_item_1:12001> * 4,<ore:circuitGood>, <ore:dyeBlue> * 4,<appliedenergistics2:material:54> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:55>])
 .duration(300)
@@ -413,7 +422,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //16
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>,<ore:dyeBlue> * 4,<appliedenergistics2:material:55> * 4])
+.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>,<ore:dyeBlue> * 4,<appliedenergistics2:material:55> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:56>])
 .duration(300)
@@ -421,7 +430,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //64
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12072> * 4,<ore:circuitExtreme>, <ore:dyeBlue> * 4,<appliedenergistics2:material:56> * 4])
+.inputs([<gregtech:meta_item_1:12072> * 4,<ore:circuitExtreme>, <ore:dyeBlue> * 4,<appliedenergistics2:material:56> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:57>])
 .duration(300)
@@ -429,22 +438,20 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //256
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:dyeBlue> * 4,<appliedenergistics2:material:57> * 4])
+.inputs([<gregtech:meta_item_1:12235> * 4,<ore:circuitElite>, <ore:dyeBlue> * 4,<appliedenergistics2:material:57> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<extracells:storage.component:8>])
 .duration(300)
 .EUt(4192)
 .buildAndRegister();
 
-//256
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4,<gtadditions:ga_meta_item:32213> *5, <ore:dyeBlue> * 4])
+.inputs([<gregtech:meta_item_1:12235> * 4, <gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32018> * 4, <ore:dyeBlue> * 3])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<extracells:storage.component:8>])
 .duration(300)
 .EUt(4192)
 .buildAndRegister();
-
 
 if (<appliedenergistics2:controller> as bool) {
 recipes.remove(<appliedenergistics2:quantum_ring>);
