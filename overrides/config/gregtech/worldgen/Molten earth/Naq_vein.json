@@ -22,11 +22,11 @@
                     "value": "ore:naquadric_compound"
                 },
                 {
-                    "weight": 32,
+                    "weight": 39,
                     "value": "ore:pure:naquadric_compound"
                 },
                 {
-                    "weight": 18,
+                    "weight": 9,
                     "value": "ore:pure:enriched_naquadric_compound"
                 },
                 {
@@ -35,10 +35,10 @@
                 },
                 {
                     "weight": 13,
-                    "value": "ore:pure:naquadriatic_compound"
+                    "value": "ore:naquadriatic_compound"
                 },
                 {
-                    "weight": 2,
+                    "weight": 6,
                     "value": "ore:pure:naquadriatic_compound"
                 }
             ]
