@@ -12,13 +12,6 @@
     "version": "0.3.2",
     "author": "Technological Journey Dev team",
     "projectID": 422473,
-    "externalDependencies": [
-    {
-      "name": "Applied Energistics 2 Trousers Edition",
-      "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/Experimental-v49/appliedenergistics2-trousers_edition-rv6-stable-7-v49t.jar",
-      "sha": "21CC161C24F10657365DA9FDA5EFD783"
-    }
-  ],
     "files": [{
             "projectID": 318551,
             "fileID": 3101596,
