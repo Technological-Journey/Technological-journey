@@ -19,8 +19,12 @@
                     "value": "ore:rich:coal"
                 },
                 {
-                    "weight": 50,
+                    "weight": 25,
                     "value": "ore:rich:lignite"
+                },
+                {
+                    "weight": 25,
+                    "value": "ore:rich:coke"
                 }
             ]
         }
