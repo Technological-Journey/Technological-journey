@@ -314,6 +314,13 @@ mixer.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 
+largeMix.recipeBuilder()
+.inputs([<appliedenergistics2:material:1>,<minecraft:redstone>,<gregtech:meta_item_1:2201>])
+.outputs([<appliedenergistics2:material:7> * 2])
+.duration(130)
+.EUt(32)
+.buildAndRegister();
+
 macerator.recipeBuilder()
 .inputs([<appliedenergistics2:material>])
 .outputs([<gregtech:meta_item_1:2202>])
@@ -611,4 +618,7 @@ furnace.remove(<appliedenergistics2:material:5>);
 recipes.remove(<appliedenergistics2:security_station>);
 recipes.addShaped(<appliedenergistics2:security_station>, [[<gregtech:meta_item_1:12033>, <appliedenergistics2:chest>, <gregtech:meta_item_1:12033>],[<appliedenergistics2:part:16>, <appliedenergistics2:material:35>, <appliedenergistics2:part:16>], [<gregtech:meta_item_1:12033>, <appliedenergistics2:material:24>, <gregtech:meta_item_1:12033>]]);
 recipes.addShaped(<appliedenergistics2:quantum_ring>, [[<minecraft:iron_ingot>, <appliedenergistics2:material:22>, <minecraft:iron_ingot>],[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>, <appliedenergistics2:material:35>], [<minecraft:iron_ingot>, <appliedenergistics2:material:22>, <minecraft:iron_ingot>]]);
+recipes.remove(<appliedenergistics2:part:222>);
 recipes.addShapeless(<appliedenergistics2:part:222>, [<gregtech:meta_item_1:32102>,<appliedenergistics2:part:220>]);
+
+

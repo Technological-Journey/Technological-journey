@@ -22,29 +22,37 @@ vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:enderman"}))
 .outputs(<enderio:block_enderman_skull> * 10,<minecraft:ender_pearl> * 10,<enderio:item_soul_vial>)
 .EUt(16)
-.duration(40)
+.duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:blaze"}))
 .outputs(<minecraft:blaze_rod> * 10 ,<enderio:item_soul_vial>)
 .EUt(16)
-.duration(40)
+.duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:zombie"}))
 .outputs(<minecraft:skull:2> * 9 , <enderio:item_soul_vial>)
 .EUt(16)
-.duration(40)
+.duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:skeleton"}))
 .outputs(<minecraft:bone> * 8, <enderio:item_soul_vial>)
 .EUt(16)
-.duration(40)
+.duration(3)
 .buildAndRegister();
+
+vial_processor.recipeBuilder()
+.inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:pig"}))
+.outputs(<minecraft:porkchop> * 64, <enderio:item_soul_vial>)
+.EUt(16)
+.duration(3)
+.buildAndRegister();
+
 
 
 recipes.addShaped(<gregtech:machine:1400>, [[<enderio:item_soul_vial:1>, <minecraft:diamond_sword>, <enderio:item_soul_vial:1>],[<minecraft:diamond_sword>, <gregtech:machine:501>, <minecraft:diamond_sword>], [<gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>]]);

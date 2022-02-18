@@ -15,6 +15,13 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:rhodium_salt>.addFlags(["GENERATE_ORE"]);
 <material:californium>.addFlags(["GENERATE_ORE"]);
 
+<material:curium>.addFlags(["GENERATE_ORE"]);
+<material:plutonium>.addFlags(["GENERATE_ORE"]);
+<material:rutherfordium>.addFlags(["GENERATE_ORE"]);
+<material:duranium>.addFlags(["GENERATE_ORE"]);
+<material:tritanium>.addFlags(["GENERATE_ORE"]);
+<material:naquadria>.addFlags(["GENERATE_ORE"]);
+
 /*
 var MV = MaterialCasting.toIngot(<material:mv_superconductor>);
 var HV = MaterialCasting.toIngot(<material:hv_superconductor>);
@@ -44,6 +51,7 @@ UIV.setCableProperties(33554432, 8, 0);
 UMV.setCableProperties(536870912, 8, 0);
 UXV.setCableProperties(2147483648, 8, 0);
 */
+
 val lvSuper = MaterialRegistry.createIngotMaterial(516, "lv_superconductor", 0xf8f8ff, "dull", 4);
 val lvBase = MaterialRegistry.createIngotMaterial(517, "lv_superconductor_base", 0xffffff, "dull", 4);
 lvBase.setCableProperties(32, 4, 6);
@@ -79,7 +87,7 @@ util.registerFluid("rawchaos",0x000000);
 util.registerFluid("pahoehoe_lava",0x964B00);
 
 //wire properties for draconic
-draconium.setCableProperties(524288, 10, 0);
-awaken_draconium.setCableProperties(2097152, 100, 0);
-chaos.setCableProperties(8388608, 1000, 0);
-chaosalloy.setCableProperties(33554432, 10000, 0);
+draconium.setCableProperties(2097152, 10, 0);
+awaken_draconium.setCableProperties(8388608, 100, 0);
+chaos.setCableProperties(33554432, 1000, 0);
+chaosalloy.setCableProperties(536870912, 10000, 0);

@@ -28,25 +28,33 @@ recipes.addShapeless(<draconicevolution:draconic_block>, [<gregtech:meta_block_c
 recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_compressed_32:6>]);
 
     assembly_line.recipeBuilder()
-    .inputs(<gregtech:frame_tritanium> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12524> * 10,<gregtech:meta_item_1:12780> * 10,<gregtech:meta_item_2:32436> * 2,<gregtech:meta_item_1:32677>,<gregtech:meta_item_1:32687>,<gregtech:meta_item_1:32697>,<ore:circuitSuperconductor>)
+    .inputs(<gregtech:frame_tritanium> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12524> * 10,<gregtech:meta_item_1:12780> * 10,<gregtech:meta_item_2:32436> * 2,<gtadditions:ga_meta_item:32378>,<gtadditions:ga_meta_item:32372>,<gtadditions:ga_meta_item:32390>, <ore:circuitInfinite>)
     .outputs(<draconicevolution:draconic_core> * 2)
     .duration(600)
     .EUt(524288)
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<gregtech:frame_hdcs>* 10,<gregtech:meta_item_1:12695> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12716> * 10,<gregtech:meta_item_1:12854> * 10,<gtadditions:ga_meta_item:32378>,<gtadditions:ga_meta_item:32372>,<gtadditions:ga_meta_item:32390>,<ore:circuitInfinite>,<draconicevolution:draconic_core>)
+    .inputs(<gregtech:frame_hdcs>* 10,<gregtech:meta_item_1:12695> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12716> * 10,<gregtech:meta_item_1:12854> * 10,<gtadditions:ga_meta_item:32379>,<gtadditions:ga_meta_item:32373>,<gtadditions:ga_meta_item:32391>,<ore:circuitUev>,<draconicevolution:draconic_core>)
     .outputs(<draconicevolution:wyvern_core> * 2)
     .duration(600)
     .EUt(2097152)
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<gregtech:frame_trinium_titanium> * 10,<gtadditions:ga_dust:385> * 10,<gregtech:meta_item_1:12519> * 10,<gregtech:meta_item_1:12674> * 10,<gregtech:meta_item_1:12675> * 10,<gtadditions:ga_meta_item:32379>,<gtadditions:ga_meta_item:32373>,<gtadditions:ga_meta_item:32391>,<ore:circuitUev>,<draconicevolution:wyvern_core>)
+    .inputs(<gregtech:frame_trinium_titanium> * 10,<gtadditions:ga_dust:385> * 10,<gregtech:meta_item_1:12519> * 10,<gregtech:meta_item_1:12674> * 10,<gregtech:meta_item_1:12675> * 10,<gtadditions:ga_meta_item:32380>,<gtadditions:ga_meta_item:32374>, <gtadditions:ga_meta_item:32392>, <ore:circuitUiv>,<draconicevolution:wyvern_core>)
     .outputs(<draconicevolution:awakened_core>* 2)
     .duration(600)
     .EUt(8388608)
     .buildAndRegister();
+
+    assembly_line.recipeBuilder()
+    .inputs(<gregtech:frame_quantum> * 10,<gregtech:meta_item_1:12721> * 10,<gregtech:meta_item_1:12519> * 10,<gregtech:meta_item_1:12520> * 10,<gtadditions:ga_meta_item:32381>, <gtadditions:ga_meta_item:32393>, <gtadditions:ga_meta_item:32375>, <ore:circuitUmv>, <contenttweaker:refinedchaoscrystal>,<draconicevolution:awakened_core>)
+    .outputs(<draconicevolution:chaotic_core> * 2)
+    .duration(600)
+    .EUt(33554432)
+    .buildAndRegister();
+
 
     chemical_bath.recipeBuilder()
     .inputs(<draconicevolution:chaos_shard>)
@@ -91,14 +99,6 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
 
     //recipes.addShaped(<contenttweaker:refinedchaoscrystal>, [[<contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>],[<contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>], [<contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>]]);
     recipes.addShapeless(<contenttweaker:refinedchaosshard> * 9, [<contenttweaker:refinedchaoscrystal>]);
-
-
-    assembly_line.recipeBuilder()
-    .inputs(<gregtech:frame_quantum> * 10,<gregtech:meta_item_1:12721> * 10,<gregtech:meta_item_1:12519> * 10,<gregtech:meta_item_1:12520> * 10,<ore:circuitUiv>, <contenttweaker:refinedchaoscrystal>,<draconicevolution:awakened_core>)
-    .outputs(<draconicevolution:chaotic_core> * 2)
-    .duration(600)
-    .EUt(33554432)
-    .buildAndRegister();
 
     bioreactor.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32018> * 10,<draconicevolution:dragon_heart> * 2)
@@ -216,7 +216,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 //energy cores
     assembly_line.recipeBuilder()
     .inputs(<draconicevolution:wyvern_core> * 4,<gregtech:meta_item_1:12518> * 10,<gregtech:cable:5518> * 10,<gregtech:meta_item_1:32725>)
-    .fluidInputs(<liquid:redstone> * 6480)
+    .fluidInputs(<liquid:redstone> * 1440)
     .outputs(<draconicevolution:wyvern_energy_core>)
     .duration(200)
     .EUt(524288)
@@ -224,7 +224,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     assembly_line.recipeBuilder()
     .inputs(<draconicevolution:awakened_core> * 4,<gregtech:meta_item_1:12519> * 10,<gregtech:cable:5519> * 10,<gregtech:meta_item_1:32726>)
-    .fluidInputs(<liquid:redstone> * 12960)
+    .fluidInputs(<liquid:redstone> * 1440)
     .outputs(<draconicevolution:draconic_energy_core>)
     .duration(200)
     .EUt(2097152)
@@ -232,7 +232,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     assembly_line.recipeBuilder()
     .inputs(<draconicevolution:chaotic_core>* 4,<gregtech:meta_item_1:12520> * 10,<gregtech:cable:5520> * 10,<gtadditions:ga_meta_item:32343>)
-    .fluidInputs(<liquid:redstone> * 25920)
+    .fluidInputs(<liquid:redstone> * 1440)
     .outputs(<draconicadditions:chaotic_energy_core>)
     .duration(200)
     .EUt(2097152)
@@ -240,42 +240,23 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
 
     Stellar.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:10520> * 20,<gtadditions:ga_explosive:3> * 10,<gregtech:meta_item_1:10672> * 20)
-    .fluidInputs(<liquid:fullerene_polymer_matrix> * 2800,<liquid:cosmic_computing_mix>* 2800,<liquid:heavy_quark_degenerate_matter>* 2800)
-    .fluidOutputs(<liquid:plasma.chaosalloy>*14400)
+    .inputs(<gregtech:meta_item_1:10671>, <gregtech:meta_item_1:10520> * 18,<gtadditions:ga_explosive:3>)
+    .fluidInputs(<liquid:cosmic_mesh_plasma> * 1000)
+    .fluidOutputs(<liquid:plasma.chaosalloy>* 2880)
     .duration(20)
     .EUt(134217728)
     .buildAndRegister();
 
-    Utils.removeRecipeByOutput(assembly_line, [<gregtech:machine:4174>], [], true);
-
-    assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:12718> * 24,<gregtech:meta_item_2:26857> * 12,<gregtech:meta_item_1:13854> * 8,<gregtech:meta_item_1:19728> * 6,<gtadditions:ga_meta_item:32391> *4,<gtadditions:ga_meta_item:32526> * 4,<gtadditions:ga_meta_item:32525> * 2,<gtadditions:ga_fusion_casing:6> *2)
-    .fluidInputs(<liquid:cinobite> * 864,<liquid:soldering_alloy> *1296)
-    .outputs(<gregtech:machine:4174>)
-    .duration(410)
-    .EUt(24000000)
-    .buildAndRegister();
-
 
 
     assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:13518> * 8, <gregtech:meta_item_1:13857> * 8, <appliedenergistics2:dense_energy_cell> * 64,<gregtech:cable:744> * 32, <ore:circuitSuperconductor> * 2)
-    .fluidInputs(<liquid:cinobite> * 1296,<liquid:soldering_alloy> *1296)
+    .inputs(<gregtech:meta_item_1:13518> * 8, <gregtech:meta_item_1:12733> * 8, <appliedenergistics2:dense_energy_cell> * 64,<gregtech:cable:744> * 32, <ore:circuitSuperconductor> * 2)
+    .fluidInputs(<liquid:tritanium> * 720,<liquid:soldering_alloy> *1296)
     .outputs(<appliedenergistics2:creative_energy_cell>)
     .duration(1000)
     .EUt(524288)
     .buildAndRegister();
 
-    Utils.removeRecipeByOutput(assembly_line, [<gregtech:machine:3236>], [], true);
-
-    assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:17850> * 64,<gregtech:meta_item_1:19729> * 64,<gregtech:meta_item_1:19729> * 64,<gregtech:meta_item_1:12732> * 32,<gregtech:meta_item_1:12731> * 32,<gregtech:meta_item_1:14854> * 16,<gregtech:meta_item_2:26852> * 8,<ore:circuitUiv> * 4,<gtadditions:ga_meta_item:32430> * 4,<contenttweaker:refinedchaoscrystal> * 2,<gtadditions:ga_meta_item:32367> * 2,<gregtech:machine:3235>)
-    .fluidInputs(<liquid:soldering_alloy> *20736)
-    .outputs(<gregtech:machine:3236>)
-    .duration(500)
-    .EUt(33554432)
-    .buildAndRegister();
 
     recipes.remove(<thermalfoundation:upgrade>);
     recipes.remove(<thermalfoundation:upgrade:1>);
@@ -287,16 +268,16 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     recipes.remove(<thermalfoundation:upgrade:256>);
 
     assembly_line.recipeBuilder()
-    .inputs(<draconicevolution:chaotic_core> * 32,<draconicadditions:chaotic_energy_core> * 32,<gregtech:meta_item_1:12857> * 64,<gregtech:meta_item_1:12729> * 64,<thermalfoundation:upgrade> ,<thermalfoundation:upgrade:1> ,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>,<draconicevolution:draconium_capacitor:1>)
-    .fluidInputs(<liquid:soldering_alloy> *20736,<liquid:chaosalloy> * 4608,<liquid:chaos> * 9216)
+    .inputs(<draconicevolution:chaotic_core> * 4,<draconicadditions:chaotic_energy_core> * 4,<gregtech:meta_item_1:12857> * 64,<gregtech:meta_item_1:12729> * 64,<thermalfoundation:upgrade> ,<thermalfoundation:upgrade:1> ,<draconicevolution:draconium_capacitor:1>)
+    .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:chaosalloy> * 1440)
     .outputs(<draconicevolution:draconium_capacitor:2>)
     .duration(500)
     .EUt(33554432)
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<extracells:storage.component:3> * 18,<gregtech:meta_item_1:12674>* 64,<gregtech:meta_item_1:12675> * 64,<thermalfoundation:upgrade:2>,<thermalfoundation:upgrade:3>  ,<draconicevolution:chaotic_core> * 8)
-    .fluidInputs(<liquid:soldering_alloy> *20736,<liquid:chaosalloy> * 4608,<liquid:heavy_quark_degenerate_matter> * 1296)
+    .inputs(<extracells:storage.component:3> * 2,<gregtech:meta_item_1:12674>* 64,<gregtech:meta_item_1:12675> * 64,<thermalfoundation:upgrade:2>,<thermalfoundation:upgrade:3>  ,<draconicevolution:chaotic_core> * 2)
+    .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:chaosalloy> * 1440,<liquid:heavy_quark_degenerate_matter> * 1440)
     .outputs(<storagedrawers:upgrade_creative>)
     .duration(500)
     .EUt(33554432)
@@ -304,7 +285,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 //hardened upgrade
     assembly_line.recipeBuilder()
     .inputs(<draconicevolution:draconic_core> * 10,<gregtech:meta_item_1:12524> * 64,<gregtech:cable:744> * 64,<gregtech:meta_item_1:12854> * 64)
-    .fluidInputs(<liquid:soldering_alloy> *20736,<liquid:draconium> * 4608)
+    .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:draconium> * 1440)
     .outputs(<thermalfoundation:upgrade>)
     .duration(500)
     .EUt(33554432)
@@ -312,7 +293,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     assembly_line.recipeBuilder()
     .inputs(<draconicevolution:wyvern_core> * 10,<gregtech:meta_item_1:12716> * 64,<gregtech:ga_cable:739> * 64,<gregtech:meta_item_1:12852> * 64)
-    .fluidInputs(<liquid:soldering_alloy> *20736,<liquid:draconium> * 4608,<liquid:naquadah_alloy> * 4608)
+    .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:draconium> * 1440,<liquid:naquadah_alloy> * 1440)
     .outputs(<thermalfoundation:upgrade:1>)
     .duration(500)
     .EUt(33554432)
@@ -320,15 +301,15 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     assembly_line.recipeBuilder()
     .inputs(<draconicevolution:awakened_core> * 10,<gregtech:meta_item_1:12736> * 64,<gregtech:ga_cable:737>* 64,<gregtech:meta_item_1:12856> * 64)
-    .fluidInputs(<liquid:soldering_alloy> *20736,<liquid:awaken_draconium> * 4608,<liquid:enriched_naquadah_alloy> * 4608)
+    .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:awaken_draconium> * 1440,<liquid:enriched_naquadah_alloy> * 1440)
     .outputs(<thermalfoundation:upgrade:2>)
     .duration(500)
     .EUt(33554432)
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<draconicevolution:chaotic_core> * 10,<gregtech:meta_item_1:12735> * 64,<gregtech:ga_cable:726>* 64,<gregtech:meta_item_1:12720> * 64,<gregtech:meta_item_1:12720> * 64)
-    .fluidInputs(<liquid:soldering_alloy> *20736,<liquid:chaos> * 4608,<liquid:naquadriatic_taranium> * 4608)
+    .inputs(<draconicevolution:chaotic_core> * 10,<gregtech:meta_item_1:12735> * 64,<gregtech:ga_cable:726>* 64,<gregtech:meta_item_1:12720> * 64)
+    .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:chaos> * 1440,<liquid:naquadriatic_taranium> * 1440)
     .outputs(<thermalfoundation:upgrade:3>)
     .duration(500)
     .EUt(33554432)
@@ -336,17 +317,17 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     //creative conversion kit
 
     assembly_line.recipeBuilder()
-    .inputs(<thermalfoundation:upgrade> * 10,<thermalfoundation:upgrade:1>* 10,<thermalfoundation:upgrade:2>* 10,<thermalfoundation:upgrade:3>* 10)
-    .fluidInputs(<liquid:naquadriatic_taranium> * 4608,<liquid:naquadriatic_taranium> * 4608,<liquid:enriched_naquadah_alloy> * 4608,<liquid:naquadah_alloy> * 4608)
+    .inputs(<thermalfoundation:upgrade> * 1,<thermalfoundation:upgrade:1>* 1,<thermalfoundation:upgrade:2>* 1,<thermalfoundation:upgrade:3>* 1)
+    .fluidInputs(<liquid:naquadriatic_taranium> * 1440,<liquid:naquadriatic_taranium> * 1440,<liquid:enriched_naquadah_alloy> * 1440,<liquid:naquadah_alloy> * 1440)
     .outputs(<thermalfoundation:upgrade:256>)
     .duration(500)
     .EUt(33554432)
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<thermalfoundation:upgrade:256> * 32,<storagedrawers:upgrade_creative> * 32,<draconicevolution:draconium_capacitor:2>,<draconicevolution:draconium_capacitor:2>,<draconicevolution:draconium_capacitor:2>, <contenttweaker:refinedchaoscrystal> * 64, <contenttweaker:refinedchaoscrystal> * 64,<contenttweaker:certificate_of_being_a_noob>, <gtadditions:ga_meta_item:32339> * 20)
+    .inputs(<thermalfoundation:upgrade:256> * 1,<storagedrawers:upgrade_creative> * 1, <draconicevolution:draconium_capacitor:2>, <contenttweaker:refinedchaoscrystal> * 64, <contenttweaker:refinedchaoscrystal> * 64,<contenttweaker:certificate_of_being_a_noob>, <ore:circuitMax>)
     .inputs(<draconicadditions:chaos_stabilizer_core>)
-    .fluidInputs(<liquid:chaosalloy> * 144000)
+    .fluidInputs(<liquid:chaosalloy> * 11520)
     .outputs(<appliedenergistics2:creative_storage_cell>)
     .duration(2147483647)
     .EUt(1)
@@ -354,14 +335,4 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     recipes.addShaped(<draconicadditions:chaos_stabilizer_core>, [[<draconicadditions:chaotic_helm>, <draconicadditions:chaotic_staff_of_power>, <draconicadditions:chaotic_chest>],[<draconicevolution:draconic_energy_core>, <draconicadditions:chaotic_energy_core>, <draconicevolution:draconic_energy_core>], [<draconicadditions:chaotic_legs>, <draconicadditions:chaotic_bow>, <draconicadditions:chaotic_boots>]]);
 
-
-    Utils.removeRecipeByOutput(assembler, [<gregtech:ga_cable:726> * 32], [], true);
-
-    assembler.recipeBuilder()
-    .inputs(<gregtech:ga_cable:727> * 32, <gregtech:fluid_pipe:851> *7,<gtadditions:ga_meta_item:32366>)
-    .fluidInputs(<liquid:nitrogen> * 16000)
-    .outputs(<gregtech:ga_cable:726> * 32)
-    .duration(500)
-    .EUt(7864320)
-    .buildAndRegister();
 

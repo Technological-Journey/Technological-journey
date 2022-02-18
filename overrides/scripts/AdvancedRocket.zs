@@ -194,7 +194,7 @@ autoclave.recipeBuilder()
 <gregtech:meta_block_compressed_9:11>.addTooltip("ID 402 artifact");
 <gregtech:meta_block_compressed_3:3>.addTooltip("ID 403 artifact");
 <gregtech:meta_block_compressed_49:13>.addTooltip("ID 405 artifact");
-
+<gregtech:meta_block_compressed_44:14>.addTooltip("ID 406 artifact");
 //low tank
 extruder.recipeBuilder()
 .inputs([<minecraft:iron_ingot> *16])

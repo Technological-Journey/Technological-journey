@@ -325,7 +325,7 @@ assembler.recipeBuilder()
 .buildAndRegister();
 //IV super
 assembler.recipeBuilder()
-.inputs(<gregtech:cable:973> * 12,<gregtech:fluid_pipe:135>* 4,<gregtech:meta_item_1:32614> * 2)
+.inputs(<gregtech:cable:973> * 12,<gregtech:fluid_pipe:135>* 4,<gregtech:meta_item_1:32614>)
 .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 4000)
 .outputs(<gregtech:cable:967> * 12)
 .duration(120)

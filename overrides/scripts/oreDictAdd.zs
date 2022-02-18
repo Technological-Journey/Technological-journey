@@ -486,6 +486,11 @@ h(<draconicevolution:crafting_injector:1>);
 h(<draconicevolution:crafting_injector>);
 //h(<draconicadditions:chaos_stabilizer_core>);
 h(<gregtech:machine:811>);
+h(<draconicadditions:basic_shield_necklace>);
+h(<draconicadditions:wyvern_shield_necklace>);
+h(<draconicadditions:draconic_shield_necklace>);
+h(<draconicadditions:overload_belt>);
+h(<draconicadditions:inertia_cancel_ring>);
 
 h(<gtadditions:ga_meta_item:32230>);
 h(<gtadditions:ga_meta_item:32231>);
