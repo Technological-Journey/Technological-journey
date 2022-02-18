@@ -32,6 +32,10 @@
             "dimName": "Mars"
         },
         {
+            "dimID": 406,
+            "dimName": "Deimos"
+        },
+        {
             "dimID": 3,
             "dimName": "Moon"
         },
