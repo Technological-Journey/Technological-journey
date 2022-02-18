@@ -1684,3 +1684,5 @@ fluid_extractor.recipeBuilder()
         .duration(320)
         .EUt(2)
         .buildAndRegister();
+
+recipes.addShaped(<draconicevolution:grinder>, [[<gregtech:meta_item_1:12308>, <gregtech:meta_item_2:47>, <gregtech:meta_item_1:12308>],[<gregtech:meta_item_2:47>, <gregtech:machine:505>, <gregtech:meta_item_1:32674>], [<gregtech:meta_item_1:12308>, <gregtech:meta_item_2:47>, <gregtech:meta_item_1:12308>]]);
