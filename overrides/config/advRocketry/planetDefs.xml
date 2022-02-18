@@ -99,7 +99,7 @@
                     <isKnown>true</isKnown>
                     <skyColor>0xD3D3D3</skyColor>
                     <gravitationalMultiplier>100</gravitationalMultiplier>
-                    <orbitalDistance>100</orbitalDistance>
+                    <orbitalDistance>140</orbitalDistance>
                     <orbitalTheta>100</orbitalTheta>
                     <orbitalPhi>100</orbitalPhi>
                     <hasOxygen>false</hasOxygen>
@@ -113,6 +113,24 @@
                     <artifact>gregtech:meta_block_compressed_9 11</artifact> 
                     <biomeIds>advancedrocketry:alien forest,24</biomeIds> 
                     </planet>
+                    <planet DIMID="406" name="Deimos" temp="10" customIcon="MarsLike">
+                        <isKnown>true</isKnown>
+                        <skyColor>0xD3D3D3</skyColor>
+                        <gravitationalMultiplier>100</gravitationalMultiplier>
+                        <orbitalDistance>120</orbitalDistance>
+                        <orbitalTheta>100</orbitalTheta>
+                        <orbitalPhi>100</orbitalPhi>
+                        <hasOxygen>false</hasOxygen>
+                        <rotationalPeriod>14000</rotationalPeriod>
+                        <atmosphereDensity>150</atmosphereDensity>
+                        <generateCraters>false</generateCraters>
+                        <generateVolcanos>false</generateVolcanos>
+                        <generateStructures>false</generateStructures>
+                        <generateGeodes>false</generateGeodes>
+                        <!-- block of Adamantium -->
+                        <artifact>gregtech:meta_block_compressed_44 14</artifact> 
+                        <biomeIds>advancedrocketry:hotdryrock</biomeIds> 
+                        </planet>
     <planet DIMID="403" name="Mercury" temp="10" customIcon="MarsLike">
         <isKnown>true</isKnown>
         <skyColor>0x8b0000</skyColor>
