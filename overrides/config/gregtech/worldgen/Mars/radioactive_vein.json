@@ -1,5 +1,5 @@
 {
-    "weight": 45,
+    "weight": 50,
     "density": 0.5,
     "max_height": 256,
     "min_height": 0,
@@ -9,8 +9,8 @@
     "generator": {
         "type": "ellipsoid",
         "radius": [
-            9,
-            9
+            18,
+            18
         ]
     },
     "filler": {
@@ -18,15 +18,15 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 35,
+                    "weight": 25,
                     "value": "ore:pure:uranium"
                 },
                 {
-                    "weight": 35,
-                    "value": "ore:neptunium"
+                    "weight": 50,
+                    "value": "ore:pure:neptunium"
                 },
                 {
-                    "weight": 30,
+                    "weight": 25,
                     "value": "ore:plutonium_radioactive"
                 }
             ]
