@@ -1,7 +1,7 @@
 {
     "weight": 45,
     "density": 0.5,
-    "max_height": 100,
+    "max_height": 40,
     "min_height": 10,
     "dimension_filter": ["name:the_end"],
     "surface_stone_material": "uranium_radioactive",
@@ -22,7 +22,7 @@
                 },
                 {
                     "weight": 50,
-                    "value": "ore:poor:uranium_radioactive"
+                    "value": "ore:draconium"
                 }
             ]
         }
