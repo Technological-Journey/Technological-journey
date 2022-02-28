@@ -135,7 +135,8 @@
                     "textures:mainMenu/slideshow_9.png",
                     "textures:mainMenu/slideshow_10.png",
                     "textures:mainMenu/slideshow_11.png",
-                    "textures:mainMenu/slideshow_12.png"
+                    "textures:mainMenu/slideshow_12.png",
+                    "textures:mainMenu/slideshow_13.png"
                 ],
                 "displayDuration": 80,
                 "fadeDuration": 35
