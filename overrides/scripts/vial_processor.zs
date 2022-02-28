@@ -53,6 +53,13 @@ vial_processor.recipeBuilder()
 .duration(3)
 .buildAndRegister();
 
+vial_processor.recipeBuilder()
+.inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:chicken"}))
+.outputs(<minecraft:egg> * 64, <enderio:item_soul_vial>)
+.EUt(16)
+.duration(3)
+.buildAndRegister();
+
 
 
 recipes.addShaped(<gregtech:machine:1400>, [[<enderio:item_soul_vial:1>, <minecraft:diamond_sword>, <enderio:item_soul_vial:1>],[<minecraft:diamond_sword>, <gregtech:machine:501>, <minecraft:diamond_sword>], [<gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>, <gtadditions:ga_meta_item:1184>]]);

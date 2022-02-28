@@ -103,6 +103,11 @@ import mods.gtadditions.recipe.Utils;
 	<ore:ingotCopper>.remove(<libvulpes:productingot:4>);
 	<ore:ingotSilicon>.remove(<libvulpes:productingot:3>);
 	<ore:itemSilicon>.remove(<libvulpes:productingot:3>);
+	<ore:stickIron>.remove(<libvulpes:productrod:1>);
+	<ore:stickCopper>.remove(<libvulpes:productrod:4>);
+	<ore:stickSteel>.remove(<libvulpes:productrod:6>);
+	<ore:stickTitanium>.remove(<libvulpes:productrod:7>);
+	<ore:stickIridium>.remove(<libvulpes:productrod:10>);
 
 	<ore:blockDraconium>.remove(<draconicevolution:draconium_block>);
 	//h(<draconicevolution:draconium_block>);

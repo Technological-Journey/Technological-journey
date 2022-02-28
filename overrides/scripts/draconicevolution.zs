@@ -28,14 +28,14 @@ recipes.addShapeless(<draconicevolution:draconic_block>, [<gregtech:meta_block_c
 recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_compressed_32:6>]);
 
     assembly_line.recipeBuilder()
-    .inputs(<gregtech:frame_tritanium> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12524> * 10,<gregtech:meta_item_1:12780> * 10,<gregtech:meta_item_2:32436> * 2,<gtadditions:ga_meta_item:32378>,<gtadditions:ga_meta_item:32372>,<gtadditions:ga_meta_item:32390>, <ore:circuitInfinite>)
+    .inputs(<gregtech:frame_tritanium> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12524> * 10,<gregtech:meta_item_1:12780> * 10,<gregtech:meta_item_2:32436> * 2,<gregtech:meta_item_1:32676>, <gregtech:meta_item_1:32686>, <gregtech:meta_item_1:32696>, <ore:circuitInfinite>)
     .outputs(<draconicevolution:draconic_core> * 2)
     .duration(600)
     .EUt(524288)
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<gregtech:frame_hdcs>* 10,<gregtech:meta_item_1:12695> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12716> * 10,<gregtech:meta_item_1:12854> * 10,<gtadditions:ga_meta_item:32379>,<gtadditions:ga_meta_item:32373>,<gtadditions:ga_meta_item:32391>,<ore:circuitUev>,<draconicevolution:draconic_core>)
+    .inputs(<gregtech:frame_hdcs>* 10,<gregtech:meta_item_1:12695> * 10,<gregtech:meta_item_1:12518> * 10,<gregtech:meta_item_1:12716> * 10,<gregtech:meta_item_1:12854> * 10,<gregtech:meta_item_1:32677>,<gregtech:meta_item_1:32687>,<gregtech:meta_item_1:32697>,<ore:circuitUev>,<draconicevolution:draconic_core>)
     .outputs(<draconicevolution:wyvern_core> * 2)
     .duration(600)
     .EUt(2097152)
@@ -80,8 +80,8 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     .buildAndRegister();
 
     Stellar.recipeBuilder()
-    .inputs(<draconicevolution:awakened_core>,<draconicadditions:chaos_heart>,<gregtech:meta_block_compressed_32:7>)
-    .fluidOutputs(<liquid:rawchaos> * 1296)
+    .inputs(<draconicevolution:awakened_core>,<draconicadditions:chaos_heart>,<gregtech:meta_block_compressed_32:7> * 4)
+    .fluidOutputs(<liquid:rawchaos> * 5184)
     .outputs(<draconicevolution:dragon_heart>)
     .duration(600)
     .EUt(8388608)
@@ -90,8 +90,8 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     ADVFusion.recipeBuilder()
     .fluidInputs(<liquid:rawchaos> * 288, <liquid:bohrium> * 288)//,<liquid:lead_bismuth_eutatic> * 7440)
     .fluidOutputs(<liquid:plasma.chaos> * 576)//, <liquid:supercritical_lead_bismuth_eutectic> * 7440)
-    .property("eu_to_start",1000000000)
-    .property("coilTier",1)
+    .property("eu_to_start", 5000000000)
+    .property("coilTier", 3)
     .property("euReturn",75)
     .duration(50)
     .EUt(1000000)
@@ -109,9 +109,9 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     .buildAndRegister();
 
     Stellar.recipeBuilder()
-    .inputs(<draconicevolution:wyvern_core> * 3,<gregtech:meta_block_compressed_32:6> * 2)
+    .inputs(<draconicevolution:wyvern_core> * 2,<gregtech:meta_block_compressed_32:6> * 3)
     .fluidInputs(<liquid:dragonstem> * 2000)
-    .fluidOutputs(<liquid:depleted_growth_medium> * 2000,<liquid:plasma.awaken_draconium> * 2592)
+    .fluidOutputs(<liquid:depleted_growth_medium> * 2000, <liquid:plasma.awaken_draconium> * 3888)
     .duration(100)
     .EUt(8388608)
     .buildAndRegister();
@@ -134,7 +134,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     //chaos
     assembly_line.recipeBuilder()
     .inputs(<gregtech:machine:3240>,<gregtech:meta_item_1:12851> * 10,<gregtech:meta_item_1:12731> * 10,<gregtech:meta_item_1:12732> * 10,<gregtech:meta_item_1:12720> * 5,<gregtech:meta_item_1:12519> * 10,<gtadditions:ga_meta_item:32385>,<gregtech:ga_cable:5852> * 10,<ore:circuitUev>,<draconicevolution:awakened_core> * 2)
-    .fluidInputs(<liquid:titan_steel> * 1296,<liquid:mendelevium> * 2592,<liquid:cinobite_molten> * 1296)
+    .fluidInputs(<liquid:titan_steel> * 1296,<liquid:mendelevium> * 2592,<liquid:cinobite> * 1296)
     .outputs(<gregtech:machine:1005>)
     .duration(600)
     .EUt(2097152)
@@ -176,7 +176,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     <draconicevolution:celestial_manipulator>.addTooltip(format.darkRed("Will not work on AR planets"));
 
 
-recipes.addShaped(<contenttweaker:chaoticcasing> * 3, [[<gregtech:meta_item_1:12520>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12520>],[<gregtech:meta_item_1:12520>, <ore:frameGtChaos>, <gregtech:meta_item_1:12520>], [<gregtech:meta_item_1:12520>, <ore:GTWrench>, <gregtech:meta_item_1:12520>]]);
+recipes.addShaped(<contenttweaker:chaoticcasing> * 3, [[<gregtech:meta_item_1:12733>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12733>],[<gregtech:meta_item_1:12733>, <ore:frameGtChaos>, <gregtech:meta_item_1:12733>], [<gregtech:meta_item_1:12733>, <ore:GTWrench>, <gregtech:meta_item_1:12733>]]);
 recipes.addShaped(<contenttweaker:awakenedcasing> * 3, [[<gregtech:meta_item_1:12519>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12519>],[<gregtech:meta_item_1:12519>, <ore:frameGtAwakenDraconium>, <gregtech:meta_item_1:12519>], [<gregtech:meta_item_1:12519>, <ore:GTWrench>, <gregtech:meta_item_1:12519>]]);
 recipes.addShaped(<contenttweaker:draconiccasing> * 3, [[<gregtech:meta_item_1:12518>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12518>],[<gregtech:meta_item_1:12518>, <ore:frameGtDraconium>, <gregtech:meta_item_1:12518>], [<gregtech:meta_item_1:12518>, <ore:GTWrench>, <gregtech:meta_item_1:12518>]]);
 
@@ -197,7 +197,7 @@ recipes.addShaped(<contenttweaker:draconiccasing> * 3, [[<gregtech:meta_item_1:1
     .buildAndRegister();
 
     assembler.recipeBuilder()
-    .inputs(<gregtech:frame_chaos>,<gregtech:meta_item_1:12520> * 6)
+    .inputs(<gregtech:frame_chaos>,<gregtech:meta_item_1:12733> * 6)
     .circuit(0)
     .outputs(<contenttweaker:chaoticcasing>* 3)
     .EUt(16)
@@ -335,4 +335,12 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     recipes.addShaped(<draconicadditions:chaos_stabilizer_core>, [[<draconicadditions:chaotic_helm>, <draconicadditions:chaotic_staff_of_power>, <draconicadditions:chaotic_chest>],[<draconicevolution:draconic_energy_core>, <draconicadditions:chaotic_energy_core>, <draconicevolution:draconic_energy_core>], [<draconicadditions:chaotic_legs>, <draconicadditions:chaotic_bow>, <draconicadditions:chaotic_boots>]]);
 
+Utils.removeRecipeByOutput(bioreactor, [<gtadditions:ga_meta_item:32018> * 2], [], true);
 
+bioreactor.recipeBuilder()
+    .fluidInputs(<liquid:sterilized_growth_medium> * 1000)
+    .outputs(<gtadditions:ga_meta_item:32018> * 2)
+    .circuit(1)
+    .duration(250)
+    .EUt(480)
+    .buildAndRegister();

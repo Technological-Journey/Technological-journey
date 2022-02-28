@@ -690,9 +690,8 @@ Clustermill.recipeBuilder()
 
 Utils.removeRecipeByOutput(assembler, [<gregtechenergistics:metaitem1:8>], [], false); 
 assembler.recipeBuilder()
-.inputs(<gregtech:meta_item_1:12071> * 2, <minecraft:redstone> * 2)
+.inputs(<gregtech:meta_item_1:12071> * 2, <gregtech:meta_item_1:12215> * 2)
 .outputs(<gregtechenergistics:metaitem1:8>)
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .duration(200)
 .EUt(128)
 .buildAndRegister();
@@ -813,10 +812,55 @@ assembler.recipeBuilder()
 .buildAndRegister();
 
 assembler.recipeBuilder()
-.inputs([<enderio:block_reservoir> * 4, <gtadditions:ga_meta_item:32571>])
+.inputs([<enderio:block_reservoir> * 4, <gregtech:machine:503>])
 .outputs([<gtadditions:ga_meta_item:32572>])
 .duration(200)
 .EUt(512)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gregtech:machine:504>])
+.outputs([<gtadditions:ga_meta_item:32573>])
+.duration(200)
+.EUt(2048)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gregtech:machine:505>])
+.outputs([<gtadditions:ga_meta_item:32574>])
+.duration(200)
+.EUt(8192)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gregtech:machine:506>])
+.outputs([<gtadditions:ga_meta_item:32575>])
+.duration(200)
+.EUt(32768)
+.buildAndRegister();
+
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4,<gregtech:machine:507>])
+.outputs([<gtadditions:ga_meta_item:32576>])
+.duration(200)
+.EUt(131072)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gregtech:machine:508>])
+.outputs([<gtadditions:ga_meta_item:32577>])
+.duration(200)
+.EUt(524288)
+.buildAndRegister();
+
+//Upgrade recipes
+
+assembler.recipeBuilder()
+.inputs([<enderio:block_reservoir> * 4, <gregtech:machine:502>])
+.outputs([<gtadditions:ga_meta_item:32571>])
+.duration(200)
+.EUt(128)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -1270,16 +1314,6 @@ Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32255> * 16], [
 //Fix blood ratio
 Utils.removeRecipeByOutput(centrifuge, [], [<liquid:blood> * 250], true);
 Utils.removeRecipeByOutput(large_centrifuge, [], [<liquid:blood> * 250], true);
-
-
-//neutron reflector
-assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12007> * 32,<gregtech:meta_item_1:12300> * 4,<gregtech:meta_item_2:32435>])
-.fluidInputs(<liquid:soldering_alloy> * 4608 )
-.outputs([<gregtech:meta_item_2:32436>])
-.duration(4000)
-.EUt(120)
-.buildAndRegister();
 
 implosion.recipeBuilder()
     .inputs(<gregtech:meta_item_2:32434>)
