@@ -20,7 +20,6 @@ recipes.remove(<draconicevolution:info_tablet>);
 recipes.addShaped(<draconicevolution:info_tablet>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>],[<ore:stoneSmooth>, <ore:dustRegularDraconium>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 recipes.addShapeless(<gregtech:meta_item_1:9519>, [<draconicevolution:nugget:1>]);
 recipes.addShapeless(<gregtech:meta_item_1:10519>, [<draconicevolution:draconic_ingot>]);
-recipes.addShapeless(<gregtech:meta_block_compressed_32:7>, [<draconicevolution:draconic_block>]);
 recipes.addShapeless(<gregtech:meta_item_1:9518>, [<draconicevolution:nugget>]);
 recipes.addShapeless(<gregtech:meta_item_1:10518>, [<draconicevolution:draconium_ingot>]);
 recipes.addShapeless(<gregtech:meta_block_compressed_32:6>, [<draconicevolution:draconium_block>]);
@@ -189,6 +188,14 @@ recipes.addShaped(<contenttweaker:draconiccasing> * 3, [[<gregtech:meta_item_1:1
     .buildAndRegister();
 
     assembler.recipeBuilder()
+    .inputs(<gregtech:meta_block_compressed_32:7>)
+    .circuit(1)
+    .outputs(<draconicevolution:draconic_block>)
+    .EUt(1)
+    .duration(1)
+    .buildAndRegister();
+
+    assembler.recipeBuilder()
     .inputs(<gregtech:frame_awaken_draconium>,<gregtech:meta_item_1:12519> * 6)
     .circuit(0)
     .outputs(<contenttweaker:awakenedcasing> * 3)
@@ -240,9 +247,9 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
 
     Stellar.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:10671>, <gregtech:meta_item_1:10520> * 18,<gtadditions:ga_explosive:3>)
+    .inputs(<gregtech:meta_item_1:10671>, <gtadditions:ga_meta_item:32568> ,<gtadditions:ga_explosive:3>)
     .fluidInputs(<liquid:cosmic_mesh_plasma> * 1000)
-    .fluidOutputs(<liquid:plasma.chaosalloy>* 2880)
+    .fluidOutputs(<liquid:chaos> * 2592)
     .duration(20)
     .EUt(134217728)
     .buildAndRegister();
@@ -338,9 +345,11 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 Utils.removeRecipeByOutput(bioreactor, [<gtadditions:ga_meta_item:32018> * 2], [], true);
 
 bioreactor.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32018>)
     .fluidInputs(<liquid:sterilized_growth_medium> * 1000)
     .outputs(<gtadditions:ga_meta_item:32018> * 2)
     .circuit(1)
     .duration(250)
     .EUt(480)
     .buildAndRegister();
+

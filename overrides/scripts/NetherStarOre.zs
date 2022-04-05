@@ -21,6 +21,20 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:duranium>.addFlags(["GENERATE_ORE"]);
 <material:tritanium>.addFlags(["GENERATE_ORE"]);
 <material:naquadria>.addFlags(["GENERATE_ORE"]);
+<material:iron>.addFlags(["GENERATE_SMALL_GEAR"]);
+<material:cosmic_neutronium >.addFlags(["GENERATE_ROUND"]);
+<material:neutronium>.addFlags(["GENERATE_ROUND"]);
+//DISABLE_REPLICATION
+
+<material:adamantium>.addFlags(["DISABLE_REPLICATION"]);
+<material:vibranium>.addFlags(["DISABLE_REPLICATION"]);
+<material:taranium>.addFlags(["DISABLE_REPLICATION"]);
+<material:bohrium>.addFlags(["DISABLE_REPLICATION"]);
+
+<material:metastable_oganesson>.addFlags(["DISABLE_REPLICATION"]);
+<material:metastable_flerovium>.addFlags(["DISABLE_REPLICATION"]);
+<material:metastable_hassium>.addFlags(["DISABLE_REPLICATION"]);
+
 
 /*
 var MV = MaterialCasting.toIngot(<material:mv_superconductor>);
@@ -91,3 +105,7 @@ draconium.setCableProperties(2097152, 10, 0);
 awaken_draconium.setCableProperties(8388608, 100, 0);
 chaos.setCableProperties(33554432, 1000, 0);
 chaosalloy.setCableProperties(536870912, 10000, 0);
+
+
+val bright_steel = MaterialRegistry.createIngotMaterial(526, "bright_steel", 0xd3d3d3, "dull" , 4,[<material:steel> * 6, <material:caesium> * 2, <material:europium> * 1]);
+bright_steel.setCableProperties(8192, 3, 2);

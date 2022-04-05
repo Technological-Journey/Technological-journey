@@ -34,7 +34,7 @@ vial_processor.recipeBuilder()
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:zombie"}))
-.outputs(<minecraft:skull:2> * 9 , <enderio:item_soul_vial>)
+.outputs(<minecraft:skull:2> * 9 , <enderio:item_soul_vial>,<minecraft:rotten_flesh> * 9)
 .EUt(16)
 .duration(3)
 .buildAndRegister();
@@ -55,7 +55,7 @@ vial_processor.recipeBuilder()
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:chicken"}))
-.outputs(<minecraft:egg> * 64, <enderio:item_soul_vial>)
+.outputs(<minecraft:egg> * 64, <minecraft:feather> * 26, <enderio:item_soul_vial>)
 .EUt(16)
 .duration(3)
 .buildAndRegister();

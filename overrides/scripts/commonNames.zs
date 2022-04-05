@@ -33,6 +33,7 @@ global fermenter         as RecipeMap = RecipeMap.getByName("fermenter");
 global fluid_canner      as RecipeMap = RecipeMap.getByName("fluid_canner");
 global fluid_extractor   as RecipeMap = RecipeMap.getByName("fluid_extractor");
 global forming           as RecipeMap = RecipeMap.getByName("forming_press");
+global gas_centrifuge    as RecipeMap = RecipeMap.getByName("gas_centrifuge");
 global freezer           as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global fusion            as RecipeMap = RecipeMap.getByName("fusion_reactor");
 global hammer            as RecipeMap = RecipeMap.getByName("forge_hammer");

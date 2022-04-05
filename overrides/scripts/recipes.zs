@@ -2,6 +2,7 @@ import mods.jei.JEI.removeAndHide as rh;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+
 furnace.remove(<minecraft:nether_star>);
 recipes.remove(<actuallyadditions:block_misc:7>);
 recipes.remove(<actuallyadditions:block_lava_factory_controller>);
@@ -134,5 +135,4 @@ recipes.addShaped(<enderio:item_endergy_conduit:11> * 8, [[<enderio:item_materia
 //recipes.addShaped(<draconicevolution:wyvern_core>, [[<draconicevolution:draconium_ingot>, <draconicevolution:draconic_core>, <draconicevolution:draconium_ingot>],[<draconicevolution:draconic_core>, <gregtech:meta_item_1:32674>, <draconicevolution:draconic_core>], [<draconicevolution:draconium_ingot>, <draconicevolution:draconic_core>, <draconicevolution:draconium_ingot>]]);
 recipes.addShaped(<gtadditions:ga_meta_item:32036> * 4, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],[<minecraft:sand>, <gregtech:meta_item_2:32012>, <minecraft:sand>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
 recipes.addShapeless(<enderio:item_material:1>,[<ore:dyeBlack>,<enderio:item_material>]);
-recipes.addShaped("clay1", <ore:blockClay>.firstItem *8,[[<ore:sand>,<ore:sand>,<ore:sand>],[<ore:sand>,null,<ore:sand>],[<ore:sand>,<ore:sand>,<ore:sand>]]);
 //File End

@@ -13,6 +13,14 @@ var infilasma = cool.create(<liquid:plasma.chaosalloy> * 144 , 80, 2048, <liquid
 
 var magic_gasoline = mods.gregtech.recipe.FuelRecipe.create(<liquid:starlight_rocketfuel> * 6, 420, 2048);
 GaMap.ROCKET_FUEL_RECIPES.addRecipe(magic_gasoline);
+
+
+var greenRocketOld = mods.gregtech.recipe.FuelRecipe.create(<liquid:rocket_fuel_a> * 3, 160, 2048);
+var greenRocketNew = mods.gregtech.recipe.FuelRecipe.create(<liquid:rocket_fuel_a> * 7, 80, 2048);
+
+GaMap.ROCKET_FUEL_RECIPES.removeRecipe(greenRocketOld);
+GaMap.ROCKET_FUEL_RECIPES.addRecipe(greenRocketNew);
+
 var nitrobenzene = mods.gregtech.recipe.FuelRecipe.create(<liquid:nitro_benzene>, 40, 32);
 RecipeMaps.GAS_TURBINE_FUELS.addRecipe(nitrobenzene);
 //var chaos = cool.create(<liquid:plasma.chaos> * 144,20,524288,<liquid:chaos> * 144);
