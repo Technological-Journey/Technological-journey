@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: 3.0d,
+	dependencies: [
+		"329103f7"
+	],
+	tasks: [{
+		uid: "6f3306de",
+		type: "checkmark",
+		title: "Enriched Xenon HexaFluoronaquadate Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "enriched_xenon_hexafluoronaquadate",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: 2.5d,
+	y: -5.0d,
+	dependencies: [
+		"2849a30d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fe23cbf0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "299fbf32",
+		type: "command",
+		command: "/astralsorcery attune @p astralsorcery.constellation.vicio",
+		player_command: true
+	},
+	{
+		uid: "81d50c9c",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemtunedcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					},
+					constellationName: "astralsorcery.constellation.discidia"
+				}
+			}
+		}
+	}]
+}

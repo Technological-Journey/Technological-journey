@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "glyoxal",
+			Amount: 1000
+		}
+	},
+	x: -7.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "0fd83e60",
+		type: "checkmark",
+		title: "glyoxal"
+	}]
+}

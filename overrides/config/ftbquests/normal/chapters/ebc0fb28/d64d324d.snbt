@@ -1,0 +1,24 @@
+{
+	icon: "gregtech:machine 1 3234",
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"Boost these with their respective plasmas -- they consume almost none, and double their effective power output."
+	],
+	dependencies: [
+		"5a80eb62"
+	],
+	tasks: [{
+		uid: "aca52fcc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3234"
+		}]
+	}],
+	rewards: [{
+		uid: "23b29905",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10052",
+		count: 64
+	}]
+}

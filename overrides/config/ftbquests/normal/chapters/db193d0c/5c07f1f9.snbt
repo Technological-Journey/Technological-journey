@@ -1,0 +1,12 @@
+{
+	title: "Is this even Matter...?",
+	x: -2.5d,
+	y: 10.0d,
+	tasks: [{
+		uid: "c4e64445",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}]
+}

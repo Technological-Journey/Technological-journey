@@ -1,0 +1,21 @@
+{
+	title: "Graphene Aligned CNT",
+	x: 13.100000000000001d,
+	y: -1.5d,
+	shape: "gear",
+	description: "This feels... cheaty",
+	text: [
+		"You may have noticed that CPP is an awful recipe. I hope you didn't try and passive it, because graphene aligned CNT provides a positive loop which enables infinite carbon nanotubes with only methane (and a lot of power) as an input. "
+	],
+	dependencies: [
+		"075c158c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "23ef9ea9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 163"
+		}]
+	}]
+}

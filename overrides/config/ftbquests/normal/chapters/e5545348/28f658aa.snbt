@@ -1,0 +1,16 @@
+{
+	x: 6.5d,
+	y: 8.0d,
+	tasks: [{
+		uid: "734eb4bb",
+		type: "checkmark",
+		title: "Epichlorohydrin Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "epichlorhydrin",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"24b3ff39",
+		"f3ccd8af",
+		"cfae3002",
+		"c5ac56f8"
+	],
+	tasks: [{
+		uid: "a021a9bf",
+		type: "checkmark",
+		title: "Nitro Diesel",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitro_fuel",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "8768c222",
+		type: "checkmark",
+		title: "Polystyrene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polystyrene",
+				Amount: 1000
+			}
+		}
+	}]
+}

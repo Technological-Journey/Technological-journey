@@ -1,0 +1,20 @@
+{
+	x: -9.5d,
+	y: 1.5d,
+	dependencies: [
+		"fe2311fd",
+		"f3dcda9f"
+	],
+	tasks: [{
+		uid: "0977fd6d",
+		type: "checkmark",
+		title: "Ferrocenylfulleropyrddolidine",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ferrocenylfulleropyrddolidine",
+				Amount: 1000
+			}
+		}
+	}]
+}

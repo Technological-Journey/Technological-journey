@@ -1,0 +1,30 @@
+{
+	x: -5.5d,
+	y: -8.0d,
+	dependencies: [
+		"437c0eb8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9e5220c3",
+		type: "item",
+		items: [{
+			item: "ae2stuff:wireless"
+		}]
+	},
+	{
+		uid: "aa621f5f",
+		type: "item",
+		items: [{
+			item: "ae2stuff:wireless_kit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38078051",
+		type: "item",
+		item: "ae2stuff:wireless",
+		count: 3
+	}]
+}

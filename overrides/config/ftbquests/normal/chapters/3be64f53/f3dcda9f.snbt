@@ -1,0 +1,16 @@
+{
+	x: -9.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "c64ff263",
+		type: "checkmark",
+		title: "Ferrocene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ferrocene",
+				Amount: 1000
+			}
+		}
+	}]
+}

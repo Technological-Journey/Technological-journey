@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	shape: "circle",
+	dependencies: [
+		"345b86f7",
+		"2cbc46c2",
+		"44e940be",
+		"35b29085"
+	],
+	tasks: [{
+		uid: "33b90a10",
+		type: "checkmark",
+		title: "Raw Growth Medium",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "raw_growth_medium",
+				Amount: 1000
+			}
+		}
+	}]
+}

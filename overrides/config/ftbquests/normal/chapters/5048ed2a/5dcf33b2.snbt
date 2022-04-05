@@ -1,0 +1,14 @@
+{
+	x: -8.5d,
+	y: 1.5d,
+	text: [
+		"Processing bastnasite is the only way to get neodymium for the time being. "
+	],
+	tasks: [{
+		uid: "47bb10b7",
+		type: "item",
+		items: [{
+			item: "gregtech:poor_ore_bastnasite_0"
+		}]
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "UMV+ Age",
+	icon: "gregtech:meta_item_1 1 10682",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

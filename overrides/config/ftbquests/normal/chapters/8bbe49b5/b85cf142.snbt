@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: -2.5d,
+	dependencies: [
+		"f9d13092"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d696e5bd",
+		type: "item",
+		items: [{
+			item: "enderutilities:enderpart 1 51"
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"All the Draconic Plasmas, and a few beyond can be used to gain some Power back by using Turbines."
+	],
+	tasks: [{
+		uid: "0e9001c7",
+		type: "checkmark",
+		title: "\"Draconic\" Plasmas"
+	}]
+}

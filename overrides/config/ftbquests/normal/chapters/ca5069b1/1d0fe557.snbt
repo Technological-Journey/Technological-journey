@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: 0.5d,
+	text: [
+		"Similar to the previous quest, proto-adamantium requires a higher heat level than you are able to provide at the moment. You are, however, able to overclock an EBF or ABS high enough to smelt it. "
+	],
+	dependencies: [
+		"948d4cfe"
+	],
+	tasks: [{
+		uid: "d6071b4a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10716"
+		}]
+	}]
+}

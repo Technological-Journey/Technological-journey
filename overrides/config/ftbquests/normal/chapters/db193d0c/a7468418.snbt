@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "1c6f05ee",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mercury",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		only_from_crafting: false
+	}]
+}

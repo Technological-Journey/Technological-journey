@@ -1,0 +1,42 @@
+{
+	title: "Nuclear reactor or breeder reactor",
+	icon: "gregtech:machine 1 2545",
+	x: 4.0d,
+	y: -7.5d,
+	shape: "hexagon",
+	dependencies: [
+		"944addd2",
+		"cc6b5219",
+		"bd67be29"
+	],
+	tasks: [{
+		uid: "43f9d2e9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 13"
+		}],
+		count: 39L
+	},
+	{
+		uid: "f9d8aa31",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_transparent_casing 1 1"
+		}],
+		count: 28L
+	},
+	{
+		uid: "5a7dc1b4",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_nuclear_casing"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "95db868d",
+		type: "item",
+		item: "gregtech:pure_ore_uranium_radioactive_0 1 7",
+		count: 32
+	}]
+}

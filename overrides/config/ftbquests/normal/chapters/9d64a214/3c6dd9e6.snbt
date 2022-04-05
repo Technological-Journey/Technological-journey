@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"68764413"
+	],
+	tasks: [{
+		uid: "891e1dc1",
+		type: "checkmark",
+		title: "Oxydianiline",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oxydianiline",
+				Amount: 1000
+			}
+		}
+	}]
+}

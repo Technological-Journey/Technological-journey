@@ -1,0 +1,41 @@
+{
+	title: "Portal to the end",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"The portal to the end has been disabled, instead you must create the random things portal to reach it. "
+	],
+	dependencies: [
+		"32236a02"
+	],
+	tasks: [{
+		uid: "6ca62626",
+		type: "item",
+		items: [{
+			item: "minecraft:end_rod"
+		}]
+	},
+	{
+		uid: "93a23348",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 16L
+	},
+	{
+		uid: "7bef575d",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 10L
+	},
+	{
+		uid: "62f98489",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 1"
+		}]
+	}]
+}

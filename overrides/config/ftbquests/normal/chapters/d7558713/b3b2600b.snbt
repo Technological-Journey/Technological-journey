@@ -1,0 +1,23 @@
+{
+	x: 3.5d,
+	y: -5.0d,
+	text: [
+		"While containment chances are small and can only be filled/emptied from bottom they have other important properties. If two are placed near each other the fluids inside can have interactions. Below is a list of a few notable ones",
+		"",
+		"Water + lava = obsidian, cobblestone, and stone (who'da thunk)",
+		"Starlight + water = ice",
+		"Starlight + lava = sand and aquamarine"
+	],
+	dependencies: [
+		"8ef72b16"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fca03302",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockchalice"
+		}],
+		count: 2L
+	}]
+}

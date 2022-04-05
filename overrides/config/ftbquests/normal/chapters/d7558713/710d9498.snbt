@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	dependencies: [
+		"68500a94",
+		"0e57d2e4"
+	],
+	tasks: [{
+		uid: "81d5d094",
+		type: "checkmark",
+		title: "Enriched Naquadah Concentrate Dust",
+		icon: "gtadditions:ga_dust 1 4"
+	}]
+}

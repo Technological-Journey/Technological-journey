@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: -5.5d,
+	dependencies: [
+		"ccaf649b"
+	],
+	tasks: [{
+		uid: "cf64fd12",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32455"
+		}]
+	}]
+}

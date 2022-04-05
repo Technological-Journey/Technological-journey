@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"Single block steam boilers will autoput steam into adjacent machines. In addition steam machines will not accept steam from the bottom. "
+	],
+	dependencies: [
+		"19657325"
+	],
+	tasks: [{
+		uid: "7fceafd7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}]
+}

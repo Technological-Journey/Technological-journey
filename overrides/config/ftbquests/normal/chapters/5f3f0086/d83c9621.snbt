@@ -1,0 +1,117 @@
+{
+	title: "The start of a long journey",
+	x: 2.0d,
+	y: -6.0d,
+	description: "Same old same old, punch a tree.",
+	text: [
+		"Welcome to Technological Journey! Smack a tree a few times for some nice gear."
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a545637c",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}],
+		count: 16L,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "c56b57af",
+		type: "item",
+		item: "minecraft:leather_helmet"
+	},
+	{
+		uid: "fd1fcb5a",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "ff71ec93",
+		type: "item",
+		item: "minecraft:leather_leggings"
+	},
+	{
+		uid: "12c0c90b",
+		type: "item",
+		item: "minecraft:leather_boots"
+	},
+	{
+		uid: "734771b4",
+		type: "item",
+		item: {
+			id: "scannable:scanner",
+			tag: {
+				energy: 500000
+			}
+		}
+	},
+	{
+		uid: "9782fc6d",
+		type: "item",
+		item: "scannable:module_range",
+		count: 2
+	},
+	{
+		uid: "01f3e840",
+		type: "item",
+		item: "scannable:module_ore_common"
+	},
+	{
+		uid: "f9ea8b96",
+		type: "item",
+		item: "scannable:module_ore_rare"
+	},
+	{
+		uid: "511701c1",
+		type: "item",
+		item: {
+			id: "gtadditions:ga_meta_item2",
+			Damage: 100s,
+			tag: {
+				Charge: 1L
+			}
+		}
+	},
+	{
+		uid: "08b668b9",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.excavator_diamond",
+			tag: {
+				ench: [{
+					lvl: 15s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 32s
+				}]
+			}
+		}
+	},
+	{
+		uid: "bcc8fcba",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.hammer_diamond",
+			tag: {
+				ench: [{
+					lvl: 15s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 32s
+				}]
+			}
+		}
+	}]
+}

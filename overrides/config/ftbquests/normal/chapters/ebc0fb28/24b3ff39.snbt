@@ -1,0 +1,20 @@
+{
+	title: "Diesel or Bio Diesel",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "bio_diesel",
+			Amount: 1000
+		}
+	},
+	x: -6.0d,
+	y: -5.0d,
+	dependencies: [
+		"ac907828"
+	],
+	tasks: [{
+		uid: "710ce305",
+		type: "checkmark",
+		title: "Diesel or Biodiesel"
+	}]
+}

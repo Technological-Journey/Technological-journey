@@ -1,0 +1,22 @@
+{
+	x: -5.5d,
+	y: -8.5d,
+	text: [
+		"Ethylanthraquinone is a loop, meaning hydrogen peroxide needs only hydrogen and oxygen to make. The ethylanthraquinone is combined with hydrogen, which gives ethylanthrahydroquinone. This can be combined with oxygen for hydrogen peroxide, along with the ethylanthraquinone back. You only need to make up a small batch by hand in order to passive hydrogen peroxide."
+	],
+	dependencies: [
+		"e277c364"
+	],
+	tasks: [{
+		uid: "ca6179d2",
+		type: "checkmark",
+		title: "Ethylanthraquionine",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethylanthraquinone",
+				Amount: 1000
+			}
+		}
+	}]
+}

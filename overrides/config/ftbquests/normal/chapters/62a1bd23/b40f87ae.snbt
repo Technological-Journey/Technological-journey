@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: 3.5d,
+	dependencies: [
+		"71313e4b"
+	],
+	tasks: [{
+		uid: "8b7e44f0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_plutonium_0"
+		}]
+	},
+	{
+		uid: "a10bdb35",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_curium_0"
+		}]
+	},
+	{
+		uid: "5059122f",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_plutonium_0"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -8.5d,
+	y: -4.5d,
+	optional: true,
+	tasks: [{
+		uid: "17e17f14",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 40000
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

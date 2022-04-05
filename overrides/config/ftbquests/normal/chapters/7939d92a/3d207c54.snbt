@@ -1,0 +1,19 @@
+{
+	x: -11.5d,
+	y: 7.0d,
+	dependencies: [
+		"68daacbc"
+	],
+	tasks: [{
+		uid: "c6394e09",
+		type: "checkmark",
+		title: "Quark Gluon Plasma",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "quark_gluon_plasma",
+				Amount: 1000
+			}
+		}
+	}]
+}

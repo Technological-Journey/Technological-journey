@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "35c4cc9b",
+		type: "checkmark",
+		title: "Propene Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "propene",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"ea5b097a"
+	],
+	tasks: [{
+		uid: "94377105",
+		type: "checkmark",
+		title: "Rare Earth Hydroxides Solution Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rare_earth_hydroxides_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

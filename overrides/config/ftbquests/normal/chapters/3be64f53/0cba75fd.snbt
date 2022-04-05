@@ -1,0 +1,14 @@
+{
+	icon: "gtadditions:ga_dust 1 925",
+	x: -9.0d,
+	y: -1.5d,
+	dependencies: [
+		"aa1ca2ed",
+		"9ec1a6be"
+	],
+	tasks: [{
+		uid: "2faf026c",
+		type: "checkmark",
+		title: "crude hexanitrohexaaxaisowurtzitane"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	dependencies: [
+		"5133e0eb",
+		"8e01b30f"
+	],
+	tasks: [{
+		uid: "aacbb313",
+		type: "checkmark",
+		title: "Enriched Naquadah Difluoride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "enriched_naquadah_difluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

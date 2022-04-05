@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -5.0d,
+	dependencies: [
+		"5c6859c2"
+	],
+	tasks: [{
+		uid: "dffe70fd",
+		type: "checkmark",
+		title: "Medium Enriched Naquadah Fuel Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "medium_e_naquadah_fuel",
+				Amount: 1000
+			}
+		}
+	}]
+}

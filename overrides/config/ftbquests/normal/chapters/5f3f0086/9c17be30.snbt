@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	text: [
+		"A backpack can help carry all the tools you just made"
+	],
+	dependencies: [
+		"4764a007"
+	],
+	tasks: [{
+		uid: "70fa85d7",
+		type: "item",
+		items: [{
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

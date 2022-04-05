@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: -8.5d,
+	tasks: [{
+		uid: "4487dc45",
+		type: "checkmark",
+		title: "Argon Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "argon",
+				Amount: 1000
+			}
+		}
+	}]
+}

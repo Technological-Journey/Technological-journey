@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "1e95d35f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32420"
+		}]
+	}]
+}

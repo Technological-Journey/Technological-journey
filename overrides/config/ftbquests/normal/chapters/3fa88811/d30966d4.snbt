@@ -1,0 +1,23 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		"Up to 3 capacity cards can be placed into an interface. These will allow an extra interface worth of patterns to be placed into the same interface, though it does come with 4x the power cost per card."
+	],
+	dependencies: [
+		"f3a3850c"
+	],
+	tasks: [{
+		uid: "bee5d01b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 58"
+		}]
+	}],
+	rewards: [{
+		uid: "9cce2c1b",
+		type: "item",
+		item: "appliedenergistics2:material 1 58",
+		count: 4
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "527bab28",
+		type: "checkmark",
+		title: "Barium Titanate Preparation",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "barium_titanate_preparation",
+				Amount: 1000
+			}
+		}
+	}]
+}

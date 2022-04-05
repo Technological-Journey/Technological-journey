@@ -1,0 +1,16 @@
+{
+	x: 11.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "49903a8c",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "krypton",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

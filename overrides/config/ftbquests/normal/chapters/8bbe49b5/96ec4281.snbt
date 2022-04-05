@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: -2.5d,
+	text: [
+		"Digital covers can be useful for many purposes such as; viewing/interacting with the item/fluids in a block, viewing energy details, redstone control, and proxy mode for use with the central monitor. Use a screwdriver to enter the GUI."
+	],
+	optional: true,
+	tasks: [{
+		uid: "743f0417",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32130"
+		}]
+	}],
+	rewards: [{
+		uid: "dd85a304",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32130",
+		count: 4
+	}]
+}

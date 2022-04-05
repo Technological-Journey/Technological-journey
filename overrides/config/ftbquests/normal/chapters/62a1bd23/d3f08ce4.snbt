@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"312e3e54"
+	],
+	tasks: [{
+		uid: "9408653e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_scheelite_0 1 7"
+		}]
+	},
+	{
+		uid: "b0bbaf67",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tungstate_0 1 7"
+		}]
+	}]
+}

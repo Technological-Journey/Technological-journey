@@ -1,0 +1,82 @@
+{
+	title: "Large Bending and Forming Machine",
+	icon: "gregtech:machine 1 2510",
+	x: -0.5d,
+	y: -10.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fdaf832a"
+	],
+	tasks: [{
+		uid: "72408bda",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_motor_casing 1 2"
+		}],
+		count: 2L,
+		consume_items: false
+	},
+	{
+		uid: "e660b34d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_piston_casing 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "81d3f7a1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 730"
+		}]
+	},
+	{
+		uid: "de9d353e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 731"
+		}]
+	},
+	{
+		uid: "b9a6117b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "735374f9",
+		type: "item",
+		title: "Large Bending and Forming Machine",
+		items: [{
+			item: "gregtech:machine 1 2510"
+		}]
+	},
+	{
+		uid: "6cc65725",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 6"
+		}],
+		count: 33L,
+		consume_items: false
+	},
+	{
+		uid: "8413308d",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0d5d394f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}]
+}

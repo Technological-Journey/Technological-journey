@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	dependencies: [
+		"2f9c9021"
+	],
+	tasks: [{
+		uid: "a85a1cb6",
+		type: "checkmark",
+		title: "Indium Trifluoride Dust",
+		icon: "gtadditions:ga_dust 1 1"
+	}]
+}

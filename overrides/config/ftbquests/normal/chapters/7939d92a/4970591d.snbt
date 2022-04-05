@@ -1,0 +1,13 @@
+{
+	x: -5.0d,
+	y: 2.5d,
+	dependencies: [
+		"6b300e22"
+	],
+	tasks: [{
+		uid: "50c840d3",
+		type: "checkmark",
+		title: "Inert Residues",
+		icon: "gtadditions:ga_dust 1 960"
+	}]
+}

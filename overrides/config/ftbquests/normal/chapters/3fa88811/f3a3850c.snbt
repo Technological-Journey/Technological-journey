@@ -1,0 +1,34 @@
+{
+	x: -5.0d,
+	y: -4.5d,
+	dependencies: [
+		"4a65f7e7"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "e9afa81a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "e4826089",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:fluid_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "68bda2ee",
+		type: "item",
+		item: "appliedenergistics2:interface",
+		count: 2
+	},
+	{
+		uid: "fec5f152",
+		type: "item",
+		item: "appliedenergistics2:fluid_interface",
+		count: 2
+	}]
+}

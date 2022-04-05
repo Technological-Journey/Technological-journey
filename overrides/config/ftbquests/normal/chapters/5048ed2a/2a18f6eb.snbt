@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: -7.5d,
+	text: [
+		"Coolant is a closed loop. You will want to measure the amount that goes into the reactor and send as spent coolant as you can to the turbine. If you want this for products only, you may choose to  void spent coolant and provide infinite steam."
+	],
+	dependencies: [
+		"6209f41f"
+	],
+	tasks: [{
+		uid: "b21254af",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "steam",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}]
+}

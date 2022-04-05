@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "6d0fa6a8",
+		type: "checkmark",
+		title: "Linoleic Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "linoleic_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

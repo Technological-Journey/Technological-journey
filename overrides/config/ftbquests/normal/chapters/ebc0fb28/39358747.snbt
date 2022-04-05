@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -9.0d,
+	dependencies: [
+		"1ac5c86e"
+	],
+	tasks: [{
+		uid: "5f2b16b2",
+		type: "checkmark",
+		title: "Clear Naquadah Liquid Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "clear_naquadah_liquid",
+				Amount: 1000
+			}
+		}
+	}]
+}

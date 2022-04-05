@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -3.0d,
+	shape: "hexagon",
+	dependencies: [
+		"f2fb8aa7",
+		"e5988795"
+	],
+	tasks: [{
+		uid: "6a308fcf",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32200"
+		}]
+	}]
+}

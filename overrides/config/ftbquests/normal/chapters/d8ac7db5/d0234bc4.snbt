@@ -1,0 +1,31 @@
+{
+	x: 5.0d,
+	y: -3.5d,
+	text: [
+		"       listed as fluid ; minimum fluid in vein",
+		"        charcoal_byproducts;50000000",
+		"        natural_gas;50000000",
+		"        sulfuric_gas;50000000",
+		"        sulfuric_naphtha;50000000",
+		"        sulfuric_light_fuel;50000000",
+		"        sulfuric_heavy_fuel;50000000",
+		"        steamcracked_naphtha;50000000",
+		"        steamcracked_gas;50000000",
+		"        cracked_light_fuel;50000000",
+		"        cracked_heavy_fuel;50000000",
+		"        hydrocracked_naphtha;50000000",
+		"        hydrocracked_gas;50000000",
+		"        hydrocracked_light_fuel;50000000",
+		"        hydrocracked_heavy_fuel;50000000"
+	],
+	dependencies: [
+		"49c8a7d5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c077727e",
+		type: "checkmark",
+		title: "Astral fluid Veins",
+		icon: "astralsorcery:blockbore"
+	}]
+}

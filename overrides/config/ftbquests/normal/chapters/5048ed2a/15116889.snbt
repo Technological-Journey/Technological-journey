@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: -3.5d,
+	dependencies: [
+		"c423ca81"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e897cabf",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32318"
+		}]
+	}]
+}

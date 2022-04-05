@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	dependencies: [
+		"65ed01d8"
+	],
+	tasks: [{
+		uid: "ae8771c2",
+		type: "checkmark",
+		title: "Dusty Liquid Helium 3",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dusty_liquid_helium3",
+				Amount: 1000
+			}
+		}
+	}]
+}

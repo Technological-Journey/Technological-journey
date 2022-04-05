@@ -1,0 +1,44 @@
+{
+	x: -4.5d,
+	y: -7.0d,
+	dependencies: [
+		"682150e7",
+		"3d8698e5"
+	],
+	tasks: [{
+		uid: "1951ad93",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32240"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d1a28e9d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32242"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c5c40d6d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32241"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "21cfcdb7",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plastic",
+				Amount: 1000
+			}
+		},
+		count: 2
+	}]
+}

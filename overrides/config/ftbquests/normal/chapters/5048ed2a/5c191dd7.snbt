@@ -1,0 +1,34 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	text: [
+		"At this point, you can boost the yeild of this reaction using a small amount of titanium tetrachloride. It's your choice - PTFE will be used a lot in the future, but so will titanium."
+	],
+	dependencies: [
+		"ff8e6c6f"
+	],
+	tasks: [{
+		uid: "f7f8c4e7",
+		type: "checkmark",
+		title: "Tetrafluoreothylene Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "tetrafluoroethylene",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "860413d1",
+		type: "checkmark",
+		title: "Oxygen Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oxygen",
+				Amount: 1000
+			}
+		}
+	}]
+}

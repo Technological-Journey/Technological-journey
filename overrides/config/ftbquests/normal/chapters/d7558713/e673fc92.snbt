@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: 2.0d,
+	dependencies: [
+		"e75d5649"
+	],
+	tasks: [{
+		uid: "89c02752",
+		type: "checkmark",
+		title: "Indium Trioxide Dust",
+		icon: "gtadditions:ga_dust 1 2"
+	}]
+}

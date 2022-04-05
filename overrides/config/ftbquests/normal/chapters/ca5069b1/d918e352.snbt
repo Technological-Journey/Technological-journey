@@ -1,0 +1,13 @@
+{
+	icon: "gtadditions:ga_dust 1 938",
+	x: 7.0d,
+	y: 2.5d,
+	dependencies: [
+		"c9bb8aa4"
+	],
+	tasks: [{
+		uid: "83071629",
+		type: "checkmark",
+		title: "Trinium Tetrafluoride"
+	}]
+}

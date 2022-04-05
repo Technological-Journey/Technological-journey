@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: -8.5d,
+	description: "Energy Units",
+	text: [
+		"Energy in gregtech (EU) is used to power machines and tools, and generating it is one of the core elements of the industry you will be making throughout this pack. Energy is ‘pushed’ into wires by generators according to the demands of the energynet – the collection of machines drawing from the same wire. If an energynet draws more power than the wires can handle, the wires will burn.",
+		"",
+		"LV machines consume 32EU per tick (generally speaking), and MV machines consume 128. Power scales in this way, quadrupling each tier, until UMV machines, which consume 134,217,728 EU per tick. Afterwords, there is only UXV machines, which are completely optional and consume over half a million EU/t.  "
+	],
+	dependencies: [
+		"bb991a26"
+	],
+	tasks: [{
+		uid: "465c825b",
+		type: "checkmark",
+		title: "What is an EU?",
+		icon: "gregtech:meta_item_2 1 32469"
+	}]
+}

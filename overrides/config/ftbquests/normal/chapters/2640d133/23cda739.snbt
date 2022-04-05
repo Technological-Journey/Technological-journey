@@ -1,0 +1,33 @@
+{
+	x: -0.5d,
+	y: 3.5d,
+	shape: "circle",
+	text: [
+		"Finally, steel. This is your gate for the majority of the LV tab, as well as the hull material for LV machines. ",
+		"",
+		"This is quite slow, and if you're looking make more steel faster, consider making an industrial primitive blast furance (iPBF)."
+	],
+	dependencies: [
+		"d61d2b00"
+	],
+	tasks: [{
+		uid: "a85e15d2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 510"
+		}]
+	},
+	{
+		uid: "7fcb22c9",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "43856de1",
+		type: "item",
+		item: "minecraft:iron_block"
+	}]
+}

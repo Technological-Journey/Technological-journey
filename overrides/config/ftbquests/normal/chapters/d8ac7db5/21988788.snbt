@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 0.5d,
+	dependencies: [
+		"4c1f0226"
+	],
+	tasks: [{
+		uid: "db14c625",
+		type: "checkmark",
+		title: "Catalase",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "catalase",
+				Amount: 1000
+			}
+		}
+	}]
+}

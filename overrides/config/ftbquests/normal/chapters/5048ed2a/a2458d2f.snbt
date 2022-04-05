@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"If you run this recipe in the breeder reactor you can finally make californium and travel to mars, which has Pu and Np ores and can take pressure off your nuclear infrastrucutre."
+	],
+	dependencies: [
+		"b8089600"
+	],
+	tasks: [{
+		uid: "4867277a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_49 1 13"
+		}]
+	}]
+}

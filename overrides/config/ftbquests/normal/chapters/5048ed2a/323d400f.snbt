@@ -1,0 +1,60 @@
+{
+	icon: "gregtech:machine 1 2529",
+	x: -0.5d,
+	y: -8.5d,
+	dependencies: [
+		"fdaf832a"
+	],
+	tasks: [{
+		uid: "20230c2d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2529"
+		}]
+	},
+	{
+		uid: "09f3f437",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_motor_casing 1 2"
+		}],
+		count: 3L
+	},
+	{
+		uid: "16f79cc0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 730"
+		}]
+	},
+	{
+		uid: "1ea5b9fb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 731"
+		}]
+	},
+	{
+		uid: "14ad9617",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_1 1 5"
+		}],
+		count: 41L
+	},
+	{
+		uid: "1f764d8c",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "39adc212",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}]
+}

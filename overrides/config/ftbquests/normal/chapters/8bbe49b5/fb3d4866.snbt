@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	shape: "circle",
+	dependencies: [
+		"ce702c66",
+		"7a1a6a69"
+	],
+	tasks: [{
+		uid: "17260cc7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32491"
+		}]
+	}],
+	rewards: [{
+		uid: "ad02a4d8",
+		type: "item",
+		item: "gregtech:rich_ore_gold_0",
+		count: 8
+	}]
+}

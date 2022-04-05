@@ -1,0 +1,21 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"5b4cf7c8",
+		"c073b9f3"
+	],
+	tasks: [{
+		uid: "0292905d",
+		type: "checkmark",
+		title: "Rocket Fuel H8N4C204",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocket_fuel_a",
+				Amount: 1000
+			}
+		}
+	}]
+}

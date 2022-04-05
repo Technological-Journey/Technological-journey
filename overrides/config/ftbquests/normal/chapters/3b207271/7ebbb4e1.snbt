@@ -1,0 +1,69 @@
+{
+	x: 0.5d,
+	y: 3.5d,
+	text: [
+		"This is needed to process stronger metals. Recipes in the EBF have a heat requirement (dictated by the coils used in the structure) as well as an energy requirements. To make your first aluminum, you will need to have 2 LV energy input hatches which can each accept up to 2 amps of LV, for a total of 128 EU/t."
+	],
+	dependencies: [
+		"b2361cc0"
+	],
+	tasks: [{
+		uid: "4982158e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2534"
+		}]
+	},
+	{
+		uid: "f8b6e831",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	},
+	{
+		uid: "058832c4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 714"
+		}],
+		count: 2L
+	},
+	{
+		uid: "21b05247",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 710"
+		}]
+	},
+	{
+		uid: "b6f2fb93",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 711"
+		}]
+	},
+	{
+		uid: "9d6d35b1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "ad5aaf16",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4216"
+		}]
+	},
+	{
+		uid: "11db7882",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}],
+		count: 10L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	dependencies: [
+		"31fd4c21"
+	],
+	tasks: [{
+		uid: "ecc5de05",
+		type: "checkmark",
+		title: "Hypochlorous Acid Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hypochlorous_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

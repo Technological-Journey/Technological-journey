@@ -1,0 +1,21 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"479701ab",
+		"8875585a"
+	],
+	tasks: [{
+		uid: "5830c0e3",
+		type: "checkmark",
+		title: "Hyper Fuel II Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hyper_fluid_ii",
+				Amount: 1000
+			}
+		}
+	}]
+}

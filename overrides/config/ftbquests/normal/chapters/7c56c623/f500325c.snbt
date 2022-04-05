@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	shape: "hexagon",
+	dependencies: [
+		"f9637e9f",
+		"b13ab417"
+	],
+	tasks: [{
+		uid: "b82ef92d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "4bc014ae",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2721",
+		count: 16
+	}]
+}

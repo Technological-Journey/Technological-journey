@@ -1,0 +1,13 @@
+{
+	icon: "gtadditions:ga_dust 1 80",
+	x: -10.5d,
+	y: 1.5d,
+	dependencies: [
+		"9d1bf964"
+	],
+	tasks: [{
+		uid: "5b8a70a7",
+		type: "checkmark",
+		title: "Palladium Fullerene Matrix"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "tetranitromethane",
+			Amount: 1000
+		}
+	},
+	x: -6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "47951014",
+		type: "checkmark",
+		title: "Tetranitromethane"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	dependencies: [
+		"f3b453ae"
+	],
+	tasks: [{
+		uid: "a2fc49a3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:refinedchaoscrystal"
+		}]
+	}]
+}

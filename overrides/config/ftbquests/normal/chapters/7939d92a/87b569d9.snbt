@@ -1,0 +1,16 @@
+{
+	x: -10.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "1bc22f3b",
+		type: "checkmark",
+		title: "Quasifissioning Plasma",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "quasifissioning_plasma",
+				Amount: 1000
+			}
+		}
+	}]
+}

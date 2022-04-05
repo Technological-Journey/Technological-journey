@@ -1,0 +1,22 @@
+{
+	title: "MobGriefing",
+	x: -2.5d,
+	y: -4.5d,
+	text: [
+		"This quest will refresh, and claiming it will turn mobGriefing off. Nobody likes creepers breaking important things."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d83c9621"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cb088f9e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "53d0a9ac",
+		type: "command",
+		command: "/gamerule mobGriefing false"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Scanner and prospector",
+	x: 3.5d,
+	y: -6.0d,
+	text: [
+		"The 'Start of a long journey' quest provides a scanner, as well as a prospector. To use the scanner, right click while holding it. To change which cards are active, shift right click with the scanner in hand. To use the prospector, right click and it will reveal the ore content in the surrounding 3x3 chunks. This prospector has infinite uses, but has limited range and cannot detect fluid veins."
+	],
+	dependencies: [
+		"d83c9621"
+	],
+	tasks: [{
+		uid: "62c38359",
+		type: "checkmark"
+	}]
+}

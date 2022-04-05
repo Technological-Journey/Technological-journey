@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "6af9517b",
+		type: "checkmark",
+		title: "Fluorine Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluorine",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "adadb2af",
+		type: "checkmark",
+		title: "Hydrogen Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrogen",
+				Amount: 1000
+			}
+		}
+	}]
+}

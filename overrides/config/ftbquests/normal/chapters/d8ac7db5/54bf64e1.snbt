@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "5dab31b9",
+		type: "checkmark",
+		title: "Biotin",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "biotin",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,107 @@
+{
+	icon: "gregtech:machine 1 2004",
+	x: -1.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	dependencies: [
+		"ffafa306",
+		"b77915f0",
+		"b0342527"
+	],
+	tasks: [{
+		uid: "d8114da2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2004"
+		}]
+	},
+	{
+		uid: "9bd7e414",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_transparent_casing"
+		}],
+		count: 14L
+	},
+	{
+		uid: "c673f53e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 8"
+		}],
+		count: 7L
+	},
+	{
+		uid: "8c0ac13c",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 1"
+		}],
+		count: 14L
+	},
+	{
+		uid: "a7028ae2",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "0cd36b73",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}],
+		count: 6L
+	},
+	{
+		uid: "3760ff39",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 722"
+		}]
+	},
+	{
+		uid: "26876f76",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 721"
+		}]
+	},
+	{
+		uid: "d9ca77ca",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 744"
+		}]
+	},
+	{
+		uid: "c7e95e4a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "e697310d",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 12L
+	},
+	{
+		uid: "f9a765ec",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}],
+	rewards: [{
+		uid: "62d99c98",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10052",
+		count: 15
+	}]
+}

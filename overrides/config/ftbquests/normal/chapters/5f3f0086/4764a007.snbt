@@ -1,0 +1,156 @@
+{
+	title: "To get started with Gregtech you will need a few tools.",
+	x: 2.0d,
+	y: -4.5d,
+	shape: "hexagon",
+	text: [
+		"You will need to find a magnetite, limonite, pyrite, or mineral sands vein for iron. ",
+		"",
+		"This iron (optionally converted to wrought iron) can be used to make the tools required for early gregtech. You'll need several of most of these tools, so don't get too attached."
+	],
+	dependencies: [
+		"d83c9621"
+	],
+	tasks: [{
+		uid: "6b1d1120",
+		type: "item",
+		title: "Any craftingToolHardHammer",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolHardHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21e6df2d",
+		type: "item",
+		title: "Any craftingToolWrench",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWrench"
+				}
+			}
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2ec85cc0",
+		type: "item",
+		title: "Any craftingToolScrewdriver",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolScrewdriver"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d2e86b3",
+		type: "item",
+		title: "Any craftingToolSoftHammer",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolSoftHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "005ad4ff",
+		type: "item",
+		title: "Any craftingToolWireCutter",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWireCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12f78fc1",
+		type: "item",
+		title: "Any craftingToolCrowbar",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolCrowbar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a9afcb73",
+		type: "item",
+		title: "Any craftingToolSaw",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolSaw"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c9c8558f",
+		type: "item",
+		title: "Any craftingToolFile",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolFile"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2b05615",
+		type: "item",
+		title: "Any craftingToolMortar",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolMortar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ececf02e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12033",
+		count: 10
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Heavy Quark Degenerate Matter",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "heavy_quark_degenerate_matter",
+			Amount: 1000
+		}
+	},
+	x: -13.5d,
+	y: 5.5d,
+	dependencies: [
+		"0db73c8f",
+		"0f7b3b3b"
+	],
+	tasks: [{
+		uid: "7383a1bc",
+		type: "checkmark",
+		title: "Heavy Quark Degenerate Plasma"
+	}]
+}

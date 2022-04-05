@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	dependencies: [
+		"53880645"
+	],
+	tasks: [{
+		uid: "e574490b",
+		type: "checkmark",
+		title: "Gene Plasmids",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pluripotency_induction_gene_plasmids",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -10.5d,
+	text: [
+		"This is used to find presses. ",
+		"",
+		"Don't place it in world using draconic, it can cause a crash."
+	],
+	optional: true,
+	tasks: [{
+		uid: "d1b9243d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}]
+}

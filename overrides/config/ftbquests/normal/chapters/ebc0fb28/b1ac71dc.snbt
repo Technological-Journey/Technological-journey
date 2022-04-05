@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "empoweredoil",
+			Amount: 1000
+		}
+	},
+	x: -7.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "040a881b",
+		type: "checkmark",
+		title: "Empowered Oil"
+	}]
+}

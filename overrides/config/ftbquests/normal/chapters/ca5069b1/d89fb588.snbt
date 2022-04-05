@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	dependencies: [
+		"5ec2c19a"
+	],
+	tasks: [{
+		uid: "2a6460b6",
+		type: "checkmark",
+		title: "Nitrated Triniite Solution",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitrated_triniite_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

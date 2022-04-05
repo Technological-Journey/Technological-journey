@@ -1,0 +1,22 @@
+{
+	x: 7.0d,
+	y: -3.5d,
+	dependencies: [
+		"15116889"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cab39441",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16799"
+		}]
+	},
+	{
+		uid: "401dafec",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16798"
+		}]
+	}]
+}

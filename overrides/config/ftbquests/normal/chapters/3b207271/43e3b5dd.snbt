@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 3.5d,
+	text: [
+		"Your first tier two circuit! This can be used for MV machines, but is pretty expensive to make.",
+		"",
+		"You may want to prioritize getting to electronic circuits so you can make MV circuits more cheaply. "
+	],
+	dependencies: [
+		"2167ccd4"
+	],
+	tasks: [{
+		uid: "b54a8ead",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32200"
+		}]
+	}]
+}

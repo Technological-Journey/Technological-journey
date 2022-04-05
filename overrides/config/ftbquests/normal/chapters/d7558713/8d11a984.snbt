@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	optional: true,
+	tasks: [{
+		uid: "4f0e045f",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	}]
+}

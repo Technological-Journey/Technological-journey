@@ -1,0 +1,21 @@
+{
+	title: "Hyper Fuel IV",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hyper_fluid_iv",
+			Amount: 1000
+		}
+	},
+	x: 5.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"34ce1cb7"
+	],
+	tasks: [{
+		uid: "9841712c",
+		type: "checkmark",
+		title: "Hyper Fuel IV"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -4.5d,
+	y: -5.0d,
+	dependencies: [
+		"9ed64d3e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7f54eecc",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager_extension"
+		}]
+	}]
+}

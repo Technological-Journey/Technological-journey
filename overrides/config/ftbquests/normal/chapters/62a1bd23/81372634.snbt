@@ -1,0 +1,77 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	text: [
+		"In order to journey to other planets you will need to make a warp core. This needs to be built on a space station. In order to fly down from the space station to a planet you will need your rocket."
+	],
+	dependencies: [
+		"d4937b9f"
+	],
+	tasks: [{
+		uid: "81eeaf69",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "fb548ffd",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "f91a79b2",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "174b3b04",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 4L
+	},
+	{
+		uid: "53fff174",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}]
+	},
+	{
+		uid: "c01793b3",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	},
+	{
+		uid: "2373a785",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	},
+	{
+		uid: "3948b97b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	},
+	{
+		uid: "9d7e9b2d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_4 1 8"
+		}],
+		count: 15L
+	}]
+}

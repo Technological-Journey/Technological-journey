@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	dependencies: [
+		"4f42dc19"
+	],
+	tasks: [{
+		uid: "2868cb44",
+		type: "checkmark",
+		title: "Fluorine-Cracked heavy Naquadah Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fl_cracked_heavy_naquadah",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	dependencies: [
+		"417b1db8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0bc6eccb",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a259bc18",
+		type: "item",
+		item: "baubles:ring"
+	},
+	{
+		uid: "82226557",
+		type: "item",
+		item: "minecraft:experience_bottle",
+		count: 10
+	},
+	{
+		uid: "66cb3c1a",
+		type: "item",
+		item: {
+			id: "actuallyadditions:item_battery_quintuple",
+			tag: {
+				Energy: 0
+			}
+		}
+	}]
+}

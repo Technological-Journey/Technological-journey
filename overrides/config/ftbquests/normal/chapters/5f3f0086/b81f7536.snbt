@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"A dev/Null can help keep stone out of your inventory while mining."
+	],
+	dependencies: [
+		"9c17be30"
+	],
+	tasks: [{
+		uid: "309a9415",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

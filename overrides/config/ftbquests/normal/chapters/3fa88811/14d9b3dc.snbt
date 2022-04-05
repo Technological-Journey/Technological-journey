@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 5.5d,
+	dependencies: [
+		"cf5c8412"
+	],
+	tasks: [{
+		uid: "70c44855",
+		type: "item",
+		items: [{
+			item: "extracpus:crafting_storage_4096k"
+		}]
+	}]
+}

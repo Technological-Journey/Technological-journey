@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"Aquamarine and starmetal veins spawn in the deep dark, though if you're using starlight rocket fuel for power it is strongly recommended to setup a collector crystal for more consistent automation. The GT miner and scanner will also not see starmetal, meaning if you want to collect it you will have to manually mine it (gross)."
+	],
+	dependencies: [
+		"10342fa4"
+	],
+	tasks: [{
+		uid: "41622d08",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_aquamarine_0"
+		}]
+	},
+	{
+		uid: "cc4d90d6",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	}]
+}

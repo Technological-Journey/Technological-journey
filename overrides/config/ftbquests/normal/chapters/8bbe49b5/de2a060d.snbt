@@ -1,0 +1,43 @@
+{
+	icon: "gregtech:machine 1 2499",
+	x: -7.0d,
+	y: -3.5d,
+	text: [
+		"Central monitors can be used for remote management. Set a digital cover on a machine to proxy mode and connect the cover to a cable/wire. Connect the same cable/wire line to the back of the monitor. Now in the monitor GUI you can select the machine and size you want the display."
+	],
+	dependencies: [
+		"96ec4281",
+		"215b2381"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c156227b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2499"
+		}]
+	},
+	{
+		uid: "0ec518de",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1999"
+		}],
+		count: 9L
+	},
+	{
+		uid: "2377c0ff",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "ef90eec6",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 4L
+	}]
+}

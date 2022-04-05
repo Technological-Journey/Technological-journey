@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: -2.5d,
+	dependencies: [
+		"9dd00879",
+		"d8a2490f"
+	],
+	tasks: [{
+		uid: "c24ca46e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_heating_coil"
+		}]
+	}],
+	rewards: [{
+		uid: "324b5b70",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2854",
+		count: 16
+	}]
+}

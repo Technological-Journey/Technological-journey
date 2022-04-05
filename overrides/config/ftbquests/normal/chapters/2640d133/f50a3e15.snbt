@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 6.5d,
+	text: [
+		"Finally, decent infinite water. "
+	],
+	dependencies: [
+		"4945d629"
+	],
+	tasks: [{
+		uid: "d3e59235",
+		type: "item",
+		items: [{
+			item: "enderio:block_reservoir"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b33dc0e4",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	}]
+}

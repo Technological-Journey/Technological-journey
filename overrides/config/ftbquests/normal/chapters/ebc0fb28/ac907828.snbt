@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "bio_diesel",
+			Amount: 1000
+		}
+	},
+	x: -7.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"b1ac71dc",
+		"38bbd280"
+	],
+	tasks: [{
+		uid: "aff942e4",
+		type: "checkmark",
+		title: "Bio Diesel"
+	}]
+}

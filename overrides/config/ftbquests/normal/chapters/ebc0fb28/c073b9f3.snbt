@@ -1,0 +1,19 @@
+{
+	title: "Dinitrogen Tetroxide",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "dinitrogen_tetroxide",
+			Amount: 1000
+		}
+	},
+	x: -4.5d,
+	y: -5.0d,
+	dependencies: [
+		"32236a02"
+	],
+	tasks: [{
+		uid: "9f38e412",
+		type: "checkmark"
+	}]
+}

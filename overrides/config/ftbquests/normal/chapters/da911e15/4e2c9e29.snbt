@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "dbde0bba",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32484"
+		}]
+	}]
+}

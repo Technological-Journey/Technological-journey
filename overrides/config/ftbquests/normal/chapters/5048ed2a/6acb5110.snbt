@@ -1,0 +1,20 @@
+{
+	title: "Platinum concentrate",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "platinum_concentrate",
+			Amount: 1000
+		}
+	},
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"6226a946",
+		"2f5f2434"
+	],
+	tasks: [{
+		uid: "9a3b8311",
+		type: "checkmark"
+	}]
+}

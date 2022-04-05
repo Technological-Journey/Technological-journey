@@ -1,0 +1,48 @@
+{
+	x: 6.0d,
+	y: -8.5d,
+	text: [
+		"The heat exchanger will use water in one input hatch and lava in another, and produce both hot steam and pahoehoe lava, which can be electrolyzed for carbon,",
+		" sulfur, and obsidian. The hot steam can be either voided, or used in a coolant turbine for a considerable amount of power. "
+	],
+	dependencies: [
+		"1239a98c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ed998292",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1003"
+		}]
+	},
+	{
+		uid: "77116764",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_1 1 14"
+		}],
+		count: 21L
+	},
+	{
+		uid: "43bc37e8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 753"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d44a46a6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 752"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "267c2c01",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -16.0d,
+	y: 2.5d,
+	dependencies: [
+		"e6f3f74d"
+	],
+	tasks: [{
+		uid: "ffc86883",
+		type: "checkmark",
+		title: "Heavy Lepton Mixture",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "heavy_lepton_mix",
+				Amount: 1000
+			}
+		}
+	}]
+}

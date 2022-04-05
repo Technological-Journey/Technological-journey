@@ -1,0 +1,28 @@
+{
+	x: -5.5d,
+	y: 4.0d,
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "d6e60ff8",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_bastnasite_0"
+		}]
+	},
+	{
+		uid: "41ed9d9a",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_monazite_0"
+		}]
+	},
+	{
+		uid: "91c23a63",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_neodymium_0"
+		}]
+	}]
+}

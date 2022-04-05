@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -10.5d,
+	text: [
+		"The large handy bag has many more slots to hold items,"
+	],
+	dependencies: [
+		"f9d13092"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f3367551",
+		type: "item",
+		items: [{
+			item: "enderutilities:handybag 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

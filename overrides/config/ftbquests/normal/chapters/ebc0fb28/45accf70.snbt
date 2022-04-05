@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -7.0d,
+	dependencies: [
+		"6628b0ab"
+	],
+	tasks: [{
+		uid: "ab540ec4",
+		type: "checkmark",
+		title: "Light Naquadah Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "light_naquadah",
+				Amount: 1000
+			}
+		}
+	}]
+}

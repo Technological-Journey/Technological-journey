@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: -4.5d,
+	dependencies: [
+		"333c0909"
+	],
+	optional: true,
+	tasks: [{
+		uid: "069abe75",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 17795"
+		}]
+	},
+	{
+		uid: "e6218f37",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 17793"
+		}]
+	},
+	{
+		uid: "839b7af2",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16794"
+		}]
+	}]
+}

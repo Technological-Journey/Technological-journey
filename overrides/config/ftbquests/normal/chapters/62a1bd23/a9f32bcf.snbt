@@ -1,0 +1,23 @@
+{
+	title: "Titan dim ID 400",
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"To get a decent amount of oil and graphite  you will need to warp to the carbon wasteland. This planet requires an artifact, the charcoal log."
+	],
+	dependencies: [
+		"81372634"
+	],
+	tasks: [{
+		uid: "3ca8a8f6",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:charcoallog"
+		}]
+	},
+	{
+		uid: "f66c3b2e",
+		type: "dimension",
+		dim: 400
+	}]
+}

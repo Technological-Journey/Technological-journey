@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 2.5d,
+	shape: "hexagon",
+	text: [
+		"Wheeee! That was fun!",
+		"",
+		"I hope you didn't passive it!"
+	],
+	dependencies: [
+		"d918e352"
+	],
+	tasks: [{
+		uid: "2a5bed20",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2719"
+		}]
+	}],
+	rewards: [{
+		uid: "79f33b95",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2836",
+		count: 64
+	}]
+}

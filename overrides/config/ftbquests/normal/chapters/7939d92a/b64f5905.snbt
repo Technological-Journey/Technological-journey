@@ -1,0 +1,19 @@
+{
+	x: -16.5d,
+	y: 7.0d,
+	dependencies: [
+		"5bd6b677"
+	],
+	tasks: [{
+		uid: "e7b3a67b",
+		type: "checkmark",
+		title: "Liquid Crystal Detector",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_crystal_detector",
+				Amount: 1000
+			}
+		}
+	}]
+}

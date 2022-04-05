@@ -1,0 +1,30 @@
+{
+	title: "GregTech Axe",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"Gregtech axes will chop the entire tree and will seek out neighboring wood blocks. This can sometimes result in forests being mined by one swing."
+	],
+	dependencies: [
+		"4764a007"
+	],
+	tasks: [{
+		uid: "293059df",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_tool",
+			Damage: 3s,
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "0adb2c03",
+		type: "item",
+		item: "minecraft:bread",
+		count: 4
+	}]
+}

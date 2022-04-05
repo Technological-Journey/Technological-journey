@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	dependencies: [
+		"4a65f7e7"
+	],
+	tasks: [{
+		uid: "7ac54811",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	}]
+}

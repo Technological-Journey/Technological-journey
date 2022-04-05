@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"b7c448ec"
+	],
+	tasks: [{
+		uid: "d6f9ad79",
+		type: "checkmark",
+		title: "Polycaprolactam Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polycaprolactam",
+				Amount: 1000
+			}
+		}
+	}]
+}

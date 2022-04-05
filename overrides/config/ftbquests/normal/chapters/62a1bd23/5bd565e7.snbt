@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: 7.5d,
+	text: [
+		"Ammonia",
+		"Oxygen",
+		"Hydrogen",
+		"Liquid Air"
+	],
+	dependencies: [
+		"04913753"
+	],
+	tasks: [{
+		uid: "7e34afaa",
+		type: "checkmark",
+		title: "Fluid Veins",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ammonia",
+				Amount: 1000
+			}
+		}
+	}]
+}

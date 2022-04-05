@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"81073c06"
+	],
+	tasks: [{
+		uid: "2be0c707",
+		type: "checkmark",
+		title: "Rapidly Replicating Animal Cells",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rapidly_replicating_animal_cells",
+				Amount: 1000
+			}
+		}
+	}]
+}

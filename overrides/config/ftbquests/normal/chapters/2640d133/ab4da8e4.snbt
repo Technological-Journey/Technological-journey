@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 6.5d,
+	dependencies: [
+		"1e24c135"
+	],
+	tasks: [{
+		uid: "f75a756c",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "75ec90cf",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "59c60b88",
+		type: "item",
+		item: "enderio:item_extract_speed_upgrade",
+		count: 4
+	}]
+}

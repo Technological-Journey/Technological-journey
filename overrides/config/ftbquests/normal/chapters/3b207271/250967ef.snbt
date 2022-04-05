@@ -1,0 +1,66 @@
+{
+	title: "Enderman Spawner",
+	x: 3.5d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"217132c4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "caad0e71",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "61a72897",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_51 1 6"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e1705300",
+		type: "item",
+		item: {
+			id: "enderio:block_powered_spawner",
+			tag: {
+				"enderio:data": {
+					isSpawnMode: 1b,
+					currentTask-: 1b,
+					lastCompletedRecipe-: 1b,
+					inventory: {
+						size: 3,
+						0+: 1b,
+						1+: 1b,
+						2: {
+							id: "enderio:item_basic_capacitor",
+							Count: 1b,
+							Damage: 2s
+						}
+					},
+					redstoneControlMode: 0,
+					faceModes-: 1b,
+					outputQueue: {
+						size: 0
+					}
+				},
+				"enderio:energy": 500000,
+				"enderio:maxenergy": 500000,
+				entityId: "minecraft:enderman"
+			}
+		}
+	},
+	{
+		uid: "ffee1dba",
+		type: "item",
+		item: "enderio:item_soul_vial",
+		count: 10
+	}]
+}

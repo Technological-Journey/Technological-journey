@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "pcba",
+			Amount: 1000
+		}
+	},
+	x: -8.5d,
+	y: 0.5d,
+	dependencies: [
+		"7e0cb538",
+		"804bbdcc",
+		"1ac73d30"
+	],
+	tasks: [{
+		uid: "503e9f3e",
+		type: "checkmark",
+		title: "PCBA"
+	}]
+}

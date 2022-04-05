@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: 2.0d,
+	dependencies: [
+		"2f9c9021"
+	],
+	tasks: [{
+		uid: "6a995823",
+		type: "checkmark",
+		title: "Naquadah Sulfate Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "naquadah_sulfate",
+				Amount: 1000
+			}
+		}
+	}]
+}

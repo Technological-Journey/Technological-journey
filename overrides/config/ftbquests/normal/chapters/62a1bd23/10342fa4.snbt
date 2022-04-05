@@ -1,0 +1,34 @@
+{
+	title: "Deep Dark Dim ID 404",
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"Once you get into late LUV you can make the Deep dark portal, Many veins in this dimension have been changed to use Pure variants."
+	],
+	dependencies: [
+		"2849a30d",
+		"312e3e54"
+	],
+	tasks: [{
+		uid: "cda19db5",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath"
+		}]
+	},
+	{
+		uid: "48e6ac9d",
+		type: "dimension",
+		dim: 404
+	}],
+	rewards: [{
+		uid: "7026bc7e",
+		type: "item",
+		item: "torchmaster:feral_flare_lantern"
+	},
+	{
+		uid: "fb4fdd26",
+		type: "item",
+		item: "gregtech:machine 1 2236"
+	}]
+}

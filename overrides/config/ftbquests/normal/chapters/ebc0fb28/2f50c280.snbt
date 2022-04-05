@@ -1,0 +1,24 @@
+{
+	icon: "gregtech:machine 1 3236",
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		"That's a LOT of power. "
+	],
+	dependencies: [
+		"f9637e9f"
+	],
+	tasks: [{
+		uid: "366f43bb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3236"
+		}]
+	}],
+	rewards: [{
+		uid: "3702b126",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10784",
+		count: 64
+	}]
+}

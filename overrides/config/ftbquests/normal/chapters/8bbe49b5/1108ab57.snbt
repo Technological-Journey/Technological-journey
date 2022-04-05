@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"41177a79"
+	],
+	tasks: [{
+		uid: "19160656",
+		type: "checkmark",
+		title: "Titanium Tetrachloride",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "titanium_tetrachloride",
+				Amount: 1000
+			}
+		}
+	}]
+}

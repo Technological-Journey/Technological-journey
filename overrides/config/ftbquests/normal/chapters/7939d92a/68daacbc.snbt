@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: 7.0d,
+	dependencies: [
+		"737ad183",
+		"04a9319c"
+	],
+	tasks: [{
+		uid: "bc08cb00",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_explosive 1 2"
+		}]
+	}]
+}

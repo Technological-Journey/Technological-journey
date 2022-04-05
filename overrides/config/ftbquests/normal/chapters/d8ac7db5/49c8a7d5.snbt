@@ -1,0 +1,22 @@
+{
+	x: 3.5d,
+	y: -3.5d,
+	dependencies: [
+		"26a558df"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ceec0bca",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockbore"
+		}]
+	},
+	{
+		uid: "f52c6899",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockborehead"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	dependencies: [
+		"68c9f480"
+	],
+	tasks: [{
+		uid: "40ddba2b",
+		type: "item",
+		items: [{
+			id: "extracells:storage.fluid",
+			Damage: 4s,
+			tag: {
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

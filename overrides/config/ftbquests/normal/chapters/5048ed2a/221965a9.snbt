@@ -1,0 +1,70 @@
+{
+	icon: "gregtech:machine 1 2526",
+	x: 1.5d,
+	y: -10.5d,
+	text: [
+		"This may help $siftable"
+	],
+	dependencies: [
+		"fdaf832a"
+	],
+	tasks: [{
+		uid: "4c11e1f5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2526"
+		}]
+	},
+	{
+		uid: "3c33dbd8",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_piston_casing 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7da51e21",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "2d7b682b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 730"
+		}]
+	},
+	{
+		uid: "64a9ca21",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 731"
+		}]
+	},
+	{
+		uid: "79bac59d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_1 1 9"
+		}],
+		count: 48L
+	},
+	{
+		uid: "ec7f076a",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 1"
+		}],
+		count: 9L
+	},
+	{
+		uid: "489a135b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}]
+}

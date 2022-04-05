@@ -1,0 +1,30 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		"You now have 'free' resources - welcome to the midgame! In order to process all the ores you are now getting, you need to build a robust ore processing setup. However, this is CE, and it has to be funky. §c§lYou need to avoid backstuffing your oreproc setup.§r  ",
+		"This means you have a few options.",
+		"",
+		"a) Ensure each machine in the line is §nfaster than all those previous§r, or",
+		"b) Ensure that each machine §nauto-outputs into a trash can§r on low priority, using lasers or AE subnets to route.  ",
+		"",
+		"Option A means limiting the overall speed of your setup, and option B means voiding products at each step of the way as required. The choice is up to you. For more advice when it comes to setting up a performant ore processing setup, ask in the discord. ",
+		"",
+		"§c§lYou really dont want to ignore this - the current record for TPS in a superflat world containing nothing but oreproc is 0.13 TPS, or ~153x slower than normal, done by yours truly.  §r "
+	],
+	dependencies: [
+		"d8a2490f"
+	],
+	tasks: [{
+		uid: "dfed1617",
+		type: "checkmark",
+		title: "Advanced Ore Processing",
+		icon: "gregtech:meta_item_1 1 5311"
+	}],
+	rewards: [{
+		uid: "4e97e62e",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32577",
+		count: 16
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "462bb9e4",
+		type: "checkmark",
+		title: "Aniline",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "aniline",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "heavily_fluorinated_trinium_solution",
+			Amount: 1000
+		}
+	},
+	x: 6.0d,
+	y: 2.5d,
+	dependencies: [
+		"88841089",
+		"a9bc87ea",
+		"f8a651c0"
+	],
+	tasks: [{
+		uid: "38657c91",
+		type: "checkmark",
+		title: "Heavy Fluorinated Trinium Solution"
+	}]
+}

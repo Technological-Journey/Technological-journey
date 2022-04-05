@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d6808d05",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32494"
+		}],
+		count: 32L
+	},
+	{
+		uid: "04324f12",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32497"
+		}],
+		count: 32L
+	},
+	{
+		uid: "102a199b",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32496"
+		}],
+		count: 32L
+	}]
+}

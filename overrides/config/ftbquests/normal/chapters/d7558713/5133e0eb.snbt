@@ -1,0 +1,13 @@
+{
+	x: -6.5d,
+	y: -1.5d,
+	dependencies: [
+		"9e3d5177"
+	],
+	tasks: [{
+		uid: "fb2a29d2",
+		type: "checkmark",
+		title: "Enriched Naquadric Compound Dust",
+		icon: "gregtech:meta_item_1 1 2747"
+	}]
+}

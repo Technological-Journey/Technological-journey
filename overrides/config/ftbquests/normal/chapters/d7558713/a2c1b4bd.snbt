@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"a7da6a78"
+	],
+	tasks: [{
+		uid: "7d846503",
+		type: "checkmark",
+		title: "Rhodium Sulfate Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rhodium_sulfate",
+				Amount: 1000
+			}
+		}
+	}]
+}

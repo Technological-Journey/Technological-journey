@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	text: [
+		"This is the longest chemical name in the game."
+	],
+	dependencies: [
+		"d8641446"
+	],
+	tasks: [{
+		uid: "e45a956a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 384"
+		}]
+	}]
+}

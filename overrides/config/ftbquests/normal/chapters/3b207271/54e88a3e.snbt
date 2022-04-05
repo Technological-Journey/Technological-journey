@@ -1,0 +1,14 @@
+{
+	title: "Multiblock Modularity",
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"Multiblocks are very modular and can have most of  their casing replaced with hatches. With this you can move hatches around for better automation or wall sharing. There are limits to the amount of casing to hatch ratio. ",
+		"",
+		"In addition do not build multiblocks over chunk boundaries as it will break with uneven loading and void items/fluids."
+	],
+	tasks: [{
+		uid: "c7aaeb86",
+		type: "checkmark"
+	}]
+}

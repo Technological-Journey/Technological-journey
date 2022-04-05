@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: 3.5d,
+	text: [
+		"This is a catalyst, meaning it will not be consumed. You only need to make one batch of these dusts."
+	],
+	optional: true,
+	tasks: [{
+		uid: "c10ac864",
+		type: "checkmark",
+		title: "Potassium Metabisulfite Dust",
+		icon: "gregtech:meta_item_1 1 2832"
+	}]
+}

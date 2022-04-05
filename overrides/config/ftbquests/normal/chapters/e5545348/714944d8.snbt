@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: -5.0d,
+	text: [
+		"There are two ways to get oil.",
+		"1. You can place a pump over a oil sprout",
+		"2. You can build a fluid plant over a oil vein. ",
+		"",
+		"Fluid veins must be scanned using a solar fluid sampler for now."
+	],
+	tasks: [{
+		uid: "851e2d33",
+		type: "checkmark",
+		title: "Options for oil"
+	}]
+}

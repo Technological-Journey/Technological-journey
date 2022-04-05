@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	dependencies: [
+		"6fd6b9be"
+	],
+	tasks: [{
+		uid: "e22b04bf",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_rutile_0"
+		}]
+	},
+	{
+		uid: "d0a15bac",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0"
+		}]
+	},
+	{
+		uid: "d01616d3",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bauxite_0"
+		}]
+	}]
+}

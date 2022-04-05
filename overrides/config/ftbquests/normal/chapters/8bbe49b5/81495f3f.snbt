@@ -1,0 +1,30 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	dependencies: [
+		"d4a23332"
+	],
+	optional: true,
+	tasks: [{
+		uid: "30008aed",
+		type: "item",
+		items: [{
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 13s
+				}]
+			}
+		}],
+		count: 4L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "208eb48d",
+		type: "item",
+		item: "minecraft:experience_bottle",
+		count: 10
+	}]
+}

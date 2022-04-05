@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: -6.0d,
+	text: [
+		"It's HIGHLY reccomended to turn channels off for this pack, as you'll need thousands of interfaces by the end and placing a million p2p tunnels doesnt really add to the experiance. If you're a masochist however, you can try it. Uh, good luck.",
+		"",
+		"If you elect to turn off channels, keep in mind that you will need AE2 energy storage as active power draw can get quite high during crafting operations"
+	],
+	dependencies: [
+		"4a65f7e7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dd91a409",
+		type: "checkmark",
+		title: "channels?"
+	}]
+}

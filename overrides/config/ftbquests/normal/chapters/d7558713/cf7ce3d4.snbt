@@ -1,0 +1,20 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"784fc582",
+		"8e01b30f"
+	],
+	tasks: [{
+		uid: "8f7f2dae",
+		type: "checkmark",
+		title: "Naquadria Difluoride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "naquadria_difluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

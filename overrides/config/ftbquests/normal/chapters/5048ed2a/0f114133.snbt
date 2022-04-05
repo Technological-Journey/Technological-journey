@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -7.5d,
+	text: [
+		"You will never have to process mendelevium. In fact, it's generally a bad idea to do so, nor will you need any specific isotope. ",
+		"",
+		"This, therefore, is the end of nuclear. You never have to even look at another steam cracked hexafluoride (if you set up your nuclear well)."
+	],
+	dependencies: [
+		"7d4078a6"
+	],
+	tasks: [{
+		uid: "b8560f28",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2780"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "Unfolded Fullerene",
+	icon: "gtadditions:ga_dust 1 68",
+	x: 6.0d,
+	y: 3.5d,
+	dependencies: [
+		"3a9f1a28"
+	],
+	tasks: [{
+		uid: "f8f9c9ab",
+		type: "checkmark",
+		title: "Unfoldet Fullerene"
+	}]
+}

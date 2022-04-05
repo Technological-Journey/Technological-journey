@@ -1,0 +1,20 @@
+{
+	title: "Heavy Quark Enriched Mixture",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "heavy_quark_enriched_mix",
+			Amount: 1000
+		}
+	},
+	x: -13.5d,
+	y: 7.0d,
+	dependencies: [
+		"3d207c54"
+	],
+	tasks: [{
+		uid: "dacb57c5",
+		type: "checkmark",
+		title: "Heavy Quark Mixture"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "3dbe34e4",
+		type: "checkmark",
+		title: "Aqua Regia Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "aqua_regia",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	text: [
+		"Turns logs into creosote and charcoal, and turns charcoal or normal coal into creosote and coke. All of these products are burnable in the LBB.",
+		"",
+		"In this pack, all hatches and busses may be shared between multiblocks, meaning you can fit three coke ovens in a 3x7x3 space, four in a 5x5x3, etc.",
+		"",
+		"The one exception to this rule is maintenance hatches, which shouldn't be shared as it can cause some bugs leading to excessive maintenance requirements. "
+	],
+	dependencies: [
+		"62fd1790"
+	],
+	optional: true,
+	tasks: [{
+		uid: "25ee2ffd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	},
+	{
+		uid: "c30d1ee5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "c319bd51",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 701"
+		}]
+	},
+	{
+		uid: "b49fcb12",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 703"
+		}]
+	},
+	{
+		uid: "3d714e17",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 22L
+	}],
+	rewards: [{
+		uid: "9dee2aff",
+		type: "item",
+		item: "gregtech:meta_item_2 1 25357",
+		count: 10
+	}]
+}

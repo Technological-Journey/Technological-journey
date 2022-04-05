@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 4.5d,
+	dependencies: [
+		"19c46a03"
+	],
+	tasks: [{
+		uid: "f094ca1e",
+		type: "checkmark",
+		title: "Taranium Enriched Liquid Helium 3",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "taranium_enriched_liquid_helium3",
+				Amount: 1000
+			}
+		}
+	}]
+}

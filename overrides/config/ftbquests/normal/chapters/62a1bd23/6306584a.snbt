@@ -1,0 +1,26 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "bosonic_uu_matter",
+			Amount: 1000
+		}
+	},
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"bosonic  matter",
+		"fermionic matter",
+		"cryotheum",
+		"pyrotheum",
+		"radon"
+	],
+	dependencies: [
+		"71313e4b"
+	],
+	tasks: [{
+		uid: "d96a6ab7",
+		type: "checkmark",
+		title: "Fluid veins"
+	}]
+}

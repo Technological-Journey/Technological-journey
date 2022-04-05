@@ -1,0 +1,63 @@
+{
+	title: "Building your own rocket",
+	x: 3.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"5000d999",
+		"36fafa38",
+		"ee4fb945"
+	],
+	tasks: [{
+		uid: "549532b5",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}],
+		count: 5L
+	},
+	{
+		uid: "ca61d975",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	},
+	{
+		uid: "ace9e639",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	},
+	{
+		uid: "364e8c30",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 10L
+	},
+	{
+		uid: "6c469022",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	}],
+	rewards: [{
+		uid: "e166f224",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocket_fuel",
+				Amount: 1000
+			}
+		},
+		count: 2
+	}]
+}

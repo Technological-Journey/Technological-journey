@@ -1,0 +1,54 @@
+{
+	title: "Exosuit Mk2",
+	x: -7.5d,
+	y: -5.0d,
+	optional: true,
+	tasks: [{
+		uid: "f8898944",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_armor",
+			Damage: 6s,
+			tag: {
+				Charge: 8000000L
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d58d3c03",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_armor",
+			Damage: 4s,
+			tag: {
+				Charge: 8000000L
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "303a7231",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_armor",
+			Damage: 5s,
+			tag: {
+				Charge: 8000000L
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "501adaf9",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_armor",
+			Damage: 7s,
+			tag: {
+				Charge: 8000000L
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

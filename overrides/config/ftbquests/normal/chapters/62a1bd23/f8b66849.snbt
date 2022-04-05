@@ -1,0 +1,23 @@
+{
+	title: "Mars dim ID 405",
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"Once you get through nuclear up to californium you can warp to this planet. Here you will find large amounts of uranium and small quantities of plutonium and neptunium. You will also be able to find rhodium salt ore."
+	],
+	dependencies: [
+		"81372634"
+	],
+	tasks: [{
+		uid: "ac4738ae",
+		type: "dimension",
+		dim: 405
+	},
+	{
+		uid: "02c608d1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_49 1 13"
+		}]
+	}]
+}

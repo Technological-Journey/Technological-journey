@@ -1,0 +1,14 @@
+{
+	x: -11.5d,
+	y: -1.5d,
+	dependencies: [
+		"a50cb1ff"
+	],
+	tasks: [{
+		uid: "aacf3df1",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_explosive 1 1"
+		}]
+	}]
+}

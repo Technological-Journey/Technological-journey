@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: [
+		"2287e32a"
+	],
+	tasks: [{
+		uid: "e2ae64af",
+		type: "checkmark",
+		title: "Blood Plasma",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blood_plasma",
+				Amount: 1000
+			}
+		}
+	}]
+}

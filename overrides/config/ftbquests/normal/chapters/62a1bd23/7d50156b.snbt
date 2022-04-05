@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: 6.5d,
+	text: [
+		"Salt water",
+		"Fluorine",
+		"Chlorine"
+	],
+	dependencies: [
+		"c7d8e5d6"
+	],
+	tasks: [{
+		uid: "932a9698",
+		type: "checkmark",
+		title: "Liquid veins that spawn on Phobos",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "chlorine",
+				Amount: 1000
+			}
+		}
+	}]
+}

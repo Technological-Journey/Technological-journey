@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	dependencies: [
+		"f17e9bfa"
+	],
+	tasks: [{
+		uid: "02d20edc",
+		type: "checkmark",
+		title: "Dubnium",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dubnium",
+				Amount: 1000
+			}
+		}
+	}]
+}

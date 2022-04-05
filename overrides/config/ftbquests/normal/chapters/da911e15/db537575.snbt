@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "9cf6aa45",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32258"
+		}],
+		count: 24L,
+		consume_items: false
+	},
+	{
+		uid: "4601bdfb",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32257"
+		}],
+		count: 32L
+	},
+	{
+		uid: "b3e3b8d8",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32256"
+		}],
+		count: 32L
+	}]
+}

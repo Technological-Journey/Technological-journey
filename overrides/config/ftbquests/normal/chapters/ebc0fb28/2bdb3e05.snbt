@@ -1,0 +1,19 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "high_octane",
+			Amount: 1000
+		}
+	},
+	x: -3.0d,
+	y: -2.5d,
+	dependencies: [
+		"f8530422"
+	],
+	tasks: [{
+		uid: "d13c4bc0",
+		type: "checkmark",
+		title: "High Octane Gasoline"
+	}]
+}

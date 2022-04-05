@@ -1,0 +1,28 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"caf24bb8",
+		"de2f33ec"
+	],
+	tasks: [{
+		uid: "30a44674",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32493"
+		}]
+	}],
+	rewards: [{
+		uid: "2785b1af",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2051",
+		count: 10
+	},
+	{
+		uid: "ece051e0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2049",
+		count: 10
+	}]
+}

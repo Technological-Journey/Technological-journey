@@ -1,0 +1,65 @@
+{
+	icon: "gregtech:machine 1 2551",
+	x: 0.5d,
+	y: -1.5d,
+	text: [
+		"You probably don't want to provide cryotheum to it yet, as you can just fill it with pyrotheum and allow it to overheat and reset. "
+	],
+	dependencies: [
+		"92a62028"
+	],
+	tasks: [{
+		uid: "14992abd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2551"
+		}]
+	},
+	{
+		uid: "bdd58cd7",
+		type: "item",
+		items: [{
+			item: "gregtech:frame_tungsten_steel"
+		}],
+		count: 56L
+	},
+	{
+		uid: "743ef308",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 784"
+		}]
+	},
+	{
+		uid: "94f595fe",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_1 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "acbe9caa",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_1 1 1"
+		}],
+		count: 55L
+	},
+	{
+		uid: "eac84b58",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "fb7a3c5e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_2"
+		}],
+		count: 48L
+	}]
+}

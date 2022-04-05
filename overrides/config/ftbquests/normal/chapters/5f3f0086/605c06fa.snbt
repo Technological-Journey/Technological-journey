@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -4.5d,
+	text: [
+		"Probably your best bet for making tools early on. "
+	],
+	dependencies: [
+		"36e74fdc"
+	],
+	tasks: [{
+		uid: "e84dc5a2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10197"
+		}]
+	}]
+}

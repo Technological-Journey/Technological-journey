@@ -1,0 +1,16 @@
+{
+	x: -18.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "1412033e",
+		type: "checkmark",
+		title: "Methoxybenzaldehyde",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "methoxybenzaldehyde",
+				Amount: 1000
+			}
+		}
+	}]
+}

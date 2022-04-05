@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"c346ebc7"
+	],
+	tasks: [{
+		uid: "2aae40ed",
+		type: "checkmark",
+		title: "Methanol Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "methanol",
+				Amount: 1000
+			}
+		}
+	}]
+}

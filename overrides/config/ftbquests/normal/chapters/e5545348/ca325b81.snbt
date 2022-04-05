@@ -1,0 +1,35 @@
+{
+	title: "Sulfuric Light Fuel",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d17c87b7",
+		"26b8984b"
+	],
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "950219e8",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_light_fuel",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "a55b55ed",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2132"
+	},
+	{
+		uid: "92f2c3b6",
+		type: "item",
+		item: "gtadditions:ga_dust 1 292"
+	}]
+}

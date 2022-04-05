@@ -1,0 +1,11 @@
+{
+	x: -10.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "179b9110",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_heating_coil 1 2"
+		}]
+	}]
+}

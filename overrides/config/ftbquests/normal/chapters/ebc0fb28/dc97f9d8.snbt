@@ -1,0 +1,20 @@
+{
+	icon: "gregtech:machine 1 2242",
+	x: -9.0d,
+	y: 0.0d,
+	dependencies: [
+		"90335ca4"
+	],
+	tasks: [{
+		uid: "802886e9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2242"
+		}]
+	}],
+	rewards: [{
+		uid: "7e276ed0",
+		type: "item",
+		item: "gregtech:machine 1 2242"
+	}]
+}

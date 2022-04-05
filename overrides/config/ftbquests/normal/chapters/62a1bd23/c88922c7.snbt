@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	dependencies: [
+		"f8b66849"
+	],
+	tasks: [{
+		uid: "09aef25d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_platinum_metallic_powder_0 1 3"
+		}]
+	},
+	{
+		uid: "0ab7420a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_palladium_metallic_powder_0"
+		}]
+	},
+	{
+		uid: "ac77b6bd",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_rhodium_salt_0"
+		}]
+	}]
+}

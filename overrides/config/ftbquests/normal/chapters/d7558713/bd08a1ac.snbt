@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	dependencies: [
+		"00542359"
+	],
+	tasks: [{
+		uid: "938eee16",
+		type: "checkmark",
+		title: "Radon Naquadriaoctofluoride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "radon_naquadriaoctafluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

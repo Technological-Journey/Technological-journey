@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"While diesel is an appealing power choice for seasoned gregtech players, biodiesel is far surperior as it can be setup now and completely forgotten about. Check the power tab for more information."
+	],
+	dependencies: [
+		"d60e1c63",
+		"ca325b81"
+	],
+	optional: true,
+	tasks: [{
+		uid: "49bb3120",
+		type: "checkmark",
+		title: "Diesel Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fuel",
+				Amount: 1000
+			}
+		}
+	}]
+}

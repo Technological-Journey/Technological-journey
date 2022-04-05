@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	dependencies: [
+		"6df7a2bb",
+		"6a3c2e10"
+	],
+	tasks: [{
+		uid: "c8a6f896",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32254"
+		}],
+		count: 12L
+	},
+	{
+		uid: "4b1eb886",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32253"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1dda67a5",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32252"
+		}],
+		count: 16L
+	}]
+}

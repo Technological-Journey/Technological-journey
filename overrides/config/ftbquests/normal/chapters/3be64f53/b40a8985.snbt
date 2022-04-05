@@ -1,0 +1,14 @@
+{
+	x: -16.5d,
+	y: -3.5d,
+	text: [
+		"How do you even pronounce this one?"
+	],
+	tasks: [{
+		uid: "fb4952d3",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 255"
+		}]
+	}]
+}

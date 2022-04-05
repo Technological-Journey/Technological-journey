@@ -1,0 +1,27 @@
+{
+	x: -0.5d,
+	y: 11.0d,
+	shape: "hexagon",
+	dependencies: [
+		"74bb6bfc"
+	],
+	tasks: [{
+		uid: "b81f3001",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10183"
+		}]
+	}],
+	rewards: [{
+		uid: "624a6dc2",
+		type: "item",
+		item: "gregtech:pure_ore_ruby_0",
+		count: 16
+	},
+	{
+		uid: "43ddbab1",
+		type: "item",
+		item: "gregtech:pure_ore_pyrolusite_0",
+		count: 8
+	}]
+}

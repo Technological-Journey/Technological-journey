@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: -4.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0a345603"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c734a701",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4235"
+		}]
+	},
+	{
+		uid: "bac4240d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4237"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"23cda739"
+	],
+	tasks: [{
+		uid: "824d8206",
+		type: "item",
+		items: [{
+			item: "libvulpes:productingot 1 6"
+		}]
+	}]
+}

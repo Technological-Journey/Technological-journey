@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "e7ce271f",
+		type: "checkmark",
+		title: "Titanium 50",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "titanium50",
+				Amount: 1000
+			}
+		}
+	}]
+}

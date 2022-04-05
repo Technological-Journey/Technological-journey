@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	dependencies: [
+		"ef8461f9"
+	],
+	tasks: [{
+		uid: "1a0097c5",
+		type: "checkmark",
+		title: "Radon-Cracked Light Enriched Naquadah Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rn_cracked_light_e_naquadah",
+				Amount: 1000
+			}
+		}
+	}]
+}

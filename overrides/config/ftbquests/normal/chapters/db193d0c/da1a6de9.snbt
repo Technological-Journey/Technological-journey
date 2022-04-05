@@ -1,0 +1,16 @@
+{
+	x: 9.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "222190e2",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oxygen",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

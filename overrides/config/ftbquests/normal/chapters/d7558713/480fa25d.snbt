@@ -1,0 +1,13 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"58710a1d"
+	],
+	tasks: [{
+		uid: "bea60519",
+		type: "checkmark",
+		title: "Rhodium Filter Cake Dust",
+		icon: "gregtech:meta_item_1 1 2862"
+	}]
+}

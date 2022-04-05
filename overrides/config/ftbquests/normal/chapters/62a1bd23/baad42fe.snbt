@@ -1,0 +1,22 @@
+{
+	x: -4.5d,
+	y: 8.0d,
+	text: [
+		"Resonating wands used to start crafts for many astral tables. There are also rumors that if a wand is held in your off hand at night on Pluto important places to dig may reveal themself"
+	],
+	dependencies: [
+		"d4b33f89"
+	],
+	tasks: [{
+		uid: "b79ce1dc",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

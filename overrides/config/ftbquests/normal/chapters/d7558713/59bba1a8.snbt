@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 4.0d,
+	dependencies: [
+		"bd08a1ac"
+	],
+	tasks: [{
+		uid: "68ee3aeb",
+		type: "checkmark",
+		title: "Naqudria-Caesium-Xenonnonfluoride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "naquadria_cesium_xenon_nonfluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

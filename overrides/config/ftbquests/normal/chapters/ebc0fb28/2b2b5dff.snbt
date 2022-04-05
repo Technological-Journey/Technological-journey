@@ -1,0 +1,14 @@
+{
+	icon: "astralsorcery:itemcraftingcomponent 1 1",
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"00d542c2"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "37255180",
+		type: "checkmark",
+		title: "Starmetal"
+	}]
+}

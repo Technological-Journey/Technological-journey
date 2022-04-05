@@ -1,0 +1,13 @@
+{
+	x: -2.5d,
+	y: -8.0d,
+	dependencies: [
+		"e5e87aff"
+	],
+	tasks: [{
+		uid: "fdf5ed25",
+		type: "checkmark",
+		title: "Neutron Plasma",
+		icon: "gtadditions:ga_meta_item 1 32449"
+	}]
+}

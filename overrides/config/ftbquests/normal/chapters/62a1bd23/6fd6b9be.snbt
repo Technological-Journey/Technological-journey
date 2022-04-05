@@ -1,0 +1,46 @@
+{
+	title: "To the Moon!",
+	x: -1.0d,
+	y: 1.0d,
+	description: "In order to find rutile you will need to travel to the moon",
+	text: [
+		"So far, you've only had access to bauxite processing as a source of rutile. Now that you've built a rocket, you're able to explore other planets and moons ",
+		"to find rare materials and fluids. The first stop is the moon, which is useful for rutile and bauxite ores for more titanium, along with dilithium to power a warp core",
+		" which will enable you to visit more exotic locations."
+	],
+	dependencies: [
+		"e6d4eebb"
+	],
+	tasks: [{
+		uid: "1a8f8043",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:moonturf_dark"
+		}]
+	},
+	{
+		uid: "77a5fb7b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:moonturf"
+		}]
+	}],
+	rewards: [{
+		uid: "b5897122",
+		type: "item",
+		item: "draconicevolution:dislocator_pedestal",
+		count: 2
+	},
+	{
+		uid: "1877c30c",
+		type: "item",
+		item: "draconicevolution:dislocator",
+		count: 2
+	},
+	{
+		uid: "726c1402",
+		type: "item",
+		item: "advancedrocketry:thermitetorch",
+		count: 10
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	dependencies: [
+		"69ca2a1f"
+	],
+	tasks: [{
+		uid: "3b94ba43",
+		type: "checkmark",
+		title: "Fluorocarborane",
+		icon: "gtadditions:ga_dust 1 934"
+	}]
+}

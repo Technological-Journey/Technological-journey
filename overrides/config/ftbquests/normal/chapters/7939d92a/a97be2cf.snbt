@@ -1,0 +1,13 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	dependencies: [
+		"fb1cd987"
+	],
+	tasks: [{
+		uid: "84119da8",
+		type: "checkmark",
+		title: "Uncommon Residues",
+		icon: "gtadditions:ga_dust 1 951"
+	}]
+}

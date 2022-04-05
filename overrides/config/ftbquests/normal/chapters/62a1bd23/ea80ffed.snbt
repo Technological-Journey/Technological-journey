@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"Base range is 200 blocks. Each tier adds 50 block range"
+	],
+	dependencies: [
+		"312e3e54"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d4db96b2",
+		type: "item",
+		items: [{
+			item: "magicfeather:magicfeather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

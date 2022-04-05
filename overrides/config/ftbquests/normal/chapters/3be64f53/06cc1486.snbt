@@ -1,0 +1,13 @@
+{
+	icon: "gtadditions:ga_dust 1 914",
+	x: -5.0d,
+	y: -3.5d,
+	dependencies: [
+		"764347ec"
+	],
+	tasks: [{
+		uid: "8b256a1f",
+		type: "checkmark",
+		title: "acetonitrile"
+	}]
+}

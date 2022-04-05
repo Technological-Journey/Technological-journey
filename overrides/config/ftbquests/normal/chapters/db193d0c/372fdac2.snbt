@@ -1,0 +1,9 @@
+{
+	title: "Nobelium Comming SoonTM",
+	x: 10.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "21f45337",
+		type: "checkmark"
+	}]
+}

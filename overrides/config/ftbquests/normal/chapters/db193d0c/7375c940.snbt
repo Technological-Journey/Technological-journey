@@ -1,0 +1,16 @@
+{
+	x: 11.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "23c04442",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "neon",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

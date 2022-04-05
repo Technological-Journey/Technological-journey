@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"6d281e91"
+	],
+	tasks: [{
+		uid: "f8c9a480",
+		type: "item",
+		items: [{
+			id: "extracells:storage.physical",
+			Damage: 2s,
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

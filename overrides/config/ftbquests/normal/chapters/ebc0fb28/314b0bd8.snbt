@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -9.0d,
+	dependencies: [
+		"32568a62"
+	],
+	tasks: [{
+		uid: "bc6d0612",
+		type: "checkmark",
+		title: "Clear Enriched Naquadah Liquid Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "clear_e_naquadah_liquid",
+				Amount: 1000
+			}
+		}
+	}]
+}

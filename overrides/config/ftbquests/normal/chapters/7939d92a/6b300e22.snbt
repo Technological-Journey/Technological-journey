@@ -1,0 +1,13 @@
+{
+	x: -6.0d,
+	y: 2.0d,
+	dependencies: [
+		"a97be2cf"
+	],
+	tasks: [{
+		uid: "e29a5eea",
+		type: "checkmark",
+		title: "Partially Oxidized Residues",
+		icon: "gtadditions:ga_dust 1 952"
+	}]
+}

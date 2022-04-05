@@ -1,0 +1,16 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"If you look carefully, every single thing in this process is completely recycled with the exception of Naquadric Compound Dust. This is a mammoth processing line, and isn't all needed at once. You wont need enriched naquadah until sometime in LuV, and you wont need naquadria until ZPM. "
+	],
+	dependencies: [
+		"9e3d5177"
+	],
+	tasks: [{
+		uid: "79d9e49a",
+		type: "checkmark",
+		title: "Naquadric Compound Dust",
+		icon: "gregtech:meta_item_1 1 2748"
+	}]
+}

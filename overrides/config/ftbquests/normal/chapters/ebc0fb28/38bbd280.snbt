@@ -1,0 +1,20 @@
+{
+	title: "Methanol or Ethanol?",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "methanol",
+			Amount: 1000
+		}
+	},
+	x: -7.5d,
+	y: -4.0d,
+	text: [
+		"Methanol is better in the end but Ethanol may be easier in the beginning"
+	],
+	tasks: [{
+		uid: "74cd6c6c",
+		type: "checkmark",
+		title: "Methanol or Ethanol"
+	}]
+}

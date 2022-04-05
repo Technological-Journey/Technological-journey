@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	dependencies: [
+		"81609339"
+	],
+	tasks: [{
+		uid: "c014555a",
+		type: "checkmark",
+		title: "Fluorinated Ethylene Propylene (FEP)",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluorinated_ethylene_propylene",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Man it can be fun to cheat",
+	icon: {
+		id: "astralsorcery:itemknowledgeshare",
+		tag: {
+			astralsorcery: {
+				creativeKnowledge: 1b
+			}
+		}
+	},
+	x: -4.5d,
+	y: -5.5d,
+	text: [
+		"If you would like to use astral purely as a Tech mod with great QOL, use this quest to completely skip over all of astrals research progression and learn all constellations."
+	],
+	dependencies: [
+		"6057fcc7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d98ac274",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5d8f3f6a",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemknowledgeshare",
+			tag: {
+				astralsorcery: {
+					creativeKnowledge: 1b
+				}
+			}
+		}
+	}]
+}

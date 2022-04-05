@@ -1,0 +1,20 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "benzylamine",
+			Amount: 1000
+		}
+	},
+	x: -6.0d,
+	y: -3.5d,
+	dependencies: [
+		"f7cc2378",
+		"a51d1231"
+	],
+	tasks: [{
+		uid: "08342c0d",
+		type: "checkmark",
+		title: "benzylamine"
+	}]
+}

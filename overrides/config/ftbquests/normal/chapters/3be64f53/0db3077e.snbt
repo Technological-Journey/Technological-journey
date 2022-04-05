@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "diisopropylcarbodiimide",
+			Amount: 1000
+		}
+	},
+	x: -8.5d,
+	y: 1.5d,
+	dependencies: [
+		"a843fa47",
+		"b652c03f",
+		"d6234115"
+	],
+	tasks: [{
+		uid: "28916869",
+		type: "checkmark",
+		title: "Diisopropylcarbodiimide"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: -3.5d,
+	dependencies: [
+		"c806f9e2",
+		"cfcc22de"
+	],
+	tasks: [{
+		uid: "63eeb03c",
+		type: "checkmark",
+		title: "Ethylenedioxythiophene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethylenedioxythiophene",
+				Amount: 1000
+			}
+		}
+	}]
+}

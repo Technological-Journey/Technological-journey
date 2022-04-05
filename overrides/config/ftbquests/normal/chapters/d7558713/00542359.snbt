@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 2.0d,
+	dependencies: [
+		"084b4611"
+	],
+	tasks: [{
+		uid: "2f42da94",
+		type: "checkmark",
+		title: "Naquadria hexafluoride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "naquadria_hexafluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

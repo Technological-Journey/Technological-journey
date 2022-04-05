@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"It's not lemony... be happy we dont have Pams :)"
+	],
+	tasks: [{
+		uid: "6820420a",
+		type: "checkmark",
+		title: "Citric Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "citric_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

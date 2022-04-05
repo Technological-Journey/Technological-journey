@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"If you look through JEI, you can cut your finished crystal chips to effectively double them, requireing only an emerald plate and 72mb of rutherfordium per cycle. "
+	],
+	dependencies: [
+		"7b06cc63"
+	],
+	tasks: [{
+		uid: "50bbe564",
+		type: "checkmark",
+		title: "Crystal CPU Loop",
+		icon: "gregtech:meta_item_1 1 32721"
+	}]
+}

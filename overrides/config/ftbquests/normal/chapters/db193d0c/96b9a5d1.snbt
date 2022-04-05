@@ -1,0 +1,16 @@
+{
+	x: -5.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "1d6bbdc5",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrogen",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

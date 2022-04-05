@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	dependencies: [
+		"71313e4b"
+	],
+	tasks: [{
+		uid: "0691e1d3",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tritanium_0"
+		}]
+	},
+	{
+		uid: "bfea9a6b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_rutherfordium_0"
+		}]
+	},
+	{
+		uid: "be675b03",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_duranium_0"
+		}]
+	}]
+}

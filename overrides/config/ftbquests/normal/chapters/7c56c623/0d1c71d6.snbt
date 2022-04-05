@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "3b229d26",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "cce6352b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12780",
+		count: 16
+	}]
+}

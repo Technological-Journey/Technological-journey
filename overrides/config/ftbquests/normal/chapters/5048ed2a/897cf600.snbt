@@ -1,0 +1,59 @@
+{
+	x: 6.0d,
+	y: 0.5d,
+	dependencies: [
+		"9a766554"
+	],
+	tasks: [{
+		uid: "aff6dec6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2538"
+		}]
+	},
+	{
+		uid: "d3286ac5",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4ef5ae59",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 4L
+	},
+	{
+		uid: "b9b0707a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "1c1a5a10",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "ceb38534",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}],
+		count: 19L
+	},
+	{
+		uid: "d7d249dc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "48f37c3c",
+		type: "checkmark",
+		title: "Ethylene Glycol",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethylene_glycol",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	shape: "hexagon",
+	text: [
+		"holy shit, you did it. "
+	],
+	dependencies: [
+		"28306ad1",
+		"166ac341",
+		"7588073b",
+		"fef01d2f"
+	],
+	hide_text_until_complete: true,
+	size: 1.75d,
+	tasks: [{
+		uid: "9768426a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32549"
+		}]
+	}],
+	rewards: [{
+		uid: "9671d8d1",
+		type: "item",
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "You're the best GT player in the world."
+				}
+			}
+		}
+	}]
+}

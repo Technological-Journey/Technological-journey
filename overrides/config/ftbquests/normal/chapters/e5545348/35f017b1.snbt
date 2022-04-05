@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	shape: "circle",
+	dependencies: [
+		"7ebbb4e1",
+		"0874d40e",
+		"0e6084a7"
+	],
+	tasks: [{
+		uid: "acc25c57",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32440"
+		}]
+	}],
+	rewards: [{
+		uid: "2ad4316f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2025"
+	},
+	{
+		uid: "837287de",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2005"
+	}]
+}

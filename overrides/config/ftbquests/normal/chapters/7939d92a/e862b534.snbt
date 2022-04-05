@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 5.5d,
+	dependencies: [
+		"2bc84737"
+	],
+	tasks: [{
+		uid: "0d4669c9",
+		type: "checkmark",
+		title: "Taranium Rich Helium 4 Plasma",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "taranium_rich_helium_4_plasma",
+				Amount: 1000
+			}
+		}
+	}]
+}

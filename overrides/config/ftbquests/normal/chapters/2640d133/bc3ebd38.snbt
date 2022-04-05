@@ -1,0 +1,27 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	description: "Multiblock Madness",
+	text: [
+		"The freedom wrench is very useful for building & debugging multiblocks. It can be used to rotate controllers to build multiblocks in unconventional ",
+		"orientations (shift right click on controller), or to either preview, build or debug multiblock structures (right click on controller). To change mode, shift right click the air. ",
+		"",
+		"Note: The build function does not work with tiered components, which must be placed by hand. It will also not magically know what hatch and bus layout you want."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"23cda739"
+	],
+	tasks: [{
+		uid: "1028ed17",
+		type: "item",
+		items: [{
+			id: "gtadditions:ga_meta_item",
+			Damage: 32309s,
+			tag: {
+				GT.Detrav: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

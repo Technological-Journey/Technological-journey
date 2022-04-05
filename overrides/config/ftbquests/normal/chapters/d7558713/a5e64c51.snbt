@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"a2c1b4bd"
+	],
+	tasks: [{
+		uid: "96ae5dba",
+		type: "checkmark",
+		title: "Rhodium Sulfate Solution Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rhodium_sulfate_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "21c0e816",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 506"
+		}]
+	}],
+	rewards: [{
+		uid: "6af6afbb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2047",
+		count: 8
+	},
+	{
+		uid: "01837527",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2032",
+		count: 8
+	}]
+}

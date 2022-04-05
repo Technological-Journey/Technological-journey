@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"A block of neutronium each. lol. "
+	],
+	dependencies: [
+		"65ae9864"
+	],
+	tasks: [{
+		uid: "c371285f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32551"
+		}]
+	}]
+}

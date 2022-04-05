@@ -1,0 +1,14 @@
+{
+	title: "Petrochem",
+	icon: "gregtech:machine 1 2537",
+	x: -3.0d,
+	y: -3.5d,
+	text: [
+		"You'll need pretty robust petrochem to do starlight fuel. Consider drilling for toluene, octane, and oil on titan?"
+	],
+	tasks: [{
+		uid: "b5eccedb",
+		type: "checkmark",
+		title: "Petrochem is your Friend"
+	}]
+}

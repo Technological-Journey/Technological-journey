@@ -1,0 +1,16 @@
+{
+	title: "Alterative Pu244",
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"With fusion you can create Pu-244 with Helium and Uranium-238"
+	],
+	dependencies: [
+		"c075d208"
+	],
+	tasks: [{
+		uid: "6ec9e88e",
+		type: "checkmark",
+		title: "A Alternative way too get Plutonium-244"
+	}]
+}

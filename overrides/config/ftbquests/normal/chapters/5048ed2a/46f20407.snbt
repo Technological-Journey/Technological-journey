@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: 1.5d,
+	dependencies: [
+		"58b39e1a"
+	],
+	tasks: [{
+		uid: "4cc20b0f",
+		type: "checkmark",
+		title: "12x Tiny Pile of Recprecipitated Palladium Dust",
+		icon: "gregtech:meta_item_1 1 893"
+	},
+	{
+		uid: "9825b861",
+		type: "checkmark",
+		title: "10x Small Pile Of palladium Salt Dust",
+		icon: "gregtech:meta_item_1 1 1892"
+	}]
+}

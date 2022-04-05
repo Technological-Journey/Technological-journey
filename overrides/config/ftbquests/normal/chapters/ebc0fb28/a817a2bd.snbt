@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -6.0d,
+	dependencies: [
+		"45accf70"
+	],
+	tasks: [{
+		uid: "aa8cbdf5",
+		type: "checkmark",
+		title: "Fluorine-Cracked light Naquadah Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fl_cracked_light_naquadah",
+				Amount: 1000
+			}
+		}
+	}]
+}

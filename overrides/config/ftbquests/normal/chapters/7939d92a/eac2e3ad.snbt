@@ -1,0 +1,20 @@
+{
+	x: -16.0d,
+	y: 1.5d,
+	dependencies: [
+		"ef736a17"
+	],
+	tasks: [{
+		uid: "9c685cb8",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32336"
+		}]
+	}],
+	rewards: [{
+		uid: "17dea7b6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10682",
+		count: 8
+	}]
+}

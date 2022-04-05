@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 7.0d,
+	text: [
+		"Plastic!"
+	],
+	dependencies: [
+		"123f9971"
+	],
+	tasks: [{
+		uid: "062d4ff3",
+		type: "checkmark",
+		title: "Polyethylene Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plastic",
+				Amount: 1000
+			}
+		}
+	}]
+}

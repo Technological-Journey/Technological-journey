@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"71313e4b"
+	],
+	tasks: [{
+		uid: "51129b8b",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_naquadah_enriched_0"
+		}]
+	},
+	{
+		uid: "d0dd1f38",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_naquadah_0"
+		}]
+	},
+	{
+		uid: "91566e83",
+		type: "item",
+		items: [{
+			item: "gregtech:pure_ore_naquadria_0"
+		}]
+	}]
+}

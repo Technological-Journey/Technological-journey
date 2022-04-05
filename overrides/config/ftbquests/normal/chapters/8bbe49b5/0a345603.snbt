@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"For now the ways of getting rutile is through aluminum refining and vanadium slag. This will allow you to get better HV circuits to go to the moon"
+	],
+	dependencies: [
+		"1108ab57"
+	],
+	tasks: [{
+		uid: "813a3a0b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10072"
+		}]
+	}],
+	rewards: [{
+		uid: "2db60040",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2122",
+		count: 16
+	}]
+}

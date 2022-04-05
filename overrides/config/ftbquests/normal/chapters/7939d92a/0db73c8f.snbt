@@ -1,0 +1,67 @@
+{
+	title: "Advanced Fusion Mk3",
+	icon: "gregtech:machine 1 3237",
+	x: -15.5d,
+	y: 5.5d,
+	shape: "hexagon",
+	text: [
+		"Here we go again!"
+	],
+	dependencies: [
+		"be0ce3fe"
+	],
+	tasks: [{
+		uid: "9044acda",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_cryostat_casing 1 2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "3b6e87f2",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_divertor_casing 1 2"
+		}],
+		count: 47L
+	},
+	{
+		uid: "b96181ba",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_vacuum_casing 1 2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "532b8921",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_vacuum_casing 1 2"
+		}],
+		count: 36L
+	},
+	{
+		uid: "3410ce3c",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 6"
+		}],
+		count: 64L
+	},
+	{
+		uid: "cc0089f9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 6"
+		}],
+		count: 59L
+	}],
+	rewards: [{
+		uid: "1e865a58",
+		type: "item",
+		item: "gregtech:pure_ore_tantalite_0",
+		count: 128
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"829d7871",
+		"3c6dd9e6"
+	],
+	tasks: [{
+		uid: "0ae6248b",
+		type: "checkmark",
+		title: "Poly(amic) Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polyamic_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

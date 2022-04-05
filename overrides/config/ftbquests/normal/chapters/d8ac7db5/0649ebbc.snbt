@@ -1,0 +1,23 @@
+{
+	title: "Sulfanilamide",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "sulfanilamide",
+			Amount: 1000
+		}
+	},
+	x: 3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "7a4d7f69",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfanilamide",
+				Amount: 1000
+			}
+		}
+	}]
+}

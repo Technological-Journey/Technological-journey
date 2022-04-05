@@ -1,0 +1,16 @@
+{
+	x: 10.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "7770d7bf",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "bromine",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

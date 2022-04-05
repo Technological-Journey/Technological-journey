@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "benzyl_chloride",
+			Amount: 1000
+		}
+	},
+	x: -7.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "703d44f9",
+		type: "checkmark",
+		title: "benzyl chloride lead"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "isopropyl_alcohol",
+			Amount: 1000
+		}
+	},
+	x: -8.5d,
+	y: 2.5d,
+	text: [
+		"Dont even think about drinking it just cause its called alcohol"
+	],
+	tasks: [{
+		uid: "3b607130",
+		type: "checkmark",
+		title: "Isopropyl Alcohol"
+	}]
+}

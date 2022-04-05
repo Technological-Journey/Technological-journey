@@ -1,0 +1,43 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c13f0d80",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4178"
+		}]
+	},
+	{
+		uid: "0a5893ce",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4175"
+		}]
+	},
+	{
+		uid: "f303c51d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4176"
+		}]
+	},
+	{
+		uid: "936566fb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4177"
+		}]
+	},
+	{
+		uid: "be99c3c1",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 22L
+	}]
+}

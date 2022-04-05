@@ -1,0 +1,35 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	dependencies: [
+		"cf0e8a28"
+	],
+	tasks: [{
+		uid: "8c806961",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32545"
+		}]
+	},
+	{
+		uid: "13028d7f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32544"
+		}]
+	},
+	{
+		uid: "0ae7438f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32543"
+		}]
+	},
+	{
+		uid: "91b26021",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32542"
+		}]
+	}]
+}

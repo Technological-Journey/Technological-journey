@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	text: [
+		"Brain in a jar.",
+		"",
+		"You'll need a lot of these."
+	],
+	dependencies: [
+		"3b264835"
+	],
+	tasks: [{
+		uid: "d72abfb7",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32015"
+		}]
+	}]
+}

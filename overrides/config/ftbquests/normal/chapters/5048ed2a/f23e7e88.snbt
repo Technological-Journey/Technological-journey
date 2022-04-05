@@ -1,0 +1,96 @@
+{
+	icon: "gregtech:machine 1 2530",
+	x: -4.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"8bedbe81"
+	],
+	tasks: [{
+		uid: "9b1d4c78",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2530"
+		}]
+	},
+	{
+		uid: "a015253b",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 1"
+		}],
+		count: 15L
+	},
+	{
+		uid: "31f66ceb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "6ac41d44",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 14"
+		}]
+	},
+	{
+		uid: "d91009e7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "395d7078",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		consume_items: false,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "153907f9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}],
+		count: 3L
+	},
+	{
+		uid: "a41863cb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 2L
+	},
+	{
+		uid: "dc84b558",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 710"
+		}]
+	},
+	{
+		uid: "b2f5d0b7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 711"
+		}]
+	}],
+	rewards: [{
+		uid: "779a0bf0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12145",
+		count: 32
+	},
+	{
+		uid: "6429ea3b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2900",
+		count: 32
+	}]
+}

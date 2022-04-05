@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "843da2ef",
+		type: "checkmark",
+		title: "Bismuth Nitrate Solution",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "bismuth_nitrate_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

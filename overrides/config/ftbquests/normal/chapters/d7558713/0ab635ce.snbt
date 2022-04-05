@@ -1,0 +1,24 @@
+{
+	title: "Attunement",
+	x: 4.5d,
+	y: -5.0d,
+	text: [
+		"If you do not want to bother with astral attunement you can check this quest to be attuned with vicio"
+	],
+	dependencies: [
+		"8ef72b16"
+	],
+	optional: true,
+	tasks: [{
+		uid: "93125ce2",
+		type: "checkmark",
+		icon: "astralsorcery:itemhandtelescope"
+	}],
+	rewards: [{
+		uid: "ce9b3b96",
+		type: "command",
+		auto: "disabled",
+		command: "/astralsorcery attune @p astralsorcery.constellation.vicio",
+		player_command: true
+	}]
+}

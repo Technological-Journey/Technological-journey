@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: 2.0d,
+	dependencies: [
+		"710d9498"
+	],
+	tasks: [{
+		uid: "eee7f7e7",
+		type: "checkmark",
+		title: "Enriched Naquadahhexafluoride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "enriched_naquadahhexafluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

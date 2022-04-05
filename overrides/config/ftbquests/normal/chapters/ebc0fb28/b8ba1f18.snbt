@@ -1,0 +1,24 @@
+{
+	icon: "gregtech:machine 1 520",
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"Draconium is a pretty broken rotor matieral. "
+	],
+	dependencies: [
+		"6a1aae9b"
+	],
+	tasks: [{
+		uid: "7e7dd27e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2543"
+		}]
+	}],
+	rewards: [{
+		uid: "9d5f9f0e",
+		type: "item",
+		item: "gregtech:meta_item_2 1 15047",
+		count: 32
+	}]
+}

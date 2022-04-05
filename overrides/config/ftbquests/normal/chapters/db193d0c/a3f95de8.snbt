@@ -1,0 +1,12 @@
+{
+	title: "Element 119",
+	x: -2.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "df473234",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10312"
+		}]
+	}]
+}

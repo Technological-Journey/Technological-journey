@@ -1,0 +1,19 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "dimethylhidrazine",
+			Amount: 1000
+		}
+	},
+	x: -4.5d,
+	y: -3.0d,
+	dependencies: [
+		"32236a02"
+	],
+	tasks: [{
+		uid: "3f112ada",
+		type: "checkmark",
+		title: "1,1-Dimethylhydrazine"
+	}]
+}

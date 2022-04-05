@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 5.0d,
+	dependencies: [
+		"eaedd8fa",
+		"3d8698e5"
+	],
+	tasks: [{
+		uid: "0dd57651",
+		type: "checkmark",
+		title: "Iron III Chloride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "iron_chloride",
+				Amount: 1000
+			}
+		}
+	}]
+}

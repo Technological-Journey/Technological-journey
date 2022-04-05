@@ -1,0 +1,19 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hydroxylamine_hydrochloride",
+			Amount: 1000
+		}
+	},
+	x: -5.0d,
+	y: -1.5d,
+	dependencies: [
+		"efc701b2"
+	],
+	tasks: [{
+		uid: "c198feaf",
+		type: "checkmark",
+		title: "hydroxylamine hydrochloride"
+	}]
+}

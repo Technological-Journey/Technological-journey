@@ -1,0 +1,27 @@
+{
+	x: -1.0d,
+	y: 8.5d,
+	text: [
+		"Oil",
+		"Iodized Oil",
+		"Chaorcal Byproducts",
+		"Toluene",
+		"Methanol",
+		"Octane"
+	],
+	dependencies: [
+		"a9f32bcf"
+	],
+	tasks: [{
+		uid: "6ae4af86",
+		type: "checkmark",
+		title: "Fluid Veins",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil",
+				Amount: 1000
+			}
+		}
+	}]
+}

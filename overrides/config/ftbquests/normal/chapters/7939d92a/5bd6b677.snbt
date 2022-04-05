@@ -1,0 +1,22 @@
+{
+	title: "methoxybenzylidene (MBBA)",
+	x: -17.5d,
+	y: 7.0d,
+	dependencies: [
+		"075c158c",
+		"6691dd8a",
+		"89795afa",
+		"b0d4c5bb"
+	],
+	tasks: [{
+		uid: "8d8e9b2c",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mbba",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"In order to get tunstate you may choose to mine or use lava in a large centrifuge"
+	],
+	tasks: [{
+		uid: "524ca8ae",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2191"
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "you’re a Noob Harry",
+	x: -3.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	text: [
+		"So you’ve made it through UV in Gregtech, congratulations you're a noob. From now on the recipes, power generation methods and chemistry are significantly more difficult. With this you can now enter the next phase of Gregtech: UV and beyond.",
+		"",
+		"This is typically asumed to be a pointless flex, but its actually a relatively good test of your infrastrucuture. You'll need well over this amount of tritanium going forward, and if you can't make the BAN then you most likely aren't ready to move forward without taking a look at your infrastructure and reevaluating."
+	],
+	dependencies: [
+		"ab6495e1"
+	],
+	tasks: [{
+		uid: "3c3f7bcb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:certificate_of_being_a_noob"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db9d1779",
+		type: "item",
+		item: {
+			id: "gtadditions:ga_meta_item2",
+			Damage: 7s,
+			tag: {
+				Charge: 1843200000L
+			}
+		}
+	},
+	{
+		uid: "d6d750a0",
+		type: "item",
+		item: {
+			id: "gtadditions:ga_meta_item2",
+			Damage: 7s,
+			tag: {
+				Charge: 1843200000L
+			}
+		}
+	}]
+}

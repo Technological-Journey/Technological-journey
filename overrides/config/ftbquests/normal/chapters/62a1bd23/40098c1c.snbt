@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 7.0d,
+	text: [
+		"The astral tome is very important for tracking progress. It will also be useful for perks after attunement"
+	],
+	dependencies: [
+		"0321978d"
+	],
+	tasks: [{
+		uid: "b322ffb0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

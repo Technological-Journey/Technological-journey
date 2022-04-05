@@ -1,0 +1,13 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	dependencies: [
+		"1c86f6a9"
+	],
+	tasks: [{
+		uid: "b0883bc1",
+		type: "checkmark",
+		title: "Stone Residue Dust",
+		icon: "gtadditions:ga_dust 1 944"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 6.5d,
+	y: 7.0d,
+	dependencies: [
+		"d0ec5ad2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2bdd4f0a",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "bisphenol_a",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "18e387fe",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "bisphenol_a",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"9cb25d42"
+	],
+	tasks: [{
+		uid: "c583be47",
+		type: "checkmark",
+		title: "Rhodium Salt Dust",
+		icon: "gregtech:meta_item_1 1 2867"
+	}]
+}

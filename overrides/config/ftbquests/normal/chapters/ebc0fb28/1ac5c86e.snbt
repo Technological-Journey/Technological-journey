@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -10.0d,
+	dependencies: [
+		"45de6cd6"
+	],
+	tasks: [{
+		uid: "68e8aa88",
+		type: "checkmark",
+		title: "Naquadah Solution Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "e_naquadah_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

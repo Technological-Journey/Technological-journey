@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"For a quick source of food why not use a looting 3 knife"
+	],
+	dependencies: [
+		"4764a007"
+	],
+	tasks: [{
+		uid: "761a974c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 18s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

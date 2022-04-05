@@ -1,0 +1,24 @@
+{
+	x: -10.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"Wurtz my beloved. This one's fun to pronounce."
+	],
+	dependencies: [
+		"0cba75fd"
+	],
+	tasks: [{
+		uid: "05f7f78a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 919"
+		}]
+	}],
+	rewards: [{
+		uid: "341123cb",
+		type: "item",
+		item: "gtadditions:ga_dust 1 919",
+		count: 16
+	}]
+}

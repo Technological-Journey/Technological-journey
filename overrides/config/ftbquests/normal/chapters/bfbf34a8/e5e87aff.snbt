@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -9.5d,
+	tasks: [{
+		uid: "167d04cc",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_simple_block"
+		}]
+	}]
+}

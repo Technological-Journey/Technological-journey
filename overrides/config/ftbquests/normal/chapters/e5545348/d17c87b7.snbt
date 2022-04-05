@@ -1,0 +1,67 @@
+{
+	x: 2.5d,
+	y: -5.0d,
+	text: [
+		"The solar sample is required to find out what fluid is in a given chunk. To use, place down with a solar panel on top and place the data stick inside."
+	],
+	dependencies: [
+		"714944d8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "90cf1256",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4239"
+		}]
+	},
+	{
+		uid: "629a2620",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "2e2b8a27",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "dc66e257",
+		type: "item",
+		items: [{
+			item: "gregtech:frame_steel"
+		}],
+		count: 15L
+	},
+	{
+		uid: "3417ea40",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 714"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5220a223",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4024"
+		}]
+	}],
+	rewards: [{
+		uid: "bcd093b5",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32752"
+	},
+	{
+		uid: "f0500bbe",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32708"
+	}]
+}

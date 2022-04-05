@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "78d0cc70",
+		type: "checkmark",
+		title: "Vitamin A",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "vitamin_a",
+				Amount: 1000
+			}
+		}
+	}]
+}

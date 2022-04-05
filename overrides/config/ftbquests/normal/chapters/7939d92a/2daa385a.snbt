@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 6.0d,
+	dependencies: [
+		"e862b534"
+	],
+	tasks: [{
+		uid: "cab24b51",
+		type: "checkmark",
+		title: "Taranium Rich Liquid Helium 4",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "taranium_rich_helium_4",
+				Amount: 1000
+			}
+		}
+	}]
+}

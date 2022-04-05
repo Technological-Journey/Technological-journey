@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 5.0d,
+	dependencies: [
+		"59bba1a8"
+	],
+	tasks: [{
+		uid: "cb26ccc6",
+		type: "checkmark",
+		title: "Naquadria Caesiumfluoride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "naquadria_cesiumfluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

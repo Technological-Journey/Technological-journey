@@ -1,0 +1,11 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "c2ad6da6",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 0.5d,
+	dependencies: [
+		"140c17f0"
+	],
+	tasks: [{
+		uid: "1c287ba4",
+		type: "checkmark",
+		title: "Palladium Enriched Ammonia Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "palladium_enriched_ammonia",
+				Amount: 1000
+			}
+		}
+	}]
+}

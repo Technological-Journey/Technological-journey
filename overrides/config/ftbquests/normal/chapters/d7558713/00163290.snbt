@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "cc514f0f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 207"
+		}]
+	},
+	{
+		uid: "2a51ae7f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 206"
+		}]
+	},
+	{
+		uid: "0285f195",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 254"
+		}]
+	}]
+}

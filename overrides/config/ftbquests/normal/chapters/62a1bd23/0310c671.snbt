@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 3.5d,
+	dependencies: [
+		"10342fa4"
+	],
+	tasks: [{
+		uid: "d224f448",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_rarest_metal_residue_0"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 14.099999999999989d,
+	y: 0.5d,
+	dependencies: [
+		"6f38e78a",
+		"c5c2940d"
+	],
+	tasks: [{
+		uid: "0e3a8339",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32502"
+		}]
+	}],
+	rewards: [{
+		uid: "2e8145c5",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32500",
+		count: 6
+	}]
+}

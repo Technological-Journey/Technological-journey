@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: -0.5d,
+	dependencies: [
+		"7b23e539"
+	],
+	tasks: [{
+		uid: "6202d29e",
+		type: "checkmark",
+		title: "Cesium Carborane Precursor",
+		icon: "gtadditions:ga_dust 1 932"
+	}]
+}

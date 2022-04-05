@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: -5.5d,
+	text: [
+		"Liquid starlight has many uses including fuel, superconductors, and material enhancers"
+	],
+	dependencies: [
+		"6057fcc7"
+	],
+	tasks: [{
+		uid: "1dc89748",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}]
+}

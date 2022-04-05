@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 6.0d,
+	dependencies: [
+		"b13ab417"
+	],
+	tasks: [{
+		uid: "196cb41f",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconium_capacitor",
+			Damage: 1s,
+			tag: {
+				DEUpgrades: {
+					rfCap: 4b
+				},
+				Energy: 1920000000
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

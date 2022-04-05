@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "e4f20aef",
+		type: "checkmark",
+		title: "Ammonium Chloride Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ammonium_chloride",
+				Amount: 1000
+			}
+		}
+	}]
+}

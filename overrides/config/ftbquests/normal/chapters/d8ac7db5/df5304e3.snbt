@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		"Yummy. This is your first fairly large scale chemical opperation, involving 6 bioreactors at minimum if propperly passived. You'll need hundreds of thousands of buckets of this before you graduate from wetware and bioware, so make this setup pretty robust. "
+	],
+	dependencies: [
+		"81073c06",
+		"fc725b5b",
+		"0649ebbc"
+	],
+	tasks: [{
+		uid: "021f25c9",
+		type: "checkmark",
+		title: "Sterilized Growth Medium Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sterilized_growth_medium",
+				Amount: 1000
+			}
+		}
+	}]
+}

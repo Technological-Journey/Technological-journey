@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"c39e8558"
+	],
+	tasks: [{
+		uid: "ff1c841b",
+		type: "checkmark",
+		title: "Gene Therapy Fluid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pluripotency_induction_gene_therapy_fluid",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "74cbcf4f",
+		type: "checkmark",
+		title: "Dinitrodipropanyloxybenzene Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dinitrodipropanyloxybenzene",
+				Amount: 1000
+			}
+		}
+	}]
+}

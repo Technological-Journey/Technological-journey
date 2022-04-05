@@ -1,0 +1,22 @@
+{
+	title: "Uranium 234,235,238  Hexafluoride Bucket",
+	x: 6.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"211e1d30"
+	],
+	tasks: [{
+		uid: "0b1361a2",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hexafluoride.uranium_radioactive234",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Blaze Spawner",
+	icon: "enderio:block_powered_spawner",
+	x: 3.5d,
+	y: 3.5d,
+	shape: "circle",
+	text: [
+		""
+	],
+	dependencies: [
+		"217132c4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4c62d75f",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6a7fa602",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e3977a46",
+		type: "item",
+		item: {
+			id: "enderio:block_powered_spawner",
+			tag: {
+				entityId: "minecraft:blaze"
+			}
+		}
+	},
+	{
+		uid: "c8e5ed30",
+		type: "item",
+		item: "enderio:item_soul_vial",
+		count: 9
+	}]
+}

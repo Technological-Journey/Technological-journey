@@ -1,0 +1,17 @@
+{
+	x: -11.5d,
+	y: -2.5d,
+	text: [
+		"Each craft of this makes nearly a thousand Actinium Superhydride. You can almost defnitely get away with making this once or twice. "
+	],
+	dependencies: [
+		"486b3649"
+	],
+	tasks: [{
+		uid: "aa9619e2",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32473"
+		}]
+	}]
+}

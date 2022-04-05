@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "564832be",
+		type: "checkmark",
+		title: "Krypton Diflouride",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "krypton_difluoride",
+				Amount: 1000
+			}
+		}
+	}]
+}

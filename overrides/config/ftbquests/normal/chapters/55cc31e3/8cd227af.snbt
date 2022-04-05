@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	text: [
+		"This is your last \"easy\" circuit. As mentioned elsewhere in this tab, chemistry and processing lines are about to become considerably harder. The next circuit requires about as much infrastrucutre as you already have setup, including advanced fusion, a new plastic, a significant amount of chemistry, and about 20 new blast furance materials. Make sure you can mass produce these, as you'll be on them for a while. "
+	],
+	dependencies: [
+		"b94ff27b",
+		"a033a401"
+	],
+	tasks: [{
+		uid: "d210123e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32401"
+		}]
+	}]
+}

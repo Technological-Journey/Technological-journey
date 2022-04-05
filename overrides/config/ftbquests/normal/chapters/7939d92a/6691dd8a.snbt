@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "a64cae22",
+		type: "checkmark",
+		title: "Butylaniline",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "butylaniline",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	dependencies: [
+		"72d67dba"
+	],
+	tasks: [{
+		uid: "1236aef7",
+		type: "checkmark",
+		title: "Dirty Hexyfluorosilic Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dirty_hexafluorosilicic_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

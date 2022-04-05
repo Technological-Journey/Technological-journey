@@ -1,0 +1,35 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	dependencies: [
+		"d05666c9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "aee27077",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b88b3cf",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemtunedcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					},
+					constellationName: "astralsorcery.constellation.octans"
+				}
+			}
+		}
+	}]
+}

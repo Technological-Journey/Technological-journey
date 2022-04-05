@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	text: [
+		"If you need to find uranium ore for conduits, this card is preconfigued to it. However, your prospector is a much more powerful tool and you should probably be using that anyways."
+	],
+	dependencies: [
+		"c2f0ab79"
+	],
+	tasks: [{
+		uid: "4a9beac6",
+		type: "checkmark",
+		icon: "gregtech:ore_uranium_radioactive_0"
+	}],
+	rewards: [{
+		uid: "08f285e0",
+		type: "item",
+		item: {
+			id: "scannable:module_block",
+			tag: {
+				meta: 0,
+				block: "gregtech:ore_uranium_radioactive_0"
+			}
+		}
+	}]
+}

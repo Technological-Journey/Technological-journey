@@ -1,0 +1,23 @@
+{
+	title: "deimos dim ID 406",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"03bbe3af"
+	],
+	tasks: [{
+		uid: "292a1730",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_44 1 14"
+		}]
+	},
+	{
+		uid: "ae635ff1",
+		type: "dimension",
+		dim: 406
+	}]
+}

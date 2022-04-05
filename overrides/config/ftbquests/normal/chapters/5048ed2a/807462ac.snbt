@@ -1,0 +1,13 @@
+{
+	x: 6.0d,
+	y: -4.5d,
+	dependencies: [
+		"d8e9b92d"
+	],
+	tasks: [{
+		uid: "d839ce45",
+		type: "checkmark",
+		title: "Uranium Dioxide",
+		icon: "gtadditions:ga_meta_item 1 3822"
+	}]
+}

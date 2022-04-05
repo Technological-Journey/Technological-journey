@@ -1,0 +1,14 @@
+{
+	x: 11.100000000000005d,
+	y: 2.5d,
+	text: [
+		"Yeah, you can't use SMD's for this one. Remember when these were a pain to craft?"
+	],
+	tasks: [{
+		uid: "c7ea9ac7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32455"
+		}]
+	}]
+}

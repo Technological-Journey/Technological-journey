@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: -2.5d,
+	dependencies: [
+		"2fa2422a",
+		"06cc1486",
+		"e8ecc5a3"
+	],
+	tasks: [{
+		uid: "f75eb595",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 916"
+		}]
+	}]
+}

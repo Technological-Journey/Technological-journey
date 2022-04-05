@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -5.0d,
+	text: [
+		"Tired of checking for maintenance often? ",
+		"Try an auto-taping maintenance hatch, just place tape in the hatch and when there is an issue it will auto apply tape to fix it."
+	],
+	optional: true,
+	tasks: [{
+		uid: "a2fbad4f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4214"
+		}]
+	}]
+}

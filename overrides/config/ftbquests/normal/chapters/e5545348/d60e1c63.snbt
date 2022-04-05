@@ -1,0 +1,32 @@
+{
+	title: "Sulfuric Heavy Fuel",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "sulfuric_heavy_fuel",
+			Amount: 1000
+		}
+	},
+	x: 2.5d,
+	y: -3.0d,
+	dependencies: [
+		"26b8984b",
+		"d17c87b7"
+	],
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "f664957f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2b728c7b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2132"
+	},
+	{
+		uid: "7e4c0d52",
+		type: "item",
+		item: "gtadditions:ga_dust 1 292"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -7.0d,
+	dependencies: [
+		"eda37b30"
+	],
+	tasks: [{
+		uid: "aa383768",
+		type: "checkmark",
+		title: "Naquadah Gas Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "complicated_naquadah_gas",
+				Amount: 1000
+			}
+		}
+	}]
+}

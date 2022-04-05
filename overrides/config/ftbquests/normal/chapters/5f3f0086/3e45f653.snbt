@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -6.0d,
+	dependencies: [
+		"d83c9621"
+	],
+	tasks: [{
+		uid: "dfa703de",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e4f2656a",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 6s,
+			tag: {
+				GT.ToolStats: {
+					Material: "rose_gold"
+				}
+			}
+		},
+		only_one: true
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -7.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "8d4dc779",
+		type: "checkmark",
+		title: "Sodium Formate Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sodium_formate",
+				Amount: 1000
+			}
+		}
+	}]
+}

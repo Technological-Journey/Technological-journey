@@ -1,0 +1,20 @@
+{
+	x: -7.5d,
+	y: -8.5d,
+	text: [
+		"Scheelite can be used along side tungstate, however it requires hydrogen peroxide setup in order to implement."
+	],
+	optional: true,
+	tasks: [{
+		uid: "41555175",
+		type: "checkmark",
+		title: "Even More Tungsten",
+		icon: "gregtech:ore_scheelite_0"
+	}],
+	rewards: [{
+		uid: "475614de",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2158",
+		count: 32
+	}]
+}

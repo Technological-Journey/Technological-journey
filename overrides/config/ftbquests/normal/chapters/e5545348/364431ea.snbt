@@ -1,0 +1,34 @@
+{
+	title: "Sulfuric Naphtha",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"26b8984b",
+		"d17c87b7"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c6df048f",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_naphtha",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "d527139c",
+		type: "item",
+		item: "gtadditions:ga_dust 1 292"
+	},
+	{
+		uid: "1aa2b791",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2132"
+	}]
+}

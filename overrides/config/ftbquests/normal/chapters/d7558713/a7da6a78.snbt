@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "c79cec5e",
+		type: "checkmark",
+		title: "Platinum Residue Dust",
+		icon: "gregtech:meta_item_1 1 2898"
+	},
+	{
+		uid: "bd9a44a1",
+		type: "checkmark",
+		title: "Potassium Disulfate Dust",
+		icon: "gregtech:meta_item_1 1 2888"
+	}]
+}

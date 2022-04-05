@@ -1,0 +1,40 @@
+{
+	x: 0.5d,
+	y: -5.5d,
+	shape: "hexagon",
+	text: [
+		"Flux plugs can wirelessly transmit EU. This can serve as an oppertunity to completely revamp your likely struggling power infrastructure. Each flux point can only output one amp at a time, so you will have to get good at using transformers to make this an effective strategy. However, it also enables centralized power without needing a huge and therefore laggy energynet using GT cables. It's probably a good idea to work on switching to a centralized power generation system. Maybe consider hyper fuel?"
+	],
+	dependencies: [
+		"9dd00879"
+	],
+	tasks: [{
+		uid: "f26e2dbe",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	},
+	{
+		uid: "49a66455",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}],
+	rewards: [{
+		uid: "3fd51be2",
+		type: "item",
+		item: "fluxnetworks:fluxplug"
+	},
+	{
+		uid: "7e7a4620",
+		type: "item",
+		item: "fluxnetworks:fluxpoint"
+	},
+	{
+		uid: "ad852e1c",
+		type: "item",
+		item: "fluxnetworks:gargantuanfluxstorage"
+	}]
+}

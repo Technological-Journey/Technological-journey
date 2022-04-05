@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "8bceda10",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32460"
+		}],
+		count: 32L
+	},
+	{
+		uid: "3b419054",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32459"
+		}],
+		count: 12L
+	},
+	{
+		uid: "c686acfd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32458"
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}

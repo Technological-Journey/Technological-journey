@@ -1,0 +1,26 @@
+{
+	icon: "gtadditions:ga_meta_item 1 32343",
+	x: -2.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"The slightly OP stuff"
+	],
+	dependencies: [
+		"af42cfa2",
+		"2b2b5dff",
+		"2bdb3e05"
+	],
+	tasks: [{
+		uid: "e7537d70",
+		type: "checkmark",
+		title: "Starlight Rocket Fuel",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "starlight_rocketfuel",
+				Amount: 1000
+			}
+		}
+	}]
+}

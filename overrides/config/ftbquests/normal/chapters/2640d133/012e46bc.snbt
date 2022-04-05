@@ -1,0 +1,67 @@
+{
+	title: "LBB (Large Bronze Boiler)",
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"The large bronze boiler can provide steam for up to 16 LV steam turbines. It can be fueled by creosote, charcoal, and any other burnable fuels.",
+		"",
+		"A good early power setup is a LBB fed by 3 coke ovens. The first coke oven makes logs into charcoal, and the other two convert the charcoal produced into creosote and coke. The ratios here work out perfectly, and provides enough fuel overhead to run a second LBB if needed. "
+	],
+	dependencies: [
+		"ab7bedfb",
+		"0520b86b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3f84002f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 521"
+		}]
+	},
+	{
+		uid: "84b851a3",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 23L
+	},
+	{
+		uid: "7cb15beb",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 7L
+	},
+	{
+		uid: "3d7c3a2b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "c675de2a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}]
+	},
+	{
+		uid: "40c27e83",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "b4ef33f5",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing"
+		}],
+		count: 2L
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"a5e64c51"
+	],
+	tasks: [{
+		uid: "b0ecb2ab",
+		type: "checkmark",
+		title: "Crude Rhodium Metal Dust",
+		icon: "gregtech:meta_item_1 1 2868"
+	}]
+}

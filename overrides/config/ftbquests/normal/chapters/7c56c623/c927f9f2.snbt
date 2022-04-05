@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"37db5eea"
+	],
+	tasks: [{
+		uid: "e364d2e9",
+		type: "checkmark",
+		title: "Awakened Draconic Plasma",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plasma.awaken_draconium",
+				Amount: 1000
+			}
+		}
+	}]
+}

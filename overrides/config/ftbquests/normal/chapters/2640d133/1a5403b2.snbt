@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "Hot Hot Hot!",
+	text: [
+		"Steam machines have to vent off steam after each process. It is important that you don’t cover this spot and don't be in the space when a steam machine is venting.",
+		"",
+		"You also probably dont want to touch the hot steam pipes."
+	],
+	dependencies: [
+		"ab7bedfb"
+	],
+	tasks: [{
+		uid: "6f5634f4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	}]
+}

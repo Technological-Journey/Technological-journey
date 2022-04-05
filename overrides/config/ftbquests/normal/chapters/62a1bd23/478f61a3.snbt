@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: 7.5d,
+	dependencies: [
+		"a9f32bcf"
+	],
+	tasks: [{
+		uid: "ffbdb042",
+		type: "item",
+		items: [{
+			item: "gregtech:rich_ore_graphite_0 1 10"
+		}]
+	},
+	{
+		uid: "ad0041fb",
+		type: "item",
+		items: [{
+			item: "gregtech:rich_ore_oilsands_0 1 10"
+		}]
+	}]
+}

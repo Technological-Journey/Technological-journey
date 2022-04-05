@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 6.5d,
+	dependencies: [
+		"c2f0ab79"
+	],
+	tasks: [{
+		uid: "d477f09f",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}]
+	}]
+}

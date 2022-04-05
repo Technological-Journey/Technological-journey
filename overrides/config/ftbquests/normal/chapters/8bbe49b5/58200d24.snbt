@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"#wiki in the TJ discord contains a link discribing how to build the structures and go to space. You can also just ask us questions :)"
+	],
+	tasks: [{
+		uid: "026a6c05",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 9L
+	},
+	{
+		uid: "8edfd520",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 6L
+	}]
+}

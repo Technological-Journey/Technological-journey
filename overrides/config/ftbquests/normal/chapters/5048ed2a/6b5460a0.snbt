@@ -1,0 +1,13 @@
+{
+	x: -6.5d,
+	y: -6.5d,
+	dependencies: [
+		"6009a4cc"
+	],
+	tasks: [{
+		uid: "de6073d0",
+		type: "checkmark",
+		title: "Tungsten Trioxide Dust",
+		icon: "gregtech:meta_item_1 1 2750"
+	}]
+}

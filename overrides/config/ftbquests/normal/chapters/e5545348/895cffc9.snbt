@@ -1,0 +1,41 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5a048ad7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b4c7323c",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_armor 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "622a6542",
+		type: "item",
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:jumpboost1",
+				"enderio:enabled": 1b
+			}
+		}
+	},
+	{
+		uid: "9b3a7c79",
+		type: "item",
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade",
+				"enderio:enabled": 1b
+			}
+		}
+	}]
+}

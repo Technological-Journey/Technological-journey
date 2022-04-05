@@ -1,0 +1,28 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "9d930629",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_item_viewer"
+		}]
+	},
+	{
+		uid: "70407c25",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_laser_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18cf2c08",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_item"
+		}],
+		count: 7L
+	}]
+}

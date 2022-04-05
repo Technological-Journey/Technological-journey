@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"0d2c8a76"
+	],
+	tasks: [{
+		uid: "bcf2246b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}],
+		count: 2L
+	}]
+}

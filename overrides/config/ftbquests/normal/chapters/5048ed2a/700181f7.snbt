@@ -1,0 +1,75 @@
+{
+	icon: "gregtech:machine 1 2548",
+	x: -6.0d,
+	y: -10.5d,
+	text: [
+		"The large varients of miners work the same as the singleblocks, except they search a larger area (this one does 3x3 chunks), and have the option to miner as if they had fortune (this one has fortune 4, the best scales up to fortune 10). This is increadibly useful. If you haven't figured it out already, you can chunkload the miner and have it output into an ender chest to automatically aquire and process ores while you're confortable working in your base."
+	],
+	dependencies: [
+		"d200fb90"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3163646a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2548"
+		}]
+	},
+	{
+		uid: "62dfe1c9",
+		type: "item",
+		items: [{
+			item: "gregtech:frame_black_steel"
+		}],
+		count: 20L
+	},
+	{
+		uid: "c2466a0a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 702"
+		}]
+	},
+	{
+		uid: "9c375672",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 744"
+		}]
+	},
+	{
+		uid: "53be1d8f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 731"
+		}]
+	},
+	{
+		uid: "0cd1df4c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "385054b9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_2 1 5"
+		}],
+		count: 29L
+	}],
+	rewards: [{
+		uid: "0eee31f5",
+		type: "item",
+		item: "enderstorage:ender_storage",
+		count: 2
+	},
+	{
+		uid: "f4c78fc6",
+		type: "item",
+		item: "enderstorage:ender_storage 1 1",
+		count: 2
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"If you really hate maintenance you can use the Full-auto maintenance hatch. This will completely remove the need for maintenance on multiblocks"
+	],
+	dependencies: [
+		"9ab0b76e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "38c65e34",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4215"
+		}]
+	}],
+	rewards: [{
+		uid: "25f97984",
+		type: "item",
+		item: "gregtech:machine 1 4215"
+	}]
+}

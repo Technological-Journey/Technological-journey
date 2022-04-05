@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	or_tasks: true,
+	tasks: [{
+		uid: "9e3f3709",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32453"
+		}]
+	},
+	{
+		uid: "27015876",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32504"
+		}]
+	}]
+}

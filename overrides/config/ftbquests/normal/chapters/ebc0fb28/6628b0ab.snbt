@@ -1,0 +1,43 @@
+{
+	x: 3.0d,
+	y: -8.0d,
+	dependencies: [
+		"39358747"
+	],
+	tasks: [{
+		uid: "4fa3f1a7",
+		type: "checkmark",
+		title: "Complicated Light Naquadah Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "complicated_light_naquadah",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "2be2bedb",
+		type: "checkmark",
+		title: "Complicated Heavy Naquadah Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "complicated_heavy_naquadah",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "778eae5d",
+		type: "checkmark",
+		title: "Complicated Medium Naquadah Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "complicated_medium_naquadah",
+				Amount: 1000
+			}
+		}
+	}]
+}
