@@ -1972,3 +1972,5 @@ gas_centrifuge.recipeBuilder()
     .duration(210)
     .EUt(30720)
     .buildAndRegister();
+
+recipes.remove(<minecraft:golden_apple:1>);
