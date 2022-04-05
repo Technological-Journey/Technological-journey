@@ -124,19 +124,19 @@
             "slideshow": {
                 "images": [
                     "textures:main4.png",
-                    "textures:mainMenu/slideshow_1.png",
-                    "textures:mainMenu/slideshow_2.png",
-                    "textures:mainMenu/slideshow_3.png",
-                    "textures:mainMenu/slideshow_4.png",
-                    "textures:mainMenu/slideshow_5.png",
-                    "textures:mainMenu/slideshow_6.png",
-                    "textures:mainMenu/slideshow_7.png",
-                    "textures:mainMenu/slideshow_8.png",
-                    "textures:mainMenu/slideshow_9.png",
-                    "textures:mainMenu/slideshow_10.png",
-                    "textures:mainMenu/slideshow_11.png",
-                    "textures:mainMenu/slideshow_12.png",
-                    "textures:mainMenu/slideshow_13.png"
+                    "textures:main_menu/slideshow_1.png",
+                    "textures:main_menu/slideshow_2.png",
+                    "textures:main_menu/slideshow_3.png",
+                    "textures:main_menu/slideshow_4.png",
+                    "textures:main_menu/slideshow_5.png",
+                    "textures:main_menu/slideshow_6.png",
+                    "textures:main_menu/slideshow_7.png",
+                    "textures:main_menu/slideshow_8.png",
+                    "textures:main_menu/slideshow_9.png",
+                    "textures:main_menu/slideshow_10.png",
+                    "textures:main_menu/slideshow_11.png",
+                    "textures:main_menu/slideshow_12.png",
+                    "textures:main_menu/slideshow_13.png"
                 ],
                 "displayDuration": 80,
                 "fadeDuration": 35
