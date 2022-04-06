@@ -1,8 +1,8 @@
 {
 	x: 5.0d,
-	y: -1.5d,
+	y: -2.5d,
 	text: [
-		"It is highly encouraged to make exactly 1 batch of trinium using this method, and the melt it down and replicate it. Trinium is VERY annoying to passive with this method."
+		"The recipes for Trinium production have been significantly changed. Your fluorocarborane is now fully recycled, as well as your perfluorobenzene. The only inputs to this entire line are triniite and carbon nanotubes, making trinium not only possible but actually relatively painless to passive. "
 	],
 	tasks: [{
 		uid: "7fa57add",

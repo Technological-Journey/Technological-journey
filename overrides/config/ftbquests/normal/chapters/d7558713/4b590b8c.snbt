@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"Haha this one's got a funny name"
+	],
+	dependencies: [
+		"04e6f2ba"
+	],
+	tasks: [{
+		uid: "96705d6b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2876"
+		}]
+	}]
+}

@@ -7,7 +7,7 @@
 		}
 	},
 	x: -0.5d,
-	y: -3.0d,
+	y: -2.5d,
 	text: [
 		"Nickel Plasma needs T3 fusion but can run 53 turbines"
 	],

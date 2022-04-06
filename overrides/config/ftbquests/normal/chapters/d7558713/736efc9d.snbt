@@ -4,8 +4,8 @@
 	y: -1.0d,
 	shape: "hexagon",
 	dependencies: [
+		"24d63bc6",
 		"ffafa306",
-		"b77915f0",
 		"b0342527"
 	],
 	tasks: [{

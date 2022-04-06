@@ -1,11 +1,9 @@
 {
 	x: 8.0d,
-	y: 2.5d,
+	y: -0.5d,
 	shape: "hexagon",
 	text: [
-		"Wheeee! That was fun!",
-		"",
-		"I hope you didn't passive it!"
+		"Wheeee! That was fun!"
 	],
 	dependencies: [
 		"d918e352"

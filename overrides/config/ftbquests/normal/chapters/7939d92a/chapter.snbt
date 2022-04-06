@@ -1,6 +1,6 @@
 {
 	title: "UIV age",
-	icon: "gregtech:meta_item_1 1 10717",
+	icon: "gtadditions:ga_meta_item 1 32356",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

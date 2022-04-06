@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	dependencies: [
+		"30b9a5de"
+	],
+	tasks: [{
+		uid: "b34c50b2",
+		type: "checkmark",
+		title: "Ruthenium Tetroxide Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ruthenium_tetroxide",
+				Amount: 1000
+			}
+		}
+	}]
+}

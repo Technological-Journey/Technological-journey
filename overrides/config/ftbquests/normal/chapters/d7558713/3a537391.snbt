@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: -4.0d,
+	dependencies: [
+		"c8747101"
+	],
+	tasks: [{
+		uid: "7e872d2a",
+		type: "checkmark",
+		title: "Hot Ruthenium Tetroxide Solution Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hot_ruthenium_tetroxide_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

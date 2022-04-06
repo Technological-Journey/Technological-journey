@@ -1,6 +1,6 @@
 {
 	title: "Steam age",
-	icon: "gregtech:meta_item_1 1 10095",
+	icon: "contenttweaker:steammotor",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

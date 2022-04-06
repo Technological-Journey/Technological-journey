@@ -1,7 +1,7 @@
 {
 	title: "Portal to the end",
-	x: 0.0d,
-	y: 4.0d,
+	x: 3.0d,
+	y: 6.5d,
 	text: [
 		"The portal to the end has been disabled, instead you must create the random things portal to reach it. "
 	],

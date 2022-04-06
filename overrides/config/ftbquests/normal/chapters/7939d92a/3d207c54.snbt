@@ -1,6 +1,11 @@
 {
 	x: -11.5d,
 	y: 7.0d,
+	text: [
+		"Funny looking tooltip. The stellar forge sure is fun to passive, right?",
+		"",
+		"You're going to want a lot of heavy quarks right now, and a lot of gluons later. It's important to ensure that you don't run out of either, as some processes (like QCD charges) depend on having a significant quantity of one or the other. Maybe consider a crafting card and dummy items? Or you can dedicate a star forge to it."
+	],
 	dependencies: [
 		"68daacbc"
 	],

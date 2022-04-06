@@ -1,8 +1,8 @@
 {
 	title: "Advanced Fusion Mk1",
 	icon: "gregtech:machine 1 3237",
-	x: 8.0d,
-	y: -0.5d,
+	x: 6.0d,
+	y: 0.5d,
 	text: [
 		"If normal fusion is so great, then why is there no fusion 2- oh..."
 	],

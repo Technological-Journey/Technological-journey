@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"682de055"
+	],
+	tasks: [{
+		uid: "7786c99b",
+		type: "checkmark",
+		title: "Acidic Osmium Tetroxide Solution",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "acidic_osmium_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

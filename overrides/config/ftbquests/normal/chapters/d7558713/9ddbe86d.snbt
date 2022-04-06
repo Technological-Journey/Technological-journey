@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -2.0d,
+	dependencies: [
+		"a72e742e"
+	],
+	tasks: [{
+		uid: "0a73bb1c",
+		type: "checkmark",
+		title: "Acidic Iridium Solution Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "acidic_iridium_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -7,7 +7,7 @@
 		}
 	},
 	x: -0.5d,
-	y: -4.0d,
+	y: -3.5d,
 	text: [
 		"Oxygen Plasma only needs fusion T1 and can run 16 Turbines"
 	],

@@ -1,8 +1,8 @@
 {
 	title: "Unfolded Fullerene",
 	icon: "gtadditions:ga_dust 1 68",
-	x: 6.0d,
-	y: 3.5d,
+	x: 10.0d,
+	y: -4.5d,
 	dependencies: [
 		"3a9f1a28"
 	],

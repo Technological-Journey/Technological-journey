@@ -1,6 +1,9 @@
 {
 	x: -10.5d,
 	y: 1.5d,
+	text: [
+		"Thats a lot of fusion rings. Replicate the ones that aren't advanced fusion."
+	],
 	dependencies: [
 		"bb6c976f",
 		"9d3cf458",

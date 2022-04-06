@@ -1,6 +1,7 @@
 {
-	x: 1.5d,
-	y: 6.5d,
+	title: "Fluid Veins",
+	x: 0.0d,
+	y: 5.5d,
 	text: [
 		"Salt water",
 		"Fluorine",

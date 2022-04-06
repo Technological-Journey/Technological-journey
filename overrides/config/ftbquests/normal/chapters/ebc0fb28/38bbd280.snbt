@@ -8,9 +8,11 @@
 		}
 	},
 	x: -7.5d,
-	y: -4.0d,
+	y: -3.5d,
 	text: [
-		"Methanol is better in the end but Ethanol may be easier in the beginning"
+		"If you elect to use biodiesel, you'll see that there are two ways to produce it. ",
+		"",
+		"Methanol is better in terms of EU in to biodiesel produced, as well as fully passive from carbon, oxygen, and hydrogen, but Ethanol may be easier in the beginning due to the fact that a) you need to set Ethanol up for Polyethylene regardless, and b) the relatively small infrastructure requirement it represents."
 	],
 	tasks: [{
 		uid: "74cd6c6c",

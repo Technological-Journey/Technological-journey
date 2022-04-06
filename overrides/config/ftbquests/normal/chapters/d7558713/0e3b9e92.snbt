@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	dependencies: [
+		"64297d08"
+	],
+	tasks: [{
+		uid: "af7e70a8",
+		type: "checkmark",
+		title: "Osmium Tetroxide Solution Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "osmium_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

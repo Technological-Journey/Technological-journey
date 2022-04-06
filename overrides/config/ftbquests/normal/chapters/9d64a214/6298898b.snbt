@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "938fe9b5",
+		type: "checkmark",
+		title: "Ortho-Xylene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ortho_xylene",
+				Amount: 1000
+			}
+		}
+	}]
+}

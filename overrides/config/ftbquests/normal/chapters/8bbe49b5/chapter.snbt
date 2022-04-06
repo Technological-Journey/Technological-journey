@@ -1,6 +1,6 @@
 {
 	title: "HV age",
-	icon: "gregtech:meta_item_1 1 10183",
+	icon: "gregtech:meta_item_1 1 32602",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

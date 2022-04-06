@@ -2,6 +2,9 @@
 	x: -6.0d,
 	y: 7.0d,
 	shape: "hexagon",
+	text: [
+		"You can't replicate this one either. Good luck!"
+	],
 	dependencies: [
 		"2daa385a"
 	],

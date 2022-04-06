@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: 5.5d,
+	x: 1.0d,
+	y: 7.5d,
 	text: [
 		"These ores can be used to suppliment Pu and Np production for nuclear, which you will need as you scale into using a lot of Pu for ",
 		"quantum circuits & beyond."

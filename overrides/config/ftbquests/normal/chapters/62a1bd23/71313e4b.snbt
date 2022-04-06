@@ -1,10 +1,11 @@
 {
 	title: "deimos dim ID 406",
-	x: -2.0d,
-	y: 4.0d,
+	x: 5.5d,
+	y: 6.5d,
 	text: [
 		""
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"03bbe3af"
 	],

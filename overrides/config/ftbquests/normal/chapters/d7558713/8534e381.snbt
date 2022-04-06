@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	text: [
+		"This will get an obscene, and I mean OBSCENE, amount of gold. You will never worry about gold again. "
+	],
+	dependencies: [
+		"4b590b8c"
+	],
+	tasks: [{
+		uid: "90d66efb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2026"
+		}]
+	}]
+}

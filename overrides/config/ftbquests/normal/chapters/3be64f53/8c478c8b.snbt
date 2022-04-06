@@ -6,7 +6,7 @@
 			Amount: 1000
 		}
 	},
-	x: -5.0d,
+	x: -5.5d,
 	y: -1.5d,
 	dependencies: [
 		"efc701b2"

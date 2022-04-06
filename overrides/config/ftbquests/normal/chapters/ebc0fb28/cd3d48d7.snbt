@@ -4,7 +4,7 @@
 	y: -1.5d,
 	shape: "hexagon",
 	text: [
-		"The slightly OP stuff"
+		"The slightly OP stuff. If you have decent infrastructure, this can run your base until UHV. Large rocket engines are... pretty broken."
 	],
 	dependencies: [
 		"af42cfa2",

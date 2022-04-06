@@ -1,6 +1,6 @@
 {
-	x: 0.5d,
-	y: 2.0d,
+	x: 3.0d,
+	y: 5.5d,
 	text: [
 		"Base range is 200 blocks. Each tier adds 50 block range"
 	],

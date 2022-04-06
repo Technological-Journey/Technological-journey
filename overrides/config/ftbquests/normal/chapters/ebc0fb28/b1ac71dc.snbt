@@ -7,7 +7,10 @@
 		}
 	},
 	x: -7.5d,
-	y: -3.0d,
+	y: -2.5d,
+	text: [
+		"If you make biodiesel, you definitely want to be using empowered oil ASAP. It's much more efficient in almost every way, and most importantly offers a massive boost in the amount of biodiesel (and therefore EU) you can produce in a given amount of time. "
+	],
 	tasks: [{
 		uid: "040a881b",
 		type: "checkmark",

@@ -1,6 +1,6 @@
 {
-	x: 3.5d,
-	y: -5.0d,
+	x: -6.5d,
+	y: 7.0d,
 	text: [
 		"While containment chances are small and can only be filled/emptied from bottom they have other important properties. If two are placed near each other the fluids inside can have interactions. Below is a list of a few notable ones",
 		"",

@@ -1,10 +1,11 @@
 {
 	title: "Pluto dim ID 401",
-	x: -2.0d,
-	y: 6.0d,
+	x: -3.0d,
+	y: 6.5d,
 	text: [
 		"This planet has a variety of hot and cold regions.This planet has liquid veins of oxygen, hydrogen, and liquid air."
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"81372634"
 	],

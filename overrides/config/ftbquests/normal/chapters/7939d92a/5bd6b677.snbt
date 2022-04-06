@@ -1,7 +1,10 @@
 {
-	title: "methoxybenzylidene (MBBA)",
+	title: "Methoxybenzylidene (MBBA)",
 	x: -17.5d,
 	y: 7.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"075c158c",
 		"6691dd8a",

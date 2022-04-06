@@ -1,5 +1,5 @@
 {
-	title: "Diesel or Bio Diesel",
+	title: "Diesel or Bio Diesel?",
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
@@ -7,8 +7,13 @@
 			Amount: 1000
 		}
 	},
-	x: -6.0d,
-	y: -5.0d,
+	x: -7.5d,
+	y: -4.5d,
+	text: [
+		"Biodiesel is very strong in this pack, as the canola derivitives have been buffed a significant amount. If you go the diesel route, you will have to find new sources of oil every so often until EV, when you can visit titan. At that point, you will ideally be using alternate sources of power regardless. Therefore, diesel means you are actively monitoring it until you stop relying on it. ",
+		"",
+		"Still, the choice is yours. "
+	],
 	dependencies: [
 		"ac907828"
 	],

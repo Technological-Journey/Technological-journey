@@ -3,7 +3,7 @@
 	x: 5.5d,
 	y: 0.0d,
 	text: [
-		"That's a LOT of power. "
+		"That's a LOT of power. Did you passive degenerate rhenium plasma yet?"
 	],
 	dependencies: [
 		"f9637e9f"

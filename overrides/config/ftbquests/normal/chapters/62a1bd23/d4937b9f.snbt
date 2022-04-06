@@ -1,6 +1,12 @@
 {
-	x: -1.0d,
-	y: 3.5d,
+	title: "Dilithium",
+	x: -5.0d,
+	y: 5.5d,
+	text: [
+		"The moon has Dilithium ore. The GT prospector can't see it, and neither can the GT miners. This is because dilithium ore is added by Vulpes, and means that you will have to do a small amount of lunar mining by hand. However, with propper management you can visit every warp destination using less than a stack of Dilithium in total. ",
+		"",
+		"This vein also contains rutile ore, useful for making titanium in a more efficent way than bauxite electrolysis. Of course, this vein contains bauxite as well. Later on, you may consider setting up the Red Mud processing line to maximize your titanium production."
+	],
 	dependencies: [
 		"6fd6b9be"
 	],

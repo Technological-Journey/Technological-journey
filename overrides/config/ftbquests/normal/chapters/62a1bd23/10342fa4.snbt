@@ -1,10 +1,11 @@
 {
 	title: "Deep Dark Dim ID 404",
-	x: 2.0d,
-	y: 3.5d,
+	x: 4.0d,
+	y: 6.5d,
 	text: [
 		"Once you get into late LUV you can make the Deep dark portal, Many veins in this dimension have been changed to use Pure variants."
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"2849a30d",
 		"312e3e54"
