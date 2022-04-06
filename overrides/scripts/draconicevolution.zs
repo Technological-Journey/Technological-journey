@@ -275,7 +275,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     recipes.remove(<thermalfoundation:upgrade:256>);
 
     assembly_line.recipeBuilder()
-    .inputs(<draconicevolution:chaotic_core> * 4,<draconicadditions:chaotic_energy_core> * 4,<gregtech:meta_item_1:12857> * 64,<gregtech:meta_item_1:12729> * 64,<thermalfoundation:upgrade> ,<thermalfoundation:upgrade:1> ,<draconicevolution:draconium_capacitor:1>)
+    .inputs(<draconicevolution:chaotic_core> * 4,<draconicadditions:chaotic_energy_core> * 4,<gregtech:meta_item_1:12857> * 64,<gregtech:meta_item_1:12729> * 64,<thermalfoundation:upgrade> ,<thermalfoundation:upgrade:1> ,<draconicevolution:draconium_capacitor:1>, <gtadditions:ga_cell_casing:11>,  <gtadditions:ga_meta_item:32377> * 2)
     .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:chaosalloy> * 1440)
     .outputs(<draconicevolution:draconium_capacitor:2>)
     .duration(500)
@@ -283,7 +283,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<extracells:storage.component:3> * 2,<gregtech:meta_item_1:12674>* 64,<gregtech:meta_item_1:12675> * 64,<thermalfoundation:upgrade:2>,<thermalfoundation:upgrade:3>  ,<draconicevolution:chaotic_core> * 2)
+    .inputs(<extracells:storage.component:3> * 2,<gregtech:meta_item_1:12674>* 64,<gregtech:meta_item_1:12675> * 64,<thermalfoundation:upgrade:2>,<thermalfoundation:upgrade:3>  ,<draconicevolution:chaotic_core> * 2, <gtadditions:ga_meta_item:32395> * 2)
     .fluidInputs(<liquid:soldering_alloy> *1440,<liquid:chaosalloy> * 1440,<liquid:heavy_quark_degenerate_matter> * 1440)
     .outputs(<storagedrawers:upgrade_creative>)
     .duration(500)
@@ -332,7 +332,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<thermalfoundation:upgrade:256> * 1,<storagedrawers:upgrade_creative> * 1, <draconicevolution:draconium_capacitor:2>, <contenttweaker:refinedchaoscrystal> * 64, <contenttweaker:refinedchaoscrystal> * 64,<contenttweaker:certificate_of_being_a_noob>, <ore:circuitMax>)
+    .inputs(<thermalfoundation:upgrade:256> * 1,<storagedrawers:upgrade_creative> * 1, <draconicevolution:draconium_capacitor:2>, <contenttweaker:refinedchaoscrystal> * 64, <contenttweaker:refinedchaoscrystal> * 64,<contenttweaker:certificate_of_being_a_noob>, <ore:circuitMax>,<gtadditions:ga_meta_item:32383> * 4)
     .inputs(<draconicadditions:chaos_stabilizer_core>)
     .fluidInputs(<liquid:chaosalloy> * 11520)
     .outputs(<appliedenergistics2:creative_storage_cell>)
