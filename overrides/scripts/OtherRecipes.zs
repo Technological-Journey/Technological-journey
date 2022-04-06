@@ -2143,3 +2143,19 @@ assembly_line.recipeBuilder()
     .duration(600)
     .EUt(15728640)
     .buildAndRegister();
+
+Utils.removeRecipeByOutput(distillery, [], [<liquid:perfluorobenzene> * 2000], true);
+Utils.removeRecipeByOutput(distillery, [], [<liquid:acetylene> * 32000], true);
+Utils.removeRecipeByOutput(distillery, [], [<liquid:boron_fluoride> * 55000], true);
+Utils.removeRecipeByOutput(distillery, [], [<liquid:carbone_fluoride> * 1000], true);
+Utils.removeRecipeByOutput(distillery, [], [<liquid:hydrofluoric_acid> * 32000], true);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32609>], [], true);
+
+
+assembler.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:934> * 50,<gtadditions:ga_dust:69>,<gregtech:meta_item_2:16709> * 6)
+    .outputs(<gtadditions:ga_meta_item:32609>)
+    .fluidInputs(<liquid:perfluorobenzene> * 2000)
+    .duration(350)
+    .EUt(32750)
+    .buildAndRegister();
