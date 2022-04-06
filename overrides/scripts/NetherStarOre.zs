@@ -34,6 +34,7 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:metastable_oganesson>.addFlags(["DISABLE_REPLICATION"]);
 <material:metastable_flerovium>.addFlags(["DISABLE_REPLICATION"]);
 <material:metastable_hassium>.addFlags(["DISABLE_REPLICATION"]);
+<material:trinium>.addFlags(["DISABLE_REPLICATION"]);
 
 
 /*

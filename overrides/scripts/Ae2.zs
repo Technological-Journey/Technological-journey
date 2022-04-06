@@ -628,30 +628,30 @@ engraver.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12001>])
 .notConsumable(<ore:craftingLensWhite>)
 .outputs(<appliedenergistics2:material:19>)
-.duration(30)
-.EUt(160)
+.duration(160)
+.EUt(30)
 .buildAndRegister();
 
 engraver.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12001>])
 .notConsumable(<ore:lensRuby>)
 .outputs(<appliedenergistics2:material:15>)
-.duration(30)
-.EUt(160)
+.duration(160)
+.EUt(30)
 .buildAndRegister();
 
 engraver.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12183>])
 .notConsumable(<ore:craftingLensWhite>)
 .outputs(<appliedenergistics2:material:13>)
-.duration(30)
-.EUt(160)
+.duration(160)
+.EUt(30)
 .buildAndRegister();
 
 engraver.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12183>])
 .notConsumable(<ore:lensRuby>)
 .outputs(<appliedenergistics2:material:14>)
-.duration(30)
-.EUt(160)
+.duration(160)
+.EUt(30)
 .buildAndRegister();
