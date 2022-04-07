@@ -123,7 +123,6 @@ recipes.addShapeless(<gregtech:meta_item_1:2106>, [<enderio:item_material:23>]);
 recipes.addShapeless(<gregtech:meta_item_1:2018>, [<ore:ingotCopper>,<gregtech:meta_tool:12>]);
 recipes.addShapeless(<gregtech:meta_item_1:2033>, [<ore:ingotIron>,<gregtech:meta_tool:12>]);
 recipes.addShapeless(<gregtech:meta_item_1:2106>,[<minecraft:coal>,<gregtech:meta_tool:12>]);
-recipes.addShapeless(<gregtech:meta_item_1:2197>, [<gregtech:meta_item_1:2106>,<gregtech:meta_item_1:2033>]);
 recipes.addShapeless(<enderio:item_material:53>, [<enderio:item_material:52>,<enderio:item_material:1>]);
 recipes.addShapeless(<enderio:item_material:54>, [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>]);
 recipes.addShaped(<enderio:item_endergy_conduit:2> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<gregtech:meta_item_1:10001>, <enderio:item_material:4>, <gregtech:meta_item_1:10001>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);
