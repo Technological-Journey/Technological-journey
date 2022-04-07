@@ -1,9 +1,13 @@
 {
 	x: 2.0d,
-	y: 4.5d,
+	y: 5.0d,
 	shape: "hexagon",
 	text: [
-		"holy shit, you did it. "
+		"This is the end of gregicality, and represents the most advanced circuit in the pack. If you can make this, you can consider gregicality beaten. Some players elected to stop here, which you may find required due to TPS issues. The remainder of the pack represents a considerable challenge for the most seasoned gregtech players and should be respected as such. If you attempt to finish the pack, you'll need to aim towords the creative storage cell.",
+		"",
+		"Post a screenshot of your supra mainframe in the TJ discord for some internet points. ",
+		"",
+		"Thank you for playing, and good luck with the rest of the pack."
 	],
 	dependencies: [
 		"28306ad1",
@@ -11,7 +15,6 @@
 		"7588073b",
 		"fef01d2f"
 	],
-	hide_text_until_complete: true,
 	size: 1.75d,
 	tasks: [{
 		uid: "9768426a",

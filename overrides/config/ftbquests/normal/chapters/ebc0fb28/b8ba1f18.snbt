@@ -3,7 +3,9 @@
 	x: -0.5d,
 	y: 0.0d,
 	text: [
-		"Draconium is a pretty broken rotor matieral. "
+		"Draconium is a pretty broken rotor matieral. ",
+		"",
+		"Rotor holders have been mega buffed. Plasma turbines will output much more energy than you might expect, given you use huge turbines."
 	],
 	dependencies: [
 		"6a1aae9b"

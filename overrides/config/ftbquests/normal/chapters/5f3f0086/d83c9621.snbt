@@ -4,7 +4,9 @@
 	y: -6.0d,
 	description: "Same old same old, punch a tree.",
 	text: [
-		"Welcome to Technological Journey! Smack a tree a few times for some nice gear."
+		"Welcome to Technological Journey! Smack a tree a few times for some nice gear.",
+		"",
+		"If you want to put hammering on the given hammer, it will allow you to condense different types of ore (ie: stone and diorite) into their crushed varients, at the expense of making more raw items in your inventory. It's your choice."
 	],
 	dependency_requirement: "one_completed",
 	tasks: [{
@@ -81,35 +83,35 @@
 		}
 	},
 	{
-		uid: "08b668b9",
-		type: "item",
-		item: {
-			id: "thermalfoundation:tool.excavator_diamond",
-			tag: {
-				ench: [{
-					lvl: 15s,
-					id: 34s
-				},
-				{
-					lvl: 1s,
-					id: 32s
-				}]
-			}
-		}
-	},
-	{
-		uid: "bcc8fcba",
+		uid: "1c062a7b",
 		type: "item",
 		item: {
 			id: "thermalfoundation:tool.hammer_diamond",
 			tag: {
 				ench: [{
-					lvl: 15s,
-					id: 34s
+					id: 32s,
+					lvl: 15s
 				},
 				{
-					lvl: 1s,
-					id: 32s
+					id: 34s,
+					lvl: 15s
+				}]
+			}
+		}
+	},
+	{
+		uid: "ae4f0e8a",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.excavator_diamond",
+			tag: {
+				ench: [{
+					id: 32s,
+					lvl: 15s
+				},
+				{
+					id: 34s,
+					lvl: 15s
 				}]
 			}
 		}

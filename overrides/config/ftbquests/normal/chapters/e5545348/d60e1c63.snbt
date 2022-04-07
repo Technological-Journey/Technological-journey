@@ -8,7 +8,7 @@
 		}
 	},
 	x: 2.5d,
-	y: -3.0d,
+	y: -3.5d,
 	dependencies: [
 		"26b8984b",
 		"d17c87b7"

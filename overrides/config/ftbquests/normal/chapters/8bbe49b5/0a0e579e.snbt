@@ -1,7 +1,7 @@
 {
 	icon: "gregtech:machine 1 2539",
 	x: -6.0d,
-	y: -3.5d,
+	y: -1.5d,
 	optional: true,
 	tasks: [{
 		uid: "c3adf52e",

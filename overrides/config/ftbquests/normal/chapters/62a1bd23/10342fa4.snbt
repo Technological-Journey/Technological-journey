@@ -3,7 +3,11 @@
 	x: 4.0d,
 	y: 6.5d,
 	text: [
-		"Once you get into late LUV you can make the Deep dark portal, Many veins in this dimension have been changed to use Pure variants."
+		"Once you get into late LUV you can make the Deep dark portal, Many veins in this dimension have been changed to use Pure variants.",
+		"",
+		"§c§lDo not try and go above the top layer of bedrock as you would in the nether. You will be unable to place a light because you're above the build limit. ",
+		"Because there is no light, you will take damage every so often. This damage is just often enough to stop you from using /home, meaning you'll be stuck. ",
+		"When you inevitably die, your grave will not be built because it's over the build limit. It happened to me, once. §r"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

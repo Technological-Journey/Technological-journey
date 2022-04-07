@@ -6,22 +6,10 @@
 	],
 	optional: true,
 	tasks: [{
-		uid: "2bdd4f0a",
-		type: "item",
-		items: [{
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "bisphenol_a",
-				Amount: 1000
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 2b
-	}],
-	rewards: [{
-		uid: "18e387fe",
-		type: "item",
-		item: {
+		uid: "9ebbd24e",
+		type: "checkmark",
+		title: "Bisphenol A Bucket",
+		icon: {
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "bisphenol_a",
