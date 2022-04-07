@@ -162,13 +162,6 @@ chemreactor.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 
-assembler.recipeBuilder()
-.inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19141> * 4])
-.outputs([<appliedenergistics2:part:36> * 4])
-.duration(600)
-.EUt(32)
-.buildAndRegister();
-
 macerator.recipeBuilder()
 .inputs([<gregtech:granite>])
 .outputs([<gregtech:meta_item_1:2251> * 4])
@@ -1970,7 +1963,7 @@ gas_centrifuge.recipeBuilder()
 recipes.remove(<minecraft:golden_apple:1>);
 
 mixer.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2022>, <gregtech:meta_item_1:2010> * 2, <gregtech:meta_item_1:2184> * 6)
+    .inputs(<gregtech:meta_item_1:2022>, <gregtech:meta_item_1:2010> * 2, <gregtech:meta_item_1:2184> * 4,<gregtech:meta_item_1:2008> * 2)
     .outputs(<gregtech:meta_item_1:2526> * 9)
     .duration(400)
     .EUt(16)
@@ -2121,7 +2114,7 @@ large_chem.recipeBuilder()
 centrifuge.recipeBuilder()
     .fluidInputs(<liquid:heavily_fluorinated_trinium_solution> * 8000)
     .fluidOutputs(<liquid:fluorine> * 16000,<liquid:perfluorobenzene> * 2000)
-    .outputs(<gtadditions:ga_dust:938> * 45)
+    .outputs(<gtadditions:ga_dust:938> * 60)
     .duration(350)
     .EUt(32760)
     .buildAndRegister();
@@ -2129,7 +2122,7 @@ centrifuge.recipeBuilder()
 large_centrifuge.recipeBuilder()
     .fluidInputs(<liquid:heavily_fluorinated_trinium_solution> * 8000)
     .fluidOutputs(<liquid:fluorine> * 16000,<liquid:perfluorobenzene> * 2000)
-    .outputs(<gtadditions:ga_dust:938> * 45)
+    .outputs(<gtadditions:ga_dust:938> * 60)
     .duration(350)
     .EUt(32760)
     .buildAndRegister();
@@ -2159,3 +2152,18 @@ assembler.recipeBuilder()
     .duration(350)
     .EUt(32750)
     .buildAndRegister();
+
+//supra computer
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32548>], [], true);
+
+assembly_line.recipeBuilder()
+    .inputs(<gregtech:ga_cable:726> * 64, <gtadditions:ga_meta_item:32542> * 32, <gtadditions:ga_meta_item:32544> * 32, <gtadditions:ga_meta_item:32545> * 32,<gtadditions:ga_meta_item:32543> * 32, <gregtech:meta_item_1:12715> * 32 , <gregtech:meta_item_1:12706> * 16, <gtadditions:ga_meta_item:32426> * 12, <gtadditions:ga_meta_item:32547> * 4, <gregtech:meta_item_1:12993> * 4, <gtadditions:ga_meta_item:32424> * 2, <gtadditions:ga_meta_item:32559>,<gtadditions:ga_meta_item:32568>)
+    .outputs(<gtadditions:ga_meta_item:32548>)
+    .fluidInputs(<liquid:taranium> * 288, <liquid:trinium_titanium> * 288, <liquid:proto_adamantium> * 144)
+    .property("qubit", 8)
+    .duration(100)
+    .EUt(491520000)
+    .buildAndRegister();
+
+<gregtech:wire_coil:7>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
+<gregtech:wire_coil:8>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));

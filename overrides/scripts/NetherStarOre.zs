@@ -108,5 +108,5 @@ chaos.setCableProperties(33554432, 1000, 0);
 chaosalloy.setCableProperties(536870912, 10000, 0);
 
 
-val bright_steel = MaterialRegistry.createIngotMaterial(526, "bright_steel", 0xd3d3d3, "dull" , 4,[<material:steel> * 6, <material:caesium> * 2, <material:europium> * 1]);
+val bright_steel = MaterialRegistry.createIngotMaterial(526, "bright_steel", 0xd3d3d3, "dull" , 4,[<material:steel> * 4 , <material:bismuth> * 2, <material:caesium> * 2, <material:europium> * 1]);
 bright_steel.setCableProperties(8192, 3, 2);

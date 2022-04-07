@@ -62,6 +62,34 @@ assembler.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19141> * 2])
+.outputs([<appliedenergistics2:part:36> * 4])
+.duration(160)
+.EUt(32)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19411>])
+.outputs([<appliedenergistics2:part:36> * 4])
+.duration(160)
+.EUt(32)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19840>])
+.outputs([<appliedenergistics2:part:36> * 6])
+.duration(160)
+.EUt(32)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19730>])
+.outputs([<appliedenergistics2:part:36> * 8])
+.duration(160)
+.EUt(32)
+.buildAndRegister();
+
 wiremill.recipeBuilder()
 .inputs([<appliedenergistics2:material:11>])
 .outputs([<appliedenergistics2:part:140> * 6])
