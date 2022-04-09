@@ -9,8 +9,8 @@
     "generator": {
         "type": "ellipsoid",
         "radius": [
-            18,
-            18
+            15,
+            15
         ]
     },
     "filler": {
@@ -18,16 +18,16 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 25,
+                    "weight": 80,
                     "value": "ore:pure:uranium"
                 },
                 {
-                    "weight": 50,
-                    "value": "ore:pure:neptunium"
+                    "weight": 15,
+                    "value": "ore:poor:neptunium"
                 },
                 {
-                    "weight": 25,
-                    "value": "ore:plutonium_radioactive"
+                    "weight": 5,
+                    "value": "ore:poor:plutonium_radioactive"
                 }
             ]
         }
