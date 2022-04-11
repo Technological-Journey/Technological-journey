@@ -1636,20 +1636,9 @@ mixer.recipeBuilder()
         .EUt(30)
         .buildAndRegister();
 
-        
 Utils.removeRecipeByOutput(arc, [<gregtech:meta_item_1:10673>], [], false);
 Utils.removeRecipeByOutput(parc, [<gregtech:meta_item_1:10673>], [], false);
 Utils.removeRecipeByOutput(fluid_extractor, [], [<liquid:qcd_confined_matter>], false);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32566>], [], true);
-
-assembler.recipeBuilder()
-        .inputs([<gregtech:meta_item_1:12728> * 3,<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12709> * 3])
-        .outputs(<gtadditions:ga_meta_item:32566>)
-        .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000)
-        .duration(280)
-        .EUt(536870900)
-        .buildAndRegister();
-
 
 recipes.addShaped("clay1", <ore:blockClay>.firstItem *8,[[<ore:sand>,<ore:sand>,<ore:sand>],[<ore:sand>,<liquid:water> * 1000,<ore:sand>],[<ore:sand>,<ore:sand>,<ore:sand>]]);
 
@@ -1676,11 +1665,11 @@ assembly_line.recipeBuilder()
 Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32566>], [], true);
 
 assembler.recipeBuilder()
-        .inputs([<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12728> * 3, <gregtech:meta_item_1:12520> * 3])
+        .inputs([<gregtech:meta_item_1:12728> * 3,<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12520> * 3])
         .outputs(<gtadditions:ga_meta_item:32566>)
-        .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000 )
-        .duration(100)
-        .EUt(1474560)
+        .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000)
+        .duration(280)
+        .EUt(536870900)
         .buildAndRegister();
 
 recipes.addShaped(<contenttweaker:steampiston>, [[<gregtech:meta_item_2:17033>, <minecraft:stick>, <minecraft:stick>],[<gregtech:meta_item_2:17033>, <contenttweaker:steammotor>, <gregtech:meta_item_1:12095>], [<gregtech:meta_item_1:12033>, <gregtech:meta_item_1:12033>, <gregtech:meta_item_1:12033>]]);
