@@ -2160,3 +2160,39 @@ assembly_line.recipeBuilder()
 
 <gregtech:wire_coil:7>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 <gregtech:wire_coil:8>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
+
+
+Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2740> * 9], [], true);
+Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2740> * 9], [], true);
+
+Utils.removeRecipeByOutput(centrifuge, [<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2714>], [], true);
+Utils.removeRecipeByOutput(large_centrifuge, [<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2714>], [], true);
+
+mixer.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
+    .outputs(<gregtech:meta_item_1:2740> * 9)
+    .duration(2782)
+    .EUt(30)
+    .buildAndRegister();
+
+largeMix.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
+    .circuit(3)
+    .outputs(<gregtech:meta_item_1:2740> * 9)
+    .duration(2782)
+    .EUt(30)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2740> * 9)
+    .outputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
+    .duration(3082)
+    .EUt(30)
+    .buildAndRegister();
+
+    large_centrifuge.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2740> * 9)
+    .outputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
+    .duration(3082)
+    .EUt(30)
+    .buildAndRegister();
