@@ -136,38 +136,25 @@ for f in sift{
 //nuclear clean up
 for e in <ore:depletedFuelTRISO*>{
 	h(e.firstItem);
-	Utils.removeRecipeByOutput(nuclear_breeder, [e.firstItem], [], false);
-	Utils.removeRecipeByOutput(nuclear_reactor, [e.firstItem], [], false);
 
 }
 
 for e in <ore:fuelTRISO*>{
 	h(e.firstItem);
-	Utils.removeRecipeByOutput(assembler, [e.firstItem], [], true);
 }
 
 for e in <ore:fuelCarbide*>{
 	h(e.firstItem);
-	Utils.removeRecipeByOutput(alloy, [e.firstItem], [], true);
 
 }
 for e in <ore:carbide*>{
 	h(e.firstItem);
-	Utils.removeRecipeByOutput(chemreactor, [e.firstItem], [], false);
-	Utils.removeRecipeByOutput(large_chem, [e.firstItem], [], false);
 
-}
-for e in <ore:nitride*>{
-	h(e.firstItem);
-	Utils.removeRecipeByOutput(chemreactor, [e.firstItem], [], false);
-	Utils.removeRecipeByOutput(large_chem, [e.firstItem], [], false);
 
 }
 
 for e in <ore:depletedFuelZirconiumAlloy*>{
 	h(e.firstItem);
-	Utils.removeRecipeByOutput(nuclear_breeder, [e.firstItem], [], false);
-	Utils.removeRecipeByOutput(nuclear_reactor, [e.firstItem], [], false);
 
 }
 
@@ -175,13 +162,6 @@ for e in <ore:fuelZirconiumAlloy*>{
 	h(e.firstItem);
 }
 
-
-for e in <ore:depletedFuelNitride*>{
-	h(e.firstItem);
-	Utils.removeRecipeByOutput(nuclear_breeder, [e.firstItem], [], false);
-	Utils.removeRecipeByOutput(nuclear_reactor, [e.firstItem], [], false);
-
-}
 
 for e in <ore:fuelNitride*>{
 	h(e.firstItem);

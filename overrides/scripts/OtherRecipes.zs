@@ -1624,13 +1624,6 @@ recipes.addShaped(<gregtech:machine:3208>, [[<gregtech:meta_item_2:17001>, <greg
 recipes.remove(<enderio:item_big_item_filter>);
 recipes.addShaped(<enderio:item_big_item_filter>, [[<gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12215>, <gregtech:meta_item_1:12001>],[<gregtech:meta_item_1:12215>, <enderio:item_basic_item_filter>, <gregtech:meta_item_1:12215>], [<gregtech:meta_item_1:12001>, <gregtech:meta_item_1:12215>, <gregtech:meta_item_1:12001>]]);
 
-fluid_extractor.recipeBuilder()
-        .inputs([<actuallyadditions:item_canola_seed> * 5])
-        .fluidOutputs(<liquid:seed_oil> * 100)
-        .duration(320)
-        .EUt(2)
-        .buildAndRegister();
-
 recipes.addShaped(<draconicevolution:grinder>, [[<gregtech:meta_item_1:12308>, <gregtech:meta_item_2:47>, <gregtech:meta_item_1:12308>],[<gregtech:meta_item_2:47>, <gregtech:machine:505>, <gregtech:meta_item_1:32674>], [<gregtech:meta_item_1:12308>, <gregtech:meta_item_2:47>, <gregtech:meta_item_1:12308>]]);
 
 Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2133> * 5], [], true);
