@@ -1647,7 +1647,7 @@ assembler.recipeBuilder()
         .outputs(<gtadditions:ga_meta_item:32566>)
         .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000)
         .duration(280)
-        .EUt(536870000)
+        .EUt(536870900)
         .buildAndRegister();
 
 
