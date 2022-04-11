@@ -6,10 +6,10 @@
 		"23cda739"
 	],
 	tasks: [{
-		uid: "824d8206",
+		uid: "20849894",
 		type: "item",
 		items: [{
-			item: "libvulpes:productingot 1 6"
+			item: "gregtech:meta_item_1 1 10184"
 		}]
 	}]
 }

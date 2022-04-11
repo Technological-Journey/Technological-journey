@@ -1,6 +1,6 @@
 {
-	x: -3.0d,
-	y: 2.5d,
+	x: -2.0d,
+	y: -1.5d,
 	text: [
 		"The higher tiers of CPU's must be connected to one normal ae2 CPU other than the monitor in order to be recognized"
 	],

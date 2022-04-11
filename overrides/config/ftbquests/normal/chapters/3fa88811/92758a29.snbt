@@ -5,17 +5,10 @@
 		"6d281e91"
 	],
 	tasks: [{
-		uid: "f8c9a480",
+		uid: "b25334be",
 		type: "item",
 		items: [{
-			id: "extracells:storage.physical",
-			Damage: 2s,
-			tag: {
-				upgrades: {},
-				config: {},
-				fuzzyMode: "IGNORE_ALL"
-			}
-		}],
-		ignore_nbt: 1b
+			item: "extracells:storage.component 1 2"
+		}]
 	}]
 }

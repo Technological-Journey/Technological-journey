@@ -1,6 +1,6 @@
 {
-	x: 1.5d,
-	y: 0.5d,
+	x: -1.5d,
+	y: 1.5d,
 	text: [
 		"Feel free to upgrade as much or as little of your infrastructure to MV as you like. It will make processing faster, but will also consume more power. Maybe do biodiesel if you haven't already?"
 	],

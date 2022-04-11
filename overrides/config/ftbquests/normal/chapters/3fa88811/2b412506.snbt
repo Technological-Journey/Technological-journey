@@ -1,5 +1,5 @@
 {
-	x: -1.0d,
+	x: -1.5d,
 	y: -9.0d,
 	text: [
 		"This is used to find presses. ",

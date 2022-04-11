@@ -1,6 +1,6 @@
 {
-	x: 1.5d,
-	y: -5.5d,
+	x: 0.5d,
+	y: -4.5d,
 	text: [
 		"There are two ways to get oil.",
 		"1. You can place a pump over a oil sprout",

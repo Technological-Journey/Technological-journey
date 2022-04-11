@@ -3,7 +3,9 @@
 	y: -1.5d,
 	shape: "hexagon",
 	text: [
-		"Wurtz my beloved. This one's fun to pronounce."
+		"Wurtz my beloved. This one's fun to pronounce.",
+		"",
+		"2,4,6,8,10,12-Hexanitro-2,4,6,8,10,12-hexaazatetracyclo[5.5.0.03,11.05,9]dodecane, if you're looking for the full name."
 	],
 	dependencies: [
 		"0cba75fd"

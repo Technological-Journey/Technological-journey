@@ -3,9 +3,9 @@
 	x: -0.5d,
 	y: -2.5d,
 	text: [
-		"Every recipe has a minimum required voltage to run. Machines with a greater voltage will overclock the recipe and run faster. ",
+		"Every recipe has a minimum required voltage to run. Machines with a greater voltage will overclock the recipe and run faster. This comes at a cost however, for every tier overclock the recipe will run 2.8x faster but cost 4x the power. ",
 		"",
-		"This comes at a cost however, for every tier overclock the recipe will run 2.8x faster but cost 4x the power. For recipes that start  <= 16 eu/t they will overclock 2.0x faster and 4x the energy cost."
+		"For more detailed description of CE energy rules (and some free stuff) check out the power tab."
 	],
 	dependencies: [
 		"e5988795"

@@ -15,22 +15,6 @@
 		}]
 	},
 	{
-		uid: "b7ee92d4",
-		type: "item",
-		items: [{
-			item: "minecraft:redstone"
-		}],
-		count: 5L
-	},
-	{
-		uid: "937bb7cb",
-		type: "item",
-		items: [{
-			item: "minecraft:redstone_torch"
-		}],
-		count: 2L
-	},
-	{
 		uid: "3d9e66c3",
 		type: "item",
 		title: "Any drawerBasic",
@@ -61,5 +45,15 @@
 		uid: "4e02c79b",
 		type: "item",
 		item: "storagedrawers:upgrade_void"
+	},
+	{
+		uid: "e3efb10c",
+		type: "item",
+		item: "enderio:item_redstone_conduit"
+	},
+	{
+		uid: "95adebb2",
+		type: "item",
+		item: "enderio:item_redstone_timer_filter"
 	}]
 }

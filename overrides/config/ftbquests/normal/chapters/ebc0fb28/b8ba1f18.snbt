@@ -18,9 +18,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "9d5f9f0e",
+		uid: "ee3b2116",
 		type: "item",
-		item: "gregtech:meta_item_2 1 15047",
+		item: "gregtech:meta_item_2 1 15518",
 		count: 32
 	}]
 }

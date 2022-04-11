@@ -1,6 +1,6 @@
 {
 	title: "Sulfuric Naphtha",
-	x: 0.5d,
+	x: -0.5d,
 	y: -3.5d,
 	text: [
 		""

@@ -6,13 +6,10 @@
 		"c9b38c24"
 	],
 	tasks: [{
-		uid: "12385fb8",
+		uid: "9e078161",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:storage_cell_4k",
-			tag: {}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			item: "appliedenergistics2:material 1 36"
+		}]
 	}]
 }

@@ -2,7 +2,7 @@
 	x: 13.0d,
 	y: 2.5d,
 	text: [
-		"Yeah, you can't use SMD's for this one. Remember when these were a pain to craft?"
+		"Yeah, you can't use SMD's for the inductors. Remember when these were a pain to craft?"
 	],
 	tasks: [{
 		uid: "c7ea9ac7",

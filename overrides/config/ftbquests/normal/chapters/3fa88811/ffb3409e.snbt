@@ -5,15 +5,10 @@
 		"68c9f480"
 	],
 	tasks: [{
-		uid: "40ddba2b",
+		uid: "4a654c3f",
 		type: "item",
 		items: [{
-			id: "extracells:storage.fluid",
-			Damage: 4s,
-			tag: {
-				fuzzyMode: "IGNORE_ALL"
-			}
-		}],
-		ignore_nbt: 1b
+			item: "extracells:storage.component 1 8"
+		}]
 	}]
 }

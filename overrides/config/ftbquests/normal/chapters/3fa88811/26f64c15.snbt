@@ -1,5 +1,5 @@
 {
-	x: -2.0d,
+	x: -1.0d,
 	y: -1.5d,
 	text: [
 		"This is a lag machine on large networks. You can use it, but consider yourself warned."

@@ -6,7 +6,11 @@
 	text: [
 		"You will need to find a magnetite, limonite, pyrite, or mineral sands vein for iron. ",
 		"",
-		"This iron (optionally converted to wrought iron) can be used to make the tools required for early gregtech. You'll need several of most of these tools, so don't get too attached."
+		"This iron (optionally converted to wrought iron) can be used to make the tools required for early gregtech. You'll need several of most of these tools, so don't get too attached.",
+		"",
+		"Saws cam be used to increase plank yeild.",
+		"",
+		"The Universal Spade functions as a saw and as a crowbar."
 	],
 	dependencies: [
 		"d83c9621"

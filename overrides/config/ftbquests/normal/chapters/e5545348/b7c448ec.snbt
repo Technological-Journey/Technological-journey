@@ -1,6 +1,6 @@
 {
 	title: "Naphtha Bucket",
-	x: 0.5d,
+	x: -0.5d,
 	y: -2.5d,
 	dependencies: [
 		"364431ea"

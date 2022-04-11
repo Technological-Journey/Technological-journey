@@ -1,6 +1,9 @@
 {
 	x: 0.5d,
 	y: -1.5d,
+	text: [
+		"Carbon fiber and glowstone somehow makes your CPU's smaller. A couple of smaller processing lines for SMD's and some stronger subtrates means you can pack even more processing power into your processors. "
+	],
 	dependencies: [
 		"f946dd42",
 		"a93293b7"

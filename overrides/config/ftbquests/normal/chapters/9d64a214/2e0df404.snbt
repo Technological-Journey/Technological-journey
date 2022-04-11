@@ -1,6 +1,9 @@
 {
 	x: 1.5d,
 	y: 2.0d,
+	text: [
+		"Uses extreme amounts of direct energy flow to perform computation similar to electronic circuits. *Technobabble*"
+	],
 	dependencies: [
 		"7b06cc63",
 		"a17d0f77",

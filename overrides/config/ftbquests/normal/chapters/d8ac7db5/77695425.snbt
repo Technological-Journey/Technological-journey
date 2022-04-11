@@ -1,6 +1,9 @@
 {
 	x: 3.5d,
 	y: 6.0d,
+	text: [
+		"Uses organically grown stemcells interfacing with electronic stimulation to perform large scale calculations rapidly. "
+	],
 	dependencies: [
 		"ac8bbac3",
 		"07dd353e",

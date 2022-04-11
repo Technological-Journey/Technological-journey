@@ -6,13 +6,10 @@
 		"bffead08"
 	],
 	tasks: [{
-		uid: "e26aea1d",
+		uid: "7c018242",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:storage_cell_64k",
-			tag: {}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			item: "appliedenergistics2:material 1 38"
+		}]
 	}]
 }

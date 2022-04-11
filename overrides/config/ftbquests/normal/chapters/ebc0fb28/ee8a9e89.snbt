@@ -1,0 +1,16 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"Advanced Fusion requires coolant and produces supercritical coolant. While it may be ideal to use steam and simply void the supercritical output, you can utilize it for power as well. However, be cautious as you probably dont want your power infrastructure to be dependant on consistant advanced fusion."
+	],
+	dependencies: [
+		"01aa292a"
+	],
+	tasks: [{
+		uid: "3a9c6a4e",
+		type: "checkmark",
+		title: "Advanced Fusion Reactor",
+		icon: "gregtech:machine 1 3237"
+	}]
+}

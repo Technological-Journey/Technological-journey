@@ -6,13 +6,10 @@
 		"c8ff141a"
 	],
 	tasks: [{
-		uid: "e10028f4",
+		uid: "75f81490",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:fluid_storage_cell_64k",
-			tag: {}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			item: "appliedenergistics2:material 1 57"
+		}]
 	}]
 }

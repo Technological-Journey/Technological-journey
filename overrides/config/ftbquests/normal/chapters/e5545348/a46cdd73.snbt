@@ -2,7 +2,9 @@
 	x: 4.5d,
 	y: 8.0d,
 	text: [
-		"This is the cheapest LV circuit you will get for a while, at least until you unlock the SoC recipe at a higher voltage tier. It may not seem like much, but remember you used to have to make primitve processors 1 at a time."
+		"This is the cheapest LV circuit you will get for a while, at least until you unlock the SoC recipe at a higher voltage tier. It may not seem like much, but remember you used to have to make primitve processors 1 at a time.",
+		"",
+		"The advent of SMD technology and plastic boards allows for compact and efficent processors. "
 	],
 	dependencies: [
 		"89964f76",

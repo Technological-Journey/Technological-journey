@@ -7,13 +7,10 @@
 		"793c8c7e"
 	],
 	tasks: [{
-		uid: "74148225",
+		uid: "1d50e329",
 		type: "item",
 		items: [{
-			id: "appliedenergistics2:storage_cell_1k",
-			tag: {}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			item: "appliedenergistics2:material 1 35"
+		}]
 	}]
 }

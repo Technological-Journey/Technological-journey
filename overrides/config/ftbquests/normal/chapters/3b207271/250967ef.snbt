@@ -26,15 +26,21 @@
 		consume_items: true
 	}],
 	rewards: [{
-		uid: "e1705300",
+		uid: "ffee1dba",
+		type: "item",
+		item: "enderio:item_soul_vial",
+		count: 10
+	},
+	{
+		uid: "365003b8",
 		type: "item",
 		item: {
 			id: "enderio:block_powered_spawner",
 			tag: {
 				"enderio:data": {
-					isSpawnMode: 1b,
+					isSpawnMode: 0b,
 					currentTask-: 1b,
-					lastCompletedRecipe-: 1b,
+					lastCompletedRecipe: "PoweredTaskRecipe",
 					inventory: {
 						size: 3,
 						0+: 1b,
@@ -42,7 +48,7 @@
 						2: {
 							id: "enderio:item_basic_capacitor",
 							Count: 1b,
-							Damage: 2s
+							Damage: 0s
 						}
 					},
 					redstoneControlMode: 0,
@@ -51,16 +57,10 @@
 						size: 0
 					}
 				},
-				"enderio:energy": 500000,
-				"enderio:maxenergy": 500000,
+				"enderio:energy": 100000,
+				"enderio:maxenergy": 100000,
 				entityId: "minecraft:enderman"
 			}
 		}
-	},
-	{
-		uid: "ffee1dba",
-		type: "item",
-		item: "enderio:item_soul_vial",
-		count: 10
 	}]
 }

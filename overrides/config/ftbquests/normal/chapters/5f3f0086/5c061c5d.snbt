@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"Aroma mining dimension exists, but contains no ores. It's intended to be used for base building, and so is gated behind practically nothing.",
+		"",
+		"Also, if you need to find a rubber tree, we can't figure out how to make GT not spawn them here. So they're everywhere."
+	],
+	tasks: [{
+		uid: "4407f4e7",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3edef09a",
+		type: "item",
+		item: "aroma1997sdimension:portalframe",
+		count: 10
+	}]
+}

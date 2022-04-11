@@ -6,6 +6,10 @@
 		"",
 		"These also contain their contents when broken."
 	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49faaf5c"
+	],
 	tasks: [{
 		uid: "ad2871a5",
 		type: "item",

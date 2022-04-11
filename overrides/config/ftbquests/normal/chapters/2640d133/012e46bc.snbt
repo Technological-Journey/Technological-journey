@@ -1,7 +1,7 @@
 {
 	title: "LBB (Large Bronze Boiler)",
 	x: 1.0d,
-	y: 0.5d,
+	y: -1.0d,
 	text: [
 		"The large bronze boiler can provide steam for up to 16 LV steam turbines. It can be fueled by creosote, charcoal, and any other burnable fuels.",
 		"",
@@ -33,7 +33,7 @@
 		items: [{
 			item: "gregtech:boiler_firebox_casing"
 		}],
-		count: 7L
+		count: 6L
 	},
 	{
 		uid: "3d7c3a2b",
@@ -47,7 +47,8 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 712"
-		}]
+		}],
+		count: 2L
 	},
 	{
 		uid: "40c27e83",

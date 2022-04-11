@@ -2,6 +2,9 @@
 	x: 1.0d,
 	y: -5.5d,
 	shape: "hexagon",
+	text: [
+		"Just a step up from an abacus. Primitive technology, but it runs your LV machines."
+	],
 	dependencies: [
 		"f367c0ce",
 		"7dc9562d",

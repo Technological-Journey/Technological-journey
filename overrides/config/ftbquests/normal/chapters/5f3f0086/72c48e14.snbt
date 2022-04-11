@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -6.0d,
+	text: [
+		"This pack has iron furnaces, and they're pretty cheap. "
+	],
+	dependencies: [
+		"3e45f653"
+	],
+	tasks: [{
+		uid: "a0a62c37",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:iron_furnace_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "7145a20e",
+		type: "item",
+		item: "ironfurnaces:iron_furnace_idle"
+	}]
+}

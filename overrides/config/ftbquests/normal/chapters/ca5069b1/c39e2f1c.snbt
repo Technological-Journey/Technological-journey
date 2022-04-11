@@ -1,5 +1,5 @@
 {
-	x: 12.0d,
+	x: 11.0d,
 	y: -3.5d,
 	text: [
 		"Cycloparaphenylene (CPP) is the building block for carbon nanotubes (CNT), which will be an important material moving forward. As you probably noticed, this recipe is not very simple nor is it easy to automate. If you look through JEI for a while, you'll notice that you can create a net-positive loop using graphene-nanotube mixture. This is the intended route, and makes CNT cost essentially just some methane and processing time in UHV machines. ",

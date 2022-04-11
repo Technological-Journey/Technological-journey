@@ -1,6 +1,9 @@
 {
 	x: -6.5d,
 	y: 1.5d,
+	text: [
+		"You'll need a significant amount of gold for these, so if you don't have platline running yet you'll probably want to setup the gold line from the LV tab. It should be pretty cheap at this point."
+	],
 	dependencies: [
 		"4bc7e746"
 	],

@@ -1,12 +1,13 @@
 {
-	x: 3.5d,
-	y: -4.5d,
+	x: 0.5d,
+	y: -3.0d,
 	text: [
 		"A backpack can help carry all the tools you just made"
 	],
 	dependencies: [
 		"4764a007"
 	],
+	optional: true,
 	tasks: [{
 		uid: "70fa85d7",
 		type: "item",
