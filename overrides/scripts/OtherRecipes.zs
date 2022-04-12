@@ -2114,4 +2114,4 @@ assembly_line.recipeBuilder()
 <gregtech:wire_coil:8>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 
 recipes.remove(<simplevoidworld:portal>);
-recipes.addShaped(<simplevoidworld:portal>, [[<ore:obsidian>, <ore:dustRuby>, <ore:obsidian>],[<ore:dustRuby>, <minecraft:iron_pickaxe>, <ore:dustRuby>], [<ore:obsidian>, <ore:dustRuby>, <ore:obsidian>]]);
+recipes.addShaped(<simplevoidworld:portal>, [[<ore:obsidian>, <minecraft:diamond>, <ore:obsidian>],[<minecraft:diamond>, <minecraft:iron_pickaxe>, <minecraft:diamond>], [<ore:obsidian>, <minecraft:diamond>, <ore:obsidian>]]);
