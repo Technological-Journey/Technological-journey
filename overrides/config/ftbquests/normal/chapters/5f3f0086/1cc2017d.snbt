@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -4.5d,
+	dependencies: [
+		"2f7b7dcf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9156462a",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

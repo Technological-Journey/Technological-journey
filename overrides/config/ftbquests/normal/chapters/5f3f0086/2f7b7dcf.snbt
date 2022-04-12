@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"Both the aroma mining dimension and the void dimension exist, but contain no ores. They are intended to be used for base building, and so are gated behind practically nothing.",
+		"",
+		"Also, if you need to find a rubber tree, we can't figure out how to make GT not spawn them in aroma. So they're everywhere."
+	],
+	tasks: [{
+		uid: "d09aa236",
+		type: "checkmark",
+		title: "Terraforming who needs that?"
+	}]
+}
