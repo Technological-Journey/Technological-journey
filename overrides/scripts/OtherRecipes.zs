@@ -1636,9 +1636,20 @@ mixer.recipeBuilder()
         .EUt(30)
         .buildAndRegister();
 
+        
 Utils.removeRecipeByOutput(arc, [<gregtech:meta_item_1:10673>], [], false);
 Utils.removeRecipeByOutput(parc, [<gregtech:meta_item_1:10673>], [], false);
 Utils.removeRecipeByOutput(fluid_extractor, [], [<liquid:qcd_confined_matter>], false);
+Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32566>], [], true);
+
+assembler.recipeBuilder()
+        .inputs([<gregtech:meta_item_1:12728> * 3,<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12709> * 3])
+        .outputs(<gtadditions:ga_meta_item:32566>)
+        .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000)
+        .duration(280)
+        .EUt(536870000)
+        .buildAndRegister();
+
 
 recipes.addShaped("clay1", <ore:blockClay>.firstItem *8,[[<ore:sand>,<ore:sand>,<ore:sand>],[<ore:sand>,<liquid:water> * 1000,<ore:sand>],[<ore:sand>,<ore:sand>,<ore:sand>]]);
 
@@ -1665,11 +1676,11 @@ assembly_line.recipeBuilder()
 Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32566>], [], true);
 
 assembler.recipeBuilder()
-        .inputs([<gregtech:meta_item_1:12728> * 3,<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12520> * 3])
+        .inputs([<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12728> * 3, <gregtech:meta_item_1:12520> * 3])
         .outputs(<gtadditions:ga_meta_item:32566>)
-        .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000)
-        .duration(280)
-        .EUt(536870900)
+        .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000 )
+        .duration(100)
+        .EUt(1474560)
         .buildAndRegister();
 
 recipes.addShaped(<contenttweaker:steampiston>, [[<gregtech:meta_item_2:17033>, <minecraft:stick>, <minecraft:stick>],[<gregtech:meta_item_2:17033>, <contenttweaker:steammotor>, <gregtech:meta_item_1:12095>], [<gregtech:meta_item_1:12033>, <gregtech:meta_item_1:12033>, <gregtech:meta_item_1:12033>]]);
@@ -1951,6 +1962,13 @@ mixer.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
+largeMix.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2022>, <gregtech:meta_item_1:2010> * 2, <gregtech:meta_item_1:2184> * 4,<gregtech:meta_item_1:2008> * 2)
+    .outputs(<gregtech:meta_item_1:2526> * 9)
+    .circuit(4)
+    .duration(400)
+    .EUt(16)
+    .buildAndRegister();
 
 var removals = [<gtadditions:ga_machine_casing:3>,<gtadditions:ga_machine_casing:2>] as IItemStack[];
 for i in removals{
@@ -2069,45 +2087,6 @@ assembly_line.recipeBuilder()
     .EUt(800000)
     .buildAndRegister();
 
-Utils.removeRecipeByOutput(chemreactor, [], [<liquid:heavily_fluorinated_trinium_solution>], false);
-Utils.removeRecipeByOutput(large_chem, [], [<liquid:heavily_fluorinated_trinium_solution>], false);
-Utils.removeRecipeByOutput(tower, [<gtadditions:ga_dust:938> * 30], [], false);
-
-
-
-chemreactor.recipeBuilder()
-    .inputs(<gtadditions:ga_meta_item:32610>)
-    .outputs(<gtadditions:ga_dust> * 32, <gtadditions:ga_dust:934>* 50)
-    .fluidInputs(<liquid:krypton_difluoride> * 16000,<liquid:fluoroantimonic_acid> * 8000)
-    .fluidOutputs(<liquid:krypton> * 16000,<liquid:heavily_fluorinated_trinium_solution> * 8000)
-    .duration(180)
-    .EUt(131000)
-    .buildAndRegister();
-
-large_chem.recipeBuilder()
-    .inputs(<gtadditions:ga_meta_item:32610>)
-    .outputs(<gtadditions:ga_dust> * 32, <gtadditions:ga_dust:934>* 50)
-    .fluidInputs(<liquid:krypton_difluoride> * 16000,<liquid:fluoroantimonic_acid> * 8000)
-    .fluidOutputs(<liquid:krypton> * 16000,<liquid:heavily_fluorinated_trinium_solution> * 8000)
-    .duration(180)
-    .EUt(131000)
-    .buildAndRegister();
-
-centrifuge.recipeBuilder()
-    .fluidInputs(<liquid:heavily_fluorinated_trinium_solution> * 8000)
-    .fluidOutputs(<liquid:fluorine> * 16000,<liquid:perfluorobenzene> * 2000)
-    .outputs(<gtadditions:ga_dust:938> * 60)
-    .duration(350)
-    .EUt(32760)
-    .buildAndRegister();
-
-large_centrifuge.recipeBuilder()
-    .fluidInputs(<liquid:heavily_fluorinated_trinium_solution> * 8000)
-    .fluidOutputs(<liquid:fluorine> * 16000,<liquid:perfluorobenzene> * 2000)
-    .outputs(<gtadditions:ga_dust:938> * 60)
-    .duration(350)
-    .EUt(32760)
-    .buildAndRegister();
 //UXV motor
 Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32357>], [], true);
 
@@ -2117,22 +2096,6 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:soldering_alloy> * 864,<liquid:lubricant> * 3000)
     .duration(600)
     .EUt(15728640)
-    .buildAndRegister();
-
-Utils.removeRecipeByOutput(distillery, [], [<liquid:perfluorobenzene> * 2000], true);
-Utils.removeRecipeByOutput(distillery, [], [<liquid:acetylene> * 32000], true);
-Utils.removeRecipeByOutput(distillery, [], [<liquid:boron_fluoride> * 55000], true);
-Utils.removeRecipeByOutput(distillery, [], [<liquid:carbone_fluoride> * 1000], true);
-Utils.removeRecipeByOutput(distillery, [], [<liquid:hydrofluoric_acid> * 32000], true);
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32609>], [], true);
-
-
-assembler.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:934> * 50,<gtadditions:ga_dust:69>,<gregtech:meta_item_2:16709> * 6)
-    .outputs(<gtadditions:ga_meta_item:32609>)
-    .fluidInputs(<liquid:perfluorobenzene> * 2000)
-    .duration(350)
-    .EUt(32750)
     .buildAndRegister();
 
 //supra computer
@@ -2150,38 +2113,5 @@ assembly_line.recipeBuilder()
 <gregtech:wire_coil:7>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 <gregtech:wire_coil:8>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 
-
-Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2740> * 9], [], true);
-Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2740> * 9], [], true);
-
-Utils.removeRecipeByOutput(centrifuge, [<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2714>], [], true);
-Utils.removeRecipeByOutput(large_centrifuge, [<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2714>], [], true);
-
-mixer.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
-    .outputs(<gregtech:meta_item_1:2740> * 9)
-    .duration(2782)
-    .EUt(30)
-    .buildAndRegister();
-
-largeMix.recipeBuilder()
-    .inputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
-    .circuit(3)
-    .outputs(<gregtech:meta_item_1:2740> * 9)
-    .duration(2782)
-    .EUt(30)
-    .buildAndRegister();
-
-centrifuge.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2740> * 9)
-    .outputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
-    .duration(3082)
-    .EUt(30)
-    .buildAndRegister();
-
-    large_centrifuge.recipeBuilder()
-    .inputs(<gregtech:meta_item_1:2740> * 9)
-    .outputs(<gtadditions:ga_dust:257> * 4, <gtadditions:ga_dust:260> * 4, <gregtech:meta_item_1:2214>)
-    .duration(3082)
-    .EUt(30)
-    .buildAndRegister();
+recipes.remove(<simplevoidworld:portal>);
+recipes.addShaped(<simplevoidworld:portal>, [[<ore:obsidian>, <ore:dustRuby>, <ore:obsidian>],[<ore:dustRuby>, <minecraft:iron_pickaxe>, <ore:dustRuby>], [<ore:obsidian>, <ore:dustRuby>, <ore:obsidian>]]);
