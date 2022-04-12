@@ -171,7 +171,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     .buildAndRegister();
 
     recipes.remove(<draconicevolution:celestial_manipulator>);
-    recipes.addShaped(<draconicevolution:celestial_manipulator>, [[<minecraft:redstone_block>, <minecraft:clock>, <minecraft:redstone_block>],[<gtadditions:ga_meta_item:1518>, <minecraft:dragon_egg>, <gtadditions:ga_meta_item:1518>], [<gtadditions:ga_meta_item:1518>, <gregtech:meta_item_2:26299>, <gtadditions:ga_meta_item:1518>]]);
+    recipes.addShaped(<draconicevolution:celestial_manipulator>, [[<minecraft:redstone_block>, <minecraft:clock>, <minecraft:redstone_block>],[<gregtech:meta_item_1:12524>, <gregtech:meta_item_1:32675>, <gregtech:meta_item_1:12524>], [<gregtech:meta_item_1:12524>, <gregtech:meta_item_2:26299>, <gregtech:meta_item_1:12524>]]);
     <draconicevolution:celestial_manipulator>.addTooltip(format.darkRed("Will not work on AR planets"));
 
 
