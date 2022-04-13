@@ -2125,3 +2125,6 @@ assembler.recipeBuilder()
 
 recipes.remove(<ae2stuff:grower>);
 recipes.addShaped(<ae2stuff:grower>, [[<minecraft:glass>, <gregtech:meta_item_2:18071>, <minecraft:glass>],[<ore:crystalFluix>, <gregtech:meta_item_1:32600>, <ore:crystalFluix>], [<gregtech:cable:5071>, <gregtech:machine:501>, <gregtech:cable:5071>]]);
+
+recipes.remove(<gregtech:machine:2512>);
+recipes.addShaped(<gregtech:machine:2512>, [[<ore:circuitExtreme>, <gregtech:fluid_pipe:3235>, <ore:circuitExtreme>],[<gregtech:meta_item_2:26072>, <gregtech:machine:153>, <gregtech:meta_item_2:26072>], [<gregtech:meta_item_1:12981>, <gregtech:meta_item_1:13981>, <gregtech:meta_item_1:12981>]]);
