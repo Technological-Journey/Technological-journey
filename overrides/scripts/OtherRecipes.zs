@@ -2132,3 +2132,6 @@ assembler.recipeBuilder()
     .duration(100)
     .EUt(2147483647)
     .buildAndRegister();
+
+recipes.remove(<ae2stuff:grower>);
+recipes.addShaped(<ae2stuff:grower>, [[<minecraft:glass>, <gregtech:meta_item_2:18071>, <minecraft:glass>],[<ore:crystalFluix>, <gregtech:meta_item_1:32600>, <ore:crystalFluix>], [<gregtech:cable:5071>, <gregtech:machine:501>, <gregtech:cable:5071>]]);
