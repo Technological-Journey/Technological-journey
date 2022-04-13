@@ -1643,7 +1643,7 @@ Utils.removeRecipeByOutput(fluid_extractor, [], [<liquid:qcd_confined_matter>], 
 Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32566>], [], true);
 
 assembler.recipeBuilder()
-        .inputs([<gregtech:meta_item_1:12728> * 3,<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12709> * 3])
+        .inputs([<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12728> * 3, <gregtech:meta_item_1:12520> * 3])
         .outputs(<gtadditions:ga_meta_item:32566>)
         .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000)
         .duration(280)
@@ -1669,16 +1669,6 @@ assembly_line.recipeBuilder()
         .inputs([<gregtech:meta_item_1:12716> * 4,<gtadditions:ga_meta_item:32495> * 2, <gtadditions:ga_meta_item:32496> * 2, <gtadditions:ga_meta_item:32497> * 2, <gtadditions:ga_meta_item:32494>, <gregtech:meta_item_1:19730> * 2, <gtadditions:ga_meta_item:32491> * 2, <gtadditions:ga_meta_item:32438> * 2, <gtadditions:ga_meta_item:32488>,<gtadditions:ga_meta_item:32487>, <gtadditions:ga_meta_item:32486>, <gtadditions:ga_meta_item:32499>, <gtadditions:ga_meta_item:32459> ])
         .outputs(<gtadditions:ga_meta_item:32500> * 6)
         .fluidInputs(<liquid:polytetrafluoroethylene> * 864,<liquid:enriched_naquadah_alloy> * 432,<liquid:soldering_alloy> * 1296,  <liquid:fullerene_doped_nanotubes> * 144)
-        .duration(100)
-        .EUt(1474560)
-        .buildAndRegister();
-
-Utils.removeRecipeByOutput(assembler, [<gtadditions:ga_meta_item:32566>], [], true);
-
-assembler.recipeBuilder()
-        .inputs([<gregtech:meta_item_1:12671> * 3, <gregtech:meta_item_1:12728> * 3, <gregtech:meta_item_1:12520> * 3])
-        .outputs(<gtadditions:ga_meta_item:32566>)
-        .fluidInputs(<liquid:neutronium_doped_nanotubes> * 2000 )
         .duration(100)
         .EUt(1474560)
         .buildAndRegister();
