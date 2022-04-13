@@ -92,7 +92,7 @@ chaosalloy.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENER
 //reuse ID for starmetal alloy
 val starmetalalloy = MaterialRegistry.createIngotMaterial(524, "star_metal_alloy", 0x050A30, "shiny", 4,null,0,0,0,7000);
 util.registerFluid("starlight_rocketfuel",0xdf362d,"(AxSx)?₂OC₆H₁₈");
-starmetalalloy.addFlags(["GENERATE_PLATE"]);
+starmetalalloy.addFlags(["GENERATE_PLATE","GENERATE_DENSE"]);
 val aquamarine = MaterialRegistry.createGemMaterial(525,"aquamarine", 0x45b3e7 ,"ruby",4,[<material:beryllium> * 3, <material:aluminium> * 3, <material:silicon> * 6, <material:oxygen> * 18]);
 aquamarine.addFlags(["GENERATE_ORE"]);
 
