@@ -248,7 +248,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     Stellar.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10671>, <gtadditions:ga_meta_item:32568> ,<gtadditions:ga_explosive:3>)
-    .fluidInputs(<liquid:cosmic_mesh_plasma> * 1000)
+    .fluidInputs(<liquid:chaos> * 1000)
     .fluidOutputs(<liquid:plasma.chaosalloy>* 2592)
     .duration(20)
     .EUt(134217728)

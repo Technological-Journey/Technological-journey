@@ -24,6 +24,8 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:iron>.addFlags(["GENERATE_SMALL_GEAR"]);
 <material:cosmic_neutronium >.addFlags(["GENERATE_ROUND"]);
 <material:neutronium>.addFlags(["GENERATE_ROUND"]);
+<material:qcd_confined_matter>.addFlags(["GENERATE_GEAR"]);
+
 //DISABLE_REPLICATION
 
 <material:adamantium>.addFlags(["DISABLE_REPLICATION"]);

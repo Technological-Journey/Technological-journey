@@ -2116,3 +2116,19 @@ assembly_line.recipeBuilder()
 recipes.remove(<simplevoidworld:portal>);
 recipes.addShaped(<simplevoidworld:portal>, [[<ore:obsidian>, <minecraft:diamond>, <ore:obsidian>],[<minecraft:diamond>, <minecraft:iron_pickaxe>, <minecraft:diamond>], [<ore:obsidian>, <minecraft:diamond>, <ore:obsidian>]]);
 recipes.addShaped(<ae2wtlib:infinity_booster_card>, [[<gregtech:meta_item_1:13524>, <appliedenergistics2:material:41>, <gregtech:meta_item_1:13524>],[<gregtech:meta_item_1:32694>, <gregtech:meta_item_1:32674>, <gregtech:meta_item_1:32684>], [<gregtech:meta_item_1:13524>, <gregtech:meta_item_1:12807>, <gregtech:meta_item_1:13524>]]);
+
+assembler.recipeBuilder()
+    .inputs(<ore:circuitUxv> * 2, <gregtech:meta_item_2:26673> * 4, <gregtech:meta_item_1:12673> * 4,<gregtech:ga_cable:7993>)
+    .outputs(<gtadditions:ga_multiblock_casing2:4>)
+    .fluidInputs(<liquid:enriched_naquadah_alloy>* 288)
+    .duration(100)
+    .EUt(536870900)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<ore:circuitMax> * 4, <gregtech:meta_item_2:26993> * 4, <gregtech:meta_item_1:12993> * 4, <gregtech:cable:7521>)
+    .outputs(<gtadditions:ga_multiblock_casing:12>)
+    .fluidInputs(<liquid:chaos> * 288)
+    .duration(100)
+    .EUt(2147483647)
+    .buildAndRegister();
