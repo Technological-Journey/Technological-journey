@@ -1,12 +1,12 @@
 {
 	title: "you’re a Noob Harry",
-	x: -3.0d,
-	y: -5.5d,
+	x: 1.0d,
+	y: -1.5d,
 	shape: "hexagon",
 	text: [
 		"So you’ve made it through UV in Gregtech, congratulations you're a noob. From now on the recipes, power generation methods and chemistry are significantly more difficult. With this you can now enter the next phase of Gregtech: UV and beyond.",
 		"",
-		"This is typically asumed to be a pointless flex, but its actually a relatively good test of your infrastrucuture. You'll need well over this amount of tritanium going forward, and if you can't make the BAN then you most likely aren't ready to move forward without taking a look at your infrastructure and reevaluating."
+		"This is typically assumed to be a pointless flex, but its actually a relatively good test of your infrastrucuture. You'll need well over this amount of tritanium going forward, and if you can't make the BAN then you most likely aren't ready to move forward without taking a look at your infrastructure and reevaluating."
 	],
 	dependencies: [
 		"ab6495e1"

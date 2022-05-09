@@ -1,6 +1,6 @@
 {
-	x: 3.5d,
-	y: 0.5d,
+	x: 0.5d,
+	y: 1.0d,
 	text: [
 		"A lot of resources are a pain to get early on, and we don't want to encourage you to make a huge and laggy mobfarm. Instead, use these spawners (and others) on capture mode, and run the vials through a vial processor.",
 		"",

@@ -1,5 +1,5 @@
 {
-	x: -1.5d,
+	x: -0.5d,
 	y: -1.0d,
 	text: [
 		"This will allow you to make wires cheaper.",
@@ -8,8 +8,7 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"388056ac",
-		"e5988795"
+		"85d1b146"
 	],
 	tasks: [{
 		uid: "ddf4844a",

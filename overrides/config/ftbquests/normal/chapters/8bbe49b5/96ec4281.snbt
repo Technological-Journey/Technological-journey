@@ -1,6 +1,6 @@
 {
-	x: -7.0d,
-	y: 0.0d,
+	x: 7.5d,
+	y: -3.0d,
 	text: [
 		"Digital covers can be useful for many purposes such as; viewing/interacting with the item/fluids in a block, viewing energy details, redstone control, and proxy mode for use with the central monitor. Use a screwdriver to enter the GUI."
 	],

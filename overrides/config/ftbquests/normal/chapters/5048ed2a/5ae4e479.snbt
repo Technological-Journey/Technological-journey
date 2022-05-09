@@ -1,6 +1,10 @@
 {
-	x: -7.5d,
-	y: -4.5d,
+	x: 2.5d,
+	y: 2.0d,
+	shape: "rsquare",
+	text: [
+		"This is the starting point for PTFE, which you will need for the Large Chemical Reactor."
+	],
 	tasks: [{
 		uid: "2afa7245",
 		type: "item",

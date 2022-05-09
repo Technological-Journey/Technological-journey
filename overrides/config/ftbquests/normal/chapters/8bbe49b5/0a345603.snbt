@@ -2,7 +2,7 @@
 	x: 1.5d,
 	y: 1.5d,
 	text: [
-		"For now the ways of getting rutile is through aluminum refining and vanadium slag. This will allow you to get better HV circuits to go to the moon"
+		"For now, your options for getting rutile are aluminum processing and vanadium slag (the former is much easier). This will allow you to get better HV circuits to go to the moon"
 	],
 	dependencies: [
 		"1108ab57"

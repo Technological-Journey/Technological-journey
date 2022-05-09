@@ -1,12 +1,12 @@
 {
 	icon: "gregtech:machine 1 2551",
-	x: 0.5d,
-	y: -1.5d,
+	x: -3.0d,
+	y: -3.5d,
 	text: [
 		"You probably don't want to provide cryotheum to it yet, as you can just fill it with pyrotheum and allow it to overheat and reset. "
 	],
 	dependencies: [
-		"92a62028"
+		"c2cc6c58"
 	],
 	tasks: [{
 		uid: "14992abd",

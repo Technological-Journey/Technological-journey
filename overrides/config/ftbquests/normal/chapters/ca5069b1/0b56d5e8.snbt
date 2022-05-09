@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: 2.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "8a155105",
+		type: "checkmark",
+		title: "Ammonium Niobium Oxalate Solution",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ammonium_niobium_oxalate_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

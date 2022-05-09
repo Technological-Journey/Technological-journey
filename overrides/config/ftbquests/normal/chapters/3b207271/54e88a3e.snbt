@@ -1,7 +1,7 @@
 {
 	title: "Multiblock Modularity",
-	x: 2.0d,
-	y: 5.0d,
+	x: -3.0d,
+	y: -2.5d,
 	text: [
 		"Multiblocks are very modular and can have most of  their casing replaced with hatches. With this you can move hatches around for better automation or wall sharing. There are limits to the amount of casing to hatch ratio. ",
 		"",

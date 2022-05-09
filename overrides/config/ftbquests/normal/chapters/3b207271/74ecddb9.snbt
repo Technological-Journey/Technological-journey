@@ -1,7 +1,8 @@
 {
 	title: "The Gold Line",
-	x: -5.5d,
-	y: -2.5d,
+	x: 5.5d,
+	y: -4.0d,
+	shape: "rsquare",
 	text: [
 		"Welcome to gregicality! You can mine gold from the nether, but if you want decent quantities you should setup this: your first complex processing line.",
 		"",

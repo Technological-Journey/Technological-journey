@@ -2,7 +2,7 @@
 	x: -6.5d,
 	y: -5.5d,
 	text: [
-		"These will allow crafting recipes to be automated. Place one next two an interface that has crafting patterns and it will be able to craft items and return it to the nextwork."
+		"These will allow crafting recipes to be automated. Place one next to an interface that has crafting patterns and it will be able to craft items and return it to the nextwork."
 	],
 	dependencies: [
 		"f3a3850c"

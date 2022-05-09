@@ -1,6 +1,6 @@
 {
 	title: "Exosuit Mk3",
-	x: -2.5d,
+	x: -1.5d,
 	y: -3.0d,
 	optional: true,
 	tasks: [{

@@ -1,7 +1,7 @@
 {
 	title: "Chloroauric Acid",
-	x: -5.5d,
-	y: 2.0d,
+	x: 5.5d,
+	y: 0.5d,
 	text: [
 		""
 	],

@@ -3,7 +3,7 @@
 	x: 5.5d,
 	y: 6.5d,
 	text: [
-		""
+		"This one is a little harder than the rest of the planets."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

@@ -6,8 +6,10 @@
 			Amount: 1000
 		}
 	},
+	disable_toast: true,
 	x: -8.5d,
 	y: 2.5d,
+	shape: "rsquare",
 	text: [
 		"Dont even think about drinking it just cause its called alcohol"
 	],

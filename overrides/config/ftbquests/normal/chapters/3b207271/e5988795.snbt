@@ -1,6 +1,6 @@
 {
-	x: -0.5d,
-	y: -4.0d,
+	x: 0.0d,
+	y: -2.0d,
 	text: [
 		"This will make your first EU. You should check out the power tab for a free second turbine, as well as think carefully about what machines to make first. Arrayed below are the machines you'll generally need to make it to MV, but some are more important than others. ",
 		"",
@@ -8,7 +8,7 @@
 		"",
 		"The bending machine will allow you to make plates at a 1 to 1 ratio, and so on. ",
 		"",
-		"Use JEI here, as machines cost a decent amount of resources and time for you right now and it would be a shame to be inefficent. "
+		"The machines are listed in order of decending importance, with the top row being the most optimal to make early. If you have something specific you're short on however, it makes sense to use JEI to check for a machine recipe that is cheaper. "
 	],
 	dependencies: [
 		"388056ac",

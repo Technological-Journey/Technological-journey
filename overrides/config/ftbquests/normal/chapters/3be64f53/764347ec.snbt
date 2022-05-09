@@ -1,6 +1,7 @@
 {
 	x: -4.5d,
 	y: -4.5d,
+	shape: "rsquare",
 	text: [
 		"You should already have some of this from producing Lu/Tm:YVO Nanoparticles, but don't be fooled. You'll need a LOT more of this than you wan't to produce with this method. Setup the alternate (EBF) route now, or be prepared to do it later."
 	],

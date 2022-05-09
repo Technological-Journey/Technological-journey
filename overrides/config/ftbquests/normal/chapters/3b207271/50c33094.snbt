@@ -1,6 +1,6 @@
 {
-	x: 0.5d,
-	y: -1.0d,
+	x: -0.5d,
+	y: 4.0d,
 	text: [
 		"This will allow you to get gold easier, though sepreatring washed magnesite."
 	],

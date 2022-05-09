@@ -1,11 +1,13 @@
 {
 	x: -0.5d,
-	y: 0.5d,
+	y: -1.0d,
 	text: [
-		"Single block steam boilers will autoput steam into adjacent machines. In addition steam machines will not accept steam from the bottom. "
+		"Single block steam boilers will autoput steam into adjacent machines. In addition steam machines will not accept steam from the bottom. ",
+		"",
+		"Don't worry about automating a water supply for this right now - it would be impressive to consume more than 16 buckets of water before you're able to make the endervoir."
 	],
 	dependencies: [
-		"19657325"
+		"62fd1790"
 	],
 	tasks: [{
 		uid: "7fceafd7",

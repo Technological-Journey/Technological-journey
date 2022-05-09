@@ -1,6 +1,6 @@
 {
-	x: -5.5d,
-	y: 0.5d,
+	x: 5.5d,
+	y: -1.0d,
 	text: [
 		"Doesn't suck your blood, unfortunately."
 	],

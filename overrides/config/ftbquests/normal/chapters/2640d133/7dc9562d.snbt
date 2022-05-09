@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 8.0d,
+	dependencies: [
+		"84280d93"
+	],
+	tasks: [{
+		uid: "cf64fd12",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32455"
+		}]
+	}]
+}

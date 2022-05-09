@@ -1,7 +1,7 @@
 {
 	title: "Important things about GTCE multiblocks",
-	x: 2.0d,
-	y: 3.5d,
+	x: -4.5d,
+	y: -2.5d,
 	text: [
 		"Gregtech multiblocks have a unique feature, this is the ability to share blocks. All non-functional blocks can be shared between one or more controllers. This allows you to reduce the cost of the more expensive multiblocks.",
 		"",

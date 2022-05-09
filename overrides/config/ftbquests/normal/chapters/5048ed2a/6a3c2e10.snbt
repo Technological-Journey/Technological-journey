@@ -1,6 +1,7 @@
 {
-	x: 6.0d,
-	y: 2.5d,
+	x: 17.5d,
+	y: 12.0d,
+	shape: "hexagon",
 	text: [
 		"You will need a considerable amount of Pu244 as the pack goes on and you progress into better circuits and fusion. Focus your nuclear on making as much Pu244 as possible. It may be wise to setup a system now to passive all fuels from uranium to Pu244."
 	],

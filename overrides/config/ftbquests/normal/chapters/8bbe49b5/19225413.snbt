@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	text: [
+		"Though the Allyl Chloride route is possible, you're likely already producing glycerol as a byproduct of biodiesel. "
+	],
+	tasks: [{
+		uid: "4a8ecb0f",
+		type: "checkmark",
+		title: "Glycerol Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "glycerol",
+				Amount: 1000
+			}
+		}
+	}]
+}

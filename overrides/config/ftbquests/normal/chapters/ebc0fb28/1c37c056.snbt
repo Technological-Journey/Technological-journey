@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -8.5d,
 	text: [
-		"A lot of players fall for the trap of centralized power at higher voltages. While it is doable, its a massive pain to setup and use. It's reccomended to use ender tanks full of fuel and dedicated generators on each line for now. When you reach UV, you will be able to make Flux Points and Plugs, which enable true wireless  power transmission and are your queue to start making centralized power generation. Of course, there are a lot of ways to play the game and it's perfectly ok to use plasma for centralized power, for instance, as it can be annoying to build a turbine everywhere you want power. "
+		"A lot of players fall for the trap of centralized power at higher voltages. While it is doable, its a massive pain to setup and use. It's recommended to use ender tanks full of fuel and dedicated generators on each line for now. When you reach UV, you will be able to make Flux Points and Plugs, which enable true wireless  power transmission and are your queue to start making centralized power generation. Of course, there are a lot of ways to play the game and it's perfectly ok to use plasma for centralized power, for instance, as it can be annoying to build a turbine everywhere you want power. "
 	],
 	dependencies: [
 		"1a45f9ef"

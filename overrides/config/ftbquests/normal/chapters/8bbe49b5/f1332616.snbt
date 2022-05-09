@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	dependencies: [
+		"9eaae509"
+	],
+	optional: true,
+	tasks: [{
+		uid: "80ba04e3",
+		type: "checkmark",
+		title: "Naphtha Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "naphtha",
+				Amount: 1000
+			}
+		}
+	}]
+}

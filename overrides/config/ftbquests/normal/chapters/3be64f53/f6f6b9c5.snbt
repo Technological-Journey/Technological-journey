@@ -8,7 +8,6 @@
 	},
 	x: -9.5d,
 	y: 0.5d,
-	shape: "hexagon",
 	dependencies: [
 		"6fddac84",
 		"0db3077e",

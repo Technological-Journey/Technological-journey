@@ -1,9 +1,11 @@
 {
-	x: -5.5d,
-	y: -4.5d,
+	title: "Celestial Crystals",
+	x: 3.5d,
+	y: 12.0d,
 	text: [
 		"In order to make celestial crystals you need to throw a rock crystal and stardust into a pool of starlight. Later one you can use a machine to get a tier one crystal cluster. The machine recipe can also be used to reroll already made celestial crystals.",
-		" §4Careful it will also accept attuned crystals",
+		"",
+		"§4The machine recipe will also accept attuned crystals, so make sure you're using the right one.",
 		"",
 		"§fGrowing a crystal on top of starmetal ore can speed up growth. This does have the chance to return the ore back to iron however so it is best to keep a collector crystal linked to it"
 	],

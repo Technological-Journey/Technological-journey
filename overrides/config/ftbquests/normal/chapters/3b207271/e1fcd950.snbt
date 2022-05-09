@@ -1,6 +1,6 @@
 {
-	x: 2.5d,
-	y: 0.5d,
+	x: 1.5d,
+	y: 0.0d,
 	text: [
 		"Tree beacon too slow to supply your coke ovens? Consider using the wood from a farming station to craft axes and hoes, and feeding them back into the farming station(s). This is MUCH faster than the tree beacon, and even a relatively simple one ought to provide enough wood until mid-late game, depending on if and how fast you process charcoal byproducts.",
 		"",

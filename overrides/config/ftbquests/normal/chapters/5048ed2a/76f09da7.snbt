@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: -0.5d,
+	x: 6.5d,
+	y: 6.0d,
 	text: [
 		"The platinum residue you're producing is used in IV to produce the rest of the platinum group elements. For now, just platinum itself will suffice. However, make sure your platinum line is robust enough to support relatively fast processing, as you'll need a significant amount of osmium, iridium, palladium, and rhodium."
 	],

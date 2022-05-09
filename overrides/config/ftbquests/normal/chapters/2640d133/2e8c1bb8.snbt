@@ -1,9 +1,10 @@
 {
 	x: -3.5d,
-	y: 0.5d,
+	y: -1.0d,
 	text: [
 		"You'll need string to make cables, and cables to make hulls for busses and hatches (as well as circuits and machines later on). Breed up some sheep, harvest wool, and macerate it for string.  "
 	],
+	can_repeat: true,
 	tasks: [{
 		uid: "2e2ed4f0",
 		type: "checkmark",

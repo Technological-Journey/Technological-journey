@@ -1,6 +1,7 @@
 {
-	x: -7.5d,
-	y: -8.5d,
+	x: -1.5d,
+	y: 2.0d,
+	shape: "rsquare",
 	text: [
 		"Scheelite can be used along side tungstate, however it requires hydrogen peroxide setup in order to implement."
 	],

@@ -1,6 +1,6 @@
 {
-	x: 5.5d,
-	y: -1.0d,
+	x: 0.5d,
+	y: 2.0d,
 	text: [
 		"You're going to need a lot of resources for machines. In steam you gained the ability to craft a chunk miner, but now that you're in LV they are viable. Chunk miners require drilling fluid and power, and in exchange will search a chunk and mine any ore they find (except for dilithium on the moon, rock crystal on pluto, and starmetal in the deep dark).",
 		"",

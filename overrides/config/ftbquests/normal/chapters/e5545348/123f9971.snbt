@@ -1,6 +1,6 @@
 {
 	x: -1.5d,
-	y: 4.0d,
+	y: 3.5d,
 	text: [
 		"The intended route for ethylene is mixing sufuric acid and ethanol in a chemical reactor. While you can get it from oil, the first method is prefered as it can be made completely passive apart from sulfur, which should be pretty abundant. If you find yourself running out of sulfur, consider using the vial processor to make blaze rods and electrolyzing the dust."
 	],

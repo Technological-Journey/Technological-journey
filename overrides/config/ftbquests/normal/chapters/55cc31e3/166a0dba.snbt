@@ -1,11 +1,12 @@
 {
 	x: -1.0d,
-	y: -5.5d,
+	y: -1.5d,
 	shape: "hexagon",
 	text: [
 		"ME conduits are super laggy. Once you can afford it, use the creative AE energy source and wireless connectors to turn your network into a giant wall of wireless connectors."
 	],
 	dependencies: [
+		"3a7f8a51",
 		"6268f8f7"
 	],
 	tasks: [{

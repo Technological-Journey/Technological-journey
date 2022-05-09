@@ -1,11 +1,11 @@
 {
-	x: -8.5d,
+	x: -9.5d,
 	y: 6.0d,
 	shape: "hexagon",
 	text: [
 		"Congradulations! You've beaten Technological Journey, and are now free to touch grass. You might need a whole forest at this point though. ",
 		"",
-		"This is not an easy pack, and beating it is quite an acheivement. We would love to see some screenshots of your base (remember the title screen?), as well as hear any feedback you might have about the pack, questbook, and community. We hope you had a good time with the pack -- TJ2 is on the way, bringing new mecahnics, chemistry, and complex processing lines. Join the discord for updates or to tell us you hate this pack and wish you'd never played it.",
+		"This is not an easy pack, and beating it is quite an acheivement. We would love to see some screenshots of your base (remember the title screen?), as well as hear any feedback you might have about the pack, questbook, and community. We hope you had a good time with the pack -- TJ2 is on the way, bringing new mechanics, chemistry, and complex processing lines. Join the discord for updates or to tell us you hate this pack and wish you'd never played it.",
 		"",
 		"- Carbon, Sage, Terra, and Onion"
 	],
@@ -16,6 +16,7 @@
 		"7c191ebc",
 		"3a6c1683"
 	],
+	hide_text_until_complete: true,
 	size: 2.5d,
 	tasks: [{
 		uid: "b4389136",

@@ -1,7 +1,9 @@
 {
-	x: -2.5d,
+	x: -4.5d,
 	y: 7.0d,
-	shape: "hexagon",
+	text: [
+		"This is the furthest you have to progress into Astral Sorcery. Anything else is optional and purely QoL."
+	],
 	dependencies: [
 		"540feb19"
 	],

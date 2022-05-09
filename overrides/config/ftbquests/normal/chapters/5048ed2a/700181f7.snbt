@@ -1,12 +1,12 @@
 {
 	icon: "gregtech:machine 1 2548",
-	x: -6.0d,
-	y: -10.5d,
+	x: 8.5d,
+	y: 0.5d,
 	text: [
 		"The large varients of miners work the same as the singleblocks, except they search a larger area (this one does 3x3 chunks), and have the option to miner as if they had fortune (this one has fortune 4, the best scales up to fortune 10). This is increadibly useful. If you haven't figured it out already, you can chunkload the miner and have it output into an ender chest to automatically aquire and process ores while you're confortable working in your base."
 	],
 	dependencies: [
-		"d200fb90"
+		"fdaf832a"
 	],
 	optional: true,
 	tasks: [{

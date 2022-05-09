@@ -1,6 +1,7 @@
 {
 	x: -16.5d,
 	y: -3.5d,
+	shape: "rsquare",
 	text: [
 		"How do you even pronounce this one?",
 		"",

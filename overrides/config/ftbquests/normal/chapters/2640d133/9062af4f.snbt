@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: 9.5d,
+	text: [
+		"Steam will be your method of power production for a little bit. While buffering steam is discouraged, it may not be a bad idea now that you can make a super tank (32,000 buckets). It is also probably a good idea to put this steam in an ender tank so that you can route it anywhere - even remote miners in other dimensions."
+	],
+	dependencies: [
+		"012e46bc",
+		"0520b86b"
+	],
+	tasks: [{
+		uid: "ffc6725d",
+		type: "checkmark",
+		title: "Early Power",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "steam",
+				Amount: 1000
+			}
+		}
+	}]
+}

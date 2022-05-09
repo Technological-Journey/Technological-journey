@@ -1,6 +1,6 @@
 {
-	x: 2.5d,
-	y: -1.0d,
+	x: 0.5d,
+	y: 0.0d,
 	text: [
 		"This is the first step to getting tier 2 LV circuits, as well as provides much better versions of recipes you can already make by hand. Resistors, for ",
 		"instance, are more than twice as expensive to make by hand when compared to the assembler reicpe"

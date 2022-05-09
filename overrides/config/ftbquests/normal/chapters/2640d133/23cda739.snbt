@@ -1,11 +1,11 @@
 {
-	x: -0.5d,
-	y: 3.5d,
+	x: 2.5d,
+	y: 2.0d,
 	shape: "circle",
 	text: [
 		"Finally, steel. This is your gate for the majority of the LV tab, as well as the hull material for LV machines. ",
 		"",
-		"This is quite slow, and if you're looking make more steel faster, consider making an industrial primitive blast furance (iPBF)."
+		"This is quite slow, and if you're looking make more steel faster, consider making an industrial primitive blast furance (iPBF). If you don't want to do this, consider making your iron into wrought iron before putting it through the PBF, as it cooks much faster that way."
 	],
 	dependencies: [
 		"d61d2b00"

@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"e6b4c0ac"
+	],
+	tasks: [{
+		uid: "f9a2f704",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 16018"
+		}]
+	}],
+	rewards: [{
+		uid: "878ea102",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12018",
+		count: 32
+	}]
+}

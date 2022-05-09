@@ -1,0 +1,52 @@
+{
+	title: "SMD's",
+	icon: "gtadditions:ga_meta_item 1 32240",
+	x: 2.5d,
+	y: 9.5d,
+	text: [
+		"SMD components require plastic (polyethylene) but are much more efficient than their non SMD counterparts when used in circuit recipes. If you haven't been using these, you should probably start. "
+	],
+	optional: true,
+	tasks: [{
+		uid: "a3352db3",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32242"
+		}]
+	},
+	{
+		uid: "3f5f1a34",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32240"
+		}]
+	},
+	{
+		uid: "64aeb425",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32241"
+		}]
+	},
+	{
+		uid: "d8b38c65",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32243"
+		}]
+	}],
+	rewards: [{
+		uid: "bbc9b1d9",
+		type: "item",
+		item: {
+			id: "gregtech:machine",
+			Damage: 813s,
+			tag: {
+				Fluid: {
+					FluidName: "plastic",
+					Amount: 16000
+				}
+			}
+		}
+	}]
+}

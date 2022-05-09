@@ -1,0 +1,30 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "helium3",
+			Amount: 1000
+		}
+	},
+	x: -2.0d,
+	y: 5.5d,
+	text: [
+		"Helium 3",
+		"Lava"
+	],
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "5002e3d0",
+		type: "checkmark",
+		title: "Fluid Veins",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "deuterium",
+				Amount: 1000
+			}
+		}
+	}]
+}

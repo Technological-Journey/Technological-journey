@@ -1,10 +1,10 @@
 {
 	x: 1.0d,
-	y: 0.5d,
+	y: -1.0d,
 	text: [
 		"You can make this if you want, but endervoirs are much easier, and only gated behind the steam alloy smelter.",
 		"",
-		"Steam only comes out the output side. Might be a good idea to place over an infinite water source."
+		"Fluid only comes out the output side. Might be a good idea to place over an infinite water source."
 	],
 	dependencies: [
 		"ab7bedfb"

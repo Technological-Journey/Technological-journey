@@ -8,8 +8,8 @@
 			}
 		}
 	},
-	x: -4.5d,
-	y: -5.5d,
+	x: 7.5d,
+	y: 12.0d,
 	text: [
 		"If you would like to use astral purely as a Tech mod with great QOL, use this quest to completely skip over all of astrals research progression and learn all constellations."
 	],

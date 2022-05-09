@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"19225413"
+	],
+	tasks: [{
+		uid: "734eb4bb",
+		type: "checkmark",
+		title: "Epichlorohydrin Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "epichlorhydrin",
+				Amount: 1000
+			}
+		}
+	}]
+}

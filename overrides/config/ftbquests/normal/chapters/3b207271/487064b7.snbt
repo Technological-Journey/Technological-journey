@@ -1,6 +1,6 @@
 {
-	x: 1.5d,
-	y: -1.0d,
+	x: 4.0d,
+	y: 3.0d,
 	text: [
 		"This is used to make wrought iron for faster steel in the ebf."
 	],

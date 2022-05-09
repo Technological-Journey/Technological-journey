@@ -4,6 +4,9 @@
 	text: [
 		"Good Luck."
 	],
+	dependencies: [
+		"ec9dabd8"
+	],
 	tasks: [{
 		uid: "3df0cd04",
 		type: "item",

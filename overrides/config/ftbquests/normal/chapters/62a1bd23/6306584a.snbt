@@ -1,4 +1,5 @@
 {
+	title: "Fluid Veins",
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
@@ -9,11 +10,11 @@
 	x: 5.5d,
 	y: 5.5d,
 	text: [
-		"bosonic  matter",
-		"fermionic matter",
-		"cryotheum",
-		"pyrotheum",
-		"radon"
+		"Bosonic  matter",
+		"Fermionic matter",
+		"Cryotheum",
+		"Pyrotheum",
+		"Radon"
 	],
 	dependencies: [
 		"71313e4b"

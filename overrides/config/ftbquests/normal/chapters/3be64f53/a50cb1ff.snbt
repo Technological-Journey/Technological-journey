@@ -16,11 +16,5 @@
 		items: [{
 			item: "gtadditions:ga_dust 1 919"
 		}]
-	}],
-	rewards: [{
-		uid: "341123cb",
-		type: "item",
-		item: "gtadditions:ga_dust 1 919",
-		count: 16
 	}]
 }

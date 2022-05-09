@@ -1,0 +1,30 @@
+{
+	title: "Hydrochloric + Nitric Acid",
+	x: 7.5d,
+	y: 2.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "4631214a",
+		type: "checkmark",
+		title: "Hydrochloric Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrochloric_acid",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "a3dca99d",
+		type: "checkmark",
+		title: "Nitric Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitric_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

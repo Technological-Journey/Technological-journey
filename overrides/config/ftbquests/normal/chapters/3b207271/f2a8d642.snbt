@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: 5.0d,
+	x: -0.5d,
+	y: 9.0d,
 	shape: "hexagon",
 	text: [
 		"Circuit Assembling Machines always require the tier of circuits *above* their own. This investment will enable you to produce cheaper LV, MV, and your first HV circuits, when combined with a small amount of aluminium and some MV machines."

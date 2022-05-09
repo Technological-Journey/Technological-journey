@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: 3.5d,
+	x: -0.5d,
+	y: 7.0d,
 	text: [
 		"Your first tier two circuit! This can be used for MV machines, but is pretty expensive to make.",
 		"",

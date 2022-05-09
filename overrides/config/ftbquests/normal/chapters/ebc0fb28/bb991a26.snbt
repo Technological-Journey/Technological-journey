@@ -8,7 +8,7 @@
 	text: [
 		"This page should act like a guide for the basics of gregtech energy along with the generally regarded best progression for power. If you’re a GT veteran, feel free to skip this chapter as it likely won’t apply to you. If you haven’t played a significant amount of GT or are feeling lost as to what to do to generate the absurd amount of power you're going to need, this is where you'll find answers.",
 		"",
-		" Every single quest in this page is optional, and it isn’t even recommended to pursue all of these options. Power in this back has been buffed considerably, and shouldn’t be an issue as long as you remember to occasionally upgrade your infrastructure."
+		" Every single quest in this page is optional, and it isn’t even recommended to pursue all of these options. Power in this pack has been buffed considerably, and shouldn’t be an issue as long as you remember to occasionally upgrade your infrastructure."
 	],
 	dependencies: [
 		"e5988795"

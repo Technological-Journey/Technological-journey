@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	shape: "rsquare",
+	optional: true,
+	tasks: [{
+		uid: "dcf1e543",
+		type: "checkmark",
+		title: "Nitrogen Dioxide Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitrogen_dioxide",
+				Amount: 1000
+			}
+		}
+	}]
+}

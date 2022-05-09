@@ -1,0 +1,60 @@
+{
+	x: -5.5d,
+	y: 2.5d,
+	shape: "rsquare",
+	text: [
+		"This is a basic ethanol line, designed to be fully passive from sugarcane. ",
+		"",
+		"You'll want to do this sooner rather than later, as the longer it runs the more ethanol you'll have. You'll need it for polyethylene in MV. "
+	],
+	optional: true,
+	tasks: [{
+		uid: "1e562c53",
+		type: "item",
+		items: [{
+			item: "snad:snad"
+		}]
+	},
+	{
+		uid: "3d9e66c3",
+		type: "item",
+		title: "Any drawerBasic",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "drawerBasic"
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	},
+	{
+		uid: "5780dc0d",
+		type: "item",
+		items: [{
+			item: "randomthings:blockbreaker"
+		}]
+	}],
+	rewards: [{
+		uid: "41812246",
+		type: "item",
+		item: "minecraft:reeds"
+	},
+	{
+		uid: "4e02c79b",
+		type: "item",
+		item: "storagedrawers:upgrade_void"
+	},
+	{
+		uid: "e3efb10c",
+		type: "item",
+		item: "enderio:item_redstone_conduit"
+	},
+	{
+		uid: "95adebb2",
+		type: "item",
+		item: "enderio:item_redstone_timer_filter"
+	}]
+}

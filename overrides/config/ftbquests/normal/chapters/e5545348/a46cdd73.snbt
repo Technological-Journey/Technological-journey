@@ -1,6 +1,6 @@
 {
 	x: 4.5d,
-	y: 8.0d,
+	y: 9.0d,
 	text: [
 		"This is the cheapest LV circuit you will get for a while, at least until you unlock the SoC recipe at a higher voltage tier. It may not seem like much, but remember you used to have to make primitve processors 1 at a time.",
 		"",

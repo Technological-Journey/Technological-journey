@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: 8.0d,
+	shape: "hexagon",
+	text: [
+		"Just a step up from an abacus. Primitive technology, but it runs your LV machines.",
+		"",
+		"This was the goal of the steam age. Now that you can make these, you're ready to start putting a couple dozen of them to use in your first electric machines."
+	],
+	dependencies: [
+		"a7d92089",
+		"f367c0ce",
+		"7dc9562d",
+		"5c52010c"
+	],
+	tasks: [{
+		uid: "ad338754",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32487"
+		}]
+	}],
+	rewards: [{
+		uid: "1718acdc",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10237",
+		count: 8
+	}]
+}

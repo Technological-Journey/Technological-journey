@@ -1,6 +1,6 @@
 {
-	x: 6.0d,
-	y: -7.5d,
+	x: 15.5d,
+	y: 5.0d,
 	text: [
 		"Coolant is a closed loop. You will want to measure the amount that goes into the reactor and send as spent coolant as you can to the turbine. If you want this for products only, you may choose to  void spent coolant and provide infinite steam."
 	],

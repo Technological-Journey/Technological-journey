@@ -1,6 +1,6 @@
 {
-	x: -5.5d,
-	y: -6.5d,
+	x: 5.5d,
+	y: 12.0d,
 	text: [
 		"Linking tools are used to link collector crystals to blocks. By using this to connect a collector crystal to iron ore it will slowly transform into starmetal ore. Is is important for the deep dark portal, where starmetal can be mined instead."
 	],

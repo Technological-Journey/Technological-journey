@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	text: [
+		"Making plates at a 3-2 ratio! You'll get access to a 1-1 ratio in LV with the bending machine."
+	],
+	dependencies: [
+		"664d2fa1"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7197b982",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 14"
+		}]
+	}]
+}
