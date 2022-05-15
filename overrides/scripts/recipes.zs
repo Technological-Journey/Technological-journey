@@ -2,7 +2,6 @@ import mods.jei.JEI.removeAndHide as rh;
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-
 furnace.remove(<minecraft:nether_star>);
 recipes.remove(<actuallyadditions:block_misc:7>);
 recipes.remove(<actuallyadditions:block_lava_factory_controller>);

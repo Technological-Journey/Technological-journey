@@ -1,7 +1,8 @@
 #sideonly client
 
-##Code courtesy of wsetzer
-##Taken from issue Nomifactory #868 PR and modified by Lizayu#3386, blame her if it's shit
+
+//Code courtesy of wsetzer
+//Taken from issue Nomifactory #868 PR and modified by Lizayu#3386, blame her if it's shit
 
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.formatting.IFormattedText;
