@@ -1,7 +1,7 @@
 {
 	title: "Trade Offer:",
-	x: -3.0d,
-	y: -4.0d,
+	x: 2.5d,
+	y: -9.5d,
 	text: [
 		"Spectre coils are useful for powering enderIO crafters and other singleblock RF machines that don't use too much power."
 	],

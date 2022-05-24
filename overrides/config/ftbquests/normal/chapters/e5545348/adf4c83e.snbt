@@ -1,10 +1,13 @@
 {
 	title: "SMD's",
 	icon: "gtadditions:ga_meta_item 1 32240",
-	x: 2.5d,
-	y: 9.5d,
+	x: 6.5d,
+	y: 8.5d,
 	text: [
 		"SMD components require plastic (polyethylene) but are much more efficient than their non SMD counterparts when used in circuit recipes. If you haven't been using these, you should probably start. "
+	],
+	dependencies: [
+		"682150e7"
 	],
 	optional: true,
 	tasks: [{

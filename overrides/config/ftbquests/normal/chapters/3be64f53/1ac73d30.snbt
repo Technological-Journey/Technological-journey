@@ -6,8 +6,8 @@
 			Amount: 1000
 		}
 	},
-	x: -7.5d,
-	y: -0.5d,
+	x: -0.5d,
+	y: 3.5d,
 	shape: "rsquare",
 	tasks: [{
 		uid: "803dcb76",

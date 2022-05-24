@@ -1,6 +1,6 @@
 {
-	x: 7.0d,
-	y: -2.5d,
+	x: -2.5d,
+	y: -1.5d,
 	text: [
 		"You will need to make more nitric acid to keep the gold line fully looped -- fortunately, nitrogen is conserved and the other two inputs can be made by electrolyzing water (or more ideally, the sodium hydroxide loop in MV). ",
 		"",

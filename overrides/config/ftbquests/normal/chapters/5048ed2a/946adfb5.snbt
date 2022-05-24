@@ -1,7 +1,7 @@
 {
 	title: "Celestial Crystals",
-	x: 3.5d,
-	y: 12.0d,
+	x: 2.5d,
+	y: 11.5d,
 	text: [
 		"In order to make celestial crystals you need to throw a rock crystal and stardust into a pool of starlight. Later one you can use a machine to get a tier one crystal cluster. The machine recipe can also be used to reroll already made celestial crystals.",
 		"",

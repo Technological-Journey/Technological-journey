@@ -1,14 +1,14 @@
 {
-	x: -0.5d,
-	y: -1.0d,
+	x: -11.5d,
+	y: -10.5d,
 	text: [
 		"This will allow you to make wires cheaper.",
 		"",
 		"While you can technically go the entire pack without making one of these, you really shouldn't. It would be funny though. "
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"85d1b146"
+		"8890bed8",
+		"e5988795"
 	],
 	tasks: [{
 		uid: "ddf4844a",

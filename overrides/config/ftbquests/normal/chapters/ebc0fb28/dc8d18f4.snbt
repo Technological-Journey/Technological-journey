@@ -1,9 +1,10 @@
 {
 	icon: "gregtech:machine 1 2238",
-	x: -2.5d,
-	y: 1.0d,
+	x: -2.0d,
+	y: 0.0d,
 	dependencies: [
-		"680183ba"
+		"6bb12a2c",
+		"cd3d48d7"
 	],
 	tasks: [{
 		uid: "191b7577",

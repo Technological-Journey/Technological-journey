@@ -1,15 +1,26 @@
 {
 	x: -4.5d,
-	y: 1.5d,
+	y: 5.5d,
+	text: [
+		"You may make either an LV or an MV Brewery to complete this quest."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"85d1b146"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "c93bfde0",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 130"
+		}]
+	},
+	{
+		uid: "0f270a3b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 131"
 		}]
 	}]
 }

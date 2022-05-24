@@ -1,12 +1,11 @@
 {
-	x: 0.5d,
-	y: 5.0d,
+	x: -9.5d,
+	y: -2.5d,
 	text: [
 		"This needs some gold. Have you considered making a primitive version of the gold line (the right side of this quest tab)?  ",
 		"",
 		"This machine is completely optional, so if you want to skip this quest you can click the checkmark above. "
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"e5988795"
 	],

@@ -1,6 +1,6 @@
 {
-	x: 4.5d,
-	y: 9.0d,
+	x: 7.5d,
+	y: 9.5d,
 	text: [
 		"This is the cheapest LV circuit you will get for a while, at least until you unlock the SoC recipe at a higher voltage tier. It may not seem like much, but remember you used to have to make primitve processors 1 at a time.",
 		"",
@@ -8,7 +8,8 @@
 	],
 	dependencies: [
 		"89964f76",
-		"e066e97b"
+		"e066e97b",
+		"adf4c83e"
 	],
 	tasks: [{
 		uid: "8322e0c9",

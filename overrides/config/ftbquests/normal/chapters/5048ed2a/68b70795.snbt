@@ -1,7 +1,7 @@
 {
 	icon: "gregtech:warning_sign 1 2",
-	x: 15.5d,
-	y: 3.0d,
+	x: 18.5d,
+	y: 2.0d,
 	text: [
 		"Welcome to gregicality nuclear - your means of obtaining neptunium, plutonium, americium, curium, berkelium, californium, einstienium, fermium, and mendelevium, along with the majority of elements in small quantities.",
 		"",

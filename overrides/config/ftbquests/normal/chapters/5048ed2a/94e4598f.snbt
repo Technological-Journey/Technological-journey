@@ -1,6 +1,6 @@
 {
 	title: "Reactor Types",
-	x: 14.5d,
+	x: 15.5d,
 	y: 5.0d,
 	text: [
 		"You will need to make either a nuclear reactor or a breeder reactor. The breeder is more complicated to automate, requires IV components, and needs some U-235 already separated (you can get this from ore processing). However, it rewards with better yeilds and enables you to skip rungs on the nuclear ladder, which you'll learn about soon."

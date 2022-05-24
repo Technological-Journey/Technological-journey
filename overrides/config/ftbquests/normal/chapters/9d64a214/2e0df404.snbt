@@ -1,6 +1,6 @@
 {
 	x: 1.5d,
-	y: 2.0d,
+	y: 0.0d,
 	text: [
 		"Uses extreme amounts of direct energy flow to perform computation similar to electronic circuits. *Technobabble*"
 	],

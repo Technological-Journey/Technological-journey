@@ -1,6 +1,6 @@
 {
-	x: 3.5d,
-	y: 6.0d,
+	x: 2.0d,
+	y: 9.0d,
 	shape: "gear",
 	text: [
 		"MAX machines may not be craftable, but MAX component blocks are. If you feel the need to make a faster stellar forge or plasma condenser, this is the way.",

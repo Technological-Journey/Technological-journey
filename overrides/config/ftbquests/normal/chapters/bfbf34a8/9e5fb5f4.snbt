@@ -1,6 +1,6 @@
 {
-	x: 7.0d,
-	y: 0.0d,
+	x: 8.0d,
+	y: -1.0d,
 	text: [
 		"You'll need a UXV assembler for this. This is the highest teir machine that you need to make - any UXV machines other than this, or any upgrades to MAX, are purely optional."
 	],

@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: -2.5d,
+	x: -3.5d,
+	y: -4.0d,
 	text: [
 		"The solar sample is required to find out what fluid is in a given chunk. To use, place down with a solar panel on top and place the data stick inside."
 	],

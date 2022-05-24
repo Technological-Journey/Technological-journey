@@ -1,12 +1,11 @@
 {
-	x: -0.5d,
-	y: 4.0d,
+	x: -11.5d,
+	y: -2.5d,
 	text: [
 		"This will allow you to get gold easier, though sepreatring washed magnesite."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"388056ac",
+		"8890bed8",
 		"e5988795"
 	],
 	optional: true,

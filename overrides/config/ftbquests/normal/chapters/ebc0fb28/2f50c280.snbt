@@ -1,6 +1,6 @@
 {
 	icon: "gregtech:machine 1 3236",
-	x: 5.5d,
+	x: 6.5d,
 	y: 0.0d,
 	text: [
 		"That's a LOT of power. Did you passive degenerate rhenium plasma yet?"

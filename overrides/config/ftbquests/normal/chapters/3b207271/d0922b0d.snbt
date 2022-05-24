@@ -1,0 +1,15 @@
+{
+	x: -9.5d,
+	y: 1.5d,
+	dependencies: [
+		"70705290",
+		"a443ba15"
+	],
+	tasks: [{
+		uid: "4429cdf4",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 41"
+		}]
+	}]
+}

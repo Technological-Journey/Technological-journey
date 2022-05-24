@@ -1,6 +1,6 @@
 {
 	icon: "gtadditions:ga_dust 1 920",
-	x: -8.5d,
+	x: -5.5d,
 	y: -2.5d,
 	shape: "rsquare",
 	tasks: [{

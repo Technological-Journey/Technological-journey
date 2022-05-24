@@ -1,6 +1,6 @@
 {
-	x: 1.5d,
-	y: 5.0d,
+	x: -9.5d,
+	y: -0.5d,
 	text: [
 		"Silicon dioxide can be made in a couple of ways right now. The easiest is electrolysis of glass dust, but if you don't have an electrolyzer (or the gold to make one), you might consider centrifuging impure kaolinite, prasiolite, or purified wollastonite dust for tiny piles."
 	],

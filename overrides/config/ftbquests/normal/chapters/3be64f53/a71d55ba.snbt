@@ -1,8 +1,10 @@
 {
-	x: -13.5d,
+	x: -10.5d,
 	y: 2.5d,
+	text: [
+		"Uh, manipulates the degenerate rhenium to perform calculations using exotic properties of high energy emissions? What other long words do I know..."
+	],
 	dependencies: [
-		"625f1d8a",
 		"0adf1632",
 		"ac8a45ec"
 	],

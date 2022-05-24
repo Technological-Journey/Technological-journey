@@ -1,16 +1,34 @@
 {
-	x: -0.5d,
-	y: 3.0d,
-	hide_dependency_lines: true,
+	x: -11.5d,
+	y: -5.5d,
+	text: [
+		"This is the most efficient way of making rotors or small gears. If you like, you can use an extruder shape instead, which uses 5 ingots per rotor as opposed to 4, but doesn't require melting the ingots first."
+	],
 	dependencies: [
+		"8890bed8",
 		"e5988795"
 	],
 	optional: true,
+	or_tasks: true,
 	tasks: [{
 		uid: "b34ff035",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 320"
+		}]
+	},
+	{
+		uid: "129623a8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32318"
+		}]
+	},
+	{
+		uid: "3c96d5fd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32317"
 		}]
 	}]
 }

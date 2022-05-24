@@ -1,11 +1,11 @@
 {
-	x: -0.5d,
-	y: 1.0d,
+	x: -11.5d,
+	y: -6.5d,
 	text: [
 		"No more redstone for motors!"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
+		"8890bed8",
 		"e5988795"
 	],
 	optional: true,

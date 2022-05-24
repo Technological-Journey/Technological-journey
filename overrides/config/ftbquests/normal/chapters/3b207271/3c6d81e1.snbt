@@ -1,6 +1,6 @@
 {
-	x: -1.5d,
-	y: 5.0d,
+	x: 2.5d,
+	y: -1.5d,
 	text: [
 		"Gregtech ore processing is complex. Good luck. ",
 		"",

@@ -1,6 +1,9 @@
 {
-	x: -4.5d,
-	y: -4.0d,
+	x: 2.5d,
+	y: -11.0d,
+	text: [
+		"You can now make and charge a drill, but consider the fact that you will be able to do all mining by abusing TIAB and chunk miners soon."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"e5988795"

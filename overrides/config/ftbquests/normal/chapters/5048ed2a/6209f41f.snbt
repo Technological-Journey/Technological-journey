@@ -1,7 +1,7 @@
 {
 	title: "Reactor Casings",
 	icon: "gregtech:machine 1 2545",
-	x: 15.5d,
+	x: 16.5d,
 	y: 4.0d,
 	text: [
 		""

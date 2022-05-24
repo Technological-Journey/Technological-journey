@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "ff96df4a",
+		type: "checkmark",
+		title: "Gluon Gaming",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "quark_gluon_plasma",
+				Amount: 1000
+			}
+		}
+	}]
+}

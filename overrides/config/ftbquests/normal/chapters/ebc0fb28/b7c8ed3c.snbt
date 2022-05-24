@@ -7,9 +7,14 @@
 			Amount: 1000
 		}
 	},
-	x: 5.5d,
+	x: 8.0d,
 	y: -1.5d,
 	shape: "hexagon",
+	text: [
+		"This needs passive trinium and taranium in order to passive adamantium and neutronium. Good luck?",
+		"",
+		"As of update 1.0.4 release, nobody has managed to passive this."
+	],
 	dependencies: [
 		"34ce1cb7"
 	],

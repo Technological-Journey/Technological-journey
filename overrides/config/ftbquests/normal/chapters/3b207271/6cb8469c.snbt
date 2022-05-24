@@ -1,11 +1,14 @@
 {
 	title: "Important things about GTCE multiblocks",
 	x: -4.5d,
-	y: -2.5d,
+	y: 1.5d,
 	text: [
 		"Gregtech multiblocks have a unique feature, this is the ability to share blocks. All non-functional blocks can be shared between one or more controllers. This allows you to reduce the cost of the more expensive multiblocks.",
 		"",
 		"If you're a gregtech veteran, you may be confused about why multiblocks take a little bit to form. §c§lWe have a 3 second delay on multiblock forming checks, to reduce late game lag from LCR spam. You can force a check any time by right clicking the multiblock controller with a GT hard hammer. §r If you're looking to increase, decrease, or otherwise alter this please ask in the discord."
+	],
+	dependencies: [
+		"7ebbb4e1"
 	],
 	tasks: [{
 		uid: "d8966ff3",

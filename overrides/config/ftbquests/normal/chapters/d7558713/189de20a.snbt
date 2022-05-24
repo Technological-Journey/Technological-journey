@@ -2,7 +2,7 @@
 	x: -2.5d,
 	y: 7.0d,
 	text: [
-		"Now that you have access to naquadah, you are able to make naquadah doped wafers. These can be engraved into SoC (System on Chip) wafers, which may be used to make circuit production much cheaper. Of course, for new circuits you'll almost always need to make the hard version first."
+		"Now that you have access to naquadah, you are able to make naquadah doped wafers. These can be engraved into SoC (System on Chip) wafers, which may be used to make circuit production much cheaper. Of course, for new circuits you'll always need to make the hard version first."
 	],
 	dependencies: [
 		"b3464bef"

@@ -1,5 +1,5 @@
 {
-	x: 15.5d,
+	x: 16.5d,
 	y: 7.0d,
 	text: [
 		"The heat exchanger will use water in one input hatch and lava in another, and produce both hot steam and pahoehoe lava, which can be electrolyzed for carbon,",

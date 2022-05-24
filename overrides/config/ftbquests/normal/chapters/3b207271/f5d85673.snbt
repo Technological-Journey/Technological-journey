@@ -1,13 +1,12 @@
 {
-	x: -0.5d,
-	y: 0.0d,
+	x: -11.5d,
+	y: -8.5d,
 	text: [
 		"This will allow you to make rods cheaper"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"388056ac",
-		"34d7c549"
+		"8890bed8",
+		"e5988795"
 	],
 	tasks: [{
 		uid: "3b5ac67d",

@@ -1,6 +1,6 @@
 {
-	x: -6.0d,
-	y: -5.5d,
+	x: 1.0d,
+	y: -12.5d,
 	shape: "gear",
 	text: [
 		"Fluid and item detectors read the contents of the inventory they are attached to, and emit a corresponding redstone signal. This is useful for turning off machines when buffers fill without needing level emitters or AE subnets. "

@@ -1,11 +1,9 @@
 {
 	x: 2.5d,
-	y: 2.0d,
-	shape: "rsquare",
+	y: -3.0d,
 	text: [
 		"You need an IV solidifier to make Rhodium Plated Palladium, but you're free to use a multi for it. It will need at least IV pump blocks to run this recipe however."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"add803cf"
 	],

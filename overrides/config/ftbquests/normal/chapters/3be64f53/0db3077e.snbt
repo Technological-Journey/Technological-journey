@@ -6,8 +6,8 @@
 			Amount: 1000
 		}
 	},
-	x: -8.5d,
-	y: 1.5d,
+	x: -3.5d,
+	y: 2.5d,
 	dependencies: [
 		"a843fa47",
 		"b652c03f",

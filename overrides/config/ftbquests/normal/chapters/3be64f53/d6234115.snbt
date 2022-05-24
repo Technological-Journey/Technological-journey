@@ -7,8 +7,8 @@
 		}
 	},
 	disable_toast: true,
-	x: -8.5d,
-	y: 2.5d,
+	x: -2.5d,
+	y: 3.5d,
 	shape: "rsquare",
 	text: [
 		"Dont even think about drinking it just cause its called alcohol"

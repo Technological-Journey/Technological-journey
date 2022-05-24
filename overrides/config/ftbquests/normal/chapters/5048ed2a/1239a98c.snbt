@@ -1,7 +1,7 @@
 {
 	title: "Hot coolent turbine",
 	icon: "gregtech:machine 1 2544",
-	x: 15.5d,
+	x: 16.5d,
 	y: 6.0d,
 	text: [
 		""

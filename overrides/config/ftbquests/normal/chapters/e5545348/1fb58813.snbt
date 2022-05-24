@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: 4.5d,
+	shape: "rsquare",
+	text: [
+		"If you feel like wasting a bunch of steel by making tiny pipes without the extruder, feel free to checkmark this quest to bypass the extruder and tiny pipe extruder shape quests. You're wrong and I'm gonna make fun of you, but feel free."
+	],
+	optional: true,
+	tasks: [{
+		uid: "1f5c6141",
+		type: "checkmark",
+		title: "I like to waste things.",
+		icon: "gregtech:meta_item_1 1 10184"
+	}]
+}

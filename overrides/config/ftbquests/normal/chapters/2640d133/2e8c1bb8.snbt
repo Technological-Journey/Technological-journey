@@ -2,7 +2,11 @@
 	x: -3.5d,
 	y: -1.0d,
 	text: [
-		"You'll need string to make cables, and cables to make hulls for busses and hatches (as well as circuits and machines later on). Breed up some sheep, harvest wool, and macerate it for string.  "
+		"You'll need string to make cables, and cables to make hulls for busses and hatches (as well as circuits and machines later on). ",
+		"",
+		"If you like farming: Use flax, its busted.",
+		"",
+		"If you hate farming: Breed up some sheep, harvest wool, and macerate it for string. It's more work than farming, you get less string, and you have to tie up your macerator. "
 	],
 	can_repeat: true,
 	tasks: [{
@@ -23,5 +27,11 @@
 			}
 		},
 		count: 2
+	},
+	{
+		uid: "fa95a63e",
+		type: "item",
+		item: "actuallyadditions:item_flax_seed",
+		count: 32
 	}]
 }

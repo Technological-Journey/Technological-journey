@@ -1,8 +1,8 @@
 {
 	title: "Maintenance Hatch",
 	icon: "gregtech:machine 1 4213",
-	x: 0.5d,
-	y: 8.0d,
+	x: -6.5d,
+	y: 0.5d,
 	text: [
 		"Maintenance can be dealt with in 2 ways. One is to have the tools that correspond to the errors in the multiblocks controller in your inventory and press the square in the hatch.",
 		"",
@@ -12,8 +12,9 @@
 		"",
 		"Remember not to try and share these between multiblocks -- everything else is fine. "
 	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"7ebbb4e1"
+		"2a2f0b0c"
 	],
 	tasks: [{
 		uid: "36ecc656",

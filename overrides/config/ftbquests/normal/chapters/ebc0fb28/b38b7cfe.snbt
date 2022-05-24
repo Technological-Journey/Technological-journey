@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"The Large Naq. Reactor has (surprise) been buffed. If you're already making oxygen plasma, it's highly reccomended to boost these. If you aren't already making oxygen plasma, consider doing so."
+	],
+	tasks: [{
+		uid: "94fda2e6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2561"
+		}]
+	}]
+}

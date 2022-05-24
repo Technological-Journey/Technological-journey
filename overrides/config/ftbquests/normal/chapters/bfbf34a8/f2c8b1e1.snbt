@@ -5,7 +5,8 @@
 		"Make sure your gluons are setup well and truly passive. You'll need hundreds or thosuands of these, depending on which circuits you use for some recipes. "
 	],
 	dependencies: [
-		"f1c30af9"
+		"f1c30af9",
+		"c308a447"
 	],
 	tasks: [{
 		uid: "23f53623",

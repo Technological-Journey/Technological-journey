@@ -1,6 +1,6 @@
 {
 	icon: "gtadditions:ga_meta_item 1 32312",
-	x: 17.5d,
+	x: 20.5d,
 	y: 11.0d,
 	shape: "gear",
 	text: [

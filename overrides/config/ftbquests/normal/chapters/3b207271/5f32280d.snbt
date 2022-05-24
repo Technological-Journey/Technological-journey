@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	text: [
+		"Forgot to tell you about this one. It takes two circuits! Fun! "
+	],
+	dependencies: [
+		"49faaf5c"
+	],
+	tasks: [{
+		uid: "89f27485",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32680"
+		}]
+	}]
+}

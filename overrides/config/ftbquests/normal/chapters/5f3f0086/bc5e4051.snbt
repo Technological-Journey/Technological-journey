@@ -1,11 +1,6 @@
 {
 	title: "Scanner and prospector",
-	icon: {
-		id: "scannable:scanner",
-		tag: {
-			energy: 500000
-		}
-	},
+	icon: "scannable:module_ore_rare",
 	x: 4.5d,
 	y: -8.0d,
 	text: [

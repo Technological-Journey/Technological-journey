@@ -11,6 +11,7 @@
 	shape: "hexagon",
 	dependencies: [
 		"b1ac71dc",
+		"24b3ff39",
 		"38bbd280"
 	],
 	tasks: [{

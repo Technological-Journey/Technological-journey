@@ -5,7 +5,7 @@
 	text: [
 		"This is a basic ethanol line, designed to be fully passive from sugarcane. ",
 		"",
-		"You'll want to do this sooner rather than later, as the longer it runs the more ethanol you'll have. You'll need it for polyethylene in MV. "
+		"You'll want to do this sooner rather than later, as the longer it runs the more ethanol you'll have. You'll need it for polyethylene."
 	],
 	optional: true,
 	tasks: [{

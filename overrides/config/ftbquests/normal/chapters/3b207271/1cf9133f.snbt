@@ -1,12 +1,12 @@
 {
-	x: 0.5d,
-	y: -1.0d,
+	x: -11.5d,
+	y: -9.5d,
 	text: [
 		"This will allow you to make plates cheaper"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
-		"85d1b146"
+		"8890bed8",
+		"e5988795"
 	],
 	tasks: [{
 		uid: "c549b8b3",
