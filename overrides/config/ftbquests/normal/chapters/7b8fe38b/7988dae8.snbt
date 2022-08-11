@@ -1,0 +1,26 @@
+{
+	x: 8.5d,
+	y: -1.0d,
+	text: [
+		"Remember, chlorine is looped in the gold line. You only need a small amount to make your first chloroauric acid, and after that you can recycle chlorine by processing the chloroauric acid.",
+		"",
+		"A good source for this early chlorine is electrolyzing salt, which means you'll need to make enough gold for an electrolyzer using the precious metal smelting recipes."
+	],
+	dependencies: [
+		"82b46f60",
+		"eaedd8fa"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5fcb38ab",
+		type: "checkmark",
+		title: "Hydrochloric Acid Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrochloric_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

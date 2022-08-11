@@ -1,0 +1,10 @@
+{
+	x: 7.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "bdfd09cb",
+		type: "checkmark",
+		title: "The Gold Line",
+		icon: "minecraft:gold_ingot"
+	}]
+}

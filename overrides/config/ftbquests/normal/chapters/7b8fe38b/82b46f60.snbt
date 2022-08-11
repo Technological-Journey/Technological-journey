@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: -3.0d,
+	dependencies: [
+		"376a39ad"
+	],
+	tasks: [{
+		uid: "dee7bd6c",
+		type: "checkmark",
+		title: "Chlorine",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "chlorine",
+				Amount: 1000
+			}
+		}
+	}]
+}

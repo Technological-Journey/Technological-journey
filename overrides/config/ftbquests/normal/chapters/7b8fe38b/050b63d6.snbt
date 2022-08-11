@@ -1,0 +1,57 @@
+{
+	x: 5.5d,
+	y: -7.0d,
+	shape: "gear",
+	description: "Covers + Simple Automation",
+	text: [
+		"Machines and other GTCE blocks can have covers -- pumps, conveyers, robot arms, filters, etc. These go on the outside of the block to add features. ",
+		"",
+		"The first one is the conveyor cover: these allow the block to auto pull and push to neighboring blocks. ",
+		"",
+		"A robot arm does the same thing but has more features: these allow the ability to pull a certain amount or maintain a certain amount. ",
+		"",
+		"The machine controller allows the machine to be controlled by a redstone signal.",
+		"",
+		" The pump allows the machine to import and export fluids. The fluid regulator allows for percise control over fluids similar to robot arms for items. ",
+		"",
+		"Filters can also be used as covers and will be respected by other mods means of transferring items/fluids. Filters can also be put inside of other covers to allow for more control. Each cover can be accessed by right clicking with a screwdriver.",
+		"",
+		"The other thing that machines can do is auto export fluids and items: this is the arrows inside the gui. Orange means item, blue means fluids. Using these options will also cause the output on the machine to have an outline of the respective color. These outputs can also be set to allow inputs, you need to hit them with a screwdriver.  "
+	],
+	tasks: [{
+		uid: "9eeb9c69",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32630"
+		}]
+	},
+	{
+		uid: "1a02f9d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32610"
+		}]
+	},
+	{
+		uid: "01d81dd1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32650"
+		}]
+	}],
+	rewards: [{
+		uid: "506ce7cc",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32630"
+	},
+	{
+		uid: "651d81c3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32610"
+	},
+	{
+		uid: "d50aaaef",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32650"
+	}]
+}

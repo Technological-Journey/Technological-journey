@@ -1,6 +1,6 @@
 {
 	x: 0.5d,
-	y: 3.5d,
+	y: 3.0d,
 	text: [
 		"The extruder can be used to make many parts faster and more cheaply. Pipes, cells, gears, etc. can all be produced in an extruder. ",
 		"",

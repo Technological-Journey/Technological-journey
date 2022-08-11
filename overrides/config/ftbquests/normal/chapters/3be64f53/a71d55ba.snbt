@@ -2,7 +2,7 @@
 	x: -10.5d,
 	y: 2.5d,
 	text: [
-		"Uh, manipulates the degenerate rhenium to perform calculations using exotic properties of high energy emissions? What other long words do I know..."
+		"\"just\" manipulates wavefunctions of Rydberg atoms directly to perform computations - Zalgo"
 	],
 	dependencies: [
 		"0adf1632",

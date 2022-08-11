@@ -37,13 +37,6 @@
 		count: 36L
 	},
 	{
-		uid: "aa619ff8",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 735"
-		}]
-	},
-	{
 		uid: "f8304497",
 		type: "item",
 		items: [{

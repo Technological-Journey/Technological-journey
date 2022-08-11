@@ -1,0 +1,17 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	text: [
+		"Doesn't suck your blood, unfortunately."
+	],
+	dependencies: [
+		"6828d7de"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a9dce5af",
+		type: "checkmark",
+		title: "Gold Leach",
+		icon: "gtadditions:ga_dust 1 904"
+	}]
+}

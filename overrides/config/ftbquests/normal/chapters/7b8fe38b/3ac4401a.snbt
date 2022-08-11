@@ -1,0 +1,14 @@
+{
+	icon: "gregtech:machine 1 2908",
+	x: 3.5d,
+	y: -4.0d,
+	dependencies: [
+		"a471cbb7"
+	],
+	tasks: [{
+		uid: "5ba4dc0a",
+		type: "checkmark",
+		title: "LV Machines",
+		icon: "gregtech:machine 1 470"
+	}]
+}

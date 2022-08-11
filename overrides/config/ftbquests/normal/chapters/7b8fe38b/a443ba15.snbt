@@ -1,0 +1,17 @@
+{
+	x: 11.5d,
+	y: -1.0d,
+	text: [
+		"Electrolyze silicon dioxide for one silicon and 2 buckets of oxygen. Stoichiometry! "
+	],
+	dependencies: [
+		"0fe729ef"
+	],
+	tasks: [{
+		uid: "bfd94260",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2061"
+		}]
+	}]
+}

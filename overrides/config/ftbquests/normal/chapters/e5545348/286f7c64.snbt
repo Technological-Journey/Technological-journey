@@ -5,9 +5,6 @@
 		"You may make either an LV or an MV Distillery to complete this quest."
 	],
 	hide_dependency_lines: true,
-	dependencies: [
-		"85d1b146"
-	],
 	or_tasks: true,
 	tasks: [{
 		uid: "6af0529c",

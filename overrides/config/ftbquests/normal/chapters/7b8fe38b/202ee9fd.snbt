@@ -1,0 +1,25 @@
+{
+	title: "Maintenance Hatch",
+	icon: "gregtech:machine 1 4213",
+	x: 17.5d,
+	y: -1.0d,
+	text: [
+		"Maintenance can be dealt with in 2 ways. One is to have the tools that correspond to the errors in the multiblocks controller in your inventory and press the square in the hatch.",
+		"",
+		"The other is to have duct tape in your inventory and press the square in the hatch, duct tape will remove all issues.",
+		"",
+		"Again, the square in the hatch is a button, not a slot. You dont need to drag anything to it, just click it when you have the appropriate item(s) in your inventory. ",
+		"",
+		"Remember not to try and share these between multiblocks -- everything else is fine. "
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "36ecc656",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "47dd75e4",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32307"
+	}]
+}

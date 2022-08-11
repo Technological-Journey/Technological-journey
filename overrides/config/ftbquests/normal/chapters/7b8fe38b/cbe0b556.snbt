@@ -1,0 +1,24 @@
+{
+	title: "Chloroauric Acid",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c05dc629",
+		"7988dae8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cad0a31d",
+		type: "checkmark",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "chloroauric_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

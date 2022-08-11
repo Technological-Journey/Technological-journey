@@ -1,0 +1,20 @@
+{
+	x: 14.5d,
+	y: -1.0d,
+	text: [
+		"A lot of resources are a pain to get early on, and we don't want to encourage you to make a huge and laggy mobfarm. Instead, use these spawners (and others) on capture mode, and run the vials through a vial processor.",
+		"",
+		"This pack has native EU->RF conversion, meaning you can power your RF machines with gregtech energy. "
+	],
+	dependencies: [
+		"70705290"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7ec5ce2b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1400"
+		}]
+	}]
+}

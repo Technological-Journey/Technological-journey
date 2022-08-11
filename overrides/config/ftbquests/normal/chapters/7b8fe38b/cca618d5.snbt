@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: -3.0d,
+	dependencies: [
+		"bcea468e",
+		"94c587cb"
+	],
+	tasks: [{
+		uid: "9f7caff2",
+		type: "checkmark",
+		title: "Nitrogen",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitrogen",
+				Amount: 1000
+			}
+		}
+	}]
+}

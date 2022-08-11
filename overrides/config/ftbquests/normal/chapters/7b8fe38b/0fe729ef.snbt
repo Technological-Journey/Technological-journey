@@ -1,0 +1,18 @@
+{
+	x: 11.5d,
+	y: -2.0d,
+	text: [
+		"Silicon dioxide can be made in a couple of ways right now. The easiest is electrolysis of glass dust, but if you don't have an electrolyzer (or the gold to make one), you might consider centrifuging impure kaolinite, prasiolite, or purified wollastonite dust for tiny piles."
+	],
+	dependencies: [
+		"376a39ad"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "113e9cf1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2159"
+		}]
+	}]
+}

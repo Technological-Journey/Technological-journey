@@ -1,0 +1,63 @@
+{
+	title: "You're gonna... love this!",
+	x: 5.5d,
+	y: -5.5d,
+	text: [
+		"These are components - you can read more about what each does in the `Covers + Simple Automation` quest directly above this. They are used in automation but also to craft various machines. This quest will accept any one of them, but if you make the pump, conveyer, and robot arm, you'll get a nice reward from the aforementioned quest. ",
+		"",
+		"You will have to make a version these for the majority of voltages. Good luck! "
+	],
+	dependencies: [
+		"73a9d10d"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "38483314",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32650"
+		}]
+	},
+	{
+		uid: "6b007c34",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32610"
+		}]
+	},
+	{
+		uid: "70bafb30",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32630"
+		}]
+	},
+	{
+		uid: "366a1390",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32640"
+		}]
+	},
+	{
+		uid: "486943c8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32680"
+		}]
+	},
+	{
+		uid: "e7b5e6e5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32690"
+		}]
+	},
+	{
+		uid: "186aa41b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32670"
+		}]
+	}]
+}

@@ -3,8 +3,7 @@
 	y: -6.5d,
 	shape: "rsquare",
 	text: [
-		"This chain is for zylon, a mid - late game polymer. You don't have to do it right now, but it's achievable. If you want to wrap millions of wires, this may be a good idea. Otherwise, ",
-		"wait UHV or UEV."
+		"This chain is for zylon, a mid - late game polymer. You don't have to do it right now, but it's achievable. If you want to wrap millions of wires, this may be a good idea. Otherwise, maybe wait for UHV or UEV."
 	],
 	tasks: [{
 		uid: "1727c989",
