@@ -110,7 +110,7 @@ val rock_crystal = util.getCrystalORIngredient(false, false);
 Altar.addDiscoveryAltarRecipe("technological_journey/internal/upgrade_tier2", <astralsorcery:blockaltar:1>, 200, 300,[<ore:stoneMarble>,rock_crystal,<ore:stoneMarble>,<astralsorcery:blockmarble:6>,<gtadditions:ga_meta_item:1235>,<astralsorcery:blockmarble:6>,<ore:stoneMarble>,<gtadditions:ga_meta_item:1235>,<ore:stoneMarble>]);
 Altar.addDiscoveryAltarRecipe("technological_journey/internal/glasslens", <astralsorcery:itemcraftingcomponent:3>, 5, 300,[null,<gregtech:meta_item_1:15331>,null,<gregtech:meta_item_1:15331>,<ore:gemAquamarine>,<gregtech:meta_item_1:15331>,null,<gregtech:meta_item_1:15331>,null]);
 Altar.addDiscoveryAltarRecipe("technological_journey/internal/illuminator", <astralsorcery:blockworldilluminator>, 200, 300,[<astralsorcery:itemusabledust>,<ore:gemAquamarine>,<astralsorcery:itemusabledust>,<ore:gemAquamarine>,null,<ore:gemAquamarine>,<astralsorcery:itemusabledust>,<ore:gemAquamarine>,<astralsorcery:itemusabledust>]);
-Altar.addDiscoveryAltarRecipe("technological_journey/internal/lightwell", <astralsorcery:blockwell>, 700, 300, [<astralsorcery:blockmarble:6>, <astralsorcery:itemcraftingcomponent> ,<astralsorcery:blockmarble:6>,<gregtech:meta_item_1:12858>,<gtadditions:ga_transparent_casing:4>,<gregtech:meta_item_1:12858>,<astralsorcery:blockmarble:6>,<gregtech:meta_item_1:13047>,<astralsorcery:blockmarble:6>]);
+Altar.addDiscoveryAltarRecipe("technological_journey/internal/lightwell", <astralsorcery:blockwell>, 700, 300, [<astralsorcery:blockmarble:6>, <astralsorcery:itemcraftingcomponent> ,<astralsorcery:blockmarble:6>,<gregtech:meta_item_1:13883>,<gtadditions:ga_transparent_casing:4>,<gregtech:meta_item_1:13883>,<astralsorcery:blockmarble:6>,<gregtech:meta_item_1:13047>,<astralsorcery:blockmarble:6>]);
 Altar.addAttunementAltarRecipe("technological_journey/internal/upgrade_tier3", <astralsorcery:blockaltar:2>, 500, 300,[<astralsorcery:itemcraftingcomponent:4>,null,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:blockmarble:6>,util.getCrystalORIngredient(true, false),<astralsorcery:blockmarble:6>,<gtadditions:ga_meta_item:1859>,<astralsorcery:itemcraftingcomponent:1>,<gtadditions:ga_meta_item:1859>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>]);
 Altar.addConstellationAltarRecipe("technological_journey/internal/chalice", <astralsorcery:blockchalice> , 450 ,300 , [<gtadditions:ga_transparent_casing:4>,<gregtech:machine:2200>,<gtadditions:ga_transparent_casing:4>,<gtadditions:ga_transparent_casing:4>,null,<gtadditions:ga_transparent_casing:4>,<gtadditions:ga_meta_item:1859>,<gtadditions:ga_meta_item:1859>,<gtadditions:ga_meta_item:1859>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<ore:gemAquamarine>,<ore:gemAquamarine>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:2>,<astralsorcery:itemcraftingcomponent:1>,<astralsorcery:itemcraftingcomponent:1>]); # 21
 Altar.addConstellationAltarRecipe("technological_journey/internal/upgrade_tier4", <astralsorcery:blockaltar:3>,  800, 400, [<astralsorcery:blockmarble:6>,<astralsorcery:itemcraftingcomponent:3>,<astralsorcery:blockmarble:6>,<gregtech:meta_item_1:12524>,util.getCrystalORIngredient(true, false),<gregtech:meta_item_1:12524>,<astralsorcery:blockmarble:6>,<astralsorcery:itemcraftingcomponent:3>,<astralsorcery:blockmarble:6>,<astralsorcery:blockmarble:6>,<astralsorcery:blockmarble:6>,<astralsorcery:blockmarble:6>,<astralsorcery:blockmarble:6>,<astralsorcery:blockblackmarble>,<astralsorcery:blockblackmarble>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:itemcraftingcomponent:4>,<astralsorcery:blockblackmarble>,<astralsorcery:blockblackmarble>]);
@@ -241,9 +241,64 @@ blast_furnace.recipeBuilder()
 <gregtech:meta_block_compressed_32:12>.addTooltip("(AxSx)Nq(Ir₃Os)");
 <liquid:star_metal_alloy>.addTooltip("(AxSx)Nq(Ir₃Os)");
 
+//Explosive Hydrazine
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture> *8000, <liquid:nitrotoluene> *4000, <liquid:glyceryl> * 1000)
+    .fluidOutputs(<liquid:explosivehydrazine> * 13000)
+    .duration(100)
+    .EUt(1024)
+.buildAndRegister();
+
+largeMix.recipeBuilder()
+    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture> *8000, <liquid:nitrotoluene> *4000, <liquid:glyceryl> * 1000)
+    .fluidOutputs(<liquid:explosivehydrazine> * 13000)
+    .duration(100)
+    .EUt(1024)
+.buildAndRegister();
+
+//HMX
+
+chemreactor.recipeBuilder()
+    .fluidInputs(<liquid:fuming_nitric_acid>*2000)
+    .inputs(<ore:dustHexamethylenetetramine>*4)
+    .notConsumable(<liquid:acetic_anhydride>)
+    .outputs(<gtadditions:ga_dust:530>)
+    .duration(20)
+    .EUt(1024)
+.buildAndRegister();
+
+// Paraformaldehyde
+chemdehydrator.recipeBuilder()
+    .fluidInputs(<liquid:formaldehyde> *1000,<liquid:water> *4000)
+    .chancedOutput(<gtadditions:ga_dust:529>,0.50)
+    .duration(60)
+    .EUt(1024)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+    .fluidInputs(<liquid:explosivehydrazine> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_b> * 2000)
+    .inputs(<ore:dustHmxexplosive>*4)
+    .notConsumable(<ore:dustStarfuelcatalyst>)
+    .fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
+    .duration(20)
+    .EUt(1024)
+.buildAndRegister();
+
+large_chem.recipeBuilder()
+    .fluidInputs(<liquid:explosivehydrazine> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_b> * 2000)
+    .inputs(<ore:dustHmxexplosive>*4)
+    .notConsumable(<ore:dustStarfuelcatalyst>)
+    .fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
+    .duration(20)
+    .EUt(1024)
+.buildAndRegister();
+
+//Starlight Fuel
+
 chemreactor.recipeBuilder()
 .fluidInputs(<liquid:high_octane> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_c> * 2000)
-.inputs(<astralsorcery:itemcraftingcomponent:2>,<randomthings:ingredient:2>)
+.notConsumable(<ore:dustStarfuelcatalyst>)
 .fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
 .duration(20)
 .EUt(1024)
@@ -251,7 +306,7 @@ chemreactor.recipeBuilder()
 
 large_chem.recipeBuilder()
 .fluidInputs(<liquid:high_octane> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_c> * 2000)
-.inputs(<astralsorcery:itemcraftingcomponent:2>,<randomthings:ingredient:2>)
+.notConsumable(<ore:dustStarfuelcatalyst>)
 .fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
 .duration(20)
 .EUt(1024)
@@ -271,6 +326,7 @@ assembler.recipeBuilder()
 .duration(40)
 .EUt(1024)
 .buildAndRegister();
+
 /*
 electrolyzer.recipeBuilder()
 .fluidInputs(<liquid:astralsorcery.liquidstarlight> *6000)

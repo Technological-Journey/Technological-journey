@@ -84,6 +84,7 @@ rh(<enderio:block_simple_alloy_smelter>);
 rh(<enderio:block_alloy_smelter>);
 rh(<enderio:block_enhanced_alloy_smelter>);
 //Don't touch me!
+
 //#Add
 recipes.addShaped(<thermalfoundation:material:1027>, [[null, <gregtech:meta_item_1:2138>, null],[<gregtech:meta_item_1:2138>, <minecraft:blaze_powder>, <gregtech:meta_item_1:2138>], [null, <gregtech:meta_item_1:2138>, null]]);
 recipes.addShaped(<thermalfoundation:material:512>, [[<minecraft:redstone>, null, <minecraft:redstone>],[null, <gregtech:meta_item_1:10297>, null], [<minecraft:redstone>, null, <minecraft:redstone>]]);

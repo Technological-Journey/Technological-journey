@@ -54,3 +54,10 @@ item.contenttweaker.refinedchaosshard.name=Refined Chaos Shard
 devtech.machine.vial_processor.name=Vial Processor
 recipemap.vial_processor.name=Vial Processor
 material.bright_steel=Bright Steel
+
+
+
+gtadditions:ga_dust:527=Naquadric Starfuel Catalyst
+gtadditions:ga_dust:529=Paraformaldehyde
+gtadditions:ga_dust:530=HMX High Explosive Compound
+fluid.explosivehydrazine=Explosive Hydrazine Fuel Mixture

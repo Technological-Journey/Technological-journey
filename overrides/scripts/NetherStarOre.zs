@@ -88,18 +88,16 @@ chaos.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_R
 val chaosalloy = MaterialRegistry.createIngotMaterial(521, "chaosalloy",  0x696969, "dull", 10, null, 60.0f, 6, 1280000);
 chaosalloy.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_PLASMA","GENERATE_FINE_WIRE","GENERATE_BOLT_SCREW"]);
 
-//val rawchaos = MaterialRegistry.createFluidMaterial(523,  "rawchaos", 0x000000, "FLUID", null);
-
-
 //reuse ID for starmetal alloy
 val starmetalalloy = MaterialRegistry.createIngotMaterial(524, "star_metal_alloy", 0x050A30, "shiny", 4,null,0,0,0,7000);
+
 util.registerFluid("starlight_rocketfuel",0xdf362d,"(AxSx)?₂OC₆H₁₈");
+
 starmetalalloy.addFlags(["GENERATE_PLATE","GENERATE_DENSE"]);
 val aquamarine = MaterialRegistry.createGemMaterial(525,"aquamarine", 0x45b3e7 ,"ruby",4,[<material:beryllium> * 3, <material:aluminium> * 3, <material:silicon> * 6, <material:oxygen> * 18]);
 aquamarine.addFlags(["GENERATE_ORE"]);
 
 util.registerFluid("dragonstem",0xff0000);
-
 util.registerFluid("rawchaos",0x000000);
 util.registerFluid("pahoehoe_lava",0x964B00);
 
@@ -112,3 +110,17 @@ chaosalloy.setCableProperties(536870912, 10000, 0);
 
 val bright_steel = MaterialRegistry.createIngotMaterial(526, "bright_steel", 0xd3d3d3, "dull" , 4,[<material:steel> * 4 , <material:bismuth> * 2, <material:caesium> * 2, <material:europium> * 1]);
 bright_steel.setCableProperties(8192, 3, 2);
+
+
+//Starlight_Fuel
+
+util.registerDust("starfuelcatalyst", 527, 0x130642, "SHINY");
+
+//Explosive Hydrazine Mixture
+util.registerFluid("explosivehydrazine", 0x3b0c5c, "(8((N₂H₄)(CH₄O))4(C₇H₇NO₂)(C₃H₅N₃O₉))");
+
+//Paraformaldehyde 
+util.registerDust("paraformaldehyde", 529, 0x66581f, "DULL");
+
+//HMX
+util.registerDust("hmxexplosive", 530, 0xf3ffdb, "SHINY");
