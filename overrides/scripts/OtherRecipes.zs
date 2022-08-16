@@ -276,8 +276,7 @@ recipes.addShaped(<snad:snad:1>, [[<minecraft:sand:1>, <minecraft:sand:1>, <mine
 recipes.addShaped(<snad:snad>, [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
 
 chemreactor.recipeBuilder()
-.inputs([<snad:snad> * 8])
-.circuit(0)
+.inputs([<snad:snad> * 8, <minecraft:obsidian> * 2])
 .fluidInputs( <liquid:lava> * 10000)
 .outputs(<minecraft:end_stone>)
 .duration(600)
@@ -285,23 +284,21 @@ chemreactor.recipeBuilder()
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
-.inputs([<minecraft:sand> * 8,<minecraft:obsidian>])
 .fluidInputs( <liquid:lava> * 1000)
 .outputs(<minecraft:end_stone> * 2)
 .duration(300)
-.EUt(8192)
+.EUt(30252)
 .buildAndRegister();
 
 large_chem.recipeBuilder()
-.inputs([<minecraft:sand> * 8,<minecraft:obsidian>])
 .fluidInputs( <liquid:lava> * 1000)
 .outputs(<minecraft:end_stone> *2)
 .duration(300)
-.EUt(8192)
+.EUt(30252)
 .buildAndRegister();
 
 large_chem.recipeBuilder()
-.inputs([<snad:snad> * 8])
+.inputs([<snad:snad> * 8, <minecraft:obsidian> * 2])
 .fluidInputs( <liquid:lava> * 10000)
 .outputs(<minecraft:end_stone>)
 .duration(600)
@@ -686,6 +683,7 @@ centrifuge.recipeBuilder()
 .duration(120)
 .EUt(32)
 .buildAndRegister();
+
 furnace.remove(<libvulpes:productingot:7>);
 furnace.remove(<libvulpes:productingot:6>);
 furnace.remove(<libvulpes:productingot:3>);
