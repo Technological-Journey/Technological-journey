@@ -113,11 +113,12 @@ bright_steel.setCableProperties(8192, 3, 2);
 
 
 //Starlight_Fuel
-
 util.registerDust("starfuelcatalyst", 527, 0x130642, "SHINY");
 
 //Explosive Hydrazine Mixture
 util.registerFluid("explosivehydrazine", 0x3b0c5c, "(8((N₂H₄)(CH₄O))4(C₇H₇NO₂)(C₃H₅N₃O₉))");
+
+util.registerFluid("stellaralloy", 0xffefb5, "(5(AxSx)Nq(Ir₃Os)4(Am)(??))");
 
 //Paraformaldehyde 
 util.registerDust("paraformaldehyde", 529, 0x66581f, "DULL");

@@ -310,6 +310,14 @@ large_chem.recipeBuilder()
 .EUt(2040)
 .buildAndRegister();
 
+mixer.recipeBuilder()
+    .inputs([<minecraft:sand>*4])
+    .fluidInputs([<liquid:biomass>*250])
+    .outputs([<minecraft:dirt>*4])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+
 Utils.removeRecipeByOutput(chemplant, [], [<liquid:fermentation_base> * 10000], false);
 Utils.removeRecipeByOutput(pyro, [], [<liquid:fermented_biomass> * 10000], false);
 
@@ -408,6 +416,19 @@ blast_furnace.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
+blast_alloy.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2022>*1, <gregtech:meta_item_1:2184>*4, <gregtech:meta_item_1:2010>*2, <gregtech:meta_item_1:2008>*2])
+    .fluidOutputs(<liquid:bright_steel>*1300)
+    .property("temperature", 2900)
+    .duration(1800)
+    .EUt(120)
+    .buildAndRegister();
+
+furnace.recipeBuilder()
+    .inputs([<gregtech:meta_block_compressed_51:11>])
+    .outputs(<minecraft:gold_ingot>)
+    .buildAndRegister();
+
 assembler.recipeBuilder()
 .inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610> * 2,<gregtech:fluid_pipe:184>])
 .fluidInputs(<liquid:nitrogen> * 1000)
@@ -480,7 +501,7 @@ recipes.addShaped(<gregtech:machine:7>, [[<gregtech:fluid_pipe:1095>, <gregtech:
 recipes.remove(<gregtech:machine:2235>);
 recipes.addShaped(<gregtech:machine:2235>, [[<minecraft:glass>, <gregtech:meta_item_2:18095>, <minecraft:glass>],[<contenttweaker:steampiston>, <gregtech:fluid_pipe:1184>, <contenttweaker:steampiston>], [<gregtech:fluid_pipe:1184>, <gregtech:machine_casing:10>, <gregtech:fluid_pipe:1184>]]);
 recipes.remove(<gregtech:machine:500>);
-recipes.addShaped(<gregtech:machine:500>, [[null, null, null],[<gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>], [<gregtech:cable:5071>, <gregtech:machine_casing>, <gregtech:cable:5071>]]);
+recipes.addShaped(<gregtech:machine:500>, [[null, null, null],[<gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>, <gregtech:meta_item_1:12197>], [<gregtech:cable:5035>, <gregtech:machine_casing>, <gregtech:cable:5035>]]);
 recipes.removeShaped(<minecraft:hopper>, [[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
 
   //ADV_FUSION_RECIPES.recipeBuilder().fluidInputs(Adamantium.getFluid(125), Neutronium.getFluid(125)).fluidOutputs(Vibranium.getFluid(125)).duration(100).EUt(8000000).coilTier(2).euStart(2500000000L).buildAndRegister();

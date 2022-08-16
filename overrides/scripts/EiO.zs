@@ -9,7 +9,7 @@ alloy.recipeBuilder()
     .inputs([<minecraft:ender_eye>,<enderio:item_alloy_ingot>])
     .outputs([<enderio:item_alloy_ingot:8>])
     .duration(160)
-    .EUt(32)
+    .EUt(1024)
     .buildAndRegister();
     //Energetic Alloy
     alloy.recipeBuilder()
@@ -98,6 +98,7 @@ alloy.recipeBuilder()
 mixer.recipeBuilder()
 	.inputs([<ore:gravel> * 4, <ore:sand> * 4])
     .fluidInputs(<liquid:water> * 1000)
+    .notConsumable(<gregtech:meta_item_1:32766>)
     .outputs([<ore:itemBinderComposite>.firstItem * 16])
     .duration(80).EUt(512).buildAndRegister();
 
@@ -109,12 +110,22 @@ macerator.recipeBuilder()
 .EUt(32)
 .buildAndRegister();
 
-alloy.recipeBuilder()
-    .inputs([<enderio:item_alloy_ingot:6>,<enderio:item_alloy_ingot:8> ])
-    .outputs([<enderio:item_alloy_endergy_ingot:3> *2])
-    .duration(160)
-    .EUt(32)
+blast_alloy.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2524> * 5, <gregtech:meta_item_1:2002> * 4, <gregtech:meta_item_1:2331>])
+    .fluidOutputs(<liquid:stellaralloy>*1440)
+    .duration(420)
+    .property("temperature", 8100)
+    .EUt(2430)
     .buildAndRegister();
+
+solidifier.recipeBuilder()
+    .fluidInputs(<liquid:stellaralloy>*144)
+    .notConsumable(<gregtech:meta_item_1:32306>)
+    .outputs(<enderio:item_alloy_endergy_ingot:3>)
+    .duration(20)
+    .EUt(8)
+    .buildAndRegister();
+
 <enderio:item_power_conduit>.displayName = "Stainless Steel Energy Conduit";
 <enderio:item_power_conduit:1>.displayName = "Titanium Energy Conduit";
 <enderio:item_endergy_conduit:11>.displayName = "Superconducting Energy Conduit";

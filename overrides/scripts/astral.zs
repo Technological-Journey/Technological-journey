@@ -231,6 +231,8 @@ blast_furnace.recipeBuilder()
     .EUt(30720)
 .buildAndRegister();
 
+
+
 <gregtech:meta_item_1:524>.addTooltip("(AxSx)Nq(Ir₃Os)");
 <gregtech:meta_item_1:1524>.addTooltip("(AxSx)Nq(Ir₃Os)");
 <gregtech:meta_item_1:2524>.addTooltip("(AxSx)Nq(Ir₃Os)");
@@ -241,14 +243,28 @@ blast_furnace.recipeBuilder()
 <gregtech:meta_block_compressed_32:12>.addTooltip("(AxSx)Nq(Ir₃Os)");
 <liquid:star_metal_alloy>.addTooltip("(AxSx)Nq(Ir₃Os)");
 
-//Explosive Hydrazine
-
 mixer.recipeBuilder()
-    .fluidInputs(<liquid:dense_hydrazine_fuel_mixture> *8000, <liquid:nitrotoluene> *4000, <liquid:glyceryl> * 1000)
-    .fluidOutputs(<liquid:explosivehydrazine> * 13000)
-    .duration(100)
-    .EUt(1024)
+    .inputs(<astralsorcery:itemcraftingcomponent:2> *2)
+    .inputs(<gregtech:meta_item_1:2307> * 3)
+    .inputs(<gregtech:meta_item_1:2052>)
+    .fluidInputs(<liquid:clear_naquadah_liquid> * 1000)
+    .outputs(<gtadditions:ga_dust:527> *6)
+    .duration(600)
+    .EUt(8096)
 .buildAndRegister();
+
+largeMix.recipeBuilder()
+    .inputs(<astralsorcery:itemcraftingcomponent:2> *2)
+    .inputs(<gregtech:meta_item_1:2307> * 3)
+    .inputs(<gregtech:meta_item_1:2052>)
+    .fluidInputs(<liquid:clear_naquadah_liquid> * 1000)
+    .outputs(<gtadditions:ga_dust:527> *6)
+    .duration(600)
+    .EUt(8096)
+.buildAndRegister();
+
+
+//Explosive Hydrazine
 
 largeMix.recipeBuilder()
     .fluidInputs(<liquid:dense_hydrazine_fuel_mixture> *8000, <liquid:nitrotoluene> *4000, <liquid:glyceryl> * 1000)
@@ -271,48 +287,31 @@ chemreactor.recipeBuilder()
 // Paraformaldehyde
 chemdehydrator.recipeBuilder()
     .fluidInputs(<liquid:formaldehyde> *1000,<liquid:water> *4000)
-    .chancedOutput(<gtadditions:ga_dust:529>,0.50)
+    .chancedOutput(<gtadditions:ga_dust:529>,1,2)
     .duration(60)
     .EUt(1024)
 .buildAndRegister();
 
-chemreactor.recipeBuilder()
-    .fluidInputs(<liquid:explosivehydrazine> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_b> * 2000)
-    .inputs(<ore:dustHmxexplosive>*4)
-    .notConsumable(<ore:dustStarfuelcatalyst>)
-    .fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
-    .duration(20)
-    .EUt(1024)
-.buildAndRegister();
+// Starlight Rocket Fuel
 
 large_chem.recipeBuilder()
-    .fluidInputs(<liquid:explosivehydrazine> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_b> * 2000)
+    .fluidInputs(<liquid:explosivehydrazine> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_b> * 2000, <liquid:kerosene> * 4000, <liquid:dinitrogen_tetroxide>  * 6000)
     .inputs(<ore:dustHmxexplosive>*4)
     .notConsumable(<ore:dustStarfuelcatalyst>)
-    .fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
+    .fluidOutputs(<liquid:starlight_rocketfuel> * 50000)
     .duration(20)
-    .EUt(1024)
+    .EUt(30000)
 .buildAndRegister();
 
-//Starlight Fuel
-
-chemreactor.recipeBuilder()
-.fluidInputs(<liquid:high_octane> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_c> * 2000)
-.notConsumable(<ore:dustStarfuelcatalyst>)
-.fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
-.duration(20)
-.EUt(1024)
+//ZPM Direct Starmetal
+chemical_bath.recipeBuilder()
+    .inputs(<ore:dustIron>)
+    .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 1000)
+    .notConsumable(<ore:dustStarfuelcatalyst>)
+    .outputs(<astralsorcery:itemcraftingcomponent:2>)
+    .duration(240)
+    .EUt(100000)
 .buildAndRegister();
-
-large_chem.recipeBuilder()
-.fluidInputs(<liquid:high_octane> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_c> * 2000)
-.notConsumable(<ore:dustStarfuelcatalyst>)
-.fluidOutputs(<liquid:starlight_rocketfuel> * 40000)
-.duration(20)
-.EUt(1024)
-.buildAndRegister();
-
-
 GAutil.removeRecipeByOutput(assembler, [<gregtech:machine_casing:7>], [], false);
 recipes.remove(<gregtech:machine_casing:7>);
 recipes.addShaped(<gregtech:machine_casing:7>, [[<gregtech:meta_item_1:12524>, <gregtech:meta_item_1:12524>, <gregtech:meta_item_1:12524>],[<gregtech:meta_item_1:12524>, <ore:GTWrench>, <gregtech:meta_item_1:12524>], [<gregtech:meta_item_1:12524>, <gregtech:meta_item_1:12524>, <gregtech:meta_item_1:12524>]]);
@@ -345,6 +344,8 @@ large_chem.recipeBuilder()
     .duration(500)
     .EUt(30000)
 .buildAndRegister();
+
+
 
 
 //LV Super

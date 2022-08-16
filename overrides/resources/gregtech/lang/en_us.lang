@@ -25,7 +25,7 @@ devtech.machine.chest_vii.name=Black Hole-Quantum Chest VII
 devtech.machine.tank_vii.name=Black Hole-Quantum Tank VII
 item.contenttweaker.certificate_of_being_a_noob.name=Certificate of Being a Noob
 fluid.starlight_rocketfuel=Starlight Rocket Fuel
-material.star_metal_alloy=Star Metal Alloy
+material.star_metal_alloy=Starmetal Alloy
 material.aquamarine=Aquamarine
 Featherweight.name=Angel block
 
@@ -57,7 +57,9 @@ material.bright_steel=Bright Steel
 
 
 
-gtadditions:ga_dust:527=Naquadric Starfuel Catalyst
-gtadditions:ga_dust:529=Paraformaldehyde
-gtadditions:ga_dust:530=HMX High Explosive Compound
+metaitem.starfuelcatalyst.name=Naquadric Starlight Catalyst
+metaitem.paraformaldehyde.name=Paraformaldehyde
+metaitem.hmxexplosive.name=HMX High Explosive Compound
 fluid.explosivehydrazine=Explosive Hydrazine Fuel Mixture
+
+fluid.stellaralloy=Molten Stellar Alloy

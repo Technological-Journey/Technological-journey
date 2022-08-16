@@ -363,7 +363,8 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(128)
 .buildAndRegister();
-//me drive parts
+//me drive parts]
+
 //1k
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12184> * 4,<ore:circuitBasic>, <ore:crystalCertusQuartz> * 4])
@@ -404,6 +405,48 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(4192)
 .buildAndRegister();
+
+//1k
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12184> * 4,<ore:circuitBasic>, <appliedenergistics2:material:10> * 4])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<appliedenergistics2:material:35>])
+.duration(300)
+.EUt(32)
+.buildAndRegister();
+//4k
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12001> * 4,<ore:circuitGood>, <appliedenergistics2:material:10> * 4,<appliedenergistics2:material:35> * 3])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<appliedenergistics2:material:36>])
+.duration(300)
+.EUt(128)
+.buildAndRegister();
+//16
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12183> * 4,<ore:circuitAdvanced>, <appliedenergistics2:material:10> * 4,<appliedenergistics2:material:36> * 3])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<appliedenergistics2:material:37>])
+.duration(300)
+.EUt(512)
+.buildAndRegister();
+//64
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12072> * 4,<ore:circuitExtreme>, <appliedenergistics2:material:10> * 4,<appliedenergistics2:material:37> * 3])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<appliedenergistics2:material:38>])
+.duration(300)
+.EUt(1048)
+.buildAndRegister();
+//256
+assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_1:12235> * 4, <appliedenergistics2:material:10> * 4,<ore:circuitElite>, <appliedenergistics2:material:38> * 3])
+.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+.outputs([<extracells:storage.component>])
+.duration(300)
+.EUt(4192)
+.buildAndRegister();
+
 // start of new one
 //256
 assembler.recipeBuilder()
@@ -413,6 +456,7 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(4192)
 .buildAndRegister();
+
 //1024
 assembler.recipeBuilder()
 .inputs([<gregtech:meta_item_1:12859> * 4,<ore:circuitMaster>,<gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32018> * 4,<extracells:storage.component> * 3])
@@ -487,6 +531,14 @@ assembler.recipeBuilder()
 .duration(300)
 .EUt(4192)
 .buildAndRegister();
+
+blast_furnace.recipeBuilder()
+    .inputs([<minecraft:stone>])
+    .outputs(<appliedenergistics2:sky_stone_block>)
+    .property("temperature", 900) //this is a minimal temperature at which the item will be smelted
+    .duration(40)
+    .EUt(30)
+    .buildAndRegister();
 
 if (<appliedenergistics2:controller> as bool) {
 recipes.remove(<appliedenergistics2:quantum_ring>);
