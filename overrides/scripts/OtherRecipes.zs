@@ -419,19 +419,15 @@ blast_alloy.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
-furnace.recipeBuilder()
-    .inputs([<gregtech:meta_block_compressed_51:11>])
-    .outputs(<minecraft:gold_ingot>)
+assembler.recipeBuilder()
+    .inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610> * 2,<gregtech:fluid_pipe:184>])
+    .fluidInputs(<liquid:nitrogen> * 1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs([<gregtech:cable:516> * 3])
+    .duration(350)
+    .EUt(32)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-.inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610> * 2,<gregtech:fluid_pipe:184>])
-.fluidInputs(<liquid:nitrogen> * 1000)
-.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
-.outputs([<gregtech:cable:516> * 3])
-.duration(350)
-.EUt(32)
-.buildAndRegister();
 furnace.remove(<gregtech:meta_item_1:10516>);
 furnace.remove(<gregtech:meta_item_1:10517>);
 
@@ -520,6 +516,8 @@ recipes.addShaped(<gregtech:machine:1307>, [[<ore:circuitUmv>, <gtadditions:ga_m
 recipes.addShaped(<gregtech:machine:1306>, [[<ore:circuitUmv>, <gregtech:meta_item_1:12993>, <ore:circuitUmv>],[<gregtech:meta_item_1:12993>, <gregtech:machine:509>, <gregtech:meta_item_1:12993>], [<ore:circuitUmv>, <gtadditions:ga_meta_item:32383>, <ore:circuitUmv>]]);
 recipes.addShaped(<gregtech:meta_block_compressed_0:1>, [[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>],[<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>], [<gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>, <gregtech:meta_item_1:10001>]]);
 furnace.addRecipe(<minecraft:glass>, <gregtech:meta_item_1:2960>, 0.0);
+furnace.addRecipe(<minecraft:gold_ingot>, <gregtech:meta_block_compressed_51:11>, 0.0);
+
 //copper 
 Utils.removeRecipeByOutput(arc,[<gregtech:meta_item_1:10087>],[],false);
 Utils.removeRecipeByOutput(arc,[<gregtech:meta_item_1:9087>],[],false);
