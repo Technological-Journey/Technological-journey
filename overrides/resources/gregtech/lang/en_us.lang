@@ -57,9 +57,12 @@ material.bright_steel=Bright Steel
 
 
 
-metaitem.starfuelcatalyst.name=Naquadric Starlight Catalyst
+metaitem.starfuelcatalyst.name=Naquadric Fuel Catalyst
 metaitem.paraformaldehyde.name=Paraformaldehyde
 metaitem.hmxexplosive.name=HMX High Explosive Compound
+metaitem.octaazacubane.name=Metastable Octaazacubane Booster
+fluid.octaazacubanesolution=Wet Octaazacubane Solution
+fluid.starlightcomplex=Starlight Complex
 fluid.explosivehydrazine=Explosive Hydrazine Fuel Mixture
 
 fluid.stellaralloy=Molten Stellar Alloy

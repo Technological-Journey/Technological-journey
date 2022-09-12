@@ -292,10 +292,57 @@ chemdehydrator.recipeBuilder()
     .EUt(1024)
 .buildAndRegister();
 
+// Octaazacubane Solution
+
+chemreactor.recipeBuilder()
+    .fluidInputs(<liquid:oxygen> * 2000)
+    .inputs(<gtadditions:ga_dust:144> * 8)
+    .fluidOutputs(<liquid:octaazacubanesolution> * 3000)
+    .outputs(<gtadditions:ga_dust:356> * 4)
+    .duration(5)
+    .EUt(30000)
+    .buildAndRegister();
+
+large_chem.recipeBuilder()
+    .fluidInputs(<liquid:oxygen> * 2000, <liquid:distilled_water> * 3000)
+    .inputs(<gtadditions:ga_dust:144> * 8)
+    .fluidOutputs(<liquid:octaazacubanesolution> * 3000)
+    .outputs(<gtadditions:ga_dust:356> * 4)
+    .duration(5)
+    .EUt(30000)
+    .buildAndRegister();
+
+// Octaazacubane
+
+chemdehydrator.recipeBuilder()
+    .fluidInputs(<liquid:octaazacubanesolution> * 1000)
+    .outputs(<gtadditions:ga_dust:531>)
+    .duration(35)
+    .EUt(4500)
+    .buildAndRegister();
+
+
+// Starlight Complex
+
+mixer.recipeBuilder()
+    .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 1000)
+    .inputs(<gtadditions:ga_dust:531>)
+    .fluidOutputs(<liquid:starlightcomplex> *2000)
+    .duration(35)
+    .EUt(2000)
+.buildAndRegister();
+
+largeMix.recipeBuilder()
+    .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 1000)
+    .fluidOutputs(<liquid:starlightcomplex> *2000)
+    .duration(35)
+    .EUt(2000)
+.buildAndRegister();
+
 // Starlight Rocket Fuel
 
 large_chem.recipeBuilder()
-    .fluidInputs(<liquid:explosivehydrazine> *32000, <liquid:astralsorcery.liquidstarlight> *6000,<liquid:rocket_fuel_b> * 2000, <liquid:kerosene> * 4000, <liquid:dinitrogen_tetroxide>  * 6000)
+    .fluidInputs(<liquid:explosivehydrazine> *32000, <liquid:starlightcomplex> *6000,<liquid:rocket_fuel_b> * 2000, <liquid:kerosene> * 4000, <liquid:dinitrogen_tetroxide>  * 6000)
     .inputs(<ore:dustHmxexplosive>*4)
     .notConsumable(<ore:dustStarfuelcatalyst>)
     .fluidOutputs(<liquid:starlight_rocketfuel> * 50000)
@@ -419,3 +466,14 @@ macerator.recipeBuilder()
 .duration(30)
 .EUt(128)
 .buildAndRegister();
+
+// End Crystal
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:woods_glass> * 144)
+    .inputs(<gregtech:meta_item_1:32725> * 1, <gtadditions:ga_meta_item:32437> * 4, <gtadditions:ga_meta_item:32430> * 1)
+    .notConsumable(<gtadditions:ga_meta_item:32591>)
+    .outputs(<minecraft:end_crystal>)
+    .duration(40)
+    .EUt(122880)
+    .buildAndRegister();

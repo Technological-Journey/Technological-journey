@@ -118,10 +118,20 @@ util.registerDust("starfuelcatalyst", 527, 0x130642, "SHINY");
 //Explosive Hydrazine Mixture
 util.registerFluid("explosivehydrazine", 0x3b0c5c, "(8((N₂H₄)(CH₄O))4(C₇H₇NO₂)(C₃H₅N₃O₉))");
 
+//Stellar Alloy
 util.registerFluid("stellaralloy", 0xffefb5, "(5(AxSx)Nq(Ir₃Os)4(Am)(??))");
 
 //Paraformaldehyde 
 util.registerDust("paraformaldehyde", 529, 0x66581f, "DULL");
 
+//Starlight Complex
+util.registerFluid("starlightcomplex", 0xe1faf7, "SxN₈");
+
 //HMX
 util.registerDust("hmxexplosive", 530, 0xf3ffdb, "SHINY");
+
+//Octaazacubane
+util.registerDust("octaazacubane", 531, 0x5f5fd9, "SHINY");
+
+//Octaazacubane Solution
+util.registerFluid("octaazacubanesolution", 0x5f5fd9, "N₈(H₂O)");
