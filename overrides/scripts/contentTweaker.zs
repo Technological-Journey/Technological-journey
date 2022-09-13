@@ -41,3 +41,18 @@ RefinedChaosShard.register();
 var RefinedChaosCrystal = VanillaFactory.createItem("refinedchaoscrystal");
 RefinedChaosCrystal.maxStackSize = 64;
 RefinedChaosCrystal.register();
+
+var infintycrystal = VanillaFactory.createItem("infintycrystal");
+infintycrystal.maxStackSize = 64;
+infintycrystal.register();
+
+var eternitycrystal = VanillaFactory.createItem("eternitycrystal");
+eternitycrystal.maxStackSize = 64;
+eternitycrystal.register();
+
+var eternityingot = VanillaFactory.createItem("eternityingot");
+eternityingot.maxStackSize = 64;
+eternityingot.register();
+
+var eternityblock = VanillaFactory.createBlock("eternityblock", <blockmaterial:iron>);
+eternityblock.register();

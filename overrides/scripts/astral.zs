@@ -284,14 +284,6 @@ chemreactor.recipeBuilder()
     .EUt(1024)
 .buildAndRegister();
 
-// Paraformaldehyde
-chemdehydrator.recipeBuilder()
-    .fluidInputs(<liquid:formaldehyde> *1000,<liquid:water> *4000)
-    .chancedOutput(<gtadditions:ga_dust:529>,1,2)
-    .duration(60)
-    .EUt(1024)
-.buildAndRegister();
-
 // Octaazacubane Solution
 
 chemreactor.recipeBuilder()
