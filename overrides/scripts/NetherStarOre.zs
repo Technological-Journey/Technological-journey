@@ -122,7 +122,7 @@ util.registerFluid("explosivehydrazine", 0x3b0c5c, "(8((N₂H₄)(CH₄O))4(C₇
 util.registerFluid("stellaralloy", 0xffefb5, "(5(AxSx)Nq(Ir₃Os)4(Am)(??))");
 
 //eternity preparation
-util.registerDust("eternity_preparation", 529, 0x46008b, "DULL");
+util.registerDust("eternity_preparation", 529, 0x46008b, "SHINY");
 
 //Starlight Complex
 util.registerFluid("starlightcomplex", 0xe1faf7, "SxN₈");
@@ -135,3 +135,5 @@ util.registerDust("octaazacubane", 531, 0x5f5fd9, "SHINY");
 
 //Octaazacubane Solution
 util.registerFluid("octaazacubanesolution", 0x5f5fd9, "N₈(H₂O)");
+
+util.registerFluid("eternity", 0x46008b);

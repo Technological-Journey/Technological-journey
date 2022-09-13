@@ -353,3 +353,62 @@ bioreactor.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:cable:1521> * 8, <gtadditions:ga_meta_item:32506> * 16)
+    .fluidInputs(<liquid:cosmic_neutronium> * 144)
+    .outputs(<gtadditions:ga_heating_coil:5>)
+    .duration(250)
+    .EUt(536870900)
+    .buildAndRegister();
+
+blast_furnace.recipeBuilder()
+    .inputs(<contenttweaker:refinedchaoscrystal> * 1, <gregtech:meta_item_1:16521> * 8, <gtadditions:ga_meta_item:32561> * 1)
+    .fluidInputs(<liquid:light_quarks> * 750)
+    .outputs(<contenttweaker:infintycrystal>)
+    .property("temperature", 19302)
+    .duration(400)
+    .EUt(536870900)
+    .buildAndRegister();
+
+blast_furnace.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32569> * 4, <gtadditions:ga_meta_item:32515>, <gtadditions:ga_meta_item:32556>)
+    .fluidInputs(<liquid:taranium> * 4000)
+    .outputs(<gtadditions:ga_dust:529>)
+    .property("temperature", 23)
+    .duration(320)
+    .EUt(536870900)
+    .buildAndRegister();
+
+Stellar.recipeBuilder()
+    .inputs(<gtadditions:ga_explosive:3>, <gtadditions:ga_dust:529> * 4, <gtadditions:ga_meta_item:32516> * 1)
+    .fluidInputs(<liquid:gluons> * 8000)
+    .fluidOutputs(<liquid:eternity> * 1152)
+    .duration(5)
+    .EUt(536870900)
+    .buildAndRegister();
+
+condenser.recipeBuilder()
+    .fluidInputs(<liquid:eternity> * 144, <liquid:microcrystallizinghydrogen> * 5000)
+    .notConsumable(<gtadditions:ga_meta_item:32450>)
+    .fluidOutputs(<liquid:hydrogen> * 5000)
+    .outputs(<contenttweaker:eternityingot>)
+    .duration(40)
+    .EUt(536870900)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .fluidInputs(<liquid:chaosalloy> * 288)
+    .inputs(<contenttweaker:eternityingot>, <gregtech:cable:4354> * 8, <gtadditions:ga_meta_item:32506> * 32, <gtadditions:ga_meta_item:32382>)
+    .outputs(<gtadditions:ga_heating_coil:6>)
+    .duration(800)
+    .EUt(536870900)
+    .buildAndRegister();
+
+blast_furnace.recipeBuilder()
+    .inputs(<gtadditions:ga_meta_item:32559>, <gtadditions:ga_meta_item:32569> * 8, <contenttweaker:infintycrystal>)
+    .fluidInputs(<liquid:high_energy_qgp> * 288)
+    .outputs(<contenttweaker:eternitycrystal>)
+    .property("temperature", 51237)
+    .duration(10000)
+    .EUt(536870900)
+    .buildAndRegister();

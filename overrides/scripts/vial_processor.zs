@@ -11,7 +11,7 @@ import mods.devtech.GUITextures;
 import mods.devtech.OverlaySlot;
 import mods.devtech.MoveType;
 
-var vial_processor = IRecipeMap.recipeMapBuilder("vial_processor",0,1,0,3,0,0,0,0)
+var vial_processor = IRecipeMap.recipeMapBuilder("vial_processor",0,1,0,4,0,0,0,0)
     .setOverlaySlots(OverlaySlot.newOverlaySlot(false, false,false,GUITextures.get("hammer_overlay")))
     .setProgressBar(GUITextures.get("progress_bar_bending"), MoveType.VERTICAL)
     .build();
@@ -20,42 +20,42 @@ RegisterMachine.CreateSimpleMachine(1400, "vial_processor",vial_processor, Overl
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:enderman"}))
-.outputs(<enderio:block_enderman_skull> * 10,<minecraft:ender_pearl> * 10,<enderio:item_soul_vial>)
+.outputs(<enderio:block_enderman_skull> * 10,<minecraft:ender_pearl> * 10,<enderio:item_soul_vial>, <actuallyadditions:item_solidified_experience> * 6)
 .EUt(16)
 .duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:blaze"}))
-.outputs(<minecraft:blaze_rod> * 10 ,<enderio:item_soul_vial>)
+.outputs(<minecraft:blaze_rod> * 10 ,<enderio:item_soul_vial>, <actuallyadditions:item_solidified_experience> * 4)
 .EUt(16)
 .duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:zombie"}))
-.outputs(<minecraft:skull:2> * 9 , <enderio:item_soul_vial>,<minecraft:rotten_flesh> * 9)
+.outputs(<minecraft:skull:2> * 9 , <enderio:item_soul_vial>,<minecraft:rotten_flesh> * 9, <actuallyadditions:item_solidified_experience> * 2)
 .EUt(16)
 .duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:skeleton"}))
-.outputs(<minecraft:bone> * 8, <enderio:item_soul_vial>)
+.outputs(<minecraft:bone> * 8, <enderio:item_soul_vial>, <actuallyadditions:item_solidified_experience> * 2)
 .EUt(16)
 .duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:pig"}))
-.outputs(<minecraft:porkchop> * 64, <enderio:item_soul_vial>)
+.outputs(<minecraft:porkchop> * 64, <enderio:item_soul_vial>, <actuallyadditions:item_solidified_experience> * 1)
 .EUt(16)
 .duration(3)
 .buildAndRegister();
 
 vial_processor.recipeBuilder()
 .inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:chicken"}))
-.outputs(<minecraft:egg> * 64, <minecraft:feather> * 26, <enderio:item_soul_vial>)
+.outputs(<minecraft:egg> * 64, <minecraft:feather> * 26, <enderio:item_soul_vial>, <actuallyadditions:item_solidified_experience> * 1)
 .EUt(16)
 .duration(3)
 .buildAndRegister();
