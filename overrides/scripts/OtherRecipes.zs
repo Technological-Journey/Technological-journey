@@ -312,6 +312,29 @@ mixer.recipeBuilder()
     .duration(20)
     .EUt(30)
     .buildAndRegister();
+    
+// Fix glycerol/sodium bicarbonate conflict
+large_chem.findRecipe(30, [<gregtech:meta_item_1:2403> * 6], [<liquid:water> * 1000]).remove();
+large_chem.findRecipe(1024, [<gregtech:meta_item_1:2403> * 6], [<liquid:water> * 2000, <liquid:epichlorhydrin> * 1000]).remove();
+
+large_chem.recipeBuilder()
+    .inputs([<ore:dustSodaAsh> * 6])
+    .fluidInputs([<liquid:water> * 1000])
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs([<gtadditions:ga_dust:194> * 6, <gregtech:meta_item_1:2373> * 3])
+    .duration(140)
+    .EUt(30)
+    .buildAndRegister();
+
+large_chem.recipeBuilder()
+    .inputs([<ore:dustSodaAsh> * 6])
+    .fluidInputs([<liquid:water> * 2000, <liquid:epichlorhydrin> * 1000])
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .outputs([<gregtech:meta_item_1:2155> * 2, <gtadditions:ga_dust:194> * 5])
+    .fluidOutputs([<liquid:glycerol> * 1000])
+    .duration(100)
+    .EUt(1024)
+    .buildAndRegister();
 
 Utils.removeRecipeByOutput(chemplant, [], [<liquid:fermentation_base> * 10000], false);
 Utils.removeRecipeByOutput(pyro, [], [<liquid:fermented_biomass> * 10000], false);
