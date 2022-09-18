@@ -215,13 +215,3 @@ val chaos_replicator = Builder.start(loc, meta)
     .EUt(524288)
     .buildAndRegister();
 
-    chaos_replicator.recipeMap.recipeBuilder()
-    .notConsumable(<appliedenergistics2:creative_storage_cell>)
-    .inputs(<contenttweaker:certificate_of_being_a_noob>)
-    .fluidInputs(<liquid:chaosalloy> * 144000)
-    .outputs(<appliedenergistics2:creative_storage_cell>)
-    .duration(500)
-    .EUt(524288)
-    .buildAndRegister();
-
-
