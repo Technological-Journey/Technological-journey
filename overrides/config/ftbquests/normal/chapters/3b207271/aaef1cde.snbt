@@ -1,0 +1,33 @@
+{
+	x: 2.5d,
+	y: -5.5d,
+	text: [
+		"Tired of chopping down trees? Then try a tree beacon. Grow a tree around and the beacon will absorb it, Then periodically drop logs. Will also drop other drops from the trees used. Such as apples, rubber, and ectoplasm."
+	],
+	dependencies: [
+		"49faaf5c"
+	],
+	tasks: [{
+		uid: "495e550a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}],
+	rewards: [{
+		uid: "99248f4a",
+		type: "item",
+		item: "randomthings:advanceditemcollector"
+	},
+	{
+		uid: "ff946a81",
+		type: "item",
+		item: "randomthings:itemfilter"
+	},
+	{
+		uid: "d385beb3",
+		type: "item",
+		item: "minecraft:sapling 1 5",
+		count: 8
+	}]
+}

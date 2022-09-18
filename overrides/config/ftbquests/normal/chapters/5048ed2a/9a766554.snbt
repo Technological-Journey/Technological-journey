@@ -1,7 +1,7 @@
 {
 	title: "Uranium 234,235,238  Hexafluoride Bucket",
-	x: 19.5d,
-	y: 8.0d,
+	x: 6.0d,
+	y: -0.5d,
 	text: [
 		""
 	],

@@ -1,6 +1,7 @@
 {
-	x: 9.0d,
+	x: 10.0d,
 	y: -3.5d,
+	shape: "hexagon",
 	text: [
 		"Isn't gregicality so much fun?!"
 	],

@@ -1,9 +1,6 @@
 {
-	x: -0.5d,
+	x: -2.5d,
 	y: 1.5d,
-	text: [
-		"You'll need one of these for AE2, as well as for SMD components"
-	],
 	dependencies: [
 		"1f7113cb"
 	],

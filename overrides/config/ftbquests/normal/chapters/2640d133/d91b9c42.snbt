@@ -1,11 +1,8 @@
 {
-	x: 2.5d,
-	y: 0.5d,
+	x: -3.5d,
+	y: 3.5d,
 	text: [
-		"This will run eight recipes every 30 seconds, which makes it faster than any singleblock macerator until HV. Consider setting a few of them up to handle ore processing for a while."
-	],
-	dependencies: [
-		"1a5403b2"
+		""
 	],
 	optional: true,
 	tasks: [{

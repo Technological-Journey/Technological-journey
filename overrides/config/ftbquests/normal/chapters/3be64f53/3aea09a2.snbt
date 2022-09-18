@@ -1,5 +1,5 @@
 {
-	x: -14.5d,
+	x: -16.5d,
 	y: 3.5d,
 	shape: "hexagon",
 	dependencies: [

@@ -1,6 +1,6 @@
 {
 	x: -3.5d,
-	y: -2.5d,
+	y: 5.0d,
 	text: [
 		"This item will allow the steam age to progress much faster, it can also be used on gregtech machines. It is important to not let your factory be centered around using this item. "
 	],

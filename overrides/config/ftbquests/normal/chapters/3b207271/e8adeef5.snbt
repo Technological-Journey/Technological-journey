@@ -1,0 +1,33 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	text: [
+		"Super tanks and super chests can be used to hold bulk quantities of fluids and items from LV onwards. These hold 32000 buckets and 2048000 items, respectively, so it should be plenty of storage for any short - medium term needs. ",
+		"",
+		"These also contain their contents when broken."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49faaf5c"
+	],
+	tasks: [{
+		uid: "ad2871a5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 829"
+		}]
+	},
+	{
+		uid: "b398237b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 827"
+		}]
+	}],
+	rewards: [{
+		uid: "538afdc1",
+		type: "item",
+		item: "gregtech:machine 1 2199",
+		count: 4
+	}]
+}

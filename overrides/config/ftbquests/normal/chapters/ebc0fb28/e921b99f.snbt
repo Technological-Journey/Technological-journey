@@ -1,0 +1,47 @@
+{
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"Like the large diesel engine, the extreme diesel engine can generate a lot of power. It can make 4 amps of IV power at 100% efficacy. And can make 12 amps of IV when boosted with oxygen at a cost of running at 50% fuel efficiency. Will constantly consume lube as well. "
+	],
+	dependencies: [
+		"15ffaea8"
+	],
+	tasks: [{
+		uid: "9ed510e1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4242"
+		}]
+	},
+	{
+		uid: "6e11981a",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 5"
+		}],
+		count: 8L
+	},
+	{
+		uid: "777e59be",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 7"
+		}],
+		count: 21L
+	},
+	{
+		uid: "7dca9322",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "c1d6e509",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 755"
+		}]
+	}]
+}

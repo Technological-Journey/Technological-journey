@@ -1,6 +1,6 @@
 {
-	x: -1.5d,
-	y: -4.0d,
+	x: -1.0d,
+	y: -3.0d,
 	text: [
 		"A dev/Null can help keep stone out of your inventory while mining."
 	],

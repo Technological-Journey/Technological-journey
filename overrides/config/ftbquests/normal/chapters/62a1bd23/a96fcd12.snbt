@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 4.5d,
+	text: [
+		"Ever find it hard to work under your EBF? ",
+		"Ever wanted to see the top of a multi without jumping?",
+		"",
+		"Well now you can, with the resizing trinkets.",
+		"Simply right-click an empty trinket after drinking a shrink or growing potion and you can have a permanent device that can augment your height.",
+		"",
+		"Warning we are not responsible for your hitbox being inside the floor, please use it responsibly and not with commands."
+	],
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "b988a372",
+		type: "item",
+		items: [{
+			item: "resize:inert_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

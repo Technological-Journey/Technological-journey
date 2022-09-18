@@ -1,10 +1,6 @@
 {
-	x: -5.0d,
-	y: -2.5d,
-	text: [
-		"If you REALLY don't like making mortars and have a lot of time on your hands... I guess you can use this for dusts."
-	],
-	hide_dependency_lines: true,
+	x: -2.0d,
+	y: -1.0d,
 	dependencies: [
 		"c5c726c3"
 	],

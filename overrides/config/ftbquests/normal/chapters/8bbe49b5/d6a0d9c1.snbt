@@ -1,8 +1,7 @@
 {
 	title: "Vacuum Freezer",
-	x: -6.0d,
-	y: -4.5d,
-	shape: "rsquare",
+	x: -1.5d,
+	y: -3.0d,
 	text: [
 		""
 	],

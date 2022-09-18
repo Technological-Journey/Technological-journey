@@ -1,12 +1,10 @@
 {
-	title: "Fusion Reactor Mk. 3",
-	x: -5.0d,
-	y: -3.5d,
-	text: [
-		""
-	],
+	x: -1.0d,
+	y: -1.5d,
+	shape: "hexagon",
 	dependencies: [
 		"427bd50e",
+		"9910c4f2",
 		"6268f8f7"
 	],
 	tasks: [{

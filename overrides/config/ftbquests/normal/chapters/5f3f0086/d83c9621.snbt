@@ -1,8 +1,7 @@
 {
 	title: "The start of a long journey",
-	x: 2.5d,
-	y: -10.0d,
-	shape: "rsquare",
+	x: 2.0d,
+	y: -6.0d,
 	description: "Same old same old, punch a tree.",
 	text: [
 		"Welcome to Technological Journey! Smack a tree a few times for some nice gear.",

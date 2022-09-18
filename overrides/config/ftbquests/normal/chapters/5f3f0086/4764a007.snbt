@@ -1,7 +1,7 @@
 {
 	title: "To get started with Gregtech you will need a few tools.",
-	x: 2.5d,
-	y: -6.0d,
+	x: 2.0d,
+	y: -4.5d,
 	shape: "hexagon",
 	text: [
 		"You will need to find a magnetite, limonite, pyrite, or mineral sands vein for iron. ",
@@ -13,8 +13,7 @@
 		"The Universal Spade functions as a saw and as a crowbar."
 	],
 	dependencies: [
-		"a547f04f",
-		"605c06fa"
+		"d83c9621"
 	],
 	tasks: [{
 		uid: "6b1d1120",

@@ -1,11 +1,6 @@
 {
 	x: -3.0d,
 	y: -9.0d,
-	text: [
-		"Forge's /rtp uses the same random function as AE does for meteor distribution, so if you /rtp you will find a meteor something like 80% of the time.",
-		"",
-		"If you for some reason don't want to do that, the plates all have laser engraver recipes.  "
-	],
 	tasks: [{
 		uid: "38166a1d",
 		type: "item",

@@ -1,7 +1,6 @@
 {
 	x: -12.5d,
 	y: -1.5d,
-	shape: "rsquare",
 	tasks: [{
 		uid: "92f09b8c",
 		type: "item",

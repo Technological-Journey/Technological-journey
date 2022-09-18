@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"Sadly the autoclave recipes for pure ae2 crystals do not work on servers. There is still an option however, the ae2 stuff crystal growth chamber can be used as a stand-in for the autoclave."
+	],
+	dependencies: [
+		"26c6491b"
+	],
+	tasks: [{
+		uid: "14e595fb",
+		type: "checkmark",
+		title: "Server Gaming?"
+	}]
+}

@@ -1,13 +1,9 @@
 {
-	x: -10.5d,
-	y: -3.5d,
+	x: -6.5d,
+	y: -5.0d,
 	text: [
 		"Tired of checking for maintenance often? ",
 		"Try an auto-taping maintenance hatch, just place tape in the hatch and when there is an issue it will auto apply tape to fix it."
-	],
-	hide_dependency_lines: true,
-	dependencies: [
-		"add803cf"
 	],
 	optional: true,
 	tasks: [{

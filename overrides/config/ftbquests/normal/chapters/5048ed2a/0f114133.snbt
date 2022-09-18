@@ -1,7 +1,6 @@
 {
-	x: 21.5d,
-	y: 0.5d,
-	shape: "hexagon",
+	x: 7.0d,
+	y: -7.5d,
 	text: [
 		"You will never have to process mendelevium. In fact, it's generally a bad idea to do so, nor will you need any specific isotope (unless you want to make Hastelloy K243). ",
 		"",

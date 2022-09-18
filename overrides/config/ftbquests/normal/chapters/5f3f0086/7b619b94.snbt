@@ -1,6 +1,10 @@
 {
-	x: 6.5d,
-	y: -6.0d,
+	title: "Void world Dim ID: 43",
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"2f7b7dcf"
 	],

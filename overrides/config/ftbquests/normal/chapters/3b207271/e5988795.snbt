@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: -4.0d,
+	text: [
+		"This will make your first EU. You should check out the power tab for a free second turbine, as well as think carefully about what machines to make first. Arrayed below are the machines you'll generally need to make it to MV, but some are more important than others. ",
+		"",
+		"The wiremill, for instance, will allow you to convert ingots directly to wires, at a ratio of 1 ingot to 2 wires, as well as convert wires to fine wires at a 1 to 4 ratio. ",
+		"",
+		"The bending machine will allow you to make plates at a 1 to 1 ratio, and so on. ",
+		"",
+		"Use JEI here, as machines cost a decent amount of resources and time for you right now and it would be a shame to be inefficent. "
+	],
+	dependencies: [
+		"388056ac",
+		"49faaf5c",
+		"2a2f0b0c"
+	],
+	tasks: [{
+		uid: "8948b633",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2242"
+		}]
+	}]
+}

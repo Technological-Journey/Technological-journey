@@ -6,11 +6,11 @@
 		"",
 		"The 'green goo' rocket fuel is strong and availible early, and is completely renewable. Starlight rocket fuel is an enourmous upgrade, but a significant amount of infrastructure to pull off. ",
 		"",
-		"The large naq reactor has been buffed considerably, and boosting it with oxygen plasma is a good idea.",
+		"The LRE (Large Rocket Engine) will generate enourmous amounts of power, equivalent to ([amount of fuel in input hatch, in milibuckets] * 341.3) EU/t every 21 seconds, if youre using starlight rocket fuel. It will consume all of the fuel in the hatch as it does so, so be careful not to bleed your fuel dry.",
 		"",
 		"Plasma turbine rotors barely take durability damage.",
 		"",
-		"You can use hot coolant for a significant amount of power, either from the heat exchanger (slow and not recommended) or from advanced fusion (supercritical steam, you will probably have to void excess)."
+		"You can use hot coolant for a significant amount of power, either from the heat exchanger (slow and not reccomended) or from advanced fusion (supercritical steam, you will probably have to void excess)."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

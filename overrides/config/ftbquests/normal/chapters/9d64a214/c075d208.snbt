@@ -1,17 +1,18 @@
 {
-	x: -1.5d,
-	y: -2.0d,
+	x: -0.5d,
+	y: 0.0d,
 	shape: "hexagon",
 	text: [
-		"Fusion is used to make two lighter elements into a heavier one, a subtle nod towards real life (very accurate physics here trust me). While fusion recipes often have very high starting power requirements, they only consume the amount listed in JEI. As a result, you can run a fusion ring constantly off a single LuV amp (or ZPM amp for two recipes). ",
-		"Because fusion creates such a small amount at a time, it's generally best to passive your fusion rings and dedicate a new one to each new element you need.",
+		"Fusion is used to make two lighter elements into a heavier one, a subtle nod towords real life (very accurate physics here trust me). While fuision recipes often have very high starting power requirements, they only consume the amount listed in JEI. As a result, you can run a fusion ring constantly off a single LuV amp (or ZPM amp for two recipes). Because fusion creates such a small amount at a time, it's generally best to passive your fusion rings and dedicate a new once to each new element you need.",
 		"",
 		"This quest and fusion 2 and 3 are based on having 16 input and output hatches."
 	],
 	dependencies: [
 		"043b9bfb",
 		"6b61ba5b",
-		"1bcba84d"
+		"08206672",
+		"1bcba84d",
+		"0557b718"
 	],
 	tasks: [{
 		uid: "2e82c474",

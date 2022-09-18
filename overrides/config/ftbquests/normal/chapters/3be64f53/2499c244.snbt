@@ -1,6 +1,7 @@
 {
-	x: -6.5d,
-	y: 1.5d,
+	x: -10.5d,
+	y: 0.5d,
+	shape: "hexagon",
 	text: [
 		""
 	],

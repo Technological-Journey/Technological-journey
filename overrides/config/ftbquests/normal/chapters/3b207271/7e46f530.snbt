@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	text: [
+		"No more redstone for motors!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5988795"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a4dec8a2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 420"
+		}]
+	}]
+}

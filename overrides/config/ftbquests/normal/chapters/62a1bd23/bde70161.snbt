@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	text: [
+		"Deuterium"
+	],
+	dependencies: [
+		"6fd6b9be"
+	],
+	tasks: [{
+		uid: "7c693d32",
+		type: "checkmark",
+		title: "Fluid Veins",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "deuterium",
+				Amount: 1000
+			}
+		}
+	}]
+}

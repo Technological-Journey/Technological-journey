@@ -1,26 +1,14 @@
 {
 	x: 0.5d,
-	y: -2.0d,
-	text: [
-		"This quest will accept the LuV Laser Engraver singleblock or 3 LuV Emitter blocks if you're using a multiblock laser engraver for this. "
-	],
+	y: 0.0d,
 	dependencies: [
 		"e5f0b4b0"
 	],
-	or_tasks: true,
 	tasks: [{
 		uid: "1f84ee74",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 2157"
 		}]
-	},
-	{
-		uid: "57b7cde0",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_emitter_casing 1 5"
-		}],
-		count: 3L
 	}]
 }

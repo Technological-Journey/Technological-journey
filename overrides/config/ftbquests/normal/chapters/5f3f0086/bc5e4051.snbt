@@ -1,10 +1,11 @@
 {
 	title: "Scanner and prospector",
-	icon: "scannable:module_ore_rare",
-	x: 4.5d,
-	y: -8.0d,
+	x: 3.5d,
+	y: -4.5d,
 	text: [
-		"The 'Start of a long journey' quest provides a scanner, as well as a prospector. To use the scanner, right click while holding it. To change which cards are active, shift right click with the scanner in hand. To use the prospector, right click and it will reveal the ore content in the surrounding 3x3 chunks. This prospector has infinite uses, but has limited range and cannot detect fluid veins."
+		"The 'Start of a long journey' quest provides a scanner, as well as a prospector. To use the scanner, right-click while holding it. To change which cards are active, shift right-click with the scanner in hand. To use the prospector, right click and it will reveal the ore content in the surrounding 3x3 chunks. This prospector has infinite uses, but has limited range and cannot detect fluid veins.",
+		"",
+		"If you do not like having to carry around the various stone types of ores, you may wish to enchant a tool with the hammering enchant. This enchant will crush ores instead of mining the block. The crushed ore must be crushed again by crafting with a gregtech hammer to be smelted. If the enchant is used with fortune 3 there is a great chance of doubling the drops. A word of caution this will also turn blocks like coble stone into gravel."
 	],
 	dependencies: [
 		"d83c9621"
@@ -12,5 +13,18 @@
 	tasks: [{
 		uid: "62c38359",
 		type: "checkmark"
+	},
+	{
+		uid: "d45db89b",
+		type: "item",
+		items: [{
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 15s,
+					lvl: 1s
+				}]
+			}
+		}]
 	}]
 }

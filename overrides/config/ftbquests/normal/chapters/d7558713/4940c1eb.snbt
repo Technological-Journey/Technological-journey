@@ -1,7 +1,6 @@
 {
-	x: 1.0d,
-	y: -5.0d,
-	shape: "rsquare",
+	x: 0.5d,
+	y: -3.0d,
 	text: [
 		"It's not lemony... be happy we dont have Pams :)"
 	],

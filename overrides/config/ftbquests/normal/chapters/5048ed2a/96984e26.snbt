@@ -1,6 +1,6 @@
 {
-	x: 16.5d,
-	y: 7.0d,
+	x: 6.0d,
+	y: -8.5d,
 	text: [
 		"The heat exchanger will use water in one input hatch and lava in another, and produce both hot steam and pahoehoe lava, which can be electrolyzed for carbon,",
 		" sulfur, and obsidian. The hot steam can be either voided, or used in a coolant turbine for a considerable amount of power. "

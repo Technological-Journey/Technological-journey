@@ -1,0 +1,12 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	optional: true,
+	tasks: [{
+		uid: "518119b3",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
-	x: 21.5d,
-	y: 11.0d,
+	x: 8.0d,
+	y: 1.5d,
 	text: [
 		"Nuclear waste, a byproduct of all nuclear processing, is a poor source of nearly every element on the periodic table. The vast majority of metals, along with a non-insignificant amount of radon, xenon, and krypton, can be sourced here. Make sure you build your nuclear reprocessing sufficiantly well, as it will be functioning for the forseeable future. "
 	],

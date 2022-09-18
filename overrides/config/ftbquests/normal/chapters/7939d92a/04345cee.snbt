@@ -1,7 +1,6 @@
 {
 	x: -13.5d,
 	y: -1.5d,
-	shape: "rsquare",
 	text: [
 		"I don't need to explain it to you at this point. Pin, make machines, repeat. "
 	],

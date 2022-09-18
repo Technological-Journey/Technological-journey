@@ -1,0 +1,60 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	tasks: [{
+		uid: "a60858c8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2536"
+		}]
+	},
+	{
+		uid: "c66f3a1b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 730"
+		}]
+	},
+	{
+		uid: "3c933626",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 731"
+		}]
+	},
+	{
+		uid: "2449e9e8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "85daf6a9",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 20L
+	},
+	{
+		uid: "a6432658",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4216"
+		}]
+	},
+	{
+		uid: "b596ce0a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}],
+	rewards: [{
+		uid: "6b147c44",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 64
+	}]
+}

@@ -1,9 +1,6 @@
 {
-	x: -2.5d,
-	y: 0.5d,
-	text: [
-		"Feel free to batch this for now - you'll get renewable polyethylene for cables soon enough."
-	],
+	x: -0.5d,
+	y: -1.5d,
 	dependencies: [
 		"b7c448ec"
 	],

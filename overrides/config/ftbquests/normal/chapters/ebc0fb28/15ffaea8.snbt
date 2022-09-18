@@ -1,0 +1,47 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	text: [
+		"The large diesel engine is a beast of a generator, It can generate 4 amps of EV power at 100% efficacy. And can make 12 amps of EV when boosted with oxygen at a cost of running at 50% fuel efficiency. Will constantly consume lube. "
+	],
+	dependencies: [
+		"bee567d9"
+	],
+	tasks: [{
+		uid: "82a5a7de",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2540"
+		}]
+	},
+	{
+		uid: "69c14b63",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing"
+		}],
+		count: 8L
+	},
+	{
+		uid: "44967432",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 6"
+		}],
+		count: 21L
+	},
+	{
+		uid: "e4d826ed",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "bcb5e508",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 745"
+		}]
+	}]
+}

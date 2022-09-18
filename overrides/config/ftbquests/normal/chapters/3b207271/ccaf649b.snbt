@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -7.0d,
+	text: [
+		"Rubber can be hard to find. Make one from slime if you have to, and you can have some saplings. "
+	],
+	tasks: [{
+		uid: "28aa0477",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32627"
+		}]
+	}]
+}

@@ -1,5 +1,5 @@
 {
-	title: "EV Age",
+	title: "EV age",
 	icon: "gregtech:meta_item_1 1 32603",
 	always_invisible: false,
 	group: 0,

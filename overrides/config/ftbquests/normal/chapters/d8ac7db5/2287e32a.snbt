@@ -1,10 +1,9 @@
 {
 	title: "Mob farm?",
-	x: 12.0d,
-	y: 1.0d,
-	shape: "rsquare",
+	x: 5.0d,
+	y: -1.0d,
 	text: [
-		"Pig soul vials can be obtained from a spawner on capture mode and can be used to make pork chops in the vial processor. These in turn can be used to make minced meat. You can also drill blood in the nether."
+		"Broken pig spawners are craftable. and can be used to make pork chops in the vial processor. These in turn can be used to make minced meat. You can also drill blood in the nether."
 	],
 	tasks: [{
 		uid: "a3f1cfe9",

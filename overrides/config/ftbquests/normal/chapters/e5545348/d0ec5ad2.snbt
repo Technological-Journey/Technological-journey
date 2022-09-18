@@ -1,0 +1,41 @@
+{
+	x: 6.5d,
+	y: 6.0d,
+	optional: true,
+	tasks: [{
+		uid: "0f8cba6e",
+		type: "checkmark",
+		title: "Phenol Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "phenol",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "fc177083",
+		type: "checkmark",
+		title: "Hydrochloric Acid Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrochloric_acid",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "f4479163",
+		type: "checkmark",
+		title: "Acetone Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "acetone",
+				Amount: 1000
+			}
+		}
+	}]
+}

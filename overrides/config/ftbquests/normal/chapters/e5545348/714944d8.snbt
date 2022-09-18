@@ -1,14 +1,6 @@
 {
-	icon: {
-		id: "forge:bucketfilled",
-		tag: {
-			FluidName: "oil",
-			Amount: 1000
-		}
-	},
-	x: -2.5d,
-	y: -5.5d,
-	shape: "rsquare",
+	x: 0.5d,
+	y: -4.5d,
 	text: [
 		"There are two ways to get oil.",
 		"1. You can place a pump over a oil sprout",

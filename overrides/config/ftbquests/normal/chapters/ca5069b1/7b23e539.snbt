@@ -1,7 +1,6 @@
 {
 	x: 5.0d,
-	y: -1.5d,
-	shape: "rsquare",
+	y: -2.5d,
 	text: [
 		"The recipes for Trinium production have been significantly changed. Your fluorocarborane is now fully recycled, as well as your perfluorobenzene. The only inputs to this entire line are triniite and carbon nanotubes, making trinium not only possible but actually relatively painless to passive. "
 	],

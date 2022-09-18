@@ -1,11 +1,8 @@
 {
-	x: 2.0d,
-	y: 9.0d,
-	shape: "hexagon",
+	x: -1.5d,
+	y: -3.5d,
 	text: [
-		"Draconium is a UHV wire material. This can be useful for power infrastructure given the fact that a 1x wire carries 10 UHV amps. It may even be cheaper to use draconium wires for previous tiers when setting up the enourmous automation lines that you are soon to need.",
-		"",
-		"It's also pretty broken as a turbine material. "
+		"Draconium is a UHV wire material (though due to CE limitations, we can only label it as UV). This can be useful for power infrastructure given the fact that a 1x wire carries 10 UHV amps. It may even be cheaper to use draconium wires for previous tiers, when setting up the enourmous automation lines that you are soon to need."
 	],
 	dependencies: [
 		"ff3a5a24"

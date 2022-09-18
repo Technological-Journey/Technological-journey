@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 9.5d,
+	text: [
+		"PE foil is a lot more renewable than polycaprolactam, and cable recipes require less PE than polycaprolactam. "
+	],
+	dependencies: [
+		"682150e7"
+	],
+	tasks: [{
+		uid: "72cedc44",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 19141"
+		}]
+	}],
+	rewards: [{
+		uid: "c223297e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12141",
+		count: 8
+	}]
+}

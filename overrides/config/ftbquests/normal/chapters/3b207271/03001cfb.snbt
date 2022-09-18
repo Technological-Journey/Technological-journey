@@ -1,0 +1,12 @@
+{
+	title: "energy hatches",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Gregtech energy hatches can take in two amps of power of their respective tier. To make one amp of the next tier for a multiblock you can use two energy hatches. This would equal 4 amps on one tier or 1 amp of the next. "
+	],
+	tasks: [{
+		uid: "fcf33951",
+		type: "checkmark"
+	}]
+}

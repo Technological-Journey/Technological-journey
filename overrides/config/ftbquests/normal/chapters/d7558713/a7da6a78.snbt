@@ -1,14 +1,19 @@
 {
-	x: 4.5d,
+	x: 2.5d,
 	y: -5.0d,
-	shape: "rsquare",
 	text: [
-		"This is the second leg of the platline - the processing of rare metal residues. Here, the platline splits into several different chains. These will net you a significant amount of rhodium, ruthenium, osmium, iridium, and gold, along with a smaller amount of copper and nickel. This entire process is, like many others, a loop. If you care enough to balance it out, the line will function with only platinum residue dust as an input. "
+		"This is the second leg of the platline -- the processing of rare metal residues. This will net you a significant amount of rhodium, ruthenium, osmium, iridium, and gold, along with a not insignificant amount of copper and nickel. This entire process is, like many others, a loop. If you care enough to balance in out, the line will function with only platinum residue dust as an input. "
 	],
 	tasks: [{
 		uid: "c79cec5e",
 		type: "checkmark",
 		title: "Platinum Residue Dust",
 		icon: "gregtech:meta_item_1 1 2898"
+	},
+	{
+		uid: "bd9a44a1",
+		type: "checkmark",
+		title: "Potassium Disulfate Dust",
+		icon: "gregtech:meta_item_1 1 2888"
 	}]
 }

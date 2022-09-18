@@ -1,7 +1,7 @@
 {
 	icon: "gregtech:machine 1 2514",
-	x: 1.5d,
-	y: 0.5d,
+	x: -2.0d,
+	y: -10.5d,
 	dependencies: [
 		"fdaf832a"
 	],
@@ -10,6 +10,48 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 2514"
+		}]
+	},
+	{
+		uid: "9da8b6bb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 740"
+		}]
+	},
+	{
+		uid: "e78ab9ed",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 741"
+		}]
+	},
+	{
+		uid: "e7312c33",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 744"
+		}]
+	},
+	{
+		uid: "475e7689",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_motor_casing 1 2"
+		}]
+	},
+	{
+		uid: "b297488e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_piston_casing 1 2"
+		}]
+	},
+	{
+		uid: "24fe9fe8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
 		}]
 	},
 	{

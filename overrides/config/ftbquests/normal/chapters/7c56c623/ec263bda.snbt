@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 7.0d,
+	dependencies: [
+		"6fe92921",
+		"d8cbcfb5"
+	],
+	tasks: [{
+		uid: "face2d53",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eternitycrystal"
+		}]
+	}]
+}

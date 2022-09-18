@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:lava_bucket",
+	x: -2.0d,
+	y: 5.5d,
+	text: [
+		"Lava",
+		"Helium 3"
+	],
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "5c8f78c6",
+		type: "checkmark",
+		title: "Fluid veins"
+	}]
+}

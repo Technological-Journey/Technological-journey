@@ -1,5 +1,5 @@
 {
-	title: "UV Age",
+	title: "UV age",
 	icon: "gregtech:meta_item_1 1 32608",
 	always_invisible: false,
 	group: 0,

@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"This is the first step to getting tier 2 LV circuits, as well as provides much better versions of recipes you can already make by hand. Resistors, for ",
+		"instance, are more than twice as expensive to make by hand when compared to the assembler reicpe"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"388056ac",
+		"e5988795",
+		"34d7c549"
+	],
+	tasks: [{
+		uid: "61ffed9c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 100"
+		}]
+	}]
+}

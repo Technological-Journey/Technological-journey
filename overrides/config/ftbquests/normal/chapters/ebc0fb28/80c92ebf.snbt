@@ -1,0 +1,40 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"To overcome some weirdness with maintenance and large multies they require a full auto maintenance hatch to function. As you cannot make these for another tier, you’ll need a way to get them. Luckily we’ve you covered. Give us four LRE controllers and 8 auto taping hatches to get 4 LREs and 4 full auto maintenance hatches. 4 of these bad boys should be enough to get you to a state in which you can craft them."
+	],
+	dependencies: [
+		"32652479"
+	],
+	tasks: [{
+		uid: "81d70a00",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2558"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "a3da75bb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4214"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "63f4750f",
+		type: "item",
+		item: "gregtech:machine 1 4215",
+		count: 4
+	},
+	{
+		uid: "b869a456",
+		type: "item",
+		item: "gregtech:machine 1 2558",
+		count: 4
+	}]
+}

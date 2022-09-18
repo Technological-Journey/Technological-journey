@@ -1,0 +1,41 @@
+{
+	x: 2.5d,
+	y: -4.0d,
+	dependencies: [
+		"e5988795"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7c6acd1a",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_drill",
+			Damage: 3s,
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd4b32a8",
+		type: "item",
+		item: "minecraft:experience_bottle",
+		count: 5
+	},
+	{
+		uid: "ecdd7b00",
+		type: "item",
+		item: "baubles:ring"
+	},
+	{
+		uid: "53520ee4",
+		type: "item",
+		item: {
+			id: "actuallyadditions:item_battery_quintuple",
+			tag: {
+				Energy: 0
+			}
+		}
+	}]
+}

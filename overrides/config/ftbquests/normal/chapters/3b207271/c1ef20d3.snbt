@@ -1,0 +1,33 @@
+{
+	x: -8.5d,
+	y: 3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"880df939"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7992fc52",
+		type: "checkmark",
+		title: "Ethanol Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethanol",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "f0e1d054",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethanol",
+				Amount: 1000
+			}
+		},
+		count: 2
+	}]
+}

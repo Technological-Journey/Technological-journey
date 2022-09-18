@@ -6,8 +6,9 @@
 			Amount: 1000
 		}
 	},
-	x: -3.5d,
-	y: 1.5d,
+	x: -9.5d,
+	y: 0.5d,
+	shape: "hexagon",
 	dependencies: [
 		"6fddac84",
 		"0db3077e",

@@ -1,9 +1,6 @@
 {
 	x: 2.0d,
-	y: 1.0d,
-	text: [
-		"Travels back in time to begin computation at the exact instant required to arrive at an answer percisely as the question is asked. Remind me why we need to combine them into assemblies, computers, or mainframes? Can't it just go back in time twice?"
-	],
+	y: 0.5d,
 	dependencies: [
 		"fe219b20",
 		"6ed8daa9",

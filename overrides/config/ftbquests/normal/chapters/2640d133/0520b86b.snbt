@@ -1,6 +1,6 @@
 {
-	x: -5.0d,
-	y: 8.0d,
+	x: 1.0d,
+	y: -4.0d,
 	text: [
 		"Turns logs into creosote and charcoal, and turns charcoal or normal coal into creosote and coke. All of these products are burnable in the LBB.",
 		"",
@@ -9,7 +9,7 @@
 		"The one exception to this rule is maintenance hatches, which shouldn't be shared as it can cause some bugs leading to excessive maintenance requirements. "
 	],
 	dependencies: [
-		"7f44bdc9"
+		"62fd1790"
 	],
 	optional: true,
 	tasks: [{

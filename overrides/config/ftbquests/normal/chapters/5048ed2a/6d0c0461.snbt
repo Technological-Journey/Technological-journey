@@ -1,13 +1,9 @@
 {
-	x: 1.5d,
-	y: 6.0d,
-	text: [
-		"Filtered output hatches are very useful for setting up LCR's."
-	],
+	x: -4.5d,
+	y: -2.5d,
 	dependencies: [
 		"f23e7e88"
 	],
-	optional: true,
 	tasks: [{
 		uid: "82cb49e4",
 		type: "item",

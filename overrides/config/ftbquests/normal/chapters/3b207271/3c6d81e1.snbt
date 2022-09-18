@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: 0.5d,
+	text: [
+		"Gregtech ore processing is complex. Good luck. ",
+		"",
+		"Some materials you can only obtain from byproducts in the centrifuge, macerator, or washer, and some gems must be sifted for their exquisite vairents (*siftable has been added as an oredict).",
+		"",
+		"The vast majority of ores should just be smelted as the byproducts are mostly useless... However several are quite important. Ruby ore processing gives chrome, pyrolusite gives manganese, and bastnasite gives neodymium (electromagnetic separator).",
+		"",
+		"All of these specific elements will be required, and ore processing is the best way to obtain them. There are too many byproducts to list here, but answers can be found on the TJ discord for pretty much any question you can think of."
+	],
+	dependencies: [
+		"bcea468e"
+	],
+	tasks: [{
+		uid: "8f4ea991",
+		type: "checkmark",
+		title: "Ore Processing",
+		icon: "gregtech:meta_item_1 1 5154"
+	}],
+	rewards: [{
+		uid: "704a4aad",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3154",
+		count: 24
+	}]
+}

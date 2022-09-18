@@ -1,24 +1,6 @@
 {
-	x: 3.0d,
-	y: 7.0d,
-	text: [
-		"All astral fluid veins have a minimum of 50000000mb fluid in them. The list of possible veins is below.",
-		"",
-		"        charcoal byproducts",
-		"        natural gas",
-		"        sulfuric gas",
-		"        sulfuric naphtha ",
-		"        sulfuric light fuel",
-		"        sulfuric heavy fuel",
-		"        steamcracked naphtha ",
-		"        steamcracked gas ",
-		"        cracked light fuel ",
-		"        cracked heavy fuel ",
-		"        hydrocracked naphtha ",
-		"        hydrocracked gas",
-		"        hydrocracked light fuel ",
-		"        hydrocracked heavy fuel"
-	],
+	x: 3.5d,
+	y: -3.5d,
 	dependencies: [
 		"26a558df"
 	],

@@ -1,6 +1,7 @@
 {
 	x: 8.0d,
-	y: 0.5d,
+	y: -0.5d,
+	shape: "hexagon",
 	text: [
 		"Wheeee! That was fun!"
 	],

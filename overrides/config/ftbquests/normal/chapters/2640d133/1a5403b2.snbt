@@ -1,5 +1,5 @@
 {
-	x: 1.0d,
+	x: -2.0d,
 	y: 0.5d,
 	description: "Hot Hot Hot!",
 	text: [
@@ -8,8 +8,7 @@
 		"You also probably dont want to touch the hot steam pipes."
 	],
 	dependencies: [
-		"ab7bedfb",
-		"19657325"
+		"ab7bedfb"
 	],
 	tasks: [{
 		uid: "6f5634f4",

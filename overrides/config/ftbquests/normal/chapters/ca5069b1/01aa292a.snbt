@@ -1,15 +1,14 @@
 {
 	title: "Advanced Fusion Mk1",
 	icon: "gregtech:machine 1 3237",
-	x: 10.0d,
-	y: 1.5d,
+	x: 6.0d,
+	y: 0.5d,
 	text: [
 		"If normal fusion is so great, then why is there no fusion 2- oh..."
 	],
 	dependencies: [
 		"ee5bded9",
-		"5a80eb62",
-		"e00bb624"
+		"5a80eb62"
 	],
 	tasks: [{
 		uid: "8a8f4df1",

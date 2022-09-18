@@ -1,9 +1,8 @@
 {
-	x: -1.5d,
-	y: 2.0d,
-	shape: "rsquare",
+	x: -5.5d,
+	y: -1.5d,
 	text: [
-		"In order to get tungstate you may choose to mine or use lava in a large centrifuge. Mining is generally much better early on, as the centrifuge will be comparatively slow for a while."
+		"In order to get tunstate you may choose to mine or use lava in a large centrifuge"
 	],
 	tasks: [{
 		uid: "524ca8ae",

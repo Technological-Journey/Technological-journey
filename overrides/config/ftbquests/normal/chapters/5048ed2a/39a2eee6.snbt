@@ -1,11 +1,6 @@
 {
-	x: 19.5d,
-	y: 11.0d,
-	text: [
-		"Naquadah (which you'll make in IV) rods can be used in a breeder reactor to net a large amount of nuclear waste, as well as provide a boost to fissile element breeding. ",
-		"",
-		"While making your nuclear entirely dependant on naquadah is not advised, it can be used to rush for a specific element like californium, which you need to visit mars."
-	],
+	x: 5.0d,
+	y: 2.5d,
 	dependencies: [
 		"1bcba84d"
 	],

@@ -1,6 +1,6 @@
 {
 	title: "Dilithium",
-	x: -5.0d,
+	x: -3.5d,
 	y: 5.5d,
 	text: [
 		"The moon has Dilithium ore. The GT prospector can't see it, and neither can the GT miners. This is because dilithium ore is added by Vulpes, and means that you will have to do a small amount of lunar mining by hand. However, with propper management you can visit every warp destination using less than a stack of Dilithium in total. ",

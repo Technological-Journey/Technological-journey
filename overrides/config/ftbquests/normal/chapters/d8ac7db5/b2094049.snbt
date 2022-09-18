@@ -1,9 +1,11 @@
 {
-	x: 5.0d,
-	y: 2.0d,
+	x: 0.5d,
+	y: -0.5d,
+	shape: "hexagon",
 	dependencies: [
 		"6bbcdd91",
-		"bf5e4fc3"
+		"bf5e4fc3",
+		"ea084d22"
 	],
 	tasks: [{
 		uid: "09a53d27",
@@ -43,5 +45,11 @@
 			item: "gregtech:multiblock_casing 1 4"
 		}],
 		count: 15L
+	}],
+	rewards: [{
+		uid: "ff8bd700",
+		type: "item",
+		item: "gregtech:meta_item_2 1 15047",
+		count: 32
 	}]
 }

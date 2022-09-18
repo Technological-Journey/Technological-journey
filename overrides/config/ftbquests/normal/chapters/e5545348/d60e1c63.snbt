@@ -7,11 +7,8 @@
 			Amount: 1000
 		}
 	},
-	x: -0.5d,
-	y: -2.5d,
-	text: [
-		"The rewards from this quest can be used to desulfurize oil at a lower quantity, which is useful when you don't have an abundance (like now)."
-	],
+	x: 1.5d,
+	y: -3.5d,
 	dependencies: [
 		"26b8984b",
 		"d17c87b7"

@@ -1,11 +1,6 @@
 {
 	title: "All the Power",
-	icon: {
-		id: "actuallyadditions:item_battery",
-		tag: {
-			Energy: 0
-		}
-	},
+	icon: "gtadditions:ga_meta_item 1 32124",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

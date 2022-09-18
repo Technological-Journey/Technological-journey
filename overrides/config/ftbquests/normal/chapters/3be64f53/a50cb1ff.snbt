@@ -1,5 +1,5 @@
 {
-	x: -6.5d,
+	x: -10.5d,
 	y: -1.5d,
 	shape: "hexagon",
 	text: [
@@ -16,5 +16,11 @@
 		items: [{
 			item: "gtadditions:ga_dust 1 919"
 		}]
+	}],
+	rewards: [{
+		uid: "341123cb",
+		type: "item",
+		item: "gtadditions:ga_dust 1 919",
+		count: 16
 	}]
 }

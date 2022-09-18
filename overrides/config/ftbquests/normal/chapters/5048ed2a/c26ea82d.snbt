@@ -1,8 +1,8 @@
 {
 	title: "Large Washing Plant",
 	icon: "gregtech:machine 1 2527",
-	x: 5.5d,
-	y: 0.5d,
+	x: 1.5d,
+	y: -8.5d,
 	text: [
 		""
 	],
@@ -10,6 +10,41 @@
 		"fdaf832a"
 	],
 	tasks: [{
+		uid: "653dd0d4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "330e5acd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 730"
+		}]
+	},
+	{
+		uid: "517abfe2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 731"
+		}]
+	},
+	{
+		uid: "14f2ea16",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 742"
+		}]
+	},
+	{
+		uid: "b7a4580f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_motor_casing 1 2"
+		}]
+	},
+	{
 		uid: "9d85db7f",
 		type: "item",
 		items: [{
@@ -39,10 +74,17 @@
 			item: "gtadditions:ga_metal_casing_1 1 8"
 		}],
 		count: 5L
+	},
+	{
+		uid: "65c54733",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
 	}],
 	rewards: [{
-		uid: "54261a61",
+		uid: "0749829d",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32574"
+		item: "gtadditions:ga_meta_item 1 32571"
 	}]
 }

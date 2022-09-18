@@ -1,0 +1,28 @@
+{
+	title: "The Gold Line",
+	x: -5.5d,
+	y: -2.5d,
+	text: [
+		"Welcome to gregicality! You can mine gold from the nether, but if you want decent quantities you should setup this: your first complex processing line.",
+		"",
+		"Everything in this processing line is a loop -- once you set it up, the only input is precious metal, and it will net you a lot of gold, as well as silver, nickel, lead, and iron.",
+		"",
+		"Consider using the sodium hydroxide loop (detailed in the MV quest tab) to generate hydrogen and oxygen for this process, as it's much faster than water electrolysis. "
+	],
+	optional: true,
+	tasks: [{
+		uid: "9c9f5ff5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2827"
+		}]
+	},
+	{
+		uid: "76403055",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2018"
+		}],
+		count: 3L
+	}]
+}

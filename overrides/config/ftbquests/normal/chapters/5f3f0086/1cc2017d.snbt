@@ -1,6 +1,10 @@
 {
-	x: 8.5d,
-	y: -6.0d,
+	title: "Mining Multitool Dim ID: -6",
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"2f7b7dcf"
 	],

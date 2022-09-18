@@ -1,5 +1,5 @@
 {
-	title: "MV Age",
+	title: "MV age",
 	icon: "gregtech:meta_item_1 1 32601",
 	always_invisible: false,
 	group: 0,

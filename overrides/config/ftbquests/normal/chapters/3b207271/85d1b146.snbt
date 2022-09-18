@@ -1,0 +1,17 @@
+{
+	title: "Energy rules",
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"Every recipe has a minimum required voltage to run. Machines with a greater voltage will overclock the recipe and run faster. This comes at a cost however, for every tier overclock the recipe will run 2.8x faster but cost 4x the power. ",
+		"",
+		"For more detailed description of CE energy rules (and some free stuff) check out the power tab."
+	],
+	dependencies: [
+		"e5988795"
+	],
+	tasks: [{
+		uid: "3b4e5dd6",
+		type: "checkmark"
+	}]
+}

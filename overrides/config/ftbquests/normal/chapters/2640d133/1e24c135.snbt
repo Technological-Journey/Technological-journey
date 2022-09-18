@@ -1,6 +1,6 @@
 {
-	x: 2.5d,
-	y: 3.5d,
+	x: -2.0d,
+	y: 5.0d,
 	text: [
 		"If you need to find uranium ore for conduits, this card is preconfigued to it. However, your prospector is a much more powerful tool and you should probably be using that anyways."
 	],

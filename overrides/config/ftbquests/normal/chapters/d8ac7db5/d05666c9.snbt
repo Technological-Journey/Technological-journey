@@ -1,6 +1,6 @@
 {
-	x: 3.0d,
-	y: 2.0d,
+	x: 0.5d,
+	y: -3.5d,
 	text: [
 		"\"Not a magic pack\""
 	],
@@ -8,10 +8,10 @@
 		"ff3a5a24"
 	],
 	tasks: [{
-		uid: "1343ea79",
+		uid: "c029176d",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10524"
+			item: "gregtech:meta_item_1 1 12524"
 		}]
 	}]
 }

@@ -1,8 +1,7 @@
 {
 	icon: "gtadditions:ga_dust 1 920",
-	x: -5.5d,
+	x: -8.5d,
 	y: -2.5d,
-	shape: "rsquare",
 	tasks: [{
 		uid: "735d8d2f",
 		type: "checkmark",

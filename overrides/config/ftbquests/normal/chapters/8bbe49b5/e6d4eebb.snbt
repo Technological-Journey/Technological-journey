@@ -1,16 +1,15 @@
 {
 	title: "Building your own rocket",
 	x: 3.0d,
-	y: 4.5d,
+	y: 3.0d,
 	shape: "hexagon",
 	text: [
-		"For help building the rocket, join the TJ discord and check out #wiki."
+		""
 	],
 	dependencies: [
 		"5000d999",
 		"36fafa38",
-		"ee4fb945",
-		"26ee81f5"
+		"ee4fb945"
 	],
 	tasks: [{
 		uid: "549532b5",

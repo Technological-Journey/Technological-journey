@@ -1,9 +1,6 @@
 {
 	x: -16.0d,
 	y: 1.5d,
-	text: [
-		"Performs computation at the limit of physical law. A faster, smaller, or higher bandwidth computation device is not possible in this universe. "
-	],
 	dependencies: [
 		"ef736a17"
 	],

@@ -1,7 +1,6 @@
 {
-	title: "Extra-Dimensional",
-	x: 7.5d,
-	y: -7.0d,
+	x: -2.5d,
+	y: -3.0d,
 	text: [
 		"Both the aroma mining dimension and the void dimension exist, but contain no ores. They are intended to be used for base building, and so are gated behind practically nothing.",
 		"",

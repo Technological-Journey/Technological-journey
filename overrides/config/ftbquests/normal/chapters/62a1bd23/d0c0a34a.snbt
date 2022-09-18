@@ -1,5 +1,5 @@
 {
-	x: -5.0d,
+	x: -3.5d,
 	y: 7.5d,
 	text: [
 		"To launch a space station, you must first package the space station into a satelite bay using the space station assembler, which functions in a similar manner to the rocket assembling machine. You must also provide a fresh station ID chip when building your satelite. ",

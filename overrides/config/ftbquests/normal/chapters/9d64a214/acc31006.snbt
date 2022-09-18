@@ -1,7 +1,7 @@
 {
 	title: "Alterative Pu244",
-	x: -0.5d,
-	y: -2.0d,
+	x: -1.5d,
+	y: -1.0d,
 	text: [
 		"With fusion you can create Pu-244 with Helium and Uranium-238"
 	],

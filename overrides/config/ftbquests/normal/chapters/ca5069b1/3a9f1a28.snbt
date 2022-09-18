@@ -1,7 +1,7 @@
 {
 	title: "Benzophenanthrenylacetoneitrile",
 	icon: "gtadditions:ga_dust 1 67",
-	x: 8.0d,
+	x: 9.0d,
 	y: -4.5d,
 	dependencies: [
 		"ca239ccd"

@@ -1,0 +1,26 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"You're going to need a lot of resources for machines. In steam you gained the ability to craft a chunk miner, but now that you're in LV they are viable. Chunk miners require drilling fluid and power, and in exchange will search a chunk and mine any ore they find (except for dilithium on the moon, rock crystal on pluto, and starmetal in the deep dark).",
+		"",
+		"A typical setup is an ender tank full of [fuel], which goes in a generator. The generator powers the miner, which takes drilling fluid from another ender tank, and pushes the ores into an ender chest hooked up to ore processing back at your base. This allows you to compact your mining opperation into a 5 block setup, and eliminates trips back and forth carrying ores. ",
+		"",
+		"You should be able to set a '/home miner' to retrieve and move it as well. §c§lIf you TIAB the miner and generator the same amount, you can get an entire vein in seconds. You probably want to do this after you get biodiesel. §r ",
+		"",
+		"LV ~ HV have single chunk miners. At EV you gain access to multi chunk miners. "
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5988795",
+		"34d7c549"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0bb12b83",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2221"
+		}]
+	}]
+}
