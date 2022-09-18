@@ -84,12 +84,9 @@ rh(<enderio:block_simple_alloy_smelter>);
 rh(<enderio:block_alloy_smelter>);
 rh(<enderio:block_enhanced_alloy_smelter>);
 //Don't touch me!
-
 //#Add
 recipes.addShaped(<thermalfoundation:material:1027>, [[null, <gregtech:meta_item_1:2138>, null],[<gregtech:meta_item_1:2138>, <minecraft:blaze_powder>, <gregtech:meta_item_1:2138>], [null, <gregtech:meta_item_1:2138>, null]]);
 recipes.addShaped(<thermalfoundation:material:512>, [[<minecraft:redstone>, null, <minecraft:redstone>],[null, <gregtech:meta_item_1:10297>, null], [<minecraft:redstone>, null, <minecraft:redstone>]]);
-recipes.addShaped(<libvulpes:holoprojector>, [[<minecraft:glass_pane>, <gregtech:meta_item_1:32682>, <minecraft:glass_pane>],[null, <gregtech:machine:503>, null], [null, null, null]]);
-recipes.addShaped(<libvulpes:holoprojector>, [[<minecraft:glass_pane>, <gregtech:meta_item_1:32682>, <minecraft:glass_pane>],[null, <gregtech:machine:503>, null], [null, null, null]]);
 recipes.addShapeless(<gregtech:meta_item_1:10001> * 9, [<gregtech:meta_block_compressed_0:1>]);
 recipes.addShapeless(<gregtech:meta_item_1:10126> *9, [<gregtech:meta_block_compressed_7:14>]);
 recipes.addShaped(<gregtech:meta_item_1:10062> * 9, [[null, null, null],[null, <gregtech:meta_block_compressed_3:14>, null], [null, null, null]]);

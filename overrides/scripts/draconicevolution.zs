@@ -332,7 +332,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
     .buildAndRegister();
 
     assembly_line.recipeBuilder()
-    .inputs(<thermalfoundation:upgrade:256> * 1,<storagedrawers:upgrade_creative> * 1, <draconicevolution:draconium_capacitor:2>, <contenttweaker:refinedchaoscrystal> * 64, <contenttweaker:refinedchaoscrystal> * 64,<contenttweaker:certificate_of_being_a_noob>, <ore:circuitMax>,<gtadditions:ga_meta_item:32383> * 4)
+    .inputs(<thermalfoundation:upgrade:256> * 1,<storagedrawers:upgrade_creative> * 1, <draconicevolution:draconium_capacitor:2>, <contenttweaker:refinedchaoscrystal> * 64, <contenttweaker:refinedchaoscrystal> * 64,<contenttweaker:certificate_of_being_a_noob>, <ore:circuitMax>,<gtadditions:ga_meta_item:32383> * 4,<contenttweaker:eternitycrystal> * 4)
     .inputs(<draconicadditions:chaos_stabilizer_core>)
     .fluidInputs(<liquid:chaosalloy> * 11520)
     .outputs(<appliedenergistics2:creative_storage_cell>)
@@ -374,13 +374,13 @@ blast_furnace.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32569> * 4, <gtadditions:ga_meta_item:32515>, <gtadditions:ga_meta_item:32556>)
     .fluidInputs(<liquid:taranium> * 4000)
     .outputs(<gtadditions:ga_dust:529>)
-    .property("temperature", 23)
+    .property("temperature", 23000)
     .duration(320)
     .EUt(536870900)
     .buildAndRegister();
 
 Stellar.recipeBuilder()
-    .inputs(<gtadditions:ga_explosive:3>, <gtadditions:ga_dust:529> * 4, <gtadditions:ga_meta_item:32516> * 1)
+    .inputs(<gtadditions:ga_explosive:3>, <gtadditions:ga_dust:529> * 4, <contenttweaker:infintycrystal> * 2)
     .fluidInputs(<liquid:gluons> * 8000)
     .fluidOutputs(<liquid:eternity> * 1152)
     .duration(5)

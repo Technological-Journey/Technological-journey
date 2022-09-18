@@ -45,77 +45,77 @@ autoclave.recipeBuilder()
     .fluidInputs(<liquid:water> *250)
     .outputs([<appliedenergistics2:material>])
     .duration(160)
-    .EUt(32)
+    .EUt(28)
     .buildAndRegister();
 autoclave.recipeBuilder()
     .inputs([<gregtech:meta_item_1:8203>])
     .fluidInputs(<liquid:water> *2000)
     .outputs([<appliedenergistics2:material>])
     .duration(160)
-    .EUt(128)
+    .EUt(118)
     .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:part:16>,<gregtech:meta_item_1:19152> * 4 ])
 .outputs([<appliedenergistics2:part:36> * 4])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19141> * 2])
 .outputs([<appliedenergistics2:part:36> * 4])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19411>])
 .outputs([<appliedenergistics2:part:36> * 4])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19840>])
 .outputs([<appliedenergistics2:part:36> * 6])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:part:16>, <gregtech:meta_item_1:19730>])
 .outputs([<appliedenergistics2:part:36> * 8])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 wiremill.recipeBuilder()
 .inputs([<appliedenergistics2:material:11>])
 .outputs([<appliedenergistics2:part:140> * 6])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 wiremill.recipeBuilder()
 .inputs([<minecraft:quartz>])
 .outputs([<appliedenergistics2:part:140> * 1])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 macerator.recipeBuilder()
 .inputs([<appliedenergistics2:sky_stone_block>])
 .outputs([<appliedenergistics2:material:45>])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 macerator.recipeBuilder()
 .inputs([<appliedenergistics2:material:7>])
 .outputs([<appliedenergistics2:material:8>])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 Etcher.removeRecipe(<appliedenergistics2:material:22>);
@@ -133,7 +133,14 @@ mixer.recipeBuilder()
 .inputs([<appliedenergistics2:material>,<minecraft:redstone>])
 .outputs([<appliedenergistics2:material:1>])
 .duration(30)
-.EUt(32)
+.EUt(28)
+.buildAndRegister();
+
+largeMix.recipeBuilder()
+.inputs([<appliedenergistics2:material>,<minecraft:redstone>])
+.outputs([<appliedenergistics2:material:1>])
+.duration(30)
+.EUt(28)
 .buildAndRegister();
 //creadits to Brachy84 and _masterEnderman_
 var aeSeeds as IItemStack[string][IItemStack] = {
@@ -161,7 +168,7 @@ autoclave.recipeBuilder()
 .fluidInputs([<liquid:water> * 1000])
 .outputs([seed["33"]])
 .duration(60)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 autoclave.recipeBuilder()
@@ -169,7 +176,7 @@ autoclave.recipeBuilder()
 .fluidInputs([<liquid:water> * 1000])
 .outputs([seed["66"]])
 .duration(60)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 autoclave.recipeBuilder()
@@ -177,7 +184,7 @@ autoclave.recipeBuilder()
 .fluidInputs([<liquid:water> * 1000])
 .outputs([crystal])
 .duration(60)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 }
     recipes.remove(<threng:material:1>);
@@ -192,7 +199,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:15>)
 .outputs([<appliedenergistics2:material:18>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -200,7 +207,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:14>)
 .outputs([<appliedenergistics2:material:17>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -208,7 +215,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:13>)
 .outputs([<appliedenergistics2:material:16>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -216,7 +223,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:19>)
 .outputs([<appliedenergistics2:material:20>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 // processers
 assembler.recipeBuilder()
@@ -224,7 +231,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:plastic> * 144)
 .outputs([<appliedenergistics2:material:22>])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -232,7 +239,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:plastic> * 144)
 .outputs([<appliedenergistics2:material:24>])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -240,7 +247,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:plastic> * 144)
 .outputs([<appliedenergistics2:material:23>])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 
@@ -256,14 +263,14 @@ assembler.recipeBuilder()
 .inputs([<appliedenergistics2:quartz_glass> * 4,<gregtech:meta_item_1:32610> * 4,<gregtech:machine:501>])
 .outputs([<appliedenergistics2:fluid_interface> * 2])
 .duration(150)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:quartz_glass> * 4,<gregtech:meta_item_1:32640> * 4,<gregtech:machine:501>])
 .outputs([<appliedenergistics2:interface> *2])
 .duration(150)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -271,7 +278,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:plastic> * 144)
 .outputs([<threng:material:14>])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -279,21 +286,21 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:plastic> * 144)
 .outputs([<threng:material:6>])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 //recipes.addShaped(<threng:machine>, [[<minecraft:hopper>, <minecraft:hopper>, <minecraft:hopper>],[<minecraft:redstone>, <gregtech:machine:503>, <minecraft:redstone>], [<appliedenergistics2:material:22>, <ae2stuff:grower>, <appliedenergistics2:material:22>]]);
 assembler.recipeBuilder()
 .inputs([<minecraft:hopper> * 3,<gregtech:machine:503>, <appliedenergistics2:material:22> * 2, <ae2stuff:grower>])
 .outputs([<threng:machine>])
 .duration(160)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 //recipes.addShaped(<threng:machine:3>, [[<threng:material>, <appliedenergistics2:material:24>, <threng:material>],[<appliedenergistics2:crafting_accelerator>, <gregtech:machine:504>, <appliedenergistics2:crafting_accelerator>], [<threng:material>, <appliedenergistics2:material:24>, <threng:material>]]);
 assembler.recipeBuilder()
 .inputs([<appliedenergistics2:crafting_accelerator> *2, <gregtech:machine:504>,<threng:material> * 4])
 .outputs([<threng:machine:3>])
 .duration(160)
-.EUt(2048)
+.EUt(2040)
 .buildAndRegister();
 recipes.addShaped(<threng:material:2>, [[<gregtech:meta_item_1:2106>, <gregtech:meta_item_1:2106>, <gregtech:meta_item_1:2106>],[<gregtech:meta_item_1:2106>, <minecraft:iron_ingot>, <appliedenergistics2:material:8>], [<appliedenergistics2:material:8>, <appliedenergistics2:material:8>, <appliedenergistics2:material:8>]]);
 //recipes.addShaped(<threng:machine:1>, [[<threng:material>, <appliedenergistics2:material:22>, <threng:material>],[<threng:material:4>,<gregtech:machine:503>, <threng:material:4>], [<threng:material>, <appliedenergistics2:material:22>, <threng:material>]]);
@@ -301,21 +308,21 @@ assembler.recipeBuilder()
 .inputs([<threng:material:4>,<gregtech:machine:504>,<threng:material> * 5, <appliedenergistics2:material:22> * 2])
 .outputs([<threng:machine:1>])
 .duration(160)
-.EUt(2048)
+.EUt(2040)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<threng:material:4>,<gregtech:machine:504>,<threng:material> * 4, <appliedenergistics2:part:280>])
 .outputs([<threng:machine:4>])
 .duration(160)
-.EUt(2048)
+.EUt(2040)
 .buildAndRegister();
 
 assembler.recipeBuilder()
 .inputs([<gregtech:machine:503>,<threng:material> * 4,<appliedenergistics2:dense_energy_cell>,<appliedenergistics2:charger>])
 .outputs([<threng:machine:5>])
 .duration(160)
-.EUt(2048)
+.EUt(2040)
 .buildAndRegister();
 recipes.addShaped(<appliedenergistics2:energy_acceptor>, [[<gregtech:meta_item_1:12184>, <appliedenergistics2:quartz_glass>, <gregtech:meta_item_1:12184>],[<appliedenergistics2:quartz_glass>, <gregtech:machine:501>, <appliedenergistics2:quartz_glass>], [<gregtech:meta_item_1:12184>, <appliedenergistics2:quartz_glass>, <gregtech:meta_item_1:12184>]]);
 
@@ -324,7 +331,7 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:plastic> * 144)
 .outputs([<appliedenergistics2:material:52> * 8])
 .duration(160)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -332,28 +339,28 @@ assembler.recipeBuilder()
 .fluidInputs(<liquid:plastic> * 288)
 .outputs([<appliedenergistics2:material:52> * 16])
 .duration(160)
-.EUt(128)
+.EUt(118)
 .buildAndRegister();
 
 mixer.recipeBuilder()
 .inputs([<appliedenergistics2:material:1>,<minecraft:redstone>,<gregtech:meta_item_1:2201>])
 .outputs([<appliedenergistics2:material:7> * 2])
 .duration(130)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 largeMix.recipeBuilder()
 .inputs([<appliedenergistics2:material:1>,<minecraft:redstone>,<gregtech:meta_item_1:2201>])
 .outputs([<appliedenergistics2:material:7> * 2])
 .duration(130)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 macerator.recipeBuilder()
 .inputs([<appliedenergistics2:material>])
 .outputs([<gregtech:meta_item_1:2202>])
 .duration(130)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -361,7 +368,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:13>)
 .outputs([<appliedenergistics2:material:16>])
 .duration(300)
-.EUt(128)
+.EUt(118)
 .buildAndRegister();
 //me drive parts]
 
@@ -371,7 +378,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:35>])
 .duration(300)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 //4k
 assembler.recipeBuilder()
@@ -379,7 +386,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:36>])
 .duration(300)
-.EUt(128)
+.EUt(118)
 .buildAndRegister();
 //16
 assembler.recipeBuilder()
@@ -387,7 +394,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:37>])
 .duration(300)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 //64
 assembler.recipeBuilder()
@@ -412,7 +419,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:35>])
 .duration(300)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 //4k
 assembler.recipeBuilder()
@@ -420,7 +427,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:36>])
 .duration(300)
-.EUt(128)
+.EUt(118)
 .buildAndRegister();
 //16
 assembler.recipeBuilder()
@@ -428,7 +435,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<appliedenergistics2:material:37>])
 .duration(300)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 //64
 assembler.recipeBuilder()
@@ -450,7 +457,7 @@ assembler.recipeBuilder()
 // start of new one
 //256
 assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_1:12235> * 4, <gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32018> * 4,<ore:circuitExtreme>])
+.inputs([<gregtech:meta_item_1:12235> * 4, <gregtech:meta_item_2:25111> * 4, <gtadditions:ga_meta_item:32018> * 4,<ore:circuitElite>])
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 .outputs([<extracells:storage.component>])
 .duration(300)
@@ -489,7 +496,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:54>])
 .duration(300)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 //4k
 assembler.recipeBuilder()
@@ -497,7 +504,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:55>])
 .duration(300)
-.EUt(128)
+.EUt(118)
 .buildAndRegister();
 //16
 assembler.recipeBuilder()
@@ -505,7 +512,7 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 .outputs([<appliedenergistics2:material:56>])
 .duration(300)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 //64
 assembler.recipeBuilder()
@@ -548,13 +555,13 @@ assembler.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
 .outputs([<appliedenergistics2:controller>])
 .duration(300)
-.EUt(32)
+.EUt(28)
 .buildAndRegister();
 assembler.recipeBuilder()
 .inputs([<enderio:item_material:4> * 5,<enderio:item_me_conduit> * 4])
 .outputs([<enderio:item_me_conduit:1> * 4])
 .duration(150)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 }
 else{
@@ -637,13 +644,13 @@ assembler.recipeBuilder()
 .inputs([<gregtech:machine:503>,<appliedenergistics2:quartz_glass> * 2,<gregtech:meta_item_1:32612> *2 ])
 .outputs([<appliedenergistics2:fluid_interface> * 4])
 .duration(150)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 assembler.recipeBuilder()
 .inputs([<gregtech:machine:503>,<appliedenergistics2:quartz_glass> * 2,<gregtech:meta_item_1:32642> *2])
 .outputs([<appliedenergistics2:interface> * 4])
 .duration(150)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -688,7 +695,7 @@ autoclave.recipeBuilder()
 .inputs(<ore:dustCertusQuartz>)
 .fluidInputs(<liquid:water> * 250)
 .outputs(<gregtech:meta_item_1:8202>)
-.EUt(32)
+.EUt(28)
 .duration(80)
 .buildAndRegister();
 

@@ -121,6 +121,11 @@ import mods.gtadditions.recipe.Utils;
 	h(<draconicevolution:draconic_ingot>);
 	<ore:nuggetDraconiumAwakened>.remove(<draconicevolution:nugget:1>);
 	h(<draconicevolution:nugget:1>);
+	<ore:dustCopper>.remove(<thermalfoundation:material:64>);
+	<ore:dustTin>.remove(<thermalfoundation:material:65>);
+	<ore:dustNickel>.remove(<thermalfoundation:material:69>);
+	<ore:dustGold>.remove(<thermalfoundation:material:1>);
+	<ore:dustIron>.remove(<thermalfoundation:material>);
 
 	var sift = [<gregtech:meta_item_1:6111>,<gregtech:meta_item_1:6713>,<gregtech:meta_item_1:6092>,<gregtech:meta_item_1:6211>,<gregtech:meta_item_1:6331>,<gregtech:meta_item_1:6187>,<gregtech:meta_item_1:6281>,<gregtech:meta_item_1:6161>,<gregtech:meta_item_1:6206>,<gregtech:meta_item_1:6154>,<gregtech:meta_item_1:6216>,<gregtech:meta_item_1:6214>,<gregtech:meta_item_1:6190>,<gregtech:meta_item_1:6226>,<gregtech:meta_item_1:6203>,<gregtech:meta_item_1:6201>,<gregtech:meta_item_1:6128>,<gregtech:meta_item_1:6117>,<gregtech:meta_item_1:6243>,<gregtech:meta_item_1:6113>,<gregtech:meta_item_1:6910>,<gregtech:meta_item_1:6103>,<gregtech:meta_item_1:6247>,<gregtech:meta_item_1:6202>,<gregtech:meta_item_1:6157>,<gregtech:meta_item_1:6213>,<gregtech:meta_item_1:6122>,<gregtech:meta_item_1:6244>,<gregtech:meta_item_1:6085>,<gregtech:meta_item_1:6212>,<gregtech:meta_item_1:6106>,<gregtech:meta_item_1:6867>,<gregtech:meta_item_1:2902>,<gregtech:meta_item_1:2892>,<gregtech:meta_item_1:2864>,<gregtech:meta_item_1:6525>,<gregtech:meta_item_1:6357>] as IItemStack[];
 for i in sift{
@@ -130,9 +135,17 @@ for i in sift{
 var gem = [<minecraft:diamond>,<minecraft:emerald>,<minecraft:nether_star>,<gregtech:meta_item_1:8103>,<gregtech:meta_item_1:8117>,<gregtech:meta_item_1:8122>,<gregtech:meta_item_1:8128>,<gregtech:meta_item_1:8154>,<gregtech:meta_item_1:8157>,<gregtech:meta_item_1:8161>,<gregtech:meta_item_1:8187>,<gregtech:meta_item_1:8190>,<gregtech:meta_item_1:8202>,<gregtech:meta_item_1:8203>,<gregtech:meta_item_1:8206>,<gregtech:meta_item_1:8209>,<gregtech:meta_item_1:8212>,<gregtech:meta_item_1:8213>,<gregtech:meta_item_1:8214>,<gregtech:meta_item_1:8226>,<gregtech:meta_item_1:8243>,<gregtech:meta_item_1:8244>,<gregtech:meta_item_1:8247>,<gregtech:meta_item_1:8281>,<gregtech:meta_item_1:8525>,<gregtech:meta_item_1:8713>,<gregtech:meta_item_1:8867>,<gregtech:meta_item_1:8910>,<minecraft:coal>,<gregtech:meta_item_1:8211>,<gregtech:meta_item_1:8357>] as IItemStack[];
 
 
-for f in sift{
+for f in gem{
 	<ore:gemStandard>.add(f);
 }
+
+var fuel = [<gtadditions:ga_meta_item:17786>,<gtadditions:ga_meta_item:17798>,<gtadditions:ga_meta_item:17797>,<gtadditions:ga_meta_item:17815>,<gtadditions:ga_meta_item:17822>,<gtadditions:ga_meta_item:17824>,<gtadditions:ga_meta_item:17778>,<gtadditions:ga_meta_item:17779>,<gtadditions:ga_meta_item:17002>,<gtadditions:ga_meta_item:17810>,<gtadditions:ga_meta_item:17800>,<gtadditions:ga_meta_item:17807>,<gtadditions:ga_meta_item:17806>,<gtadditions:ga_meta_item:17821>,<gtadditions:ga_meta_item:17801>,<gtadditions:ga_meta_item:17777>,<gtadditions:ga_meta_item:17818>,<gtadditions:ga_meta_item:17808>,<gtadditions:ga_meta_item:17808>,<gtadditions:ga_meta_item:17794>,<gtadditions:ga_meta_item:17781>,<gtadditions:ga_meta_item:17811>,<gtadditions:ga_meta_item:17787>,<gtadditions:ga_meta_item:17792>,<gtadditions:ga_meta_item:17814>,<gtadditions:ga_meta_item:17825>,<gtadditions:ga_meta_item:17823>,<gtadditions:ga_meta_item:17799>,<gtadditions:ga_meta_item:17816>,<gtadditions:ga_meta_item:17053>,<gtadditions:ga_meta_item:17785>,<gtadditions:ga_meta_item:17813>,<gtadditions:ga_meta_item:17796>,<gtadditions:ga_meta_item:17791>,<gtadditions:ga_meta_item:17817>,<gtadditions:ga_meta_item:17783>,<gtadditions:ga_meta_item:17809>,<gtadditions:ga_meta_item:17802>,<gtadditions:ga_meta_item:17790>,<gtadditions:ga_meta_item:17804>,<gtadditions:ga_meta_item:17076>,<gtadditions:ga_meta_item:17789>,<gtadditions:ga_meta_item:17780>,<gtadditions:ga_meta_item:17819>]  as IItemStack[];
+
+for E in fuel{
+	Utils.removeRecipeByOutput(extruder, [E], [], true);
+h(E);
+}
+
 //nuclear clean up
 for e in <ore:depletedFuelTRISO*>{
 	h(e.firstItem);
@@ -166,8 +179,6 @@ for e in <ore:fuelZirconiumAlloy*>{
 for e in <ore:fuelNitride*>{
 	h(e.firstItem);
 }
-
-
 
 //hide Vulps dust
 h(<libvulpes:productdust:1>);
@@ -436,6 +447,8 @@ h(<advancedrocketry:planetselector>);
 h(<advancedrocketry:planetselector>);
 h(<variegated:silvered_apple>);
 h(<variegated:silvered_apple:1>);
+h(<appliedenergistics2:part:260>);
+h(<extracells:part.base:12>);
 <variegated:defiled_ground>.displayName = "Cursed Earth";
 
 
@@ -481,13 +494,13 @@ h(<gregtech:machine:13>);
 h(<appliedenergistics2:vibration_chamber>);
 h(<thermalfoundation:storage_resource:1>);
 h(<thermalfoundation:material:802>);
-h(<danknull:dank_null_1>);
+//h(<danknull:dank_null_1>);
 h(<danknull:dank_null_2>);
 h(<danknull:dank_null_3>);
 h(<danknull:dank_null_4>);
 h(<danknull:dank_null_5>);
 h(<danknull:dank_null_6>);
-h(<danknull:dank_null_panel_1>);
+//h(<danknull:dank_null_panel_1>);
 h(<danknull:dank_null_panel_2>);
 h(<danknull:dank_null_panel_3>);
 h(<danknull:dank_null_panel_4>);
@@ -563,5 +576,14 @@ h(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:s
 h(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2", "enderio:enabled": 1 as byte}));
 h(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3"}));
 h(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3", "enderio:enabled": 1 as byte}));
-
-
+h(<gregtech:machine:4211>);
+h(<enderio:item_material:34>);
+h(<enderio:item_material:35>);
+h(<enderio:item_material:36>);
+h(<enderio:item_material:37>);
+h(<compactmachines3:machine:5>);
+h(<compactmachines3:machine:1>);
+h(<compactmachines3:machine:2>);
+h(<compactmachines3:machine:4>);
+h(<compactmachines3:machine:3>);
+h(<compactmachines3:machine>);

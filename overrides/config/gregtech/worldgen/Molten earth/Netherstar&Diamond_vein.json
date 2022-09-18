@@ -18,11 +18,11 @@
         "value": {
             "type": "weight_random",
             "values": [{
-                    "weight": 90,
+                    "weight": 60,
                     "value": "ore:poor:diamond"
                 },
                 {
-                    "weight": 10,
+                    "weight": 40,
                     "value": "ore:nether_star"
                 }
 

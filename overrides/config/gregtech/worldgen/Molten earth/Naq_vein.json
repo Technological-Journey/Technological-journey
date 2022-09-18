@@ -17,12 +17,9 @@
         "type": "ga_simple",
         "value": {
             "type": "weight_random",
-            "values": [{
-                    "weight": 33,
-                    "value": "ore:naquadric_compound"
-                },
+            "values": [
                 {
-                    "weight": 39,
+                    "weight": 72,
                     "value": "ore:pure:naquadric_compound"
                 },
                 {

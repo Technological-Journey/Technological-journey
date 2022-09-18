@@ -91,36 +91,37 @@ alloy.recipeBuilder()
     .inputs([<gregtech:meta_item_2:32440>,<minecraft:glass_pane>])
     .outputs([<advancedrocketry:wafer>])
     .duration(160)
-    .EUt(32)
+    .EUt(30)
     .buildAndRegister();
 engraver.recipeBuilder()
     .inputs([<advancedrocketry:wafer>])
     .notConsumable(<ore:craftingLensWhite>)
     .outputs([<advancedrocketry:itemcircuitplate>])
     .duration(160)
-    .EUt(32)
+    .EUt(30)
     .buildAndRegister();
 engraver.recipeBuilder()
     .inputs([<advancedrocketry:wafer>])
     .notConsumable(<ore:craftingLensLime>)
     .outputs([<advancedrocketry:itemcircuitplate:1>])
     .duration(160)
-    .EUt(32)
+    .EUt(30)
     .buildAndRegister();
     saw.recipeBuilder()
     .inputs([<advancedrocketry:itemcircuitplate:1>])
     .fluidInputs(<liquid:lubricant> * 144)
     .outputs([<advancedrocketry:ic:2> * 16])
     .duration(160)
-    .EUt(32)
+    .EUt(30)
     .buildAndRegister();
      saw.recipeBuilder()
     .inputs([<advancedrocketry:itemcircuitplate>])
     .fluidInputs(<liquid:lubricant> * 144)
     .outputs([<advancedrocketry:ic> * 16])
     .duration(160)
-    .EUt(32)
+    .EUt(30)
     .buildAndRegister();
+    
     recipes.addShaped(<advancedrocketry:ic:1>, [[null, null, null],[null, <advancedrocketry:ic>, null], [<advancedrocketry:ic:2>, <advancedrocketry:ic:2>, <advancedrocketry:ic:2>]]);
     recipes.addShaped(<advancedrocketry:satelliteidchip>, [[null, null, null],[null, <advancedrocketry:ic:2>, null], [<advancedrocketry:ic>, <advancedrocketry:ic>, <advancedrocketry:ic>]]);
     recipes.addShaped(<advancedrocketry:fuelingstation>, [[<gregtech:meta_item_1:12183>, <gregtech:meta_item_1:32612>, <gregtech:meta_item_1:12183>],[<gregtech:meta_item_1:32612>, <gregtech:machine:503>, <gregtech:meta_item_1:32612>], [<gregtech:meta_item_1:12183>, <gregtech:meta_item_1:32612>, <gregtech:meta_item_1:12183>]]);
@@ -134,51 +135,51 @@ chemreactor.recipeBuilder()
 .fluidInputs( <liquid:oxygen> * 2000)
 .outputs([<advancedrocketry:thermite> * 3])
 .duration(600)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 
 macerator.recipeBuilder()
 .inputs([<advancedrocketry:crystal>])
 .outputs([<actuallyadditions:item_crystal_shard:1> * 4])
 .duration(160)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 macerator.recipeBuilder()
 .inputs([<advancedrocketry:crystal:1>])
 .outputs([<actuallyadditions:item_crystal_shard:2> * 4])
 .duration(160)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 macerator.recipeBuilder()
 .inputs([<advancedrocketry:crystal:2>])
 .outputs([<actuallyadditions:item_crystal_shard:4> * 4])
 .duration(160)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 macerator.recipeBuilder()
 .inputs([<advancedrocketry:crystal:3>])
 .outputs([<actuallyadditions:item_crystal_shard> * 4])
 .duration(160)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 macerator.recipeBuilder()
 .inputs([<advancedrocketry:crystal:5>])
 .outputs([<actuallyadditions:item_crystal_shard:3> * 4])
 .duration(160)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 macerator.recipeBuilder()
 .inputs([<advancedrocketry:crystal:4>])
 .outputs([<actuallyadditions:item_crystal_shard:5> * 4])
 .duration(160)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 
 alloy.recipeBuilder()
     .inputs([<advancedrocketry:hotturf> * 10,<minecraft:glass>])
     .outputs([<gtadditions:ga_transparent_casing>])
     .duration(300)
-    .EUt(2048)
+    .EUt(2040)
     .buildAndRegister();
 
 
@@ -187,7 +188,7 @@ autoclave.recipeBuilder()
 .fluidInputs([<liquid:water> * 1000])
 .outputs([<libvulpes:productgem>])
 .duration(120)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 <advancedrocketry:charcoallog>.addTooltip("ID 400 artifact");
 <gregtech:meta_block_compressed_18:12>.addTooltip("ID 401 artifact");
@@ -201,7 +202,7 @@ extruder.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32313>)
 .outputs([<advancedrocketry:pressuretank>])
 .duration(600)
-.EUt(32)
+.EUt(30)
 .buildAndRegister();
 //med tank
 extruder.recipeBuilder()
@@ -209,7 +210,7 @@ extruder.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32313>)
 .outputs([<advancedrocketry:pressuretank:1>])
 .duration(600)
-.EUt(128)
+.EUt(120)
 .buildAndRegister();
 // large tank
 extruder.recipeBuilder()
@@ -217,7 +218,7 @@ extruder.recipeBuilder()
 .notConsumable(<gregtech:meta_item_1:32313>)
 .outputs([<advancedrocketry:pressuretank:2>])
 .duration(600)
-.EUt(512)
+.EUt(500)
 .buildAndRegister();
 //max tank
 extruder.recipeBuilder()
