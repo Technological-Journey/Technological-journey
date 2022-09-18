@@ -374,7 +374,7 @@ blast_furnace.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32569> * 4, <gtadditions:ga_meta_item:32515>, <gtadditions:ga_meta_item:32556>)
     .fluidInputs(<liquid:taranium> * 4000)
     .outputs(<gtadditions:ga_dust:529>)
-    .property("temperature", 23)
+    .property("temperature", 23000)
     .duration(320)
     .EUt(536870900)
     .buildAndRegister();
