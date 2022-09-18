@@ -2159,3 +2159,8 @@ assembler.recipeBuilder()
     .buildAndRegister();
 recipes.addShaped(<gregtech:machine:4034>, [[null, null, null],[null, <gregtech:machine:3243>, <gregtech:ga_cable:5993>], [null, null, null]]);
 recipes.addShaped(<gregtech:machine:4029>, [[null, null, null],[<gregtech:ga_cable:5993>, <gregtech:machine:3243>, null], [null, null, null]]);
+
+recipes.remove(<danknull:dank_null_1>);
+recipes.remove(<danknull:dank_null_panel_1>);
+recipes.addShaped(<danknull:dank_null_1>, [[<danknull:dank_null_panel_1>, <danknull:dank_null_panel_1>, <danknull:dank_null_panel_1>],[<danknull:dank_null_panel_1>, <danknull:dank_null_0>, <danknull:dank_null_panel_1>], [<danknull:dank_null_panel_1>, <danknull:dank_null_panel_1>, <danknull:dank_null_panel_1>]]);
+recipes.addShaped(<danknull:dank_null_panel_1>, [[<ore:blockLapis>, <ore:blockCoalCoke>, <ore:blockLapis>],[<ore:blockCoalCoke>, <gtadditions:ga_transparent_casing:1>, <ore:blockCoalCoke>], [<ore:blockLapis>, <ore:blockCoalCoke>, <ore:blockLapis>]]);
