@@ -69,5 +69,6 @@ fluid.stellaralloy=Molten Stellar Alloy
 tile.contenttweaker.eternityblock.name=Block of Eternity
 item.contenttweaker.eternityingot.name=Eternity Ingot
 item.contenttweaker.eternitycrystal.name=Eternity Crystal
-item.contenttweaker.infinitycrystal.name=Infinity Crystal
+item.contenttweaker.infintycrystal.name=Infinity Crystal
 metaitem.eternity_preparation.name=Eternity Preparation
+fluid.eternity=Eternity plasma
