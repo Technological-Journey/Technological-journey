@@ -84,15 +84,15 @@ heat_exchanger.noEnergy = true;
 
 
 heat_exchanger.recipeMap.recipeBuilder()
-.fluidInputs(<liquid:water> * 5760, <liquid:lava> * 1000)
-.fluidOutputs(<liquid:hot.steam> * 345600, <liquid:pahoehoe_lava> * 1000)
+.fluidInputs(<liquid:water> * 2880, <liquid:lava> * 1000)
+.fluidOutputs(<liquid:hot.steam> * 172800, <liquid:pahoehoe_lava> * 1000)
 .duration(20)
 .hidden()
 .buildAndRegister();
 
 electrolyzer.recipeBuilder()
-.fluidInputs(<liquid:pahoehoe_lava> * 1000)
-.outputs([<minecraft:obsidian> * 2, <gregtech:meta_item_1:2065> * 5, <gregtech:meta_item_1:2012> * 5])
+.fluidInputs(<liquid:pahoehoe_lava> * 10000)
+.outputs([<minecraft:obsidian> * 1, <gregtech:meta_item_1:2065> * 1, <gregtech:meta_item_1:2012> * 1])
 .duration(20)
 .EUt(7000)
 .buildAndRegister();

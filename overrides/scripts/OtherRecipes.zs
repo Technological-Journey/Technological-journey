@@ -284,6 +284,7 @@ chemreactor.recipeBuilder()
 .buildAndRegister();
 
 chemreactor.recipeBuilder()
+.inputs([<minecraft:sand> * 64, <minecraft:obsidian> * 2])
 .fluidInputs( <liquid:lava> * 1000)
 .outputs(<minecraft:end_stone> * 2)
 .duration(300)
@@ -291,6 +292,7 @@ chemreactor.recipeBuilder()
 .buildAndRegister();
 
 large_chem.recipeBuilder()
+.inputs([<minecraft:sand> * 64, <minecraft:obsidian> * 2])
 .fluidInputs( <liquid:lava> * 1000)
 .outputs(<minecraft:end_stone> *2)
 .duration(300)
@@ -748,7 +750,7 @@ recipes.remove(<gregtech:machine:2514>);
 recipes.addShaped(<gregtech:machine:2514>, [[<gregtech:meta_item_1:12300>, <gregtech:machine:63>, <gregtech:meta_item_1:12300>],[<gregtech:machine:62>, <ore:circuitExtreme>, <gregtech:machine:62>], [<gregtech:meta_item_1:12300>, <gregtech:machine:505>, <gregtech:meta_item_1:12300>]]);
 furnace.remove(<gregtech:meta_item_1:2047>);
 
-//Utils.removeRecipeByOutput(large_chem, [], [<liquid:ortho_xylene> * 10000], false);
+Utils.removeRecipeByOutput(large_chem, [], [<liquid:ortho_xylene> * 10000], false);
 
 large_chem.recipeBuilder()
 .fluidInputs(<liquid:methanol> *1000, <liquid:toluene> * 1000)
@@ -1037,7 +1039,7 @@ assembler.recipeBuilder()
 distillery.findRecipe(100, [<gregtech:meta_item_1:32766>.withTag({Configuration: 0})], [<fluid:biomass>* 2000]).remove();
 
 distillery.recipeBuilder()
-.fluidInputs(<liquid:biomass> * 2000)
+.fluidInputs(<liquid:biomass> * 1000)
 .fluidOutputs(<liquid:ethanol> * 600)
 .circuit(0)
 .EUt(16)
@@ -1920,7 +1922,7 @@ Utils.removeRecipeByOutput(gas_centrifuge, [], [<liquid:titanium50_tetrafluoride
 
 gas_centrifuge.recipeBuilder()
     .fluidInputs(<liquid:titanium_tetrafluoride> * 10000)
-    .fluidOutputs(<liquid:titanium50_tetrafluoride> * 518 ,<liquid:titanium_tetrachloride> * 9482)
+    .fluidOutputs(<liquid:titanium50_tetrafluoride> * 518 , <liquid:titanium_tetrafluoride>* 9482)
     .duration(210)
     .EUt(30720)
     .buildAndRegister();
@@ -2119,3 +2121,48 @@ chemical_bath.recipeBuilder()
     .duration(100)
     .EUt(131072)
     .buildAndRegister();
+
+distillery.findRecipe(24, [<gregtech:meta_item_1:32766>.withTag({Configuration: 2})], [<liquid:oil_light> * 150]).remove();
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:multiblock_casing> ], [], false);
+
+assembler.recipeBuilder()
+    .inputs(<gregtech:metal_casing:6>, <gregtech:meta_item_2:18072> * 4, <gregtech:fluid_pipe:2072> * 2)
+    .outputs(<gregtech:multiblock_casing> * 2)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+blast_furnace.findRecipe(120, [<gregtech:meta_item_1:2032>,<gregtech:meta_item_1:2155>, <gregtech:meta_item_1:2155>], [<liquid:oxygen> * 2000]).remove();
+
+
+chemreactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2032> * 2)
+    .notConsumable(<gregtech:meta_item_1:2155>)
+    .outputs(<gregtech:meta_item_1:2693> * 11)
+    .fluidInputs(<liquid:oxygen> * 4000, <liquid:hydrogen> * 1000, <liquid:bismuth_nitrate_solution> * 2000)
+    .fluidOutputs(<liquid:nitrogen_dioxide> * 1000,<liquid:nitric_acid> * 5000)
+    .duration(300)
+    .EUt(1920)
+    .buildAndRegister();
+large_chem.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2032> * 2)
+    .notConsumable(<gregtech:meta_item_1:2155>)
+    .outputs(<gregtech:meta_item_1:2693> * 11)
+    .fluidInputs(<liquid:oxygen> * 4000, <liquid:hydrogen> * 1000, <liquid:bismuth_nitrate_solution> * 2000)
+    .fluidOutputs(<liquid:nitrogen_dioxide> * 1000,<liquid:nitric_acid> * 5000)
+    .duration(300)
+    .EUt(1920)
+    .buildAndRegister();
+
+recipes.remove(<randomthings:ingredient:1>);
+recipes.addShaped(<randomthings:ingredient:1>, [[<randomthings:stableenderpearl>, <gregtech:meta_item_1:19183>, <randomthings:stableenderpearl>],[<gregtech:meta_item_1:19183>, <ore:itemSkull>, <gregtech:meta_item_1:19183>], [<randomthings:stableenderpearl>, <gregtech:meta_item_1:19183>, <randomthings:stableenderpearl>]]);
+
+centrifuge.findRecipe(640, [<gregtech:meta_item_1:2309>], []).remove();
+large_centrifuge.findRecipe(640, [<gregtech:meta_item_1:2309>], []).remove();
+
+centrifuge.findRecipe(320, [<gregtech:meta_item_1:2307>], []).remove();
+large_centrifuge.findRecipe(320, [<gregtech:meta_item_1:2307>], []).remove();
+
+Utils.removeRecipeByOutput(blast_furnace, [<gregtech:meta_item_1:10061>], [], true);
+recipes.addShaped(<minecraft:name_tag>, [[null, <minecraft:string>, <minecraft:string>],[null, <ore:slimeball>, <minecraft:string>], [<minecraft:string>, null, null]]);

@@ -135,6 +135,13 @@ mixer.recipeBuilder()
 .duration(30)
 .EUt(32)
 .buildAndRegister();
+
+largeMix.recipeBuilder()
+.inputs([<appliedenergistics2:material>,<minecraft:redstone>])
+.outputs([<appliedenergistics2:material:1>])
+.duration(30)
+.EUt(32)
+.buildAndRegister();
 //creadits to Brachy84 and _masterEnderman_
 var aeSeeds as IItemStack[string][IItemStack] = {
 <appliedenergistics2:material:10> : {
@@ -192,7 +199,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:15>)
 .outputs([<appliedenergistics2:material:18>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -200,7 +207,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:14>)
 .outputs([<appliedenergistics2:material:17>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -208,7 +215,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:13>)
 .outputs([<appliedenergistics2:material:16>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 
 assembler.recipeBuilder()
@@ -216,7 +223,7 @@ assembler.recipeBuilder()
 .notConsumable(<appliedenergistics2:material:19>)
 .outputs([<appliedenergistics2:material:20>])
 .duration(300)
-.EUt(128)
+.EUt(30)
 .buildAndRegister();
 // processers
 assembler.recipeBuilder()
