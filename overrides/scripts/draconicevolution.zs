@@ -380,7 +380,7 @@ blast_furnace.recipeBuilder()
     .buildAndRegister();
 
 Stellar.recipeBuilder()
-    .inputs(<gtadditions:ga_explosive:3>, <gtadditions:ga_dust:529> * 4, <gtadditions:ga_meta_item:32516> * 1)
+    .inputs(<gtadditions:ga_explosive:3>, <gtadditions:ga_dust:529> * 4, <contenttweaker:infintycrystal> * 2)
     .fluidInputs(<liquid:gluons> * 8000)
     .fluidOutputs(<liquid:eternity> * 1152)
     .duration(5)
