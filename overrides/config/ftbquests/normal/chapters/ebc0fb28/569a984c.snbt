@@ -1,0 +1,19 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "explosivehydrazine",
+			Amount: 1000
+		}
+	},
+	x: -3.0d,
+	y: -2.5d,
+	dependencies: [
+		"db4d590d"
+	],
+	tasks: [{
+		uid: "78c854b5",
+		type: "checkmark",
+		title: "Explosive Hydrazine Fuel Mixture"
+	}]
+}

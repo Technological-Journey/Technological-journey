@@ -1,6 +1,9 @@
 {
 	x: 0.5d,
 	y: -7.0d,
+	text: [
+		"Plates, but flatter."
+	],
 	tasks: [{
 		uid: "70bbd3c7",
 		type: "item",

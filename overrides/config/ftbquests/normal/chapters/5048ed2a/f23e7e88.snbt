@@ -1,8 +1,10 @@
 {
 	icon: "gregtech:machine 1 2530",
-	x: -4.5d,
-	y: -1.5d,
-	shape: "hexagon",
+	x: -1.5d,
+	y: 5.0d,
+	text: [
+		"The LCR is an incredibly important multiblock. It can run (nearly) any recipe that can be run in a normal chemical reactor, along with several that cannot. It has a perfect overclock, meaning it is generally faster than a singleblock of the same tier. You will be making hundreds of these. "
+	],
 	dependencies: [
 		"8bedbe81"
 	],

@@ -1,14 +1,15 @@
 {
 	icon: "gregtech:machine 1 2562",
-	x: -7.5d,
-	y: -10.5d,
+	x: 9.5d,
+	y: 0.5d,
 	text: [
-		"About now, you're probably looking for a way to store power. Buffered fuels are increadibly strong, as laid out in the 'All the Power' quest tab. However, if you're really looking to store raw EU, this is the way to do it. ",
+		"About now, you're probably looking for a way to store power. Buffered fuels are incredibly strong, as laid out in the 'All the Power' quest tab. However, if you're really looking to store raw EU, this is the way to do it. ",
 		"",
 		"You can use the energy detector cover to turn off generators when the battery tower is halfway full. "
 	],
 	dependencies: [
-		"d200fb90"
+		"d200fb90",
+		"fdaf832a"
 	],
 	optional: true,
 	tasks: [{
@@ -34,13 +35,6 @@
 			item: "gtadditions:ga_cell_casing"
 		}],
 		count: 36L
-	},
-	{
-		uid: "aa619ff8",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 735"
-		}]
 	},
 	{
 		uid: "f8304497",

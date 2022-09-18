@@ -1,6 +1,6 @@
 {
-	x: -1.5d,
-	y: 3.0d,
+	x: -2.5d,
+	y: -2.0d,
 	text: [
 		"You'll need a lot of these for fusion, which means a lot of LuV pumps. Check your infrastructure and make sure you can handle the HSS-G, copper, and power drain."
 	],

@@ -1,6 +1,7 @@
 {
-	x: 0.5d,
+	x: 5.0d,
 	y: -7.0d,
+	shape: "rsquare",
 	text: [
 		"Funny amalgam ingot."
 	],

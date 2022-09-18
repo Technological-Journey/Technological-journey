@@ -1,6 +1,10 @@
 {
 	x: -0.5d,
-	y: -4.0d,
+	y: -2.5d,
+	description: "Baby's First Alloy",
+	text: [
+		"Bronze, a combination of tin and copper, first made in ~3500 B.C.E, is an alloy that combines the hardness of tin with the fusability and corrosion resistance of copper. You will use it for steam powered machines and components."
+	],
 	dependencies: [
 		"0e44a176",
 		"bc0c19c7"

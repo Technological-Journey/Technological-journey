@@ -1,7 +1,11 @@
 {
 	x: -0.5d,
-	y: -5.0d,
+	y: -2.0d,
+	text: [
+		"Like the quadrouple hatch, but bigger. And costs a lot of tungstensteel."
+	],
 	dependencies: [
+		"4c489032",
 		"add803cf"
 	],
 	tasks: [{

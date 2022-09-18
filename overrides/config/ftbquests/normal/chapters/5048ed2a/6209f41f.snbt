@@ -1,13 +1,14 @@
 {
-	title: "Nuclear reactor or breeder reactor",
+	title: "Reactor Casings",
 	icon: "gregtech:machine 1 2545",
-	x: 4.0d,
-	y: -7.5d,
-	shape: "hexagon",
+	x: 16.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"944addd2",
-		"cc6b5219",
-		"bd67be29"
+		"94e4598f"
 	],
 	tasks: [{
 		uid: "43f9d2e9",

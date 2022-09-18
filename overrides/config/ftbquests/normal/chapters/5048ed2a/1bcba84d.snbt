@@ -1,7 +1,7 @@
 {
 	icon: "gtadditions:ga_meta_item 1 32312",
-	x: 7.0d,
-	y: 2.5d,
+	x: 20.5d,
+	y: 11.0d,
 	shape: "gear",
 	text: [
 		"You'll need to repeat this tree with the following materials. Rather than write out the same tree many times we wrote only key items from each tier that allow you to move to the next.",
@@ -13,6 +13,7 @@
 	],
 	tasks: [{
 		uid: "2500ca69",
-		type: "checkmark"
+		type: "checkmark",
+		title: "I Understand Nuclear :)"
 	}]
 }

@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
 	y: 6.5d,
+	text: [
+		"Now it has wires on it! It can't do any logic yet, but it sure can conduct electricity."
+	],
 	dependencies: [
 		"7efdd9ba"
 	],

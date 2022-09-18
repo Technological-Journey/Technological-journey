@@ -1,6 +1,9 @@
 {
-	x: 4.0d,
-	y: 2.5d,
+	x: 18.5d,
+	y: 11.0d,
+	text: [
+		"Like naquadah rods, enriched naquadah rods can be used to boost fissile breeding. "
+	],
 	dependencies: [
 		"1bcba84d"
 	],

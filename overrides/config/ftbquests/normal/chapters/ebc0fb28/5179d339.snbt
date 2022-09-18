@@ -1,0 +1,20 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "starlightcomplex",
+			Amount: 1000
+		}
+	},
+	x: -4.0d,
+	y: -3.5d,
+	dependencies: [
+		"a9c57d64",
+		"f467bc80"
+	],
+	tasks: [{
+		uid: "6ab843d2",
+		type: "checkmark",
+		title: "Starlight Complex"
+	}]
+}

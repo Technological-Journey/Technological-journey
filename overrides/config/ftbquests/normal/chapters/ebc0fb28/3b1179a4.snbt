@@ -2,6 +2,9 @@
 	icon: "gregtech:machine 1 2191",
 	x: 2.5d,
 	y: 0.0d,
+	text: [
+		"These singleblocks have very poor efficiency, but naq fuel is very strong. It may be worth using these if you already have naq fuels setup."
+	],
 	dependencies: [
 		"b2094049"
 	],
@@ -11,10 +14,24 @@
 		items: [{
 			item: "gregtech:machine 1 2191"
 		}]
+	},
+	{
+		uid: "8375e8c8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2174"
+		}]
+	},
+	{
+		uid: "4a9ca51b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2173"
+		}]
 	}],
 	rewards: [{
-		uid: "5d8e5a08",
+		uid: "37cae487",
 		type: "item",
-		item: "gregtech:machine 1 2191"
+		item: "gregtech:meta_item_1 1 1307"
 	}]
 }

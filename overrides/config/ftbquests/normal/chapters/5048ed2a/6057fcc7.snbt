@@ -1,6 +1,9 @@
 {
-	x: -3.5d,
-	y: -6.5d,
+	x: 5.5d,
+	y: 11.0d,
+	text: [
+		"This isn't actually needed anywhere for progression, but Astral has some pretty nice perks if you'd like them. "
+	],
 	dependencies: [
 		"caf24bb8"
 	],

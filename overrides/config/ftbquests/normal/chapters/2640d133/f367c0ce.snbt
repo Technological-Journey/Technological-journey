@@ -1,6 +1,9 @@
 {
 	x: 1.0d,
 	y: 8.0d,
+	text: [
+		"Computation? These aren't exactly top-of-the-line transistors, but they do the job. Put a few of them together and you can make some nice new circuits."
+	],
 	dependencies: [
 		"1e0006f8"
 	],

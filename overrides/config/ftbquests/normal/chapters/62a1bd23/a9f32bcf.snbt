@@ -5,7 +5,6 @@
 	text: [
 		"To get a decent amount of oil and graphite  you will need to warp to the carbon wasteland. This planet requires an artifact, the charcoal log."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"81372634"
 	],

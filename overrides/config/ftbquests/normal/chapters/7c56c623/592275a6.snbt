@@ -1,0 +1,15 @@
+{
+	title: "Infinity Crystal",
+	x: -2.5d,
+	y: 7.5d,
+	dependencies: [
+		"05ff7164"
+	],
+	tasks: [{
+		uid: "eb3f6dd4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infintycrystal"
+		}]
+	}]
+}

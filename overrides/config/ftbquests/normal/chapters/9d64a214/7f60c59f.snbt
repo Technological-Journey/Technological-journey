@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"You can now make rutherfordium boules. They are relatively expensive for you at the moment, but may be worth it for the increased chip yeild and new ",
+		"recipe unlocks. Plus, you'll need them later for HASoCs. "
+	],
+	dependencies: [
+		"64d460ef"
+	],
+	tasks: [{
+		uid: "d5759506",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32341"
+		}]
+	}]
+}

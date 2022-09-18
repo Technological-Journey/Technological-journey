@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		"This is a catalyst, as hinted at by the name. You don't need to passive it. A single batch of clear naq solution will do for now."
+	],
+	dependencies: [
+		"002fdd9b"
+	],
+	tasks: [{
+		uid: "88a6347b",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 527"
+		}]
+	}]
+}

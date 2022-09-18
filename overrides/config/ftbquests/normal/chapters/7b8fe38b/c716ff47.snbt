@@ -1,6 +1,9 @@
 {
 	x: 2.0d,
 	y: -7.0d,
+	text: [
+		"Rub some redstone on your rod (iron) and it becomes magnetic!"
+	],
 	tasks: [{
 		uid: "df88e3bc",
 		type: "item",

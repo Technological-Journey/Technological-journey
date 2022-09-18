@@ -1,8 +1,8 @@
 {
-	x: -4.5d,
-	y: -10.5d,
+	x: 11.0d,
+	y: 0.5d,
 	text: [
-		"The large handy bag has many more slots to hold items,"
+		"You probably want one of these. "
 	],
 	dependencies: [
 		"f9d13092"

@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: 12.5d,
+	x: -3.0d,
+	y: 11.5d,
 	text: [
 		"Liquid starlight has many uses including fuel, superconductors, and starmetal smelting."
 	],

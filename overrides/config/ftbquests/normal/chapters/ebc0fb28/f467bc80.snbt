@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "astralsorcery.liquidstarlight",
+			Amount: 1000
+		}
+	},
+	x: -3.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "6250d650",
+		type: "checkmark",
+		title: "Starlight"
+	}]
+}

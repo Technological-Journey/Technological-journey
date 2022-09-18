@@ -1,7 +1,7 @@
 {
 	title: "To the Moon!",
-	x: -3.5d,
-	y: 4.5d,
+	x: -6.0d,
+	y: 6.5d,
 	description: "In order to find rutile you will need to travel to the moon",
 	text: [
 		"So far, you've only had access to bauxite processing as a source of rutile. Now that you've built a rocket, you're able to explore other planets and moons to find rare materials and fluids. The first stop is the moon, which is useful for rutile and bauxite ores for more titanium, along with dilithium to power a warp core which will enable you to visit more exotic locations."
@@ -9,6 +9,7 @@
 	dependencies: [
 		"e6d4eebb"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "1a8f8043",
 		type: "item",

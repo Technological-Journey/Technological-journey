@@ -1,7 +1,10 @@
 {
-	x: -5.0d,
-	y: 1.5d,
-	hide_dependency_lines: true,
+	title: "Airtight Seal",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"Make 4 Airtight Seal books for some free levels. You can put it on EnderIO armor (and draconic, later on) to get arround the spacesuit. "
+	],
 	dependencies: [
 		"d4a23332"
 	],

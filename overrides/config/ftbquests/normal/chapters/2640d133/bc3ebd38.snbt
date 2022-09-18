@@ -1,5 +1,5 @@
 {
-	x: -3.5d,
+	x: -5.0d,
 	y: -1.0d,
 	description: "Multiblock Madness",
 	text: [
@@ -10,7 +10,7 @@
 	],
 	hide_dependency_lines: true,
 	dependencies: [
-		"23cda739"
+		"664d2fa1"
 	],
 	tasks: [{
 		uid: "1028ed17",

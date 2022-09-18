@@ -1,7 +1,11 @@
 {
-	x: -3.5d,
+	x: 4.0d,
 	y: 6.5d,
+	text: [
+		"Conduits are your best bet for moving items and fluids right now as they are relatively cheap, easy to setup, and quite flexible. "
+	],
 	dependencies: [
+		"4945d629",
 		"1e24c135"
 	],
 	tasks: [{

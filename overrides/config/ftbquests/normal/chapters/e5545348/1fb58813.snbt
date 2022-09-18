@@ -1,6 +1,6 @@
 {
-	x: 2.5d,
-	y: 4.5d,
+	x: 0.5d,
+	y: 6.5d,
 	shape: "rsquare",
 	text: [
 		"If you feel like wasting a bunch of steel by making tiny pipes without the extruder, feel free to checkmark this quest to bypass the extruder and tiny pipe extruder shape quests. You're wrong and I'm gonna make fun of you, but feel free."

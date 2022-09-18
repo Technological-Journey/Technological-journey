@@ -1,0 +1,36 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	text: [
+		"You'll need some string to wrap your cables.",
+		"",
+		"If you like farming: Use flax, it's busted.",
+		"",
+		"If you hate farming: Breed sheep, shear them, and macerate the wool. This is slower, more effort, and will tie up your macerator. The choice is yours. "
+	],
+	tasks: [{
+		uid: "53a5274f",
+		type: "checkmark",
+		title: "String",
+		icon: "minecraft:string"
+	}],
+	rewards: [{
+		uid: "775b33ff",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:sheep"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "10cf8a84",
+		type: "item",
+		item: "actuallyadditions:item_flax_seed",
+		count: 16
+	}]
+}

@@ -1,9 +1,8 @@
 {
-	x: -1.0d,
-	y: -7.5d,
+	x: 10.5d,
+	y: 12.0d,
 	shape: "hexagon",
 	dependencies: [
-		"caf24bb8",
 		"126ec559"
 	],
 	tasks: [{

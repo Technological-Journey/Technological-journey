@@ -1,7 +1,7 @@
 {
 	icon: "gtadditions:ga_dust 1 928",
-	x: -4.5d,
-	y: -2.5d,
+	x: -2.5d,
+	y: -3.5d,
 	dependencies: [
 		"e332093d"
 	],

@@ -6,11 +6,12 @@
 			Amount: 1000
 		}
 	},
-	x: -7.5d,
+	x: -10.0d,
 	y: -1.5d,
 	shape: "hexagon",
 	dependencies: [
 		"b1ac71dc",
+		"24b3ff39",
 		"38bbd280"
 	],
 	tasks: [{

@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -2.5d,
+	dependencies: [
+		"db4d590d"
+	],
+	tasks: [{
+		uid: "d874e045",
+		type: "checkmark",
+		title: "Rocket Fuel CN3H7O3",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocket_fuel_b",
+				Amount: 1000
+			}
+		}
+	}]
+}

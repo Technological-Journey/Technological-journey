@@ -1,6 +1,11 @@
 {
-	x: 13.0d,
-	y: 0.5d,
+	x: 14.0d,
+	y: -0.5d,
+	text: [
+		"Uses light to move information at the fastest possible speed, manipulating frequency to perform analogue computation.",
+		"",
+		"These little descriptions of how circuits work are getting harder to write as I dunno what I'm talking about anymore."
+	],
 	dependencies: [
 		"f3aad47a"
 	],

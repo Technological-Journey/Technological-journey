@@ -1,7 +1,12 @@
 {
 	x: -1.0d,
-	y: -5.5d,
-	shape: "hexagon",
+	y: -5.0d,
+	shape: "rsquare",
+	text: [
+		"Finally neutronium! A little more complex than a couple of neutron collectors, wouldn't you agree?",
+		"",
+		"You'll have to passive this if you want to use hyper fuel IV."
+	],
 	dependencies: [
 		"5826c036"
 	],

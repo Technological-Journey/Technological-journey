@@ -6,12 +6,9 @@
 			Amount: 1000
 		}
 	},
-	x: -9.0d,
+	x: -11.5d,
 	y: -1.5d,
 	shape: "hexagon",
-	dependencies: [
-		"e5988795"
-	],
 	tasks: [{
 		uid: "a31f0bb6",
 		type: "checkmark",

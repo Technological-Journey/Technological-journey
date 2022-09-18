@@ -1,0 +1,18 @@
+{
+	x: -8.5d,
+	y: 1.0d,
+	text: [
+		"The Large Diesel Engine (DE) generates 4 amps of EV power at 100% fuel efficiency, or you can boost it with oxygen for 12 amps of EV but only 50% fuel efficiency. Yes, it's needy and constantly consumes lube.  "
+	],
+	dependencies: [
+		"bee567d9",
+		"0a345603"
+	],
+	tasks: [{
+		uid: "977bc89c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 517"
+		}]
+	}]
+}

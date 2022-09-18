@@ -1,6 +1,6 @@
 {
-	x: 8.0d,
-	y: -2.5d,
+	x: 21.5d,
+	y: 7.0d,
 	dependencies: [
 		"aed28008"
 	],

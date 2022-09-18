@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -3.5d,
+	text: [
+		"The formaldehyde needed for this is MUCH easier if you can scrounge up the requirements for a LuV LCR."
+	],
+	tasks: [{
+		uid: "049c56b7",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 922"
+		}]
+	}]
+}

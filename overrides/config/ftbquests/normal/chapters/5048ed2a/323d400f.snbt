@@ -1,7 +1,7 @@
 {
 	icon: "gregtech:machine 1 2529",
-	x: -0.5d,
-	y: -8.5d,
+	x: 4.5d,
+	y: 0.5d,
 	dependencies: [
 		"fdaf832a"
 	],
@@ -10,28 +10,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 2529"
-		}]
-	},
-	{
-		uid: "09f3f437",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_motor_casing 1 2"
-		}],
-		count: 3L
-	},
-	{
-		uid: "16f79cc0",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 730"
-		}]
-	},
-	{
-		uid: "1ea5b9fb",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 731"
 		}]
 	},
 	{
@@ -49,12 +27,5 @@
 			item: "gregtech:turbine_casing 1 2"
 		}],
 		count: 2L
-	},
-	{
-		uid: "39adc212",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4213"
-		}]
 	}]
 }

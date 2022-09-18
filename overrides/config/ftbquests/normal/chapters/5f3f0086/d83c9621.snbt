@@ -1,7 +1,8 @@
 {
 	title: "The start of a long journey",
-	x: 2.0d,
-	y: -6.0d,
+	x: 6.5d,
+	y: -12.0d,
+	shape: "rsquare",
 	description: "Same old same old, punch a tree.",
 	text: [
 		"Welcome to Technological Journey! Smack a tree a few times for some nice gear.",
@@ -26,26 +27,6 @@
 		only_from_crafting: false
 	}],
 	rewards: [{
-		uid: "c56b57af",
-		type: "item",
-		item: "minecraft:leather_helmet"
-	},
-	{
-		uid: "fd1fcb5a",
-		type: "item",
-		item: "minecraft:leather_chestplate"
-	},
-	{
-		uid: "ff71ec93",
-		type: "item",
-		item: "minecraft:leather_leggings"
-	},
-	{
-		uid: "12c0c90b",
-		type: "item",
-		item: "minecraft:leather_boots"
-	},
-	{
 		uid: "734771b4",
 		type: "item",
 		item: {
@@ -113,6 +94,47 @@
 					id: 34s,
 					lvl: 15s
 				}]
+			}
+		}
+	},
+	{
+		uid: "5c8e7250",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 36s,
+					lvl: 1s
+				}]
+			}
+		}
+	},
+	{
+		uid: "2bc6b77d",
+		type: "item",
+		item: {
+			id: "minecraft:leather_boots",
+			tag: {
+				display: {
+					color: 16383998,
+					Name: "White Air Force One Size 11 Men 07'"
+				},
+				RepairCost: 3
+			}
+		}
+	},
+	{
+		uid: "266af80f",
+		type: "item",
+		item: {
+			id: "minecraft:leather_helmet",
+			tag: {
+				display: {
+					color: 11546150,
+					Name: "Basedball Hat"
+				},
+				RepairCost: 1
 			}
 		}
 	}]

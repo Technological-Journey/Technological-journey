@@ -1,7 +1,9 @@
 {
 	x: 1.0d,
 	y: 6.5d,
-	shape: "hexagon",
+	text: [
+		"You'll need these for vacuum tubes, which will be an important part of your first logic circuits. "
+	],
 	dependencies: [
 		"c2f0ab79"
 	],

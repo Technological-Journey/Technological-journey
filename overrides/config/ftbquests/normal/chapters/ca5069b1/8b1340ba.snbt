@@ -1,6 +1,7 @@
 {
-	x: 13.0d,
-	y: 2.5d,
+	x: 14.0d,
+	y: 0.5d,
+	shape: "rsquare",
 	text: [
 		"Yeah, you can't use SMD's for the inductors. Remember when these were a pain to craft?"
 	],

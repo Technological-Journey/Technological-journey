@@ -1,8 +1,10 @@
 {
-	x: -13.5d,
+	x: -10.5d,
 	y: 2.5d,
+	text: [
+		"\"just\" manipulates wavefunctions of Rydberg atoms directly to perform computations - Zalgo"
+	],
 	dependencies: [
-		"625f1d8a",
 		"0adf1632",
 		"ac8a45ec"
 	],
@@ -12,11 +14,5 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32605"
 		}]
-	}],
-	rewards: [{
-		uid: "a2a372ce",
-		type: "item",
-		item: "gtadditions:ga_meta_item 1 32430",
-		count: 4
 	}]
 }

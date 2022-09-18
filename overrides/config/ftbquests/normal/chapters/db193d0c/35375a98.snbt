@@ -1,6 +1,6 @@
 {
 	title: "With our Powers combined...",
-	x: -0.5d,
+	x: 1.5d,
 	y: 10.0d,
 	tasks: [{
 		uid: "bb1be991",

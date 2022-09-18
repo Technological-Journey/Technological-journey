@@ -1,8 +1,7 @@
 {
 	icon: "gregtech:machine 1 2004",
 	x: -1.5d,
-	y: -1.0d,
-	shape: "hexagon",
+	y: 2.0d,
 	dependencies: [
 		"24d63bc6",
 		"ffafa306",

@@ -1,8 +1,13 @@
 {
-	x: -3.5d,
-	y: 3.5d,
+	x: 2.5d,
+	y: 0.5d,
 	text: [
-		""
+		"This will run eight recipes every 30 seconds, which makes it faster than any singleblock macerator until HV. Consider setting a few of them up to handle ore processing for a while.",
+		"",
+		"The steam hatch must be filled with steam for this to run, and it consumes steam as it processes, which means it's possible to run out in the middle of a craft. Make sure your steam supply is consistent & fast before you make this."
+	],
+	dependencies: [
+		"1a5403b2"
 	],
 	optional: true,
 	tasks: [{

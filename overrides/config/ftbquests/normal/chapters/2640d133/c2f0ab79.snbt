@@ -1,6 +1,16 @@
 {
-	x: -0.5d,
+	x: 1.0d,
 	y: 5.0d,
+	text: [
+		"Combining dusts might be good enough for bronze, but for more advanced alloys (like pulsating iron and red alloy) you need to combine materials ",
+		"under pressure and high heat. The Steam Alloy Smelter (SAS) consumes steam and combines materials together. ",
+		"",
+		"This may be your first true GT multiblock, so this quest will also provide a description of how they work: ",
+		"",
+		"The structure requires at least 2 input busses, 1 input hatch, and 1 output bus. Your input items (redstone and copper) go into the two input busses, steam goes in the input hatch, and red alloy comes out the output bus.",
+		"",
+		" Later on, you can make LV input busses which have four slots, so if you wanted to you could replace one of the ULV input busses with an LV one and the other with more firebricks. This would allow you to dump all inputs in the same inventory."
+	],
 	dependencies: [
 		"d61d2b00"
 	],

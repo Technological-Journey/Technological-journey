@@ -1,19 +1,28 @@
 {
 	title: "To get started with Gregtech you will need a few tools.",
-	x: 2.0d,
-	y: -4.5d,
+	x: 6.5d,
+	y: -8.0d,
 	shape: "hexagon",
 	text: [
-		"You will need to find a magnetite, limonite, pyrite, or mineral sands vein for iron. ",
+		"You will need to find a magnetite, limonite, pyrite, or mineral sands vein for iron. This iron (optionally converted to wrought iron) can be used to make the tools required for early gregtech. You'll need several of most of these tools, so don't get too attached.",
 		"",
-		"This iron (optionally converted to wrought iron) can be used to make the tools required for early gregtech. You'll need several of most of these tools, so don't get too attached.",
+		"Hammers are used to make ingots into plates.",
 		"",
-		"Saws cam be used to increase plank yeild.",
+		"Wrenches are used to break gregtech blocks, as well as to set the output face of machines.",
 		"",
-		"The Universal Spade functions as a saw and as a crowbar."
+		"Screwdrivers are used to interact with machine covers.",
+		"",
+		"Wire cutters are used to cut plates into wires.",
+		"",
+		"Files are used to make ingots into rods.",
+		"",
+		"Mortars are used to grind down metals and other materials.",
+		"",
+		"While there are several tools not mentioned here, these are the ones required to get through early game gregtech. Almost all the crafting functionality of these hand tools will be superceded by machines once you unlock LV and basic electricity, but some of the tools (screwdriver and wrench in particular) will become a mainstay in your inventory. While you are still using the tools for crafting, expect to go through them fairly quickly. Don't get too attached to your rose gold hammer."
 	],
 	dependencies: [
-		"d83c9621"
+		"a547f04f",
+		"605c06fa"
 	],
 	tasks: [{
 		uid: "6b1d1120",
@@ -62,21 +71,6 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "4d2e86b3",
-		type: "item",
-		title: "Any craftingToolSoftHammer",
-		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "craftingToolSoftHammer"
-				}
-			}
-		}],
-		ignore_nbt: 1b
-	},
-	{
 		uid: "005ad4ff",
 		type: "item",
 		title: "Any craftingToolWireCutter",
@@ -86,36 +80,6 @@
 				Parent: {
 					id: "ore",
 					data: "craftingToolWireCutter"
-				}
-			}
-		}],
-		ignore_nbt: 1b
-	},
-	{
-		uid: "12f78fc1",
-		type: "item",
-		title: "Any craftingToolCrowbar",
-		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "craftingToolCrowbar"
-				}
-			}
-		}],
-		ignore_nbt: 1b
-	},
-	{
-		uid: "a9afcb73",
-		type: "item",
-		title: "Any craftingToolSaw",
-		items: [{
-			id: "itemfilters:filter",
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "craftingToolSaw"
 				}
 			}
 		}],

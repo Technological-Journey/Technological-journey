@@ -1,17 +1,11 @@
 {
 	x: 3.5d,
-	y: 5.0d,
+	y: 4.0d,
 	dependencies: [
 		"45807c9b"
 	],
+	or_tasks: true,
 	tasks: [{
-		uid: "c33883ad",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_meta_item 1 32569"
-		}]
-	},
-	{
 		uid: "a1c61503",
 		type: "item",
 		items: [{

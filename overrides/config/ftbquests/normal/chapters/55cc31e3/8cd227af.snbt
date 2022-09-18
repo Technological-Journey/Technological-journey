@@ -1,8 +1,8 @@
 {
 	x: 2.0d,
-	y: -2.5d,
+	y: -3.5d,
 	text: [
-		"This is your last \"easy\" circuit. As mentioned elsewhere in this tab, chemistry and processing lines are about to become considerably harder. The next circuit requires about as much infrastrucutre as you already have setup, including advanced fusion, a new plastic, a significant amount of chemistry, and about 20 new blast furance materials. Make sure you can mass produce these, as you'll be on them for a while. ",
+		"This is your last \"easy\" circuit. As mentioned elsewhere in this tab, chemistry and processing lines are about to become considerably harder. The next circuit requires about as much infrastrucutre as you already have setup, including advanced fusion, a new plastic, a significant amount of chemistry, and at least 20 new blast furnace materials. Make sure you can mass produce these, as you'll be on them for a while. ",
 		"",
 		"Uses a micro ecosystem to simulate calculations, and translates the results into comprehensive solutions. High speed, high throughput computaitonal device. "
 	],

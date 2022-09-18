@@ -1,7 +1,7 @@
 {
 	title: "GregTech Axe",
-	x: 3.5d,
-	y: -3.0d,
+	x: 4.5d,
+	y: -6.0d,
 	text: [
 		"Gregtech axes will chop the entire tree and will seek out neighboring wood blocks. This can sometimes result in forests being mined by one swing."
 	],

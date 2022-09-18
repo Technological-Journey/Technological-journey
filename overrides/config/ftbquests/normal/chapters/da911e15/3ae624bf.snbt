@@ -1,6 +1,6 @@
 {
 	x: -10.0d,
-	y: 2.0d,
+	y: 0.0d,
 	tasks: [{
 		uid: "e86feffe",
 		type: "item",

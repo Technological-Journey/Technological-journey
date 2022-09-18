@@ -1,0 +1,19 @@
+{
+	x: -15.0d,
+	y: 2.5d,
+	dependencies: [
+		"95460cec"
+	],
+	tasks: [{
+		uid: "006a24ed",
+		type: "checkmark",
+		title: "Cosmic Computing Mixture",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cosmic_computing_mix",
+				Amount: 1000
+			}
+		}
+	}]
+}

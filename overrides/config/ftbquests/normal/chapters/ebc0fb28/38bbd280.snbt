@@ -7,7 +7,7 @@
 			Amount: 1000
 		}
 	},
-	x: -7.5d,
+	x: -10.0d,
 	y: -3.5d,
 	text: [
 		"If you elect to use biodiesel, you'll see that there are two ways to produce it. ",

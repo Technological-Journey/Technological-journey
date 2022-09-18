@@ -1,13 +1,19 @@
 {
+	title: "Naquadriatic Compound Dust",
 	x: -7.5d,
-	y: -3.0d,
+	y: -5.0d,
+	shape: "rsquare",
+	text: [
+		""
+	],
 	dependencies: [
 		"9e3d5177"
 	],
 	tasks: [{
-		uid: "a2ab4bff",
-		type: "checkmark",
-		title: "Naquadric Compound Dust",
-		icon: "gregtech:meta_item_1 1 2746"
+		uid: "0c23ed6c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2746"
+		}]
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	icon: "gregtech:machine 1 2512",
-	x: 3.0d,
-	y: -10.5d,
+	x: 0.5d,
+	y: 0.5d,
 	dependencies: [
 		"fdaf832a"
 	],
@@ -11,49 +11,6 @@
 		items: [{
 			item: "gregtech:machine 1 2512"
 		}]
-	},
-	{
-		uid: "ef7d80a9",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 744"
-		}]
-	},
-	{
-		uid: "f3021690",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 710"
-		}]
-	},
-	{
-		uid: "1bb363d9",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 711"
-		}]
-	},
-	{
-		uid: "037889a4",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 713"
-		}]
-	},
-	{
-		uid: "003ee2bb",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 712"
-		}]
-	},
-	{
-		uid: "811bcd41",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_motor_casing 1 2"
-		}],
-		count: 2L
 	},
 	{
 		uid: "9efa8473",
@@ -76,20 +33,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:boiler_casing 1 2"
-		}]
-	},
-	{
-		uid: "24456e01",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4213"
-		}]
-	},
-	{
-		uid: "e1720f03",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4216"
 		}]
 	}],
 	rewards: [{

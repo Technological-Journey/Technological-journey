@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 7.5d,
+	dependencies: [
+		"f1996de7"
+	],
+	tasks: [{
+		uid: "b5d825b6",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_heating_coil 1 5"
+		}]
+	}]
+}

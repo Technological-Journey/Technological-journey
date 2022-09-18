@@ -1,7 +1,9 @@
 {
-	x: 1.0d,
+	x: -0.5d,
 	y: 2.0d,
-	shape: "hexagon",
+	text: [
+		"Trust me, it's harder than just putting a wood log in a crafting table. I promise. "
+	],
 	dependencies: [
 		"88f17395"
 	],

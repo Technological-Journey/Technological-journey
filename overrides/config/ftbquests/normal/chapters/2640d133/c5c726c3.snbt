@@ -1,8 +1,8 @@
 {
-	x: -0.5d,
+	x: 1.0d,
 	y: -2.5d,
 	text: [
-		"Steam components!"
+		"Moving things (in a circle) with the power of steam!"
 	],
 	dependencies: [
 		"62fd1790"

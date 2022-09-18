@@ -3,9 +3,8 @@
 	x: -2.0d,
 	y: 6.5d,
 	text: [
-		"In order to get exotic metals, you will need to travel to the planet, Mercury. To warp you will need a block of platinum. Platinum can be collected in small amounts from nickel ore on earth."
+		"In order to get exotic metals you will need to travel to the planet Mercury. To warp you will need a block of platinum. Platinum can be collected in small amounts from nickel ore on earth."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"81372634"
 	],

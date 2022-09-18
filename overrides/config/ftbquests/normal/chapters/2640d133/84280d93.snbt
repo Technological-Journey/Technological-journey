@@ -2,6 +2,11 @@
 	x: -3.5d,
 	y: 2.0d,
 	shape: "rsquare",
+	text: [
+		"Sap. Yummy.",
+		"",
+		"If you can't find a rubber tree, go to the mining dimension. I highly suggest placing your rubber trees on the ground in a big patch, then making gregtech axes and chopping them all at once. "
+	],
 	tasks: [{
 		uid: "7e67538c",
 		type: "item",

@@ -1,6 +1,11 @@
 {
 	x: -2.0d,
 	y: 3.5d,
+	text: [
+		"It's amazing how a bunch of wood covered with sap functions as a circuit board. ",
+		"",
+		"Well, not quite. You gotta put some wires on it first."
+	],
 	dependencies: [
 		"570589e6"
 	],

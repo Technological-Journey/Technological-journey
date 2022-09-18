@@ -1,8 +1,11 @@
 {
-	x: 5.5d,
-	y: 2.5d,
+	x: 5.0d,
+	y: 5.0d,
 	text: [
 		"Good Luck."
+	],
+	dependencies: [
+		"ec9dabd8"
 	],
 	tasks: [{
 		uid: "3df0cd04",

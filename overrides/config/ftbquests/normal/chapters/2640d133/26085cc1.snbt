@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
-	y: -2.5d,
+	y: -1.5d,
+	text: [
+		"This will conduct electricty, but you can't make any electricity yet. Instead, you'll use it to craft other things. Gosh I love microcrafting!"
+	],
 	dependencies: [
 		"147389e9"
 	],

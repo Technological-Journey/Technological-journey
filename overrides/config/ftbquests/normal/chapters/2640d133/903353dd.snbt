@@ -1,7 +1,9 @@
 {
-	x: 1.0d,
+	x: -0.5d,
 	y: 5.0d,
-	shape: "hexagon",
+	text: [
+		"It's red, and it's an alloy. Redpower 2 users are turning in their tombs right now."
+	],
 	dependencies: [
 		"c2f0ab79"
 	],

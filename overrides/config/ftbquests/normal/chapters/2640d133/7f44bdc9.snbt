@@ -1,6 +1,9 @@
 {
 	x: -5.0d,
 	y: 0.5d,
+	text: [
+		"Machine hulls are needed to craft all tiers of machines, hatches, and busses. There are no ULV machines (if you just thought 'technically there is an ore washer' then I don't like you), but there are ULV busses and hatches. This is what your first machine hulls will be for."
+	],
 	dependencies: [
 		"57332c67"
 	],

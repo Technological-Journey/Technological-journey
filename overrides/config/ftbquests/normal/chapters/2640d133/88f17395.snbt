@@ -1,8 +1,8 @@
 {
 	x: -0.5d,
-	y: 2.0d,
+	y: 0.5d,
 	text: [
-		"You'll need to compress wood pulp into planks, as well as fireclay into firebricks. "
+		"You'll need to compress wood pulp into planks, resin into rubber, as well as fireclay into firebricks. "
 	],
 	dependencies: [
 		"ab7bedfb"

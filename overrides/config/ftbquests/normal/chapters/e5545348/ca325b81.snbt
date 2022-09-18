@@ -1,9 +1,9 @@
 {
 	title: "Sulfuric Light Fuel",
-	x: 0.5d,
-	y: -3.5d,
+	x: -2.5d,
+	y: -2.5d,
 	text: [
-		""
+		"The rewards from this quest can be used to desulfurize oil at a lower quantity, which is useful when you don't have an abundance (like now)."
 	],
 	dependencies: [
 		"d17c87b7",

@@ -1,9 +1,15 @@
 {
 	x: 0.5d,
-	y: 4.0d,
+	y: 3.0d,
+	text: [
+		"The extruder can be used to make many parts faster and more cheaply. Pipes, cells, gears, etc. can all be produced in an extruder. ",
+		"",
+		"If you're looking to automate this with AE... yes, you're going to need a dedicated extruder for each shape (until you get the multiblock)."
+	],
 	dependencies: [
 		"1f7113cb"
 	],
+	optional: true,
 	tasks: [{
 		uid: "fe28fd32",
 		type: "item",

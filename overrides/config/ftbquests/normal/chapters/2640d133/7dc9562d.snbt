@@ -1,6 +1,9 @@
 {
 	x: -3.5d,
 	y: 8.0d,
+	text: [
+		"Turns power into less power and more heat."
+	],
 	dependencies: [
 		"84280d93"
 	],

@@ -1,6 +1,9 @@
 {
-	x: -1.0d,
-	y: -4.5d,
+	x: 2.5d,
+	y: -8.0d,
+	text: [
+		"Yea it's.... it's not an actual hot ingot. At least, it won't burn you. Pretend you're not allowed to hold it or something/"
+	],
 	dependencies: [
 		"3e45f653"
 	],

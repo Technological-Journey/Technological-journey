@@ -6,8 +6,9 @@
 			Amount: 1000
 		}
 	},
-	x: -7.5d,
+	x: -3.5d,
 	y: 0.5d,
+	shape: "rsquare",
 	tasks: [{
 		uid: "86a105be",
 		type: "checkmark",

@@ -3,9 +3,9 @@
 	x: -0.5d,
 	y: 0.0d,
 	text: [
-		"Draconium is a pretty broken rotor matieral. ",
+		"Draconium is a pretty broken rotor matieral. If you use huge turbines, plasma is a viable power source. ",
 		"",
-		"Rotor holders have been mega buffed. Plasma turbines will output much more energy than you might expect, given you use huge turbines."
+		"However, having plasma power pretty much forces you to centralize your power, which can be a bit of a pain before flux networks."
 	],
 	dependencies: [
 		"6a1aae9b"

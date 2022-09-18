@@ -1,6 +1,6 @@
 {
-	x: 9.5d,
-	y: 0.5d,
+	x: 10.0d,
+	y: -0.5d,
 	text: [
 		"You may have noticed that pikyonium seems impossible to craft. It requires a higher heat level than titan steel can provide, which means you'll have to rely on overclocking either an EBF or an ABS to UEV at least to reach the temperature required to bootstrap your first pikyonium. Once you have a set of coils, you no longer need so much power to attain such high heat and can therefore cook pikyonium using more reasonable amounts of power."
 	],

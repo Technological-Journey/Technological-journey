@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "bc9e5e87",
+		type: "checkmark",
+		title: "Hydrazine",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrazine",
+				Amount: 1000
+			}
+		}
+	}]
+}

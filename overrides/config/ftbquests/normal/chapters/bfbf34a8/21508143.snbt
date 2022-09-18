@@ -2,7 +2,7 @@
 	title: "Stabilized Wormhole Generator",
 	icon: "gtadditions:ga_meta_item 1 32518",
 	x: -1.0d,
-	y: 1.5d,
+	y: 3.0d,
 	dependencies: [
 		"7e1928e1",
 		"0016b1c3"

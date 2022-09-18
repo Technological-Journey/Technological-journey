@@ -2,9 +2,7 @@
 	x: -1.5d,
 	y: -9.0d,
 	text: [
-		"This is used to find presses. ",
-		"",
-		"Don't place it in world using draconic, it can cause a crash."
+		"This is used to find presses. "
 	],
 	optional: true,
 	tasks: [{

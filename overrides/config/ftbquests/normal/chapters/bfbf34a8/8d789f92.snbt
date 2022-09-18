@@ -1,6 +1,6 @@
 {
 	x: -1.0d,
-	y: -3.5d,
+	y: -3.0d,
 	text: [
 		"Yeah, this requires a UIV sensor. You're turning UIV circuits into more expensive UIV circuits. And you can't use supra-causal circuits in your UIV sensor patterns, or you'll get a crafting loop. But hey, if you dont use too many supra circuits you only need a few cores anyways!"
 	],

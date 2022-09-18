@@ -11,7 +11,7 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32254"
 		}],
-		count: 12L
+		count: 24L
 	},
 	{
 		uid: "4b1eb886",
@@ -19,7 +19,7 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32253"
 		}],
-		count: 8L
+		count: 16L
 	},
 	{
 		uid: "1dda67a5",
@@ -27,6 +27,6 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32252"
 		}],
-		count: 16L
+		count: 32L
 	}]
 }

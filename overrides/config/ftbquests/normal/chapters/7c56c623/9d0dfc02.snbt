@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: 9.0d,
+	dependencies: [
+		"19f120f2"
+	],
+	tasks: [{
+		uid: "8667965a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eternityingot"
+		}]
+	}]
+}

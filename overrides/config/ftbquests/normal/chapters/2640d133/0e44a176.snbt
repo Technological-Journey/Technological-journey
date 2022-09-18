@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
-	y: -2.5d,
+	y: -4.0d,
+	text: [
+		"You'll want to use a mortar to grind up your tin ingots into dust. These break VERY fast, so either use flint as a cheap material or wrought iron so they last as long as possible."
+	],
 	dependencies: [
 		"147389e9"
 	],

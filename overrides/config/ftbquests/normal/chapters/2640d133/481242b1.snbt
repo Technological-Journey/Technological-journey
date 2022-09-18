@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
 	y: 2.0d,
+	text: [
+		"Your first insulator! This is important for making cables, though you will unlock better ways of making it in LV. "
+	],
 	dependencies: [
 		"88f17395",
 		"84280d93"

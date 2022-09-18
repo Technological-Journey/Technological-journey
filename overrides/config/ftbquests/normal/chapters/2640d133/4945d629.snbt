@@ -1,6 +1,9 @@
 {
-	x: -0.5d,
-	y: 6.5d,
+	x: 2.5d,
+	y: 5.0d,
+	text: [
+		"Glass but better. This is used to make both the endervoir and conduits. Neither are required, but they represent a few huge QoL steps in your automation."
+	],
 	dependencies: [
 		"c2f0ab79"
 	],

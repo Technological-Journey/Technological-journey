@@ -2,7 +2,7 @@
 	x: 8.5d,
 	y: -4.0d,
 	text: [
-		"You'll need thousands of chemical reactors if you're playing the pack correctly. For now, 4 is enough to get started. Maybe wait until you have better circuits before mass producing machines?"
+		"You'll need thousands of chemical reactors if you're playing the pack correctly. For now, one is enough to get started. Maybe wait until you have better circuits before mass producing machines?"
 	],
 	dependencies: [
 		"3ac4401a"
@@ -12,7 +12,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 190"
-		}],
-		count: 4L
+		}]
 	}]
 }

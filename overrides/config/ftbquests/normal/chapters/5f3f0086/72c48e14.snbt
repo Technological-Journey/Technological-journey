@@ -1,8 +1,8 @@
 {
-	x: -2.5d,
-	y: -6.0d,
+	x: 2.5d,
+	y: -10.0d,
 	text: [
-		"This pack has iron furnaces, and they're pretty cheap. "
+		"This pack has iron furnaces, and they're pretty cheap. Upgrading to gold and beyond may not be worth it now due to your gold limitations. "
 	],
 	dependencies: [
 		"3e45f653"

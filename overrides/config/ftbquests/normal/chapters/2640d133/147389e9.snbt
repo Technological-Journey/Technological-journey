@@ -1,6 +1,10 @@
 {
-	x: -3.5d,
-	y: -2.5d,
+	x: -2.0d,
+	y: -5.5d,
+	shape: "rsquare",
+	text: [
+		"Tin can be found in cassiterite veins, which provide hundreds or thousands of tin each. You'll need a significant amount of tin for bronze and for wires, so mining an entire vein isn't a bad idea."
+	],
 	tasks: [{
 		uid: "6695e122",
 		type: "item",

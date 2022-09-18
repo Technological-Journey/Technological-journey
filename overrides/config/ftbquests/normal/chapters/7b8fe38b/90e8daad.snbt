@@ -1,6 +1,11 @@
 {
 	x: 0.5d,
 	y: -5.5d,
+	text: [
+		"Wires, but thinner.",
+		"",
+		"Right now, you need to make this using an ingot per. Once you make an LV wiremill, you'll be able to make 8 per ingot. Sounds nice, right?"
+	],
 	dependencies: [
 		"fd5f13b4"
 	],

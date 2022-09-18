@@ -1,9 +1,14 @@
 {
-	x: 8.0d,
-	y: 2.5d,
+	title: "Waste Types",
+	x: 21.5d,
+	y: 12.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"89ccc194"
 	],
+	optional: true,
 	tasks: [{
 		uid: "394f742d",
 		type: "item",

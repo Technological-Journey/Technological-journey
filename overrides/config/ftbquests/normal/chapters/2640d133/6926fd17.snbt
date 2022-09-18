@@ -1,6 +1,14 @@
 {
-	x: -3.5d,
-	y: 2.0d,
+	x: 4.0d,
+	y: 3.5d,
+	text: [
+		"It's like a furnace, but bigger. This does 8x parallel recipes.",
+		"",
+		"The steam hatch must be filled with steam for this to run, and it consumes steam as it processes, which means it's possible to run out in the middle of a craft. Make sure your steam supply is consistent & fast before you make this."
+	],
+	dependencies: [
+		"39c145f6"
+	],
 	optional: true,
 	tasks: [{
 		uid: "0c09936f",

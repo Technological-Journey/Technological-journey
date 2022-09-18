@@ -7,7 +7,7 @@
 			Amount: 1000
 		}
 	},
-	x: 0.0d,
+	x: -3.5d,
 	y: 0.0d,
 	dependencies: [
 		"8d3a77dd"

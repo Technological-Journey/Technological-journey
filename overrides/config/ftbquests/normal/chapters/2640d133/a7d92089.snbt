@@ -1,6 +1,9 @@
 {
 	x: -0.5d,
 	y: 6.5d,
+	text: [
+		"While this says it conducts ULV power, there is nothing in the game that generates or uses ULV power (other than transformers). Like the tin cables you made earlier, this is a crafting ingredient for now."
+	],
 	dependencies: [
 		"903353dd"
 	],

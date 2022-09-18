@@ -1,9 +1,12 @@
 {
 	x: -2.0d,
 	y: 0.5d,
+	text: [
+		"By wrapping your cable with rubber (and some string) you can protect it from interferance as well as protect yourself from cardiac arrest. "
+	],
 	dependencies: [
-		"2e8c1bb8",
 		"26085cc1",
+		"338977f8",
 		"481242b1"
 	],
 	tasks: [{

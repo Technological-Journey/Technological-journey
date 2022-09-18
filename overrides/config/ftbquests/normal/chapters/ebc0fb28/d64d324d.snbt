@@ -1,9 +1,13 @@
 {
 	icon: "gregtech:machine 1 3234",
-	x: 3.5d,
+	x: 4.5d,
 	y: 0.0d,
 	text: [
-		"Boost these with their respective plasmas -- they consume almost none, and double their effective power output."
+		"Keep in mind that you can run any hyper fuel in any reactor, but higher tier reactors have a greater boost multiplier.",
+		"",
+		"Boost these with their respective plasmas - they consume almost none, and double their effective power output. ",
+		"",
+		"Also, make sure to burn excess naq fuels in large naq reactors. For the light and enriched light fuels, run them in the highest tier gas turbines you can make or mix and burn hyper fuel 1."
 	],
 	dependencies: [
 		"5a80eb62"

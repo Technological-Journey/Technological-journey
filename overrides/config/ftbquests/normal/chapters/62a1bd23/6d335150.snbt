@@ -1,0 +1,22 @@
+{
+	title: "Empty Trinket",
+	icon: "minecraft:glass_bottle",
+	x: -2.0d,
+	y: 4.5d,
+	text: [
+		"Ever find it hard to work under your ebf? ",
+		"Ever wanted to see the top of a multi without jumping?",
+		"Well now that you have access to nether stars, you can make the resising trinket.",
+		"Simply right-click an empty trinket after drinking a shrink or growing potion and you can have a permanent device that can augment your height.",
+		"",
+		"Warning we are not responsible for your hitbox being inside the floor, please use it responsibly and not with commands."
+	],
+	dependencies: [
+		"783bd8bc"
+	],
+	tasks: [{
+		uid: "d1a1726c",
+		type: "checkmark",
+		title: "Shrinking Charm"
+	}]
+}

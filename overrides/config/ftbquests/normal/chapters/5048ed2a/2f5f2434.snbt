@@ -1,8 +1,11 @@
 {
-	x: -3.5d,
-	y: -2.5d,
+	x: 6.5d,
+	y: 2.0d,
+	shape: "rsquare",
 	text: [
-		"This is the first mandatory large processing line. It can be a pain to setup, and you'll need a LOT of platinum throughout the pack. Pin everything you need to JEI and be methodical, and youll find that a significant portion of the inputs recycle back to be used again, which makes this deceptively simple once you have it running."
+		"This is the first mandatory large processing line. It can be a pain to setup, and you'll need a LOT of platinum throughout the pack. Pin everything you need to JEI and be methodical, and youll find that a significant portion of the inputs recycle back to be used again, which makes this deceptively simple once you have it running.",
+		"",
+		"Your first Platinum Metalic Powder can be obtained from processing purified nickel ore."
 	],
 	tasks: [{
 		uid: "c89dc5f9",

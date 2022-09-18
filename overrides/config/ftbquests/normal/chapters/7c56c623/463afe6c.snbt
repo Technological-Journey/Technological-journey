@@ -1,6 +1,9 @@
 {
-	x: -0.5d,
+	x: -1.5d,
 	y: 1.0d,
+	text: [
+		"This will let you make more hearts for awakened draconium."
+	],
 	dependencies: [
 		"c927f9f2"
 	],

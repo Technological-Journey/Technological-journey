@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"To overcome some weirdness with maintenance and large machines, a few require auto-maintenance hatches to function. As you cannot make these for (likely) another tier, you'll need a way to run your LRE's. Luckily for you, we made this here quest! Give us 8 auto-taping hatches and you'll get 4 full-auto ones in return. This isn't repeatable, so be sure to ration your fancy new full-auto maintenance hatches wisely."
+	],
+	dependencies: [
+		"38a840a5"
+	],
+	tasks: [{
+		uid: "0d69010d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4214"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "cab047a5",
+		type: "item",
+		item: "gregtech:machine 1 4215",
+		count: 4
+	}]
+}

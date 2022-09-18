@@ -1,8 +1,13 @@
 {
-	x: -1.0d,
-	y: -6.0d,
+	x: 4.5d,
+	y: -10.0d,
+	text: [
+		"The hammer is for making your first few wrought iron, so you don't have to make a single worse hammer before making a wrought iron one."
+	],
 	dependencies: [
-		"d83c9621"
+		"a547f04f",
+		"d83c9621",
+		"9781e9c3"
 	],
 	tasks: [{
 		uid: "dfa703de",

@@ -1,0 +1,18 @@
+{
+	x: -8.5d,
+	y: 2.0d,
+	text: [
+		"Diesel Engine 2! This works just like the normal diesel engine, but instead of EV power, it makes IV. 12 amps boosted, 4 amps unboosted, with the same efficiency numbers as before. "
+	],
+	dependencies: [
+		"bee567d9",
+		"4c489032"
+	],
+	tasks: [{
+		uid: "14c30239",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4242"
+		}]
+	}]
+}

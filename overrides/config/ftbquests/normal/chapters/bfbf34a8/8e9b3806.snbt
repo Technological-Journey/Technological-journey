@@ -1,6 +1,7 @@
 {
 	x: 3.5d,
-	y: 2.5d,
+	y: -7.0d,
+	shape: "rsquare",
 	text: [
 		"This is the longest chemical name in the game."
 	],

@@ -1,5 +1,5 @@
 {
-	title: "Steam age",
+	title: "Steam Age",
 	icon: "contenttweaker:steammotor",
 	always_invisible: false,
 	group: 0,

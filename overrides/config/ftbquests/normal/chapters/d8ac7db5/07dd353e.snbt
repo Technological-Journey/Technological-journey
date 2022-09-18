@@ -1,6 +1,7 @@
 {
-	x: 2.0d,
-	y: 6.0d,
+	x: 12.0d,
+	y: 7.0d,
+	shape: "rsquare",
 	dependencies: [
 		"7b06cc63"
 	],
@@ -10,11 +11,5 @@
 		items: [{
 			item: "gregtech:meta_item_2 1 32475"
 		}]
-	}],
-	rewards: [{
-		uid: "fdc8d446",
-		type: "item",
-		item: "gtadditions:ga_meta_item 1 32017",
-		count: 8
 	}]
 }

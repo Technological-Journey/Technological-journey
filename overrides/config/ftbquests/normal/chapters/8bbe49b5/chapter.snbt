@@ -1,5 +1,5 @@
 {
-	title: "HV age",
+	title: "HV Age",
 	icon: "gregtech:meta_item_1 1 32602",
 	always_invisible: false,
 	group: 0,

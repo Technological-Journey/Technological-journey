@@ -1,0 +1,36 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"If you don't feel like making a sifter and washing machine just to get one lens, feel free to trade in half a stack of each ore for the lenses you'll need. "
+	],
+	dependencies: [
+		"35f017b1"
+	],
+	tasks: [{
+		uid: "27f41629",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 5117"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f739763a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 5154"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e944b43c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 15117"
+	},
+	{
+		uid: "108976fd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 15154"
+	}]
+}

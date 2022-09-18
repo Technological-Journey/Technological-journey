@@ -6,8 +6,8 @@
 			Amount: 1000
 		}
 	},
-	x: -0.5d,
-	y: 1.0d,
+	x: -1.5d,
+	y: -1.0d,
 	dependencies: [
 		"c075d208"
 	],

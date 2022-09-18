@@ -1,6 +1,6 @@
 {
-	x: -2.0d,
-	y: 3.5d,
+	x: 1.0d,
+	y: 2.0d,
 	text: [
 		"You will need 132 compressed fireclay, 32 of which you'll get as a reward. Get macerating!"
 	],
