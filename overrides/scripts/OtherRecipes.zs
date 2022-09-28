@@ -310,8 +310,8 @@ mixer.recipeBuilder()
     .duration(20)
     .EUt(30)
     .buildAndRegister();
-    
 // Fix glycerol/sodium bicarbonate conflict
+
 large_chem.findRecipe(30, [<gregtech:meta_item_1:2403> * 6], [<liquid:water> * 1000]).remove();
 large_chem.findRecipe(1024, [<gregtech:meta_item_1:2403> * 6], [<liquid:water> * 2000, <liquid:epichlorhydrin> * 1000]).remove();
 
@@ -767,7 +767,7 @@ large_chem.recipeBuilder()
 .fluidInputs(<liquid:methanol> *1000, <liquid:toluene> * 1000)
 .fluidOutputs(<liquid:ortho_xylene> * 1000,<liquid:water> * 1000 )
 .circuit(1)
-.duration(4000)
+.duration(800)
 .EUt(120)
 .buildAndRegister();
 
@@ -1645,6 +1645,7 @@ recipes.addShaped("clay1", <ore:blockClay>.firstItem *8,[[<ore:sand>,<ore:sand>,
 
 mixer.recipeBuilder()
         .inputs([<minecraft:sand> * 8])
+        .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
         .outputs(<minecraft:clay> * 8)
         .fluidInputs(<liquid:water> * 1000)
         .duration(100)
