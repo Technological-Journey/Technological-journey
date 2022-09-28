@@ -329,6 +329,7 @@ mixer.recipeBuilder()
 
 largeMix.recipeBuilder()
     .fluidInputs(<liquid:astralsorcery.liquidstarlight> * 1000)
+    .inputs(<gtadditions:ga_dust:531>)
     .fluidOutputs(<liquid:starlightcomplex> *2000)
     .duration(35)
     .EUt(2000)
