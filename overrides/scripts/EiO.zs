@@ -88,6 +88,7 @@ alloy.recipeBuilder()
     .duration(160)
     .EUt(30)
     .buildAndRegister();
+    
 alloy.recipeBuilder()
     .inputs([<minecraft:quartz> * 4])
     .outputs([<enderio:block_fused_quartz>])
@@ -98,7 +99,6 @@ alloy.recipeBuilder()
 mixer.recipeBuilder()
 	.inputs([<ore:gravel> * 4, <ore:sand> * 4])
     .fluidInputs(<liquid:water> * 1000)
-    .notConsumable(<gregtech:meta_item_1:32766>)
     .outputs([<ore:itemBinderComposite>.firstItem * 16])
     .duration(80).EUt(500).buildAndRegister();
 
