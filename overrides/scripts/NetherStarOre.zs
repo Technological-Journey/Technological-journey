@@ -1,3 +1,4 @@
+#priority 1
 #loader gregtech
 import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.MaterialCasting;
@@ -137,3 +138,5 @@ util.registerDust("octaazacubane", 531, 0x5f5fd9, "SHINY");
 util.registerFluid("octaazacubanesolution", 0x5f5fd9, "N₈(H₂O)");
 
 util.registerFluid("eternity", 0x46008b);
+
+val soularium = MaterialRegistry.createIngotMaterial(534, "soularium",  0x3b2a15, "dull", 10, null, 40.0f, 6, 512);soularium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ROD","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_BOLT_SCREW"]);
