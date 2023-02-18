@@ -10,10 +10,10 @@
 		"481242b1"
 	],
 	tasks: [{
-		uid: "1ce37643",
+		uid: "aec55489",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 5071"
+			item: "gregtech:cable 1 5035"
 		}]
 	}]
 }

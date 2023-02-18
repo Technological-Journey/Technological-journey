@@ -3,7 +3,7 @@
 	x: -3.0d,
 	y: -3.5d,
 	text: [
-		"You probably don't want to provide cryotheum to it yet, as you can just fill it with pyrotheum and allow it to overheat and reset. "
+		""
 	],
 	dependencies: [
 		"c2cc6c58"

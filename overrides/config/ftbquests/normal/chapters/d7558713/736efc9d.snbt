@@ -89,13 +89,6 @@
 			item: "gregtech:metal_casing 1 4"
 		}],
 		count: 12L
-	},
-	{
-		uid: "f9a765ec",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4213"
-		}]
 	}],
 	rewards: [{
 		uid: "62d99c98",

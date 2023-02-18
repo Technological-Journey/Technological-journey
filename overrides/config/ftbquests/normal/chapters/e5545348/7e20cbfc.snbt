@@ -13,7 +13,8 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 5117"
 		}],
-		count: 32L
+		count: 32L,
+		consume_items: true
 	},
 	{
 		uid: "f739763a",
@@ -21,7 +22,8 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 5154"
 		}],
-		count: 32L
+		count: 32L,
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "e944b43c",

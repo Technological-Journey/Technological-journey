@@ -19,10 +19,10 @@
 		}]
 	},
 	{
-		uid: "12c6efe4",
+		uid: "0001b1c8",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_naquadric_compound_0"
+			item: "gregtech:pure_ore_naquadric_compound_0"
 		}]
 	}]
 }

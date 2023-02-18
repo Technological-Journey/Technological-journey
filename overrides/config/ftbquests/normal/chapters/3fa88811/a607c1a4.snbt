@@ -2,7 +2,7 @@
 	x: -1.5d,
 	y: -7.5d,
 	text: [
-		"Be careful not to connect full-block AR devices to conduits directly (use a cable in the middle). AE conduits have been known to unexpectadly disconnect from network nodes."
+		"Be careful not to connect full-block AE devices to conduits directly (use a cable in the middle). AE conduits have been known to unexpectadly disconnect from network nodes."
 	],
 	dependencies: [
 		"26c6491b"

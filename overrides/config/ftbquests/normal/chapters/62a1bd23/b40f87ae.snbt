@@ -19,10 +19,10 @@
 		}]
 	},
 	{
-		uid: "5059122f",
+		uid: "1ce27627",
 		type: "item",
 		items: [{
-			item: "gregtech:pure_ore_plutonium_0"
+			item: "gregtech:ore_plutonium_0"
 		}]
 	}]
 }

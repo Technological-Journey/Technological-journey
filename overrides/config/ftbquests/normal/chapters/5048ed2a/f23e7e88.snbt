@@ -3,7 +3,9 @@
 	x: -1.5d,
 	y: 5.0d,
 	text: [
-		"The LCR is an incredibly important multiblock. It can run (nearly) any recipe that can be run in a normal chemical reactor, along with several that cannot. It has a perfect overclock, meaning it is generally faster than a singleblock of the same tier. You will be making hundreds of these. "
+		"The LCR is an incredibly important multiblock. It can run (nearly) any recipe that can be run in a typical chemical reactor, along with several that cannot. It has a perfect overclock, which is generally faster than a single block of the same tier. You will be making hundreds of these.",
+		"",
+		"The structure the quest was based on has 7 hatches—1 energy, 3 fluid outputs, I each item Input/output, and 2 fluid inputs."
 	],
 	dependencies: [
 		"8bedbe81"
@@ -22,13 +24,6 @@
 			item: "gtadditions:ga_multiblock_casing 1 1"
 		}],
 		count: 15L
-	},
-	{
-		uid: "31f66ceb",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 734"
-		}]
 	},
 	{
 		uid: "6ac41d44",
@@ -52,36 +47,6 @@
 		}],
 		consume_items: false,
 		ignore_nbt: 2b
-	},
-	{
-		uid: "153907f9",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 713"
-		}],
-		count: 3L
-	},
-	{
-		uid: "a41863cb",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 712"
-		}],
-		count: 2L
-	},
-	{
-		uid: "dc84b558",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 710"
-		}]
-	},
-	{
-		uid: "b2f5d0b7",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 711"
-		}]
 	}],
 	rewards: [{
 		uid: "779a0bf0",

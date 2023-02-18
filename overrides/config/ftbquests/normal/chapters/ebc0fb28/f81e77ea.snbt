@@ -3,9 +3,9 @@
 	y: -1.5d,
 	shape: "hexagon",
 	dependencies: [
-		"f3ccd8af",
 		"cfae3002",
-		"c5ac56f8"
+		"c5ac56f8",
+		"f3ccd8af"
 	],
 	tasks: [{
 		uid: "a021a9bf",

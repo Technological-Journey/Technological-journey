@@ -7,7 +7,6 @@
 		"This is your first 'real' component, and it will be used a lot. You'd probably be better off making a batch of ~10 of these, and then a larger batch once you have access to better ratios from machines like the wiremill and lathe. "
 	],
 	dependencies: [
-		"90e8daad",
 		"c716ff47"
 	],
 	tasks: [{

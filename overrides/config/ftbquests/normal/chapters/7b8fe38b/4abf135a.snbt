@@ -1,6 +1,12 @@
 {
 	x: 7.5d,
 	y: -4.0d,
+	text: [
+		"While gold line is achievable in LV it is not required until the middle of MV. You can smelt precious metal twice to get gold ingots and mine up poor gold in the nether for now."
+	],
+	dependencies: [
+		"e3fbc4ab"
+	],
 	tasks: [{
 		uid: "bdfd09cb",
 		type: "checkmark",

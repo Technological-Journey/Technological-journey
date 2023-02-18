@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -8.5d,
+	text: [
+		"If you want to use the wireless cards across dimensions you will need quantum link cards. Each wireless terminal will need a card. In order to use them you will need one quantum link chamber with a link card on the network you wish to connect to. Quantum link chambers can only be used in one mode (point-to-point or wireless)."
+	],
+	dependencies: [
+		"e3cf065d"
+	],
+	tasks: [{
+		uid: "aabca2c9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 59"
+		}]
+	}],
+	rewards: [{
+		uid: "0f73dbe5",
+		type: "item",
+		item: "appliedenergistics2:material 1 59"
+	}]
+}

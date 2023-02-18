@@ -6,11 +6,8 @@
 		"",
 		"However, it may be easier to simply climb the ladder to californium as you'll need to do that regardless. "
 	],
-	dependencies: [
-		"b8089600"
-	],
 	tasks: [{
-		uid: "4867277a",
+		uid: "ec8fd3f3",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_block_compressed_49 1 13"

@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: -7.5d,
+	dependencies: [
+		"de05573d",
+		"74792c71",
+		"4fd09454"
+	],
+	tasks: [{
+		uid: "27fd7d84",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0aa353f8",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_pattern_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c476b36c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_fluid_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

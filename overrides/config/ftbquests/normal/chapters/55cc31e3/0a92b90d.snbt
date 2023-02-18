@@ -1,0 +1,16 @@
+{
+	x: -7.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	text: [
+		"As you progress you will find the number of machines that can not be paused will grow, so to combat this we have added a config to tell machines to go to sleep when they cannot run a recipe. This config is called MaxSleepTime and is located in GTCE.cfg. We recommend you set this to “80”. This equates to 4 seconds. ",
+		"",
+		"If a machine fails to find/run a recipe it will slowly increase its sleep timer by 2x up to the value in ticks set by this config, the next time the machine runs it will reset its timer so constant crafts are not delayed."
+	],
+	tasks: [{
+		uid: "88fa0510",
+		type: "checkmark",
+		title: "So, you like TPS don't you?",
+		icon: "gregtech:meta_item_1 1 32730"
+	}]
+}

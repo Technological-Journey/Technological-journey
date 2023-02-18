@@ -35,53 +35,11 @@
 		count: 9
 	},
 	{
-		uid: "f936b7ec",
+		uid: "ddcbe6d9",
 		type: "item",
 		item: {
 			id: "enderio:block_powered_spawner",
 			tag: {
-				"enderio:data": {
-					isSpawnMode: 0b,
-					currentTask: {
-						inputsStacks: [{
-							itemStack: {
-								id: "enderio:item_soul_vial",
-								Count: 15b,
-								Damage: 0s
-							},
-							slotNum: 0
-						}],
-						recipeUid: "PoweredTaskRecipe",
-						usedEnergy: 87200.0f,
-						customEnergy: 400000.0f,
-						seed: -2777048678266290742L,
-						chance1: 1.0f,
-						chance2: 1.0f,
-						class: "crazypants.enderio.base.machine.task.PoweredTask"
-					},
-					lastCompletedRecipe: "PoweredTaskRecipe",
-					inventory: {
-						size: 3,
-						0: {
-							id: "enderio:item_soul_vial",
-							Count: 15b,
-							Damage: 0s
-						},
-						1+: 1b,
-						2: {
-							id: "enderio:item_basic_capacitor",
-							Count: 1b,
-							Damage: 0s
-						}
-					},
-					redstoneControlMode: 1,
-					faceModes-: 1b,
-					outputQueue: {
-						size: 0
-					}
-				},
-				"enderio:energy": 100000,
-				"enderio:maxenergy": 100000,
 				entityId: "minecraft:blaze"
 			}
 		}

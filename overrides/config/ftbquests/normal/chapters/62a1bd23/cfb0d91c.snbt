@@ -9,17 +9,17 @@
 		"f8b66849"
 	],
 	tasks: [{
-		uid: "8e51da66",
+		uid: "020d9519",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_plutonium_radioactive_0"
+			item: "gregtech:poor_ore_neptunium_0"
 		}]
 	},
 	{
-		uid: "690d512b",
+		uid: "cd261638",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_neptunium_0"
+			item: "gregtech:poor_ore_plutonium_0"
 		}]
 	}]
 }

@@ -1,0 +1,15 @@
+{
+	x: 7.5d,
+	y: -5.0d,
+	text: [
+		"Throughout the game, you will run into chem lines that have catalysts. As the name implies they are not consumed in chemical reactions and can be made only once. Items/chemicals that are catalysts have the tooltip “not consumed in process” attached when looking at the recipe in jei. ",
+		"",
+		"The second thing you will notice is chem lines fully loop not consumed reactants. It is important to see what chemicals are worth it to loop. Gold line for example only consumes precious metal to make gold. The rest of the inputs fully loop inside the line."
+	],
+	tasks: [{
+		uid: "278a9876",
+		type: "checkmark",
+		title: "catalysts",
+		icon: "gtadditions:ga_dust 1 919"
+	}]
+}

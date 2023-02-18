@@ -1,16 +1,11 @@
 {
-	title: "Enderman Spawner",
-	x: 14.5d,
+	x: 16.5d,
 	y: 0.0d,
-	text: [
-		""
-	],
 	dependencies: [
 		"217132c4"
 	],
-	optional: true,
 	tasks: [{
-		uid: "caad0e71",
+		uid: "2d2175a7",
 		type: "item",
 		items: [{
 			item: "enderio:item_material"
@@ -18,27 +13,27 @@
 		consume_items: true
 	},
 	{
-		uid: "61a72897",
+		uid: "f490665d",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_51 1 6"
+			item: "gregtech:meta_item_1 1 5097"
 		}],
+		count: 32L,
 		consume_items: true
 	}],
 	rewards: [{
-		uid: "ffee1dba",
-		type: "item",
-		item: "enderio:item_soul_vial",
-		count: 10
-	},
-	{
-		uid: "bd85cec1",
+		uid: "0fcd65b4",
 		type: "item",
 		item: {
 			id: "enderio:block_powered_spawner",
 			tag: {
-				entityId: "minecraft:enderman"
+				entityId: "minecraft:skeleton"
 			}
 		}
+	},
+	{
+		uid: "3038e436",
+		type: "item",
+		item: "enderio:item_soul_vial"
 	}]
 }
