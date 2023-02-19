@@ -1,3 +1,4 @@
+#priority 2
 #loader contenttweaker
 
 import mods.contenttweaker.VanillaFactory;
@@ -23,6 +24,9 @@ certificate_of_being_a_noob.register();
 //var exquisite_salt = VanillaFactory.createItem("exquisite_salt");
 //exquisite_salt.maxStackSize = 64;
 //exquisite_salt.register();
+
+var soulcasing = VanillaFactory.createBlock("soulcasing", <blockmaterial:iron>);
+soulcasing.register();
 
 var draconiccasing = VanillaFactory.createBlock("draconiccasing", <blockmaterial:iron>);
 draconiccasing.register();
