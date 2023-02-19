@@ -442,6 +442,7 @@ blast_alloy.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs([<gregtech:cable:517> * 3,<gregtech:meta_item_1:32610> * 2,<gregtech:fluid_pipe:184>])
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:nitrogen> * 1000)
     .outputs([<gregtech:cable:516> * 3])
     .duration(350)
@@ -2336,3 +2337,55 @@ large_chem.recipeBuilder()
 .EUt(30)
 .buildAndRegister();
 
+
+centrifuge.recipeBuilder()
+.outputs([<gregtech:meta_item_1:2286> * 5])
+.fluidInputs(<liquid:barium_sulfate_solution> * 5000)
+.fluidOutputs(<liquid:water> * 5000)
+.duration(70)
+.EUt(14)
+.buildAndRegister();
+
+
+large_centrifuge.recipeBuilder()
+.outputs([<gregtech:meta_item_1:2286> * 5])
+.fluidInputs(<liquid:barium_sulfate_solution> * 5000)
+.fluidOutputs(<liquid:water> * 5000)
+.duration(70)
+.EUt(14)
+.buildAndRegister();
+
+chemreactor.recipeBuilder()
+    .inputs([<ore:wool> * 5])
+    .fluidInputs(<liquid:glue> * 144,<liquid:polytetrafluoroethylene> * 144)
+    .outputs([<gtadditions:ga_meta_item:32307> * 20])
+    .duration(160)
+    .EUt(116)
+    .buildAndRegister();
+
+
+large_chem.recipeBuilder()
+    .inputs([<ore:wool> * 5])
+    .fluidInputs(<liquid:glue> * 144,<liquid:polytetrafluoroethylene> * 144)
+    .outputs([<gtadditions:ga_meta_item:32307> * 20])
+    .duration(160)
+    .EUt(116)
+    .buildAndRegister();
+
+
+chemreactor.recipeBuilder()
+    .inputs([<ore:wool> * 5])
+    .fluidInputs(<liquid:glue> * 144,<liquid:polybenzimidazole> * 144)
+    .outputs([<gtadditions:ga_meta_item:32307> * 40])
+    .duration(160)
+    .EUt(116)
+    .buildAndRegister();
+
+
+large_chem.recipeBuilder()
+    .inputs([<ore:wool> * 5])
+    .fluidInputs(<liquid:glue> * 144,<liquid:polybenzimidazole> * 144)
+    .outputs([<gtadditions:ga_meta_item:32307> * 40])
+    .duration(160)
+    .EUt(116)
+    .buildAndRegister();
