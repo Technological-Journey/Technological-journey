@@ -2389,3 +2389,5 @@ large_chem.recipeBuilder()
     .duration(160)
     .EUt(116)
     .buildAndRegister();
+
+recipes.addShaped(<contenttweaker:eternityblock>, [[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>],[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>], [<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>]]);
