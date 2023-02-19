@@ -151,9 +151,17 @@
                     "textures:main_menu/slideshow_25.png",
                     "textures:main_menu/slideshow_26.png",
                     "textures:main_menu/slideshow_27.png",
-                    "textures:main_menu/slideshow_28.png"
+                    "textures:main_menu/slideshow_28.png",
+                    "textures:main_menu/slideshow_29.png",
+                    "textures:main_menu/slideshow_30.png",
+                    "textures:main_menu/slideshow_31.png",
+                    "textures:main_menu/slideshow_32.png",
+                    "textures:main_menu/slideshow_33.png",
+                    "textures:main_menu/slideshow_34.png",
+                    "textures:main_menu/slideshow_35.png",
+                    "textures:main_menu/slideshow_36.png"
                 ],
-                "displayDuration": 80,
+                "displayDuration": 60,
                 "fadeDuration": 35
             }
         }

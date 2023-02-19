@@ -179,7 +179,31 @@ for e in <ore:fuelZirconiumAlloy*>{
 for e in <ore:fuelNitride*>{
 	h(e.firstItem);
 }
+var plant = [<minecraftfuture:flowerblack>,<minecraft:red_flower>,<minecraft:red_flower:1>,<minecraft:red_flower:2>,<minecraft:red_flower:3>,<minecraft:red_flower:4>,<minecraft:red_flower:5>,<minecraft:red_flower:6>,<minecraft:red_flower:7>,<minecraft:yellow_flower>,<minecraft:double_plant:1>,<minecraftfuture:flowerwhite>,<minecraftfuture:flowerblue>,<minecraft:double_plant>,<minecraft:double_plant:4>,<minecraft:double_plant:5>,<minecraft:red_flower:8>,<minecraft:waterlily>,<minecraft:dye:3>]as IItemStack[];
 
+for i in plant{
+
+green_house.recipeBuilder()
+    .notConsumable(i)
+    .inputs(<minecraft:dye:15>)
+    .fluidInputs(<liquid:water> * 2000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .outputs([i])
+    .duration(160)
+    .EUt(14)
+    .buildAndRegister();
+
+green_house.recipeBuilder()
+    .notConsumable(i)
+    .inputs(<gregtech:meta_item_1:2754>)
+    .fluidInputs(<liquid:water> * 2000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .outputs([i * 2])
+    .duration(160)
+    .EUt(14)
+	.buildAndRegister();
+
+}
 //hide Vulps dust
 h(<libvulpes:productdust:1>);
 h(<libvulpes:productdust:2>);
