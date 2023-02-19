@@ -9,7 +9,6 @@
 		type: "item",
 		items: [{
 			item: "draconicevolution:dragon_heart"
-		}],
-		count: 2L
+		}]
 	}]
 }

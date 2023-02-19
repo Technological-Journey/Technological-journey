@@ -24,6 +24,7 @@ Inscriber.removeRecipe(<appliedenergistics2:material:18>);
 Inscriber.removeRecipe(<appliedenergistics2:material:17>);
 Inscriber.removeRecipe(<appliedenergistics2:material:16>);
 Inscriber.removeRecipe(<threng:material:2>);
+Inscriber.removeRecipe(<appliedenergistics2:material:59>);
 
 /*
 //Engineering Processor			
@@ -742,3 +743,5 @@ engraver.recipeBuilder()
 .duration(160)
 .EUt(30)
 .buildAndRegister();
+
+recipes.addShaped(<appliedenergistics2:material:59>, [[<gregtech:meta_item_1:13524>, <appliedenergistics2:material:41>, <gregtech:meta_item_1:13524>],[<gregtech:meta_item_1:32694>, <gregtech:meta_item_1:32674>, <gregtech:meta_item_1:32684>], [<gregtech:meta_item_1:13524>, <gregtech:meta_item_1:12807>, <gregtech:meta_item_1:13524>]]);

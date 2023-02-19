@@ -176,12 +176,12 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
 
 
 recipes.addShaped(<contenttweaker:chaoticcasing> * 3, [[<gregtech:meta_item_1:12733>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12733>],[<gregtech:meta_item_1:12733>, <ore:frameGtChaos>, <gregtech:meta_item_1:12733>], [<gregtech:meta_item_1:12733>, <ore:GTWrench>, <gregtech:meta_item_1:12733>]]);
-recipes.addShaped(<contenttweaker:awakenedcasing> * 3, [[<gregtech:meta_item_1:12519>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12519>],[<gregtech:meta_item_1:12519>, <ore:frameGtAwakenDraconium>, <gregtech:meta_item_1:12519>], [<gregtech:meta_item_1:12519>, <ore:GTWrench>, <gregtech:meta_item_1:12519>]]);
+recipes.addShaped(<contenttweaker:awakenedcasing> * 3, [[<gregtech:meta_item_1:12855>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12855>],[<gregtech:meta_item_1:12855>, <ore:frameGtAwakenDraconium>, <gregtech:meta_item_1:12855>], [<gregtech:meta_item_1:12855>, <ore:GTWrench>, <gregtech:meta_item_1:12855>]]);
 recipes.addShaped(<contenttweaker:draconiccasing> * 3, [[<gregtech:meta_item_1:12518>, <gregtech:meta_tool:6>, <gregtech:meta_item_1:12518>],[<gregtech:meta_item_1:12518>, <ore:frameGtDraconium>, <gregtech:meta_item_1:12518>], [<gregtech:meta_item_1:12518>, <ore:GTWrench>, <gregtech:meta_item_1:12518>]]);
 
     assembler.recipeBuilder()
     .inputs(<gregtech:frame_draconium>,<gregtech:meta_item_1:12518> * 6)
-    .circuit(0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .outputs(<contenttweaker:draconiccasing> * 3)
     .EUt(16)
     .duration(50)
@@ -189,15 +189,15 @@ recipes.addShaped(<contenttweaker:draconiccasing> * 3, [[<gregtech:meta_item_1:1
 
     assembler.recipeBuilder()
     .inputs(<gregtech:meta_block_compressed_32:7>)
-    .circuit(1)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .outputs(<draconicevolution:draconic_block>)
     .EUt(1)
     .duration(1)
     .buildAndRegister();
 
     assembler.recipeBuilder()
-    .inputs(<gregtech:frame_awaken_draconium>,<gregtech:meta_item_1:12519> * 6)
-    .circuit(0)
+    .inputs(<gregtech:frame_awaken_draconium>,<gregtech:meta_item_1:12855> * 6)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .outputs(<contenttweaker:awakenedcasing> * 3)
     .EUt(16)
     .duration(50)
@@ -205,7 +205,7 @@ recipes.addShaped(<contenttweaker:draconiccasing> * 3, [[<gregtech:meta_item_1:1
 
     assembler.recipeBuilder()
     .inputs(<gregtech:frame_chaos>,<gregtech:meta_item_1:12733> * 6)
-    .circuit(0)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
     .outputs(<contenttweaker:chaoticcasing>* 3)
     .EUt(16)
     .duration(50)
@@ -348,7 +348,7 @@ bioreactor.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32018>)
     .fluidInputs(<liquid:sterilized_growth_medium> * 1000)
     .outputs(<gtadditions:ga_meta_item:32018> * 2)
-    .circuit(1)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .duration(250)
     .EUt(480)
     .buildAndRegister();
