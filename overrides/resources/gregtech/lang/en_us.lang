@@ -72,3 +72,10 @@ item.contenttweaker.eternitycrystal.name=Eternity Crystal
 item.contenttweaker.infintycrystal.name=Infinity Crystal
 metaitem.eternity_preparation.name=Eternity Preparation
 fluid.eternity=Eternity plasma
+
+tile.contenttweaker.soulcasing.name=Large Soul Manipulation Casing
+multiblocktweaker.machine.large_powered_spawner.name=Large Powered Spawner (LPS)
+multiblocktweaker.machine.large_vial_processor.name=Large Vial Processor (LVP)
+recipemap.large_powered_spawner.name=Large Powered Spawner
+recipemap.large_vial_processor.name=Large Vial Processor
+material.soularium=Soularium

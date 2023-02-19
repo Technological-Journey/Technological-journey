@@ -1,4 +1,3 @@
-#priority 1
 import mods.devtech.machines.RegisterMachine;
 import mods.devtech.OverlayFace;
 import mods.devtech.OverlayRenderer;

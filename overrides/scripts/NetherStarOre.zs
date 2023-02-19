@@ -1,4 +1,3 @@
-#priority 1
 #loader gregtech
 import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.MaterialCasting;
