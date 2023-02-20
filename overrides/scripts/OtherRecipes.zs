@@ -1740,7 +1740,7 @@ assembly_line.recipeBuilder()
         .inputs([<gregtech:ga_cable:7671> * 2, <gtadditions:ga_meta_item:32359> * 2, <gregtech:meta_item_2:26671> * 4, <gregtech:meta_item_1:14673> * 4, <gregtech:meta_item_1:12673> * 8, <gregtech:meta_item_1:10673>])
         .notConsumable(<gtadditions:ga_meta_item:32518>)
         .outputs(<gtadditions:ga_meta_item:32353>)
-        .fluidInputs(<liquid:lubricant> * 5000, <liquid:styrene_butadiene_rubber> * 1440)
+        .fluidInputs(<liquid:lubricant> * 5000, <liquid:zylon> * 1440)
         .duration(600)
         .EUt(536870900)
         .buildAndRegister();
@@ -1806,9 +1806,9 @@ assembly_line.recipeBuilder()
         .buildAndRegister();
 
 assembly_line.recipeBuilder()
-        .inputs([<gtadditions:ga_meta_item:32358> * 2, <gregtech:meta_item_2:26993> * 4, <gregtech:meta_item_1:14993> * 4, <gregtech:meta_item_1:12993> * 8, <gregtech:meta_item_1:10993> * 2, <gregtech:meta_item_1:10993>, <gregtech:ga_cable:5993> * 2])
+        .inputs([<gtadditions:ga_meta_item:32358> * 2, <gregtech:meta_item_2:26993> * 4, <gregtech:meta_item_1:14993> * 4, <gregtech:meta_item_1:12993> * 8, <gregtech:meta_item_1:10993> * 2, <gregtech:ga_cable:5993> * 2])
         .outputs(<gtadditions:ga_meta_item:32352>)
-        .fluidInputs(<liquid:lubricant> * 5000, <liquid:styrene_butadiene_rubber> * 1440)
+        .fluidInputs(<liquid:lubricant> * 5000, <liquid:zylon> * 1440)
         .duration(600)
         .EUt(536870900)
         .buildAndRegister();
@@ -2391,3 +2391,4 @@ large_chem.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShaped(<contenttweaker:eternityblock>, [[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>],[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>], [<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>]]);
+recipes.addShapeless(<contenttweaker:eternityingot> * 9, [<contenttweaker:eternityblock>]);
