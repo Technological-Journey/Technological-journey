@@ -16,10 +16,10 @@
 		}]
 	},
 	{
-		uid: "cd261638",
+		uid: "47db2620",
 		type: "item",
 		items: [{
-			item: "gregtech:poor_ore_plutonium_0"
+			item: "gregtech:poor_ore_plutonium_radioactive_0"
 		}]
 	}]
 }

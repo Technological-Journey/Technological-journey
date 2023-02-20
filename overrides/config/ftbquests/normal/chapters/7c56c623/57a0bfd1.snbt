@@ -5,6 +5,7 @@
 	text: [
 		""
 	],
+	optional: true,
 	tasks: [{
 		uid: "f0578e46",
 		type: "item",

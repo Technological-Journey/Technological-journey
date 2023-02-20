@@ -1,6 +1,6 @@
 {
 	title: "ME Controller",
-	icon: "appliedenergistics2:drive",
+	icon: "appliedenergistics2:controller",
 	x: -4.5d,
 	y: -7.0d,
 	dependencies: [

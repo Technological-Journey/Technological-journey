@@ -7,9 +7,8 @@
 	],
 	optional: true,
 	tasks: [{
-		uid: "dd86b38f",
+		uid: "eac712f9",
 		type: "item",
-		icon: "appliedenergistics2:part 1 16",
 		items: [{
 			item: "appliedenergistics2:part 1 56"
 		}]

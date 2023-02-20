@@ -3,9 +3,7 @@
 	y: -2.0d,
 	shape: "rsquare",
 	text: [
-		"There are two paths to indium (excluding nuclear waste). The more traditional route is much less efficent, but easier, and involves using purified galena and sphalerite ore to make indium concrentrate. ",
-		"",
-		"The second method is through processing \"Zinc Ore Coke Pellets,\" and results in a ~10x better yeild per sphalerite ore, as well as several byproducts. Ultimately, it's up to you which method you choose."
+		"There are two paths to indium nuclear waste  or through processing \"Zinc Ore Coke Pellets,\" and results in a ~10x better yeild per sphalerite ore, as well as several byproducts. Ultimately, it's up to you which method you choose."
 	],
 	or_tasks: true,
 	tasks: [{
