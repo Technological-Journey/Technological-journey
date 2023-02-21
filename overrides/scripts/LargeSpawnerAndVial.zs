@@ -143,18 +143,6 @@ val large_spawner = Builder.start(loc, meta)
 	.withZoom(0.5f)
 	.buildAndRegister() as Multiblock;
 
-game.setLocalization(
-    "multiblocktweaker.machine.large_powered_spawner.name",
-    "Large Powered Spawner"
-);
-game.setLocalization(
-    "multiblocktweaker.multiblock.large_powered_spawner.description",
-    "Larger version of Powered Spawner. Generates Vials with mobs in it"
-);
-game.setLocalization(
-    "recipemap.large_powered_spawner.name",
-    "Large Powered Spawner"
-);
 
 
 val MOB_TYPE = [
@@ -169,7 +157,7 @@ val MOB_TYPE = [
 	"magma_cube",
 	"witch",
 	"wither_skeleton",
-	"snow_golem",
+	"snowman",
 	"sheep",
 	"pig",
 	"chicken",
@@ -292,25 +280,13 @@ val large_vial = Builder.start(loc, meta)
         	FactoryRecipeMap.start(loc)
                         .maxInputs(1)
                         .minOutputs(4)
-                        .maxOutputs(28)
+                        .maxOutputs(14)
                         .maxFluidOutputs(1)
                         .build())
 	.withTexture(ICubeRenderer.sided("contenttweaker:blocks/soulcasing"))
 	.withZoom(0.5f)
 	.buildAndRegister() as Multiblock;
 
-game.setLocalization(
-    "multiblocktweaker.machine.large_vial_processor.name",
-    "Large Vial Processor"
-);
-game.setLocalization(
-    "multiblocktweaker.multiblock.large_vial_processor.description",
-    "Larger version of the LV vial processor. Turns vials into loot."
-);
-game.setLocalization(
-    "recipemap.large_vial_processor.name",
-    "Large Vial Processor"
-);
 
 large_vial.recipeMap.recipeBuilder()
 		.inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:" + MOB_TYPE[0]}) * 16)
@@ -356,7 +332,7 @@ large_vial.recipeMap.recipeBuilder()
 			<enderio:item_soul_vial> * 16,
 			<minecraft:bone> * 64,
 			<minecraft:bone> * 64,
-			<minecraft:skull:4> * 24,
+			<minecraft:skull> * 24,
 			<actuallyadditions:item_solidified_experience> * 64,
 			<actuallyadditions:item_solidified_experience> * 64
 		])
@@ -526,22 +502,8 @@ large_vial.recipeMap.recipeBuilder()
 		.inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:" + MOB_TYPE[13]}) * 16)
 		.outputs([
 			<enderio:item_soul_vial> * 16,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
-			<minecraft:porkchop> * 64,
+			<minecraft:porkchop> * 512,
+			<minecraft:porkchop> * 512,
 			<actuallyadditions:item_solidified_experience> * 64,
 			<actuallyadditions:item_solidified_experience> * 64
 		])
@@ -553,30 +515,8 @@ large_vial.recipeMap.recipeBuilder()
 		.inputs(<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:" + MOB_TYPE[14]}) * 16)
 		.outputs([
 			<enderio:item_soul_vial> * 16,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:egg> * 64,
-			<minecraft:feather> * 64,
-			<minecraft:feather> * 64,
-			<minecraft:feather> * 64,
-			<minecraft:feather> * 64,
-			<minecraft:feather> * 64,
-			<minecraft:feather> * 64,
-			<minecraft:feather> * 64,
-			<minecraft:feather> * 16,
+			<minecraft:egg> * 960,
+			<minecraft:feather> * 400,
 			<actuallyadditions:item_solidified_experience> * 64,
 			<actuallyadditions:item_solidified_experience> * 64
 		])
@@ -590,14 +530,7 @@ large_vial.recipeMap.recipeBuilder()
 			<enderio:item_soul_vial> * 16,
 			<minecraft:leather> * 64,
 			<minecraft:leather> * 64,
-			<minecraft:beef> * 64,
-			<minecraft:beef> * 64,
-			<minecraft:beef> * 64,
-			<minecraft:beef> * 64,
-			<minecraft:beef> * 64,
-			<minecraft:beef> * 64,
-			<minecraft:beef> * 64,
-			<minecraft:beef> * 64,
+			<minecraft:beef> * 512,
 			<actuallyadditions:item_solidified_experience> * 64,
 			<actuallyadditions:item_solidified_experience> * 64
 		])
