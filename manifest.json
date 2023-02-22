@@ -1,6 +1,6 @@
 {
     "minecraft": {
-        "version": "1.12.2",
+        "version": "1.12.3",
         "modLoaders": [{
             "id": "forge-14.23.5.2860",
             "primary": true

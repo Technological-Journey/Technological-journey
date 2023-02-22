@@ -2392,3 +2392,5 @@ large_chem.recipeBuilder()
 
 recipes.addShaped(<contenttweaker:eternityblock>, [[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>],[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>], [<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>]]);
 recipes.addShapeless(<contenttweaker:eternityingot> * 9, [<contenttweaker:eternityblock>]);
+
+recipes.addShaped(<minecraft:diamond_hoe>.withTag({Unbreakable: 1 as long, RepairCost: 1, display: {Name: "Emerald Tipped Diamond Hoe"}}), [[<minecraft:emerald>, <minecraft:emerald>, null],[<minecraft:emerald>, <minecraft:diamond_hoe>, null], [null, null, null]]);
