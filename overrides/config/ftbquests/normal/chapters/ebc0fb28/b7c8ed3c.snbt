@@ -13,7 +13,7 @@
 	text: [
 		"This needs passive trinium and taranium in order to passive adamantium and neutronium. Good luck?",
 		"",
-		"As of update 1.0.4 release, nobody has managed to passive this."
+		"As of update 1.2.3, Kamacz and milesman34 have managed to passive this."
 	],
 	dependencies: [
 		"34ce1cb7"

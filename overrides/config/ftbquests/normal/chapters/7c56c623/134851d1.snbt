@@ -17,7 +17,6 @@
 		"7c191ebc",
 		"3a6c1683"
 	],
-	hide_text_until_complete: true,
 	size: 2.5d,
 	tasks: [{
 		uid: "b4389136",

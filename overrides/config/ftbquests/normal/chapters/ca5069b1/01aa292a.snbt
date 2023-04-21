@@ -4,7 +4,21 @@
 	x: 10.0d,
 	y: 1.5d,
 	text: [
-		"If normal fusion is so great, then why is there no fusion 2- oh..."
+		"If normal fusion is so great, then why is there no fusion 2- oh...",
+		"",
+		"This fusion reactor works a bit differently than your standard fusion donut. Not only is the multiblock much larger, each recipe now takes some form of reactor moderator (Steam, Sodium, Deuterium, FLiNaK, Lead Bismuth Eutectic, Sodium Potassium Alloy, or FLiBE). The output will include a supercritical version of the reactor moderator, which you can put through a Hot Coolant Turbine to get the reactor moderator back along with some free power. In return for this extra complexity, the Advanced Fusion Reactor can fuse heavier elements, including Adamantium.",
+		"",
+		"Unlike the previous fusion donuts, this fusion reactor &lcan&l overclock! The MK1 to UHV, MK2 to UEV, and MK3 to UIV.",
+		"",
+		"In addition to Coils, the Advanced Fusion Reactor also contains Divertors and Vaccums, as well as overclocks for all 3 blocks.",
+		"",
+		"Overclocking Coils gives a 5% time discount per tier",
+		"",
+		"Overclocking Divertors gives 10% more recipe output per tier",
+		"",
+		"Overclocking Vacuums reduces EU cost by 15% per tier",
+		"",
+		"Divertors and Vacuums &lcannot&l be lower tier than the Coils"
 	],
 	dependencies: [
 		"2146ea27",

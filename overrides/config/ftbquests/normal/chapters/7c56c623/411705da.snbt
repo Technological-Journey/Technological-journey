@@ -1,6 +1,9 @@
 {
 	x: -7.5d,
 	y: 4.0d,
+	text: [
+		"Not like you need it at this point. You can already make 16384k storage drives on tap."
+	],
 	dependencies: [
 		"1b3c3ac4",
 		"f500325c",

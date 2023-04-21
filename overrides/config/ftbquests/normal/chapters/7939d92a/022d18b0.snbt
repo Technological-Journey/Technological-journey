@@ -1,6 +1,9 @@
 {
 	x: -15.0d,
 	y: 2.5d,
+	text: [
+		"How can a liquid be capable of computation? Who knows!"
+	],
 	dependencies: [
 		"95460cec"
 	],

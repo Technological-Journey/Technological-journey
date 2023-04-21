@@ -2,7 +2,7 @@
 	x: -6.5d,
 	y: 1.5d,
 	text: [
-		""
+		"You might want to see a therapist after making this."
 	],
 	dependencies: [
 		"0a0a26ea",

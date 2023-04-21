@@ -1,6 +1,9 @@
 {
 	x: -6.0d,
 	y: 0.0d,
+	text: [
+		"Time to Taranium."
+	],
 	shape: "rsquare",
 	tasks: [{
 		uid: "2afedb1d",

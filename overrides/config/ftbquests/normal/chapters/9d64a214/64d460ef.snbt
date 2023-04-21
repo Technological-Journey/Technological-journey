@@ -1,11 +1,4 @@
 {
-	icon: {
-		id: "forge:bucketfilled",
-		tag: {
-			FluidName: "rutherfordium",
-			Amount: 1000
-		}
-	},
 	x: -1.5d,
 	y: -1.0d,
 	dependencies: [
@@ -13,7 +6,10 @@
 	],
 	tasks: [{
 		uid: "e8d561b0",
-		type: "checkmark",
-		title: "Rutherfordium"
+		type: "item",
+		title: "Rutherfordium",
+		items: [{
+			item: "gregtech:meta_item_1 1 10743"
+		}]
 	}]
 }

@@ -5,7 +5,9 @@
 	text: [
 		"Large variants of machines have a few perks. For starters they have an eu per recipe cost reduction and a time per recipe reduction. They also run a certain amount of recipes at once in parallel, as well as provide an increased chance at outputs when running chanced recipes. ",
 		"",
-		"They're usefull primarily when you need a process to be fast, high yeild, or (in the case of LCR's and other multiblocks that dont use component blocks) don't want to make the expensive on-tier machine equivilent. These are the replacement for processing arrays, except cheaper and more efficient. "
+		"They're usefull primarily when you need a process to be fast, high yeild, or (in the case of LCR's and other multiblocks that dont use component blocks) don't want to make the expensive on-tier machine equivilent. These are the replacement for processing arrays, except cheaper and more efficient. ",
+		"",
+		"WARNING: There is a bug with extendable multiblocks that can cause nearby multiblocks to not form. If this happens, rotate the internals of the affected multiblock, or move it entirely."
 	],
 	hide_dependency_lines: true,
 	tasks: [{

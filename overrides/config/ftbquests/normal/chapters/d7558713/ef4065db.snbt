@@ -1,6 +1,9 @@
 {
 	x: -4.5d,
 	y: 5.0d,
+	text: [
+		"You've likely noticed that each superconductor has a cheaper recipe using liquid starlight instead of nitrogen. Well, this is the last one you can cheaply craft until UEV."
+	],
 	dependencies: [
 		"4ffc26e9"
 	],

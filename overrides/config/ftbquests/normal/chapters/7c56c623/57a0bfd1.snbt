@@ -3,7 +3,7 @@
 	x: 1.5d,
 	y: -1.0d,
 	text: [
-		""
+		"The Chaos Guardian is hard, we get it. Submit these items for a chaos shard you can duplicate later if you want to skip it."
 	],
 	optional: true,
 	tasks: [{

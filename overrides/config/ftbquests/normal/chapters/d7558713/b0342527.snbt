@@ -1,6 +1,9 @@
 {
 	x: -1.5d,
 	y: -1.0d,
+	text: [
+		"Told you."
+	],
 	dependencies: [
 		"2e1bceba",
 		"5e26a217",

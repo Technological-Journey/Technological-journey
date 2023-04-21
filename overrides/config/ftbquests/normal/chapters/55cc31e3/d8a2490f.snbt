@@ -3,7 +3,11 @@
 	x: -3.0d,
 	y: -3.5d,
 	text: [
-		""
+		"The Void Ore Miner (VOM) mines ores from a fictional void dimension.",
+		"",
+		"The VOM requires a constant supply of pyrotheum as fuel to heat up the drill. The higher the heat, the more ores it mines, but too much can overheat the multiblock which necessitates cooling back down to 0c",
+		"",
+		"To avoid this, you must supply cryotheum to keep the VOM's heat at a constant temperature."
 	],
 	dependencies: [
 		"c2cc6c58"

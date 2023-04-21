@@ -1,6 +1,9 @@
 {
 	x: -5.0d,
 	y: -4.5d,
+	text: [
+		"The most advanced circuit in normal GregTech."
+	],
 	dependencies: [
 		"6e1554b7"
 	],

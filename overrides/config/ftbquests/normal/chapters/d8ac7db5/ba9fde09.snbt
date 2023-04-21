@@ -6,14 +6,10 @@
 	],
 	tasks: [{
 		uid: "02d20edc",
-		type: "checkmark",
+		type: "item",
 		title: "Dubnium",
-		icon: {
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "dubnium",
-				Amount: 1000
-			}
-		}
+		items: [{
+			item: "gregtech:meta_item_1 1 10742"
+		}]
 	}]
 }

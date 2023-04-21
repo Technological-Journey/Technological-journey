@@ -1,6 +1,9 @@
 {
 	x: -1.0d,
 	y: 7.5d,
+	text: [
+		"The obligatory Avaritia reference."
+	],
 	dependencies: [
 		"f1996de7"
 	],

@@ -2,7 +2,9 @@
 	x: -0.5d,
 	y: -2.0d,
 	text: [
-		"Like the quadrouple hatch, but bigger. And costs a lot of tungstensteel."
+		"Like the quadrouple hatch, but bigger. And costs a lot of tungstensteel.",
+		"",
+		"Very useful for stocking fluids in an assline."
 	],
 	dependencies: [
 		"4c489032",

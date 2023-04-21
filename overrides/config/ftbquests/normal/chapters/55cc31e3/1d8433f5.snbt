@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
 	y: -3.5d,
+	text: [
+		"Jasper can only be found in the fictional void dimension."
+	],
 	dependencies: [
 		"d8a2490f"
 	],

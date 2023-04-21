@@ -3,7 +3,7 @@
 	y: -1.5d,
 	shape: "rsquare",
 	text: [
-		"The recipes for Trinium production have been significantly changed. Your perfluorobenzene is now fully recycled. Making trinium not only possible but actually relatively painless to passive. "
+		"The recipes for Trinium production have been significantly changed. Your perfluorobenzene and fluorocarborane is now fully recycled, making trinium not only possible but actually relatively painless to passive. The only inputs are triinite, carbon nanotubes, and fullerene"
 	],
 	tasks: [{
 		uid: "7fa57add",

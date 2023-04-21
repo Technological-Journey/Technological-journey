@@ -2,6 +2,9 @@
 	icon: "gregtech:machine 1 2236",
 	x: -7.0d,
 	y: 0.0d,
+	text: [
+		"Rocket Engines are fuel inefficient by design. At this stage of progression, you should be utilising centralised power with the Battery Tower and EU P2P."
+	],
 	dependencies: [
 		"294aa313"
 	],

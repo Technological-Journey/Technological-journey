@@ -1,6 +1,9 @@
 {
 	x: -5.5d,
 	y: 9.0d,
+	text: [
+		"At this point you just can't technobabble anymore."
+	],
 	dependencies: [
 		"9d0dfc02"
 	],

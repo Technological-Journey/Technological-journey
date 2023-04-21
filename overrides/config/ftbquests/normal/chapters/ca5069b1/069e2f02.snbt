@@ -1,6 +1,9 @@
 {
 	x: 13.0d,
 	y: 0.5d,
+	text: [
+		"Don't shine them in your eyes!"
+	],
 	dependencies: [
 		"a8263ce2",
 		"8b1340ba"

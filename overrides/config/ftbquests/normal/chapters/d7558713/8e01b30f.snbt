@@ -1,6 +1,9 @@
 {
 	x: -8.5d,
 	y: -3.5d,
+	text: [
+		"Fluoroantimonic acid is perfectly looped in every naquadah line."
+	],
 	shape: "rsquare",
 	tasks: [{
 		uid: "c2ae59f4",

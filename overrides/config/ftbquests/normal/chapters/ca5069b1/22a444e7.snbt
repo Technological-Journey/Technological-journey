@@ -1,6 +1,9 @@
 {
 	x: 5.0d,
 	y: -3.5d,
+	text: [
+		"A more powerful version of the Void Ore Miner MK1 with a higher heat capacity, and thus more ores per second."
+	],
 	dependencies: [
 		"b8354d50"
 	],

@@ -1,6 +1,9 @@
 {
 	x: 5.5d,
 	y: 9.0d,
+	text: [
+		"Congratulations!"
+	],
 	shape: "hexagon",
 	dependencies: [
 		"8b92accd"

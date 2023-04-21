@@ -1,6 +1,9 @@
 {
 	x: 14.5d,
 	y: 2.0d,
+	text: [
+		"Trouble finding zirkelite for zirconium? We got you covered."
+	],
 	shape: "rsquare",
 	tasks: [{
 		uid: "35b85728",

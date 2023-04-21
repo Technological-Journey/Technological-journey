@@ -1,6 +1,9 @@
 {
 	x: 7.5d,
 	y: 0.5d,
+	text: [
+		"You aren't getting this until LuV. Ignore it for now."
+	],
 	dependencies: [
 		"fdaf832a"
 	],

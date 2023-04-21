@@ -3,7 +3,7 @@
 	y: 0.5d,
 	shape: "hexagon",
 	text: [
-		"You will never have to process mendelevium. In fact, it's generally a bad idea to do so, nor will you need any specific isotope (unless you want to make Hastelloy K243). ",
+		"This is the last nuclear line you need to build (you need mendelevium 261 for Hastelloy K243 for UMV components)",
 		"",
 		"This, therefore, is the end of nuclear. You never have to even look at another steam cracked hexafluoride if you set up your nuclear well."
 	],

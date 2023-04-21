@@ -1,6 +1,9 @@
 {
 	x: 1.0d,
 	y: -4.5d,
+	text: [
+		"At this point, you may want to consider building a dedicated Large Assembler specifically for SMD components."
+	],
 	dependencies: [
 		"03c839b8",
 		"63cf889c",

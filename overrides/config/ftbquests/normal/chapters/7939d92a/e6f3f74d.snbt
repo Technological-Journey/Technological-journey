@@ -3,6 +3,8 @@
 	y: 2.5d,
 	shape: "rsquare",
 	text: [
+		"This indeed detects some cosmic rays. Probably unsafe for the controller block.",
+		"",
 		"Bonus points if you built it upside down at the height limit (you get 1mb/t more heavy lepton mixture at UHV). This is due to the controller being close to build height."
 	],
 	tasks: [{

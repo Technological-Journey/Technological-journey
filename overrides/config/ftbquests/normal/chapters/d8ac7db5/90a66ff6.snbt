@@ -1,6 +1,9 @@
 {
 	x: 11.0d,
 	y: 5.0d,
+	text: [
+		"Yes, these take an LV pump and sensor per board. Get used to it."
+	],
 	dependencies: [
 		"df5304e3"
 	],

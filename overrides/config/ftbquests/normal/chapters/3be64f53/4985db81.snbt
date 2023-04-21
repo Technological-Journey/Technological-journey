@@ -1,6 +1,17 @@
 {
 	x: -11.5d,
 	y: -4.5d,
+	text: [
+		"*insert nonsense popsci technobabble*",
+		"",
+		"The Quantum Computer (QC) utilises the circuits you've been making to generate qubits used for advanced Assembly Line recipes.",
+		"",
+		"You will need a Qubit Output Hatch and Optical Fiber wire to transfer qubits to the desired Assembly Line, which will need a Qubit Input Hatch to accept the incoming qubits. If not enough qubits are supplied per tick, the recipe will slow down.",
+		"",
+		"Optical Fiber is used to transfer qubits from the Quantum Computer to Assembly Lines. The size of the cable determines how many qubits it can transfer in parallel.",
+		"",
+		"The Quantum Computer will stop if the output hatch is fill of qubits."
+	],
 	dependencies: [
 		"fddd9342"
 	],

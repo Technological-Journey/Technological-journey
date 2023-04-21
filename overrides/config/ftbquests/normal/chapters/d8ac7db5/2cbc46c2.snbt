@@ -1,6 +1,9 @@
 {
 	x: 8.0d,
 	y: 1.0d,
+	text: [
+		"This will be the bottleneck in SGM production. You may wish to overclock this to ZPM."
+	],
 	shape: "rsquare",
 	tasks: [{
 		uid: "ce8f7aae",

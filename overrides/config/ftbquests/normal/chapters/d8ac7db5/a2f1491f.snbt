@@ -1,6 +1,9 @@
 {
 	x: 4.0d,
 	y: 7.0d,
+	text: [
+		"You can now craft crystal processors without SMDs."
+	],
 	dependencies: [
 		"4062fce6"
 	],

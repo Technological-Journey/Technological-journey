@@ -1,6 +1,9 @@
 {
 	x: 5.0d,
 	y: 2.0d,
+	text: [
+		"Fusion 1, but better. Still no overclocking."
+	],
 	dependencies: [
 		"6bbcdd91",
 		"bf5e4fc3"
