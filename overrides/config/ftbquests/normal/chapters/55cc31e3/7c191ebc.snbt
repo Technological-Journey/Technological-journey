@@ -1,6 +1,6 @@
 {
 	title: "you’re a Noob Harry",
-	x: 1.0d,
+	x: 0.0d,
 	y: -1.5d,
 	shape: "hexagon",
 	text: [

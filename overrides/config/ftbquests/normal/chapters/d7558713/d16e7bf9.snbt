@@ -1,0 +1,32 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"This is the material for LuV machinery.",
+		"",
+		"The fluid solidifier will be a bottleneck for Rhodium Plated Palladium, so I HIGHLY recommend moving its production to large machinery."
+	],
+	dependencies: [
+		"24bc47d9",
+		"6cf0d919"
+	],
+	tasks: [{
+		uid: "92ecf281",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10859"
+		}]
+	}],
+	rewards: [{
+		uid: "81540737",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2869",
+		count: 16
+	},
+	{
+		uid: "506bc1b6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2049",
+		count: 16
+	}]
+}

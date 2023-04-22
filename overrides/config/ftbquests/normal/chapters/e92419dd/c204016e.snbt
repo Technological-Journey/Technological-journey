@@ -1,0 +1,25 @@
+{
+	title: "Neptunium Fuels",
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"61e9c5ed"
+	],
+	tasks: [{
+		uid: "61a33e84",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16815"
+		}]
+	},
+	{
+		uid: "506d7e80",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16816"
+		}]
+	}]
+}

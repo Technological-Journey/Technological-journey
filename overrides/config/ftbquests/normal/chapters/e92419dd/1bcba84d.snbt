@@ -1,0 +1,19 @@
+{
+	icon: "gtadditions:ga_meta_item 1 32312",
+	x: 0.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"You'll need to repeat this tree with the following materials. Rather than write out the same tree many times we wrote only key items from each tier that allow you to move to the next.",
+		"",
+		"In addition, these are just suggestions. The nuclear recipe map can be overwhelming, so feel free to choose whatever fuels and circuit config you want."
+	],
+	dependencies: [
+		"62f3ebcd"
+	],
+	tasks: [{
+		uid: "2500ca69",
+		type: "checkmark",
+		title: "I Understand Nuclear :)"
+	}]
+}

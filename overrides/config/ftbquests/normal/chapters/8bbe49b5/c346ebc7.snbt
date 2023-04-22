@@ -1,6 +1,6 @@
 {
-	x: 3.0d,
-	y: -4.5d,
+	x: 4.0d,
+	y: -1.5d,
 	shape: "rsquare",
 	tasks: [{
 		uid: "0856d49f",

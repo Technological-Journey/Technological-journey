@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"This is used for advanced circuit recipes, but you can manufacture it right now."
+	],
+	dependencies: [
+		"7b06cc63"
+	],
+	tasks: [{
+		uid: "266efd4b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32475"
+		}]
+	}]
+}

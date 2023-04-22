@@ -1,0 +1,35 @@
+{
+	title: "Fluoro Benzene",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "fluoro_benzene",
+			Amount: 1000
+		}
+	},
+	x: 5.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"87efeecd"
+	],
+	tasks: [{
+		uid: "00363e8d",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluoro_benzene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9b4e095b",
+		type: "checkmark"
+	}]
+}

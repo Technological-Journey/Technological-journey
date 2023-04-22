@@ -1,7 +1,8 @@
 {
-	x: 5.5d,
+	x: 4.5d,
 	y: -3.0d,
 	shape: "rsquare",
+	or_tasks: true,
 	tasks: [{
 		uid: "938fe9b5",
 		type: "checkmark",
@@ -13,5 +14,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "9816fdd9",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ortho_xylene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

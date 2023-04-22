@@ -8,9 +8,9 @@
 		"",
 		"This fusion reactor works a bit differently than your standard fusion donut. Not only is the multiblock much larger, each recipe now takes some form of reactor moderator (Steam, Sodium, Deuterium, FLiNaK, Lead Bismuth Eutectic, Sodium Potassium Alloy, or FLiBE). The output will include a supercritical version of the reactor moderator, which you can put through a Hot Coolant Turbine to get the reactor moderator back along with some free power. In return for this extra complexity, the Advanced Fusion Reactor can fuse heavier elements, including Adamantium.",
 		"",
-		"Unlike the previous fusion donuts, this fusion reactor &lcan&l overclock! The MK1 to UHV, MK2 to UEV, and MK3 to UIV.",
+		"Unlike the previous fusion donuts, this fusion reactor *can* overclock! The MK1 to UHV, MK2 to UEV, and MK3 to UIV.",
 		"",
-		"In addition to Coils, the Advanced Fusion Reactor also contains Divertors and Vaccums, as well as overclocks for all 3 blocks.",
+		"In addition to Coils, the Advanced Fusion Reactor also contains Divertors and Vacuums, as well as overclocks for all 3 blocks.",
 		"",
 		"Overclocking Coils gives a 5% time discount per tier",
 		"",
@@ -80,6 +80,14 @@
 			item: "gtadditions:ga_fusion_casing 1 4"
 		}],
 		count: 59L
+	},
+	{
+		uid: "4352aa86",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 1"
+		}],
+		count: 18L
 	}],
 	rewards: [{
 		uid: "2900f892",

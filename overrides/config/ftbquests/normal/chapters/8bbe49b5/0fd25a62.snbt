@@ -1,6 +1,6 @@
 {
 	x: -3.0d,
-	y: -1.5d,
+	y: -0.5d,
 	description: "Epoxy",
 	text: [
 		"There are two schools of thought for creating epoxy. Raw naphtha, and Bisphenol-A (BPA). The ratio from the Naphtha route is awful, but it is easier to setup. The BPA route is more complex, but generally worth it as it makes much more epoxy. You will be using epoxy for circuit boards until LuV, so you want to create a robust automation for epoxy. You're passiving all the fluids, right?"

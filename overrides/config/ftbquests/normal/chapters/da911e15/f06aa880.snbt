@@ -1,10 +1,10 @@
 {
 	x: 5.5d,
 	y: 9.0d,
+	shape: "hexagon",
 	text: [
 		"Congratulations!"
 	],
-	shape: "hexagon",
 	dependencies: [
 		"8b92accd"
 	],

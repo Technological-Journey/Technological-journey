@@ -1,0 +1,25 @@
+{
+	title: "Plutonium Fuels",
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e11c7345"
+	],
+	tasks: [{
+		uid: "b9c1ea1f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16813"
+		}]
+	},
+	{
+		uid: "d243d339",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16053"
+		}]
+	}]
+}

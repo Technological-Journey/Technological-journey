@@ -1,6 +1,9 @@
 {
-	x: 0.5d,
+	x: -0.5d,
 	y: -2.0d,
+	text: [
+		"You may want a Large Arc Furnace for YBCO"
+	],
 	dependencies: [
 		"d78c1184"
 	],

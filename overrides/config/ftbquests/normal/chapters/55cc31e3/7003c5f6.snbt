@@ -1,10 +1,10 @@
 {
 	x: 2.0d,
 	y: -1.5d,
+	shape: "hexagon",
 	text: [
 		"Another major infrastructure check is coming up, take some time and update your base to meet the oncoming demands."
 	],
-	shape: "hexagon",
 	dependencies: [
 		"9ab0b76e"
 	],

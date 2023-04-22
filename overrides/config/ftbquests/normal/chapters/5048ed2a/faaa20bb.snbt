@@ -1,6 +1,7 @@
 {
-	x: 7.5d,
-	y: 0.5d,
+	icon: "gregtech:machine 1 2533",
+	x: 14.5d,
+	y: 10.0d,
 	text: [
 		"You aren't getting this until LuV. Ignore it for now."
 	],

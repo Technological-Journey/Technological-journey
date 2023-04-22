@@ -1,0 +1,26 @@
+{
+	x: -9.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	text: [
+		"Zylon is one the polymers for UEV and beyond, used to coat cables and to craft midgame recipes.",
+		"",
+		"For some god forsaken reason, this questline was originally in UV. Why? I tell myself. Why?"
+	],
+	dependencies: [
+		"492ed113"
+	],
+	tasks: [{
+		uid: "d5faed27",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2729"
+		}]
+	}],
+	rewards: [{
+		uid: "c3907075",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10729",
+		count: 8
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Nitrochlorobenzene",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "nitrochlorobenzene",
+			Amount: 1000
+		}
+	},
+	x: 6.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6d088e65"
+	],
+	tasks: [{
+		uid: "37ae9341",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitrochlorobenzene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d7b842fa",
+		type: "checkmark"
+	}]
+}

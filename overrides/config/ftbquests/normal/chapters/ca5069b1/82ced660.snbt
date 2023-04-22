@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: 0.5d,
+	dependencies: [
+		"b1793a01",
+		"662a97ab",
+		"68f32d09"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "088b318d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 78"
+		}]
+	}]
+}

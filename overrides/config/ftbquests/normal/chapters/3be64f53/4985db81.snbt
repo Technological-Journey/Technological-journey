@@ -1,4 +1,5 @@
 {
+	icon: "gregtech:machine 1 4022",
 	x: -11.5d,
 	y: -4.5d,
 	text: [
@@ -20,6 +21,35 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 4022"
+		}]
+	},
+	{
+		uid: "268e114d",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_quantum_casing"
+		}],
+		count: 27L
+	},
+	{
+		uid: "0d3c799c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4017"
+		}]
+	},
+	{
+		uid: "cd72d34b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "33b72bab",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 710"
 		}]
 	}],
 	rewards: [{

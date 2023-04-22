@@ -1,7 +1,15 @@
 {
+	icon: "gregtech:machine 1 4021",
 	x: 17.0d,
 	y: 3.5d,
 	shape: "hexagon",
+	text: [
+		"The Stellar Forge (SF) is the first truly sci-fi multiblock you get to build. The high cost of the structure lends itself to particularly destructive use cases.",
+		"",
+		"First, it can take a material and detonate it with a charge to produce an exotic plasma. You will be needing these exotic plasmas for late game recipes.",
+		"",
+		"Second, it can successfully compress matter into a singularity, provided you can actually contain it."
+	],
 	dependencies: [
 		"48033f9b",
 		"27908744",
@@ -13,11 +21,110 @@
 		items: [{
 			item: "gregtech:machine 1 4021"
 		}]
+	},
+	{
+		uid: "39ec4e9a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "677f9a43",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 2"
+		}],
+		count: 56L
+	},
+	{
+		uid: "200f9925",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_2 1 2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "62f3c6c9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_2 1 2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "8e6cb5bb",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_metal_casing_2 1 2"
+		}],
+		count: 18L
+	},
+	{
+		uid: "f1f6bc0b",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing2 1 5"
+		}],
+		count: 64L
+	},
+	{
+		uid: "31515a16",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing2 1 5"
+		}],
+		count: 58L
+	},
+	{
+		uid: "6dcd18e2",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_emitter_casing 1 7"
+		}],
+		count: 10L
+	},
+	{
+		uid: "a4ae45e1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 784"
+		}]
+	},
+	{
+		uid: "7b01b7c4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "841d7871",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "150591cd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 710"
+		}]
+	},
+	{
+		uid: "0115d007",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 711"
+		}]
 	}],
 	rewards: [{
-		uid: "3353b6fc",
+		uid: "2d716a92",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2971",
+		item: "gregtech:meta_item_1 1 2857",
 		count: 16
 	}]
 }

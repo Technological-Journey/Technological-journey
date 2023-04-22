@@ -1,11 +1,11 @@
 {
-	x: 0.5d,
-	y: -2.0d,
+	x: -0.5d,
+	y: -3.0d,
 	text: [
 		"This quest will accept the LuV Laser Engraver singleblock or 3 LuV Emitter blocks if you're using a multiblock laser engraver for this. "
 	],
 	dependencies: [
-		"e5f0b4b0"
+		"24d63bc6"
 	],
 	or_tasks: true,
 	tasks: [{

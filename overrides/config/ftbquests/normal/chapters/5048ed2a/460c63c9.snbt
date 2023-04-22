@@ -1,8 +1,8 @@
 {
 	title: "Large Bending and Forming Machine",
 	icon: "gregtech:machine 1 2510",
-	x: 3.5d,
-	y: 0.5d,
+	x: 14.5d,
+	y: 6.0d,
 	text: [
 		""
 	],

@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: 2.0d,
 	text: [
-		"\"Not a magic pack\""
+		"For some reason this is the material for ZPM. Totally not a magic pack."
 	],
 	dependencies: [
 		"ff3a5a24"

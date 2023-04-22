@@ -1,13 +1,14 @@
 {
-	x: 4.5d,
+	x: 2.5d,
 	y: 0.0d,
 	dependencies: [
 		"4d333368"
 	],
 	tasks: [{
-		uid: "17c2e374",
-		type: "checkmark",
-		title: "Rhodium Nitrate Dust",
-		icon: "gregtech:meta_item_1 1 2864"
+		uid: "262565c0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2864"
+		}]
 	}]
 }

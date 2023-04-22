@@ -1,13 +1,14 @@
 {
-	x: 4.5d,
-	y: 2.0d,
+	x: 1.5d,
+	y: 1.0d,
 	dependencies: [
 		"480fa25d"
 	],
 	tasks: [{
-		uid: "96173807",
-		type: "checkmark",
-		title: "Rhodium Dust",
-		icon: "gregtech:meta_item_1 1 2869"
+		uid: "0ea2707c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2869"
+		}]
 	}]
 }

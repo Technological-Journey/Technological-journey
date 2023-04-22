@@ -1,7 +1,16 @@
 {
 	icon: "gregtech:machine 1 2004",
 	x: -1.5d,
-	y: 2.0d,
+	y: 1.0d,
+	text: [
+		"You might have noticed that there is no circuit assembler for IV and above. This is why",
+		"",
+		"The Large Circuit Assembly Line (CAL) is essentially the Assembly Line but for circuit crafting. It takes integral framework blocks which determine the maximum recipe tier it can run.",
+		"",
+		"The power overclock is independant of the recipe tier, so you can cram as much power as you want into it for some juicy overclocks!",
+		"",
+		"(This quest accepts both IV and LuV integral frameworks, though it is recommended that you make the LuV Integrals)"
+	],
 	dependencies: [
 		"24d63bc6",
 		"ffafa306",
@@ -27,6 +36,9 @@
 		type: "item",
 		items: [{
 			item: "gtadditions:ga_multiblock_casing 1 8"
+		},
+		{
+			item: "gtadditions:ga_multiblock_casing 1 9"
 		}],
 		count: 7L
 	},
@@ -69,13 +81,6 @@
 		}]
 	},
 	{
-		uid: "d9ca77ca",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 744"
-		}]
-	},
-	{
 		uid: "c7e95e4a",
 		type: "item",
 		items: [{
@@ -89,6 +94,13 @@
 			item: "gregtech:metal_casing 1 4"
 		}],
 		count: 12L
+	},
+	{
+		uid: "2b256fa0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 754"
+		}]
 	}],
 	rewards: [{
 		uid: "62d99c98",

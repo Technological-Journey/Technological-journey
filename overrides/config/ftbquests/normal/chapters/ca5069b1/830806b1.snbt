@@ -1,0 +1,29 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hydroquinone",
+			Amount: 1000
+		}
+	},
+	x: 7.0d,
+	y: -0.5d,
+	or_tasks: true,
+	tasks: [{
+		uid: "a5ad7f66",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydroquinone",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c88706b",
+		type: "checkmark"
+	}]
+}

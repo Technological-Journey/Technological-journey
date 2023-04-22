@@ -1,0 +1,36 @@
+{
+	title: "Diphenylisophthalate",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "diphenylisophtalate",
+			Amount: 1000
+		}
+	},
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f3915947"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "63a0dd03",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "diphenylisophtalate",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f7c20cee",
+		type: "checkmark"
+	}]
+}

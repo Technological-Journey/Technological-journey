@@ -5,9 +5,10 @@
 		"69ca2a1f"
 	],
 	tasks: [{
-		uid: "3b94ba43",
-		type: "checkmark",
-		title: "Fluorocarborane",
-		icon: "gtadditions:ga_dust 1 934"
+		uid: "d450fd16",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 934"
+		}]
 	}]
 }

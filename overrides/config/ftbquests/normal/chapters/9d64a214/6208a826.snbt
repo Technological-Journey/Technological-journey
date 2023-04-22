@@ -1,0 +1,97 @@
+{
+	icon: "gregtech:machine 1 4224",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"The Advanced Large Chemical Reactor (ALCR) is the large machine equivalent to the Large Chemical Reactor, which itself is the large machine equivalent to the Chemical Reactor...yeah",
+		"",
+		"Unlike the LCR, the ALCR is much larger (5x5) and require component blocks which dictate the maximum recipe tier.",
+		"",
+		"To compensate, the ALCR can parallelise recipes to ridiculous levels.",
+		"",
+		"The ALCR can also double as the Chemical Plant, which is required for very advanced chemistry later on, as well as allowing for recipe skips of many of the chemicals you've synthesised so far (including Epoxy, PTFE, and even PBI)"
+	],
+	dependencies: [
+		"7cc1a7ba"
+	],
+	tasks: [{
+		uid: "87f106c6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4224"
+		}]
+	},
+	{
+		uid: "1f72f407",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "43cc0dfd",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "af9bff4c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 710"
+		}]
+	},
+	{
+		uid: "3b7c17ab",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 711"
+		}]
+	},
+	{
+		uid: "706584c2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}]
+	},
+	{
+		uid: "6dd2b4e6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "acefefd1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 754"
+		}]
+	},
+	{
+		uid: "694d40da",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 14"
+		}],
+		count: 12L
+	},
+	{
+		uid: "6b52e04b",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "7dda9426",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10840",
+		count: 32
+	}]
+}

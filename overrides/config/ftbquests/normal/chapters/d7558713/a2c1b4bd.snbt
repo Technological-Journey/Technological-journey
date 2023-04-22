@@ -1,9 +1,10 @@
 {
-	x: 4.5d,
+	x: 2.5d,
 	y: -4.0d,
 	dependencies: [
 		"a7da6a78"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "7d846503",
 		type: "checkmark",
@@ -15,5 +16,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "5b2fdf16",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rhodium_sulfate",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

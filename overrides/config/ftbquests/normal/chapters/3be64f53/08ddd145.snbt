@@ -1,0 +1,17 @@
+{
+	x: -10.5d,
+	y: -4.5d,
+	text: [
+		"Used to transfer Qubits."
+	],
+	dependencies: [
+		"4985db81"
+	],
+	tasks: [{
+		uid: "040f824a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_cable"
+		}]
+	}]
+}

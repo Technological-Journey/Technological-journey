@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 5.0d,
+	text: [
+		"Like naquadah rods, enriched naquadah rods can be used to boost fissile breeding. "
+	],
+	dependencies: [
+		"1bcba84d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b7ece504",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 14309"
+		}],
+		count: 2L
+	}]
+}

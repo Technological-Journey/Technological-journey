@@ -1,11 +1,13 @@
 {
 	icon: "gtadditions:ga_dust 1 920",
-	x: -6.5d,
+	x: -7.0d,
 	y: -2.5d,
 	shape: "rsquare",
 	tasks: [{
-		uid: "735d8d2f",
-		type: "checkmark",
-		title: "Nitronium Tetrafluoroborate"
+		uid: "656532fd",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 920"
+		}]
 	}]
 }

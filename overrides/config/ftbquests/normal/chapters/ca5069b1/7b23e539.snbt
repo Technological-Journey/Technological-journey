@@ -6,9 +6,10 @@
 		"The recipes for Trinium production have been significantly changed. Your perfluorobenzene and fluorocarborane is now fully recycled, making trinium not only possible but actually relatively painless to passive. The only inputs are triinite, carbon nanotubes, and fullerene"
 	],
 	tasks: [{
-		uid: "7fa57add",
-		type: "checkmark",
-		title: "Decaborane",
-		icon: "gtadditions:ga_dust 1 931"
+		uid: "96eff019",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 931"
+		}]
 	}]
 }

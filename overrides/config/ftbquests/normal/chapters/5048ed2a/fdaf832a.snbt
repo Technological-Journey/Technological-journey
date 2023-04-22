@@ -1,6 +1,6 @@
 {
-	x: -1.5d,
-	y: 0.5d,
+	x: 11.0d,
+	y: 7.0d,
 	shape: "rsquare",
 	text: [
 		"Large variants of machines have a few perks. For starters they have an eu per recipe cost reduction and a time per recipe reduction. They also run a certain amount of recipes at once in parallel, as well as provide an increased chance at outputs when running chanced recipes. ",

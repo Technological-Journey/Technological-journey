@@ -1,6 +1,11 @@
 {
 	x: -2.5d,
 	y: -2.0d,
+	text: [
+		"The ME Extended Processing Pattern Terminal uses a 4x4 grid to store recipe inputs and a 2x3 grid to store recipe outputs, as opposed to the 3x3 and 1x3 grids of the regular pattern terminal.",
+		"",
+		"Use this to encode patterns for the Assembly Line."
+	],
 	dependencies: [
 		"a0d45962"
 	],

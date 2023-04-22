@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 6.0d,
+	text: [
+		"Like naquadah rods, naquadria rods can be used to boost fissile breeding. "
+	],
+	dependencies: [
+		"1bcba84d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0e93f46e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 14310"
+		}],
+		count: 2L
+	}]
+}

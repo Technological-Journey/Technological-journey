@@ -1,0 +1,25 @@
+{
+	title: "Americium Fuels",
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4e05035b"
+	],
+	tasks: [{
+		uid: "c9623f47",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16809"
+		}]
+	},
+	{
+		uid: "48931bfa",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16808"
+		}]
+	}]
+}

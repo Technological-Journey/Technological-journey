@@ -1,5 +1,5 @@
 {
-	x: 3.0d,
+	x: 0.5d,
 	y: 4.0d,
 	shape: "rsquare",
 	tasks: [{

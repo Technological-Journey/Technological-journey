@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"A block of pure Californium is the artifact needed to travel to Mars.",
+		"",
+		"Check the quest in the space chapter to see what goodies Mars offers."
+	],
+	dependencies: [
+		"333c0909"
+	],
+	tasks: [{
+		uid: "ec8fd3f3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_49 1 13"
+		}]
+	}]
+}

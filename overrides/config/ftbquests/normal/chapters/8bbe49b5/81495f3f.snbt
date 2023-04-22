@@ -1,7 +1,7 @@
 {
 	title: "Airtight Seal",
-	x: 6.5d,
-	y: 0.0d,
+	x: 5.0d,
+	y: 1.5d,
 	text: [
 		"Make 4 Airtight Seal books for some free levels. You can put it on EnderIO armor (and draconic, later on) to get arround the spacesuit. "
 	],

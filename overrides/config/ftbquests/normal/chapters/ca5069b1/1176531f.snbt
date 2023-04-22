@@ -5,9 +5,10 @@
 		"d89fb588"
 	],
 	tasks: [{
-		uid: "b3cd7a12",
-		type: "checkmark",
-		title: "Actinium Trinium Hydroxides",
-		icon: "gtadditions:ga_dust 1 937"
+		uid: "c45de098",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 937"
+		}]
 	}]
 }

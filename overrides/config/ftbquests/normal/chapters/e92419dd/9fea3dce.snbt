@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	dependencies: [
+		"d7f5ab11",
+		"c59c0167"
+	],
+	tasks: [{
+		uid: "a155ec8e",
+		type: "checkmark",
+		title: "Tb-Ho Oxides Solution Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "tb_ho_oxides_solution",
+				Amount: 1000
+			}
+		}
+	}]
+}

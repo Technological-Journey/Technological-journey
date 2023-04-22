@@ -1,0 +1,32 @@
+{
+	title: "Californium Fuels",
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"333c0909"
+	],
+	tasks: [{
+		uid: "069abe75",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 17795"
+		}]
+	},
+	{
+		uid: "e6218f37",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 17793"
+		}]
+	},
+	{
+		uid: "839b7af2",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16794"
+		}]
+	}]
+}

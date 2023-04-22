@@ -1,0 +1,25 @@
+{
+	title: "Berkelium Fuels",
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"15116889"
+	],
+	tasks: [{
+		uid: "cab39441",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16799"
+		}]
+	},
+	{
+		uid: "401dafec",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16798"
+		}]
+	}]
+}

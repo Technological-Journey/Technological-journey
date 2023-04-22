@@ -1,7 +1,7 @@
 {
 	icon: "gregtech:machine 1 2529",
-	x: 4.5d,
-	y: 0.5d,
+	x: 14.5d,
+	y: 7.0d,
 	dependencies: [
 		"fdaf832a"
 	],

@@ -1,0 +1,35 @@
+{
+	title: "Fluorotoluene",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "fluorotoluene",
+			Amount: 1000
+		}
+	},
+	x: 5.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"662a97ab"
+	],
+	tasks: [{
+		uid: "57651d4e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluorotoluene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "505853e7",
+		type: "checkmark"
+	}]
+}

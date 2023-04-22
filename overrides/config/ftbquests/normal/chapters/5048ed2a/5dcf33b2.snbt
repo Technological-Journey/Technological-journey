@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: 2.0d,
+	x: 1.5d,
+	y: 5.0d,
 	shape: "rsquare",
 	text: [
 		"Processing bastnasite is the only way to get neodymium for the time being. "

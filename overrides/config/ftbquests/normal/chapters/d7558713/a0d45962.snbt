@@ -5,10 +5,10 @@
 	text: [
 		"The assembly line! This is your gate into LuV and beyond. This multiblock differs a lot from the previous ones you've likely built, since it takes each input item in an individual ULV input bus (hope you have wrought iron on auto craft) as well as up to 4 fluids.",
 		"",
-		"There are a few ways you can handle autocrafting with the assline. You can use AA item lasers (detailed in another quest), AE2 item P2P, a subnet with storage buses, however you do it, you *will* need to automate crafting with it, since it's used every where going forward, like the 2 robot arms the questbook wants you to craft next!",
+		"There are a few ways you can handle autocrafting with the assline. You can use AA item lasers (detailed in another quest), AE2 item P2P, a subnet with storage buses, however you do it, you *will* need to automate crafting with it, since it's used every where going forward.",
 		"",
 		"(The assembly line is NOT ordered like in GT5u, so you can simply insert items and call it a day.)"
-	]
+	],
 	dependencies: [
 		"e2349c2d",
 		"add803cf",

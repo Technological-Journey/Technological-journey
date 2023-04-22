@@ -1,0 +1,13 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	dependencies: [
+		"1c3973ba"
+	],
+	tasks: [{
+		uid: "bab140c1",
+		type: "checkmark",
+		title: "Uranium Nitrite",
+		icon: "gtadditions:ga_meta_item 1 7822"
+	}]
+}

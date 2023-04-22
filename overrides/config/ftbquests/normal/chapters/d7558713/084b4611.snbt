@@ -6,9 +6,10 @@
 		"cf7ce3d4"
 	],
 	tasks: [{
-		uid: "a56777fa",
-		type: "checkmark",
-		title: "Naquadria Concentrate Dust",
-		icon: "gtadditions:ga_dust 1 5"
+		uid: "254c5090",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 5"
+		}]
 	}]
 }

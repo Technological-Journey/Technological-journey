@@ -1,6 +1,6 @@
 {
 	icon: "gtadditions:ga_dust 1 925",
-	x: -5.5d,
+	x: -6.0d,
 	y: -1.5d,
 	text: [
 		"'THESE ARENT EVEN CAPITALISED? WHAT' -some",
@@ -12,8 +12,10 @@
 		"9ec1a6be"
 	],
 	tasks: [{
-		uid: "2faf026c",
-		type: "checkmark",
-		title: "Crude Hexanitrohexaaxaisowurtzitane"
+		uid: "2408e8ed",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 925"
+		}]
 	}]
 }

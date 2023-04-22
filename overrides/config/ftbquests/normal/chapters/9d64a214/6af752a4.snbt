@@ -1,10 +1,11 @@
 {
-	x: 4.5d,
+	x: 3.5d,
 	y: -1.0d,
 	dependencies: [
 		"829d7871",
 		"3c6dd9e6"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "0ae6248b",
 		type: "checkmark",
@@ -16,5 +17,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "9f05793f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polyamic_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

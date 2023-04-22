@@ -5,9 +5,10 @@
 		"935a9397"
 	],
 	tasks: [{
-		uid: "87de2d4a",
-		type: "checkmark",
-		title: "Cesium Carborane",
-		icon: "gtadditions:ga_dust 1 933"
+		uid: "13910691",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 933"
+		}]
 	}]
 }

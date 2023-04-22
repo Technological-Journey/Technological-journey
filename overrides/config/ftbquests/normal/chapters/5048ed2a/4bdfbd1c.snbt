@@ -1,7 +1,7 @@
 {
 	icon: "gregtech:machine 1 2562",
-	x: 9.5d,
-	y: 0.5d,
+	x: 14.5d,
+	y: 12.0d,
 	text: [
 		"About now, you're probably looking for a way to store power. Buffered fuels are incredibly strong, as laid out in the 'All the Power' quest tab. However, if you're really looking to store raw EU, this is the way to do it. ",
 		"",

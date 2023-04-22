@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: -4.0d,
+	dependencies: [
+		"1fa802a2"
+	],
+	tasks: [{
+		uid: "313b5a6f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2466"
+		}]
+	},
+	{
+		uid: "4a62226d",
+		type: "checkmark",
+		title: "2-Ethylhexonal Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ethylhexanol",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,9 +1,10 @@
 {
-	x: 3.5d,
+	x: 2.5d,
 	y: -2.0d,
 	dependencies: [
 		"81609339"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "c014555a",
 		type: "checkmark",
@@ -15,5 +16,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "3de26073",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluorinated_ethylene_propylene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

@@ -1,0 +1,18 @@
+{
+	title: "Fermium Fuels",
+	x: 0.5d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cb45172c"
+	],
+	tasks: [{
+		uid: "13cf1a0c",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 17784"
+		}]
+	}]
+}

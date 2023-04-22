@@ -1,10 +1,10 @@
 {
-	x: 8.0d,
-	y: 1.0d,
+	x: 9.0d,
+	y: 4.0d,
+	shape: "rsquare",
 	text: [
 		"This will be the bottleneck in SGM production. You may wish to overclock this to ZPM."
 	],
-	shape: "rsquare",
 	tasks: [{
 		uid: "ce8f7aae",
 		type: "item",

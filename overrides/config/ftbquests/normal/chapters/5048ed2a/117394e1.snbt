@@ -1,7 +1,7 @@
 {
 	title: "Hydrochloric + Nitric Acid",
 	x: 7.5d,
-	y: 2.0d,
+	y: 4.0d,
 	shape: "rsquare",
 	tasks: [{
 		uid: "4631214a",

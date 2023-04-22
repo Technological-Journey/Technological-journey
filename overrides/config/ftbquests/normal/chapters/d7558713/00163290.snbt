@@ -1,7 +1,11 @@
 {
-	x: 0.0d,
+	title: "YBC Nitrate Dusts",
+	x: -0.5d,
 	y: -5.0d,
 	shape: "rsquare",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "cc514f0f",
 		type: "item",

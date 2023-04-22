@@ -1,8 +1,14 @@
 {
-	x: 7.5d,
+	title: "Bio Reactor (BR)",
+	icon: "gregtech:machine 1 4170",
+	x: 6.0d,
 	y: 3.0d,
 	text: [
-		"Dubnium is obviously very biologically stable, particularly in screw form. "
+		"Dubnium is obviously very biologically stable, particularly in screw form.",
+		"",
+		"The Bio Reactor (BR) will be used for producing biological compounds (hope you have your degree in organic chemistry :troll:)",
+		"",
+		"This is how you will produce and duplicate the different bacteria needed for SGM and advanced circuits."
 	],
 	dependencies: [
 		"ba9fde09"

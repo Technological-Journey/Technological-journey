@@ -1,6 +1,6 @@
 {
 	x: 2.0d,
-	y: 9.0d,
+	y: 3.0d,
 	shape: "hexagon",
 	text: [
 		"Draconium is a UHV wire material. This can be useful for power infrastructure given the fact that a 1x wire carries 10 UHV amps. It may even be cheaper to use draconium wires for previous tiers when setting up the enourmous automation lines that you are soon to need.",

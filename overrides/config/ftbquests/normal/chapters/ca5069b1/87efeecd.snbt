@@ -1,0 +1,35 @@
+{
+	title: "Benzenediazonium Tetrafluoroborate",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "benzenediazonium_tetrafluoroborate",
+			Amount: 1000
+		}
+	},
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b0586ad"
+	],
+	tasks: [{
+		uid: "af3fbeb1",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "benzenediazonium_tetrafluoroborate",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4dc60ed5",
+		type: "checkmark"
+	}]
+}

@@ -1,10 +1,11 @@
 {
 	x: -8.5d,
 	y: -3.5d,
+	shape: "rsquare",
 	text: [
 		"Fluoroantimonic acid is perfectly looped in every naquadah line."
 	],
-	shape: "rsquare",
+	or_tasks: true,
 	tasks: [{
 		uid: "c2ae59f4",
 		type: "checkmark",
@@ -16,5 +17,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "54decd51",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluoroantimonic_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

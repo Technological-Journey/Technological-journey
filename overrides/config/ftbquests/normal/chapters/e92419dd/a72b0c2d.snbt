@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 6.0d,
+	text: [
+		"The Decay Chamber will accelerate radioactive beta decay on nuclear fuels put inside. This will cause the nuclear fuels to decay into lighter isotopes.",
+		"",
+		"Used for NBR combos and some niche recipes."
+	],
+	dependencies: [
+		"1bcba84d"
+	],
+	tasks: [{
+		uid: "37a20915",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3203"
+		}]
+	}]
+}

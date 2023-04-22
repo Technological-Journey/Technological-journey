@@ -1,0 +1,21 @@
+{
+	icon: "gregtech:warning_sign 1 2",
+	x: -1.5d,
+	y: -4.0d,
+	text: [
+		"Welcome to gregicality nuclear - your means of obtaining neptunium, plutonium, americium, curium, berkelium, californium, einstienium, fermium, and mendelevium, along with the majority of elements in small quantities.",
+		"",
+		"Nuclear can be summarized as a ladder, with rungs consisting of fissile elements starting with uranium. Each element must be processed into isotopes and run through a reactor to create depleted fuel, which can be processed for a dust of the next 'rung' on the ladder. For instance, depleted uranium is processed into neptunium. ",
+		"",
+		"You will have to climb the entire nuclear ladder eventually, but for now you should begin by creating the uranium line detailed on the right. One thing to keep in mind when embarking on this project is that you'll have to copy this line for every rung on the ladder eventually, so leave some space. "
+	],
+	dependencies: [
+		"6209f41f"
+	],
+	tasks: [{
+		uid: "f1437df5",
+		type: "checkmark",
+		title: "What the hell is all this?",
+		icon: "gtadditions:ga_meta_item 1 16076"
+	}]
+}

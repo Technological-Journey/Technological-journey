@@ -1,7 +1,8 @@
 {
-	x: 3.5d,
+	x: 2.5d,
 	y: -3.0d,
 	shape: "rsquare",
+	or_tasks: true,
 	tasks: [{
 		uid: "c6a325a0",
 		type: "checkmark",
@@ -13,5 +14,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "748913c5",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hexafluoropropylene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

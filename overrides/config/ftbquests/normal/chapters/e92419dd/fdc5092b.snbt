@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: -6.0d,
+	shape: "rsquare",
+	text: [
+		"Trouble finding zirkelite for zirconium? We got you covered."
+	],
+	tasks: [{
+		uid: "35b85728",
+		type: "checkmark",
+		icon: "gregtech:ore_zirkelite_0 1 6"
+	}],
+	rewards: [{
+		uid: "c31d500f",
+		type: "item",
+		item: {
+			id: "scannable:module_block",
+			tag: {
+				meta: 6,
+				block: "gregtech:ore_zirkelite_0"
+			}
+		}
+	}]
+}

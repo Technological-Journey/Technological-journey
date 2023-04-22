@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	text: [
+		"The catalyst for PEEK."
+	],
+	tasks: [{
+		uid: "ee742dfc",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 77"
+		}]
+	}]
+}

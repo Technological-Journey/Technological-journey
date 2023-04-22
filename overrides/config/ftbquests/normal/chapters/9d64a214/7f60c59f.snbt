@@ -1,6 +1,6 @@
 {
-	x: -1.5d,
-	y: 0.0d,
+	x: -2.5d,
+	y: -1.0d,
 	text: [
 		"You can now make rutherfordium boules. They are relatively expensive for you at the moment, but may be worth it for the increased chip yeild and new ",
 		"recipe unlocks. Plus, you'll need them later for HASoCs. "

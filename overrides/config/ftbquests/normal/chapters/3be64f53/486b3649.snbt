@@ -1,6 +1,9 @@
 {
 	x: -8.5d,
 	y: -1.5d,
+	text: [
+		"Used in the Stellar Forge to detonate material into exotic plasmas."
+	],
 	dependencies: [
 		"a50cb1ff"
 	],

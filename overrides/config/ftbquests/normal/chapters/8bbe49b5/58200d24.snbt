@@ -1,6 +1,6 @@
 {
-	x: 4.5d,
-	y: -4.5d,
+	x: 4.0d,
+	y: 0.5d,
 	shape: "rsquare",
 	text: [
 		"#wiki in the TJ discord contains a link discribing how to build the structures and go to space. You can also just ask us questions :)"

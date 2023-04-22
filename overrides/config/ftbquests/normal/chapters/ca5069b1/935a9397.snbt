@@ -5,9 +5,10 @@
 		"7b23e539"
 	],
 	tasks: [{
-		uid: "6202d29e",
-		type: "checkmark",
-		title: "Cesium Carborane Precursor",
-		icon: "gtadditions:ga_dust 1 932"
+		uid: "b9d2f401",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 932"
+		}]
 	}]
 }

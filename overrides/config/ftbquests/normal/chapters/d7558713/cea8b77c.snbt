@@ -1,6 +1,6 @@
 {
-	x: -3.5d,
-	y: -2.0d,
+	x: -4.0d,
+	y: -3.5d,
 	text: [
 		"Item lasers are very useful for automating the assembly line and the circuit assembly line. Below is a short summary of their mechanics. ",
 		"",

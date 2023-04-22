@@ -1,6 +1,6 @@
 {
 	x: -1.5d,
-	y: 3.0d,
+	y: 2.5d,
 	text: [
 		"Manipulates quantum uncertaincy to perform parallel computation. Why are ender eyes and plutonium 244 able to create quantum uncertancy? It's better not to ask these questions. "
 	],

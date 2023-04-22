@@ -1,13 +1,17 @@
 {
-	x: 4.5d,
+	x: 2.5d,
 	y: -1.0d,
+	text: [
+		"You will eventually be able to mine Rhodium Salt Ore on Mars, but that isn't until you synthesise Californium in the Nuclear chain."
+	],
 	dependencies: [
 		"9cb25d42"
 	],
 	tasks: [{
-		uid: "c583be47",
-		type: "checkmark",
-		title: "Rhodium Salt Dust",
-		icon: "gregtech:meta_item_1 1 2867"
+		uid: "185f4279",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2867"
+		}]
 	}]
 }

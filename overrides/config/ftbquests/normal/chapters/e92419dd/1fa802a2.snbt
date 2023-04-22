@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -5.0d,
+	dependencies: [
+		"821b11aa"
+	],
+	tasks: [{
+		uid: "4b23bfa1",
+		type: "checkmark",
+		title: "Butyraldehyde Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "butyraldehyde",
+				Amount: 1000
+			}
+		}
+	}]
+}

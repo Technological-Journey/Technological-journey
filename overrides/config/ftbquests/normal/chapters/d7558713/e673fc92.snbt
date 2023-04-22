@@ -5,9 +5,10 @@
 		"e75d5649"
 	],
 	tasks: [{
-		uid: "89c02752",
-		type: "checkmark",
-		title: "Indium Trioxide Dust",
-		icon: "gtadditions:ga_dust 1 2"
+		uid: "f67b71c9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 2"
+		}]
 	}]
 }

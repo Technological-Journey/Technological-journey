@@ -1,6 +1,9 @@
 {
 	x: -12.5d,
 	y: -4.5d,
+	text: [
+		"The final form of the Void Ore Miner."
+	],
 	dependencies: [
 		"fddd9342"
 	],

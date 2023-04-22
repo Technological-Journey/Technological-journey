@@ -1,6 +1,6 @@
 {
-	x: -0.5d,
-	y: 0.5d,
+	x: 11.0d,
+	y: 6.0d,
 	text: [
 		"Component blocks are used in several multiblocks, and dictate the tier of recipe the multi is able to run. A multiblock with an EV motor block will be able to run (and overclock) recipies that use up to and including 2048 EU/t, but won't be able to do more costly recipes even with the appropriate amount of power. They must go in the places indicated in the JEI preview, but do not have to be the same tier as indicated. "
 	],

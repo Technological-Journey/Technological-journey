@@ -1,6 +1,9 @@
 {
 	x: -4.0d,
 	y: -0.5d,
+	text: [
+		"A special type of interface that will push all the contents of the requested recipe at once. Useful for taking advantage of multiblock parallels."
+	],
 	dependencies: [
 		"2b763f38"
 	],

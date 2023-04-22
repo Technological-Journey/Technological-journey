@@ -1,0 +1,35 @@
+{
+	title: "Fluoroboric Acid",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "fluoroboric_acid",
+			Amount: 1000
+		}
+	},
+	x: 6.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1a76ed97"
+	],
+	tasks: [{
+		uid: "a33d425a",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluoroboric_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3e6b1a5",
+		type: "checkmark"
+	}]
+}

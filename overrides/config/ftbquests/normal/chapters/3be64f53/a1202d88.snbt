@@ -1,0 +1,19 @@
+{
+	title: "Dibromomethylbenzene",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "dibromomethylbenzene",
+			Amount: 1000
+		}
+	},
+	x: -10.5d,
+	y: 4.5d,
+	dependencies: [
+		"57e315fa"
+	],
+	tasks: [{
+		uid: "af52b364",
+		type: "checkmark"
+	}]
+}

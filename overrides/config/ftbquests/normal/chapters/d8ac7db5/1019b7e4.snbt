@@ -1,6 +1,9 @@
 {
-	x: 9.0d,
-	y: 6.0d,
+	x: 7.0d,
+	y: 5.0d,
+	text: [
+		"INFINITE BRAIN POWAAAAAAAAAAAAAAAAAAA!"
+	],
 	dependencies: [
 		"df5304e3",
 		"d20e276e"
@@ -11,5 +14,11 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32018"
 		}]
+	}],
+	rewards: [{
+		uid: "8839f598",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32018",
+		count: 32
 	}]
 }

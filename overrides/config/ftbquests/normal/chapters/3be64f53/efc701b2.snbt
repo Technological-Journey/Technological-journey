@@ -1,13 +1,15 @@
 {
 	icon: "gtadditions:ga_dust 1 928",
-	x: -2.5d,
+	x: -3.0d,
 	y: -3.5d,
 	dependencies: [
 		"e332093d"
 	],
 	tasks: [{
-		uid: "413579c6",
-		type: "checkmark",
-		title: "Hydroxylammonium Sulfate"
+		uid: "26ff0008",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 928"
+		}]
 	}]
 }

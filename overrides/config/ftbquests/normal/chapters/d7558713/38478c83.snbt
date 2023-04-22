@@ -1,13 +1,17 @@
 {
 	x: -8.5d,
 	y: 0.0d,
+	text: [
+		"Your recycled indium which can now be used elsewhere."
+	],
 	dependencies: [
 		"e673fc92"
 	],
 	tasks: [{
-		uid: "5e17cb21",
-		type: "checkmark",
-		title: "Indium Dust",
-		icon: "gregtech:meta_item_1 1 2031"
+		uid: "42fcce28",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2031"
+		}]
 	}]
 }

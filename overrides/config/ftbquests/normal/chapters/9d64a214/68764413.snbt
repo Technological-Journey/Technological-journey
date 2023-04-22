@@ -1,7 +1,8 @@
 {
-	x: 4.5d,
+	x: 3.5d,
 	y: -3.0d,
 	shape: "rsquare",
+	or_tasks: true,
 	tasks: [{
 		uid: "462bb9e4",
 		type: "checkmark",
@@ -13,5 +14,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "3d23b657",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "aniline",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

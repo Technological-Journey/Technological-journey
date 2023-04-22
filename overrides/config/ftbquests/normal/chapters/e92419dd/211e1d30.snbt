@@ -1,0 +1,78 @@
+{
+	icon: "gregtech:machine 1 4020",
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"Some isotopes will be super unbalanced. Keep this in mind."
+	],
+	dependencies: [
+		"56eaadea"
+	],
+	tasks: [{
+		uid: "f195424e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4020"
+		}]
+	},
+	{
+		uid: "1ba714bd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 732"
+		}]
+	},
+	{
+		uid: "26409b1e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 744"
+		}]
+	},
+	{
+		uid: "2905b2da",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 733"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e97409e7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "201a8cd9",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}],
+		count: 34L
+	},
+	{
+		uid: "6dc23ab5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	},
+	{
+		uid: "b259ae05",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "4f3a4594",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 20L
+	}]
+}

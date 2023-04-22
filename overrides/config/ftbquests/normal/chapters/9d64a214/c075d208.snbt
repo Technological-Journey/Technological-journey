@@ -1,4 +1,5 @@
 {
+	icon: "gregtech:machine 1 2504",
 	x: -1.5d,
 	y: -2.0d,
 	shape: "hexagon",
@@ -12,7 +13,7 @@
 	],
 	dependencies: [
 		"043b9bfb",
-		"6b61ba5b",
+		"295a163f",
 		"1bcba84d",
 		"3a3e5f19"
 	],
@@ -22,6 +23,53 @@
 		items: [{
 			item: "gregtech:machine 1 2504"
 		}]
+	},
+	{
+		uid: "2dcbf3e6",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7423e05b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 764"
+		}],
+		count: 16L
+	},
+	{
+		uid: "038a7241",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 713"
+		}]
+	},
+	{
+		uid: "cb0de272",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 712"
+		}],
+		count: 2L
+	},
+	{
+		uid: "060ce9d1",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 3"
+		}],
+		count: 64L
+	},
+	{
+		uid: "729afe6f",
+		type: "item",
+		items: [{
+			item: "gregtech:multiblock_casing 1 3"
+		}],
+		count: 44L
 	}],
 	rewards: [{
 		uid: "e6e2b942",

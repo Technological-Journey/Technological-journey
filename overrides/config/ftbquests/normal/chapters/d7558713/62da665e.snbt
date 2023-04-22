@@ -1,6 +1,9 @@
 {
-	x: 1.0d,
-	y: 4.0d,
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"Just call them Quantum Eyes, please."
+	],
 	dependencies: [
 		"1c081d91"
 	],

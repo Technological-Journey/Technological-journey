@@ -1,0 +1,35 @@
+{
+	title: "Dichlorobenzidine",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "dichlorobenzidine",
+			Amount: 1000
+		}
+	},
+	x: 6.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7fa793bf"
+	],
+	tasks: [{
+		uid: "9d406d9c",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dichlorobenzidine",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d261cb3c",
+		type: "checkmark"
+	}]
+}

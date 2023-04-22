@@ -1,4 +1,5 @@
 {
+	icon: "gregtech:machine 1 2505",
 	x: 5.0d,
 	y: 2.0d,
 	text: [

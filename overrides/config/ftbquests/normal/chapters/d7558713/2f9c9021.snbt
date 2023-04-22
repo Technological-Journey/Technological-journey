@@ -6,9 +6,10 @@
 		"8c2073ac"
 	],
 	tasks: [{
-		uid: "a92b466f",
-		type: "checkmark",
-		title: "Naquadah Concentrate Dust",
-		icon: "gtadditions:ga_dust 1 3"
+		uid: "218d479a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 3"
+		}]
 	}]
 }

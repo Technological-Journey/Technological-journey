@@ -1,0 +1,25 @@
+{
+	title: "Einsteinium Fuels",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1aa6fefb"
+	],
+	tasks: [{
+		uid: "541a76f7",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16787"
+		}]
+	},
+	{
+		uid: "6997d68a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 16789"
+		}]
+	}]
+}

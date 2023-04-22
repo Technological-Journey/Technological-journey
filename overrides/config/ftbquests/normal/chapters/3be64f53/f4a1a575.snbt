@@ -1,6 +1,9 @@
 {
 	x: -11.5d,
-	y: 2.5d,
+	y: 1.5d,
+	text: [
+		"The first recipe to require the use of Qubits."
+	],
 	dependencies: [
 		"4985db81",
 		"a71d55ba"

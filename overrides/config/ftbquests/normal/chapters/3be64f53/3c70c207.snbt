@@ -1,6 +1,6 @@
 {
 	x: -10.5d,
-	y: -1.5d,
+	y: -2.5d,
 	dependencies: [
 		"a35fb27d"
 	],
@@ -10,14 +10,6 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 10856"
 		}]
-	},
-	{
-		uid: "591d308a",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_heating_coil 1 2"
-		}],
-		count: 16L
 	}],
 	rewards: [{
 		uid: "019518f0",

@@ -1,9 +1,10 @@
 {
-	x: 4.5d,
+	x: 3.5d,
 	y: -2.0d,
 	dependencies: [
 		"68764413"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "891e1dc1",
 		type: "checkmark",
@@ -15,5 +16,18 @@
 				Amount: 1000
 			}
 		}
+	},
+	{
+		uid: "7658ff34",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oxydianiline",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

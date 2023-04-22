@@ -1,0 +1,32 @@
+{
+	title: "Chlorobenzene",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "chlorobenzene",
+			Amount: 1000
+		}
+	},
+	x: 6.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "447c7447",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "chlorobenzene",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4623f1e9",
+		type: "checkmark"
+	}]
+}

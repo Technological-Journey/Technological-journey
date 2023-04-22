@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	shape: "hexagon",
+	text: [
+		"If you are in EV, you can stop your nuclear chain here, only needing Plutonium 244 for Quantum Circuits.",
+		"",
+		"Resume when you are in LuV and need Curium for the Fusion Reactor Mk1 Controller Block."
+	],
+	dependencies: [
+		"0a2c84b3"
+	],
+	tasks: [{
+		uid: "ef74563a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10052"
+		}]
+	}],
+	rewards: [{
+		uid: "16a94c2a",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32315",
+		count: 32
+	}]
+}

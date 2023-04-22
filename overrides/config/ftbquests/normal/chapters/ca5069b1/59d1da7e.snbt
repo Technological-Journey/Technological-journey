@@ -1,0 +1,37 @@
+{
+	title: "Polyetheretherketone (PEEK)",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "polyetheretherketone",
+			Amount: 1000
+		}
+	},
+	x: 7.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"830806b1",
+		"82ced660"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "4b9df318",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polyetheretherketone",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d308e4e2",
+		type: "checkmark"
+	}]
+}

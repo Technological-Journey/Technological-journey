@@ -1,14 +1,38 @@
 {
-	title: "Mob farm?",
-	x: 12.0d,
-	y: 1.0d,
+	title: "Blood",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "blood",
+			Amount: 1000
+		}
+	},
+	x: 10.0d,
+	y: 2.0d,
 	shape: "rsquare",
 	text: [
-		"Pig soul vials can be obtained from a spawner on capture mode and can be used to make pork chops in the vial processor. These in turn can be used to make minced meat. You can also drill blood in the nether."
+		"You can get blood in 2 ways.",
+		"",
+		"Pig soul vials can be obtained from a spawner on capture mode and can be used to make pork chops in the vial processor. These in turn can be used to make minced meat. ",
+		"",
+		"Blood is also a fluid vein in the Nether, so you can drill for it there."
 	],
+	or_tasks: true,
 	tasks: [{
-		uid: "a3f1cfe9",
-		type: "checkmark",
-		title: "Mince meat"
+		uid: "1d667339",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blood",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "20073767",
+		type: "checkmark"
 	}]
 }

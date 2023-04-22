@@ -1,14 +1,16 @@
 {
 	icon: "gtadditions:ga_dust 1 915",
-	x: -2.5d,
+	x: -3.0d,
 	y: -1.5d,
 	dependencies: [
 		"8c478c8b",
 		"b127c1a6"
 	],
 	tasks: [{
-		uid: "21a551aa",
-		type: "checkmark",
-		title: "N-Hydroxysuccinimide"
+		uid: "42f13989",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 915"
+		}]
 	}]
 }
