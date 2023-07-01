@@ -357,7 +357,7 @@ chemplant.recipeBuilder()
 
 //Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32488>], [], false);
 //Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_2:32452>], [], false);
-recipes.addShaped(<gregtech:meta_item_2:32452>, [[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>],[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>], [<gregtech:cable:71>, null, <gregtech:cable:71>]]);
+//recipes.addShaped(<gregtech:meta_item_2:32452>, [[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>],[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>], [<gregtech:cable:71>, null, <gregtech:cable:71>]]);
 recipes.addShaped(<gregtech:meta_item_2:32461>, [[<gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>],[<gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>], [<gregtech:cable:71>, <gregtech:cable:71>, <gregtech:cable:71>]]);
 Utils.removeRecipeByOutput(fermenter, [], [<liquid:fermented_biomass>], false);
 
@@ -2337,24 +2337,6 @@ large_chem.recipeBuilder()
 .EUt(30)
 .buildAndRegister();
 
-
-centrifuge.recipeBuilder()
-.outputs([<gregtech:meta_item_1:2286> * 5])
-.fluidInputs(<liquid:barium_sulfate_solution> * 5000)
-.fluidOutputs(<liquid:water> * 5000)
-.duration(70)
-.EUt(14)
-.buildAndRegister();
-
-
-large_centrifuge.recipeBuilder()
-.outputs([<gregtech:meta_item_1:2286> * 5])
-.fluidInputs(<liquid:barium_sulfate_solution> * 5000)
-.fluidOutputs(<liquid:water> * 5000)
-.duration(70)
-.EUt(14)
-.buildAndRegister();
-
 chemreactor.recipeBuilder()
     .inputs([<ore:wool> * 5])
     .fluidInputs(<liquid:glue> * 144,<liquid:polytetrafluoroethylene> * 144)
@@ -2393,4 +2375,197 @@ large_chem.recipeBuilder()
 recipes.addShaped(<contenttweaker:eternityblock>, [[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>],[<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>], [<contenttweaker:eternityingot>, <contenttweaker:eternityingot>, <contenttweaker:eternityingot>]]);
 recipes.addShapeless(<contenttweaker:eternityingot> * 9, [<contenttweaker:eternityblock>]);
 
-recipes.addShaped(<minecraft:diamond_hoe>.withTag({Unbreakable: 1 as long, RepairCost: 1, display: {Name: "Emerald Tipped Diamond Hoe"}}), [[<minecraft:emerald>, <minecraft:emerald>, null],[<minecraft:emerald>, <minecraft:diamond_hoe>, null], [null, null, null]]);
+recipes.addShaped(<minecraft:diamond_hoe>.withTag({Unbreakable: 1 as long, RepairCost: 1, display: {Name: "Unbreakable Emerald Tipped Diamond Hoe"}}), [[<minecraft:emerald>, <minecraft:emerald>, null],[<minecraft:emerald>, <minecraft:diamond_hoe>, null], [null, null, null]]);
+
+
+
+
+
+//capacitor recipes
+recipes.addShaped(<gregtech:meta_item_2:32452> * 4, [[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>],[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>], [<gregtech:cable:71>, null, <gregtech:cable:71>]]);
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_2:32452> * 2], [], false);
+
+assembler.recipeBuilder()
+.inputs([<ore:foilAluminium> * 4,<ore:platePlastic> * 1])
+.outputs([<gregtech:meta_item_2:32452> * 12])
+.duration(80)
+.EUt(16)
+.buildAndRegister();
+
+//new electronic circuit recipe
+
+Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32488>], [], false);
+
+circuit_assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_2:32455> * 8,<gregtech:meta_item_2:32452> * 8, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>])
+.fluidInputs(<liquid:soldering_alloy> * 50)
+.outputs([<gregtech:meta_item_2:32488> * 1])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32241> * 4,<gtadditions:ga_meta_item:32242> * 4, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>])
+.fluidInputs(<liquid:soldering_alloy> * 50)
+.outputs([<gregtech:meta_item_2:32488> * 1])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotSilver> * 9])
+.outputs([<gregtech:meta_block_compressed_3:14> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotPlatinum> * 9])
+.outputs([<gregtech:meta_block_compressed_3:3> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotEnderium> * 9])
+.outputs([<gregtech:meta_block_compressed_60:3> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotLead> * 9])
+.outputs([<gregtech:meta_block_compressed_2:3> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotBronze> * 9])
+.outputs([<gregtech:meta_block_compressed_5:15> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotSilicon> * 9])
+.outputs([<gregtech:meta_block_compressed_3:13> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotCopper> * 9])
+.outputs([<gregtech:meta_block_compressed_1:2> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotTin> * 9])
+.outputs([<gregtech:meta_block_compressed_4:7> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotNickel> * 9])
+.outputs([<gregtech:meta_block_compressed_2:12> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotInvar> * 9])
+.outputs([<gregtech:meta_block_compressed_7:14> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotElectrum> * 9])
+.outputs([<gregtech:meta_block_compressed_7> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+//block fixes
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotSilver> * 9])
+.outputs([<gregtech:meta_block_compressed_3:14> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotPlatinum> * 9])
+.outputs([<gregtech:meta_block_compressed_3:3> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotEnderium> * 9])
+.outputs([<gregtech:meta_block_compressed_60:3> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotLead> * 9])
+.outputs([<gregtech:meta_block_compressed_2:3> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotBronze> * 9])
+.outputs([<gregtech:meta_block_compressed_5:15> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotSilicon> * 9])
+.outputs([<gregtech:meta_block_compressed_3:13> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotCopper> * 9])
+.outputs([<gregtech:meta_block_compressed_1:2> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotTin> * 9])
+.outputs([<gregtech:meta_block_compressed_4:7> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotNickel> * 9])
+.outputs([<gregtech:meta_block_compressed_2:12> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotInvar> * 9])
+.outputs([<gregtech:meta_block_compressed_7:14> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
+
+compressor.recipeBuilder()
+.inputs([<ore:ingotElectrum> * 9])
+.outputs([<gregtech:meta_block_compressed_7> * 1])
+.duration(400)
+.EUt(2)
+.buildAndRegister();
