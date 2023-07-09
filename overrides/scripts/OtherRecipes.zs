@@ -1481,7 +1481,7 @@ recipes.addShaped(<enderio:block_dark_fused_quartz> * 8, [[<ore:blockGlassHarden
 recipes.addShaped(<enderio:block_enlightened_fused_quartz:8> * 8, [[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],[<ore:blockGlassHardened>, <astralsorcery:itemusabledust>, <ore:blockGlassHardened>], [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<enderio:block_dark_fused_quartz> * 8, [[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],[<ore:blockGlassHardened>, <astralsorcery:itemusabledust:1>, <ore:blockGlassHardened>], [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<enderio:block_enlightened_fused_quartz:8> * 8, [[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],[<ore:blockGlassHardened>, <minecraft:glowstone_dust>, <ore:blockGlassHardened>], [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]]);
-recipes.addShaped(<enderio:item_broken_spawner>.withTag({entityId: "minecraft:pig"}), [[<enderio:item_material:74>, <enderio:item_material:52>, <enderio:item_material:74>],[<enderio:item_material:52>, <enderio:item_material:53>, <enderio:item_material:52>], [<enderio:item_material:74>, <enderio:item_material:52>, <enderio:item_material:74>]]);
+recipes.addShaped(<enderio:item_broken_spawner>.withTag({entityId: "minecraft:pig"}), [[<ore:dustSoularium>, <enderio:item_material:52>, <ore:dustSoularium>],[<enderio:item_material:52>, <enderio:item_material:53>, <enderio:item_material:52>], [<ore:dustSoularium>, <enderio:item_material:52>, <ore:dustSoularium>]]);
 
 Utils.removeRecipeByOutput(mixer, [<gregtech:meta_item_1:2227>], [], false);
 
@@ -2086,18 +2086,6 @@ assembly_line.recipeBuilder()
     .EUt(15728640)
     .buildAndRegister();
 
-//supra computer
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32548>], [], true);
-
-assembly_line.recipeBuilder()
-    .inputs(<gregtech:ga_cable:726> * 64, <gtadditions:ga_meta_item:32542> * 32, <gtadditions:ga_meta_item:32544> * 32, <gtadditions:ga_meta_item:32545> * 32,<gtadditions:ga_meta_item:32543> * 32, <gregtech:meta_item_1:12715> * 32 , <gregtech:meta_item_1:12706> * 16, <gtadditions:ga_meta_item:32426> * 12, <gtadditions:ga_meta_item:32547> * 4, <gregtech:meta_item_1:12993> * 4, <gtadditions:ga_meta_item:32424> * 2, <gtadditions:ga_meta_item:32559>,<gtadditions:ga_meta_item:32568>)
-    .outputs(<gtadditions:ga_meta_item:32548>)
-    .fluidInputs(<liquid:taranium> * 288, <liquid:trinium_titanium> * 288, <liquid:proto_adamantium> * 144)
-    .property("qubit", 8)
-    .duration(100)
-    .EUt(491520000)
-    .buildAndRegister();
-
 <gregtech:wire_coil:7>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 <gregtech:wire_coil:8>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 
@@ -2376,9 +2364,48 @@ recipes.addShaped(<contenttweaker:eternityblock>, [[<contenttweaker:eternityingo
 recipes.addShapeless(<contenttweaker:eternityingot> * 9, [<contenttweaker:eternityblock>]);
 
 recipes.addShaped(<minecraft:diamond_hoe>.withTag({Unbreakable: 1 as long, RepairCost: 1, display: {Name: "Unbreakable Emerald Tipped Diamond Hoe"}}), [[<minecraft:emerald>, <minecraft:emerald>, null],[<minecraft:emerald>, <minecraft:diamond_hoe>, null], [null, null, null]]);
+mods.jei.JEI.addItem(<minecraft:diamond_hoe>.withTag({display:{Name: "Unbreakable Emerald Tipped Diamond Hoe"}}));
+
+mixer.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2736> * 4])
+    .inputs([<gregtech:meta_item_1:2735> * 4])
+    .fluidOutputs(<liquid:fusion1> * 1008)
+    .duration(160)
+    .EUt(1000000)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2743> * 4])
+    .inputs([<gregtech:meta_item_1:2742> * 4])
+    .fluidOutputs(<liquid:fusion2> * 1008)
+    .duration(160)
+    .EUt(1000000)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(blast_alloy, [], [<liquid:superheavy_mix> * 4000], false);
+//blast_alloy.findRecipe(25000000, [<gregtech:meta_item_1:2743>, <gregtech:meta_item_1:2742>, <gregtech:meta_item_1:2736>, <gregtech:meta_item_1:2735>, ])
+
+ADVFusion.recipeBuilder()
+    .fluidInputs(<liquid:fusion1> * 288, <liquid:fusion2> * 288)//,<liquid:lead_bismuth_eutatic> * 7440)
+    .fluidOutputs(<liquid:superheavy_mix> * 1000)//, <liquid:supercritical_lead_bismuth_eutectic> * 7440)
+    .property("eu_to_start", 10000000000)
+    .property("coilTier", 4)
+    .property("euReturn", 75)
+    .duration(50)
+    .EUt(4000000)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32607>], [], false);
 
 
-
+assembly_line.recipeBuilder()
+    .inputs([<gtadditions:ga_meta_item:32426> * 64, <gtadditions:ga_meta_item:32603> * 32, <gtadditions:ga_meta_item:32602> * 32, <gtadditions:ga_meta_item:32604> * 32, <gtadditions:ga_meta_item:32601> * 32, <gregtech:meta_item_1:19729> * 32, <gtadditions:ga_meta_item:32424> * 32, <gregtech:ga_cable:737> * 16, <gtadditions:ga_meta_item:32595> * 8, <gtadditions:ga_meta_item:32606> * 4, <gregtech:meta_item_1:12519> * 4])
+    .fluidInputs(<liquid:polyetheretherketone> * 2592, <liquid:vibranium> * 288, <liquid:enriched_naquadah_alloy> * 1296, <liquid:trinium_titanium> * 576)
+    .outputs(<gtadditions:ga_meta_item:32607>)
+    .property("qubit", 2)
+    .duration(300)
+    .EUt(4000000)
+    .buildAndRegister();
 
 
 //capacitor recipes

@@ -86,14 +86,15 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     .EUt(8388608)
     .buildAndRegister();
 
+
     ADVFusion.recipeBuilder()
     .fluidInputs(<liquid:rawchaos> * 288, <liquid:bohrium> * 288)//,<liquid:lead_bismuth_eutatic> * 7440)
     .fluidOutputs(<liquid:plasma.chaos> * 576)//, <liquid:supercritical_lead_bismuth_eutectic> * 7440)
-    .property("eu_to_start", 5000000000)
-    .property("coilTier", 3)
-    .property("euReturn",75)
+    .property("eu_to_start", 2000000000)
+    .property("coilTier", 5)
+    .property("euReturn", 75)
     .duration(50)
-    .EUt(1000000)
+    .EUt(16000000)
     .buildAndRegister();
 
     //recipes.addShaped(<contenttweaker:refinedchaoscrystal>, [[<contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>],[<contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>], [<contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>, <contenttweaker:refinedchaosshard>]]);
