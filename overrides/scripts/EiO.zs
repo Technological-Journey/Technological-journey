@@ -139,12 +139,53 @@ recipes.addShaped(<enderio:item_conduit_facade:2>, [[<enderio:item_material:4>, 
 recipes.remove(<enderio:block_decoration1:15>);
 recipes.remove(<enderio:item_conduit_facade:2>);
 
-    assembler.recipeBuilder()
-        .inputs([<gtadditions:ga_meta_item:1184>,<enderio:item_alloy_ingot:6>])
-        .outputs([<enderio:item_dark_steel_upgrade>])
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<gtadditions:ga_meta_item:1184>,<enderio:item_alloy_ingot:6>])
+    .outputs([<enderio:item_dark_steel_upgrade>])
+    .duration(100)
+    .EUt(30)
+    .buildAndRegister();
+
 recipes.remove(<enderio:item_yeta_wrench>);
 recipes.addShaped(<enderio:item_yeta_wrench>, [[null, <minecraft:iron_ingot>, null],[null, <gregtech:meta_item_1:10071>, null], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
     
+recipes.remove(<enderio:block_tele_pad>);
+
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:32681>,<gregtech:meta_item_1:32691>,<enderio:block_cap_bank:3>,<gregtech:machine:502>* 3])
+    .outputs([<enderio:block_tele_pad> * 9])
+    .duration(180)
+    .EUt(480)
+    .buildAndRegister();
+
+    macerator.recipeBuilder()
+        .inputs([<enderio:item_material:14>])
+        .outputs([<enderio:item_material:36>])
+        .duration(160)
+        .EUt(30)
+        .buildAndRegister();
+
+    macerator.recipeBuilder()
+        .inputs([<enderio:item_material:16>])
+        .outputs([<enderio:item_material:37>])
+        .duration(160)
+        .EUt(30)
+        .buildAndRegister();
+
+    macerator.recipeBuilder()
+        .inputs([<enderio:item_material:19>])
+        .outputs([<enderio:item_material:34>])
+        .duration(160)
+        .EUt(30)
+        .buildAndRegister();
+
+
+    arc.recipeBuilder()
+        .inputs([<gregtech:meta_item_1:2357> * 64])
+        .fluidInputs(<liquid:fire_water> * 100)
+        .outputs([<enderio:item_material:20> * 64])
+        .duration(120)
+        .EUt(28)
+        .buildAndRegister();
+
+

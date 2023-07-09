@@ -601,10 +601,10 @@ h(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:s
 h(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3"}));
 h(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3", "enderio:enabled": 1 as byte}));
 h(<gregtech:machine:4211>);
-h(<enderio:item_material:34>);
+//h(<enderio:item_material:34>);
 h(<enderio:item_material:35>);
-h(<enderio:item_material:36>);
-h(<enderio:item_material:37>);
+//h(<enderio:item_material:36>);
+//h(<enderio:item_material:37>);
 h(<compactmachines3:machine:5>);
 h(<compactmachines3:machine:1>);
 h(<compactmachines3:machine:2>);
