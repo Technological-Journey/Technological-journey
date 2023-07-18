@@ -81,3 +81,5 @@ recipemap.large_vial_processor.name=Large Vial Processor
 material.soularium=Soularium
 multiblocktweaker.multiblock.large_powered_spawner.description=Larger version of Powered Spawner. Generates Vials with mobs in it
 multiblocktweaker.multiblock.large_vial_processor.description=Larger version of the LV vial processor. Turns vials into loot
+fluid.fusion1=Seabohrgium
+fluid.fusion2=Fordnium
