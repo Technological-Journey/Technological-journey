@@ -2425,7 +2425,7 @@ assembler.recipeBuilder()
 Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32488>], [], false);
 
 circuit_assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_2:32455> * 8,<gregtech:meta_item_2:32452> * 8, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>])
+.inputs([<gregtech:meta_item_2:32455> * 8,<gregtech:meta_item_2:32452> * 4, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>])
 .fluidInputs(<liquid:soldering_alloy> * 50)
 .outputs([<gregtech:meta_item_2:32488> * 1])
 .duration(100)
@@ -2433,7 +2433,7 @@ circuit_assembler.recipeBuilder()
 .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
-.inputs([<gtadditions:ga_meta_item:32241> * 4,<gtadditions:ga_meta_item:32242> * 4, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>])
+.inputs([<gtadditions:ga_meta_item:32241> * 2,<gtadditions:ga_meta_item:32242> * 2, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>])
 .fluidInputs(<liquid:soldering_alloy> * 50)
 .outputs([<gregtech:meta_item_2:32488> * 1])
 .duration(100)
@@ -2596,3 +2596,5 @@ compressor.recipeBuilder()
 .duration(400)
 .EUt(2)
 .buildAndRegister();
+
+Utils.removeRecipeByOutput(ADVFusion, [], [<liquid:neutronium> * 1296], true);
