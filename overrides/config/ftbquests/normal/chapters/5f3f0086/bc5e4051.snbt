@@ -4,9 +4,7 @@
 	x: 4.5d,
 	y: -12.0d,
 	text: [
-		"The 'Start of a long journey' quest provides a scanner, as well as a prospector. To use the scanner, right click while holding it. To change which cards are active, shift right click with the scanner in hand. To use the prospector, right click and it will reveal the ore content in the surrounding 3x3 chunks. This prospector has infinite uses, but has limited range and cannot detect fluid veins.",
-		"",
-		"If you don't like carrying around a million variations of chalcopyrite ore, you can use this hammering enchantment on your hammer to make ores drop their crushed form. Note that this reduces the types of ore you pick up, but increases the quantity of items in total. Also, you will have to crush this ore down once more (using a gregtech hammer in a crafting table for now) to get the impure dust, and then process that dust in the manner detailed in the \"Mining in Gregtech\" quest to the left. "
+		"The 'Start of a long journey' quest provides a scanner, as well as a prospector. To use the scanner, right click while holding it. To change which cards are active, shift right click with the scanner in hand. To use the prospector, right click and it will reveal the ore content in the surrounding 3x3 chunks. This prospector has infinite uses, but has limited range and cannot detect fluid veins."
 	],
 	dependencies: [
 		"d83c9621"

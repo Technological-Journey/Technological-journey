@@ -6,8 +6,8 @@
 			Amount: 1000
 		}
 	},
-	x: -2.5d,
-	y: -5.5d,
+	x: -8.0d,
+	y: 0.5d,
 	shape: "rsquare",
 	text: [
 		"There are two ways to get oil.",

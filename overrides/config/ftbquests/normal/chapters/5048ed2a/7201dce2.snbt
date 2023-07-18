@@ -1,0 +1,16 @@
+{
+	x: 18.5d,
+	y: 1.0d,
+	text: [
+		"Nuclear can be overwhelming. There are many isotopes to keep track of and figuring out what to keep vs breed up is a pain. We have many guides on isotopes in #wiki on the packs discord."
+	],
+	dependencies: [
+		"6209f41f"
+	],
+	tasks: [{
+		uid: "9858a4a4",
+		type: "checkmark",
+		title: "Nuclear yay ;(",
+		icon: "minecraft:nether_star"
+	}]
+}

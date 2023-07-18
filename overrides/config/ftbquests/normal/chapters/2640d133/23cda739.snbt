@@ -3,9 +3,11 @@
 	y: 2.0d,
 	shape: "circle",
 	text: [
-		"Finally, steel. This is your gate for the majority of the LV tab, as well as the hull material for LV machines. ",
+		"Finally, steel. This is your gate for the majority of the LV tab, as well as the hull material for LV machines.",
 		"",
-		"This is quite slow, and if you're looking make more steel faster, consider making an industrial primitive blast furance (iPBF). If you don't want to do this, consider making your iron into wrought iron before putting it through the PBF, as it cooks much faster that way.",
+		"This is quite slow, and if you're looking make more steel faster, consider making an industrial primitive blast furance (iPBF). If you don't want to do this, consider making your iron into wrought iron before putting it through the PBF, as it cooks much faster that way. ",
+		"",
+		"IF YOU WANT TO MAKE A IPBF MAKE SURE YOU HAVE ENOUGH STEEL FOR THE BUSES FIRST.",
 		"",
 		"Unlike other multiblocks, this one has a GUI. No busses or hatches needed."
 	],

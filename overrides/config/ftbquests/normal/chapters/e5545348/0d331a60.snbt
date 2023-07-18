@@ -1,6 +1,6 @@
 {
-	x: 3.5d,
-	y: 0.5d,
+	x: -1.5d,
+	y: 7.0d,
 	text: [
 		"Realgar looks like a good source of arsenic, but it doesn't actually generate. All early sources of arsenic require an MV electrolyzer."
 	],

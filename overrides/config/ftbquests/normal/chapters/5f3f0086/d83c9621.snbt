@@ -5,9 +5,16 @@
 	shape: "rsquare",
 	description: "Same old same old, punch a tree.",
 	text: [
+		"",
 		"Welcome to Technological Journey! Smack a tree a few times for some nice gear.",
 		"",
-		"If you want to put hammering on the given hammer, it will allow you to condense different types of ore (ie: stone and diorite) into their crushed varients, at the expense of making more raw items in your inventory. It's your choice."
+		"If you want to put hammering on the given hammer, it will allow you to condense different types of ore varients (ie: stone and diorite) into their crushed varients, at the expense of making more raw items in your inventory. It's your choice. ",
+		"",
+		"While fortune works with this enchant you can only receive a max of 2x the drop amount. We did not want this method to be more advantageous than the macerator.",
+		" ",
+		"§4 Crushed ore must be broken down again with a GT hard hammer to receive impure ore dust.",
+		"Resulting in nuggets instead of ingots.",
+		"It is not advised you use this enchant until you can smelt ore fast."
 	],
 	dependency_requirement: "one_completed",
 	tasks: [{
@@ -98,19 +105,6 @@
 		}
 	},
 	{
-		uid: "5c8e7250",
-		type: "item",
-		item: {
-			id: "minecraft:enchanted_book",
-			tag: {
-				StoredEnchantments: [{
-					id: 36s,
-					lvl: 1s
-				}]
-			}
-		}
-	},
-	{
 		uid: "2bc6b77d",
 		type: "item",
 		item: {
@@ -135,6 +129,19 @@
 					Name: "Basedball Hat"
 				},
 				RepairCost: 1
+			}
+		}
+	},
+	{
+		uid: "7b176e07",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 36s,
+					lvl: 1s
+				}]
 			}
 		}
 	}]
