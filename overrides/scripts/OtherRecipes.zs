@@ -434,7 +434,7 @@ blast_furnace.recipeBuilder()
 
 blast_alloy.recipeBuilder()
     .inputs([<gregtech:meta_item_1:2022>*1, <gregtech:meta_item_1:2184>*4, <gregtech:meta_item_1:2010>*2, <gregtech:meta_item_1:2008>*2])
-    .fluidOutputs(<liquid:bright_steel>*1300)
+    .fluidOutputs(<liquid:bright_steel> * 1296)
     .property("temperature", 2900)
     .duration(1800)
     .EUt(120)
@@ -2366,18 +2366,20 @@ recipes.addShapeless(<contenttweaker:eternityingot> * 9, [<contenttweaker:eterni
 recipes.addShaped(<minecraft:diamond_hoe>.withTag({Unbreakable: 1 as long, RepairCost: 1, display: {Name: "Unbreakable Emerald Tipped Diamond Hoe"}}), [[<minecraft:emerald>, <minecraft:emerald>, null],[<minecraft:emerald>, <minecraft:diamond_hoe>, null], [null, null, null]]);
 mods.jei.JEI.addItem(<minecraft:diamond_hoe>.withTag({display:{Name: "Unbreakable Emerald Tipped Diamond Hoe"}}));
 
-mixer.recipeBuilder()
+blast_alloy.recipeBuilder()
     .inputs([<gregtech:meta_item_1:2736> * 4])
     .inputs([<gregtech:meta_item_1:2735> * 4])
-    .fluidOutputs(<liquid:fusion1> * 1008)
+    .property("temperature", 11200)
+    .fluidOutputs(<liquid:fusion1> * 1152)
     .duration(160)
     .EUt(1000000)
     .buildAndRegister();
 
-mixer.recipeBuilder()
+blast_alloy.recipeBuilder()
     .inputs([<gregtech:meta_item_1:2743> * 4])
+    .property("temperature", 11200)
     .inputs([<gregtech:meta_item_1:2742> * 4])
-    .fluidOutputs(<liquid:fusion2> * 1008)
+    .fluidOutputs(<liquid:fusion2> * 1152)
     .duration(160)
     .EUt(1000000)
     .buildAndRegister();
