@@ -6,10 +6,8 @@
 	},
 	x: 8.5d,
 	y: -14.0d,
-	shape: "diamond",
 	text: [
 		""
 	],
-	custom_click: "https://discord.gg/sKbWskxXdG",
-	optional: true
+	custom_click: "https://discord.gg/sKbWskxXdG"
 }

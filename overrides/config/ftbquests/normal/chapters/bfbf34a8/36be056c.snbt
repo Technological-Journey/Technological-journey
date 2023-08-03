@@ -5,9 +5,6 @@
 	text: [
 		"Funny amalgam ingot."
 	],
-	dependencies: [
-		"e2359b07"
-	],
 	tasks: [{
 		uid: "cabdc786",
 		type: "item",

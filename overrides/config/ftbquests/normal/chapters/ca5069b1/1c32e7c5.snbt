@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "a594e895",
+		type: "checkmark",
+		title: "Benzene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "benzene",
+				Amount: 1000
+			}
+		}
+	}]
+}

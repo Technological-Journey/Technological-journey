@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "boric_acid",
+			Amount: 1000
+		}
+	},
+	x: 2.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "2a8f9f06",
+		type: "checkmark",
+		title: "Boric Acid"
+	}]
+}

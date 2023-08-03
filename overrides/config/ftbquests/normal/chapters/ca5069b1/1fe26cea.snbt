@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"3fad1b37"
+	],
+	tasks: [{
+		uid: "365cda60",
+		type: "checkmark",
+		title: "Anlilne",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "aniline",
+				Amount: 1000
+			}
+		}
+	}]
+}

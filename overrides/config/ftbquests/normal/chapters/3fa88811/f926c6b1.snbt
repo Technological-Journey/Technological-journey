@@ -1,7 +1,7 @@
 {
 	title: "Channels?",
-	x: -4.5d,
-	y: -6.0d,
+	x: -5.0d,
+	y: -5.5d,
 	text: [
 		"Channels are disabled by default, as you'll need thousands of interfaces by the end and placing a million p2p tunnels doesn't really add to the experience. ",
 		"",

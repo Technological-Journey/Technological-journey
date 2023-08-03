@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "cec8a099",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oxygen",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
