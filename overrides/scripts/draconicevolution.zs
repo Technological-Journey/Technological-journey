@@ -334,7 +334,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     assembly_line.recipeBuilder()
     .inputs(<thermalfoundation:upgrade:256> * 1,<storagedrawers:upgrade_creative> * 1, <draconicevolution:draconium_capacitor:2>, <contenttweaker:refinedchaoscrystal> * 64, <contenttweaker:refinedchaoscrystal> * 64,<contenttweaker:certificate_of_being_a_noob>, <ore:circuitMax>,<gtadditions:ga_meta_item:32383> * 4,<contenttweaker:eternitycrystal> * 4)
-    .inputs(<draconicadditions:chaos_stabilizer_core>, <gregtech:meta_item_2:32715>, <gtadditions:ga_cell_casing:11> * 64,<gtadditions:ga_cell_casing:11> * 64,<gtadditions:ga_cell_casing:11> * 14, <gtadditions:ga_multiblock_casing:12>, <gtadditions:ga_dust:148> * 64)
+    .inputs(<draconicadditions:chaos_stabilizer_core>, <gregtech:meta_item_2:32715>, <gtadditions:ga_cell_casing:11> * 64,<gtadditions:ga_cell_casing:11> * 64,<gtadditions:ga_cell_casing:11> * 14, <gtadditions:ga_multiblock_casing:12>, <extracells:storage.component:3> * 64)
     .fluidInputs(<liquid:chaosalloy> * 11520)
     .outputs(<appliedenergistics2:creative_storage_cell>)
     .duration(2147483647)
