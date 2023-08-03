@@ -1815,7 +1815,7 @@ assembly_line.recipeBuilder()
 
 
 assembly_line.recipeBuilder()
-        .inputs([<gtadditions:ga_meta_item:32358>, <gregtech:meta_item_2:18993> * 2, <gregtech:meta_item_1:17993> * 8, <gregtech:meta_item_1:18391> * 16, <gregtech:ga_cable:5993> * 2, <gregtech:fluid_pipe:3993> * 64])
+         .inputs([<gtadditions:ga_meta_item:32358>, <gregtech:meta_item_2:18993> * 2, <gregtech:meta_item_1:17993> * 8, <gregtech:meta_item_1:18391> * 16, <gregtech:ga_cable:5993> * 2, <gregtech:fluid_pipe:3993> * 16]) 
         .outputs(<gtadditions:ga_meta_item:32370>)
         .fluidInputs(<liquid:lubricant> * 2000, <liquid:soldering_alloy> * 576)
         .duration(600)
@@ -2073,17 +2073,6 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:tritanium> * 144)
     .duration(100)
     .EUt(800000)
-    .buildAndRegister();
-
-//UXV motor
-Utils.removeRecipeByOutput(assembly_line, [<gtadditions:ga_meta_item:32357>], [], true);
-
-assembly_line.recipeBuilder()
-    .inputs(<gregtech:meta_item_2:19299> * 64, <gregtech:meta_item_2:19299> * 64, <gregtech:meta_item_2:16732> * 64, <gregtech:meta_item_2:16732> * 64, <gregtech:meta_item_2:16732> * 64, <gregtech:meta_item_2:16732> * 64,<gtadditions:ga_meta_item:2720> * 16,<gregtech:meta_item_1:18720> * 4, <gregtech:meta_item_2:19720> * 2,<gregtech:ga_cable:7775> * 2)
-    .outputs(<gtadditions:ga_meta_item:32357>)
-    .fluidInputs(<liquid:soldering_alloy> * 864,<liquid:lubricant> * 3000)
-    .duration(600)
-    .EUt(15728640)
     .buildAndRegister();
 
 <gregtech:wire_coil:7>.addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
