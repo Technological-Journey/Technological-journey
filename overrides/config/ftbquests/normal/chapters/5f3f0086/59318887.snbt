@@ -1,7 +1,7 @@
 {
 	title: "MobGriefing",
-	x: 8.5d,
-	y: -12.0d,
+	x: 5.0d,
+	y: -14.0d,
 	text: [
 		"This quest will refresh, and claiming it will turn mobGriefing off. Nobody likes creepers breaking important things."
 	],

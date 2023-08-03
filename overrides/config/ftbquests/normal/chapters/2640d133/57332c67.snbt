@@ -5,8 +5,8 @@
 		"By wrapping your cable with rubber (and some string) you can protect it from interferance as well as protect yourself from cardiac arrest. "
 	],
 	dependencies: [
+		"26085cc1",
 		"338977f8",
-		"b7b6b9af",
 		"481242b1"
 	],
 	tasks: [{

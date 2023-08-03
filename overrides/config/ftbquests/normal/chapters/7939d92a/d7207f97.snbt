@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	shape: "pentagon",
+	text: [
+		"Now that you have UIV components, you can make \"skips\" of several large earlier lines (fullerene, zylon, pbi, naquadah products, etc), which perform several steps at once in favor of tps."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "42c6af39",
+		type: "checkmark",
+		title: "Chemplant Skips",
+		icon: "gregtech:machine 1 4224"
+	}]
+}

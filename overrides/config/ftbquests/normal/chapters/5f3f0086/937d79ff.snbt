@@ -1,9 +1,13 @@
 {
+	title: "Discord",
 	icon: {
 		id: "appliedenergistics2:creative_storage_cell",
 		tag: {}
 	},
 	x: 8.5d,
 	y: -14.0d,
+	text: [
+		""
+	],
 	custom_click: "https://discord.gg/sKbWskxXdG"
 }

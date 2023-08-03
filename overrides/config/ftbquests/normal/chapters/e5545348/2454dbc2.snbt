@@ -1,7 +1,7 @@
 {
 	title: "Iron III Chloride / Sodium Persulfate",
 	x: -0.5d,
-	y: 5.0d,
+	y: 7.5d,
 	text: [
 		"You may use Iron III Chloride or Sodium Persulfate to etch your circuit boards. While Iron III Chloride may be easier, sodium persulfate may be completely passived starting in MV. The choice is yours."
 	],

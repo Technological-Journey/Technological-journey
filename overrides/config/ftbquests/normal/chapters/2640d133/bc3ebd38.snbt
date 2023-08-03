@@ -1,6 +1,7 @@
 {
 	x: -5.0d,
 	y: -1.0d,
+	shape: "diamond",
 	description: "Multiblock Madness",
 	text: [
 		"The freedom wrench is very useful for building & debugging multiblocks. It can be used to rotate controllers to build multiblocks in unconventional ",
@@ -12,6 +13,7 @@
 	dependencies: [
 		"664d2fa1"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "1028ed17",
 		type: "item",

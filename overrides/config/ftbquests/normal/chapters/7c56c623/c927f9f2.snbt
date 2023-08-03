@@ -1,6 +1,9 @@
 {
 	x: -2.5d,
 	y: 0.0d,
+	text: [
+		"Make sure you have 2 output hatches, otherwise you will void what you want :O"
+	],
 	dependencies: [
 		"37db5eea"
 	],

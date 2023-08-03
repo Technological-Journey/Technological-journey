@@ -1,0 +1,17 @@
+{
+	title: "Tris(amino-ethyl)amine",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "triaminoethaneamine",
+			Amount: 1000
+		}
+	},
+	x: -5.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "eb8b7dd8",
+		type: "checkmark",
+		title: "Tris(amino-ethane)amine"
+	}]
+}

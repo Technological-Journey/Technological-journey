@@ -1,0 +1,16 @@
+{
+	title: "Hexamethylenediamine",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hexamethylenediamine",
+			Amount: 1000
+		}
+	},
+	x: -5.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "0b28e77f",
+		type: "checkmark"
+	}]
+}

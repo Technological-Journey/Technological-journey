@@ -1,12 +1,11 @@
 {
-	x: 2.5d,
-	y: 3.0d,
+	x: 5.5d,
+	y: 4.5d,
 	text: [
 		"Working with silicon and more advanced substrates has opened up a new type of circuit - this represents the primitve circuits modernized and miniaturized."
 	],
 	dependencies: [
-		"8d5443fe",
-		"94e1ba87"
+		"9053eddd"
 	],
 	tasks: [{
 		uid: "69332d25",

@@ -1,0 +1,16 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "azafullerene",
+			Amount: 1000
+		}
+	},
+	x: -7.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "ccc350e2",
+		type: "checkmark",
+		title: "Azafullerene"
+	}]
+}

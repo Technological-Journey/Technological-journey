@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"This will conduct electricty, but you can't make any electricity yet. Instead, you'll use it to craft other things. Gosh I love microcrafting!"
+	],
+	dependencies: [
+		"61468e8a"
+	],
+	tasks: [{
+		uid: "4bbf5894",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 35"
+		}]
+	}]
+}

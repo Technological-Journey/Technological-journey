@@ -1,0 +1,14 @@
+{
+	x: -13.5d,
+	y: -7.0d,
+	dependencies: [
+		"ea510ac4"
+	],
+	tasks: [{
+		uid: "f6745314",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 230"
+		}]
+	}]
+}

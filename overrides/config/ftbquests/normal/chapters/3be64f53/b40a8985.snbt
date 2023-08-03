@@ -1,11 +1,14 @@
 {
 	x: -13.5d,
-	y: -4.5d,
+	y: -5.5d,
 	shape: "rsquare",
 	text: [
 		"How do you even pronounce this one?",
 		"",
 		"No questline for this one. Good luck!"
+	],
+	dependencies: [
+		"2e95e425"
 	],
 	tasks: [{
 		uid: "fb4952d3",

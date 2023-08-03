@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	text: [
+		"This chain is for zylon, a mid - late game polymer. You don't have to do it right now, but it's achievable. If you want to wrap millions of wires, this may be a good idea. Otherwise, maybe wait for UHV or UEV."
+	],
+	tasks: [{
+		uid: "1727c989",
+		type: "checkmark",
+		title: "Zylon",
+		icon: "gregtech:meta_item_1 1 19729"
+	}]
+}

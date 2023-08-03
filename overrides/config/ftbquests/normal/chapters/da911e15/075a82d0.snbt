@@ -3,7 +3,6 @@
 	y: -2.0d,
 	shape: "hexagon",
 	dependencies: [
-		"89e12a69",
 		"7127a2bd",
 		"071f2b70"
 	],

@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -6.0d,
+	text: [
+		"This is for extracting items with loads of NBT out of your ae system. No, you wont get another export bus. They WILL lag you."
+	],
+	tasks: [{
+		uid: "00644d60",
+		type: "checkmark",
+		title: "Death Inventory List in my AE. HELP",
+		icon: "minecraft:paper"
+	}],
+	rewards: [{
+		uid: "703906b0",
+		type: "item",
+		item: "appliedenergistics2:material 1 29"
+	},
+	{
+		uid: "259cb511",
+		type: "item",
+		item: "appliedenergistics2:part 1 260"
+	}]
+}

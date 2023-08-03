@@ -1,6 +1,6 @@
 {
-	x: -2.5d,
-	y: 4.5d,
+	x: -1.5d,
+	y: 3.5d,
 	text: [
 		"The intended route for ethylene is mixing sufuric acid and ethanol in a chemical reactor, as it can be made completely passive apart from sulfur. If you find yourself running out of sulfur, consider using the vial processor to make blaze rods and electrolyzing the dust."
 	],

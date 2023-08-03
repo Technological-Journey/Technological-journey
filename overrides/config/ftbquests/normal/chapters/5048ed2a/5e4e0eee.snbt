@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 3.0d,
+	dependencies: [
+		"a7182e7a"
+	],
+	tasks: [{
+		uid: "7e80ca55",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hydrogen_peroxide",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

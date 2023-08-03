@@ -2,8 +2,10 @@
 	x: 2.5d,
 	y: 4.0d,
 	dependencies: [
-		"96c5fb49"
+		"96c5fb49",
+		"5e4e0eee"
 	],
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "2b08b2b3",
 		type: "checkmark",

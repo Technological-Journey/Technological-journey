@@ -1,0 +1,55 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	dependencies: [
+		"fc296e47"
+	],
+	tasks: [{
+		uid: "8e09ed3c",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_cryostat_casing 1 4"
+		}],
+		count: 64L
+	},
+	{
+		uid: "61ce4b13",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_divertor_casing 1 4"
+		}],
+		count: 47L
+	},
+	{
+		uid: "20344aef",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_vacuum_casing 1 4"
+		}],
+		count: 64L
+	},
+	{
+		uid: "40c9fcdf",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_vacuum_casing 1 4"
+		}],
+		count: 36L
+	},
+	{
+		uid: "fe2d607f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 8"
+		}],
+		count: 64L
+	},
+	{
+		uid: "2138e82a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 8"
+		}],
+		count: 59L
+	}]
+}

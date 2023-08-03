@@ -2,11 +2,6 @@
 	icon: "gregtech:machine 1 2004",
 	x: -1.5d,
 	y: 2.0d,
-	text: [
-		"The CAL requires 7 integrals frameworks. These control the max votage the machine is allowed to start crafts at.",
-		"",
-		"While this controls recipe start voltage you can overclock the CAL to make valid recipe run faster."
-	],
 	dependencies: [
 		"24d63bc6",
 		"ffafa306",
@@ -26,6 +21,14 @@
 			item: "gtadditions:ga_transparent_casing"
 		}],
 		count: 14L
+	},
+	{
+		uid: "c673f53e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 8"
+		}],
+		count: 7L
 	},
 	{
 		uid: "8c0ac13c",
