@@ -2588,4 +2588,65 @@ compressor.recipeBuilder()
 .EUt(2)
 .buildAndRegister();
 
-Utils.removeRecipeByOutput(ADVFusion, [], [<liquid:neutronium> * 1296], true);
+Utils.removeRecipeByOutput(ADVFusion, [], [<liquid:neutronium> * 1296], false);
+
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32670>], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32671>], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32672>], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32673>], [], false);
+Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_1:32674>], [], false);
+
+recipes.remove(<gregtech:meta_item_1:32670>);
+recipes.remove(<gregtech:meta_item_1:32671>);
+recipes.remove(<gregtech:meta_item_1:32672>);
+recipes.remove(<gregtech:meta_item_1:32673>);
+recipes.remove(<gregtech:meta_item_1:32674>);
+
+
+//lv
+assembler.recipeBuilder()
+    .inputs([<ore:circuitBasic>,<gregtech:meta_item_1:2218>])
+    .outputs(<gregtech:meta_item_1:32670>)
+    .fluidInputs(<liquid:lv_superconductor_base> * 288)
+    .duration(100)
+    .EUt(30)
+    .buildAndRegister();
+//mv
+assembler.recipeBuilder()
+    .inputs([<ore:circuitGood> * 4, <gregtech:meta_item_1:2219>])
+    .outputs(<gregtech:meta_item_1:32671>)
+    .fluidInputs(<liquid:mv_superconductor_base> * 576)
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+//hv
+assembler.recipeBuilder()
+    .inputs([<ore:circuitAdvanced> * 4, <gregtech:meta_item_1:32724>])
+    .outputs(<gregtech:meta_item_1:32672>)
+    .fluidInputs(<liquid:hv_superconductor_base_molten> * 1152)
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+//EV
+assembler.recipeBuilder()
+    .inputs([<ore:circuitExtreme> * 4, <gregtech:meta_item_1:2331>])
+    .outputs(<gregtech:meta_item_1:32673>)
+    .fluidInputs(<liquid:ev_superconductor_base> * 2304)
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+//IV
+assembler.recipeBuilder()
+    .inputs([<ore:circuitElite> * 4, <gregtech:meta_item_1:32725>])
+    .outputs(<gregtech:meta_item_1:32674>)
+    .fluidInputs(<liquid:iv_superconductor_base> * 4608)
+    .duration(100)
+    .EUt(7680)
+    .buildAndRegister();
+
+recipes.addShaped(<gregtech:meta_item_1:32674>, [[<gregtech:cable:4973>, <ore:circuitElite>, <gregtech:cable:4973>],[<ore:circuitElite>, <gregtech:meta_item_1:32725>, <ore:circuitElite>], [<gregtech:cable:4973>, <ore:circuitElite>, <gregtech:cable:4973>]]);
+recipes.addShaped(<gregtech:meta_item_1:32673>, [[<gregtech:cable:3974>, <ore:circuitExtreme>, <gregtech:cable:3974>],[<ore:circuitExtreme>, <minecraft:nether_star>, <ore:circuitExtreme>], [<gregtech:cable:3974>, <ore:circuitExtreme>, <gregtech:cable:3974>]]);
+recipes.addShaped(<gregtech:meta_item_1:32672>, [[<gregtech:cable:2975>, <ore:circuitAdvanced>, <gregtech:cable:2975>],[<ore:circuitAdvanced>, <gregtech:meta_item_1:32724>, <ore:circuitAdvanced>], [<gregtech:cable:2975>, <ore:circuitAdvanced>, <gregtech:cable:2975>]]);
+recipes.addShaped(<gregtech:meta_item_1:32671>, [[<gregtech:cable:1976>, <ore:circuitGood>, <gregtech:cable:1976>],[<ore:circuitGood>, <minecraft:ender_eye>, <ore:circuitGood>], [<gregtech:cable:1976>, <ore:circuitGood>, <gregtech:cable:1976>]]);
+recipes.addShaped(<gregtech:meta_item_1:32670>, [[<gregtech:cable:516>, <ore:circuitBasic>, <gregtech:cable:516>],[<ore:circuitBasic>, <minecraft:ender_pearl>, <ore:circuitBasic>], [<gregtech:cable:516>, <ore:circuitBasic>, <gregtech:cable:516>]]);
+
