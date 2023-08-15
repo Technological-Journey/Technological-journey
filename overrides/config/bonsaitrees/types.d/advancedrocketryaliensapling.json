@@ -34,13 +34,6 @@
             "type": "CUSTOM",
             "count": 6,
             "chance": 0.7
-        },
-        {
-            "name": "gregtech:meta_item_1",
-            "data": 32627,
-            "type": "CUSTOM",
-            "count": 6,
-            "chance": 0.7
         }
     ]
 }

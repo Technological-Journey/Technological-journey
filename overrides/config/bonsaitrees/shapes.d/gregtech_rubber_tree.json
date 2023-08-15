@@ -1,0 +1,65 @@
+{
+  "type": "gregtech:rubber",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "gregtech:leaves",
+      "meta": 4
+    },
+    "b": {
+      "name": "gregtech:log",
+      "meta": 5
+    },
+    "c": {
+      "name": "gregtech:leaves",
+      "meta": 12
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaa ",
+      " acac",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "caaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaac",
+      "aaaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " caaa",
+      " aca ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}
