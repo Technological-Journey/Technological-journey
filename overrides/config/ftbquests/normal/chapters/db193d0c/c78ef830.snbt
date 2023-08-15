@@ -2,15 +2,15 @@
 	x: 8.5d,
 	y: -1.5d,
 	tasks: [{
-		uid: "51bf25d9",
-		type: "item",
-		items: [{
+		uid: "76823c50",
+		type: "checkmark",
+		title: "Nitrogen",
+		icon: {
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "nitrogen",
 				Amount: 1000
 			}
-		}],
-		ignore_damage: true
+		}
 	}]
 }

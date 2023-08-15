@@ -1,0 +1,16 @@
+{
+	x: -4.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "109ed341",
+		type: "checkmark",
+		title: "Nitric Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitric_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

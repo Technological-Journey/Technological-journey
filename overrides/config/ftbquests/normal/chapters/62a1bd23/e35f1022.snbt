@@ -1,0 +1,47 @@
+{
+	title: "Mercury",
+	disable_toast: true,
+	x: -9.5d,
+	y: 4.5d,
+	shape: "circle",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"18413c2d"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "8e5ba4a7",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 20L
+	},
+	{
+		uid: "b2c4054e",
+		type: "fluid",
+		fluid: "rocket_fuel",
+		amount: 4000
+	}],
+	rewards: [{
+		uid: "439b9a49",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator",
+			tag: {
+				X: 256.5d,
+				Y: 254.64375994610788d,
+				Z: 256.5d,
+				Yaw: -290.84998f,
+				Pitch: 29.849993f,
+				Dimension: 403,
+				IsSet: 1b,
+				DimentionName: "planet"
+			}
+		}
+	}]
+}

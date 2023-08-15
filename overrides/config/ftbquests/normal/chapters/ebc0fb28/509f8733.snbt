@@ -1,5 +1,5 @@
 {
-	x: -4.0d,
+	x: -2.0d,
 	y: -2.5d,
 	dependencies: [
 		"db4d590d"

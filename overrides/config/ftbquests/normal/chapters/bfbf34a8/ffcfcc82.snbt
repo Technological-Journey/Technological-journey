@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"After making a UXV assembling machine you unlock the ability for taranium skip.",
+		"This is TPS friendly alternative to taranium line"
+	],
+	dependencies: [
+		"9e5fb5f4"
+	],
+	tasks: [{
+		uid: "ec795ce5",
+		type: "checkmark",
+		title: "Tatanium skip",
+		icon: "gregtech:meta_item_1 1 2714"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: -2.5d,
+	dependencies: [
+		"52dce9e6",
+		"adb41277"
+	],
+	tasks: [{
+		uid: "b118b218",
+		type: "checkmark",
+		title: "Nitration Mixture",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitration_mixture",
+				Amount: 1000
+			}
+		}
+	}]
+}

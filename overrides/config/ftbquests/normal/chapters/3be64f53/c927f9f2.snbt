@@ -1,0 +1,22 @@
+{
+	x: -12.5d,
+	y: 0.5d,
+	text: [
+		"Make sure you have 2 output hatches, otherwise you will void what you want :O"
+	],
+	dependencies: [
+		"37db5eea"
+	],
+	tasks: [{
+		uid: "e364d2e9",
+		type: "checkmark",
+		title: "Awakened Draconic Plasma",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plasma.awaken_draconium",
+				Amount: 1000
+			}
+		}
+	}]
+}

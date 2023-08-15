@@ -1,5 +1,5 @@
 {
-	x: -4.0d,
+	x: -2.0d,
 	y: 1.0d,
 	text: [
 		"The Large Rocket Engine works like the DE and EDE, except it generates LuV power (and consumes rocket fuels instead of combustables). It consumes ",

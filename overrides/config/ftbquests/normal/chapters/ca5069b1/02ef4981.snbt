@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -4.5d,
+	dependencies: [
+		"05904e1c",
+		"e65f6515"
+	],
+	tasks: [{
+		uid: "871eab18",
+		type: "checkmark",
+		title: "Peek",
+		icon: "gregtech:meta_item_1 1 10730"
+	}]
+}

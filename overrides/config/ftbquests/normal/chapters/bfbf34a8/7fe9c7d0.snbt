@@ -1,0 +1,20 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	dependencies: [
+		"f9637e9f",
+		"b13ab417"
+	],
+	tasks: [{
+		uid: "a1c89ef0",
+		type: "checkmark",
+		title: "Raw Chaos",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rawchaos",
+				Amount: 1000
+			}
+		}
+	}]
+}

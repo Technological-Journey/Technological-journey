@@ -1,0 +1,16 @@
+{
+	x: -8.5d,
+	y: 4.5d,
+	dependencies: [
+		"7a7bfe20"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "4d0d8520",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_3 1 3"
+		}]
+	}]
+}

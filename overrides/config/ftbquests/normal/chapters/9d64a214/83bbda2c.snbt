@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: -3.0d,
+	dependencies: [
+		"4aa1f14a"
+	],
+	tasks: [{
+		uid: "774af6d3",
+		type: "checkmark",
+		title: "Nitrochlorobenzene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitrochlorobenzene",
+				Amount: 1000
+			}
+		}
+	}]
+}

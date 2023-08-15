@@ -6,7 +6,7 @@
 			Amount: 1000
 		}
 	},
-	x: -4.0d,
+	x: -2.0d,
 	y: -3.5d,
 	dependencies: [
 		"a9c57d64",

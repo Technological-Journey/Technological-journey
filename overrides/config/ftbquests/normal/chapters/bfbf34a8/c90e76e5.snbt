@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	dependencies: [
+		"7fe9c7d0",
+		"f0388075"
+	],
+	tasks: [{
+		uid: "f0481ae8",
+		type: "checkmark",
+		title: "Refined Chaos Plasma",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plasma.chaos",
+				Amount: 1000
+			}
+		}
+	}]
+}

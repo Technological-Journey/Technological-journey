@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	dependencies: [
+		"d1fbac90"
+	],
+	tasks: [{
+		uid: "51612db1",
+		type: "checkmark",
+		title: "Nitro Benzene ",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitro_benzene",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -22,20 +22,6 @@
 		count: 8L
 	},
 	{
-		uid: "c81ee241",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 730"
-		}]
-	},
-	{
-		uid: "a20635c6",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 731"
-		}]
-	},
-	{
 		uid: "4d00cf1f",
 		type: "item",
 		items: [{

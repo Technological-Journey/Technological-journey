@@ -1,0 +1,10 @@
+{
+	x: 6.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "198211c5",
+		type: "checkmark",
+		title: "Potassium Dichromate",
+		icon: "gregtech:meta_item_1 1 2845"
+	}]
+}

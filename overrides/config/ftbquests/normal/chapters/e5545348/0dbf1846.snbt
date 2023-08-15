@@ -4,9 +4,6 @@
 	text: [
 		"Working with silicon and more advanced substrates has opened up a new type of circuit - this represents the primitve circuits modernized and miniaturized."
 	],
-	dependencies: [
-		"9053eddd"
-	],
 	tasks: [{
 		uid: "69332d25",
 		type: "item",

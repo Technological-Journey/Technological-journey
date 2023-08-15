@@ -1,17 +1,19 @@
 {
+	title: "Californium Cyclopentadienide Bucket",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "californiumcyclopentadienide",
+			Amount: 1000
+		}
+	},
 	x: -8.5d,
 	y: 2.5d,
+	text: [
+		""
+	],
 	tasks: [{
-		uid: "48ea967e",
-		type: "item",
-		items: [{
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "californiumcyclopentadienide",
-				Amount: 1000
-			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		uid: "796a2f44",
+		type: "checkmark"
 	}]
 }

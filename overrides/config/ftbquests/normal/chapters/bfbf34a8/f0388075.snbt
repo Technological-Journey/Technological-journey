@@ -1,6 +1,9 @@
 {
 	x: 8.0d,
 	y: 1.0d,
+	text: [
+		"Finally, the ultimate fusion donut! While it is required for progression in order to produce Refined Chaos Plasma, it can also be used to produce Neutron Plasma at a much faster and more efficient rate"
+	],
 	dependencies: [
 		"fc296e47"
 	],

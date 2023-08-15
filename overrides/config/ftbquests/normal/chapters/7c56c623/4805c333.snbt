@@ -1,0 +1,13 @@
+{
+	x: -11.5d,
+	y: 5.0d,
+	text: [
+		"In order to craft cell you are required to make a 16 long assline."
+	],
+	tasks: [{
+		uid: "c66b2414",
+		type: "checkmark",
+		title: "assline upgrades",
+		icon: "gregtech:machine 1 2502"
+	}]
+}

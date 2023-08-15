@@ -1,0 +1,13 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	shape: "rsquare",
+	optional: true,
+	tasks: [{
+		uid: "c16667a9",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}]
+}

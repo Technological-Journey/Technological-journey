@@ -1,0 +1,15 @@
+{
+	x: 7.0d,
+	y: 6.5d,
+	shape: "rsquare",
+	dependencies: [
+		"a35fb27d"
+	],
+	tasks: [{
+		uid: "47c254bf",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 385"
+		}]
+	}]
+}

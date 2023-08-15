@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "abffef28",
+		type: "checkmark",
+		title: "Nitrobenzene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitro_benzene",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -10,12 +10,17 @@
 		"- Carbon, Sage, Terra, and Onion"
 	],
 	dependencies: [
+		"084fba9e",
+		"93809315",
+		"7c191ebc",
+		"4805c333",
+		"0f29bd4f",
 		"fa9cca65",
 		"82b36b89",
-		"93809315",
+		"5b3a9821",
 		"411705da",
-		"7c191ebc",
-		"3a6c1683"
+		"3a6c1683",
+		"071a5a15"
 	],
 	hide_text_until_complete: true,
 	size: 2.5d,

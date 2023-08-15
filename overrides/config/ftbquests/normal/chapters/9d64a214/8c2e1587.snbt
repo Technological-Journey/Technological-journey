@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	dependencies: [
+		"56acb54c",
+		"9e677bd6"
+	],
+	tasks: [{
+		uid: "6a3da895",
+		type: "checkmark",
+		title: "Phthalic Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "phthalicacid",
+				Amount: 1000
+			}
+		}
+	}]
+}

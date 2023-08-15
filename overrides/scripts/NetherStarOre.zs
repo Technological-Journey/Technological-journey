@@ -26,6 +26,15 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:neutronium>.addFlags(["GENERATE_ROUND"]);
 <material:qcd_confined_matter>.addFlags(["GENERATE_GEAR"]);
 
+<material:bohrium>.addFlags(["GENERATE_ORE"]);
+<material:seaborgium>.addFlags(["GENERATE_ORE"]);
+<material:fermium>.addFlags(["GENERATE_ORE"]);
+<material:einsteinium>.addFlags(["GENERATE_ORE"]);
+<material:americium>.addFlags(["GENERATE_ORE"]);
+<material:berkelium>.addFlags(["GENERATE_ORE"]);
+<material:rhodium>.addFlags(["GENERATE_ORE"]);
+<material:ruthenium>.addFlags(["GENERATE_ORE"]);
+
 //DISABLE_REPLICATION
 
 <material:adamantium>.addFlags(["DISABLE_REPLICATION"]);

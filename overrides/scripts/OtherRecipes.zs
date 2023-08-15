@@ -2650,3 +2650,54 @@ recipes.addShaped(<gregtech:meta_item_1:32672>, [[<gregtech:cable:2975>, <ore:ci
 recipes.addShaped(<gregtech:meta_item_1:32671>, [[<gregtech:cable:1976>, <ore:circuitGood>, <gregtech:cable:1976>],[<ore:circuitGood>, <minecraft:ender_eye>, <ore:circuitGood>], [<gregtech:cable:1976>, <ore:circuitGood>, <gregtech:cable:1976>]]);
 recipes.addShaped(<gregtech:meta_item_1:32670>, [[<gregtech:cable:516>, <ore:circuitBasic>, <gregtech:cable:516>],[<ore:circuitBasic>, <minecraft:ender_pearl>, <ore:circuitBasic>], [<gregtech:cable:516>, <ore:circuitBasic>, <gregtech:cable:516>]]);
 
+Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2134> * 2], [], true);
+
+largeMix.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2045>])
+    .outputs(<gregtech:meta_item_1:2134> * 2)
+    .fluidInputs(<liquid:nitrogen> * 1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(108)
+    .EUt(30)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(largeMix, [<gregtech:meta_item_1:2133> * 5], [], true);
+
+largeMix.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2016>, <gregtech:meta_item_1:2044> * 4])
+    .outputs(<gregtech:meta_item_1:2133> * 5)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5}))
+    .duration(280)
+    .EUt(30)
+    .buildAndRegister();
+
+condenser.recipeBuilder()
+    .fluidInputs(<liquid:plasma.helium3> * 1000,<liquid:superfluid_helium> * 100)
+    .fluidOutputs(<liquid:helium> * 100,<liquid:helium3> * 1000)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .duration(40)
+    .EUt(960)
+    .buildAndRegister();
+
+largeMix.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:2018> *3,<gregtech:meta_item_1:2062> ])
+    .fluidInputs(<liquid:redstone> * 1000)
+    .outputs([<thermalfoundation:material:101> * 4])
+    .duration(240)
+    .EUt(500)
+    .buildAndRegister();
+
+//steel
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:12184> * 4,<ore:frameGtSteel>,<gregtech:meta_item_2:26184> * 2])
+    .outputs(<gregtech:turbine_casing:1>)
+    .duration(200)
+    .EUt(30)
+    .buildAndRegister();
+//ti
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:12184> * 4,<gregtech:frame_titanium>,<gregtech:meta_item_2:26072> * 2])
+    .outputs(<gregtech:turbine_casing:2>)
+    .duration(200)
+    .EUt(30)
+    .buildAndRegister();

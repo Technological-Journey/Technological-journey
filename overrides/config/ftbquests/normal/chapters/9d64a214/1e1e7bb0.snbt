@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	dependencies: [
+		"600ecc85"
+	],
+	tasks: [{
+		uid: "2955e72c",
+		type: "checkmark",
+		title: "Diaminobenzidine",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "diaminobenzidine",
+				Amount: 1000
+			}
+		}
+	}]
+}

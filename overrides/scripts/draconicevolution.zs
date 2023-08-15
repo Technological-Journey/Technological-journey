@@ -249,7 +249,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     Stellar.recipeBuilder()
     .inputs(<gregtech:meta_item_1:10671>, <gtadditions:ga_meta_item:32568> ,<gtadditions:ga_explosive:3>)
-    .fluidInputs(<liquid:chaos> * 1000)
+    .fluidInputs(<liquid:chaos> * 1008)
     .fluidOutputs(<liquid:plasma.chaosalloy>* 2592)
     .duration(20)
     .EUt(31457280)
@@ -259,7 +259,7 @@ recipes.remove(<draconicevolution:wyvern_energy_core>);
 
     assembly_line.recipeBuilder()
     .inputs(<gregtech:meta_item_1:13518> * 8, <gregtech:meta_item_1:12733> * 8, <appliedenergistics2:dense_energy_cell> * 64,<gregtech:cable:744> * 32, <ore:circuitSuperconductor> * 2)
-    .fluidInputs(<liquid:tritanium> * 720,<liquid:soldering_alloy> *1296)
+    .fluidInputs(<liquid:tritanium> * 720,<liquid:soldering_alloy> * 1296)
     .outputs(<appliedenergistics2:creative_energy_cell>)
     .duration(1000)
     .EUt(524288)
@@ -373,7 +373,7 @@ blast_furnace.recipeBuilder()
 
 blast_furnace.recipeBuilder()
     .inputs(<gtadditions:ga_meta_item:32569> * 4, <gtadditions:ga_meta_item:32515>, <gtadditions:ga_meta_item:32556>)
-    .fluidInputs(<liquid:taranium> * 4000)
+    .fluidInputs(<liquid:taranium> * 4032)
     .outputs(<gtadditions:ga_dust:529>)
     .property("temperature", 23000)
     .duration(50)

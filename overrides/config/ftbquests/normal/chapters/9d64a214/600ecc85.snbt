@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: -2.0d,
+	dependencies: [
+		"83bbda2c"
+	],
+	tasks: [{
+		uid: "b80c54d4",
+		type: "checkmark",
+		title: "Dichlorobenzidine",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dichlorobenzidine",
+				Amount: 1000
+			}
+		}
+	}]
+}

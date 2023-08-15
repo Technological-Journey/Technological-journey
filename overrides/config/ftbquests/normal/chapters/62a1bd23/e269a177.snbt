@@ -1,0 +1,25 @@
+{
+	x: -6.0d,
+	y: 6.5d,
+	text: [
+		"If you do not want to play using advanced rocketry. Fret not, here are repeatable quests you can use to teleport to these planets. In order to have access to these you will be required to hand in your warp core and items needed to make a space station. For each planet you must present the required artafact. Then there will be a small fee of rocket fuel and dilithium. ",
+		"",
+		"§4Due to the nature of these commands it is HIGHLY recommended you have charged ender IO boots to negate fall damage. You will spawn in at 256 256 256"
+	],
+	dependencies: [
+		"81372634"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2eb891ea",
+		type: "checkmark",
+		title: "If you do not want to use advanced rocketry",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocket_fuel",
+				Amount: 1000
+			}
+		}
+	}]
+}

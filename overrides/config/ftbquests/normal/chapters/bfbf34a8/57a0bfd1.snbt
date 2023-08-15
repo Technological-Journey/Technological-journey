@@ -1,0 +1,114 @@
+{
+	title: "If you would rather not fight the chaos guardian",
+	x: 9.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	optional: true,
+	tasks: [{
+		uid: "f0578e46",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_apple"
+		}],
+		count: 14L,
+		consume_items: true
+	},
+	{
+		uid: "a6442cfa",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 14L,
+		consume_items: true
+	},
+	{
+		uid: "c816757d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32724"
+		}],
+		count: 14L,
+		consume_items: true
+	},
+	{
+		uid: "46c83928",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}],
+		count: 22L,
+		consume_items: true
+	},
+	{
+		uid: "4adb0b6c",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}],
+		count: 28L,
+		consume_items: true
+	},
+	{
+		uid: "c05ef12f",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}],
+		count: 14L,
+		consume_items: true
+	},
+	{
+		uid: "7d685236",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}],
+		count: 22L,
+		consume_items: true
+	},
+	{
+		uid: "1fe056c8",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald_block"
+		}],
+		count: 14L,
+		consume_items: true
+	},
+	{
+		uid: "d7d44bdc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "9995ee55",
+		type: "item",
+		items: [{
+			item: "gregtech:ga_cable 1 1737"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "9287b9a2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_44 1 13"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bc30fe5e",
+		type: "item",
+		item: "draconicevolution:chaos_shard",
+		count: 6
+	}]
+}

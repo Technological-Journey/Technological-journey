@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"c90e76e5"
+	],
+	tasks: [{
+		uid: "a99eace6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	}],
+	rewards: [{
+		uid: "2b1f2dd0",
+		type: "item",
+		item: "contenttweaker:refinedchaoscrystal",
+		count: 16
+	}]
+}

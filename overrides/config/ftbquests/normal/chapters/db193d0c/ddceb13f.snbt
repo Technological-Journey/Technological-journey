@@ -2,15 +2,15 @@
 	x: 11.5d,
 	y: -2.5d,
 	tasks: [{
-		uid: "bf1265f6",
-		type: "item",
-		items: [{
+		uid: "af557c5a",
+		type: "checkmark",
+		title: "Helium",
+		icon: {
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "helium",
 				Amount: 1000
 			}
-		}],
-		ignore_damage: true
+		}
 	}]
 }

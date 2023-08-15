@@ -1,6 +1,6 @@
 {
 	icon: "gtadditions:ga_meta_item 1 32343",
-	x: -4.0d,
+	x: -2.0d,
 	y: -1.5d,
 	shape: "hexagon",
 	text: [

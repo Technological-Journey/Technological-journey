@@ -1,0 +1,84 @@
+{
+	x: -7.0d,
+	y: 6.5d,
+	dependencies: [
+		"e269a177"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "15da51c7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_4 1 8"
+		}],
+		count: 15L,
+		consume_items: true
+	},
+	{
+		uid: "0042c63c",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "32e8e539",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:warpmonitor"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "97c8fcab",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:warpcore"
+		}]
+	},
+	{
+		uid: "2dc8a21b",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "35bb52f5",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b1336733",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "085d6249",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7efc0956",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	}]
+}

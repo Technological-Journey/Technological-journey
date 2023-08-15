@@ -1,0 +1,46 @@
+{
+	title: "Mars",
+	disable_toast: true,
+	x: -9.5d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"08bd4448"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "6fdd5bfe",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 20L
+	},
+	{
+		uid: "9d592c92",
+		type: "fluid",
+		fluid: "rocket_fuel",
+		amount: 4000
+	}],
+	rewards: [{
+		uid: "22a7814a",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator",
+			tag: {
+				X: 256.5d,
+				Y: 255.6099999845028d,
+				Z: 256.5d,
+				Yaw: -289.65005f,
+				Pitch: 85.94998f,
+				Dimension: 405,
+				IsSet: 1b,
+				DimentionName: "planet"
+			}
+		}
+	}]
+}

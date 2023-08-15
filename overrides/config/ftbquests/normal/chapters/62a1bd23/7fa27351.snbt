@@ -1,0 +1,46 @@
+{
+	title: "Titan",
+	disable_toast: true,
+	x: -9.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"e671a903"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "94620869",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 20L
+	},
+	{
+		uid: "fb7178c3",
+		type: "fluid",
+		fluid: "rocket_fuel",
+		amount: 4000
+	}],
+	rewards: [{
+		uid: "abb830f1",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator",
+			tag: {
+				X: 256.5d,
+				Y: 255.6099999845028d,
+				Z: 256.5d,
+				Yaw: -286.20007f,
+				Pitch: 29.699993f,
+				Dimension: 400,
+				IsSet: 1b,
+				DimentionName: "planet"
+			}
+		}
+	}]
+}

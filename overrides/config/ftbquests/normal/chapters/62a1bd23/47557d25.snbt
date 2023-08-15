@@ -1,0 +1,46 @@
+{
+	title: "Deimos",
+	disable_toast: true,
+	x: -9.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"29834c10"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "7c863a1d",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 20L
+	},
+	{
+		uid: "06291616",
+		type: "fluid",
+		fluid: "rocket_fuel",
+		amount: 4000
+	}],
+	rewards: [{
+		uid: "555092c3",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator",
+			tag: {
+				X: 256.5d,
+				Y: 255.3159999728203d,
+				Z: 256.5d,
+				Yaw: -291.89996f,
+				Pitch: 84.89997f,
+				Dimension: 406,
+				IsSet: 1b,
+				DimentionName: "planet"
+			}
+		}
+	}]
+}

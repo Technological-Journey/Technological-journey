@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: 1.5d,
+	text: [
+		"This will let you make more hearts for awakened draconium."
+	],
+	dependencies: [
+		"c927f9f2"
+	],
+	tasks: [{
+		uid: "7f9d49ea",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1006"
+		}]
+	}]
+}

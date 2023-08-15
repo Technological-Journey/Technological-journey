@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: -1.0d,
+	dependencies: [
+		"8c2e1587"
+	],
+	tasks: [{
+		uid: "3c301da0",
+		type: "checkmark",
+		title: "Diphenylisophthalate",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "diphenylisophtalate",
+				Amount: 1000
+			}
+		}
+	}]
+}

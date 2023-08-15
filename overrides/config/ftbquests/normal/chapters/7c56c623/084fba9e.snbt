@@ -1,0 +1,11 @@
+{
+	x: -11.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "3c457c7f",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 12"
+		}]
+	}]
+}

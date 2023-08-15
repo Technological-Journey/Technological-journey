@@ -1,0 +1,46 @@
+{
+	title: "Pluto",
+	disable_toast: true,
+	x: -9.5d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"810b53fc"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "84e1cbf6",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 20L
+	},
+	{
+		uid: "cf10ff6a",
+		type: "fluid",
+		fluid: "rocket_fuel",
+		amount: 4000
+	}],
+	rewards: [{
+		uid: "0bceb135",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator",
+			tag: {
+				X: 256.5d,
+				Y: 255.6099999845028d,
+				Z: 256.5d,
+				Yaw: -287.39993f,
+				Pitch: 31.649992f,
+				Dimension: 401,
+				IsSet: 1b,
+				DimentionName: "planet"
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "cc686a23",
+		type: "checkmark",
+		title: "Sulfuric Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

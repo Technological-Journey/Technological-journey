@@ -1,0 +1,46 @@
+{
+	title: "Phobos",
+	disable_toast: true,
+	x: -9.5d,
+	y: 6.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"7a0d1943"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a187603c",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 20L
+	},
+	{
+		uid: "805c92b1",
+		type: "fluid",
+		fluid: "rocket_fuel",
+		amount: 4000
+	}],
+	rewards: [{
+		uid: "e3917d5e",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator",
+			tag: {
+				X: 256.5d,
+				Y: 255.3159999728203d,
+				Z: 256.5d,
+				Yaw: -285.7501f,
+				Pitch: 29.099993f,
+				Dimension: 402,
+				IsSet: 1b,
+				DimentionName: "planet"
+			}
+		}
+	}]
+}

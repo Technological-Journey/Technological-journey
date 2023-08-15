@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	dependencies: [
+		"5eaa8eb6"
+	],
+	tasks: [{
+		uid: "2d83ea87",
+		type: "checkmark",
+		title: "Fluoroboric Acid",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluoroboric_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

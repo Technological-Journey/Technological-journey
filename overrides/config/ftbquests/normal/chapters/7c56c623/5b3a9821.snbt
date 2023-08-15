@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 3.5d,
+	text: [
+		"You will need 144 of these :)"
+	],
+	tasks: [{
+		uid: "b03cfa87",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_cell_casing 1 11"
+		}]
+	}]
+}

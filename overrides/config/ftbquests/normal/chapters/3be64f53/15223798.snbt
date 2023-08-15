@@ -1,0 +1,16 @@
+{
+	x: -13.5d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"All the Draconic Plasmas, and a few beyond can be used to gain some Power back by using Turbines."
+	],
+	dependencies: [
+		"c927f9f2"
+	],
+	tasks: [{
+		uid: "0e9001c7",
+		type: "checkmark",
+		title: "\"Draconic\" Plasmas"
+	}]
+}

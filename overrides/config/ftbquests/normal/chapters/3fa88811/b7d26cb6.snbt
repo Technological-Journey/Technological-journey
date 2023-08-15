@@ -1,0 +1,16 @@
+{
+	title: "How to use AE2 memory cards",
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"In order to make more outputs shift right click the original input them right click the p2ps you want as an output.",
+		"",
+		"If you want to make more inputs hold the programed memory card in your offhand (nothing in your main hand). Then right click the p2ps you want to be inputs. They will become inputs for that channel. ",
+		"",
+		"§4You cannot use mutli inputs with the better p2p memory card. "
+	],
+	tasks: [{
+		uid: "e798dffc",
+		type: "checkmark"
+	}]
+}

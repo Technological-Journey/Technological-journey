@@ -1,6 +1,6 @@
 {
 	x: 1.0d,
-	y: -1.5d,
+	y: 0.0d,
 	text: [
 		"Advanced Fusion requires coolant and produces supercritical coolant. While it may be ideal to use steam and simply void the supercritical output, you can utilize it for power as well. However, be cautious as you probably dont want your power infrastructure to be dependant on consistant advanced fusion."
 	],
