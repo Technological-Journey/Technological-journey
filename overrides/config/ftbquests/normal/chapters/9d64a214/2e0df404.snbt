@@ -1,14 +1,13 @@
 {
 	x: 1.5d,
-	y: 1.0d,
+	y: 0.0d,
 	text: [
 		"Uses extreme amounts of direct energy flow to perform computation similar to electronic circuits. *Technobabble*"
 	],
 	dependencies: [
-		"a17d0f77",
 		"317b96b6",
-		"c12ad8e5",
-		"b2506907"
+		"a17d0f77",
+		"c12ad8e5"
 	],
 	tasks: [{
 		uid: "065d8bf7",
