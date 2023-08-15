@@ -158,9 +158,12 @@
                     "textures:main_menu/slideshow_33.png",
                     "textures:main_menu/slideshow_34.png",
                     "textures:main_menu/slideshow_35.png",
-                    "textures:main_menu/slideshow_36.png"
+                    "textures:main_menu/slideshow_36.png",
+                    "textures:main_menu/slideshow_37.png",
+                    "textures:main_menu/slideshow_38.png",
+                    "textures:main_menu/slideshow_39.png"
                 ],
-                "displayDuration": 60,
+                "displayDuration": 20,
                 "fadeDuration": 35
             }
         }
