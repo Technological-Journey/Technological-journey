@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: 9.5d,
 	text: [
-		"Tired of chopping down trees? Then try a tree beacon. Grow a tree around and the beacon will absorb it, Then periodically drop logs. Will also drop other drops from the trees used. Such as apples, rubber, and ectoplasm."
+		"Tired of chopping down trees? Then try a tree beacon. Grow a tree around and the beacon will absorb it, Then periodically drop logs. Will also drop other drops from the trees used like apples, rubber, or ectoplasm."
 	],
 	dependencies: [
 		"49faaf5c"

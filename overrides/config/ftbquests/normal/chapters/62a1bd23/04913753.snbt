@@ -3,7 +3,7 @@
 	x: -3.0d,
 	y: 6.5d,
 	text: [
-		"This planet has a variety of hot and cold regions.This planet has liquid veins of oxygen, hydrogen, and liquid air."
+		"This planet has a variety of hot and cold regions. This planet has liquid veins of oxygen, hydrogen, and liquid air."
 	],
 	dependencies: [
 		"81372634"

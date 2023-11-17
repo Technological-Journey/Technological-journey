@@ -4,7 +4,7 @@
 	shape: "gear",
 	description: "Covers + Simple Automation",
 	text: [
-		"Machines and other GTCE blocks can have covers -- pumps, conveyers, robot arms, filters, etc. These go on the outside of the block to add features. ",
+		"Machines and other GTCE blocks can have covers -- pumps, conveyors, robot arms, filters, etc. These go on the outside of the block to add features. ",
 		"",
 		"The first one is the conveyor cover: these allow the block to auto pull and push to neighboring blocks. ",
 		"",

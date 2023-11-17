@@ -5,16 +5,15 @@
 		"a7182e7a"
 	],
 	tasks: [{
-		uid: "7e80ca55",
-		type: "item",
-		items: [{
+		uid: "157fe15d",
+		type: "checkmark",
+		title: "Hydrogen peroxide",
+		icon: {
 			id: "forge:bucketfilled",
 			tag: {
 				FluidName: "hydrogen_peroxide",
 				Amount: 1000
 			}
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		}
 	}]
 }

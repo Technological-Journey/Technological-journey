@@ -2713,3 +2713,5 @@ assembly_line.recipeBuilder()
     .duration(6000)
     .EUt(8000)
     .buildAndRegister();
+<actuallyadditions:item_misc:5>.addTooltip("Smelt Quartzite dust twice");
+<actuallyadditions:item_dust:7>.addTooltip("Smelt Quartzite dust");

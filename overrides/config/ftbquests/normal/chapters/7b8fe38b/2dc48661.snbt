@@ -2,9 +2,7 @@
 	x: -1.0d,
 	y: -5.5d,
 	text: [
-		"If you're looking to make stellar alloy tools, you'll need witch soul vials. You can \"buy\" some here for a little redstone, glowstone, and a soul vial. ",
-		"",
-		"Yes, this quest is renewable. No, dont bother making a witch farm with it. "
+		"This quest is renewable. No, dont bother making a witch farm with it. "
 	],
 	can_repeat: true,
 	tasks: [{

@@ -5,10 +5,10 @@
 		"5ff04bfc"
 	],
 	tasks: [{
-		uid: "83698b6b",
+		uid: "c95b3b10",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10726"
+			item: "gregtech:meta_item_1 1 10727"
 		}]
 	}]
 }

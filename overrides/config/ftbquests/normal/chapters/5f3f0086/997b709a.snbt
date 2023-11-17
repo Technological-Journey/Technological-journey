@@ -2,9 +2,9 @@
 	x: 8.5d,
 	y: -12.0d,
 	text: [
-		"If you want to put hammering on the given hammer, it will allow you to condense different types of ore varients (ie: stone and diorite) into their crushed varients, at the expense of making more raw items in your inventory. It's your choice. ",
+		"If you want to put hammering on the given hammer, it will allow you to condense different types of ore varients (ie: stone and diorite) into their crushed varients at the expense of more inventory clutter. It's your choice. ",
 		"",
-		"While fortune works with this enchant you can only receive a max of 2x the drop amount. We did not want this method to be more advantageous than the macerator.",
+		"While fortune does work with this enchant, it is capped at a max of 2x the drop amount to keep it balanced with the macerator.",
 		" ",
 		"§4Crushed ore must be broken down again with a GT hard hammer to receive impure ore dust.",
 		"Resulting in nuggets instead of ingots.",

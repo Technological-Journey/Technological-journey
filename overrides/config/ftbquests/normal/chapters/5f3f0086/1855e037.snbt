@@ -6,9 +6,9 @@
 		"",
 		"For now, the most important advice we can give is: ",
 		"",
-		"Press A while hovering over an item to add or  remove it from your bookmarks. Items in your bookmarks are shown in the top left of any inventory gui, and can be referenced in order to remember what you're doing. ",
+		"Press \"A\" while hovering over an item to add or  remove it from your bookmarks. Items in your bookmarks are shown in the top left of any inventory gui, and can be referenced in order to remember what you're doing. ",
 		"",
-		"Press U to see the use(s) of an item, and R to see the recipe(s) for it. Combining this with the tip above, you can trace an entire recipe chain and pin it to bookmarks. "
+		"Press \"U\" to see the use(s) of an item, and \"R\" to see the recipe(s) for it. Combining this with the tip above, you can trace an entire recipe chain and pin it to bookmarks. "
 	],
 	hide_dependency_lines: true,
 	dependencies: [

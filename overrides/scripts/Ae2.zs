@@ -143,51 +143,33 @@ largeMix.recipeBuilder()
 .duration(30)
 .EUt(28)
 .buildAndRegister();
-//creadits to Brachy84 and _masterEnderman_
-var aeSeeds as IItemStack[string][IItemStack] = {
-<appliedenergistics2:material:10> : {
-"0" : <appliedenergistics2:crystal_seed>.withTag({progress: 0}),
-"33" : <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
-"66" : <appliedenergistics2:crystal_seed>.withTag({progress: 400})
-},
-<appliedenergistics2:material:11> : {
-"0" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 600}),
-"33" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
-"66" : <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000})
-},
-<appliedenergistics2:material:12> : {
-"0" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1200}),
-"33" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
-"66" : <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600})
-},
-};
+// crystals fix
 
-for crystal, seed in aeSeeds {
-
+//fluix
 autoclave.recipeBuilder()
-.inputs([seed["0"]])
+.inputs(<appliedenergistics2:crystal_seed:1200>)
 .fluidInputs([<liquid:water> * 1000])
-.outputs([seed["33"]])
-.duration(60)
+.outputs(<appliedenergistics2:material:12>)
+.duration(120)
+.EUt(28)
+.buildAndRegister();
+//nether
+autoclave.recipeBuilder()
+.inputs(<appliedenergistics2:crystal_seed:600>)
+.fluidInputs([<liquid:water> * 1000])
+.outputs(<appliedenergistics2:material:11>)
+.duration(120)
+.EUt(28)
+.buildAndRegister();
+//certus quartz
+autoclave.recipeBuilder()
+.inputs(<appliedenergistics2:crystal_seed>)
+.fluidInputs([<liquid:water> * 1000])
+.outputs(<appliedenergistics2:material:10>)
+.duration(120)
 .EUt(28)
 .buildAndRegister();
 
-autoclave.recipeBuilder()
-.inputs([seed["33"]])
-.fluidInputs([<liquid:water> * 1000])
-.outputs([seed["66"]])
-.duration(60)
-.EUt(28)
-.buildAndRegister();
-
-autoclave.recipeBuilder()
-.inputs([seed["66"]])
-.fluidInputs([<liquid:water> * 1000])
-.outputs([crystal])
-.duration(60)
-.EUt(28)
-.buildAndRegister();
-}
     recipes.remove(<threng:material:1>);
     recipes.addShaped(<threng:material:1>,[[<appliedenergistics2:material:8>,<appliedenergistics2:material:8>,<gregtech:meta_item_1:2106>],[<gregtech:meta_item_1:2106>,<gregtech:meta_item_1:10061>,null],[null,null,null]]);
     Aggregator.removeRecipe(<threng:material:1>);

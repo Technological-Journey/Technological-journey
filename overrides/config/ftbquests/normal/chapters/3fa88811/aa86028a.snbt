@@ -4,7 +4,9 @@
 	text: [
 		"Level emitters should be used to shut off your machines when buffers fill up. §c§lIf you do not shut off machines, you will end up with TPS issues late game. Make sure to not backstuff machines.§r ",
 		"",
-		"Alternatively, you can use item and fluid detector covers.  "
+		"Alternatively, you can use item and fluid detector covers.  ",
+		"",
+		"A third option is to use level emitters to enable machines when they need to run, rather than disabling them when they no longer need to run. This will keep you safe from accidentally chewing through all of those rare resources."
 	],
 	dependencies: [
 		"4a65f7e7"
