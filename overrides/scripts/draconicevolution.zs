@@ -399,7 +399,7 @@ condenser.recipeBuilder()
 
 assembler.recipeBuilder()
     .fluidInputs(<liquid:chaosalloy> * 288)
-    .inputs(<contenttweaker:eternityingot>, <gregtech:cable:4354> * 8, <gtadditions:ga_meta_item:32506> * 32, <gtadditions:ga_meta_item:32382>)
+    .inputs(<contenttweaker:eternityblock>, <gregtech:cable:4354> * 8, <gtadditions:ga_meta_item:32506> * 32, <gtadditions:ga_meta_item:32382>)
     .outputs(<gtadditions:ga_heating_coil:6>)
     .duration(100)
     .EUt(536870900)

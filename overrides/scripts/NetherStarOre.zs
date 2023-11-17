@@ -34,7 +34,7 @@ var materialList = MaterialRegistry.getAllMaterials();
 <material:berkelium>.addFlags(["GENERATE_ORE"]);
 <material:rhodium>.addFlags(["GENERATE_ORE"]);
 <material:ruthenium>.addFlags(["GENERATE_ORE"]);
-
+<material:dubnium>.addFlags(["GENERATE_ORE"]);
 //DISABLE_REPLICATION
 
 <material:adamantium>.addFlags(["DISABLE_REPLICATION"]);

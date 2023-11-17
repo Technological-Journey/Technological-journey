@@ -16,7 +16,6 @@ GaMap.ROCKET_FUEL_RECIPES.addRecipe(magic_gasoline);
 
 var greenRocketOld = mods.gregtech.recipe.FuelRecipe.create(<liquid:rocket_fuel_a> * 3, 160, 2048);
 var greenRocketNew = mods.gregtech.recipe.FuelRecipe.create(<liquid:rocket_fuel_a> * 7, 80, 2048);
-
 GaMap.ROCKET_FUEL_RECIPES.removeRecipe(greenRocketOld);
 GaMap.ROCKET_FUEL_RECIPES.addRecipe(greenRocketNew);
 

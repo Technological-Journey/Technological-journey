@@ -2623,7 +2623,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([<ore:circuitAdvanced> * 4, <gregtech:meta_item_1:32724>])
     .outputs(<gregtech:meta_item_1:32672>)
-    .fluidInputs(<liquid:hv_superconductor_base_molten> * 1152)
+    .fluidInputs(<liquid:hv_superconductor_base> * 1152)
     .duration(100)
     .EUt(480)
     .buildAndRegister();
@@ -2697,7 +2697,19 @@ assembler.recipeBuilder()
 //ti
 assembler.recipeBuilder()
     .inputs([<gregtech:meta_item_1:12184> * 4,<gregtech:frame_titanium>,<gregtech:meta_item_2:26072> * 2])
-    .outputs(<gregtech:turbine_casing:2>)
+    .outputs(<gregtech:turbine_casing:2> * 3)
     .duration(200)
     .EUt(30)
+    .buildAndRegister();
+
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:2134> * 2], [], true);
+Utils.removeRecipeByOutput(assembly_line, [<gregtech:meta_item_1:32670> * 16], [], true);
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:10180> * 2, <ore:circuitBasic> * 8 , <ore:dustEnderPearl> * 4])
+    .outputs(<gregtech:meta_item_1:32670> * 16)
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+    .duration(6000)
+    .EUt(8000)
     .buildAndRegister();
