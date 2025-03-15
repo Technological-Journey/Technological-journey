@@ -95,4 +95,4 @@ As you advance through the **Steam Age**, you’ll begin to craft more powerful 
 
 The endgame of **Technological Journey** is centered around **Draconic Additions**, a powerful mod that offers some of the most advanced machines, tools, and energy systems in the game. Reaching this stage is no small feat, as it requires mastering the full suite of GregTech, automation, and resource management systems. The **Draconic Additions** mod provides a fitting challenge for seasoned players, offering game-changing technology that pushes your capabilities to the limit.
 
-### New logo and readme created by <a href="https://github.com/ItsYaBoiSimonx/">ItsYaBoiSimonx<a> 
+##### New logo and readme created by <a href="https://github.com/ItsYaBoiSimonx/">simonx<a> 
