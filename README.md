@@ -1,7 +1,8 @@
 <div align="center">
   <img src="thumb.png" alt="Minecraft Title" style="width: 50%;" />
   <h1>Technological Journey</h1>
-  <h5>Minecraft tech modpack based around <a href="https://gregtech.overminddl1.com/">Gregtech<a> and its multiple counterparts. <a href="https://discord.gg/sKbWskxXdG/"> TJ Discord<a></h5>
+  <h5>Minecraft tech modpack based around <a href="https://gregtech.overminddl1.com/">Gregtech<a> and its multiple counterparts. <a href="https://discord.gg/sKbWskxXdG/"> TJ Discord<a></h5>    
+  
   <h1 align="center">
     <a href="https://github.com/Technological-Journey/Technological-journey/">
       <img src="https://img.shields.io/github/stars/Technological-Journey/Technological-journey?style=for-the-badge&logo=github&logoColor=white" alt="Stars">
@@ -29,6 +30,8 @@
     </a>
   </h1>
 </div>
+
+
 
 Welcome to **Technological Journey**, a Minecraft modpack designed for players who want a deep, intricate, and rewarding experience with automation, technology, and progression. Featuring a modified version of **GregTechCE** and **Gregicality**, alongside other powerful mods like **EnderIO**, **Advanced Rocketry**, and **AE2**, this modpack takes the classic GregTech experience to the next level. Whether you’re new to modded Minecraft or a seasoned player, this pack offers the ultimate technical challenge while minimizing grind.
 ## Overview
@@ -91,3 +94,5 @@ As you advance through the **Steam Age**, you’ll begin to craft more powerful 
 ### Endgame: Draconic Additions
 
 The endgame of **Technological Journey** is centered around **Draconic Additions**, a powerful mod that offers some of the most advanced machines, tools, and energy systems in the game. Reaching this stage is no small feat, as it requires mastering the full suite of GregTech, automation, and resource management systems. The **Draconic Additions** mod provides a fitting challenge for seasoned players, offering game-changing technology that pushes your capabilities to the limit.
+
+### New logo and readme created by <a href="https://github.com/ItsYaBoiSimonx/">ItsYaBoiSimonx<a> 
