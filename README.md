@@ -1,7 +1,7 @@
 <div align="center">
   <img src="thumb.png" alt="Minecraft Title" style="width: 50%;" />
   <h1>Technological Journey</h1>
-  <h5>Minecraft tech modpack based around <a href="https://gregtech.overminddl1.com/">Gregtech<a> and its multiple counterparts</h5>
+  <h5>Minecraft tech modpack based around <a href="https://gregtech.overminddl1.com/">Gregtech<a> and its multiple counterparts. <a href="https://discord.gg/sKbWskxXdG/"> TJ Discord<a></h5>
   <h1 align="center">
     <a href="https://github.com/Technological-Journey/Technological-journey/">
       <img src="https://img.shields.io/github/stars/Technological-Journey/Technological-journey?style=for-the-badge&logo=github&logoColor=white" alt="Stars">
