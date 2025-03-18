@@ -57,7 +57,7 @@ Welcome to **Technological Journey**, a Minecraft modpack designed for players w
 
 - [Early Game: Steam Age](#early-game-steam-age)
 - [Mid-Game: Advanced Automation](#mid-game-advanced-automation)
-- [Endgame: Draconic Additions](#endgame-draconic-additions)
+- [Endgame: Draconic Evolution](#endgame-draconic-evolution)
 
 ---
 
