@@ -67,11 +67,11 @@ Welcome to **Technological Journey**, a Minecraft modpack designed for players w
 
 ### Craftable Supra-Causal Circuits
 
-One of the most exciting features of **Technological Journey** is the introduction of **craftable GCYL Supra-Causal Circuits**—exclusive to this modpack. These circuits are key to unlocking the most powerful machines and systems in the game, requiring players to engage deeply with GregTech's advanced mechanics and automation systems. Along with these, the pack introduces other advanced circuit types that will challenge you to master new crafting strategies.
+One of the most exciting features of **Technological Journey** is the introduction of **craftable GCYL Supra-Causal Circuits**. These circuits are key to unlocking the most powerful machines and systems in the game, requiring players to engage deeply with GregTech's advanced mechanics and automation systems. Along with these, the pack introduces other advanced circuit types that will challenge you to master new crafting strategies.
 
 ### Advanced Machines and Multiblocks
 
-The modpack expands on GregTech’s traditional machines and multiblocks by introducing entirely new types. This includes **UIV and UP machines** and several additional high-tier multiblocks that bring fresh complexity to the game's crafting systems. These new machines are crafted using advanced circuits and materials and play a critical role in advancing through the technology tree.
+The modpack expands on GregTech’s traditional machines and multiblocks by introducing entirely new types. This includes **UIV+ machines** and several additional high-tier multiblocks that bring fresh complexity to the game's crafting systems. These new machines are crafted using advanced circuits and materials and play a critical role in advancing through the technology tree.
 
 ### Polymers, Chemistry, and New Circuit Types
 
@@ -85,14 +85,14 @@ To complement the complexity of GregTech, **EnderIO** and **Applied Energistics 
 
 ### Early Game: Steam Age
 
-**Technological Journey** starts with a **Steam Age** where you’ll craft basic steam-powered machines and begin automating simple tasks. While the early game is intentionally slow-paced, it serves as a foundation for the advanced technology you’ll unlock as you progress. You'll gradually move from primitive steam engines to more complex machines, setting the stage for the deeper mechanics that follow.
+**Technological Journey** starts with a **Steam Age** where you’ll craft basic steam-powered machines and begin automating simple tasks. While the Gregtech early game is usually slow-paced, TJ allows you to get right into the action. you will start with an overpowered hammer for very fast mining, and use custom multiblocks to progress into LV. 
 
 ### Mid-Game: Advanced Automation
 
 As you advance through the **Steam Age**, you’ll begin to craft more powerful machines and integrate more complex systems. By the time you reach the **Mid-Game**, you'll be automating large portions of your base, using tools like **EnderIO** and **AE2** to streamline your production and resource management. The introduction of advanced circuits and chemistry systems opens up new pathways for automation and complex crafting.
 
-### Endgame: Draconic Additions
+### Endgame: Draconic Evolution
 
-The endgame of **Technological Journey** is centered around **Draconic Additions**, a powerful mod that offers some of the most advanced machines, tools, and energy systems in the game. Reaching this stage is no small feat, as it requires mastering the full suite of GregTech, automation, and resource management systems. The **Draconic Additions** mod provides a fitting challenge for seasoned players, offering game-changing technology that pushes your capabilities to the limit.
+The endgame of **TJ** is centered around **Draconic Evolution**, a powerful mod that offers some of the most advanced machines, tools, and energy systems in the game. Reaching this stage is no small feat, as it requires mastering the full suite of GregTech, automation, and resource management systems. **Draconic Evolution** mod provides a fitting challenge for seasoned players, offering game-changing technology that pushes your capabilities to the limit.
 
 ##### New logo and readme created by <a href="https://github.com/ItsYaBoiSimonx/">simonx<a> 
