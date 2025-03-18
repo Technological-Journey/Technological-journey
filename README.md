@@ -39,7 +39,7 @@ Welcome to **Technological Journey**, a Minecraft modpack designed for players w
 - **Focus**: Advanced automation, complexity, and crafting
 - **Core Mods**: GregTechCE, Gregicality, Draconic Additions, EnderIO, AE2, Advanced Rocketry
 - **Key Features**: Craftable Supra-Causal Circuits, craftable UIV/UP machines, advanced multiblocks, polymers, and new chemistry systems
-- **Endgame**: Draconic Additions as the ultimate tech challenge
+- **Endgame**: Draconic Evolution as the ultimate tech challenge
 
 ---
 
