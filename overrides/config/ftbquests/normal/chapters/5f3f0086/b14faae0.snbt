@@ -1,0 +1,36 @@
+{
+	title: "MV Prospector",
+	x: 9.5d,
+	y: -13.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3411d508"
+	],
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "d8c6f974",
+		type: "checkmark",
+		icon: {
+			id: "gtadditions:ga_meta_item2",
+			Damage: 100s,
+			tag: {
+				Charge: 1L
+			}
+		}
+	}],
+	rewards: [{
+		uid: "791adb05",
+		type: "item",
+		item: {
+			id: "gtadditions:ga_meta_item2",
+			Damage: 100s,
+			tag: {
+				Charge: 1L
+			}
+		}
+	}]
+}

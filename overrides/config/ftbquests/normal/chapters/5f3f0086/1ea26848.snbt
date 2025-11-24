@@ -1,0 +1,47 @@
+{
+	title: "Diamond Hammer",
+	icon: "thermalfoundation:tool.hammer_diamond",
+	x: 9.5d,
+	y: -15.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3411d508"
+	],
+	optional: true,
+	tasks: [{
+		uid: "310156f3",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 5L
+	},
+	{
+		uid: "244f8ba0",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "245219c3",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.hammer_diamond",
+			tag: {
+				ench: [{
+					id: 32s,
+					lvl: 15s
+				},
+				{
+					id: 34s,
+					lvl: 15s
+				}]
+			}
+		}
+	}]
+}

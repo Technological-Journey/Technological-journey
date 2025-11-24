@@ -11,5 +11,11 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 10071"
 		}]
+	}],
+	rewards: [{
+		uid: "53e85c41",
+		type: "item",
+		item: "libvulpes:productingot 1 5",
+		count: 16
 	}]
 }

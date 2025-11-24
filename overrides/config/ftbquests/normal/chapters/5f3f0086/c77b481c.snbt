@@ -23,9 +23,9 @@
 		}
 	}],
 	rewards: [{
-		uid: "0adb2c03",
+		uid: "71e1b501",
 		type: "item",
-		item: "minecraft:bread",
-		count: 4
+		item: "gregtech:log",
+		count: 8
 	}]
 }

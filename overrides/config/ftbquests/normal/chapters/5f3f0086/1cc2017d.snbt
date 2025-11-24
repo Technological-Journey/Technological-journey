@@ -1,6 +1,11 @@
 {
+	title: "Portal to the Mining dimension",
+	icon: "aroma1997sdimension:miningmultitool",
 	x: 8.5d,
 	y: -4.0d,
+	text: [
+		"To make a portal to the Mining dimension, craft 10 portal frames from 1 mining multitool and 10 stone bricks, build a nether portal style portal, then use the mining multitool to light up the portal. YOU WILL ONLY NEED ONE MINING MULTITOOL SO ONLY MAKE ONE."
+	],
 	dependencies: [
 		"2f7b7dcf"
 	],
@@ -13,5 +18,13 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "4752c77b",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 10L
 	}]
 }

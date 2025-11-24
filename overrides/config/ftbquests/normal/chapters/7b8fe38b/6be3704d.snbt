@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	text: [
+		"The lv chunk miner is a huge upgrade to mining manually by hand! Just plop it down in a chunk that u want the ores of, add a lv solar panel on top with a crate on the output, give it drilling fluid, and time in a bottle(tiab) it, to give u the ores of the chunk super duper fast! U can get a solar panel from the MV page."
+	],
+	dependencies: [
+		"3ac4401a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a0ff3096",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2221"
+		}]
+	}],
+	rewards: [{
+		uid: "9ec49afa",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12184",
+		count: 8
+	}]
+}

@@ -15,5 +15,17 @@
 		type: "checkmark",
 		title: "Mining in Gregtech",
 		icon: "gregtech:pure_ore_uranium_0"
+	}],
+	rewards: [{
+		uid: "23afd93f",
+		type: "item",
+		item: "gregtech:rich_ore_copper_0",
+		count: 8
+	},
+	{
+		uid: "35b3a582",
+		type: "item",
+		item: "gregtech:rich_ore_tin_0",
+		count: 8
 	}]
 }

@@ -1,6 +1,9 @@
 {
 	x: 3.5d,
 	y: -5.5d,
+	text: [
+		"Your first source of LV power, have another one for free, you will need many of this.  (P.S. U can claim a free lv turbine in all the power quest tab, do check it out! U only need one LV steam turbine as a quest completion requirement.)"
+	],
 	dependencies: [
 		"8e3bf5bb",
 		"73a9d10d",
@@ -12,5 +15,10 @@
 		items: [{
 			item: "gregtech:machine 1 2242"
 		}]
+	}],
+	rewards: [{
+		uid: "11ca892f",
+		type: "item",
+		item: "gregtech:machine 1 2242"
 	}]
 }
