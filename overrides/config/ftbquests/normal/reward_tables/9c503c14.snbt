@@ -1,0 +1,5 @@
+{
+	title: "{id:\"thermalfoundation:tool.excavator_diamond\",Count:1,Damage:0s,tag:{ench:[{id:32s,lvl:15s},{id:34s,lvl:15s}]}}",
+	loot_size: 1,
+	rewards: []
+}

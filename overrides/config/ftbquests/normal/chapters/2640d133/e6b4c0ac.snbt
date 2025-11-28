@@ -11,5 +11,11 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 10018"
 		}]
+	}],
+	rewards: [{
+		uid: "2f814438",
+		type: "item",
+		item: "thermalfoundation:material 1 128",
+		count: 16
 	}]
 }

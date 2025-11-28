@@ -1,0 +1,22 @@
+{
+	title: "Oh no! I lost my OP Hammer and other OP stuff!!",
+	x: 7.5d,
+	y: -13.0d,
+	text: [
+		"Lost your OP Hammer or Excavator or Prospector? Fret not! By fulfilling these repeatable quests u can obtain your OP stuff back! Heres a free rubber tree sapling as well to commemorate the joy of christmas!"
+	],
+	dependencies: [
+		"d83c9621"
+	],
+	dependency_requirement: "one_started",
+	optional: true,
+	tasks: [{
+		uid: "0cd19a8d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "37d59b05",
+		type: "item",
+		item: "gregtech:sapling"
+	}]
+}

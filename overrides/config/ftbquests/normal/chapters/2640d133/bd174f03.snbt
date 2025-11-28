@@ -1,0 +1,36 @@
+{
+	title: "LEARN HOW TO BATCH CRAFT, IT WILL BE A GREAT HELP",
+	x: -0.5d,
+	y: -4.0d,
+	text: [
+		"Batch crafting is an essential skill to have especially before you unlock autocrafting through ae2. By making more than u need at the present moment, it saves trouble and nuisance of having to craft everytime u make a new machine. "
+	],
+	optional: true,
+	tasks: [{
+		uid: "a5b2f1da",
+		type: "checkmark",
+		icon: {
+			id: "gregtech:meta_tool",
+			Damage: 6s,
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "efb603b6",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 12s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		},
+		count: 2
+	}]
+}
