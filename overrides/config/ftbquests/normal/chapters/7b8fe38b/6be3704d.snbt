@@ -2,7 +2,9 @@
 	x: 4.5d,
 	y: -4.0d,
 	text: [
-		"The lv chunk miner is a huge upgrade to mining manually by hand! Just plop it down in a chunk that u want the ores of, add a lv solar panel on top with a crate on the output, give it drilling fluid, and time in a bottle(tiab) it, to give u the ores of the chunk super duper fast! U can get a solar panel from the MV page."
+		"The LV chunk miner is a huge upgrade to mining manually by hand.",
+		"Simply plop it down in the chunk you would like to mine, then load it with drilling fluid and power it. It will output ores into an adjacent inventory.",
+		"If you'd like it to go faster, you can right click it with a "Time In A Bottle" while powering it with a solar panel."
 	],
 	dependencies: [
 		"3ac4401a"

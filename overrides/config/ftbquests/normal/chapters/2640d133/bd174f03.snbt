@@ -1,9 +1,9 @@
 {
-	title: "LEARN HOW TO BATCH CRAFT, IT WILL BE A GREAT HELP",
+	title: "Batch crafting?",
 	x: -0.5d,
 	y: -4.0d,
 	text: [
-		"Batch crafting is an essential skill to have especially before you unlock autocrafting through ae2. By making more than u need at the present moment, it saves trouble and nuisance of having to craft everytime u make a new machine. "
+		"Batch crafting is an essential skill to have before you unlock autocrafting. By making more items than you need in the present, you'll have them ready when you need them in the future."
 	],
 	optional: true,
 	tasks: [{
