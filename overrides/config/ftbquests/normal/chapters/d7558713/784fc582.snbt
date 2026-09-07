@@ -13,7 +13,7 @@
 		uid: "0c23ed6c",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2746"
+			item: "gcyl:meta_dust 1 393"
 		}]
 	}]
 }

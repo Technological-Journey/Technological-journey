@@ -1,5 +1,5 @@
 {
-	x: -1.0d,
+	x: -0.5d,
 	y: 6.0d,
 	text: [
 		"ME inputs can be very helpful for passive stocking machines, such as ore proc and later on nuclear"
@@ -12,26 +12,26 @@
 		uid: "5e6239da",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1100"
+			item: "gregtech:mte 1 11526"
 		}]
 	},
 	{
 		uid: "3b8a7ab8",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1103"
+			item: "gregtech:mte 1 11525"
 		}]
 	}],
 	rewards: [{
 		uid: "7f901521",
 		type: "item",
-		item: "gregtech:machine 1 1100",
+		item: "gregtech:mte 1 11526",
 		count: 2
 	},
 	{
 		uid: "894ee068",
 		type: "item",
-		item: "gregtech:machine 1 1103",
+		item: "gregtech:mte 1 11525",
 		count: 2
 	}]
 }

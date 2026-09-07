@@ -1,6 +1,11 @@
 {
-	x: 7.5d,
-	y: 3.0d,
+	title: "Aqua Regia",
+	x: -1.0d,
+	y: 8.0d,
+	description: "The Drink of Kings?",
+	text: [
+		""
+	],
 	dependencies: [
 		"117394e1"
 	],

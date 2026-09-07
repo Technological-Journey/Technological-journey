@@ -1,7 +1,15 @@
 {
+	title: "Alloy Blast Furnace (ABF)",
 	icon: "gregtech:machine 1 2559",
-	x: 14.5d,
+	x: 18.5d,
 	y: 3.0d,
+	text: [
+		"The ABF is a special alloy smelter primarily used to make specialized alloys only accessible through this machine, it’s also capable of making conventional alloys although in most cases it’s not as good as the dedicated machines for them.",
+		"",
+		"Like the EBF, the ABF has the same heat mechanic, which grants extra overclocks and energy discounts.",
+		"",
+		"Looking at the recipes of the ABF, you see that it have two types of outputs, the first type is the liquids called molten ... (e.g. Molten Kanthal), these are the ABF recipes for alloys usually smelted at higher temperatures in the EBF, you need to cool the molten form to get the normal usable liquids, the second type produces normal liquids which can be used as is, these can be alloys originally made in alloy smelters, low temperature EBF alloys or ABF unique materials."
+	],
 	dependencies: [
 		"fdc5092b"
 	],
@@ -10,27 +18,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 2559"
-		}]
-	},
-	{
-		uid: "a3a097b5",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 744"
-		}]
-	},
-	{
-		uid: "e3f99d0e",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 743"
-		}]
-	},
-	{
-		uid: "49448d8e",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 740"
 		}]
 	},
 	{
@@ -50,25 +37,31 @@
 		count: 35L
 	},
 	{
-		uid: "24f7c854",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4216"
-		}]
-	},
-	{
-		uid: "ce1107a7",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4213"
-		}]
-	},
-	{
 		uid: "98ff595c",
 		type: "item",
 		items: [{
 			item: "gregtech:wire_coil 1 3"
 		}],
 		count: 16L
+	},
+	{
+		uid: "d731d697",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4216"
+		}]
+	},
+	{
+		uid: "4e3f5e22",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4213"
+		}]
+	}],
+	rewards: [{
+		uid: "c0e788c6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10235",
+		count: 16
 	}]
 }

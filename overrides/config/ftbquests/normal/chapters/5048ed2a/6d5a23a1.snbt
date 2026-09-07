@@ -1,10 +1,13 @@
 {
-	x: 20.5d,
-	y: 5.0d,
+	title: "Berkelium Fuel",
+	icon: "gtadditions:ga_meta_item 1 16799",
+	x: 26.0d,
+	y: 6.0d,
 	dependencies: [
 		"15116889"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "cab39441",
 		type: "item",
@@ -18,5 +21,10 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 16798"
 		}]
+	},
+	{
+		uid: "4fbb2472",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

@@ -1,26 +1,36 @@
 {
-	x: 20.5d,
-	y: 10.0d,
+	title: "Uranium Fuel",
+	icon: "gtadditions:ga_meta_item 1 17075",
+	x: 26.0d,
+	y: 11.0d,
 	text: [
-		""
+		"All of the fuel quests have a checkmar that complets the quest so you don't have to hold every fuel type.",
+		"",
+		"Radiation is bad for the skin anyways!"
 	],
 	dependencies: [
 		"1bcba84d"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
-		uid: "9e50b8e7",
+		uid: "bfb28401",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 17075"
+		}]
+	},
+	{
+		uid: "762df0f5",
 		type: "item",
 		items: [{
 			item: "gtadditions:ga_meta_item 1 16076"
 		}]
 	},
 	{
-		uid: "bfb28401",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_meta_item 1 17075"
-		}]
+		uid: "0d5d9518",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}],
 	rewards: [{
 		uid: "700c95db",

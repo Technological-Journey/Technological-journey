@@ -1,4 +1,11 @@
 {
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "plasma.eternity",
+			Amount: 1000
+		}
+	},
 	x: -6.0d,
 	y: 9.5d,
 	text: [

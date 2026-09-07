@@ -1,5 +1,5 @@
 {
-	x: 10.5d,
+	x: 11.0d,
 	y: 6.0d,
 	dependencies: [
 		"5ea837fc"
@@ -8,13 +8,13 @@
 		uid: "cecefe14",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32033"
+			item: "gregtech:meta_item_1 1 405"
 		}]
 	}],
 	rewards: [{
-		uid: "4da6deb8",
+		uid: "286ead1b",
 		type: "item",
-		item: "gregtech:meta_item_1 1 12470",
-		count: 4
+		item: "gregtech:meta_item_1 1 385",
+		count: 8
 	}]
 }

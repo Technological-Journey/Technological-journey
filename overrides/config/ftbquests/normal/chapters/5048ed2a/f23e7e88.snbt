@@ -1,11 +1,14 @@
 {
-	icon: "gregtech:machine 1 2530",
-	x: -1.5d,
+	title: "Assemble The Beast",
+	x: -1.0d,
 	y: 5.0d,
+	description: "LCR",
 	text: [
-		"The LCR is an incredibly important multiblock. It can run (nearly) any recipe that can be run in a typical chemical reactor, along with several that cannot. It has a perfect overclock, which is generally faster than a single block of the same tier. You will be making hundreds of these.",
+		"The LCR is an incredibly important multiblock. It can run (nearly) any recipe that can be run in a typical chemical reactor, along with several that cannot. It has perfect overclock, which means it becomes 4 times faster for each tier above the minimum required for the recipe, thus it uses the same total EU regardless of tier.",
 		"",
-		"The structure the quest was based on has 7 hatches—1 energy, 3 fluid outputs, I each item Input/output, and 2 fluid inputs."
+		"You will be making hundreds of these.",
+		"",
+		"The structure the quest was based on has 8 hatches. For example, 1 energy, 1 input bus, 1 output bus, 2 input hatches and 3 output hatches"
 	],
 	dependencies: [
 		"8bedbe81"
@@ -14,14 +17,14 @@
 		uid: "9b1d4c78",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2530"
+			item: "gregtech:mte 1 10023"
 		}]
 	},
 	{
 		uid: "a015253b",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 1"
+			item: "gregtech:metal_casing 1 9"
 		}],
 		count: 15L
 	},
@@ -29,14 +32,14 @@
 		uid: "6ac41d44",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 14"
+			item: "gregtech:boiler_casing 1 4"
 		}]
 	},
 	{
 		uid: "d91009e7",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4213"
+			item: "gregtech:mte 1 11480"
 		}]
 	},
 	{
@@ -51,13 +54,13 @@
 	rewards: [{
 		uid: "779a0bf0",
 		type: "item",
-		item: "gregtech:meta_item_1 1 12145",
+		item: "gregtech:meta_plate 1 1016",
 		count: 32
 	},
 	{
 		uid: "6429ea3b",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2900",
+		item: "gcyl:meta_dust 1 1045",
 		count: 32
 	}]
 }

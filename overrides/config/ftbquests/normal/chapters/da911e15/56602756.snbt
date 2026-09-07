@@ -5,7 +5,7 @@
 		uid: "58a89eac",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 3273"
+			item: "gregtech:mte 1 122"
 		}]
 	}]
 }

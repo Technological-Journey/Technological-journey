@@ -9,7 +9,7 @@
 		uid: "c44fb584",
 		type: "item",
 		items: [{
-			item: "contenttweaker:eternitycrystal"
+			item: "technological_journey:eternitycrystal"
 		}]
 	}]
 }

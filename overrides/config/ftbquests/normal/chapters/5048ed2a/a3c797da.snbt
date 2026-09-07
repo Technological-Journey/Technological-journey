@@ -1,6 +1,6 @@
 {
-	x: 21.5d,
-	y: 7.0d,
+	x: 27.0d,
+	y: 8.0d,
 	dependencies: [
 		"aed28008"
 	],
@@ -11,5 +11,11 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32317"
 		}]
+	}],
+	rewards: [{
+		uid: "1e7dbbfa",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32317",
+		count: 8
 	}]
 }

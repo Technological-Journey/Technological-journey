@@ -12,14 +12,14 @@
 		uid: "ae0c834c",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 5423"
+			item: "tja:mte 1 2000"
 		}]
 	},
 	{
 		uid: "539b70a3",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 5422"
+			item: "tja:mte 1 2001"
 		}]
 	}]
 }

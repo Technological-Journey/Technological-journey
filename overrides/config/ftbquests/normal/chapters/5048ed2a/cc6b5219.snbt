@@ -1,7 +1,12 @@
 {
-	x: 15.5d,
-	y: 4.0d,
+	title: "Hastelloy N",
+	x: 18.5d,
+	y: 5.0d,
+	text: [
+		"You can make it with either the ABF or the Large Mixer, which is an IV multi, so you should probably start with the molten recipe."
+	],
 	dependencies: [
+		"7db1c244",
 		"3ebe91dd"
 	],
 	tasks: [{

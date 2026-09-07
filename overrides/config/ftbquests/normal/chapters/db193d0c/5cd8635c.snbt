@@ -5,7 +5,7 @@
 		uid: "8e98c8b9",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10763"
+			item: "gregtech:meta_dust 1 89"
 		}]
 	}]
 }

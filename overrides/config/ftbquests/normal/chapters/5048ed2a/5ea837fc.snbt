@@ -1,5 +1,5 @@
 {
-	x: 10.5d,
+	x: 11.0d,
 	y: 5.0d,
 	dependencies: [
 		"a943ebfd"
@@ -8,7 +8,13 @@
 		uid: "b1edc360",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32445"
+			item: "gregtech:meta_item_1 1 385"
 		}]
+	}],
+	rewards: [{
+		uid: "f488e61a",
+		type: "item",
+		item: "gregtech:meta_plate 1 1006",
+		count: 16
 	}]
 }

@@ -5,7 +5,7 @@
 		uid: "3b0c0476",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 5"
+			item: "gcyl:gcyl_fusion_coil 1 1"
 		}]
 	}]
 }

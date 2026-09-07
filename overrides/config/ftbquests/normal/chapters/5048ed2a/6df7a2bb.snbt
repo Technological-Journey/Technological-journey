@@ -1,5 +1,5 @@
 {
-	x: -1.5d,
+	x: -2.0d,
 	y: 3.0d,
 	dependencies: [
 		"58eb90db",
@@ -9,13 +9,13 @@
 		uid: "6ee72e00",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 103"
+			item: "gregtech:mte 1 113"
 		}]
 	}],
 	rewards: [{
-		uid: "a451ca70",
+		uid: "ad3dd9d8",
 		type: "item",
-		item: "gregtech:ore_bastnasite_0",
-		count: 8
+		item: "gregtech:meta_item_1 1 130",
+		count: 2
 	}]
 }

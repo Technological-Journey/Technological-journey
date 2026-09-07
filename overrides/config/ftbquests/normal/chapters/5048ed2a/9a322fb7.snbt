@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 13.5d,
+	shape: "rsquare",
+	optional: 1b,
+	tasks: [{
+		uid: "cfea2d77",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2060"
+		}],
+		count: 12L
+	}]
+}

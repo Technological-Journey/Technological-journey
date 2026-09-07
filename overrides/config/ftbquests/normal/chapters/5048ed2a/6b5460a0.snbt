@@ -1,6 +1,7 @@
 {
-	x: 2.5d,
-	y: 7.0d,
+	icon: "gcyl:meta_dust 1 653",
+	x: 5.0d,
+	y: 5.0d,
 	dependencies: [
 		"19d5cd1c"
 	],

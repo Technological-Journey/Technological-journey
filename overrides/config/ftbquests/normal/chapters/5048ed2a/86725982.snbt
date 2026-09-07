@@ -1,10 +1,7 @@
 {
 	title: "Uranium Hexachloride Bucket",
-	x: 19.5d,
-	y: 5.0d,
-	text: [
-		""
-	],
+	x: 24.0d,
+	y: 6.0d,
 	dependencies: [
 		"807462ac"
 	],
