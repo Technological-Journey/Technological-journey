@@ -8,6 +8,7 @@ import gregtech.api.unification.OreDictUnifier
 import gregtech.api.unification.material.MarkerMaterials
 import gregtech.api.unification.material.Materials
 import gregtech.api.unification.ore.OrePrefix
+import gregtech.api.unification.stack.UnificationEntry
 import gregtech.common.blocks.BlockMachineCasing
 import gregtech.common.blocks.BlockMetalCasing
 import gregtech.common.blocks.BlockSteamCasing
@@ -166,6 +167,8 @@ RecipeMaps.FORGE_HAMMER_RECIPES.recipeBuilder()
         .output(OrePrefix.plateDense, Materials.Rubber)
         .EUt(16).duration(200)
         .buildAndRegister()
+// crushed black quartz
+furnace.add(ore(new UnificationEntry(OrePrefix.dust, Materials.Quartzite).toString()), item('actuallyadditions:item_dust', 7))
 // steam macerator
 crafting.shapedBuilder()
         .row('PBP')
