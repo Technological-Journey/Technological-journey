@@ -1,10 +1,7 @@
 {
 	title: "EV Superconductor Base",
-	x: 6.5d,
-	y: 9.0d,
-	text: [
-		""
-	],
+	x: 6.0d,
+	y: 10.0d,
 	dependencies: [
 		"7ebcbc44",
 		"848723f8"
@@ -13,7 +10,13 @@
 		uid: "3f3ebdf3",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10974"
+			item: "gcyl:meta_ingot 1 1146"
 		}]
+	}],
+	rewards: [{
+		uid: "179f3a68",
+		type: "item",
+		item: "gcyl:meta_dust 1 1146",
+		count: 8
 	}]
 }

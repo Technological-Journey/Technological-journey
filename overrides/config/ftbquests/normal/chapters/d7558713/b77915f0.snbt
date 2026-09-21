@@ -2,20 +2,19 @@
 	x: 3.0d,
 	y: 2.0d,
 	dependencies: [
-		"24bc47d9",
-		"9eca14ac"
+		"24bc47d9"
 	],
 	tasks: [{
 		uid: "2167ac56",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 12859"
+			item: "gregtech:meta_plate 1 2062"
 		}]
 	}],
 	rewards: [{
 		uid: "fac49eeb",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2867",
+		item: "gregtech:meta_dust 1 90",
 		count: 32
 	}]
 }

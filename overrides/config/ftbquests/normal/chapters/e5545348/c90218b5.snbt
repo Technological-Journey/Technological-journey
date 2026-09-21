@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -5.5d,
+	shape: "rsquare",
+	text: [
+		"They're a wide variety of combinations to choose from, use whichever is easiest. The Forming Press has a bit less options but it yields twice as much, the choice is yours."
+	],
+	tasks: [{
+		uid: "fc5fa244",
+		type: "item",
+		items: [{
+			item: "tja:meta_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0075e611",
+		type: "item",
+		item: "tja:meta_material",
+		count: 4
+	}]
+}

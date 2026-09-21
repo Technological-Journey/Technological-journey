@@ -1,21 +1,21 @@
 {
-	x: 5.5d,
-	y: 5.0d,
+	icon: "gcyl:meta_dust 1 1192",
+	x: -1.0d,
+	y: 13.0d,
 	dependencies: [
-		"89e1becc",
 		"f23e7e88",
-		"6acb5110"
+		"e9d53212"
 	],
+	or_tasks: 1b,
 	tasks: [{
-		uid: "55d311ed",
-		type: "checkmark",
-		title: "Reprecipitated Platinum Dust",
-		icon: "gregtech:meta_item_1 1 2896"
+		uid: "5c6846d0",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 1192"
+		}]
 	},
 	{
-		uid: "5092a11f",
-		type: "checkmark",
-		title: "10x Small Pile of Platinum Salt Dust",
-		icon: "gregtech:meta_item_1 1 1051"
+		uid: "a3d3ddf1",
+		type: "checkmark"
 	}]
 }

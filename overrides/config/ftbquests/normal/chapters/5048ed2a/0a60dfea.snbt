@@ -1,8 +1,8 @@
 {
-	x: -1.0d,
-	y: 7.0d,
+	x: 0.5d,
+	y: 6.0d,
 	text: [
-		"In the same vein, ME outputs serve as functional infinite outputs for multiblocks… Just don’t get any ideas, the items don’t actually exist until pushed into AE2. A storage bus on a me output won’t work"
+		"In the same vein, ME outputs serve as functional infinite outputs for multiblocks... Just don't get any ideas, the items don't actually exist until pushed into AE2. A storage bus on a me output won't work"
 	],
 	dependencies: [
 		"7f50ed26"
@@ -11,14 +11,24 @@
 		uid: "9f5316fa",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1105"
+			item: "gregtech:mte 1 11532"
 		}]
 	},
 	{
 		uid: "674029b0",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1102"
+			item: "gregtech:mte 1 11533"
 		}]
+	}],
+	rewards: [{
+		uid: "434fab97",
+		type: "item",
+		item: "gregtech:mte 1 11532"
+	},
+	{
+		uid: "05f89008",
+		type: "item",
+		item: "gregtech:mte 1 11533"
 	}]
 }

@@ -1,10 +1,15 @@
 {
+	title: "Sodium Tungstate",
 	x: 2.5d,
 	y: 4.0d,
-	dependencies: [
-		"96c5fb49"
+	text: [
+		"You should probably start with the simpler route, but if you need more processing scheelite isn’t much harder."
 	],
-	dependency_requirement: "one_started",
+	dependencies: [
+		"96c5fb49",
+		"5e4e0eee"
+	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "2b08b2b3",
 		type: "checkmark",

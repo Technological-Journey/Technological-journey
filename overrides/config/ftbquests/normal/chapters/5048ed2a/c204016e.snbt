@@ -1,10 +1,13 @@
 {
-	x: 20.5d,
-	y: 9.0d,
+	title: "Neptunium Fuel",
+	icon: "gtadditions:ga_meta_item 1 16815",
+	x: 26.0d,
+	y: 10.0d,
 	dependencies: [
 		"61e9c5ed"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "61a33e84",
 		type: "item",
@@ -18,5 +21,10 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 16816"
 		}]
+	},
+	{
+		uid: "92d26493",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

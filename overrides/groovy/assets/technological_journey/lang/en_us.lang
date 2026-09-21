@@ -23,6 +23,8 @@ technological_journey.machine.chaos_replicator.name=Chaos Replicator (CR)
 technological_journey.machine.dragon_egg_replicator.name=Dragon Egg Replicator (DER)
 technological_journey.machine.large_powered_spawner.name=Large Powered Spawner (LPS)
 technological_journey.machine.large_vial_processor.name=Large Vial Processor (LVP)
+technological_journey.machine.steam_mixer_bronze.name=Steam Mixer
+technological_journey.machine.steam_mixer_steel.name=High Pressure Steam Mixer
 
 technological_journey.machine.vial_processor.lv.name=Basic Vial Processor
 technological_journey.machine.vial_processor.mv.name=Advanced Vial Processor
@@ -40,6 +42,20 @@ technological_journey.machine.vial_processor.opv.name=Legendary Vial Processor
 technological_journey.machine.vial_processor.max.name=MAX Vial Processor
 
 recipemap.primitive_alloy_smelter.name=Primitive Alloy Smelter
+recipemap.tj_heat_exchanger.name=Heat Exchanger
 
 technological_journey.material.pahoehoe_lava=Pahoehoe Lava
 technological_journey.material.star_metal_alloy=Starmetal Alloy
+technological_journey.material.raw_chaos=Raw Chaos
+technological_journey.material.draconic_stem_cell=Draconic Stem Cell
+technological_journey.material.eternity_preparation=Eternity Preparation
+technological_journey.material.eternity=Eternity
+technological_journey.material.hmx=HMX High Explosive Compound
+technological_journey.material.naquadric_fuel=Naquadric Fuel Catalyst
+technological_journey.material.octaazacubane=Metastable Octaazacubane Booster
+technological_journey.material.octaazacubane_solution=Wet Octaazacubane Solution
+technological_journey.material.starlight_complex=Starlight Complex
+technological_journey.material.explosive_hydrazine=Explosive Hydrazine Fuel Mixture
+technological_journey.material.starlight_fuel=Starlight Rocket Fuel
+technological_journey.material.stellar_alloy=Molten Stellar Alloy
+technological_journey.material.unfired_clay=Unfired Clay Brick

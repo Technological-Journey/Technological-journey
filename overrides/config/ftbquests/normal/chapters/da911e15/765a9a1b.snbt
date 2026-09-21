@@ -8,7 +8,7 @@
 		uid: "2451bea3",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32214"
+			item: "gregtech:meta_item_1 1 642"
 		}]
 	}]
 }

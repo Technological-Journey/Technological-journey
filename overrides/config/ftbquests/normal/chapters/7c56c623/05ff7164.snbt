@@ -8,7 +8,7 @@
 		uid: "b5d825b6",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_heating_coil 1 5"
+			item: "gcyl:wire_coil 1 6"
 		}]
 	}]
 }

@@ -1,10 +1,13 @@
 {
-	x: 20.5d,
-	y: 4.0d,
+	title: "Californium Fuel",
+	icon: "gtadditions:ga_meta_item 1 17795",
+	x: 26.0d,
+	y: 5.0d,
 	dependencies: [
 		"333c0909"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "069abe75",
 		type: "item",
@@ -13,17 +16,15 @@
 		}]
 	},
 	{
-		uid: "e6218f37",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_meta_item 1 17793"
-		}]
-	},
-	{
 		uid: "839b7af2",
 		type: "item",
 		items: [{
 			item: "gtadditions:ga_meta_item 1 16794"
 		}]
+	},
+	{
+		uid: "9177fef0",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

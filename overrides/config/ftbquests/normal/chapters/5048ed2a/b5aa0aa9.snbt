@@ -1,0 +1,20 @@
+{
+	icon: "gregtech:meta_dust 1 2029",
+	x: 14.0d,
+	y: 3.0d,
+	dependencies: [
+		"521536b6"
+	],
+	or_tasks: 1b,
+	tasks: [{
+		uid: "1121e7fe",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2029"
+		}]
+	},
+	{
+		uid: "637baa9c",
+		type: "checkmark"
+	}]
+}

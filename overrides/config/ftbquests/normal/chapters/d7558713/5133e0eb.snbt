@@ -9,7 +9,7 @@
 		uid: "910ae545",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2747"
+			item: "gcyl:meta_dust 1 392"
 		}]
 	}]
 }

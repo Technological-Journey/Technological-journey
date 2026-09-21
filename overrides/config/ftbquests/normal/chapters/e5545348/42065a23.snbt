@@ -12,7 +12,7 @@
 		uid: "4a2f834e",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2221"
+			item: "gregtech:mte 1 5045"
 		}]
 	}]
 }

@@ -23,13 +23,10 @@
 		uid: "f0e1d054",
 		type: "item",
 		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 32762s,
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "ethanol",
-					Amount: 1000
-				}
+				FluidName: "ethanol",
+				Amount: 1000
 			}
 		},
 		count: 2

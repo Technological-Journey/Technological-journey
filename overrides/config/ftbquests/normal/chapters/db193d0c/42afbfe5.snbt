@@ -5,7 +5,11 @@
 		uid: "c6ebc18c",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10818"
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "neptunium",
+				Amount: 1000
+			}
 		}]
 	}]
 }

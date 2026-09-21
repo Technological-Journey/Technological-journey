@@ -1,15 +1,21 @@
 {
-	x: 8.5d,
-	y: 6.0d,
+	x: -4.0d,
+	y: 15.5d,
+	shape: "hexagon",
 	dependencies: [
-		"24eaaf4b",
-		"46f20407"
+		"dae2c341"
 	],
 	tasks: [{
 		uid: "0d12611a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2049"
+			item: "gregtech:meta_dust 1 77"
 		}]
+	}],
+	rewards: [{
+		uid: "8f0914b7",
+		type: "item",
+		item: "gcyl:meta_crushed_purified 1 1056",
+		count: 64
 	}]
 }

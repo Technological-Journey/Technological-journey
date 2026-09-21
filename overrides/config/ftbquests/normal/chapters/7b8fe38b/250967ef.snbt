@@ -18,7 +18,7 @@
 		uid: "61a72897",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_51 1 6"
+			item: "supercritical:meta_block_compressed_0 1 1"
 		}],
 		consume_items: 1b
 	}],

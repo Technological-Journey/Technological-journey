@@ -51,17 +51,59 @@
 		uid: "5220a223",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4024"
+			item: "tja:mte 1 1000"
+		},
+		{
+			item: "tja:mte 1 1001"
+		},
+		{
+			item: "tja:mte 1 1002"
+		},
+		{
+			item: "tja:mte 1 1003"
+		},
+		{
+			item: "tja:mte 1 1004"
+		},
+		{
+			item: "tja:mte 1 1005"
+		},
+		{
+			item: "tja:mte 1 1006"
+		},
+		{
+			item: "tja:mte 1 1007"
+		},
+		{
+			item: "tja:mte 1 1008"
+		},
+		{
+			item: "tja:mte 1 1009"
+		},
+		{
+			item: "tja:mte 1 1010"
+		},
+		{
+			item: "tja:mte 1 1011"
+		},
+		{
+			item: "tja:mte 1 1012"
+		},
+		{
+			item: "tja:mte 1 1013"
+		},
+		{
+			item: "tja:mte 1 1014"
 		}]
 	}],
 	rewards: [{
 		uid: "bcd093b5",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32752"
+		item: "gregtech:meta_item_1 1 333"
 	},
 	{
 		uid: "f0500bbe",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32708"
+		item: "gregtech:meta_item_1 1 261"
 	}]
 }

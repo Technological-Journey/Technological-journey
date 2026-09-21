@@ -1,8 +1,19 @@
 {
-	x: -0.5d,
+	title: "Methane",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "methane",
+			Amount: 1000
+		}
+	},
+	x: 0.0d,
 	y: 3.0d,
+	text: [
+		"You can get it from its elements or from oil."
+	],
 	dependencies: [
-		"5ae4e479"
+		"18ee5f1e"
 	],
 	tasks: [{
 		uid: "970717a9",

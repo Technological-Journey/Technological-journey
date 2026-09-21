@@ -1,7 +1,6 @@
 {
-	x: 10.5d,
-	y: 10.0d,
-	shape: "hexagon",
+	x: 11.0d,
+	y: 9.0d,
 	dependencies: [
 		"caf24bb8",
 		"de2f33ec"
@@ -10,19 +9,12 @@
 		uid: "30a44674",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32493"
+			item: "gregtech:meta_item_1 1 633"
 		}]
 	}],
 	rewards: [{
-		uid: "2785b1af",
+		uid: "38a95036",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2051",
-		count: 10
-	},
-	{
-		uid: "ece051e0",
-		type: "item",
-		item: "gregtech:meta_item_1 1 2049",
-		count: 10
+		item: "gregtech:meta_item_1 1 633"
 	}]
 }

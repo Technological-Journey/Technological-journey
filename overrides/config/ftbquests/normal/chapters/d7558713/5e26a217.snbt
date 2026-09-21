@@ -8,7 +8,7 @@
 		uid: "650c3ada",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 6200"
+			item: "gregtech:cable_double 1 338"
 		}]
 	}]
 }
