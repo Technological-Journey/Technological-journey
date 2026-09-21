@@ -57,11 +57,11 @@ MetaItem.MetaValueItem[] pistons = [null, MetaItems.ELECTRIC_PISTON_LV, MetaItem
                                     MetaItems.ELECTRIC_PISTON_UEV, MetaItems.ELECTRIC_PISTON_UIV, MetaItems.ELECTRIC_PISTON_UXV,
                                     MetaItems.ELECTRIC_PISTON_OpV, GCYLCoreItems.ELECTRIC_PISTON_MAX]
 
-MetaItem.MetaValueItem[] conveyors = [null, MetaItems.ELECTRIC_PISTON_LV, MetaItems.ELECTRIC_PISTON_MV, MetaItems.ELECTRIC_PISTON_HV,
-                                      MetaItems.ELECTRIC_PISTON_EV, MetaItems.ELECTRIC_PISTON_IV, MetaItems.ELECTRIC_PISTON_LUV,
-                                      MetaItems.ELECTRIC_PISTON_ZPM, MetaItems.ELECTRIC_PISTON_UV, MetaItems.ELECTRIC_PISTON_UHV,
-                                      MetaItems.ELECTRIC_PISTON_UEV, MetaItems.ELECTRIC_PISTON_UIV, MetaItems.ELECTRIC_PISTON_UXV,
-                                      MetaItems.ELECTRIC_PISTON_OpV, GCYLCoreItems.CONVEYOR_MODULE_MAX]
+MetaItem.MetaValueItem[] conveyors = [null, MetaItems.CONVEYOR_MODULE_LV, MetaItems.CONVEYOR_MODULE_MV, MetaItems.CONVEYOR_MODULE_HV,
+                                      MetaItems.CONVEYOR_MODULE_EV, MetaItems.CONVEYOR_MODULE_IV, MetaItems.CONVEYOR_MODULE_LuV,
+                                      MetaItems.CONVEYOR_MODULE_ZPM, MetaItems.CONVEYOR_MODULE_UV, MetaItems.CONVEYOR_MODULE_UHV,
+                                      MetaItems.CONVEYOR_MODULE_UEV, MetaItems.CONVEYOR_MODULE_UIV, MetaItems.CONVEYOR_MODULE_UXV,
+                                      MetaItems.CONVEYOR_MODULE_OpV, GCYLCoreItems.CONVEYOR_MODULE_MAX]
 
 MetaItem.MetaValueItem[] robotArms = [null, MetaItems.ROBOT_ARM_LV, MetaItems.ROBOT_ARM_MV, MetaItems.ROBOT_ARM_HV, MetaItems.ROBOT_ARM_EV,
                                       MetaItems.ROBOT_ARM_IV, MetaItems.ROBOT_ARM_LuV, MetaItems.ROBOT_ARM_ZPM, MetaItems.ROBOT_ARM_UV,
