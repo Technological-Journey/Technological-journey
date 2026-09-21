@@ -562,7 +562,7 @@ assemblyLine.recipeBuilder()
 			<liquid:hssg> * 2304,
 			<liquid:soularium> * 2304,
 		])
-    .outputs(<gregtech:machine:4201> * 1)
+    .outputs(<gregtech:machine:5149> * 1)
     .duration(800)
     .EUt(30000)
     .buildAndRegister();
@@ -588,7 +588,7 @@ assemblyLine.recipeBuilder()
 			<liquid:hssg> * 2304,
 			<liquid:soularium> * 2304,
 		])
-    .outputs(<gregtech:machine:4202> * 1)
+    .outputs(<gregtech:machine:5150> * 1)
     .duration(800)
     .EUt(30000)
     .buildAndRegister();

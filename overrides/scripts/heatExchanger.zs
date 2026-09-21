@@ -97,4 +97,4 @@ electrolyzer.recipeBuilder()
 .EUt(7000)
 .buildAndRegister();
 
-recipes.addShaped(<gregtech:machine:1003>, [[<gregtech:meta_item_1:12741>, <gtadditions:ga_metal_casing_1:14>, <gregtech:meta_item_1:12741>],[<gtadditions:ga_metal_casing_1:14>, <gregtech:machine:522>, <gtadditions:ga_metal_casing_1:14>], [<gregtech:meta_item_1:12741>, <gtadditions:ga_metal_casing_1:14>, <gregtech:meta_item_1:12741>]]);
+recipes.addShaped(<gregtech:machine:5145>, [[<gregtech:meta_item_1:12741>, <gtadditions:ga_metal_casing_1:14>, <gregtech:meta_item_1:12741>],[<gtadditions:ga_metal_casing_1:14>, <gregtech:machine:522>, <gtadditions:ga_metal_casing_1:14>], [<gregtech:meta_item_1:12741>, <gtadditions:ga_metal_casing_1:14>, <gregtech:meta_item_1:12741>]]);

@@ -963,8 +963,8 @@ recipes.addShapeless(<gregtech:machine:430>, [<actuallyadditions:block_atomic_re
 recipes.addShaped(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 45 as short}]}), [[<minecraft:red_nether_brick>, <minecraft:netherrack>, <minecraft:red_nether_brick>],[<minecraft:netherrack>, <minecraft:book>, <minecraft:netherrack>], [<minecraft:nether_brick>, <minecraft:netherrack>, <minecraft:nether_brick>]]);
 
 // coke oven and primitve alloy
-recipes.addShaped(<gregtech:machine:1002>, [[<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>]]);
-recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>],[<gtadditions:ga_meta_item:1095>, null, <gtadditions:ga_meta_item:1095>], [<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>]]);
+recipes.addShaped(<gregtech:machine:5144>, [[<gregtech:metal_casing:1>, <contenttweaker:steammotor>, <gregtech:metal_casing:1>],[<contenttweaker:steammotor>, null, <contenttweaker:steampiston>], [<gregtech:metal_casing:1>, <contenttweaker:steampiston>, <gregtech:metal_casing:1>]]);
+recipes.addShaped(<gregtech:machine:5143>, [[<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>],[<gtadditions:ga_meta_item:1095>, null, <gtadditions:ga_meta_item:1095>], [<gregtech:metal_casing:8>, <gtadditions:ga_meta_item:1095>, <gregtech:metal_casing:8>]]);
 
 /*
 Utils.removeRecipeByOutput(mixer, [], [<liquid:nitro_fuel> * 750], true);
@@ -2769,7 +2769,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
     assembler.recipeBuilder()
-    .inputs([<vajra:magnetron>,<vajra:vajra-core>, <gregtech:meta_item_2:25187> * 4])
+    .inputs([<vajra:magnetron>,<vajra:vajra-core>, <gregtech:meta_item_2:25913> * 4])
     .outputs(<vajra:vajra>)
     .duration(90)
     .EUt(7000)
@@ -2805,3 +2805,13 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
     recipes.addShapeless(<appliedenergistics2:material:61>,[<appliedenergistics2:material:25>,<ore:slimeball>]);
+/*
+<gregtech:machine:1000>.addTooltip("Depricated migrate to the TJ++ ones");
+<gregtech:machine:1002>addTooltip("Depricated migrate to the TJ++ ones");
+<gregtech:machine:1003>addTooltip("Depricated migrate to the TJ++ ones");
+<gregtech:machine:1004>addTooltip("Depricated migrate to the TJ++ ones");
+<gregtech:machine:1005>addTooltip("Depricated migrate to the TJ++ ones");
+<gregtech:machine:1006>addTooltip("Depricated migrate to the TJ++ ones");
+<gregtech:machine:4201>addTooltip("Depricated migrate to the TJ++ ones");
+<gregtech:machine:4202>addTooltip("Depricated migrate to the TJ++ ones");
+*/

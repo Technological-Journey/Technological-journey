@@ -119,7 +119,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     assembly_line.recipeBuilder()
     .inputs(<gregtech:machine:2505>,<gregtech:meta_item_1:32655> * 2,<gregtech:meta_item_1:12743> * 10,<gregtech:cable:5308> * 10,<gregtech:meta_item_1:17983> * 18,<gregtech:meta_item_1:12518> * 5)
     .fluidInputs(<liquid:dubnium> * 1296,<liquid:californium>* 2592)
-    .outputs(<gregtech:machine:1004>)
+    .outputs(<gregtech:machine:5146>)
     .duration(600)
     .EUt(7864320)
     .buildAndRegister();
@@ -127,7 +127,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
    assembly_line.recipeBuilder()
     .inputs(<gregtech:machine:3239>,<gregtech:meta_item_1:12695> * 10,<gregtech:meta_item_1:12518> * 10, <gregtech:meta_item_1:12519> * 10,<gregtech:ga_cable:5855> * 10,<ore:circuitInfinite>,<gtadditions:ga_meta_item:32465>,<gtadditions:ga_meta_item:32390>)
     .fluidInputs(<liquid:incoloy813> * 1296,<liquid:einsteinium> * 2592)
-    .outputs(<gregtech:machine:1006>)
+    .outputs(<gregtech:machine:5148>)
     .duration(600)
     .EUt(7864320)
     .buildAndRegister();
@@ -135,7 +135,7 @@ recipes.addShapeless(<draconicevolution:draconium_block>, [<gregtech:meta_block_
     assembly_line.recipeBuilder()
     .inputs(<gregtech:machine:3240>,<gregtech:meta_item_1:12851> * 10,<gregtech:meta_item_1:12731> * 10,<gregtech:meta_item_1:12732> * 10,<gregtech:meta_item_1:12720> * 5,<gregtech:meta_item_1:12519> * 10,<gtadditions:ga_meta_item:32385>,<gregtech:ga_cable:5852> * 10,<ore:circuitUev>,<draconicevolution:awakened_core> * 2)
     .fluidInputs(<liquid:titan_steel> * 1296,<liquid:mendelevium> * 2592,<liquid:cinobite> * 1296)
-    .outputs(<gregtech:machine:1005>)
+    .outputs(<gregtech:machine:5147>)
     .duration(600)
     .EUt(2097152)
     .buildAndRegister();
