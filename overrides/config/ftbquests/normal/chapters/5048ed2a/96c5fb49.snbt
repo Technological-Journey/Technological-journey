@@ -1,11 +1,12 @@
 {
+	title: "Tungstate",
 	x: 2.5d,
-	y: 2.0d,
+	y: 1.5d,
 	shape: "rsquare",
 	text: [
 		"Tungsten is mined from the end",
 		"",
-		"If you haven’t already, check the travel tab again for instructions on the end"
+		"If you haven't already, check the travel tab again for instructions on the end"
 	],
 	tasks: [{
 		uid: "524ca8ae",

@@ -1,6 +1,7 @@
 {
-	x: 12.5d,
-	y: 4.0d,
+	title: "Phosphorous Pentoxide",
+	x: 13.0d,
+	y: 5.0d,
 	dependencies: [
 		"1fa802a2"
 	],

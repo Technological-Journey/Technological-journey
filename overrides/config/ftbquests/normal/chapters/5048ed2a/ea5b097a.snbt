@@ -1,7 +1,15 @@
 {
-	x: 13.5d,
-	y: 2.0d,
+	title: "Rare Earth",
+	x: 14.5d,
+	y: 1.5d,
 	shape: "rsquare",
+	text: [
+		"This is short but interesting line, the only inputs are rare earth and water, the rest is not consumed. The sodium hydroxide and hydrochloric acid loops and the organophosphate is just a catalyst.",
+		"",
+		"The first centrifuging step requires a multi block centrifuge, the second centrifuging can be done in single blocks, but I recommend setting up another multi to do all four of them instead of doing them in single blocks.",
+		"	",
+		"To be precise, the water is also mostly looped cause the first step generates hydrogen and the metal oxides produce carbon dioxide after blasting them with carbon which gives back most of the oxygen needed to produce the water for the first step, but looping water is ill-advised since it’s free and infinite."
+	],
 	tasks: [{
 		uid: "aae3b984",
 		type: "item",

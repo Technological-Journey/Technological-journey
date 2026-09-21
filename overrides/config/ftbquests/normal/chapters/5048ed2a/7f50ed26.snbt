@@ -1,5 +1,5 @@
 {
-	x: -1.0d,
+	x: -0.5d,
 	y: 6.0d,
 	text: [
 		"ME inputs can be very helpful for passive stocking machines, such as ore proc and later on nuclear"

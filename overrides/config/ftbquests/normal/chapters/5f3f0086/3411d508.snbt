@@ -1,7 +1,8 @@
 {
 	title: "Oh no! I lost my OP Hammer and other OP stuff!!",
-	x: 7.5d,
-	y: -13.0d,
+	icon: "gregtech:meta_item_2 1 25111",
+	x: 8.5d,
+	y: -14.0d,
 	text: [
 		"Lost your OP Hammer or Excavator or Prospector? Fret not! By fulfilling these repeatable quests you can get your OP tools back!"
 	],

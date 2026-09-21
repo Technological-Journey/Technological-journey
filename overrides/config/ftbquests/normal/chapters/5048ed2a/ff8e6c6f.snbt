@@ -1,9 +1,9 @@
 {
-	x: 0.5d,
+	title: "Chloroform",
+	x: 1.0d,
 	y: 3.0d,
 	dependencies: [
-		"49c7fcbf",
-		"6c501c95"
+		"49c7fcbf"
 	],
 	tasks: [{
 		uid: "07bcc1a9",

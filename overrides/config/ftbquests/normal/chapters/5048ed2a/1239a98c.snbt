@@ -1,13 +1,11 @@
 {
 	title: "Hot Coolant Turbine",
 	icon: "gregtech:machine 1 2544",
-	x: 16.5d,
-	y: 6.0d,
-	text: [
-		""
-	],
+	x: 19.5d,
+	y: 10.5d,
+	description: "If You Really Want It",
 	dependencies: [
-		"6209f41f"
+		"94e4598f"
 	],
 	optional: 1b,
 	tasks: [{
@@ -22,20 +20,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 2544"
-		}]
-	},
-	{
-		uid: "ae4b3041",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 712"
-		}]
-	},
-	{
-		uid: "426c6c1d",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 713"
 		}]
 	},
 	{

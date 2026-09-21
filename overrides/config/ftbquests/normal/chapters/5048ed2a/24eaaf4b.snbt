@@ -1,4 +1,5 @@
 {
+	title: "Formic Acid",
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {

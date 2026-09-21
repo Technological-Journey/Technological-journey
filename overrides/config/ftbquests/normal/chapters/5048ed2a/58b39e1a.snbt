@@ -1,4 +1,5 @@
 {
+	title: "Palladium Enriched Ammonia",
 	x: 6.5d,
 	y: 5.0d,
 	dependencies: [

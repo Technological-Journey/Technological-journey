@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_block_compressed_49 1 13"
-		}]
+		}],
+		consume_items: 1b
 	}]
 }

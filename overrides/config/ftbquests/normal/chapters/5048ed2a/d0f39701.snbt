@@ -1,6 +1,10 @@
 {
+	title: "Rare Earth Oxides",
 	x: 14.5d,
-	y: 4.0d,
+	y: 7.5d,
+	text: [
+		"To start with you only need the yttrium oxide."
+	],
 	dependencies: [
 		"9fea3dce"
 	],

@@ -1,6 +1,7 @@
 {
-	x: 19.5d,
-	y: 7.0d,
+	icon: "gregtech:machine 1 4020",
+	x: 24.0d,
+	y: 8.0d,
 	dependencies: [
 		"56eaadea"
 	],
@@ -12,48 +13,12 @@
 		}]
 	},
 	{
-		uid: "1ba714bd",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 732"
-		}]
-	},
-	{
-		uid: "26409b1e",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 744"
-		}]
-	},
-	{
-		uid: "2905b2da",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 733"
-		}],
-		count: 3L
-	},
-	{
-		uid: "e97409e7",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 700"
-		}]
-	},
-	{
 		uid: "201a8cd9",
 		type: "item",
 		items: [{
 			item: "gregtech:metal_casing 1 5"
 		}],
 		count: 34L
-	},
-	{
-		uid: "6dc23ab5",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4213"
-		}]
 	},
 	{
 		uid: "b259ae05",
@@ -70,5 +35,11 @@
 			item: "gregtech:metal_casing 1 4"
 		}],
 		count: 20L
+	}],
+	rewards: [{
+		uid: "af41852f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32613",
+		count: 2
 	}]
 }

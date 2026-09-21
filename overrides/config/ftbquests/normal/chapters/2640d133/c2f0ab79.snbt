@@ -1,4 +1,5 @@
 {
+	title: "Primitive alloy smelter",
 	x: 1.0d,
 	y: 5.0d,
 	text: [
@@ -15,13 +16,6 @@
 		"d61d2b00"
 	],
 	tasks: [{
-		uid: "70b4fa6e",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1002"
-		}]
-	},
-	{
 		uid: "36ddf28d",
 		type: "item",
 		items: [{
@@ -58,5 +52,12 @@
 			item: "gregtech:machine_casing 1 10"
 		}],
 		count: 8L
+	},
+	{
+		uid: "8f64ef87",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 5144"
+		}]
 	}]
 }

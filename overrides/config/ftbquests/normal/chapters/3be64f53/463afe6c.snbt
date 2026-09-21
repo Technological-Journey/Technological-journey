@@ -8,10 +8,10 @@
 		"c927f9f2"
 	],
 	tasks: [{
-		uid: "7f9d49ea",
+		uid: "ccf5a8b4",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1006"
+			item: "gregtech:machine 1 5148"
 		}]
 	}]
 }

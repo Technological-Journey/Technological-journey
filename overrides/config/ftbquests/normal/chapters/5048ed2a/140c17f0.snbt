@@ -1,4 +1,5 @@
 {
+	icon: "gregtech:meta_item_1 1 2896",
 	x: 5.5d,
 	y: 5.0d,
 	dependencies: [
@@ -15,7 +16,7 @@
 	{
 		uid: "5092a11f",
 		type: "checkmark",
-		title: "10x Small Pile of Platinum Salt Dust",
+		title: "Platinum Salt Dust",
 		icon: "gregtech:meta_item_1 1 1051"
 	}]
 }

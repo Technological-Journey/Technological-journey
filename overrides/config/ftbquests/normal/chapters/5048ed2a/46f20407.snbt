@@ -1,19 +1,26 @@
 {
-	x: 7.5d,
-	y: 5.0d,
+	title: "Recprecipitated Palladium Dust",
+	icon: "gregtech:meta_item_1 1 2893",
+	x: 6.5d,
+	y: 6.0d,
+	text: [
+		"You will get excess palladium metallic powder both from mining and the process itself, so if you want to process it all you should set up a system to dissolve some of it in ammonia. ",
+		"",
+		"The best way to manage production is either with storage buses of different priorities to use up the solution made by the platinum loop or a level emitter to stop the dissolution of the powder"
+	],
 	dependencies: [
 		"58b39e1a"
 	],
 	tasks: [{
 		uid: "4cc20b0f",
 		type: "checkmark",
-		title: "12x Tiny Pile of Recprecipitated Palladium Dust",
+		title: "Recprecipitated Palladium Dust",
 		icon: "gregtech:meta_item_1 1 893"
 	},
 	{
 		uid: "9825b861",
 		type: "checkmark",
-		title: "10x Small Pile Of palladium Salt Dust",
+		title: "Palladium Salt Dust",
 		icon: "gregtech:meta_item_1 1 1892"
 	}]
 }

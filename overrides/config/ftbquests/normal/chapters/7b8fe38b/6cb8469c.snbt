@@ -1,5 +1,6 @@
 {
 	title: "Important things about GTCE multiblocks",
+	icon: "gregtech:wire_coil",
 	x: 19.5d,
 	y: 0.0d,
 	text: [

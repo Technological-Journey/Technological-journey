@@ -1,5 +1,6 @@
 {
-	x: 13.5d,
+	title: "Rare Earth Hydroxides Solution",
+	x: 14.5d,
 	y: 3.0d,
 	dependencies: [
 		"ea5b097a"

@@ -1,5 +1,6 @@
 {
 	title: "Energy Hatches",
+	icon: "gregtech:machine 1 714",
 	x: 17.5d,
 	y: 0.0d,
 	text: [

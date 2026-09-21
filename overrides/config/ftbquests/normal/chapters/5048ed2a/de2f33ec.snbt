@@ -14,5 +14,10 @@
 		items: [{
 			item: "gregtech:meta_item_2 1 32492"
 		}]
+	}],
+	rewards: [{
+		uid: "cac16800",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32492"
 	}]
 }

@@ -3,7 +3,7 @@
 	x: 0.0d,
 	y: 6.5d,
 	text: [
-		" As you progress you will find that there is never enough chlorine and fluoride. The moon of mars Phobos takes care of both, you will need a block of salt to warp, and will find it is rich in salt, fluorite, and lepidolite. In addition you can use the fluid plants to collect up pure chlorine and fluoride."
+		"As you progress you will find that there’s never enough chlorine and fluorine. The moon of mars Phobos takes care of both, you will need a block of salt to warp, and will find it is rich in salt, fluorite, and lepidolite. In addition, you can use the fluid plants to collect pure chlorine and fluorine."
 	],
 	dependencies: [
 		"81372634"

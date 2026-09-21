@@ -1,8 +1,11 @@
 {
-	x: 21.5d,
-	y: 11.0d,
+	title: "Nuclear Waste",
+	x: 26.0d,
+	y: 12.0d,
 	text: [
-		"Nuclear waste, a byproduct of all nuclear processing, is a poor source of nearly every element on the periodic table. The vast majority of metals, along with a non-insignificant amount of radon, xenon, and krypton, can be sourced here. Make sure you build your nuclear reprocessing sufficiantly well, as it will be functioning for the forseeable future. "
+		"Nuclear waste, a byproduct of all nuclear processing, is a poor source of nearly every element on the periodic table. ",
+		"",
+		"This can be the only good source of some rare elements like xenon or actinium. If your production is fast enough it can even become your main source for a few less rare elements like osmium or indium too."
 	],
 	dependencies: [
 		"61e9c5ed"
@@ -14,5 +17,11 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32312"
 		}]
+	}],
+	rewards: [{
+		uid: "1ead26b9",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 16076",
+		count: 8
 	}]
 }

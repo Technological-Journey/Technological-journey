@@ -1,4 +1,5 @@
 {
+	title: "Coke Oven",
 	x: -5.0d,
 	y: 8.0d,
 	text: [
@@ -13,13 +14,6 @@
 	],
 	optional: 1b,
 	tasks: [{
-		uid: "25ee2ffd",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1000"
-		}]
-	},
-	{
 		uid: "c30d1ee5",
 		type: "item",
 		items: [{
@@ -47,6 +41,13 @@
 			item: "gregtech:metal_casing 1 8"
 		}],
 		count: 22L
+	},
+	{
+		uid: "db8178f4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 5143"
+		}]
 	}],
 	rewards: [{
 		uid: "9dee2aff",

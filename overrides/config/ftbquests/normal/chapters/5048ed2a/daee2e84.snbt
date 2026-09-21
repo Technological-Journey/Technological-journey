@@ -1,6 +1,8 @@
 {
-	x: 20.5d,
-	y: 2.0d,
+	title: "Fermium Fuel",
+	icon: "gtadditions:ga_meta_item 1 17784",
+	x: 26.0d,
+	y: 3.0d,
 	dependencies: [
 		"cb45172c"
 	],
@@ -11,5 +13,10 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 17784"
 		}]
+	},
+	{
+		uid: "42915deb",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	x: -2.5d,
+	x: -3.0d,
 	y: 4.0d,
 	text: [
 		"You'll need a significant amount of gold for these, so if you don't have platline running yet you'll probably want to setup the gold line from the LV tab. It should be pretty cheap at this point."
@@ -13,5 +13,11 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 32603"
 		}]
+	}],
+	rewards: [{
+		uid: "196239d2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10072",
+		count: 8
 	}]
 }

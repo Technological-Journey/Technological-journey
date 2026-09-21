@@ -11,5 +11,11 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32211"
 		}]
+	}],
+	rewards: [{
+		uid: "3640354c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2051",
+		count: 32
 	}]
 }

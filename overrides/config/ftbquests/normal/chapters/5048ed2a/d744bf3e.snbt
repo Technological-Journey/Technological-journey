@@ -1,6 +1,6 @@
 {
 	x: 10.5d,
-	y: 2.0d,
+	y: 1.5d,
 	shape: "rsquare",
 	text: [
 		"Either of these work to reinforce your epoxid sheets. "
@@ -19,5 +19,11 @@
 		items: [{
 			item: "gregtech:meta_item_2 1 32504"
 		}]
+	}],
+	rewards: [{
+		uid: "c77de931",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10142",
+		count: 8
 	}]
 }

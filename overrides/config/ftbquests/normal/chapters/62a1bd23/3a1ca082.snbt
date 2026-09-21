@@ -1,8 +1,13 @@
 {
+	title: "Lightwell",
 	x: -3.0d,
 	y: 11.5d,
 	text: [
-		"Liquid starlight has many uses including fuel, superconductors, and starmetal smelting."
+		"Liquid starlight has many uses including fuel, superconductors, and starmetal smelting.",
+		"",
+		"The easiest offering to farm is the ectoplasm, and they last a very long time, so you don’t have to go crazy with the farms either.",
+		"",
+		"Also if you really hate Astral Sorcery, you can use an extractor to get the starlight instead of the wells."
 	],
 	dependencies: [
 		"a36ec4c8"

@@ -1,4 +1,6 @@
 {
+	title: "Pocket Warper",
+	icon: "draconicevolution:dislocator",
 	x: -7.0d,
 	y: 6.5d,
 	dependencies: [
@@ -38,7 +40,8 @@
 		disable_toast: 1b,
 		items: [{
 			item: "advancedrocketry:warpcore"
-		}]
+		}],
+		consume_items: 1b
 	},
 	{
 		uid: "2dc8a21b",
@@ -71,7 +74,8 @@
 		items: [{
 			item: "libvulpes:structuremachine"
 		}],
-		count: 4L
+		count: 4L,
+		consume_items: 1b
 	},
 	{
 		uid: "7efc0956",
@@ -79,6 +83,7 @@
 		disable_toast: 1b,
 		items: [{
 			item: "advancedrocketry:spacestationchip"
-		}]
+		}],
+		consume_items: 1b
 	}]
 }

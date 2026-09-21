@@ -1,6 +1,7 @@
 {
-	x: 12.5d,
-	y: 5.0d,
+	title: "Di-(2-ethylhexyl)phosphoric Acid",
+	x: 13.0d,
+	y: 6.0d,
 	text: [
 		"This is a catalyst."
 	],

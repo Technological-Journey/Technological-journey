@@ -1,6 +1,14 @@
 {
-	x: 13.5d,
-	y: 5.0d,
+	title: "Rare Earth Oxide Solutions ",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "er_lu_oxides_solution",
+			Amount: 1000
+		}
+	},
+	x: 14.5d,
+	y: 6.0d,
 	dependencies: [
 		"d7f5ab11",
 		"c59c0167"

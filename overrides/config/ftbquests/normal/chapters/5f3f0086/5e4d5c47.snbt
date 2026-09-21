@@ -1,0 +1,21 @@
+{
+	title: "Chunk Loading",
+	icon: "advancedrocketry:loader 1 2",
+	x: 4.5d,
+	y: -15.5d,
+	text: [
+		"FTB Utilities are used for chunk loading in this pack, by default it’s set a limited number of maximum chunks. If you’re playing in single player or have permission on a server, you can use these commands to increase the maximum claimed and loaded chunks.",
+		"",
+		"To increase the maximum claimed chunks, use this command:",
+		"",
+		"/ranks set_permission player ftbutilities.claims.max_chunks 10000",
+		"",
+		"To increase the maximum loaded chunks, use this command:",
+		"",
+		"/ranks set_permission player ftbutilities.chunkloader.max_chunks 10000"
+	],
+	tasks: [{
+		uid: "af7d258b",
+		type: "checkmark"
+	}]
+}

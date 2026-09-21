@@ -1,6 +1,9 @@
 {
 	x: -3.0d,
 	y: 10.5d,
+	text: [
+		"You need to place a Crafting Table near a collector crystal to do this craft."
+	],
 	dependencies: [
 		"baad42fe"
 	],

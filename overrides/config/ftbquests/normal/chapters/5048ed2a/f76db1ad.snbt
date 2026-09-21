@@ -1,0 +1,25 @@
+{
+	title: "How Should I Actually Do This?",
+	icon: "chisel:factory 1 6",
+	x: 22.5d,
+	y: 3.0d,
+	text: [
+		"As you can see the nuclear line is a major undertaking, preparing every isotope from every major element in the nuclear line takes close to a hundred steps in total, not including the processing of depleted fuels. You have a few different ways to deal with the huge amount of processing needed.",
+		"",
+		"1. Build a machine for each individual step. This is the most basic solution, it takes a lot of machines and it’s very repetitive, some people like to do it this way cause it’s the simplest solution and it doesn't need any logic. I wouldn’t recommend doing it this way because it takes way too much time and it’s boring.",
+		"",
+		"2. Use shared machines for most of the steps since the only difference is the starting input for each line. This solution is pretty efficient and probably the easiest to set up, the biggest problem is that machines constantly need to change recipes which can cause bottlenecks.   ",
+		"",
+		"3. Use ME level maintainers to send large batches of materials to the machines. This solution can provide very high throughput and the setup is simple, besides the encoding the patterns for it.",
+		"",
+		"These aren’t the only possible solutions you can do it in any way you can come up with. If you want more details about any of these ask in DC for more information."
+	],
+	dependencies: [
+		"68b70795"
+	],
+	tasks: [{
+		uid: "d79ddde1",
+		type: "checkmark",
+		title: "How Should I Actually Do This?"
+	}]
+}

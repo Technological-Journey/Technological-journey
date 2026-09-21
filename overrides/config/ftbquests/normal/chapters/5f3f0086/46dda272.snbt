@@ -1,4 +1,5 @@
 {
+	icon: "minecraft:skull 1 3",
 	x: 2.5d,
 	y: -14.0d,
 	text: [

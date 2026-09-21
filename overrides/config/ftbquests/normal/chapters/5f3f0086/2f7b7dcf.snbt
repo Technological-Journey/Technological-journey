@@ -1,5 +1,6 @@
 {
 	title: "Extra-Dimensional",
+	icon: "randomthings:emeralddiviningrod",
 	x: 8.5d,
 	y: -8.0d,
 	text: [

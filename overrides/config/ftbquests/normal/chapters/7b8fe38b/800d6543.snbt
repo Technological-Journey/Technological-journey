@@ -1,5 +1,6 @@
 {
 	title: "Special logic",
+	icon: "gregtech:machine 1 5408",
 	x: 0.5d,
 	y: -5.5d,
 	text: [

@@ -1,5 +1,6 @@
 {
 	title: "MobGriefing",
+	icon: "minecraft:skull 1 4",
 	x: 4.5d,
 	y: -14.0d,
 	text: [

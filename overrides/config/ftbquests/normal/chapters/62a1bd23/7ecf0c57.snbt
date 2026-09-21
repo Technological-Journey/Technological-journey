@@ -3,9 +3,6 @@
 	disable_toast: 1b,
 	x: -9.5d,
 	y: 3.5d,
-	text: [
-		""
-	],
 	can_repeat: 1b,
 	dependencies: [
 		"810b53fc"

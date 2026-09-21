@@ -3,9 +3,6 @@
 	x: -3.0d,
 	y: -4.5d,
 	shape: "hexagon",
-	text: [
-		""
-	],
 	dependencies: [
 		"26c6491b"
 	],

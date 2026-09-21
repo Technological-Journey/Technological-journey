@@ -1,6 +1,11 @@
 {
 	x: -4.0d,
 	y: 12.0d,
+	text: [
+		"The collector crystal needs sky access to transform the ores and it can be slow!",
+		"",
+		"Some say it’s faster to do it one at a time but we can’t be sure, it's just like magic."
+	],
 	dependencies: [
 		"b1dd1579"
 	],

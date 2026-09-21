@@ -1,0 +1,22 @@
+{
+	x: 11.5d,
+	y: 8.5d,
+	text: [
+		"Add a quest for graphene here with the halide lamp",
+		"Add debendenic with graphene to the right qunatum circuit"
+	],
+	tasks: [{
+		uid: "a0c45331",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32464"
+		}]
+	},
+	{
+		uid: "b5139b13",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2205"
+		}]
+	}]
+}

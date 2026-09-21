@@ -3,10 +3,10 @@
 	y: 7.0d,
 	shape: "rsquare",
 	tasks: [{
-		uid: "26ea2e84",
+		uid: "2ebf25f4",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1004"
+			item: "gregtech:machine 1 5146"
 		}]
 	}]
 }

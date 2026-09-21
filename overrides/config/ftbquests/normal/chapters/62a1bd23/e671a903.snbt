@@ -11,6 +11,7 @@
 		type: "item",
 		items: [{
 			item: "advancedrocketry:charcoallog"
-		}]
+		}],
+		consume_items: 1b
 	}]
 }

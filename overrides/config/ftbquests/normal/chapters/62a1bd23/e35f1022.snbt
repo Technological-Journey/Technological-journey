@@ -4,9 +4,6 @@
 	x: -9.5d,
 	y: 4.5d,
 	shape: "circle",
-	text: [
-		""
-	],
 	can_repeat: 1b,
 	dependencies: [
 		"18413c2d"

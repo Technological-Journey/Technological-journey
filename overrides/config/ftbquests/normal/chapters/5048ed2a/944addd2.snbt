@@ -1,6 +1,7 @@
 {
-	x: 15.5d,
-	y: 3.0d,
+	title: "Reactor Steel",
+	x: 16.5d,
+	y: 5.0d,
 	dependencies: [
 		"7db1c244",
 		"5f15163f"
@@ -11,5 +12,11 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 10741"
 		}]
+	}],
+	rewards: [{
+		uid: "0e862ba1",
+		type: "item",
+		item: "gregtech:ore_tantalite_0",
+		count: 32
 	}]
 }

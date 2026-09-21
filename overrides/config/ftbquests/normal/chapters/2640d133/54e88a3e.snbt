@@ -1,5 +1,6 @@
 {
 	title: "Multiblock Modularity",
+	icon: "gregtech:machine 1 4175",
 	x: -5.0d,
 	y: 9.5d,
 	text: [
