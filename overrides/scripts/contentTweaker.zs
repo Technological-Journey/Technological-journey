@@ -60,3 +60,26 @@ eternityingot.register();
 
 var eternityblock = VanillaFactory.createBlock("eternityblock", <blockmaterial:iron>);
 eternityblock.register();
+
+
+var crude_boule = VanillaFactory.createItem("crude_boule");
+crude_boule.maxStackSize = 64;
+crude_boule.register();
+
+
+
+var crude_plate_central_processing_unit = VanillaFactory.createItem("crude_plate_central_processing_unit");
+crude_plate_central_processing_unit.maxStackSize = 64;
+crude_plate_central_processing_unit.register();
+
+
+
+var crude_wafer = VanillaFactory.createItem("crude_wafer");
+crude_wafer.maxStackSize = 64;
+crude_wafer.register();
+
+
+
+var crude_wafer_central_processing_unit = VanillaFactory.createItem("crude_wafer_central_processing_unit");
+crude_wafer_central_processing_unit.maxStackSize = 64;
+crude_wafer_central_processing_unit.register();

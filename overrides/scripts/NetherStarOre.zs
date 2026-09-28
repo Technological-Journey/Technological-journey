@@ -146,6 +146,8 @@ util.registerDust("hmxexplosive", 530, 0xf3ffdb, "SHINY");
 //Octaazacubane
 util.registerDust("octaazacubane", 531, 0x5f5fd9, "SHINY");
 
+util.registerDust("silicon_crystal_mixture", 532, 0x55556E, "METALLIC");
+
 //Octaazacubane Solution
 util.registerFluid("octaazacubanesolution", 0x5f5fd9, "N₈(H₂O)");
 

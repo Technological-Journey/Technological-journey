@@ -83,3 +83,10 @@ multiblocktweaker.multiblock.large_powered_spawner.description=Larger version of
 multiblocktweaker.multiblock.large_vial_processor.description=Larger version of the LV vial processor. Turns vials into loot
 fluid.fusion1=Seabohrgium
 fluid.fusion2=Fordnium
+
+
+item.contenttweaker.crude_wafer_central_processing_unit.name=Crude Silicon CPU
+item.contenttweaker.crude_plate_central_processing_unit.name=Crude Silicon Central Processing Unit
+item.contenttweaker.crude_wafer.name=Crude Silicon Wafer
+item.contenttweaker.crude_boule.name=Crude Silicon Boule
+metaitem.silicon_crystal_mixture.name=Silicon Crystal Mixture
