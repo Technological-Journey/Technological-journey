@@ -103,7 +103,7 @@ recipes.addShaped(<gregtech:meta_block_compressed_4:8>, [[<gregtech:meta_item_1:
 recipes.addShaped(<minecraft:end_rod>, [[null, <minecraft:blaze_rod>, null],[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <gregtech:meta_item_1:10072>, <minecraft:end_stone>]]);
 recipes.addShaped(<gregtech:machine:2534> * 3, [[<minecraft:furnace>, <minecraft:furnace>, <minecraft:furnace>],[<gtadditions:ga_meta_item:32207>, <gregtech:metal_casing:2>, <gtadditions:ga_meta_item:32207>], [<gregtech:cable:5071>, <gtadditions:ga_meta_item:32207>, <gregtech:cable:5071>]]);
 furnace.addRecipe(<actuallyadditions:item_dust:7>, <gregtech:meta_item_1:2203>, 0.0);
-furnace.addRecipe(<gregtech:meta_item_1:10061>, <gregtech:meta_item_1:2061>, 0.0);
+//furnace.addRecipe(<gregtech:meta_item_1:10061>, <gregtech:meta_item_1:2061>, 0.0);
 furnace.addRecipe(<thermalfoundation:material:833>,<gregtech:meta_item_1:32627>, 0.0);
 recipes.addShapeless(<minecraft:wheat_seeds>* 3, [<minecraft:wheat>]);
 furnace.addRecipe(<gregtech:meta_item_1:10197>,<minecraft:iron_ingot>, 0.0);
