@@ -823,3 +823,41 @@ assembler.recipeBuilder()
 .duration(450)
 .EUt(1920)
 .buildAndRegister();
+
+
+//TJ++
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:380>, <appliedenergistics2:interface>, <appliedenergistics2:fluid_interface>])
+.outputs([<tj:me.part.super_interface_terminal>])
+.duration(450)
+.EUt(17)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:380>, <appliedenergistics2:material:39>, <appliedenergistics2:material:24> ])
+.outputs([<tj:me.part.cell_terminal>])
+.duration(450)
+.EUt(17)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:380>, <appliedenergistics2:part:220>, <appliedenergistics2:part:221>])
+.outputs([<tj:me.part.storage_bus_terminal>])
+.duration(450)
+.EUt(17)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:380>, <appliedenergistics2:material:24>, <minecraft:dye:4>, <appliedenergistics2:material:22>])
+.outputs([<tj:me.part.super_fluid_interface_terminal>])
+.duration(450)
+.EUt(17)
+.buildAndRegister();
+
+assembler.recipeBuilder()
+.inputs([<appliedenergistics2:part:380>,<appliedenergistics2:material:24>, <appliedenergistics2:material:23>, <appliedenergistics2:material:22>])
+.outputs([<tj:me.part.fluid_storage_bus_terminal>])
+.duration(450)
+.EUt(17)
+.buildAndRegister();
