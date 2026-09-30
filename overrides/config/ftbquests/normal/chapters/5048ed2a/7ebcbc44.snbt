@@ -1,6 +1,6 @@
 {
-	x: 5.5d,
-	y: 8.0d,
+	x: 2.5d,
+	y: 10.0d,
 	dependencies: [
 		"5e76280d"
 	],
@@ -8,7 +8,13 @@
 		uid: "acff63fc",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2974"
+			item: "gcyl:meta_dust 1 1146"
 		}]
+	}],
+	rewards: [{
+		uid: "3fbf1508",
+		type: "item",
+		item: "gregtech:meta_dust 1 80",
+		count: 16
 	}]
 }

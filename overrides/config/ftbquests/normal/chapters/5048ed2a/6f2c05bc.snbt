@@ -1,10 +1,13 @@
 {
-	x: 20.5d,
-	y: 3.0d,
+	title: "Einsteinium Fuel",
+	icon: "gtadditions:ga_meta_item 1 16787",
+	x: 26.0d,
+	y: 4.0d,
 	dependencies: [
 		"1aa6fefb"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "541a76f7",
 		type: "item",
@@ -18,5 +21,10 @@
 		items: [{
 			item: "gtadditions:ga_meta_item 1 16789"
 		}]
+	},
+	{
+		uid: "c470e941",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

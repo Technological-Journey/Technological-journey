@@ -10,7 +10,7 @@
 		uid: "eceb0b8e",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_18 1 12"
+			item: "gregtech:meta_block_compressed_24 1 12"
 		}]
 	}]
 }

@@ -1,5 +1,6 @@
 {
-	x: -1.5d,
+	title: "Prepare The Casings",
+	x: -1.0d,
 	y: 4.0d,
 	dependencies: [
 		"6df7a2bb",
@@ -9,8 +10,14 @@
 		uid: "745c7b3e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 1"
+			item: "gregtech:metal_casing 1 9"
 		}],
 		count: 15L
+	}],
+	rewards: [{
+		uid: "d34e1dac",
+		type: "item",
+		item: "gregtech:meta_plate 1 1016",
+		count: 8
 	}]
 }

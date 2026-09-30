@@ -8,7 +8,7 @@
 		uid: "99374bbc",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32033"
+			item: "gregtech:meta_item_1 1 405"
 		}]
 	}]
 }

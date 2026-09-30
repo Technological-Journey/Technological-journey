@@ -1,6 +1,6 @@
 {
-	x: 8.5d,
-	y: 7.0d,
+	x: 9.0d,
+	y: 8.0d,
 	dependencies: [
 		"ec159419",
 		"08d9772a"
@@ -9,7 +9,7 @@
 		uid: "1a10ce78",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2003"
+			item: "gregtech:mte 1 638"
 		}]
 	}]
 }

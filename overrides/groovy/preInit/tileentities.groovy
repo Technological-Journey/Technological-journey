@@ -6,6 +6,7 @@ import classes.MetaTileEntityIndustrialPrimitiveBlastFurnace
 import classes.MetaTileEntityLargePoweredSpawner
 import classes.MetaTileEntityLargeVialProcessor
 import classes.MetaTileEntityPrimitiveAlloySmelter
+import classes.MetaTileEntitySteamMixer
 import classes.MetaTileEntityTJCokeOven
 import classes.MetaTileEntityVialProcessor
 import classes.TJMetaTileEntities
@@ -25,6 +26,8 @@ event_manager.listen { MTEManager.MTERegistryEvent event ->
     TJMetaTileEntities.LARGE_POWERED_SPAWNER = MetaTileEntities.registerMetaTileEntity(7, new MetaTileEntityLargePoweredSpawner(resource(getPackId(), 'large_powered_spawner')))
     TJMetaTileEntities.LARGE_VIAL_PROCESSOR = MetaTileEntities.registerMetaTileEntity(8, new MetaTileEntityLargeVialProcessor(resource(getPackId(), 'large_vial_processor')))
 
+    TJMetaTileEntities.STEAM_MIXER = MetaTileEntities.registerMetaTileEntity(98, new MetaTileEntitySteamMixer(resource(getPackId(), 'steam_mixer_bronze'), false))
+    TJMetaTileEntities.HIGH_PRESSURE_STEAM_MIXER = MetaTileEntities.registerMetaTileEntity(99, new MetaTileEntitySteamMixer(resource(getPackId(), 'steam_mixer_steel'), true))
     for (i in 0..<TJMetaTileEntities.VIAL_PROCESSORS.length) {
         TJMetaTileEntities.VIAL_PROCESSORS[i] = MetaTileEntities.registerMetaTileEntity(100 + i, new MetaTileEntityVialProcessor(resource(getPackId(), "vial_processor." + GTValues.VN[i + 1]), i + 1))
     }

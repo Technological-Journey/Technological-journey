@@ -5,7 +5,7 @@
 		uid: "a70c48a5",
 		type: "item",
 		items: [{
-			item: "minecraft:iron_ingot"
+			item: "gregtech:meta_dust 1 51"
 		}]
 	}]
 }

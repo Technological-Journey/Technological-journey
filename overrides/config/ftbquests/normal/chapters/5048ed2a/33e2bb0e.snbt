@@ -1,6 +1,6 @@
 {
-	x: 9.5d,
-	y: 11.0d,
+	x: 9.0d,
+	y: 10.0d,
 	dependencies: [
 		"ecc0f6bb"
 	],
@@ -8,7 +8,13 @@
 		uid: "b89545ce",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 968"
+			item: "gcyl:wire_single 1 1159"
 		}]
+	}],
+	rewards: [{
+		uid: "2609f6ea",
+		type: "item",
+		item: "gcyl:meta_ingot 1 1159",
+		count: 4
 	}]
 }

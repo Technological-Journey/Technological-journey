@@ -1,0 +1,13 @@
+{
+	x: 5.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	optional: 1b,
+	tasks: [{
+		uid: "dc0ba2e3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_stick_long 1 338"
+		}]
+	}]
+}

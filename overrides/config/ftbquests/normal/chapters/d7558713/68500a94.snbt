@@ -10,14 +10,14 @@
 		uid: "41d85da4",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 31"
+			item: "gregtech:meta_dust_tiny 1 48"
 		}]
 	},
 	{
 		uid: "5f2444a8",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2031"
+			item: "gregtech:meta_dust 1 48"
 		}]
 	}]
 }

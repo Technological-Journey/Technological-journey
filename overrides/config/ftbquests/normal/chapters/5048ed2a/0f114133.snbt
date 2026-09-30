@@ -1,9 +1,10 @@
 {
-	x: 21.5d,
-	y: 1.0d,
+	title: "Mendelevium",
+	x: 27.0d,
+	y: 2.0d,
 	shape: "hexagon",
 	text: [
-		""
+		"You can burn some mendelevium too to get some extra waste."
 	],
 	dependencies: [
 		"7d4078a6"
@@ -14,5 +15,11 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 2780"
 		}]
+	}],
+	rewards: [{
+		uid: "88072ea0",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32323",
+		count: 8
 	}]
 }

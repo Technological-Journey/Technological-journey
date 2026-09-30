@@ -2,9 +2,10 @@
 	x: 3.5d,
 	y: 3.5d,
 	tasks: [{
-		uid: "a6bcdcd8",
-		type: "checkmark",
-		title: "Darmstadtium",
-		icon: "gregtech:meta_item_1 1 10043"
+		uid: "58b65be2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 27"
+		}]
 	}]
 }

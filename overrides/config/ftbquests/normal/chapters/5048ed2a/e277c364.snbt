@@ -1,5 +1,5 @@
 {
-	x: 4.5d,
+	x: 4.0d,
 	y: 2.0d,
 	shape: "rsquare",
 	text: [
@@ -11,11 +11,18 @@
 		type: "checkmark",
 		title: "Even More Tungsten",
 		icon: "gregtech:ore_scheelite_0"
+	},
+	{
+		uid: "e543e102",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 315"
+		}]
 	}],
 	rewards: [{
-		uid: "475614de",
+		uid: "0133058f",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2158",
+		item: "gregtech:ore_scheelite_0",
 		count: 32
 	}]
 }

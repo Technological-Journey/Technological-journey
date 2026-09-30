@@ -1,0 +1,18 @@
+{
+	title: "Gather The Four Elements",
+	icon: "gregtech:meta_dust 1 18",
+	x: 0.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Hydrogen, Carbon, Fluorine and Chlorine?",
+	text: [
+		"Polytetrafluoroethylene or PTFE for short is one of the most important polymers in the pack, it’s primarily used in the casings for LCRs which is the most used machine in the pack. ",
+		"",
+		"For now, it might be easier to batch craft just enough for a few machines to kickstart your chemical expansions, just make sure to keep in mind that it will be needed in larger quantities later."
+	],
+	tasks: [{
+		uid: "e879c3bd",
+		type: "checkmark",
+		title: "I have the necessary starting materials"
+	}]
+}

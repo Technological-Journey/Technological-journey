@@ -6,7 +6,7 @@
 		uid: "e86feffe",
 		type: "item",
 		items: [{
-			item: "gregtech:wire_coil 1 6"
+			item: "gcyl:wire_coil"
 		}]
 	}]
 }

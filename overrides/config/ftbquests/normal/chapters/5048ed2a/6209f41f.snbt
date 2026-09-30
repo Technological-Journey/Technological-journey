@@ -1,14 +1,16 @@
 {
 	title: "Reactor Casings",
 	icon: "gregtech:machine 1 2545",
-	x: 16.5d,
-	y: 4.0d,
+	x: 17.5d,
+	y: 6.0d,
+	description: "100 Minute Craft?!",
 	text: [
-		""
+		"It uses a lot of lead, and the dense plates take some time in the bending machine.",
+		"",
+		"(takes about 100 minutes in a single HV bending machine)"
 	],
 	dependencies: [
-		"944addd2",
-		"94e4598f"
+		"944addd2"
 	],
 	tasks: [{
 		uid: "43f9d2e9",

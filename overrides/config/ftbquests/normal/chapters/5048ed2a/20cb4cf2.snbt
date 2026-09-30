@@ -1,10 +1,7 @@
 {
 	title: "Waste Types",
-	x: 21.5d,
-	y: 12.0d,
-	text: [
-		""
-	],
+	x: 26.0d,
+	y: 13.0d,
 	dependencies: [
 		"89ccc194"
 	],
@@ -70,7 +67,8 @@
 		type: "item",
 		items: [{
 			item: "gtadditions:ga_meta_item 1 32332"
-		}]
+		}],
+		consume_items: 0b
 	}],
 	rewards: [{
 		uid: "b52533a8",

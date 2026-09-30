@@ -5,7 +5,7 @@
 		uid: "3c457c7f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 12"
+			item: "gcym:mte 1 2068"
 		}]
 	}]
 }

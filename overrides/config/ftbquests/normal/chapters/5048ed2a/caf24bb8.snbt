@@ -1,6 +1,6 @@
 {
-	x: 4.5d,
-	y: 10.0d,
+	x: 9.0d,
+	y: 9.0d,
 	dependencies: [
 		"4c489032"
 	],
@@ -8,7 +8,7 @@
 		uid: "2b5e2516",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 12235"
+			item: "gregtech:meta_plate 1 2013"
 		}]
 	}]
 }

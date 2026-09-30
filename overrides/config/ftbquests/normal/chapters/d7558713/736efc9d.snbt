@@ -1,5 +1,4 @@
 {
-	icon: "gregtech:machine 1 2004",
 	x: -1.5d,
 	y: 2.0d,
 	dependencies: [
@@ -11,14 +10,14 @@
 		uid: "d8114da2",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2004"
+			item: "gcym:mte 1 2028"
 		}]
 	},
 	{
 		uid: "9bd7e414",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_transparent_casing"
+			item: "gregtech:transparent_casing 1 2"
 		}],
 		count: 14L
 	},
@@ -26,7 +25,7 @@
 		uid: "c673f53e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 8"
+			item: "gcym:mte 1 2059"
 		}],
 		count: 7L
 	},
@@ -34,7 +33,7 @@
 		uid: "8c0ac13c",
 		type: "item",
 		items: [{
-			item: "gregtech:multiblock_casing 1 1"
+			item: "gregtech:multiblock_casing 1 2"
 		}],
 		count: 14L
 	},
@@ -42,7 +41,7 @@
 		uid: "a7028ae2",
 		type: "item",
 		items: [{
-			item: "gregtech:multiblock_casing 1 2"
+			item: "gregtech:multiblock_casing 1 3"
 		}],
 		count: 5L
 	},
@@ -50,7 +49,7 @@
 		uid: "0cd36b73",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 700"
+			item: "gregtech:mte 1 11000"
 		}],
 		count: 6L
 	},
@@ -58,28 +57,28 @@
 		uid: "3760ff39",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 722"
+			item: "gregtech:mte 1 11032"
 		}]
 	},
 	{
 		uid: "26876f76",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 721"
+			item: "gregtech:mte 1 11017"
 		}]
 	},
 	{
 		uid: "d9ca77ca",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 744"
+			item: "gregtech:mte 1 11124"
 		}]
 	},
 	{
 		uid: "c7e95e4a",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4213"
+			item: "gregtech:mte 1 11480"
 		}]
 	},
 	{

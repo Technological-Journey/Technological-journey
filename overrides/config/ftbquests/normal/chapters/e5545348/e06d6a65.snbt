@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"c90218b5"
+	],
+	tasks: [{
+		uid: "92ba56e9",
+		type: "item",
+		items: [{
+			item: "tja:tiered_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "8de2e6cc",
+		type: "item",
+		item: "tja:meta_material",
+		count: 4
+	}]
+}

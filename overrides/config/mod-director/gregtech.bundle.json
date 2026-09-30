@@ -31,11 +31,11 @@
             }
         },
         {
-            "url": "https://github.com/Johny709/TJ-Additions-CEU/releases/download/v0.1/tja-1.0.jar",
+            "url": "https://github.com/Johny709/Supercritical/releases/download/tj-v2.9.0/supercritical-0.2.6.jar",
             "installationPolicy": {
                 "continueOnFailedDownload": false,
                 "selectedByDefault": true,
-                "name": "TJ Additions",
+                "name": "Supercritical",
                 "description": "Please relaunch after downloading with this. The mod loader won't able to detect this mod at this stage."
             }
         }
