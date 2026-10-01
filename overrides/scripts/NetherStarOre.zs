@@ -85,10 +85,10 @@ val lvBase = MaterialRegistry.createIngotMaterial(517, "lv_superconductor_base",
 lvBase.setCableProperties(32, 4, 6);
 lvSuper.setCableProperties(32, 4, 0);
 
-val draconium = MaterialRegistry.createIngotMaterial(518, "draconium", 0x573d85, "dull", 10, null, 30.0f, 6, 12800,9200);
+val draconium = MaterialRegistry.createIngotMaterial(518, "draconium", 0x573d85, "draconium", 10, null, 30.0f, 6, 12800,9200);
 draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ORE","GENERATE_ROD","GENERATE_FRAME","GENERATE_BOLT_SCREW"]);
 
-val awaken_draconium = MaterialRegistry.createIngotMaterial(519, "awaken_draconium",  0xff571a, "shiny", 10, null, 40.0f, 6, 128000);
+val awaken_draconium = MaterialRegistry.createIngotMaterial(519, "awaken_draconium",  0xff571a, "awakened", 10, null, 40.0f, 6, 128000);
 awaken_draconium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE","GENERATE_ROD","GENERATE_FRAME","GENERATE_PLASMA","GENERATE_BOLT_SCREW"]);
 
 val chaos = MaterialRegistry.createIngotMaterial(520, "chaos",  0x696969, "dull", 10, null, 50.0f, 6, 1280000);
