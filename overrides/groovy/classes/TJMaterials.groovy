@@ -8,6 +8,7 @@ import gregtech.api.unification.material.Materials
 import gregtech.api.unification.material.info.MaterialFlags
 import gregtech.api.unification.material.info.MaterialIconSet
 import gregtech.api.unification.material.properties.BlastProperty
+import gregtech.integration.groovy.MaterialPropertyExpansion
 import supercritical.api.unification.material.SCMaterials
 import supercritical.api.unification.material.properties.FissionFuelProperty
 import supercritical.api.unification.material.properties.SCPropertyKey
@@ -41,6 +42,26 @@ class TJMaterials {
     public static Material Fermium262
     public static Material Mendelevium259
     public static Material Mendelevium263
+    public static Material NuclearWaste
+    public static Material LanthanideGroupAWaste
+    public static Material LanthanideGroupBWaste
+    public static Material AlkalineWaste
+    public static Material HeavyMetalWaste
+    public static Material MetalGroupAWaste
+    public static Material MetalGroupBWaste
+    public static Material MetalGroupCWaste
+    public static Material NonmetalWaste
+    public static Material MetaloidWaste
+    public static Material UraniumWaste
+    public static Material NeptuniumWaste
+    public static Material PlutoniumWaste
+    public static Material AmericiumWaste
+    public static Material CuriumWaste
+    public static Material BerkeliumWaste
+    public static Material CaliforniumWaste
+    public static Material EinsteiniumWaste
+    public static Material FermiumWaste
+    public static Material MendeleviumWaste
 
     static void init() {
         PahoehoeLava = Material.builder(10000, resource(getPackId(), 'pahoehoe_lava'))
@@ -183,11 +204,129 @@ class TJMaterials {
                 .color(0x1D4ACF)
                 .dust()
                 .build()
-        registerNuclearFuels()
-        addFlags()
+        NuclearWaste = Material.builder(10028, resource(getPackId(), 'nuclear_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xEDEDED)
+                .gem()
+                .build()
+        LanthanideGroupAWaste = Material.builder(10029, resource(getPackId(), 'lanthanide_group_a_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xE2E2E2)
+                .gem()
+                .build()
+        LanthanideGroupBWaste = Material.builder(10030, resource(getPackId(), 'lanthanide_group_b_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xB3B3B3)
+                .gem()
+                .build()
+        AlkalineWaste = Material.builder(10031, resource(getPackId(), 'alkaline_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xFAFAFA)
+                .gem()
+                .build()
+        HeavyMetalWaste = Material.builder(10032, resource(getPackId(), 'heavy_metal_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x00B4E0)
+                .gem()
+                .build()
+        MetalGroupAWaste = Material.builder(10033, resource(getPackId(), 'metal_group_a_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x3F4040)
+                .gem()
+                .build()
+        MetalGroupBWaste = Material.builder(10034, resource(getPackId(), 'metal_group_b_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x6C6A6A)
+                .gem()
+                .build()
+        MetalGroupCWaste = Material.builder(10035, resource(getPackId(), 'metal_group_c_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x9A9897)
+                .gem()
+                .build()
+        NonmetalWaste = Material.builder(10036, resource(getPackId(), 'nonmetal_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x9A9897)
+                .gem()
+                .build()
+        MetaloidWaste = Material.builder(10037, resource(getPackId(), 'metaloid_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xFF412E)
+                .gem()
+                .build()
+        UraniumWaste = Material.builder(10038, resource(getPackId(), 'uranium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x32F032)
+                .gem()
+                .build()
+        NeptuniumWaste = Material.builder(10039, resource(getPackId(), 'neptunium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x284D7B)
+                .gem()
+                .build()
+        PlutoniumWaste = Material.builder(10040, resource(getPackId(), 'plutonium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xF03232)
+                .gem()
+                .build()
+        AmericiumWaste = Material.builder(10041, resource(getPackId(), 'americium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x287869)
+                .gem()
+                .build()
+        CuriumWaste = Material.builder(10042, resource(getPackId(), 'curium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x7B544E)
+                .gem()
+                .build()
+        BerkeliumWaste = Material.builder(10043, resource(getPackId(), 'berkelium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x645A88)
+                .gem()
+                .build()
+        CaliforniumWaste = Material.builder(10044, resource(getPackId(), 'californium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xA85A12)
+                .gem()
+                .build()
+        EinsteiniumWaste = Material.builder(10045, resource(getPackId(), 'einsteinium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0xCE9F00)
+                .gem()
+                .build()
+        FermiumWaste = Material.builder(10046, resource(getPackId(), 'fermium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x984ACF)
+                .gem()
+                .build()
+        MendeleviumWaste = Material.builder(10047, resource(getPackId(), 'mendelevium_waste'))
+                .flags(MaterialFlags.EXPLOSIVE)
+                .iconSet(MaterialIconSet.LIGNITE)
+                .color(0x1D4ACF)
+                .gem()
+                .build()
     }
 
-    private static void registerNuclearFuels() {
+    static void registerNuclearFuels() {
         Materials.Uranium235.setProperty(SCPropertyKey.FISSION_FUEL,
                 FissionFuelProperty.builder(Materials.Uranium235.getRegistryName(), 1500, 75000, 3.5)
                         .fastNeutronCaptureCrossSection(0.4).slowNeutronCaptureCrossSection(1.8)
@@ -285,12 +424,15 @@ class TJMaterials {
                         .releasedHeatEnergy(0.025).decayRate(0.025).build())
     }
 
-    private static void addFlags() {
+    static void addFlags() {
         Materials.Protactinium.addFlags(MaterialFlags.GENERATE_FRAME)
         Materials.NeodymiumMagnetic.addFlags(MaterialFlags.GENERATE_GEAR)
         Materials.Osmium.addFlags(MaterialFlags.GENERATE_DENSE)
         Materials.Ruthenium.addFlags(MaterialFlags.GENERATE_DENSE)
         Materials.Cobalt.addFlags(MaterialFlags.GENERATE_GEAR)
         GCYLMaterials.Draconium.addFlags(MaterialFlags.GENERATE_DOUBLE_PLATE)
+        MaterialPropertyExpansion.addDust(Materials.Neptunium)
+        MaterialPropertyExpansion.addDust(Materials.Californium)
+        MaterialPropertyExpansion.addIngot(SCMaterials.Plutonium244)
     }
 }
