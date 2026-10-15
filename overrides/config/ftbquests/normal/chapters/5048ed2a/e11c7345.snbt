@@ -9,13 +9,13 @@
 		uid: "385833c2",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32315"
+			item: "gregtech:meta_gem 1 10039"
 		}]
 	}],
 	rewards: [{
 		uid: "09bce874",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32315",
+		item: "gregtech:meta_gem 1 10039",
 		count: 8
 	}]
 }

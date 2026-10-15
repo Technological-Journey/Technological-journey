@@ -15,13 +15,13 @@
 		uid: "ef74563a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10052"
+			item: "supercritical:meta_ingot 1 10"
 		}]
 	}],
 	rewards: [{
 		uid: "16a94c2a",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32315",
+		item: "gregtech:meta_gem 1 10039",
 		count: 32
 	}]
 }

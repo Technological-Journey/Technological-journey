@@ -10,70 +10,70 @@
 		uid: "394f742d",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32324"
+			item: "gregtech:meta_gem 1 10029"
 		}]
 	},
 	{
 		uid: "4470ce59",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32325"
+			item: "gregtech:meta_gem 1 10030"
 		}]
 	},
 	{
 		uid: "62e2c523",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32326"
+			item: "gregtech:meta_gem 1 10031"
 		}]
 	},
 	{
 		uid: "afd4c839",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32327"
+			item: "gregtech:meta_gem 1 10033"
 		}]
 	},
 	{
 		uid: "14557566",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32328"
+			item: "gregtech:meta_gem 1 10034"
 		}]
 	},
 	{
 		uid: "ff115543",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32329"
+			item: "gregtech:meta_gem 1 10035"
 		}]
 	},
 	{
 		uid: "2cd61e65",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32330"
+			item: "gregtech:meta_gem 1 10032"
 		}]
 	},
 	{
 		uid: "1bff0721",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32331"
+			item: "gregtech:meta_gem 1 10037"
 		}]
 	},
 	{
 		uid: "0722dfed",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32332"
+			item: "gregtech:meta_gem 1 10036"
 		}],
 		consume_items: 0b
 	}],
 	rewards: [{
 		uid: "b52533a8",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32315",
+		item: "gregtech:meta_gem 1 10039",
 		count: 32
 	}]
 }

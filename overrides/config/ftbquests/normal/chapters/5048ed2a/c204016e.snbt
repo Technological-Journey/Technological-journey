@@ -1,6 +1,5 @@
 {
 	title: "Neptunium Fuel",
-	icon: "gtadditions:ga_meta_item 1 16815",
 	x: 26.0d,
 	y: 10.0d,
 	dependencies: [
@@ -12,14 +11,14 @@
 		uid: "61a33e84",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16815"
+			item: "supercritical:meta_fuel_rod 1 5"
 		}]
 	},
 	{
 		uid: "506d7e80",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16816"
+			item: "supercritical:meta_fuel_rod 1 6"
 		}]
 	},
 	{

@@ -1,6 +1,5 @@
 {
 	title: "Einsteinium Fuel",
-	icon: "gtadditions:ga_meta_item 1 16787",
 	x: 26.0d,
 	y: 4.0d,
 	dependencies: [
@@ -12,14 +11,14 @@
 		uid: "541a76f7",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16787"
+			item: "gregtech:meta_fuel_rod 1 10023"
 		}]
 	},
 	{
 		uid: "6997d68a",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16789"
+			item: "gregtech:meta_fuel_rod 1 10024"
 		}]
 	},
 	{

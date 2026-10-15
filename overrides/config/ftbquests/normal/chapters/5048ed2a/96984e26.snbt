@@ -1,6 +1,6 @@
 {
 	title: "Heat Exchanger",
-	icon: "gregtech:machine 1 1003",
+	icon: "technological_journey:mte 1 3",
 	x: 19.5d,
 	y: 12.0d,
 	text: [
@@ -14,14 +14,14 @@
 		uid: "ed998292",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1003"
+			item: "technological_journey:mte 1 3"
 		}]
 	},
 	{
 		uid: "77116764",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 14"
+			item: "gcym:large_multiblock_casing 1 1"
 		}],
 		count: 21L
 	}],

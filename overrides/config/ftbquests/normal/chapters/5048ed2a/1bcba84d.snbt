@@ -1,5 +1,5 @@
 {
-	icon: "gtadditions:ga_meta_item 1 32312",
+	icon: "gregtech:meta_gem 1 10028",
 	x: 25.0d,
 	y: 12.0d,
 	shape: "gear",

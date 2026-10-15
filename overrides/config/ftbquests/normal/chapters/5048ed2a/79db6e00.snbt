@@ -1,6 +1,5 @@
 {
 	title: "Uranium Fuel",
-	icon: "gtadditions:ga_meta_item 1 17075",
 	x: 26.0d,
 	y: 11.0d,
 	text: [
@@ -17,14 +16,14 @@
 		uid: "bfb28401",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 17075"
+			item: "gregtech:meta_fuel_rod 1 117"
 		}]
 	},
 	{
 		uid: "762df0f5",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16076"
+			item: "gregtech:meta_fuel_rod 1 131"
 		}]
 	},
 	{
@@ -35,7 +34,7 @@
 	rewards: [{
 		uid: "700c95db",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 16076",
+		item: "gregtech:meta_fuel_rod 1 117",
 		count: 18
 	}]
 }

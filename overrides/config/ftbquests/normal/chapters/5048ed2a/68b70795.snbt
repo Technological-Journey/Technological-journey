@@ -2,7 +2,7 @@
 	title: "What The Hell Is All This?",
 	icon: "gregtech:warning_sign 1 2",
 	x: 21.5d,
-	y: 3.0d,
+	y: 5.0d,
 	text: [
 		"Welcome to gregicality nuclear - your means of obtaining neptunium, plutonium, americium, curium, berkelium, californium, einstienium, fermium, and mendelevium, along with the majority of elements in smaller quantities.",
 		"",

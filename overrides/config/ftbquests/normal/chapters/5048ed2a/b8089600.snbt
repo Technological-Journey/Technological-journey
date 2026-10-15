@@ -12,7 +12,7 @@
 		uid: "0e93f46e",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 14310"
+			item: "gregtech:meta_fuel_rod 1 126"
 		}],
 		count: 2L
 	}]

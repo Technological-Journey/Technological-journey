@@ -1,6 +1,5 @@
 {
 	title: "Curium Fuel",
-	icon: "gtadditions:ga_meta_item 1 17803",
 	x: 26.0d,
 	y: 7.0d,
 	dependencies: [
@@ -12,7 +11,7 @@
 		uid: "c6f73a2b",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 17803"
+			item: "gcyl:meta_fuel_rod 1 11"
 		}]
 	},
 	{

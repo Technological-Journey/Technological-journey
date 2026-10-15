@@ -6,7 +6,7 @@
 		uid: "f19dae5f",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2078"
+			item: "gregtech:meta_dust 1 121"
 		}]
 	}],
 	rewards: [{

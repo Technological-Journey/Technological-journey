@@ -1,6 +1,5 @@
 {
 	title: "Americium Fuel",
-	icon: "gtadditions:ga_meta_item 1 16809",
 	x: 26.0d,
 	y: 8.0d,
 	dependencies: [
@@ -12,14 +11,14 @@
 		uid: "c9623f47",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16809"
+			item: "gcyl:meta_fuel_rod 1 7"
 		}]
 	},
 	{
 		uid: "48931bfa",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16808"
+			item: "gregtech:meta_fuel_rod 1 10017"
 		}]
 	},
 	{

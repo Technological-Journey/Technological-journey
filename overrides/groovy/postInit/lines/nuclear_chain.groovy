@@ -10,7 +10,19 @@ import gregtech.api.unification.material.Materials
 import gregtech.api.unification.ore.OrePrefix
 import supercritical.api.unification.material.SCMaterials
 import supercritical.api.unification.ore.SCOrePrefix
+import supercritical.common.blocks.BlockFissionCasing
+import supercritical.common.blocks.SCMetaBlocks
 import supercritical.common.item.SCMetaItems
+
+// reactor vessel
+mods.gregtech.assembler.removeByInput(48, [metaitem('supercritical:plateDoubleInconel'), metaitem('plateSteel') * 5, metaitem('frameSteel')], null)
+RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
+        .input(OrePrefix.plateDouble, SCMaterials.Inconel)
+        .input(OrePrefix.plate, GCYLNuclearMaterials.ReactorSteel, 5)
+        .input(OrePrefix.frameGt, Materials.Steel)
+        .outputs(SCMetaBlocks.FISSION_CASING.getItemVariant(BlockFissionCasing.FissionCasingType.REACTOR_VESSEL, 2))
+        .EUt(48).duration(280)
+        .buildAndRegister()
 
 // nuclear wastes
 GCYLRecipeMaps.CHEMICAL_DEHYDRATOR_RECIPES.recipeBuilder()
@@ -357,3 +369,8 @@ RecipeMaps.ELECTROLYZER_RECIPES.recipeBuilder()
         .output(OrePrefix.gem, TJMaterials.NuclearWaste, 16)
         .EUt(1920).duration(800)
         .buildAndRegister()
+
+// Uranium Dust * 1
+mods.gregtech.electrolyzer.removeByInput(120, null, [fluid('uranium_hexafluoride') * 1000])
+// Low Enriched Uranium Hexafluoride * 100
+mods.gregtech.centrifuge.removeByInput(480, null, [fluid('uranium_hexafluoride') * 1000])

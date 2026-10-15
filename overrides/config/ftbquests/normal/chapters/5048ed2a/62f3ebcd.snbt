@@ -4,11 +4,19 @@
 	dependencies: [
 		"897cf600"
 	],
+	or_tasks: 1b,
 	tasks: [{
 		uid: "ee321228",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 3075"
+			item: "gregtech:meta_fuel_pellet 1 117"
+		},
+		{
+			item: "gregtech:meta_fuel_pellet 1 131"
 		}]
+	},
+	{
+		uid: "5913f7a7",
+		type: "checkmark"
 	}]
 }

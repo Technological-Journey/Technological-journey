@@ -1,19 +1,105 @@
 {
-	title: "Uranium Hexafluoride Bucket",
+	icon: "supercritical:mte 1 14403",
 	x: 24.0d,
 	y: 7.0d,
 	dependencies: [
 		"86725982"
 	],
 	tasks: [{
-		uid: "9cda7e93",
-		type: "checkmark",
-		icon: {
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "hexafluoride.uranium_radioactive",
-				Amount: 1000
-			}
-		}
+		uid: "90cd1a82",
+		type: "item",
+		items: [{
+			item: "supercritical:mte 1 14403"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "966de894",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 4"
+		}]
+	},
+	{
+		uid: "4dec9947",
+		type: "item",
+		items: [{
+			item: "supercritical:nuclear_casing 1 1"
+		}],
+		count: 6L
+	},
+	{
+		uid: "a99081d1",
+		type: "item",
+		items: [{
+			item: "supercritical:gas_centrifuge_casing"
+		}],
+		count: 30L
+	},
+	{
+		uid: "17828a8b",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 11031"
+		},
+		{
+			item: "gregtech:mte 1 11032"
+		},
+		{
+			item: "gregtech:mte 1 11033"
+		},
+		{
+			item: "gregtech:mte 1 11034"
+		},
+		{
+			item: "gregtech:mte 1 11035"
+		},
+		{
+			item: "gregtech:mte 1 11036"
+		},
+		{
+			item: "gregtech:mte 1 11037"
+		},
+		{
+			item: "gregtech:mte 1 11038"
+		},
+		{
+			item: "gregtech:mte 1 11526"
+		},
+		{
+			item: "gregtech:mte 1 11528"
+		}]
+	},
+	{
+		uid: "99f6f92f",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 11046"
+		},
+		{
+			item: "gregtech:mte 1 11047"
+		},
+		{
+			item: "gregtech:mte 1 11048"
+		},
+		{
+			item: "gregtech:mte 1 11049"
+		},
+		{
+			item: "gregtech:mte 1 11050"
+		},
+		{
+			item: "gregtech:mte 1 11051"
+		},
+		{
+			item: "gregtech:mte 1 11052"
+		},
+		{
+			item: "gregtech:mte 1 11053"
+		},
+		{
+			item: "gregtech:mte 1 11533"
+		}]
 	}]
 }

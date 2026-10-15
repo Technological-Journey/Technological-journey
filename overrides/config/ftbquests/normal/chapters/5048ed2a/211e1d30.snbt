@@ -1,45 +1,36 @@
 {
-	icon: "gregtech:machine 1 4020",
 	x: 24.0d,
 	y: 8.0d,
 	dependencies: [
 		"56eaadea"
 	],
+	or_tasks: 1b,
 	tasks: [{
 		uid: "f195424e",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4020"
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "depleted_uranium_hexafluoride",
+				Amount: 1000
+			}
 		}]
 	},
 	{
-		uid: "201a8cd9",
+		uid: "b049f542",
 		type: "item",
 		items: [{
-			item: "gregtech:metal_casing 1 5"
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "enriched_uranium_hexafluoride",
+				Amount: 1000
+			}
 		}],
-		count: 34L
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	},
 	{
-		uid: "b259ae05",
-		type: "item",
-		items: [{
-			item: "gregtech:boiler_casing 1 1"
-		}],
-		count: 5L
-	},
-	{
-		uid: "4f3a4594",
-		type: "item",
-		items: [{
-			item: "gregtech:metal_casing 1 4"
-		}],
-		count: 20L
-	}],
-	rewards: [{
-		uid: "af41852f",
-		type: "item",
-		item: "gregtech:meta_item_1 1 32613",
-		count: 2
+		uid: "891375db",
+		type: "checkmark"
 	}]
 }

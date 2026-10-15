@@ -1,37 +1,22 @@
 {
-	icon: "gregtech:machine 1 525",
 	x: 24.0d,
 	y: 10.0d,
 	dependencies: [
 		"9a766554"
 	],
+	or_tasks: 1b,
 	tasks: [{
 		uid: "aff6dec6",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2538"
+			item: "gregtech:meta_fuel_pellet_raw 1 117"
+		},
+		{
+			item: "gregtech:meta_fuel_pellet_raw 1 131"
 		}]
 	},
 	{
-		uid: "d3286ac5",
-		type: "item",
-		items: [{
-			item: "gregtech:wire_coil"
-		}],
-		count: 16L
-	},
-	{
-		uid: "ceb38534",
-		type: "item",
-		items: [{
-			item: "gregtech:metal_casing 1 5"
-		}],
-		count: 19L
-	}],
-	rewards: [{
-		uid: "462eba5e",
-		type: "item",
-		item: "gregtech:meta_item_1 1 10183",
-		count: 16
+		uid: "3868b135",
+		type: "checkmark"
 	}]
 }

@@ -15,13 +15,13 @@
 		uid: "5f5494c2",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32312"
+			item: "gregtech:meta_gem 1 10028"
 		}]
 	}],
 	rewards: [{
 		uid: "1ead26b9",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 16076",
+		item: "gregtech:meta_gem 1 10028",
 		count: 8
 	}]
 }

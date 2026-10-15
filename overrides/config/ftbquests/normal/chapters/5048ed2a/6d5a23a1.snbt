@@ -1,6 +1,5 @@
 {
 	title: "Berkelium Fuel",
-	icon: "gtadditions:ga_meta_item 1 16799",
 	x: 26.0d,
 	y: 6.0d,
 	dependencies: [
@@ -12,14 +11,14 @@
 		uid: "cab39441",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16799"
+			item: "gregtech:meta_fuel_rod 1 10020"
 		}]
 	},
 	{
 		uid: "401dafec",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16798"
+			item: "gregtech:meta_fuel_rod 1 10021"
 		}]
 	},
 	{

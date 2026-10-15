@@ -1,6 +1,6 @@
 {
 	title: "Alloy Blast Furnace (ABF)",
-	icon: "gregtech:machine 1 2559",
+	icon: "gcym:mte 1 2001",
 	x: 18.5d,
 	y: 3.0d,
 	text: [
@@ -17,22 +17,22 @@
 		uid: "ed9250ad",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2559"
+			item: "gcym:mte 1 2001"
 		}]
 	},
 	{
 		uid: "d63e73aa",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_2"
+			item: "gcym:unique_casing 1 3"
 		}],
-		count: 24L
+		count: 12L
 	},
 	{
 		uid: "283c5634",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 14"
+			item: "gcym:large_multiblock_casing 1 1"
 		}],
 		count: 35L
 	},
@@ -42,20 +42,71 @@
 		items: [{
 			item: "gregtech:wire_coil 1 3"
 		}],
-		count: 16L
+		count: 24L
 	},
 	{
 		uid: "d731d697",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4216"
+			item: "gregtech:mte 1 11001"
+		},
+		{
+			item: "gregtech:mte 1 11002"
+		},
+		{
+			item: "gregtech:mte 1 11003"
+		},
+		{
+			item: "gregtech:mte 1 11004"
+		},
+		{
+			item: "gregtech:mte 1 11005"
+		},
+		{
+			item: "gregtech:mte 1 11006"
+		},
+		{
+			item: "gregtech:mte 1 11007"
+		},
+		{
+			item: "gregtech:mte 1 11008"
+		},
+		{
+			item: "gregtech:mte 1 11525"
+		},
+		{
+			item: "gregtech:mte 1 11527"
 		}]
 	},
 	{
 		uid: "4e3f5e22",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4213"
+			item: "gregtech:mte 1 11046"
+		},
+		{
+			item: "gregtech:mte 1 11047"
+		},
+		{
+			item: "gregtech:mte 1 11048"
+		},
+		{
+			item: "gregtech:mte 1 11049"
+		},
+		{
+			item: "gregtech:mte 1 11050"
+		},
+		{
+			item: "gregtech:mte 1 11051"
+		},
+		{
+			item: "gregtech:mte 1 11052"
+		},
+		{
+			item: "gregtech:mte 1 11053"
+		},
+		{
+			item: "gregtech:mte 1 11533"
 		}]
 	}],
 	rewards: [{
