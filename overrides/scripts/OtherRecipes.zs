@@ -357,7 +357,7 @@ chemplant.recipeBuilder()
 //Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32488>], [], false);
 //Utils.removeRecipeByOutput(assembler, [<gregtech:meta_item_2:32452>], [], false);
 //recipes.addShaped(<gregtech:meta_item_2:32452>, [[<gregtech:meta_item_1:19026>, <gregtech:meta_item_1:19026>, <gregtech:meta_item_1:19026>],[<gregtech:meta_item_1:19026>, <gregtech:meta_item_1:19026>, <gregtech:meta_item_1:19026>], [<gregtech:cable:71>, null, <gregtech:cable:71>]]);
-recipes.addShaped(<gregtech:meta_item_2:32461>, [[<gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>],[<gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>], [<gregtech:cable:71>, <gregtech:cable:71>, <gregtech:cable:71>]]);
+//recipes.addShaped(<gregtech:meta_item_2:32461>, [[<gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>],[<gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>, <gregtech:meta_item_1:19061>], [<gregtech:cable:71>, <gregtech:cable:71>, <gregtech:cable:71>]]);
 Utils.removeRecipeByOutput(fermenter, [], [<liquid:fermented_biomass>], false);
 
 fermenter.recipeBuilder()
@@ -2930,3 +2930,6 @@ circuit_assembler.recipeBuilder()
 .duration(100)
 .EUt(16)
 .buildAndRegister();
+
+//recipes.remove(<gregtech:meta_item_2:32461>);
+recipes.addShaped(<gregtech:meta_item_2:32461>, [[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>],[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>], [<gregtech:cable:71>, <gregtech:cable:71>, <gregtech:cable:71>]]);
