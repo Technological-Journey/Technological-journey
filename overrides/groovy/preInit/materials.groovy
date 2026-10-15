@@ -4,5 +4,6 @@ import gregtech.api.unification.material.event.MaterialEvent
 event_manager.listen { MaterialEvent event ->
     TJMaterials.init()
     TJMaterials.registerNuclearFuels()
+    TJMaterials.addProperties()
     TJMaterials.addFlags()
 }

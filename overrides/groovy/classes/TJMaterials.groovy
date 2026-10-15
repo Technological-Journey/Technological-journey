@@ -422,6 +422,28 @@ class TJMaterials {
                         .fastNeutronCaptureCrossSection(0.4).slowNeutronCaptureCrossSection(1.8)
                         .slowNeutronFissionCrossSection(1.8).requiredNeutrons(1).releasedNeutrons(2.5)
                         .releasedHeatEnergy(0.025).decayRate(0.025).build())
+
+        Materials.Naquadah.setProperty(SCPropertyKey.FISSION_FUEL,
+                FissionFuelProperty.builder(Materials.Naquadah.getRegistryName(), 1500, 75000, 3.5)
+                        .fastNeutronCaptureCrossSection(0.4).slowNeutronCaptureCrossSection(1.8)
+                        .slowNeutronFissionCrossSection(1.8).requiredNeutrons(1).releasedNeutrons(2.5)
+                        .releasedHeatEnergy(0.025).decayRate(0.025).build())
+        Materials.NaquadahEnriched.setProperty(SCPropertyKey.FISSION_FUEL,
+                FissionFuelProperty.builder(Materials.NaquadahEnriched.getRegistryName(), 1500, 75000, 3.5)
+                        .fastNeutronCaptureCrossSection(0.4).slowNeutronCaptureCrossSection(1.8)
+                        .slowNeutronFissionCrossSection(1.8).requiredNeutrons(1).releasedNeutrons(2.5)
+                        .releasedHeatEnergy(0.025).decayRate(0.025).build())
+        Materials.Naquadria.setProperty(SCPropertyKey.FISSION_FUEL,
+                FissionFuelProperty.builder(Materials.Naquadria.getRegistryName(), 1500, 75000, 3.5)
+                        .fastNeutronCaptureCrossSection(0.4).slowNeutronCaptureCrossSection(1.8)
+                        .slowNeutronFissionCrossSection(1.8).requiredNeutrons(1).releasedNeutrons(2.5)
+                        .releasedHeatEnergy(0.025).decayRate(0.025).build())
+    }
+
+    static void addProperties() {
+        MaterialPropertyExpansion.addDust(Materials.Neptunium)
+        MaterialPropertyExpansion.addDust(Materials.Californium)
+        MaterialPropertyExpansion.addIngot(SCMaterials.Plutonium244)
     }
 
     static void addFlags() {
@@ -431,8 +453,5 @@ class TJMaterials {
         Materials.Ruthenium.addFlags(MaterialFlags.GENERATE_DENSE)
         Materials.Cobalt.addFlags(MaterialFlags.GENERATE_GEAR)
         GCYLMaterials.Draconium.addFlags(MaterialFlags.GENERATE_DOUBLE_PLATE)
-        MaterialPropertyExpansion.addDust(Materials.Neptunium)
-        MaterialPropertyExpansion.addDust(Materials.Californium)
-        MaterialPropertyExpansion.addIngot(SCMaterials.Plutonium244)
     }
 }

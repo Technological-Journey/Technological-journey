@@ -318,3 +318,42 @@ RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.recipeBuilder()
         .buildAndRegister()
 
 // mendelevium waste ???
+
+// platinum rod
+mods.gregtech.canner.removeByInput(480, [metaitem('fuelRodDepletedNaquadah')], null)
+RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.recipeBuilder()
+        .input(SCOrePrefix.fuelRodDepleted, Materials.Naquadah)
+        .output(SCMetaItems.FUEL_CLADDING)
+        .output(SCOrePrefix.fuelPelletDepleted, Materials.Naquadah, 16)
+        .output(OrePrefix.stick, Materials.Platinum, 32)
+        .EUt(7680).duration(600)
+        .buildAndRegister()
+
+// naquadah rod
+mods.gregtech.canner.removeByInput(480, [metaitem('fuelRodDepletedNaquadahEnriched')], null)
+RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.recipeBuilder()
+        .input(SCOrePrefix.fuelRodDepleted, Materials.NaquadahEnriched)
+        .output(SCOrePrefix.fuelRod, Materials.Naquadah)
+        .output(SCOrePrefix.fuelPelletDepleted, Materials.NaquadahEnriched, 16)
+        .EUt(7680).duration(600)
+        .buildAndRegister()
+
+// enriched naquadah rod
+mods.gregtech.canner.removeByInput(480, [metaitem('fuelRodDepletedNaquadria')], null)
+RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.recipeBuilder()
+        .input(SCOrePrefix.fuelRodDepleted, Materials.Naquadria)
+        .output(SCOrePrefix.fuelRod, Materials.NaquadahEnriched)
+        .output(SCOrePrefix.fuelPelletDepleted, Materials.Naquadria, 16)
+        .EUt(7680).duration(600)
+        .buildAndRegister()
+
+// naquadah nuclear waste
+RecipeMaps.ELECTROLYZER_RECIPES.recipeBuilder()
+        .notConsumable(SCMetaItems.ANODE_BASKET)
+        .notConsumable(Materials.Salt.getFluid(1000))
+        .input(new GTRecipeItemInput(OreDictUnifier.get(SCOrePrefix.fuelPelletDepleted, Materials.Naquadah),
+                OreDictUnifier.get(SCOrePrefix.fuelPelletDepleted, Materials.NaquadahEnriched),
+                OreDictUnifier.get(SCOrePrefix.fuelPelletDepleted, Materials.Naquadria)))
+        .output(OrePrefix.gem, TJMaterials.NuclearWaste, 16)
+        .EUt(1920).duration(800)
+        .buildAndRegister()
