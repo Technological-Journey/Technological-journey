@@ -9,7 +9,7 @@
 		uid: "d6808d05",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32494"
+			item: "gcyl:gcyl_meta_item 1 494"
 		}],
 		count: 32L
 	},
@@ -17,7 +17,7 @@
 		uid: "04324f12",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32497"
+			item: "gcyl:gcyl_meta_item 1 497"
 		}],
 		count: 32L
 	},
@@ -25,7 +25,7 @@
 		uid: "102a199b",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32496"
+			item: "gcyl:gcyl_meta_item 1 496"
 		}],
 		count: 32L
 	}]

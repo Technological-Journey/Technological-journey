@@ -10,7 +10,7 @@
 		uid: "6cd20ea5",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32655"
+			item: "gregtech:meta_item_1 1 191"
 		}],
 		count: 2L
 	}]

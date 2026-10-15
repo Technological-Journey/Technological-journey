@@ -5,7 +5,7 @@
 		uid: "c99aabb3",
 		type: "item",
 		items: [{
-			item: "gregtech:wire_coil 1 8"
+			item: "gregtech:fusion_casing 1 1"
 		}]
 	}]
 }

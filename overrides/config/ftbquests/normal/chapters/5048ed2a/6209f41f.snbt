@@ -1,38 +1,17 @@
 {
 	title: "Reactor Casings",
-	icon: "gregtech:machine 1 2545",
-	x: 16.5d,
-	y: 4.0d,
-	text: [
-		""
-	],
+	x: 17.5d,
+	y: 6.0d,
 	dependencies: [
-		"944addd2",
-		"94e4598f"
+		"944addd2"
 	],
 	tasks: [{
 		uid: "43f9d2e9",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 13"
+			item: "supercritical:fission_casing"
 		}],
-		count: 39L
-	},
-	{
-		uid: "f9d8aa31",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_transparent_casing 1 1"
-		}],
-		count: 28L
-	},
-	{
-		uid: "5a7dc1b4",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_nuclear_casing"
-		}],
-		count: 7L
+		count: 35L
 	}],
 	rewards: [{
 		uid: "95db868d",

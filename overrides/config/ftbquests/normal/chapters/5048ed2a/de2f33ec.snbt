@@ -1,6 +1,6 @@
 {
-	x: 10.5d,
-	y: 9.0d,
+	x: 11.0d,
+	y: 8.0d,
 	text: [
 		"Carbon fiber and glowstone somehow makes your CPU's smaller. A couple of smaller processing lines for SMD's and some stronger subtrates means you can pack even more processing power into your processors. "
 	],
@@ -12,7 +12,12 @@
 		uid: "7b7c30e3",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32492"
+			item: "gregtech:meta_item_1 1 632"
 		}]
+	}],
+	rewards: [{
+		uid: "cac16800",
+		type: "item",
+		item: "gregtech:meta_item_1 1 632"
 	}]
 }

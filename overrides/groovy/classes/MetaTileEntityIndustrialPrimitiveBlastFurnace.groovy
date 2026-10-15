@@ -1,3 +1,4 @@
+import gregtech.api.GTValues
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
 import gregtech.api.metatileentity.multiblock.IMultiblockPart
@@ -5,18 +6,22 @@ import gregtech.api.metatileentity.multiblock.MultiblockAbility
 import gregtech.api.metatileentity.multiblock.ui.MultiblockUIBuilder
 import gregtech.api.pattern.BlockPattern
 import gregtech.api.pattern.FactoryBlockPattern
+import gregtech.api.pattern.MultiblockShapeInfo
 import gregtech.api.pattern.PatternMatchContext
 import gregtech.api.pattern.TraceabilityPredicate
 import gregtech.api.recipes.RecipeBuilder
 import gregtech.api.recipes.RecipeMaps
 import gregtech.api.util.GTUtility
 import gregtech.api.util.KeyUtil
+import gregtech.api.util.RelativeDirection
 import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.renderer.texture.Textures
 import gregtech.common.blocks.BlockMetalCasing
 import gregtech.common.blocks.MetaBlocks
+import gregtech.common.metatileentities.MetaTileEntities
 import groovyjarjarantlr4.v4.runtime.misc.NotNull
 import net.minecraft.init.Blocks
+import net.minecraft.util.EnumFacing
 import net.minecraft.util.text.TextFormatting
 import net.minecraftforge.fml.relauncher.Side
 import net.minecraftforge.fml.relauncher.SideOnly
@@ -61,6 +66,25 @@ class MetaTileEntityIndustrialPrimitiveBlastFurnace extends TJRecipeMapSteamMult
                         return true
                     } else return false
                 })).build()
+    }
+
+    @Override
+    List<MultiblockShapeInfo> getMatchingShapes() {
+        List<MultiblockShapeInfo> shapeInfos = new ArrayList<>()
+        for (i in 1..<64) {
+            MultiblockShapeInfo.Builder builder = MultiblockShapeInfo.builder(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
+                    .aisle("XXX", "XXX", "XXX", "XXX")
+            for (j in 0..<i) {
+                builder.aisle("XXX", "X#X", "X#X", "XXX")
+            }
+            shapeInfos.add(builder.aisle("XXX", "ISO", "XXX", "XXX")
+                    .where('S' as char, this, EnumFacing.SOUTH)
+                    .where('X' as char, MetaBlocks.METAL_CASING.getState(BlockMetalCasing.MetalCasingType.PRIMITIVE_BRICKS))
+                    .where('I' as char, MetaTileEntities.ITEM_IMPORT_BUS[GTValues.LV], EnumFacing.SOUTH)
+                    .where('O' as char, MetaTileEntities.ITEM_EXPORT_BUS[GTValues.LV], EnumFacing.SOUTH)
+                    .build())
+        }
+        return shapeInfos;
     }
 
     @Override

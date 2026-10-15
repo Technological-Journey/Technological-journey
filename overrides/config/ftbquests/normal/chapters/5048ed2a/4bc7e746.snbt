@@ -1,5 +1,6 @@
 {
-	x: -2.5d,
+	title: "Neodymium",
+	x: -3.0d,
 	y: 3.0d,
 	dependencies: [
 		"5dcf33b2"
@@ -8,7 +9,13 @@
 		uid: "cfb02f79",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10042"
+			item: "gregtech:meta_ingot 1 66"
 		}]
+	}],
+	rewards: [{
+		uid: "d05bfe4c",
+		type: "item",
+		item: "gregtech:ore_bastnasite_0",
+		count: 32
 	}]
 }

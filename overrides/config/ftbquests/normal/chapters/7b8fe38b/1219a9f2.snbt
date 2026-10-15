@@ -11,7 +11,7 @@
 		uid: "cc81d286",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_dust_impure 1 322"
+			item: "gregtech:meta_dust_pure 1 322"
 		}]
 	}],
 	rewards: [{

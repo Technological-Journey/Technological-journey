@@ -9,14 +9,14 @@
 		uid: "4a95e14a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32452"
+			item: "gregtech:meta_item_1 1 520"
 		}]
 	},
 	{
 		uid: "b329b67c",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32461"
+			item: "gregtech:meta_item_1 1 518"
 		}]
 	}]
 }

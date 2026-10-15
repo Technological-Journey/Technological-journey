@@ -17,7 +17,7 @@
 		uid: "02c608d1",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_49 1 13"
+			item: "gregtech:meta_block_compressed_1 1 1"
 		}]
 	}]
 }
