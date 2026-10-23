@@ -2416,7 +2416,7 @@ assembler.recipeBuilder()
 Utils.removeRecipeByOutput(circuit_assembler, [<gregtech:meta_item_2:32488>], [], false);
 
 circuit_assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_2:32455> * 4,<gregtech:meta_item_2:32452> * 4, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>,<contenttweaker:crude_plate_central_processing_unit>])
+.inputs([<gregtech:meta_item_2:32455> * 4,<gregtech:meta_item_2:32452> * 4, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>,<contenttweaker:crude_plate_central_processing_unit> * 2])
 .fluidInputs(<liquid:soldering_alloy> * 50)
 .outputs([<gregtech:meta_item_2:32488> * 1])
 .duration(100)
@@ -2424,7 +2424,7 @@ circuit_assembler.recipeBuilder()
 .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
-.inputs([<gtadditions:ga_meta_item:32241> * 2,<gtadditions:ga_meta_item:32242> * 2, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>,<contenttweaker:crude_plate_central_processing_unit>])
+.inputs([<gtadditions:ga_meta_item:32241> * 2,<gtadditions:ga_meta_item:32242> * 2, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>,<contenttweaker:crude_plate_central_processing_unit> * 2])
 .fluidInputs(<liquid:soldering_alloy> * 50)
 .outputs([<gregtech:meta_item_2:32488> * 1])
 .duration(100)
@@ -2916,7 +2916,7 @@ Utils.removeRecipeByOutput(circuit_assembler, [<gtadditions:ga_meta_item:32201>]
 //new mv electronic circuit
 
 circuit_assembler.recipeBuilder()
-.inputs([<gregtech:meta_item_2:32455> * 8, <gregtech:meta_item_2:32461> * 2, <contenttweaker:crude_plate_central_processing_unit> * 2, <gregtech:meta_item_2:32488> * 3, <gregtech:meta_item_1:12112>])
+.inputs([<gregtech:meta_item_2:32455> * 8, <gregtech:meta_item_2:32461> * 2, <contenttweaker:crude_plate_central_processing_unit> * 3, <gregtech:meta_item_2:32488> * 3, <gregtech:meta_item_1:12112>])
 .fluidInputs(<liquid:soldering_alloy> * 50)
 .outputs([<gtadditions:ga_meta_item:32201> * 1])
 .duration(100)
@@ -2924,7 +2924,7 @@ circuit_assembler.recipeBuilder()
 .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
-.inputs([<gtadditions:ga_meta_item:32241> * 2, <gtadditions:ga_meta_item:32240> * 4, <contenttweaker:crude_plate_central_processing_unit> * 2, <gregtech:meta_item_2:32488> * 3, <gregtech:meta_item_1:12112>])
+.inputs([<gtadditions:ga_meta_item:32241> * 2, <gtadditions:ga_meta_item:32240> * 4, <contenttweaker:crude_plate_central_processing_unit> * 3, <gregtech:meta_item_2:32488> * 3, <gregtech:meta_item_1:12112>])
 .fluidInputs(<liquid:soldering_alloy> * 50)
 .outputs([<gtadditions:ga_meta_item:32201> * 1])
 .duration(100)
@@ -2933,3 +2933,37 @@ circuit_assembler.recipeBuilder()
 
 //recipes.remove(<gregtech:meta_item_2:32461>);
 recipes.addShaped(<gregtech:meta_item_2:32461>, [[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>],[<gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>, <gregtech:meta_item_1:19001>], [<gregtech:cable:71>, <gregtech:cable:71>, <gregtech:cable:71>]]);
+
+
+circuit_assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_2:32455> * 4,<gregtech:meta_item_2:32452> * 4, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>,<gregtech:meta_item_2:32478>])
+.fluidInputs(<liquid:soldering_alloy> * 50)
+.outputs([<gregtech:meta_item_2:32488> * 1])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32241> * 2,<gtadditions:ga_meta_item:32242> * 2, <ore:wireFineCopper> * 4, <gtadditions:ga_meta_item:32030>,<gregtech:meta_item_2:32478>])
+.fluidInputs(<liquid:soldering_alloy> * 50)
+.outputs([<gregtech:meta_item_2:32488> * 1])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+
+circuit_assembler.recipeBuilder()
+.inputs([<gregtech:meta_item_2:32455> * 8, <gregtech:meta_item_2:32461> * 2, <gregtech:meta_item_2:32478> * 2, <gregtech:meta_item_2:32488> * 3, <gregtech:meta_item_1:12112>])
+.fluidInputs(<liquid:soldering_alloy> * 50)
+.outputs([<gtadditions:ga_meta_item:32201> * 1])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+.inputs([<gtadditions:ga_meta_item:32241> * 2, <gtadditions:ga_meta_item:32240> * 4, <gregtech:meta_item_2:32478> * 2, <gregtech:meta_item_2:32488> * 3, <gregtech:meta_item_1:12112>])
+.fluidInputs(<liquid:soldering_alloy> * 50)
+.outputs([<gtadditions:ga_meta_item:32201> * 1])
+.duration(100)
+.EUt(16)
+.buildAndRegister();
