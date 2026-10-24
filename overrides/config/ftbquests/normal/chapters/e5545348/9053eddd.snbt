@@ -1,7 +1,7 @@
 {
 	title: "Central Processing Unit",
 	x: 5.5d,
-	y: 3.5d,
+	y: 4.0d,
 	shape: "circle",
 	dependencies: [
 		"e08223a3"

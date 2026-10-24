@@ -5,11 +5,16 @@
 		"4821a842"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "d7a74fae",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_2 1 32570"
 		}]
+	},
+	{
+		uid: "6fcae02b",
+		type: "checkmark"
 	}]
 }

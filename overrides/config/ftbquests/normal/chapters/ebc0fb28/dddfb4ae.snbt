@@ -5,9 +5,7 @@
 	y: -8.5d,
 	description: "Transforming 101",
 	text: [
-		"One generator per machine gets pretty annoying, and it can be hard to generate your first MV amp when you're working with LV components and infrastructure. Luckily, Greg has a solution to this – transformers. An MV transformer (crafted from LV parts) will take 4 amps of LV and output 1 amp of MV, or intake 1 amp of MV and output 4 amps of LV. Transformers can be used in chains to power 16 machines with one generator. ",
-		"",
-		"In addition, energynet has some… broken mechanics. Energy limits are calculated based on input, so you can have 50 generators on a 1amp line, and 50 machines drawing one amp each. As long as you never input more than the amperage of the cables from 1 individual source, you can abuse this mechanic to make lines of machines that share their energy sources, vastly reducing the total amount of generators you need. "
+		"One generator per machine gets pretty annoying, and it can be hard to generate your first MV amp when you're working with LV components and infrastructure. Luckily, Greg has a solution to this – transformers. An MV transformer (crafted from LV parts) will take 4 amps of LV and output 1 amp of MV, or intake 1 amp of MV and output 4 amps of LV. Transformers can be used in chains to power 16 machines with one generator. "
 	],
 	dependencies: [
 		"3ecd08da"

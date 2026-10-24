@@ -61,5 +61,10 @@
 			item: "gtadditions:ga_metal_casing_2"
 		}],
 		count: 48L
+	}],
+	rewards: [{
+		uid: "31138204",
+		type: "item",
+		item: "gregtech:machine 1 5084"
 	}]
 }

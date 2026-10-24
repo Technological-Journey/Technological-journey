@@ -1,6 +1,6 @@
 {
-	x: 2.5d,
-	y: 6.5d,
+	x: 0.5d,
+	y: 5.5d,
 	text: [
 		"You can make it by hand, but it’s about time you start thinking about some sort of automation instead of hammering away on a crafting table."
 	],

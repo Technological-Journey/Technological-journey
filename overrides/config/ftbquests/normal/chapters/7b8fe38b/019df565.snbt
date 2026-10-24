@@ -1,0 +1,17 @@
+{
+	x: 22.5d,
+	y: -4.0d,
+	text: [
+		"Crude CPUs can be used to creat a cheaper alterivie to LV circuits"
+	],
+	dependencies: [
+		"6277be98"
+	],
+	tasks: [{
+		uid: "ede15ef7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crude_plate_central_processing_unit"
+		}]
+	}]
+}

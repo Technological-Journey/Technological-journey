@@ -1,0 +1,16 @@
+{
+	x: 24.0d,
+	y: -6.0d,
+	or_tasks: 1b,
+	tasks: [{
+		uid: "ce53e7d8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 220"
+		}]
+	},
+	{
+		uid: "e95942ad",
+		type: "checkmark"
+	}]
+}

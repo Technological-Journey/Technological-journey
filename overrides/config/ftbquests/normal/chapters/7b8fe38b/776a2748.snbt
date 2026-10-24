@@ -1,0 +1,48 @@
+{
+	x: 21.5d,
+	y: -8.0d,
+	or_tasks: 1b,
+	tasks: [{
+		uid: "48c28405",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 4291"
+		}]
+	},
+	{
+		uid: "4478bddc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 4088"
+		}]
+	},
+	{
+		uid: "dea5676f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 3292"
+		}]
+	},
+	{
+		uid: "d0b96052",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 4279"
+		}]
+	},
+	{
+		uid: "90df2770",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2209"
+		}]
+	},
+	{
+		uid: "831157ad",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 8L
+	}]
+}

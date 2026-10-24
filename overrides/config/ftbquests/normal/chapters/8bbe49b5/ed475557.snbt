@@ -64,10 +64,10 @@
 				X: 0.5d,
 				Y: 254.64375994610788d,
 				Yaw: -104.096695f,
+				DimentionName: "planet",
 				display: {
 					Name: "Dislocator Moon"
-				},
-				DimentionName: "planet"
+				}
 			}
 		}
 	}]

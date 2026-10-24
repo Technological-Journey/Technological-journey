@@ -1,0 +1,23 @@
+{
+	x: 12.5d,
+	y: -5.5d,
+	text: [
+		"Now that you have the LV assembler, you may want to start work on cheaper LV circuits."
+	],
+	dependencies: [
+		"66441852"
+	],
+	tasks: [{
+		uid: "6516e07b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 150"
+		}]
+	}],
+	rewards: [{
+		uid: "03721900",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32487",
+		count: 2
+	}]
+}

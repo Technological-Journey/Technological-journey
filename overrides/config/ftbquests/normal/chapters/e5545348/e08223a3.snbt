@@ -1,6 +1,9 @@
 {
 	x: 5.5d,
 	y: 2.5d,
+	text: [
+		"Now that you have real cpus the electronic circuits needed for the rest of MV can be created just a bit cheaper"
+	],
 	dependencies: [
 		"35f017b1"
 	],

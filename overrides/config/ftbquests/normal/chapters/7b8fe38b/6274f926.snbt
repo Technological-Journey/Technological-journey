@@ -1,8 +1,8 @@
 {
-	x: 13.5d,
+	x: 14.5d,
 	y: -4.0d,
 	text: [
-		"Now that you have the LV assembler, you can start on the next hurdle before you can enter MV, the electric blast furnace."
+		"The LV alloy smelter unlocks a lot more recipes than the primitive alloy smelter"
 	],
 	dependencies: [
 		"3ac4401a"

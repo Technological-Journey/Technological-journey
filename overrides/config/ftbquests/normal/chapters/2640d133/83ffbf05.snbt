@@ -1,6 +1,6 @@
 {
 	title: "HEI Autocrafting",
-	x: 5.5d,
+	x: 5.0d,
 	y: -4.0d,
 	shape: "diamond",
 	description: "It’s very powerful",

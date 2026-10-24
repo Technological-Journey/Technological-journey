@@ -1,0 +1,15 @@
+{
+	x: 22.5d,
+	y: -6.0d,
+	dependencies: [
+		"0d16ec7a",
+		"cd83c4e5"
+	],
+	tasks: [{
+		uid: "8ba02b29",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crude_wafer"
+		}]
+	}]
+}

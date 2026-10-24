@@ -6,9 +6,6 @@
 		"",
 		"Want to be an overachiever and better gold ratios? The gold line is for you, while not required until MV, you can achieve it now for more gold for your input"
 	],
-	dependencies: [
-		"4abf135a"
-	],
 	or_tasks: 1b,
 	tasks: [{
 		uid: "97003540",

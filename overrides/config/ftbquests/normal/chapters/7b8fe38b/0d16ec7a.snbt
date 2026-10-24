@@ -1,0 +1,18 @@
+{
+	x: 22.5d,
+	y: -7.0d,
+	text: [
+		"I hope you didn’t tear it down…"
+	],
+	dependencies: [
+		"2ee19d02",
+		"3c9cb4f7"
+	],
+	tasks: [{
+		uid: "b1db008c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:crude_boule"
+		}]
+	}]
+}
