@@ -2,10 +2,10 @@
     "images": {
         "title": {
             "image": "textures:logo.png",
-            "posX": -480,
+            "posX": -290 ,
             "posY": 5,
-            "width" : 950,
-            "height" : 200,
+            "width": 600,
+            "height": 150,
             "alignment": "top_center"
         }
     },
