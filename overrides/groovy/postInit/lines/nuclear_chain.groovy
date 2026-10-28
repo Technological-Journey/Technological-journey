@@ -8,28 +8,13 @@ import gregtech.api.recipes.ingredients.GTRecipeItemInput
 import gregtech.api.unification.OreDictUnifier
 import gregtech.api.unification.material.Materials
 import gregtech.api.unification.ore.OrePrefix
+import gregtech.common.items.MetaItems
 import supercritical.api.recipes.SCRecipeMaps
 import supercritical.api.unification.material.SCMaterials
 import supercritical.api.unification.ore.SCOrePrefix
 import supercritical.common.blocks.BlockFissionCasing
 import supercritical.common.blocks.SCMetaBlocks
 import supercritical.common.item.SCMetaItems
-
-// zircaloy ingot
-crafting.shapelessBuilder()
-        .input([OreDictUnifier.get(OrePrefix.ingot, Materials.Zircaloy4)])
-        .output(OreDictUnifier.get(OrePrefix.ingot, SCMaterials.Zircaloy))
-        .register()
-
-// reactor vessel
-mods.gregtech.assembler.removeByInput(48, [metaitem('supercritical:plateDoubleInconel'), metaitem('plateSteel') * 5, metaitem('frameSteel')], null)
-RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
-        .input(OrePrefix.plateDouble, SCMaterials.Inconel)
-        .input(OrePrefix.plate, GCYLNuclearMaterials.ReactorSteel, 5)
-        .input(OrePrefix.frameGt, Materials.Steel)
-        .outputs(SCMetaBlocks.FISSION_CASING.getItemVariant(BlockFissionCasing.FissionCasingType.REACTOR_VESSEL, 2))
-        .EUt(48).duration(280)
-        .buildAndRegister()
 
 // HEXAFLUORIDE PROCESSING STAGE 1
 // neptunium hexafluoride
@@ -704,6 +689,41 @@ RecipeMaps.ELECTROLYZER_RECIPES.recipeBuilder()
                 OreDictUnifier.get(SCOrePrefix.fuelPelletDepleted, Materials.Naquadria)))
         .output(OrePrefix.gem, TJMaterials.NuclearWaste, 16)
         .EUt(1920).duration(800)
+        .buildAndRegister()
+
+// NUCLEAR MISC STAGE 4
+// zircaloy ingot
+crafting.shapelessBuilder()
+        .input([OreDictUnifier.get(OrePrefix.ingot, Materials.Zircaloy4), OreDictUnifier.get(OrePrefix.ingot, Materials.Zircaloy4)])
+        .output(OreDictUnifier.get(OrePrefix.ingot, SCMaterials.Zircaloy) * 2)
+        .register()
+
+// quantum eye
+mods.gregtech.chemical_bath.removeByInput(480, [item('minecraft:ender_eye')], [fluid('radon') * 250])
+RecipeMaps.CHEMICAL_BATH_RECIPES.recipeBuilder()
+        .input(OrePrefix.gem, Materials.EnderEye)
+        .fluidInputs(SCMaterials.Plutonium244.getFluid(288))
+        .output(MetaItems.QUANTUM_EYE)
+        .EUt(384).duration(480)
+        .buildAndRegister()
+
+// quantum star
+mods.gregtech.chemical_bath.removeByInput(480, [item('minecraft:nether_star')], [fluid('radon') * 1250])
+RecipeMaps.CHEMICAL_BATH_RECIPES.recipeBuilder()
+        .input(OrePrefix.gem, Materials.NetherStar)
+        .fluidInputs(SCMaterials.Plutonium244.getFluid(1152))
+        .output(MetaItems.QUANTUM_STAR)
+        .EUt(384).duration(1920)
+        .buildAndRegister()
+
+// reactor vessel
+mods.gregtech.assembler.removeByInput(48, [metaitem('supercritical:plateDoubleInconel'), metaitem('plateSteel') * 5, metaitem('frameSteel')], null)
+RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
+        .input(OrePrefix.plateDouble, SCMaterials.Inconel)
+        .input(OrePrefix.plate, GCYLNuclearMaterials.ReactorSteel, 5)
+        .input(OrePrefix.frameGt, Materials.Steel)
+        .outputs(SCMetaBlocks.FISSION_CASING.getItemVariant(BlockFissionCasing.FissionCasingType.REACTOR_VESSEL, 2))
+        .EUt(48).duration(280)
         .buildAndRegister()
 
 // Uranium Dust * 1
