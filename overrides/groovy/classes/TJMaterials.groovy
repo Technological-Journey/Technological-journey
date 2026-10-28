@@ -62,6 +62,42 @@ class TJMaterials {
     public static Material EinsteiniumWaste
     public static Material FermiumWaste
     public static Material MendeleviumWaste
+    public static Material NeptuniumHexafluoride
+    public static Material Neptunium239Hexafluoride
+    public static Material Neptunium237Hexafluoride
+    public static Material Neptunium235Hexafluoride
+    public static Material PlutoniumHexafluoride
+    public static Material Plutonium241Hexafluoride
+    public static Material Plutonium240Hexafluoride
+    public static Material Plutonium244Hexafluoride
+    public static Material AmericiumHexafluoride
+    public static Material Americium241Hexafluoride
+    public static Material Americium243Hexafluoride
+    public static Material Americium245Hexafluoride
+    public static Material CuriumHexafluoride
+    public static Material Curium250Hexafluoride
+    public static Material Curium247Hexafluoride
+    public static Material Curium246Hexafluoride
+    public static Material BerkeliumHexafluoride
+    public static Material Berkelium251Hexafluoride
+    public static Material Berkelium247Hexafluoride
+    public static Material Berkelium249Hexafluoride
+    public static Material CaliforniumHexafluoride
+    public static Material Californium256Hexafluoride
+    public static Material Californium253Hexafluoride
+    public static Material Californium252Hexafluoride
+    public static Material EinsteiniumHexafluoride
+    public static Material Einsteinium255Hexafluoride
+    public static Material Einsteinium253Hexafluoride
+    public static Material Einsteinium257Hexafluoride
+    public static Material FermiumHexafluoride
+    public static Material Fermium262Hexafluoride
+    public static Material Fermium258Hexafluoride
+    public static Material Fermium259Hexafluoride
+    public static Material MendeleviumHexafluoride
+    public static Material Mendelevium263Hexafluoride
+    public static Material Mendelevium259Hexafluoride
+    public static Material Mendelevium261Hexafluoride
 
     static void init() {
         PahoehoeLava = Material.builder(10000, resource(getPackId(), 'pahoehoe_lava'))
@@ -324,6 +360,186 @@ class TJMaterials {
                 .color(0x1D4ACF)
                 .gem()
                 .build()
+        NeptuniumHexafluoride = Material.builder(10048, resource(getPackId(), 'neptunium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x284D7B)
+                .build()
+        Neptunium235Hexafluoride = Material.builder(10049, resource(getPackId(), 'neptunium_235_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x284D7B)
+                .build()
+        Neptunium237Hexafluoride = Material.builder(10050, resource(getPackId(), 'neptunium_237_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x284D7B)
+                .build()
+        Neptunium239Hexafluoride = Material.builder(10051, resource(getPackId(), 'neptunium_239_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x284D7B)
+                .build()
+        PlutoniumHexafluoride = Material.builder(10052, resource(getPackId(), 'plutonium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xF03232)
+                .build()
+        Plutonium240Hexafluoride = Material.builder(10053, resource(getPackId(), 'plutonium_240_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xF03232)
+                .build()
+        Plutonium241Hexafluoride = Material.builder(10054, resource(getPackId(), 'plutonium_241_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xF03232)
+                .build()
+        Plutonium244Hexafluoride = Material.builder(10055, resource(getPackId(), 'plutonium_244_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xF03232)
+                .build()
+        AmericiumHexafluoride = Material.builder(10056, resource(getPackId(), 'americium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x287869)
+                .build()
+        Americium241Hexafluoride = Material.builder(10057, resource(getPackId(), 'americium_241_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x287869)
+                .build()
+        Americium243Hexafluoride = Material.builder(10058, resource(getPackId(), 'americium_243_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x287869)
+                .build()
+        Americium245Hexafluoride = Material.builder(10059, resource(getPackId(), 'americium_245_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x287869)
+                .build()
+        CuriumHexafluoride = Material.builder(10060, resource(getPackId(), 'curium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x7B544E)
+                .build()
+        Curium246Hexafluoride = Material.builder(10061, resource(getPackId(), 'curium_246_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x7B544E)
+                .build()
+        Curium247Hexafluoride = Material.builder(10062, resource(getPackId(), 'curium_247_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x7B544E)
+                .build()
+        Curium250Hexafluoride = Material.builder(10063, resource(getPackId(), 'curium_250_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x7B544E)
+                .build()
+        BerkeliumHexafluoride = Material.builder(10064, resource(getPackId(), 'berkelium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x645A88)
+                .build()
+        Berkelium247Hexafluoride = Material.builder(10065, resource(getPackId(), 'berkelium_247_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x645A88)
+                .build()
+        Berkelium249Hexafluoride = Material.builder(10066, resource(getPackId(), 'berkelium_249_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x645A88)
+                .build()
+        Berkelium251Hexafluoride = Material.builder(10067, resource(getPackId(), 'berkelium_251_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x645A88)
+                .build()
+        CaliforniumHexafluoride = Material.builder(10068, resource(getPackId(), 'californium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xA85A12)
+                .build()
+        Californium252Hexafluoride = Material.builder(10069, resource(getPackId(), 'californium_252_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xA85A12)
+                .build()
+        Californium253Hexafluoride = Material.builder(10070, resource(getPackId(), 'californium_253_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xA85A12)
+                .build()
+        Californium256Hexafluoride = Material.builder(10071, resource(getPackId(), 'californium_256_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xA85A12)
+                .build()
+        EinsteiniumHexafluoride = Material.builder(10072, resource(getPackId(), 'einsteinium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xCE9F00)
+                .build()
+        Einsteinium253Hexafluoride = Material.builder(10073, resource(getPackId(), 'einsteinium_253_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xCE9F00)
+                .build()
+        Einsteinium255Hexafluoride = Material.builder(10074, resource(getPackId(), 'einsteinium_255_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xCE9F00)
+                .build()
+        Einsteinium257Hexafluoride = Material.builder(10075, resource(getPackId(), 'einsteinium_257_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0xCE9F00)
+                .build()
+        FermiumHexafluoride = Material.builder(10076, resource(getPackId(), 'fermium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x984ACF)
+                .build()
+        Fermium258Hexafluoride = Material.builder(10077, resource(getPackId(), 'fermium_258_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x984ACF)
+                .build()
+        Fermium259Hexafluoride = Material.builder(10078, resource(getPackId(), 'fermium_259_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x984ACF)
+                .build()
+        Fermium262Hexafluoride = Material.builder(10079, resource(getPackId(), 'fermium_262_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x984ACF)
+                .build()
+        MendeleviumHexafluoride = Material.builder(10080, resource(getPackId(), 'mendelevium_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x1D4ACF)
+                .build()
+        Mendelevium259Hexafluoride = Material.builder(10081, resource(getPackId(), 'mendelevium_259_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x1D4ACF)
+                .build()
+        Mendelevium261Hexafluoride = Material.builder(10082, resource(getPackId(), 'mendelevium_261_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x1D4ACF)
+                .build()
+        Mendelevium263Hexafluoride = Material.builder(10083, resource(getPackId(), 'mendelevium_263_hexafluoride'))
+                .iconSet(MaterialIconSet.ROUGH)
+                .fluid()
+                .color(0x1D4ACF)
+                .build()
     }
 
     static void registerNuclearFuels() {
@@ -444,6 +660,7 @@ class TJMaterials {
         MaterialPropertyExpansion.addDust(Materials.Neptunium)
         MaterialPropertyExpansion.addDust(Materials.Californium)
         MaterialPropertyExpansion.addIngot(SCMaterials.Plutonium244)
+        MaterialPropertyExpansion.addDust(SCMaterials.Plutonium240)
     }
 
     static void addFlags() {

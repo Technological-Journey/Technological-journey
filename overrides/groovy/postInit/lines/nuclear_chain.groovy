@@ -8,11 +8,18 @@ import gregtech.api.recipes.ingredients.GTRecipeItemInput
 import gregtech.api.unification.OreDictUnifier
 import gregtech.api.unification.material.Materials
 import gregtech.api.unification.ore.OrePrefix
+import supercritical.api.recipes.SCRecipeMaps
 import supercritical.api.unification.material.SCMaterials
 import supercritical.api.unification.ore.SCOrePrefix
 import supercritical.common.blocks.BlockFissionCasing
 import supercritical.common.blocks.SCMetaBlocks
 import supercritical.common.item.SCMetaItems
+
+// zircaloy ingot
+crafting.shapelessBuilder()
+        .input([OreDictUnifier.get(OrePrefix.ingot, Materials.Zircaloy4)])
+        .output(OreDictUnifier.get(OrePrefix.ingot, SCMaterials.Zircaloy))
+        .register()
 
 // reactor vessel
 mods.gregtech.assembler.removeByInput(48, [metaitem('supercritical:plateDoubleInconel'), metaitem('plateSteel') * 5, metaitem('frameSteel')], null)
@@ -24,6 +31,335 @@ RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
         .EUt(48).duration(280)
         .buildAndRegister()
 
+// HEXAFLUORIDE PROCESSING STAGE 1
+// neptunium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Neptunium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.NeptuniumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// neptunium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.NeptuniumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Neptunium235Hexafluoride.getFluid(4000), TJMaterials.Neptunium237Hexafluoride.getFluid(10000),
+                TJMaterials.Neptunium239Hexafluoride.getFluid(6000))
+        .EUt(960).duration(402)
+        .buildAndRegister()
+// neptunium 235 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Neptunium235Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Neptunium235)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// neptunium 237 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Neptunium237Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, SCMaterials.Neptunium237)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// neptunium 239 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Neptunium239Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, SCMaterials.Neptunium239)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// plutonium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Plutonium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.PlutoniumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// plutonium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.PlutoniumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Plutonium244Hexafluoride.getFluid(19780), TJMaterials.Plutonium241Hexafluoride.getFluid(200),
+                TJMaterials.Plutonium240Hexafluoride.getFluid(20))
+        .EUt(960).duration(420)
+        .buildAndRegister()
+// plutonium 244 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Plutonium244Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, SCMaterials.Plutonium244)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// plutonium 241 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Plutonium241Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, Materials.Plutonium241)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// plutonium 240 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Plutonium240Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, SCMaterials.Plutonium240)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// americium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Americium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.AmericiumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// americium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.AmericiumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Americium241Hexafluoride.getFluid(4000), TJMaterials.Americium243Hexafluoride.getFluid(10000),
+                TJMaterials.Americium245Hexafluoride.getFluid(6000))
+        .EUt(960).duration(472)
+        .buildAndRegister()
+// americium 241 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Americium241Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Americium241)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// americium 243 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Americium243Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Americium243)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// americium 245 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Americium245Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Americium245)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// curium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Curium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.CuriumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// curium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.CuriumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Curium250Hexafluoride.getFluid(19780), TJMaterials.Curium247Hexafluoride.getFluid(200),
+                TJMaterials.Curium246Hexafluoride.getFluid(20))
+        .EUt(960).duration(508)
+        .buildAndRegister()
+// curium 246 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Curium246Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Curium246)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// curium 247 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Curium247Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Curium247)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// curium 250 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Curium250Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Curium250)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// berkelium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Berkelium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.BerkeliumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// berkelium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.BerkeliumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Berkelium247Hexafluoride.getFluid(4000), TJMaterials.Berkelium249Hexafluoride.getFluid(10000),
+                TJMaterials.Berkelium251Hexafluoride.getFluid(6000))
+        .EUt(960).duration(526)
+        .buildAndRegister()
+// berkelium 249 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Berkelium249Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Berkelium249)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// berkelium 247 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Berkelium247Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Berkelium247)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// berkelium 251 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Berkelium251Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Berkelium251)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// californium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Californium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.CaliforniumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// californium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.CaliforniumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Californium252Hexafluoride.getFluid(19780), TJMaterials.Californium256Hexafluoride.getFluid(20),
+                TJMaterials.Californium253Hexafluoride.getFluid(200))
+        .EUt(960).duration(560)
+        .buildAndRegister()
+// californium 256 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Californium256Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Californium256)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// californium 252 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Californium252Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Californium252)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// californium 253 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Californium253Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Californium253)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// einsteinium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Einsteinium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.EinsteiniumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// einsteinium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.EinsteiniumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Einsteinium255Hexafluoride.getFluid(10000), TJMaterials.Einsteinium253Hexafluoride.getFluid(4000),
+                TJMaterials.Einsteinium257Hexafluoride.getFluid(6000))
+        .EUt(960).duration(596)
+        .buildAndRegister()
+// einsteinium 257 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Einsteinium257Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Einsteinium257)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// einsteinium 253 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Einsteinium253Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Einsteinium253)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// einsteinium 255 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Einsteinium255Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Einsteinium255)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// fermium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Fermium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.FermiumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// fermium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.FermiumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Fermium258Hexafluoride.getFluid(19870), TJMaterials.Fermium259Hexafluoride.getFluid(200),
+                TJMaterials.Fermium262Hexafluoride.getFluid(20))
+        .EUt(960).duration(646)
+        .buildAndRegister()
+// fermium 259 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Fermium259Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Fermium259)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// fermium 258 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Fermium258Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Fermium258)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// fermium 262 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Fermium262Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Fermium262)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// mendelevium hexafluoride
+RecipeMaps.CHEMICAL_RECIPES.recipeBuilder()
+        .input(OrePrefix.dust, Materials.Mendelevium)
+        .fluidInputs(Materials.HydrofluoricAcid.getFluid(4000), Materials.Fluorine.getFluid(2000))
+        .fluidOutputs(TJMaterials.MendeleviumHexafluoride.getFluid(1000), Materials.Water.getFluid(2000))
+        .EUt(30).duration(200)
+        .buildAndRegister()
+// mendelevium hexafluorides
+SCRecipeMaps.GAS_CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.MendeleviumHexafluoride.getFluid(20000))
+        .fluidOutputs(TJMaterials.Mendelevium263Hexafluoride.getFluid(6000), TJMaterials.Mendelevium259Hexafluoride.getFluid(4000),
+                TJMaterials.Mendelevium261Hexafluoride.getFluid(10000))
+        .EUt(960).duration(700)
+        .buildAndRegister()
+// mendelevium 259 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Mendelevium259Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Mendelevium259)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// mendelevium 261 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Mendelevium261Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, GCYLNuclearMaterials.Mendelevium261)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+// mendelevium 263 dust
+RecipeMaps.CENTRIFUGE_RECIPES.recipeBuilder()
+        .fluidInputs(TJMaterials.Mendelevium263Hexafluoride.getFluid(1000))
+        .output(OrePrefix.dust, TJMaterials.Mendelevium263)
+        .fluidOutputs(Materials.Fluorine.getFluid(6000))
+        .EUt(120).duration(160)
+        .buildAndRegister()
+
+// ROD ASSEMBLY STAGE 2
+// Already autogen
+
+// WASTE PROCESSING STAGE 3
 // nuclear wastes
 GCYLRecipeMaps.CHEMICAL_DEHYDRATOR_RECIPES.recipeBuilder()
         .input(OrePrefix.gem, TJMaterials.NuclearWaste)
