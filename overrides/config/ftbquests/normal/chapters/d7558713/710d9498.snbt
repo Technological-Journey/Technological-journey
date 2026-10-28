@@ -1,14 +1,21 @@
 {
+	icon: "gcyl:meta_dust 1 935",
 	x: -6.5d,
 	y: -2.0d,
 	dependencies: [
 		"68500a94",
 		"0e57d2e4"
 	],
+	or_tasks: 1b,
 	tasks: [{
-		uid: "81d5d094",
-		type: "checkmark",
-		title: "Enriched Naquadah Concentrate Dust",
-		icon: "gtadditions:ga_dust 1 4"
+		uid: "f40f4a74",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 935"
+		}]
+	},
+	{
+		uid: "594f7904",
+		type: "checkmark"
 	}]
 }

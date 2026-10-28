@@ -1,5 +1,5 @@
 {
-	icon: "gregtech:machine 1 2551",
+	icon: "gcyl:mte 1 6",
 	x: -3.0d,
 	y: -3.5d,
 	text: [
@@ -12,14 +12,14 @@
 		uid: "14992abd",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2551"
+			item: "gcyl:mte 1 6"
 		}]
 	},
 	{
 		uid: "bdd58cd7",
 		type: "item",
 		items: [{
-			item: "gregtech:frame_tungsten_steel"
+			item: "gregtech:meta_block_frame_125 1 13"
 		}],
 		count: 56L
 	},
@@ -27,14 +27,14 @@
 		uid: "743ef308",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 784"
+			item: "gregtech:mte 1 11128"
 		}]
 	},
 	{
 		uid: "94f595fe",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 1"
+			item: "gcyl:gcyl_metal_casing_1 1 1"
 		}],
 		count: 64L
 	},
@@ -42,7 +42,7 @@
 		uid: "acbe9caa",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 1"
+			item: "gcyl:gcyl_metal_casing_1 1 1"
 		}],
 		count: 55L
 	},
@@ -50,7 +50,7 @@
 		uid: "eac84b58",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_2"
+			item: "gcyl:gcyl_metal_casing_2"
 		}],
 		count: 64L
 	},
@@ -58,7 +58,7 @@
 		uid: "fb7a3c5e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_2"
+			item: "gcyl:gcyl_metal_casing_2"
 		}],
 		count: 48L
 	}]

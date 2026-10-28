@@ -5,7 +5,7 @@
 		uid: "a2e2102a",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 200"
+			item: "gcyl:meta_dust 1 60"
 		}]
 	}]
 }

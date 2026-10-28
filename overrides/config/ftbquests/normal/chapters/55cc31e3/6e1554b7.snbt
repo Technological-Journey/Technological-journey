@@ -6,7 +6,7 @@
 		uid: "2c706afe",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32726"
+			item: "gregtech:meta_item_1 1 283"
 		}]
 	}]
 }

@@ -6,7 +6,7 @@
 		uid: "d5e79933",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10052"
+			item: "supercritical:meta_ingot 1 10"
 		}]
 	}]
 }

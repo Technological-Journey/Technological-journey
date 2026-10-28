@@ -15,7 +15,7 @@
 		uid: "e3fadfc8",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10518"
+			item: "gcyl:meta_ingot 1 13"
 		}]
 	}]
 }
