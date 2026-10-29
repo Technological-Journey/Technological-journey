@@ -15,13 +15,13 @@
 	rewards: [{
 		uid: "f1945bae",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2016",
+		item: "gregtech:meta_dust 1 22",
 		count: 16
 	},
 	{
 		uid: "f34b4b04",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2077",
+		item: "gregtech:meta_dust 1 118",
 		count: 16
 	}]
 }

@@ -1,6 +1,6 @@
 {
-	x: 21.5d,
-	y: 4.0d,
+	x: 27.0d,
+	y: 5.0d,
 	dependencies: [
 		"2af01abd"
 	],
@@ -9,7 +9,13 @@
 		uid: "4acb1ecf",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32320"
+			item: "gregtech:meta_gem 1 10044"
 		}]
+	}],
+	rewards: [{
+		uid: "06f7bdf2",
+		type: "item",
+		item: "gregtech:meta_gem 1 10044",
+		count: 8
 	}]
 }

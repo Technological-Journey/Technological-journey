@@ -1,9 +1,10 @@
 {
-	x: 14.5d,
-	y: 2.0d,
+	title: "Zirconium",
+	x: 18.5d,
+	y: 1.5d,
 	shape: "rsquare",
 	text: [
-		"If you are having trouble locating zirkelite this can help "
+		"If you are having trouble locating zirkelite this can help."
 	],
 	tasks: [{
 		uid: "35b85728",

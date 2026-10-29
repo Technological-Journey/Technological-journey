@@ -1,0 +1,34 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "acidic_osmium_tetroxide_solution",
+			Amount: 1000
+		}
+	},
+	x: -3.5d,
+	y: 9.0d,
+	dependencies: [
+		"cd19af04",
+		"bbae8bc7"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: 1b,
+	tasks: [{
+		uid: "f248bc71",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "acidic_osmium_tetroxide_solution",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95a52ac3",
+		type: "checkmark"
+	}]
+}

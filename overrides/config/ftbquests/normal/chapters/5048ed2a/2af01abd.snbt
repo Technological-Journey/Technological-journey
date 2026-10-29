@@ -1,29 +1,36 @@
 {
-	x: 20.5d,
-	y: 4.0d,
+	title: "Californium Fuel",
+	x: 26.0d,
+	y: 5.0d,
 	dependencies: [
 		"333c0909"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "069abe75",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 17795"
-		}]
-	},
-	{
-		uid: "e6218f37",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_meta_item 1 17793"
+			item: "gcyl:meta_fuel_rod 1 5"
 		}]
 	},
 	{
 		uid: "839b7af2",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16794"
+			item: "gcyl:meta_fuel_rod 1 9"
 		}]
+	},
+	{
+		uid: "3e20ea57",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_fuel_rod 1 10022"
+		}]
+	},
+	{
+		uid: "04f66a57",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

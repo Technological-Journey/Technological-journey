@@ -13,7 +13,7 @@
 		uid: "62aee56f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32500"
+			item: "gcyl:gcyl_meta_item 1 500"
 		}]
 	}]
 }

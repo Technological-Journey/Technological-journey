@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 10.0d,
+	shape: "rsquare",
+	optional: 1b,
+	tasks: [{
+		uid: "b31830a0",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 1205"
+		}],
+		count: 24L
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "Scanner",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"Some recipes may need to be scanned to be available in assembly line"
+	],
+	tasks: [{
+		uid: "6bcea4b0",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 455"
+		},
+		{
+			item: "gregtech:mte 1 456"
+		},
+		{
+			item: "gregtech:mte 1 457"
+		},
+		{
+			item: "gregtech:mte 1 458"
+		},
+		{
+			item: "gregtech:mte 1 459"
+		},
+		{
+			item: "gregtech:mte 1 460"
+		},
+		{
+			item: "gregtech:mte 1 461"
+		},
+		{
+			item: "gregtech:mte 1 462"
+		},
+		{
+			item: "gregtech:mte 1 463"
+		},
+		{
+			item: "gregtech:mte 1 464"
+		},
+		{
+			item: "gregtech:mte 1 465"
+		},
+		{
+			item: "gregtech:mte 1 466"
+		},
+		{
+			item: "gregtech:mte 1 467"
+		}]
+	}]
+}

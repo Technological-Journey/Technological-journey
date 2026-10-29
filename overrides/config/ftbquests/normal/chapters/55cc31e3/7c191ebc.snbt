@@ -17,7 +17,7 @@
 		uid: "3c3f7bcb",
 		type: "item",
 		items: [{
-			item: "contenttweaker:certificate_of_being_a_noob"
+			item: "gregtech:meta_item_1 1 1000"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

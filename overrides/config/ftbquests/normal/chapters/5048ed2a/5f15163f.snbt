@@ -1,7 +1,10 @@
 {
-	x: 15.5d,
-	y: 2.0d,
-	shape: "rsquare",
+	title: "Argon",
+	x: 16.5d,
+	y: 3.0d,
+	text: [
+		"You can either distill or centrifuge liquid air to get it."
+	],
 	tasks: [{
 		uid: "4487dc45",
 		type: "checkmark",

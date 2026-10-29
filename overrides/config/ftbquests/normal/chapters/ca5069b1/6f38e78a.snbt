@@ -7,13 +7,14 @@
 		"These little descriptions of how circuits work are getting harder to write as I dunno what I'm talking about anymore."
 	],
 	dependencies: [
-		"f3aad47a"
+		"f3aad47a",
+		"8f95dc89"
 	],
 	tasks: [{
 		uid: "5012847d",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32501"
+			item: "gcyl:gcyl_meta_item 1 501"
 		}]
 	}]
 }

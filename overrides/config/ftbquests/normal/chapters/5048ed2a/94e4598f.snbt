@@ -1,19 +1,26 @@
 {
 	title: "Reactor Types",
-	x: 15.5d,
-	y: 5.0d,
+	x: 19.5d,
+	y: 6.0d,
 	text: [
-		"You will need to make either a nuclear reactor or a breeder reactor. The breeder is more complicated to automate, requires IV components, and needs some U-235 already separated (you can get this from ore processing). However, it rewards with better yields and enables you to skip rungs on the nuclear ladder, which you'll learn about soon."
+		"There are two to choose from Nuclear Reactor (NR) and Nuclear Breeder Reactor (NBR). ",
+		"",
+		"The NR simply turns the given fuels into their burnet counterparts, the NBR is a bit more complex, but generally speaking it turns some of the input fuels into higher tier burnet fuels which can help with the efficiency of your setup, more on the latter.",
+		"Like many other things, to start with you most likely only have access to the simpler version but to upgrade you only need to swap the controllers so it’s not much trouble.",
+		"",
+		"The descriptions contain a lot of information"
 	],
 	dependencies: [
-		"cc6b5219"
+		"cc6b5219",
+		"6209f41f",
+		"2ff6acbc"
 	],
 	or_tasks: 1b,
 	tasks: [{
 		uid: "d0f82cfb",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2546"
+			item: "supercritical:mte 1 14401"
 		}]
 	},
 	{
@@ -22,5 +29,11 @@
 		items: [{
 			item: "gregtech:machine 1 2545"
 		}]
+	}],
+	rewards: [{
+		uid: "cad543fc",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32603",
+		count: 2
 	}]
 }

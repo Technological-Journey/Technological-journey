@@ -5,7 +5,11 @@
 		uid: "c6ebb5a8",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item2 1 8"
+			id: "gcyl:gcyl_meta_item2",
+			Damage: 8s,
+			tag: {
+				Charge: 117964800000L
+			}
 		}]
 	}]
 }

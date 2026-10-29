@@ -24,11 +24,11 @@
 	rewards: [{
 		uid: "2b728c7b",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2132"
+		item: "gregtech:meta_dust 1 293"
 	},
 	{
 		uid: "7e4c0d52",
 		type: "item",
-		item: "gtadditions:ga_dust 1 292"
+		item: "gcyl:meta_dust 1 1108"
 	}]
 }

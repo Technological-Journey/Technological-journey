@@ -5,7 +5,7 @@
 		uid: "212b03cf",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 261"
+			item: "gcyl:meta_dust 1 200"
 		}]
 	}]
 }

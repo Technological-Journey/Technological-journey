@@ -12,7 +12,7 @@
 		uid: "d6071b4a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10716"
+			item: "gcyl:meta_ingot 1 202"
 		}]
 	}]
 }

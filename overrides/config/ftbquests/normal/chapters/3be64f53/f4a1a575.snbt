@@ -2,14 +2,13 @@
 	x: -11.5d,
 	y: 2.5d,
 	dependencies: [
-		"4985db81",
 		"a71d55ba"
 	],
 	tasks: [{
 		uid: "cb25befd",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32606"
+			item: "gcyl:gcyl_meta_item 1 606"
 		}]
 	}]
 }

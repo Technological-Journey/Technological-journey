@@ -11,4 +11,6 @@ class TJMetaTileEntities {
     public static MetaTileEntity DRAGON_EGG_REPLICATOR
     public static MetaTileEntity LARGE_POWERED_SPAWNER
     public static MetaTileEntity LARGE_VIAL_PROCESSOR
+    public static MetaTileEntity STEAM_MIXER
+    public static MetaTileEntity HIGH_PRESSURE_STEAM_MIXER
 }

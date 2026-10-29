@@ -8,7 +8,7 @@
 		uid: "8bceda10",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32460"
+			item: "gregtech:meta_item_1 1 523"
 		}],
 		count: 32L
 	},
@@ -16,7 +16,7 @@
 		uid: "3b419054",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32459"
+			item: "gregtech:meta_item_1 1 524"
 		}],
 		count: 12L
 	},
@@ -24,7 +24,7 @@
 		uid: "c686acfd",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32458"
+			item: "gregtech:meta_item_1 1 525"
 		}],
 		count: 16L,
 		consume_items: 0b

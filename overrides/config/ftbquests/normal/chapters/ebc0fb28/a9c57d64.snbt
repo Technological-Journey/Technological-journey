@@ -8,7 +8,7 @@
 		uid: "c980bd5d",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 531"
+			item: "gregtech:meta_dust 1 10008"
 		}]
 	}]
 }

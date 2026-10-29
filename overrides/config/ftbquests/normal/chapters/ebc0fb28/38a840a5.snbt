@@ -12,7 +12,7 @@
 		uid: "2c50dd2c",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2558"
+			item: "gcyl:mte 1 21"
 		}]
 	}],
 	rewards: [{

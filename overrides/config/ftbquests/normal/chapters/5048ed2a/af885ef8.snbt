@@ -1,0 +1,27 @@
+{
+	title: "A Few Words About The QB",
+	icon: "ftbquests:book",
+	x: -4.0d,
+	y: -1.5d,
+	text: [
+		"Starting from EV the QB mostly contains checkmarks instead of item tasks, this is because from now on you should start moving away from manually making things and instead think about the different forms of automations. ",
+		"",
+		"Holding items and especially fluids in your inventory just for a quest will become an unnecessary chore, so the QB mostly stops requiring it, with the exception of some important milestones.",
+		"",
+		"The QB helps to guide you, but don’t forget that JEI is your best friend!"
+	],
+	dependencies: [
+		"32236a02"
+	],
+	optional: 1b,
+	tasks: [{
+		uid: "a06d209f",
+		type: "checkmark",
+		title: "I'll Keep It In Mind"
+	}],
+	rewards: [{
+		uid: "e18e6bc8",
+		type: "xp",
+		xp: 100
+	}]
+}

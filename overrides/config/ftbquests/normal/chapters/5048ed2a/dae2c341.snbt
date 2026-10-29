@@ -1,0 +1,20 @@
+{
+	icon: "gcyl:meta_dust 1 243",
+	x: -4.0d,
+	y: 14.5d,
+	dependencies: [
+		"cbea2f60"
+	],
+	or_tasks: 1b,
+	tasks: [{
+		uid: "e073a7eb",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 243"
+		}]
+	},
+	{
+		uid: "f13ce9b6",
+		type: "checkmark"
+	}]
+}

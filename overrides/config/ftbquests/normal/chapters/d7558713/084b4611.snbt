@@ -1,14 +1,21 @@
 {
+	icon: "gcyl:meta_dust 1 936",
 	x: -7.5d,
 	y: -2.0d,
 	dependencies: [
 		"68500a94",
 		"cf7ce3d4"
 	],
+	or_tasks: 1b,
 	tasks: [{
-		uid: "a56777fa",
-		type: "checkmark",
-		title: "Naquadria Concentrate Dust",
-		icon: "gtadditions:ga_dust 1 5"
+		uid: "6934c792",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 936"
+		}]
+	},
+	{
+		uid: "23802d5a",
+		type: "checkmark"
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	title: "Unfolded Fullerene",
-	icon: "gtadditions:ga_dust 1 68",
+	icon: "gcyl:meta_dust 1 616",
 	x: 9.0d,
 	y: -4.5d,
 	dependencies: [

@@ -2,7 +2,7 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "explosivehydrazine",
+			FluidName: "explosive_hydrazine",
 			Amount: 1000
 		}
 	},

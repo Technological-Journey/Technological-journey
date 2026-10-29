@@ -8,7 +8,7 @@
 		uid: "0bd90827",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing2 1 5"
+			item: "gcyl:gcyl_multiblock_casing2 1 1"
 		}]
 	}]
 }

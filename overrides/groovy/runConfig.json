@@ -14,6 +14,8 @@
       "preInit/"
     ],
     "postInit": [
+      "postInit/lines/",
+      "postInit/multiblock_recipes/",
       "postInit/"
     ]
   },

@@ -9,28 +9,28 @@
 		uid: "25451a50",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 790"
+			item: "gregtech:mte 1 11009"
 		}]
 	},
 	{
 		uid: "28835ded",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 791"
+			item: "gregtech:mte 1 11024"
 		}]
 	},
 	{
 		uid: "e5f41ac7",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 792"
+			item: "gregtech:mte 1 11039"
 		}]
 	},
 	{
 		uid: "30b04983",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 793"
+			item: "gregtech:mte 1 11054"
 		}]
 	}]
 }

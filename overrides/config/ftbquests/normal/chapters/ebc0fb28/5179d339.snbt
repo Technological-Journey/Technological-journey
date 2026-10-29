@@ -2,7 +2,7 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "starlightcomplex",
+			FluidName: "starlight_complex",
 			Amount: 1000
 		}
 	},
