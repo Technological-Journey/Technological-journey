@@ -1,0 +1,87 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"Some recipes require a cleanroom to run. Machines must be put inside the cleanroom multiblock"
+	],
+	dependencies: [
+		"b106052e"
+	],
+	tasks: [{
+		uid: "a09df9aa",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 10035"
+		}]
+	},
+	{
+		uid: "d4958b1e",
+		type: "item",
+		items: [{
+			item: "gregtech:cleanroom_casing 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "56b0cd88",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 11480"
+		},
+		{
+			item: "gregtech:mte 1 11481"
+		},
+		{
+			item: "gregtech:mte 1 11482"
+		}]
+	},
+	{
+		uid: "e8f64c73",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 11120"
+		},
+		{
+			item: "gregtech:mte 1 11121"
+		},
+		{
+			item: "gregtech:mte 1 11122"
+		},
+		{
+			item: "gregtech:mte 1 11123"
+		},
+		{
+			item: "gregtech:mte 1 11124"
+		},
+		{
+			item: "gregtech:mte 1 11125"
+		},
+		{
+			item: "gregtech:mte 1 11126"
+		},
+		{
+			item: "gregtech:mte 1 11127"
+		},
+		{
+			item: "gregtech:mte 1 11128"
+		},
+		{
+			item: "gregtech:mte 1 11129"
+		},
+		{
+			item: "gregtech:mte 1 11130"
+		},
+		{
+			item: "gregtech:mte 1 11131"
+		},
+		{
+			item: "gregtech:mte 1 11132"
+		},
+		{
+			item: "gregtech:mte 1 11133"
+		},
+		{
+			item: "gregtech:mte 1 11134"
+		}]
+	}]
+}

@@ -3,6 +3,7 @@
 	y: -2.0d,
 	dependencies: [
 		"e2349c2d",
+		"ea646256",
 		"add803cf",
 		"b1442df3"
 	],
@@ -94,7 +95,7 @@
 	rewards: [{
 		uid: "e0fea78b",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10074",
+		item: "gregtech:meta_ingot 1 115",
 		count: 20
 	}]
 }

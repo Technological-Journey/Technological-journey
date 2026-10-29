@@ -5,7 +5,8 @@
 		"Performs computation at the limit of physical law. A faster, smaller, or higher bandwidth computation device is not possible in this universe. "
 	],
 	dependencies: [
-		"ef736a17"
+		"ef736a17",
+		"0ed40ef2"
 	],
 	tasks: [{
 		uid: "9c685cb8",

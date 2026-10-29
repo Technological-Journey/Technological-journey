@@ -6,6 +6,7 @@
 	],
 	dependencies: [
 		"0adf1632",
+		"4ca82285",
 		"ac8a45ec"
 	],
 	tasks: [{

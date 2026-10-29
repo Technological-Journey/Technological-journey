@@ -7,7 +7,8 @@
 		"These little descriptions of how circuits work are getting harder to write as I dunno what I'm talking about anymore."
 	],
 	dependencies: [
-		"f3aad47a"
+		"f3aad47a",
+		"8f95dc89"
 	],
 	tasks: [{
 		uid: "5012847d",
