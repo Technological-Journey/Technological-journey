@@ -17,13 +17,13 @@
 		uid: "77387fdd",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10675"
+			item: "gcyl:meta_ingot 1 203"
 		}]
 	}],
 	rewards: [{
 		uid: "50ef5c6e",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2675",
+		item: "gcyl:meta_dust 1 203",
 		count: 16
 	}]
 }

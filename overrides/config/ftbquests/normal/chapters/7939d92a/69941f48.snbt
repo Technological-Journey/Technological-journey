@@ -9,13 +9,13 @@
 		uid: "00a46c62",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32338"
+			item: "gcyl:gcyl_meta_item 1 338"
 		}]
 	}],
 	rewards: [{
 		uid: "cfe8f4aa",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32336",
+		item: "gcyl:gcyl_meta_item 1 336",
 		count: 8
 	}]
 }

@@ -661,6 +661,10 @@ class TJMaterials {
         MaterialPropertyExpansion.addDust(Materials.Californium)
         MaterialPropertyExpansion.addIngot(SCMaterials.Plutonium244)
         MaterialPropertyExpansion.addDust(SCMaterials.Plutonium240)
+        MaterialPropertyExpansion.addIngot(Materials.Nihonium)
+        MaterialPropertyExpansion.addIngot(Materials.Moscovium)
+        MaterialPropertyExpansion.addIngot(Materials.Livermorium)
+        MaterialPropertyExpansion.addIngot(Materials.Copernicium)
     }
 
     static void addFlags() {

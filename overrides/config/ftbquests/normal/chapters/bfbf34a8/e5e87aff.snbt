@@ -9,7 +9,7 @@
 		uid: "167d04cc",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_simple_block"
+			item: "gcyl:gcyl_simple_block"
 		}]
 	}]
 }

@@ -8,7 +8,7 @@
 		uid: "ad3d636c",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4019"
+			item: "gcyl:mte 1 8"
 		}]
 	}]
 }

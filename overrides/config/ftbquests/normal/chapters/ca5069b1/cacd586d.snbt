@@ -9,20 +9,20 @@
 		uid: "2060d7cd",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32498"
+			item: "gcyl:gcyl_meta_item 1 498"
 		}]
 	},
 	{
 		uid: "152a5984",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32499"
+			item: "gcyl:gcyl_meta_item 1 499"
 		}]
 	}],
 	rewards: [{
 		uid: "ba273454",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2857",
+		item: "gcyl:meta_dust 1 47",
 		count: 8
 	}]
 }

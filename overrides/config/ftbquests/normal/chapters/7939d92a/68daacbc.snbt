@@ -9,7 +9,7 @@
 		uid: "bc08cb00",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_explosive 1 2"
+			item: "gcyl:gcyl_explosive 1 2"
 		}]
 	}]
 }

@@ -8,13 +8,13 @@
 		uid: "64917636",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32504"
+			item: "gcyl:gcyl_meta_item 1 504"
 		}]
 	}],
 	rewards: [{
 		uid: "ae762e86",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32501",
+		item: "gcyl:gcyl_meta_item 1 501",
 		count: 8
 	}]
 }

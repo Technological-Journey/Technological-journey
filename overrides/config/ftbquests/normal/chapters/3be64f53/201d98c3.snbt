@@ -8,13 +8,13 @@
 		uid: "f3d49871",
 		type: "item",
 		items: [{
-			item: "gregtech:ga_cable 1 737"
+			item: "gcyl:wire_single 1 1165"
 		}]
 	}],
 	rewards: [{
 		uid: "5300653a",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2738",
+		item: "gcyl:meta_dust 1 1152",
 		count: 20
 	}]
 }

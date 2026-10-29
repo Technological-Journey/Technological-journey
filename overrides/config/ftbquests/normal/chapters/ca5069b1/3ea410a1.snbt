@@ -6,7 +6,7 @@
 		uid: "51222341",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 61"
+			item: "gcyl:meta_dust 1 36"
 		}]
 	}]
 }

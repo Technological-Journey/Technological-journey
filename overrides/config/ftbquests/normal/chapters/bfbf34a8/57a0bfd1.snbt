@@ -28,7 +28,7 @@
 		uid: "c816757d",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32724"
+			item: "gregtech:meta_item_1 1 281"
 		}],
 		count: 14L,
 		consume_items: 1b
@@ -91,7 +91,7 @@
 		uid: "9995ee55",
 		type: "item",
 		items: [{
-			item: "gregtech:ga_cable 1 1737"
+			item: "gcyl:wire_quadruple 1 1165"
 		}],
 		count: 64L,
 		consume_items: 1b
@@ -100,7 +100,7 @@
 		uid: "9287b9a2",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_44 1 13"
+			item: "gcyl:meta_block_compressed_12 1 1"
 		}],
 		count: 64L,
 		consume_items: 1b

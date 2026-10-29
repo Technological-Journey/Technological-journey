@@ -1,6 +1,5 @@
 {
 	title: "Stabilized Wormhole Generator",
-	icon: "gtadditions:ga_meta_item 1 32518",
 	x: -1.0d,
 	y: 3.0d,
 	dependencies: [
@@ -11,7 +10,7 @@
 		uid: "8871b350",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32518"
+			item: "gcyl:gcyl_meta_item 1 518"
 		}]
 	}]
 }

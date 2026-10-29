@@ -9,28 +9,28 @@
 		uid: "2eab70f1",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32604"
+			item: "gcyl:gcyl_meta_item 1 604"
 		}]
 	},
 	{
 		uid: "4c2310c5",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32603"
+			item: "gcyl:gcyl_meta_item 1 603"
 		}]
 	},
 	{
 		uid: "fc003735",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32602"
+			item: "gcyl:gcyl_meta_item 1 602"
 		}]
 	},
 	{
 		uid: "ff6ef3a3",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32601"
+			item: "gcyl:gcyl_meta_item 1 601"
 		}]
 	}]
 }
