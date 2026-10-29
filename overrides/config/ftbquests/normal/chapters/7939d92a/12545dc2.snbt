@@ -6,7 +6,7 @@
 		uid: "24630041",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_dust 1 70"
+			item: "gregtech:meta_ingot 1 70"
 		}]
 	}]
 }

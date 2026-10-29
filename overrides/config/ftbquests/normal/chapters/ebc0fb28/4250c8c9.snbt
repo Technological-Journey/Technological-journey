@@ -11,7 +11,7 @@
 		uid: "88a6347b",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 527"
+			item: "gregtech:meta_dust 1 10007"
 		}]
 	}]
 }
