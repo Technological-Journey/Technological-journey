@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	description: "Wait don't these look bit different than in other CE packs?",
+	text: [
+		"Ah yes, the CE fluid pipes and the non-existent item pipes...",
+		"",
+		"&oWait, what? Those exist now?&r",
+		"",
+		"Well, yeah! Pipes don't suck anymore and are actually useful for i/o now.",
+		"",
+		"",
+		"&lPipe Connections&r",
+		"",
+		"To connect a pipe to an adjacent block, sneak right-click the block you want to connect to. To toggle a pipe's connection, use a wrench on the side you want to connect or disconnect.",
+		"",
+		"&lShuttering Pipes&r",
+		"",
+		"You can use a wrench to control the direction items can travel through a pipe. Sneak  right-click a pipe with a wrench to set its direction. Items can travel in the allowed direction, but not in the opposite direction."
+	],
+	dependencies: [
+		"ab7bedfb"
+	],
+	tasks: [{
+		uid: "bb959dbe",
+		type: "checkmark",
+		title: "Pipes",
+		icon: "gregtech:fluid_pipe 1 1095"
+	}]
+}

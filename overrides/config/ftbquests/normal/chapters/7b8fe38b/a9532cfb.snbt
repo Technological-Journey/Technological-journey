@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	description: "Heyy, so remember that amp bug?",
+	text: [
+		"Remember the good old days in CE when you could run multiple amps through a single 1x cable? Yeah, me neither. Those days are gone now.",
+		"",
+		"Cables will now burn if you push too many amps through them."
+	],
+	dependencies: [
+		"a471cbb7"
+	],
+	tasks: [{
+		uid: "c94eafe2",
+		type: "checkmark",
+		title: "A Note For Returning Players",
+		icon: "gregtech:cable 1 5071"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	description: "The colours have arms now",
+	text: [
+		"Tired of crafting spray cans again and again? Well, worry not, because the Infinite Spray Can is here to solve that problem!",
+		"",
+		"This handy tool eliminates the need to carry multiple spray cans or worry about durability. It can also paint multiple blocks at once!"
+	],
+	tasks: [{
+		uid: "421400ac",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32470"
+		}]
+	}]
+}

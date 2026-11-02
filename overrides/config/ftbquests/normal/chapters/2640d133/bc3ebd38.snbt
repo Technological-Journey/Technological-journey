@@ -1,6 +1,6 @@
 {
-	x: -5.0d,
-	y: -1.0d,
+	x: -3.0d,
+	y: -4.0d,
 	shape: "diamond",
 	description: "Multiblock Madness",
 	text: [
