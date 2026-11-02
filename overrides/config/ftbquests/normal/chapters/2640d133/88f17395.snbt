@@ -5,7 +5,7 @@
 		"You'll need to compress wood pulp into planks, resin into rubber, as well as fireclay into firebricks. "
 	],
 	dependencies: [
-		"ab7bedfb"
+		"9134fe74"
 	],
 	tasks: [{
 		uid: "a8ffc9c9",

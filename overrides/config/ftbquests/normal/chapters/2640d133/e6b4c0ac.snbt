@@ -1,7 +1,7 @@
 {
 	title: "Copper",
 	x: 1.0d,
-	y: -5.5d,
+	y: -7.0d,
 	shape: "rsquare",
 	text: [
 		"Copper can be found in large quantities in bornite veins, alongside iron in pyrite veins, and alongside stibnite in tetrahedrite veins. Several other veins contain copper as a tertiary or sporadic ore, and can be freely mined as you see fit. You'll need lots of copper for bronze, circuit components, and wires. "

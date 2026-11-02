@@ -1,6 +1,6 @@
 {
 	x: -0.5d,
-	y: -1.0d,
+	y: -2.5d,
 	text: [
 		"Single block steam boilers will autoput steam into adjacent machines. In addition, steam machines will not accept steam from the bottom. ",
 		"",
