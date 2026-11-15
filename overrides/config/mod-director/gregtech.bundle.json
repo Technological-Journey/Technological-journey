@@ -1,7 +1,7 @@
 {
     "url": [
         {
-            "url": "https://github.com/Johny709/GregTechCeu/releases/download/tj-v2.9.0/gregtech-1.12.2-2.9.0-beta.jar",
+            "url": "https://github.com/Johny709/GregTechCeu/releases/download/tj-ceu-v2.9/gregtech-1.12.2-2.9.0-beta.jar",
             "options": {
                 "launchwrapperTweakerForceNext": true
             },
@@ -13,7 +13,7 @@
             }
         },
         {
-            "url": "https://github.com/Johny709/GCYL-CEu/releases/download/tj-v0.1/gcyl-1.12.2-0.1.0-beta.jar",
+            "url": "https://github.com/Johny709/GCYL-CEu/releases/download/TJ-CEu-v2.9/gcyl-1.12.2-0.1.0-beta.jar",
             "installationPolicy": {
                 "continueOnFailedDownload": false,
                 "selectedByDefault": true,
@@ -22,7 +22,7 @@
             }
         },
         {
-            "url": "https://github.com/Johny709/gregicality-multiblocks/releases/download/tj-v1.3/gcym-1.12.2-1.3.jar",
+            "url": "https://github.com/Johny709/gregicality-multiblocks/releases/download/TJ-CEu-v2.9/gcym-1.12.2-1.3.jar",
             "installationPolicy": {
                 "continueOnFailedDownload": false,
                 "selectedByDefault": true,
@@ -31,7 +31,7 @@
             }
         },
         {
-            "url": "https://github.com/Johny709/Supercritical/releases/download/tj-v2.9.0/supercritical-0.2.6.jar",
+            "url": "https://github.com/Johny709/Supercritical/releases/download/TJ-CEu-v2.9/supercritical-0.2.6.jar",
             "installationPolicy": {
                 "continueOnFailedDownload": false,
                 "selectedByDefault": true,
