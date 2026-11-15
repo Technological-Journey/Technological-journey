@@ -13,6 +13,16 @@ import gregtech.common.metatileentities.MetaTileEntities
 import tja.blocks.BlockTieredGlass
 import tja.blocks.TJAMetaBlocks
 
+// deep dark portal
+crafting.shapedBuilder()
+        .row('OOI')
+        .row('OSI')
+        .row('OII')
+        .key('O', OreDictUnifier.get(OrePrefix.plateDouble, Materials.Osmium))
+        .key('I', OreDictUnifier.get(OrePrefix.plateDouble, Materials.Iridium))
+        .key('S', item('astraladditions:block_starmetal'))
+        .output(item('beneath:teleporterbeneath'))
+        .register()
 // hopping bonsai pot
 crafting.shapedBuilder()
         .row('PBP')
