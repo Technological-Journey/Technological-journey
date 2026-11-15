@@ -3,18 +3,21 @@ package postInit.lines
 import classes.TJMaterials
 import com.fulltrix.gcyl.api.recipes.GCYLRecipeMaps
 import com.fulltrix.gcyl.materials.GCYLNuclearMaterials
+import gregtech.api.GTValues
 import gregtech.api.recipes.RecipeMaps
 import gregtech.api.recipes.ingredients.GTRecipeItemInput
 import gregtech.api.unification.OreDictUnifier
 import gregtech.api.unification.material.Materials
 import gregtech.api.unification.ore.OrePrefix
 import gregtech.common.items.MetaItems
+import gregtech.common.metatileentities.MetaTileEntities
 import supercritical.api.recipes.SCRecipeMaps
 import supercritical.api.unification.material.SCMaterials
 import supercritical.api.unification.ore.SCOrePrefix
 import supercritical.common.blocks.BlockFissionCasing
 import supercritical.common.blocks.SCMetaBlocks
 import supercritical.common.item.SCMetaItems
+import supercritical.common.metatileentities.SCMetaTileEntities
 
 // HEXAFLUORIDE PROCESSING STAGE 1
 // neptunium hexafluoride
@@ -724,6 +727,16 @@ RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
         .input(OrePrefix.frameGt, Materials.Steel)
         .outputs(SCMetaBlocks.FISSION_CASING.getItemVariant(BlockFissionCasing.FissionCasingType.REACTOR_VESSEL, 2))
         .EUt(48).duration(280)
+        .buildAndRegister()
+
+// moderator port
+RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
+        .circuitMeta(3)
+        .input(MetaTileEntities.HULL[GTValues.EV])
+        .input(OrePrefix.frameGt, GCYLNuclearMaterials.ReactorSteel)
+        .input(OrePrefix.screw, GCYLNuclearMaterials.ReactorSteel, 16)
+        .output(SCMetaTileEntities.MODERATOR_PORT)
+        .EUt(GTValues.VAOC[GTValues.EV]).duration(160)
         .buildAndRegister()
 
 // Uranium Dust * 1

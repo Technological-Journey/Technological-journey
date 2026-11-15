@@ -674,5 +674,6 @@ class TJMaterials {
         Materials.Ruthenium.addFlags(MaterialFlags.GENERATE_DENSE)
         Materials.Cobalt.addFlags(MaterialFlags.GENERATE_GEAR)
         GCYLMaterials.Draconium.addFlags(MaterialFlags.GENERATE_DOUBLE_PLATE)
+        GCYLNuclearMaterials.ReactorSteel.addFlags(MaterialFlags.GENERATE_FRAME, MaterialFlags.GENERATE_BOLT_SCREW)
     }
 }
