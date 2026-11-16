@@ -10,6 +10,9 @@
     "chance": 100,
     "depleted_yield": 20
   },
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "fluid": "oil_heavy",
   "biome_modifier": {
     "type": "biome_dictionary",

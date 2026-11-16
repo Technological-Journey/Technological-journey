@@ -5,6 +5,9 @@
     "min": 200,
     "max": 300
   },
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "depletion": {
     "amount": 1,
     "chance": 100,
