@@ -5,6 +5,9 @@
   "density": 1.0,
   "min_height": 10,
   "count_as_vein": false,
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "generator": {
     "type": "sphere",
     "radius": [

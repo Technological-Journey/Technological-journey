@@ -665,6 +665,15 @@ class TJMaterials {
         MaterialPropertyExpansion.addIngot(Materials.Moscovium)
         MaterialPropertyExpansion.addIngot(Materials.Livermorium)
         MaterialPropertyExpansion.addIngot(Materials.Copernicium)
+        MaterialPropertyExpansion.addOre(Materials.Neptunium)
+        MaterialPropertyExpansion.addOre(Materials.Rutherfordium)
+        MaterialPropertyExpansion.addOre(Materials.NaquadahEnriched)
+        MaterialPropertyExpansion.addOre(Materials.Naquadria)
+        MaterialPropertyExpansion.addOre(Materials.Curium)
+        MaterialPropertyExpansion.addOre(Materials.Coke)
+        MaterialPropertyExpansion.addOre(SCMaterials.Plutonium244)
+        MaterialPropertyExpansion.addOre(GCYLMaterials.RhodiumSalt)
+        MaterialPropertyExpansion.addOre(GCYLMaterials.PalladiumMetallicPowder)
     }
 
     static void addFlags() {

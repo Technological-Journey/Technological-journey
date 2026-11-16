@@ -7,6 +7,9 @@
     "type": "surface_rock",
     "material": "mica"
   },
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "generator": {
     "type": "layered",
     "radius": [

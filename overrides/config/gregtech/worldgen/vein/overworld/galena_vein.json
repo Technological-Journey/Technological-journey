@@ -8,6 +8,9 @@
     "type": "surface_rock",
     "material": "galena"
   },
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [13, 16]
