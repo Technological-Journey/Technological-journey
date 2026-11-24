@@ -10,25 +10,25 @@
 		uid: "24c168aa",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10671"
+			item: "gcyl:meta_ingot 1 910"
 		}]
 	}],
 	rewards: [{
 		uid: "61c7619c",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10993",
+		item: "gregtech:meta_ingot 1 127",
 		count: 4
 	},
 	{
 		uid: "8370b78f",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10682",
+		item: "gcyl:meta_ingot 1 188",
 		count: 16
 	},
 	{
 		uid: "f4d98de3",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10672",
+		item: "gcyl:meta_ingot 1 301",
 		count: 8
 	}]
 }

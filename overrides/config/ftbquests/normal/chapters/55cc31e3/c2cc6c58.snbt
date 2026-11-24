@@ -12,7 +12,7 @@
 		uid: "5041a6a4",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10736"
+			item: "gregtech:meta_ingot 1 97"
 		}]
 	}]
 }

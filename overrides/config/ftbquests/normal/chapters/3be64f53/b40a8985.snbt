@@ -14,7 +14,7 @@
 		uid: "fb4952d3",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 255"
+			item: "gcyl:meta_dust 1 198"
 		}]
 	}]
 }

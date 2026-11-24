@@ -1,5 +1,5 @@
 {
-	icon: "gtadditions:ga_dust 1 938",
+	icon: "gcyl:meta_dust 1 1005",
 	x: 8.0d,
 	y: -0.5d,
 	dependencies: [

@@ -8,7 +8,7 @@
 		uid: "aacf3df1",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_explosive 1 1"
+			item: "gcyl:gcyl_explosive 1 1"
 		}]
 	}]
 }

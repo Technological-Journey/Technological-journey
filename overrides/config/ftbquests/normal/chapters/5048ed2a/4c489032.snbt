@@ -1,6 +1,7 @@
 {
-	x: 3.5d,
-	y: 9.0d,
+	x: 6.0d,
+	y: 6.5d,
+	shape: "circle",
 	dependencies: [
 		"a82c6838"
 	],
@@ -8,13 +9,13 @@
 		uid: "10e9f0e2",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10235"
+			item: "gregtech:meta_ingot 1 2013"
 		}]
 	}],
 	rewards: [{
 		uid: "b24c454c",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10074",
+		item: "gregtech:meta_ingot 1 115",
 		count: 16
 	}]
 }

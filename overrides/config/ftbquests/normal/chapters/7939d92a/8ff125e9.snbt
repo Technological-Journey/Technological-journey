@@ -6,7 +6,11 @@
 		uid: "ef6f37b2",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10677"
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "roentgenium",
+				Amount: 1000
+			}
 		}]
 	}]
 }

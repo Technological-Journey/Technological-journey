@@ -1,0 +1,18 @@
+{
+	title: "Prepare Yourself!",
+	icon: "chisel:factory 1 9",
+	x: 21.5d,
+	y: 6.0d,
+	text: [
+		"As you can see these quests lead to the nuclear line, in my opinion this is the most important processing line in the pack, so make sure to build a solid setup, I recommend doing a smaller line at first for only the first few elements that you need and later once you have access to more recourses and large machines, at IV or LuV do the whole line properly.",
+		"",
+		"Nuclear mainly produces the different fissile elements which you will need for a variety of uses, but as a byproduct it also makes most stable elements in smaller quantities. These outputs may look insignificant at first, but it’s not too hard to scale up nuclear processing enough to make it your main source of most of these elements. (e.g. skipping most of the platline is possible with a good nuclear)",
+		"",
+		"The whole line might look intimidating but once you understand the logic it’s not that bad, I recommend reading the quest thoroughly before starting, also you can ask in DC if you feel really lost."
+	],
+	tasks: [{
+		uid: "ea1c0c17",
+		type: "checkmark",
+		title: "I'm Ready! Probably?"
+	}]
+}

@@ -11,7 +11,7 @@
 		uid: "fa863fe6",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 966"
+			item: "gcyl:wire_single 1 1161"
 		}]
 	}]
 }

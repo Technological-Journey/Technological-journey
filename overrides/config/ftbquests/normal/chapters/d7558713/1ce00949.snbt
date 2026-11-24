@@ -1,0 +1,22 @@
+{
+	icon: "gcyl:gcyl_meta_item 1 540",
+	x: 6.5d,
+	y: -4.0d,
+	dependencies: [
+		"57e91b88",
+		"7749964f"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: 1b,
+	tasks: [{
+		uid: "f3198f99",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 540"
+		}]
+	},
+	{
+		uid: "6bfc6483",
+		type: "checkmark"
+	}]
+}

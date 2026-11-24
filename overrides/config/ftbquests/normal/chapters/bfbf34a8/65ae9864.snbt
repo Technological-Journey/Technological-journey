@@ -8,7 +8,7 @@
 		uid: "ea757039",
 		type: "item",
 		items: [{
-			item: "gregtech:ga_cable 1 724"
+			item: "gcyl:wire_single 1 1167"
 		}]
 	}]
 }

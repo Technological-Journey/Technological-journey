@@ -11,6 +11,38 @@
     {
       "dimID": -1,
       "dimName": "Nether"
+    },
+    {
+      "dimID": 3,
+      "dimName": "Moon"
+    },
+    {
+      "dimID": 404,
+      "dimName": "Beneath"
+    },
+    {
+      "dimID": 400,
+      "dimName": "Titan"
+    },
+    {
+      "dimID": 401,
+      "dimName": "Pluto"
+    },
+    {
+      "dimID": 405,
+      "dimName": "Mars"
+    },
+    {
+      "dimID": 402,
+      "dimName": "Phobos"
+    },
+    {
+      "dimID": 406,
+      "dimName": "Deimos"
+    },
+    {
+      "dimID": 403,
+      "dimName": "Mercury"
     }
   ]
 }

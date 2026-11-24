@@ -1,4 +1,5 @@
 {
+	icon: "gcyl:meta_dust 1 655",
 	x: 2.5d,
 	y: 5.0d,
 	dependencies: [
@@ -6,10 +7,9 @@
 		"f23e7e88"
 	],
 	tasks: [{
-		uid: "a0ddf2d0",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 2753"
-		}]
+		uid: "61502e25",
+		type: "checkmark",
+		title: "Calcium Tungstate",
+		icon: "gregtech:meta_item_1 1 2753"
 	}]
 }

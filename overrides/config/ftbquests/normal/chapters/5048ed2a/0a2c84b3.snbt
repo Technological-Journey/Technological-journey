@@ -1,22 +1,29 @@
 {
-	x: 20.5d,
-	y: 8.0d,
+	title: "Plutonium Fuel",
+	x: 26.0d,
+	y: 9.0d,
 	dependencies: [
 		"e11c7345"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "b9c1ea1f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16813"
+			item: "gregtech:meta_fuel_rod 1 81"
 		}]
 	},
 	{
 		uid: "d243d339",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16053"
+			item: "gregtech:meta_fuel_rod 1 82"
 		}]
+	},
+	{
+		uid: "0b19b8c0",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

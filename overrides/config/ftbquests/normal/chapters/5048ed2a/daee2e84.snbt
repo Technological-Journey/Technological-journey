@@ -1,6 +1,7 @@
 {
-	x: 20.5d,
-	y: 2.0d,
+	title: "Fermium Fuel",
+	x: 26.0d,
+	y: 3.0d,
 	dependencies: [
 		"cb45172c"
 	],
@@ -9,7 +10,12 @@
 		uid: "13cf1a0c",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 17784"
+			item: "gregtech:meta_fuel_rod 1 10025"
 		}]
+	},
+	{
+		uid: "42915deb",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

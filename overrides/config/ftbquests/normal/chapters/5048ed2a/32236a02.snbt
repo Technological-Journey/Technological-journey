@@ -1,5 +1,5 @@
 {
-	x: -1.5d,
+	x: -2.0d,
 	y: 0.5d,
 	shape: "rsquare",
 	text: [
@@ -10,13 +10,13 @@
 		uid: "5b455765",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 504"
+			item: "gregtech:mte 1 989"
 		}]
 	}],
 	rewards: [{
 		uid: "a00dc8de",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2122",
+		item: "gregtech:meta_dust 1 285",
 		count: 16
 	}]
 }

@@ -2,7 +2,7 @@
 	x: -7.0d,
 	y: 6.0d,
 	text: [
-		"You need either a umv single block or umv large macerator to make degen rhenium dust."
+		"You need either a uxv single block or uxv large macerator to make degen rhenium dust."
 	],
 	dependencies: [
 		"8530c980"
@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "1596b236",
 		type: "checkmark",
-		title: "UMV Macerator",
-		icon: "gtadditions:ga_meta_item 1 32357"
+		title: "UXV Macerator",
+		icon: "gregtech:meta_item_1 1 138"
 	}]
 }

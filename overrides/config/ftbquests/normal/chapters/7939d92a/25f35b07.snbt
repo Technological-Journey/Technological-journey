@@ -9,25 +9,25 @@
 		uid: "fef923e7",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32538"
+			item: "gcyl:gcyl_meta_item 1 538"
 		}]
 	}],
 	rewards: [{
 		uid: "1e3bb0ed",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10707",
+		item: "gcyl:meta_ingot 1 201",
 		count: 8
 	},
 	{
 		uid: "4fde2c1a",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10706",
+		item: "gcyl:meta_ingot 1 189",
 		count: 8
 	},
 	{
 		uid: "ff83285c",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10683",
+		item: "gcyl:meta_ingot 1 192",
 		count: 8
 	}]
 }

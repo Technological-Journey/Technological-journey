@@ -1,8 +1,10 @@
 {
-	x: -2.0d,
+	x: -1.5d,
 	y: 6.0d,
 	text: [
-		"Filtered output hatches are very useful for setting up LCR's. Don’t worry, you are playing the 1.5 beta ;)"
+		"Filtered output hatches and buses are very useful for setting up LCR's. ",
+		"",
+		"Don't worry, you are playing the 1.5 beta ;)"
 	],
 	dependencies: [
 		"f23e7e88"

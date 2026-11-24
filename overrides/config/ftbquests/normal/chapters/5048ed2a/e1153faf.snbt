@@ -1,0 +1,30 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "hree_nitrate_solution",
+			Amount: 1000
+		}
+	},
+	x: 15.5d,
+	y: 6.0d,
+	dependencies: [
+		"cb847b75"
+	],
+	or_tasks: 1b,
+	tasks: [{
+		uid: "f557d894",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hree_nitrate_solution",
+				Amount: 1000
+			}
+		}]
+	},
+	{
+		uid: "f273e8f5",
+		type: "checkmark"
+	}]
+}

@@ -11,13 +11,13 @@
 		uid: "fad50d03",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_heating_coil 1 1"
+			item: "gcyl:wire_coil 1 2"
 		}]
 	}],
 	rewards: [{
 		uid: "5ec1524a",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2852",
+		item: "gcyl:meta_dust 1 21",
 		count: 32
 	}]
 }

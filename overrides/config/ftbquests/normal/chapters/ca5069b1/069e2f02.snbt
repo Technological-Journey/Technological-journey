@@ -9,21 +9,21 @@
 		uid: "9472d2f4",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32488"
+			item: "gcyl:gcyl_meta_item 1 488"
 		}]
 	},
 	{
 		uid: "8b0918d6",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32487"
+			item: "gcyl:gcyl_meta_item 1 487"
 		}]
 	},
 	{
 		uid: "52491312",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32486"
+			item: "gcyl:gcyl_meta_item 1 486"
 		}]
 	}]
 }

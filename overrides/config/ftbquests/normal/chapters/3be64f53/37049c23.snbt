@@ -11,7 +11,7 @@
 		uid: "aa9619e2",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32473"
+			item: "gcyl:gcyl_meta_item 1 473"
 		}]
 	}]
 }

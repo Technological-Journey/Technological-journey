@@ -9,7 +9,7 @@
 		uid: "32c3942e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32559"
+			item: "gcyl:gcyl_meta_item 1 559"
 		}]
 	}]
 }

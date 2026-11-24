@@ -75,7 +75,7 @@
 		uid: "9d7e9b2d",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_4 1 8"
+			item: "gregtech:meta_block_compressed_7 1 1"
 		}],
 		count: 15L
 	}]

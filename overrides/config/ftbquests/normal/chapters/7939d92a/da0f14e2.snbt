@@ -6,7 +6,11 @@
 		uid: "998af6c0",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10676"
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "meitnerium",
+				Amount: 1000
+			}
 		}]
 	}]
 }

@@ -1,6 +1,7 @@
 {
-	x: 5.5d,
-	y: 7.0d,
+	title: "Platinum ",
+	x: -1.0d,
+	y: 14.0d,
 	shape: "hexagon",
 	dependencies: [
 		"140c17f0"
@@ -9,14 +10,13 @@
 		uid: "737423f3",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2051"
-		}],
-		count: 2L
+			item: "gregtech:meta_dust 1 80"
+		}]
 	}],
 	rewards: [{
 		uid: "c04c41ff",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2900",
+		item: "gcyl:meta_dust 1 1045",
 		count: 32
 	}]
 }

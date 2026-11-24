@@ -12,7 +12,7 @@
 		uid: "d5759506",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32341"
+			item: "gcyl:gcyl_meta_item 1 341"
 		}]
 	}]
 }

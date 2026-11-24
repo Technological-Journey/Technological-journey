@@ -1,22 +1,25 @@
 {
-	title: "Uranium Hexachloride Bucket",
-	x: 19.5d,
-	y: 5.0d,
-	text: [
-		""
-	],
+	x: 24.0d,
+	y: 6.0d,
 	dependencies: [
-		"807462ac"
+		"f76db1ad"
 	],
+	or_tasks: 1b,
 	tasks: [{
-		uid: "800b6195",
-		type: "checkmark",
-		icon: {
+		uid: "d4192048",
+		type: "item",
+		items: [{
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "hexachloride.uranium_radioactive",
+				FluidName: "uranium_hexafluoride",
 				Amount: 1000
 			}
-		}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c937bb05",
+		type: "checkmark"
 	}]
 }

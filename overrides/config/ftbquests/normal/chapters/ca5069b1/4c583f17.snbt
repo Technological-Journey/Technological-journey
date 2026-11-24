@@ -9,7 +9,7 @@
 		uid: "1d5780ab",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2740"
+			item: "gcyl:meta_dust 1 1151"
 		}]
 	}]
 }

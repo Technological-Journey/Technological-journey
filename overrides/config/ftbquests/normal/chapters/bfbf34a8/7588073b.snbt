@@ -10,7 +10,7 @@
 		uid: "7ea10e5d",
 		type: "item",
 		items: [{
-			item: "gregtech:ga_cable 1 722"
+			item: "gcyl:wire_single 1 1168"
 		}]
 	}]
 }

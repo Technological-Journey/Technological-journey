@@ -1,5 +1,4 @@
 {
-	icon: "gregtech:machine 1 3236",
 	x: 6.5d,
 	y: 0.0d,
 	text: [
@@ -12,13 +11,13 @@
 		uid: "366f43bb",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 3236"
+			item: "gcyl:mte 1 14"
 		}]
 	}],
 	rewards: [{
 		uid: "3702b126",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10784",
+		item: "gcyl:meta_ingot 1 4",
 		count: 64
 	}]
 }

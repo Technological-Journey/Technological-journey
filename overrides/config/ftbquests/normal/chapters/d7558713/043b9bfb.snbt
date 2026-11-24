@@ -1,7 +1,7 @@
 {
 	x: -1.5d,
 	y: 5.0d,
-	shape: "hexagon",
+	shape: "circle",
 	dependencies: [
 		"cd43b2de",
 		"ef4065db"
@@ -10,13 +10,13 @@
 		uid: "65191c4e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32217"
+			item: "gregtech:meta_item_1 1 638"
 		}]
 	}],
 	rewards: [{
 		uid: "da505fbf",
 		type: "item",
-		item: "gregtech:meta_item_2 1 32494",
+		item: "gregtech:meta_item_1 1 636",
 		count: 4
 	}]
 }

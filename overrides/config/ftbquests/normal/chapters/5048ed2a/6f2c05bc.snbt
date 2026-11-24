@@ -1,22 +1,29 @@
 {
-	x: 20.5d,
-	y: 3.0d,
+	title: "Einsteinium Fuel",
+	x: 26.0d,
+	y: 4.0d,
 	dependencies: [
 		"1aa6fefb"
 	],
 	optional: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "541a76f7",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16787"
+			item: "gregtech:meta_fuel_rod 1 10023"
 		}]
 	},
 	{
 		uid: "6997d68a",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 16789"
+			item: "gregtech:meta_fuel_rod 1 10024"
 		}]
+	},
+	{
+		uid: "c470e941",
+		type: "checkmark",
+		title: "I Have The Fuel I Need!"
 	}]
 }

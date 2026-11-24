@@ -8,7 +8,7 @@
 		uid: "fe604289",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 1"
+			item: "gcyl:gcyl_fusion_casing"
 		}]
 	}]
 }

@@ -8,21 +8,21 @@
 		uid: "a0652835",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10856"
+			item: "gcyl:meta_ingot 1 174"
 		}]
 	},
 	{
 		uid: "591d308a",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_heating_coil 1 2"
+			item: "gcyl:wire_coil 1 3"
 		}],
 		count: 16L
 	}],
 	rewards: [{
 		uid: "019518f0",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10717",
+		item: "gcyl:meta_ingot 1 193",
 		count: 8
 	}]
 }

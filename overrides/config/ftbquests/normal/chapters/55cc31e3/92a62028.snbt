@@ -13,22 +13,22 @@
 		uid: "c823bf97",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2506"
+			item: "gregtech:mte 1 10022"
 		}]
 	},
 	{
 		uid: "49c84405",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 3"
+			item: "gregtech:fusion_casing 1 1"
 		}],
-		count: 32L
+		count: 4L
 	},
 	{
 		uid: "93343204",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 784"
+			item: "gregtech:mte 1 11128"
 		}],
 		count: 16L
 	},
@@ -36,7 +36,7 @@
 		uid: "7c493d9f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing"
+			item: "gregtech:fusion_casing 1 4"
 		}],
 		count: 64L
 	},
@@ -44,14 +44,14 @@
 		uid: "6295bda9",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing"
+			item: "gregtech:fusion_casing 1 4"
 		}],
 		count: 15L
 	}],
 	rewards: [{
 		uid: "337d289e",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10311",
+		item: "gregtech:meta_ingot 1 128",
 		count: 32
 	}]
 }

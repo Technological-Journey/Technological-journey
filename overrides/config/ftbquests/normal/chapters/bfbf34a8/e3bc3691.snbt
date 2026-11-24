@@ -1,0 +1,11 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "bd7b9f84",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_cleanroom_casing 1 3"
+		}]
+	}]
+}

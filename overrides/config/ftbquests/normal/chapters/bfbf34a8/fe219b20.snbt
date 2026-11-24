@@ -8,7 +8,7 @@
 		uid: "8f20fa1f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32555"
+			item: "gcyl:gcyl_meta_item 1 555"
 		}]
 	}]
 }

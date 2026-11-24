@@ -11,13 +11,13 @@
 		uid: "c8c875fe",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 69"
+			item: "gcyl:meta_dust 1 621"
 		}]
 	}],
 	rewards: [{
 		uid: "4cb0f3f2",
 		type: "item",
-		item: "gtadditions:ga_dust 1 69",
+		item: "gcyl:meta_dust 1 621",
 		count: 16
 	}]
 }

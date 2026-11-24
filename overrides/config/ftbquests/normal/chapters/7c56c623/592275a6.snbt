@@ -1,5 +1,4 @@
 {
-	title: "Infinity Crystal",
 	x: -6.5d,
 	y: 8.0d,
 	dependencies: [
@@ -9,7 +8,7 @@
 		uid: "eb3f6dd4",
 		type: "item",
 		items: [{
-			item: "contenttweaker:infintycrystal"
+			item: "technological_journey:infinitycrystal"
 		}]
 	}]
 }

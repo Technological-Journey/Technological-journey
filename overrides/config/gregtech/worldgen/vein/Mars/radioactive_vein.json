@@ -1,0 +1,34 @@
+{
+  "name": "tj.veins.ore.mars_radioactive",
+  "weight": 50,
+  "density": 0.5,
+  "max_height": 256,
+  "min_height": 0,
+  "dimension_filter": ["dimension_id:405"],
+  "surface_stone_material": "uranium",
+
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [15, 15]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+		{
+          "weight": 80,
+          "value": "ore:uranium"
+        },
+        {
+          "weight": 15,
+          "value": "ore:neptunium"
+        },
+		{
+          "weight": 5,
+          "value": "ore:plutonium"
+        }
+      ]
+    }
+  }
+}

@@ -8,7 +8,7 @@
 		uid: "566d382a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 12992"
+			item: "gcyl:meta_plate 1 50"
 		}]
 	}]
 }

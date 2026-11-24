@@ -6,7 +6,7 @@
 		uid: "cbc38c0b",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32479"
+			item: "gregtech:meta_item_1 1 606"
 		}]
 	}]
 }

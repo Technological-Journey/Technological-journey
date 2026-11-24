@@ -18,7 +18,7 @@
 		uid: "2e82c474",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2504"
+			item: "gregtech:mte 1 10020"
 		}]
 	}],
 	rewards: [{
@@ -26,7 +26,7 @@
 		type: "item",
 		item: {
 			id: "gregtech:meta_item_1",
-			Damage: 32598s,
+			Damage: 749s,
 			tag: {
 				Charge: 1000000000L
 			}
@@ -36,12 +36,11 @@
 		uid: "1a734fa2",
 		type: "item",
 		item: {
-			id: "gtadditions:ga_meta_item2",
-			Damage: 103s,
+			id: "gregtech:meta_item_1",
+			Damage: 468s,
 			tag: {
-				Charge: 13107200L
-			},
-			Count: 1b
+				Charge: 1000000000L
+			}
 		}
 	}]
 }

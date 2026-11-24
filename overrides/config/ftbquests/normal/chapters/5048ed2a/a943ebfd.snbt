@@ -1,5 +1,5 @@
 {
-	x: 10.5d,
+	x: 11.0d,
 	y: 4.0d,
 	dependencies: [
 		"d744bf3e"
@@ -8,19 +8,13 @@
 		uid: "dbf3a20a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 12470"
+			item: "gregtech:meta_plate 1 1006"
 		}]
 	}],
 	rewards: [{
-		uid: "5221e99a",
+		uid: "67afe0f4",
 		type: "item",
-		item: {
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "epoxid",
-				Amount: 1000
-			}
-		},
-		count: 4
+		item: "gregtech:meta_ingot 1 1013",
+		count: 8
 	}]
 }

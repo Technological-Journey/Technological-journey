@@ -8,7 +8,7 @@
 		uid: "b03cfa87",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_cell_casing 1 11"
+			item: "tja:cell_battery 1 13"
 		}]
 	}]
 }

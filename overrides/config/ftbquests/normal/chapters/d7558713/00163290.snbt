@@ -6,21 +6,21 @@
 		uid: "cc514f0f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 207"
+			item: "gcyl:meta_dust 1 788"
 		}]
 	},
 	{
 		uid: "2a51ae7f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 206"
+			item: "gcyl:meta_dust 1 790"
 		}]
 	},
 	{
 		uid: "0285f195",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_dust 1 254"
+			item: "gcyl:meta_dust 1 789"
 		}]
 	}]
 }

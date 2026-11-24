@@ -11,14 +11,14 @@
 		uid: "f009f6f6",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1104"
+			item: "gregtech:mte 1 11527"
 		}]
 	},
 	{
 		uid: "11c6fd28",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1101"
+			item: "gregtech:mte 1 11528"
 		}]
 	}]
 }

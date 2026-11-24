@@ -11,7 +11,7 @@
 		uid: "3df0cd04",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_heating_coil 1 4"
+			item: "gcyl:wire_coil 1 5"
 		}]
 	}]
 }

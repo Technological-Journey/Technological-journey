@@ -11,7 +11,7 @@
 		uid: "947eb98f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing2 1 6"
+			item: "gcyl:gcyl_multiblock_casing2"
 		}],
 		count: 55L
 	},
@@ -19,14 +19,14 @@
 		uid: "e022b17c",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4170"
+			item: "gcyl:mte"
 		}]
 	},
 	{
 		uid: "58a74e55",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_transparent_casing 1 6"
+			item: "gregtech:transparent_casing 1 2"
 		}],
 		count: 36L
 	},
@@ -34,37 +34,14 @@
 		uid: "eb97cc29",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_emitter_casing 1 5"
+			item: "gcym:mte 1 2060"
 		}],
-		count: 2L
-	},
-	{
-		uid: "1816aaab",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_sensor_casing 1 5"
-		}],
-		count: 2L
-	},
-	{
-		uid: "9066e12c",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_pump_casing 1 5"
-		}],
-		count: 2L
-	},
-	{
-		uid: "0333dbd3",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_field_gen_casing 1 5"
-		}]
+		count: 7L
 	}],
 	rewards: [{
 		uid: "f6195eab",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10308",
+		item: "gregtech:meta_ingot 1 2042",
 		count: 16
 	}]
 }

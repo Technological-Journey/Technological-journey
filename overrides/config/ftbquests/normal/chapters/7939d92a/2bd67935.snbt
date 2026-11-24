@@ -10,13 +10,13 @@
 		uid: "52b64d66",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10674"
+			item: "gcyl:meta_ingot 1 208"
 		}]
 	}],
 	rewards: [{
 		uid: "05c54606",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2674",
+		item: "gcyl:meta_dust 1 208",
 		count: 16
 	}]
 }

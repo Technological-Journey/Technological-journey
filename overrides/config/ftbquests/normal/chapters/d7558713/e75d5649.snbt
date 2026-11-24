@@ -1,13 +1,20 @@
 {
+	icon: "gcyl:meta_dust 1 933",
 	x: -8.5d,
 	y: -2.0d,
 	dependencies: [
 		"2f9c9021"
 	],
+	or_tasks: 1b,
 	tasks: [{
-		uid: "a85a1cb6",
-		type: "checkmark",
-		title: "Indium Trifluoride Dust",
-		icon: "gtadditions:ga_dust 1 1"
+		uid: "9a949bda",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 933"
+		}]
+	},
+	{
+		uid: "bd209e34",
+		type: "checkmark"
 	}]
 }

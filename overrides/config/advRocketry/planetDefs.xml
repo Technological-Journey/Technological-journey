@@ -74,7 +74,7 @@
                 <generateStructures>false</generateStructures>
                 <generateGeodes>false</generateGeodes>
                 <!-- block of tungstencarbide-->
-               <artifact>gregtech:meta_block_compressed_18 12</artifact> 
+               <artifact>gregtech:meta_block_compressed_24 12</artifact>
                 <biomeIds>advancedrocketry:crystalchasms</biomeIds> 
                 </planet>
                 <planet DIMID="405" name="Mars" temp="10" customIcon="MarsLike">
@@ -92,7 +92,7 @@
                     <generateStructures>false</generateStructures>
                     <generateGeodes>false</generateGeodes>
                     <!-- block of Californiuum -->
-                    <artifact>gregtech:meta_block_compressed_49 13</artifact> 
+                    <artifact>gregtech:meta_block_compressed_1 1</artifact>
                     <biomeIds>advancedrocketry:hotdryrock</biomeIds> 
                 </planet>
                 <planet DIMID="402" name="Phobos" temp="100" customIcon="Venusian">
@@ -110,7 +110,7 @@
                     <generateStructures>false</generateStructures>
                     <generateGeodes>false</generateGeodes>
                     <!-- block of salt -->
-                    <artifact>gregtech:meta_block_compressed_9 11</artifact> 
+                    <artifact>gregtech:meta_block_compressed_19 8</artifact>
                     <biomeIds>advancedrocketry:alien forest,24</biomeIds> 
                     </planet>
                     <planet DIMID="406" name="Deimos" temp="10" customIcon="MarsLike">
@@ -128,7 +128,7 @@
                         <generateStructures>false</generateStructures>
                         <generateGeodes>false</generateGeodes>
                         <!-- block of Adamantium -->
-                        <artifact>gregtech:meta_block_compressed_44 14</artifact> 
+                        <artifact>gcyl:meta_block_compressed_3 0</artifact>
                         <biomeIds>advancedrocketry:hotdryrock</biomeIds> 
                         </planet>
     <planet DIMID="403" name="Mercury" temp="10" customIcon="MarsLike">
@@ -148,7 +148,7 @@
         <generateGeodes>false</generateGeodes>
         <oceanBlock>Minecraft:lava</oceanBlock>
     <!-- block of platinum -->
-        <artifact>gregtech:meta_block_compressed_3 3</artifact> 
+        <artifact>gregtech:meta_block_compressed_5 0</artifact>
          <biomeIds>advancedrocketry:volcanicbarren</biomeIds>  
         </planet>
 </star>

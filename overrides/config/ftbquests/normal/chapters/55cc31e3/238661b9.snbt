@@ -18,12 +18,12 @@
 		uid: "dfed1617",
 		type: "checkmark",
 		title: "Advanced Ore Processing",
-		icon: "gregtech:meta_item_1 1 5311"
+		icon: "gregtech:meta_crushed 1 2"
 	}],
 	rewards: [{
 		uid: "4e97e62e",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32577",
+		item: "gcyl:gcyl_meta_item 1 577",
 		count: 16
 	}]
 }

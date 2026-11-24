@@ -9,7 +9,7 @@
 		uid: "e131ad2b",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32018"
+			item: "gregtech:meta_item_1 1 709"
 		}]
 	}]
 }

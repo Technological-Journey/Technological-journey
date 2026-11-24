@@ -1,25 +1,32 @@
 {
-	x: -0.5d,
+	title: "Polytetrafluoroethylene",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "polytetrafluoroethylene",
+			Amount: 1000
+		}
+	},
+	x: 0.0d,
 	y: 4.0d,
+	description: "PTFE",
+	text: [
+		"I need more chemicals in my bloodstream..."
+	],
 	dependencies: [
 		"5c191dd7"
 	],
 	tasks: [{
-		uid: "033e6fbc",
-		type: "checkmark",
-		title: "Polytetrafluoroethylene Bucket",
-		icon: {
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "polytetrafluoroethylene",
-				Amount: 1000
-			}
-		}
+		uid: "bf587c90",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1016"
+		}]
 	}],
 	rewards: [{
 		uid: "b43bd8d5",
 		type: "item",
-		item: "gregtech:meta_item_1 1 12145",
+		item: "gregtech:meta_plate 1 1016",
 		count: 8
 	}]
 }

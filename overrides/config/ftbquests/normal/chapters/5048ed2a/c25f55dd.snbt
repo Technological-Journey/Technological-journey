@@ -1,0 +1,32 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "pgm_solution_one_irioxide",
+			Amount: 1000
+		}
+	},
+	x: -3.0d,
+	y: 12.0d,
+	dependencies: [
+		"36fa8d53"
+	],
+	or_tasks: 1b,
+	tasks: [{
+		uid: "4bbde724",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pgm_solution_one_irioxide",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "36844976",
+		type: "checkmark"
+	}]
+}

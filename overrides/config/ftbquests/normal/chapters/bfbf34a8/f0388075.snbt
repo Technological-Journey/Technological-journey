@@ -11,7 +11,7 @@
 		uid: "8e09ed3c",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_cryostat_casing 1 4"
+			item: "gcyl:gcyl_cryostat_casing 1 4"
 		}],
 		count: 64L
 	},
@@ -19,7 +19,7 @@
 		uid: "61ce4b13",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_divertor_casing 1 4"
+			item: "gcyl:gcyl_divertor_casing 1 4"
 		}],
 		count: 47L
 	},
@@ -27,7 +27,7 @@
 		uid: "20344aef",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_vacuum_casing 1 4"
+			item: "gcyl:gcyl_vacuum_casing 1 4"
 		}],
 		count: 64L
 	},
@@ -35,7 +35,7 @@
 		uid: "40c9fcdf",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_vacuum_casing 1 4"
+			item: "gcyl:gcyl_vacuum_casing 1 4"
 		}],
 		count: 36L
 	},
@@ -43,7 +43,7 @@
 		uid: "fe2d607f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 8"
+			item: "gcyl:gcyl_fusion_coil 1 4"
 		}],
 		count: 64L
 	},
@@ -51,8 +51,15 @@
 		uid: "2138e82a",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 8"
+			item: "gcyl:gcyl_fusion_coil 1 4"
 		}],
 		count: 59L
+	},
+	{
+		uid: "ccac2c33",
+		type: "item",
+		items: [{
+			item: "gcyl:mte 1 5"
+		}]
 	}]
 }

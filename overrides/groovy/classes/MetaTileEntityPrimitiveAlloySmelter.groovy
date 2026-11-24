@@ -1,4 +1,4 @@
-
+import gregtech.api.GTValues
 import gregtech.api.gui.GuiTextures
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
@@ -6,16 +6,20 @@ import gregtech.api.metatileentity.multiblock.IMultiblockPart
 import gregtech.api.metatileentity.multiblock.MultiblockAbility
 import gregtech.api.pattern.BlockPattern
 import gregtech.api.pattern.FactoryBlockPattern
+import gregtech.api.pattern.MultiblockShapeInfo
 import gregtech.api.recipes.RecipeMap
 import gregtech.api.recipes.RecipeMapBuilder
 import gregtech.api.recipes.builders.PrimitiveRecipeBuilder
+import gregtech.api.util.RelativeDirection
 import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.renderer.texture.Textures
 import gregtech.common.blocks.BlockMetalCasing
 import gregtech.common.blocks.BlockSteamCasing
 import gregtech.common.blocks.MetaBlocks
+import gregtech.common.metatileentities.MetaTileEntities
 import gregtech.core.sound.GTSoundEvents
 import groovyjarjarantlr4.v4.runtime.misc.NotNull
+import net.minecraft.util.EnumFacing
 import net.minecraft.util.ResourceLocation
 import net.minecraftforge.fml.relauncher.Side
 import net.minecraftforge.fml.relauncher.SideOnly
@@ -54,6 +58,21 @@ class MetaTileEntityPrimitiveAlloySmelter extends TJRecipeMapSteamMultiblockCont
                 .where('B' as char, states(MetaBlocks.STEAM_CASING.getState(BlockSteamCasing.SteamCasingType.BRONZE_HULL)))
                 .where('#' as char, air())
                 .build()
+    }
+
+    @Override
+    List<MultiblockShapeInfo> getMatchingShapes() {
+        return Collections.singletonList(MultiblockShapeInfo.builder(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
+                .aisle("XXX", "XXX", "BBB")
+                .aisle("XXX", "X#X", "B#B")
+                .aisle("IiX", "ISO", "BBB")
+                .where('S' as char, this, EnumFacing.SOUTH)
+                .where('X' as char, MetaBlocks.METAL_CASING.getState(BlockMetalCasing.MetalCasingType.PRIMITIVE_BRICKS))
+                .where('B' as char, MetaBlocks.STEAM_CASING.getState(BlockSteamCasing.SteamCasingType.BRONZE_HULL))
+                .where('I' as char, MetaTileEntities.ITEM_IMPORT_BUS[GTValues.ULV], EnumFacing.SOUTH)
+                .where('O' as char, MetaTileEntities.ITEM_EXPORT_BUS[GTValues.ULV], EnumFacing.SOUTH)
+                .where('i' as char, MetaTileEntities.FLUID_IMPORT_HATCH[GTValues.ULV], EnumFacing.SOUTH)
+                .build())
     }
 
     @Override

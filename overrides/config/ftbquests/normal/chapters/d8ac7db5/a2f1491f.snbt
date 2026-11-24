@@ -8,7 +8,7 @@
 		uid: "f918193d",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 10"
+			item: "gcym:mte 1 2061"
 		}],
 		count: 7L
 	}]

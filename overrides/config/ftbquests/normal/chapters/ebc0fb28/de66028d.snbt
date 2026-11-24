@@ -11,7 +11,7 @@
 		icon: {
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "octaazacubanesolution",
+				FluidName: "octaazacubane_solution",
 				Amount: 1000
 			}
 		}

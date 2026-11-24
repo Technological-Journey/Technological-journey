@@ -1,5 +1,5 @@
 {
-	x: -2.5d,
+	x: -3.0d,
 	y: 2.0d,
 	shape: "rsquare",
 	text: [
@@ -9,7 +9,7 @@
 		uid: "47bb10b7",
 		type: "item",
 		items: [{
-			item: "gregtech:poor_ore_bastnasite_0"
+			item: "gregtech:ore_bastnasite_0"
 		}]
 	}]
 }

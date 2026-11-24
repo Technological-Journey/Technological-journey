@@ -1,5 +1,4 @@
 {
-	icon: "gregtech:machine 1 2191",
 	x: 2.5d,
 	y: 0.0d,
 	text: [
@@ -12,26 +11,26 @@
 		uid: "6e56b35f",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2191"
+			item: "gcyl:mte 1 112"
 		}]
 	},
 	{
 		uid: "8375e8c8",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2174"
+			item: "gcyl:mte 1 111"
 		}]
 	},
 	{
 		uid: "4a9ca51b",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2173"
+			item: "gcyl:mte 1 110"
 		}]
 	}],
 	rewards: [{
 		uid: "37cae487",
 		type: "item",
-		item: "gregtech:meta_item_1 1 1307"
+		item: "gregtech:meta_dust_small 1 124"
 	}]
 }

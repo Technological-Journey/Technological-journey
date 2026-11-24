@@ -9,7 +9,7 @@
 		uid: "c7971f20",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32532"
+			item: "gcyl:gcyl_meta_item 1 532"
 		}]
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	title: "Advanced Fusion Mk1",
-	icon: "gregtech:machine 1 3237",
+	icon: "gcyl:mte 1 1",
 	x: 10.0d,
 	y: 1.5d,
 	text: [
@@ -16,14 +16,14 @@
 		uid: "8a8f4df1",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 3237"
+			item: "gcyl:mte 1 1"
 		}]
 	},
 	{
 		uid: "0745748e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_cryostat_casing"
+			item: "gcyl:gcyl_cryostat_casing"
 		}],
 		count: 64L
 	},
@@ -31,7 +31,7 @@
 		uid: "12225f16",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_divertor_casing"
+			item: "gcyl:gcyl_divertor_casing"
 		}],
 		count: 47L
 	},
@@ -39,7 +39,7 @@
 		uid: "3f3a3fb6",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_vacuum_casing"
+			item: "gcyl:gcyl_vacuum_casing"
 		}],
 		count: 64L
 	},
@@ -47,7 +47,7 @@
 		uid: "e2a38df0",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_vacuum_casing"
+			item: "gcyl:gcyl_vacuum_casing"
 		}],
 		count: 36L
 	},
@@ -55,7 +55,7 @@
 		uid: "69715105",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 4"
+			item: "gcyl:gcyl_fusion_coil"
 		}],
 		count: 64L
 	},
@@ -63,26 +63,26 @@
 		uid: "97024b59",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 4"
+			item: "gcyl:gcyl_fusion_coil"
 		}],
 		count: 59L
 	}],
 	rewards: [{
 		uid: "2900f892",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10695",
+		item: "gcyl:meta_ingot 1 195",
 		count: 32
 	},
 	{
 		uid: "00884306",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10743",
+		item: "gregtech:meta_ingot 1 94",
 		count: 32
 	},
 	{
 		uid: "1c9e96a5",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10736",
+		item: "gregtech:meta_ingot 1 97",
 		count: 16
 	}]
 }

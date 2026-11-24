@@ -1,6 +1,6 @@
 {
 	title: "More Than Meets The Eye",
-	icon: "gregtech:machine 1 601",
+	icon: "gregtech:mte 1 1002",
 	x: -4.5d,
 	y: -8.5d,
 	description: "Transforming 101",
@@ -15,7 +15,6 @@
 	tasks: [{
 		uid: "c864adce",
 		type: "checkmark",
-		title: "More than meets the eye",
-		icon: "gregtech:meta_item_2 1 32465"
+		title: "More than meets the eye"
 	}]
 }

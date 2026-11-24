@@ -6,7 +6,7 @@
 		uid: "9dca047f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 9"
+			item: "gcym:mte 1 2060"
 		}],
 		count: 7L
 	}]

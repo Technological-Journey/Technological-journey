@@ -7,6 +7,9 @@
     "type": "surface_rock",
     "material": "chalcopyrite"
   },
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "generator": {
     "type": "ellipsoid",
     "radius": [17, 19]

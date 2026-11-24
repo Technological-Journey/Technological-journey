@@ -8,13 +8,13 @@
 		uid: "85ca808d",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32533"
+			item: "gcyl:gcyl_meta_item 1 533"
 		}]
 	}],
 	rewards: [{
 		uid: "6140ea84",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10683",
+		item: "gcyl:meta_ingot 1 192",
 		count: 8
 	}]
 }

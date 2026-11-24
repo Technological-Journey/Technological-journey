@@ -12,7 +12,7 @@
 		uid: "23f53623",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_explosive 1 3"
+			item: "gcyl:gcyl_explosive 1 3"
 		}]
 	}]
 }

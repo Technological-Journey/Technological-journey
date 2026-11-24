@@ -1,17 +1,17 @@
 {
-	x: 5.5d,
-	y: 2.0d,
+	x: 0.0d,
+	y: 12.0d,
 	shape: "rsquare",
+	text: [
+		""
+	],
+	optional: 1b,
 	tasks: [{
-		uid: "e4f20aef",
-		type: "checkmark",
-		title: "Ammonium Chloride Bucket",
-		icon: {
-			id: "forge:bucketfilled",
-			tag: {
-				FluidName: "ammonium_chloride",
-				Amount: 1000
-			}
-		}
+		uid: "a2ce1292",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2060"
+		}],
+		count: 28L
 	}]
 }

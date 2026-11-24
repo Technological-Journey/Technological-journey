@@ -8,14 +8,14 @@
 		uid: "51b33c2a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 12693"
+			item: "gcyl:meta_plate 1 58"
 		}]
 	},
 	{
 		uid: "903d95ea",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 12694"
+			item: "gcyl:meta_plate 1 57"
 		}]
 	}]
 }

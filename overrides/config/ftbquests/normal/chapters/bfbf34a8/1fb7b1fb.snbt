@@ -9,7 +9,7 @@
 		uid: "32db50dc",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32511"
+			item: "gcyl:gcyl_meta_item 1 511"
 		}]
 	}]
 }

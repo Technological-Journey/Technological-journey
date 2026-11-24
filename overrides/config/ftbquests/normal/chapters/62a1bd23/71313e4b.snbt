@@ -12,7 +12,7 @@
 		uid: "292a1730",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_44 1 14"
+			item: "gcyl:meta_block_compressed_3"
 		}]
 	},
 	{

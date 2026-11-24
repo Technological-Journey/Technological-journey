@@ -1,7 +1,15 @@
 {
-	icon: "gregtech:machine 1 2559",
-	x: 14.5d,
+	title: "Alloy Blast Furnace (ABF)",
+	icon: "gcym:mte 1 2001",
+	x: 18.5d,
 	y: 3.0d,
+	text: [
+		"The ABF is a special alloy smelter primarily used to make specialized alloys only accessible through this machine, it’s also capable of making conventional alloys although in most cases it’s not as good as the dedicated machines for them.",
+		"",
+		"Like the EBF, the ABF has the same heat mechanic, which grants extra overclocks and energy discounts.",
+		"",
+		"Looking at the recipes of the ABF, you see that it have two types of outputs, the first type is the liquids called molten ... (e.g. Molten Kanthal), these are the ABF recipes for alloys usually smelted at higher temperatures in the EBF, you need to cool the molten form to get the normal usable liquids, the second type produces normal liquids which can be used as is, these can be alloys originally made in alloy smelters, low temperature EBF alloys or ABF unique materials."
+	],
 	dependencies: [
 		"fdc5092b"
 	],
@@ -9,59 +17,24 @@
 		uid: "ed9250ad",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2559"
-		}]
-	},
-	{
-		uid: "a3a097b5",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 744"
-		}]
-	},
-	{
-		uid: "e3f99d0e",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 743"
-		}]
-	},
-	{
-		uid: "49448d8e",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 740"
+			item: "gcym:mte 1 2001"
 		}]
 	},
 	{
 		uid: "d63e73aa",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_2"
+			item: "gcym:unique_casing 1 3"
 		}],
-		count: 24L
+		count: 12L
 	},
 	{
 		uid: "283c5634",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 14"
+			item: "gcym:large_multiblock_casing 1 1"
 		}],
 		count: 35L
-	},
-	{
-		uid: "24f7c854",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4216"
-		}]
-	},
-	{
-		uid: "ce1107a7",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 4213"
-		}]
 	},
 	{
 		uid: "98ff595c",
@@ -69,6 +42,77 @@
 		items: [{
 			item: "gregtech:wire_coil 1 3"
 		}],
-		count: 16L
+		count: 24L
+	},
+	{
+		uid: "d731d697",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 11001"
+		},
+		{
+			item: "gregtech:mte 1 11002"
+		},
+		{
+			item: "gregtech:mte 1 11003"
+		},
+		{
+			item: "gregtech:mte 1 11004"
+		},
+		{
+			item: "gregtech:mte 1 11005"
+		},
+		{
+			item: "gregtech:mte 1 11006"
+		},
+		{
+			item: "gregtech:mte 1 11007"
+		},
+		{
+			item: "gregtech:mte 1 11008"
+		},
+		{
+			item: "gregtech:mte 1 11525"
+		},
+		{
+			item: "gregtech:mte 1 11527"
+		}]
+	},
+	{
+		uid: "4e3f5e22",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 11046"
+		},
+		{
+			item: "gregtech:mte 1 11047"
+		},
+		{
+			item: "gregtech:mte 1 11048"
+		},
+		{
+			item: "gregtech:mte 1 11049"
+		},
+		{
+			item: "gregtech:mte 1 11050"
+		},
+		{
+			item: "gregtech:mte 1 11051"
+		},
+		{
+			item: "gregtech:mte 1 11052"
+		},
+		{
+			item: "gregtech:mte 1 11053"
+		},
+		{
+			item: "gregtech:mte 1 11533"
+		}]
+	}],
+	rewards: [{
+		uid: "c0e788c6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10235",
+		count: 16
 	}]
 }

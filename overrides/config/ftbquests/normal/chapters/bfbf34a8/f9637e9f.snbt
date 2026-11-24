@@ -10,7 +10,7 @@
 		uid: "a2fc49a3",
 		type: "item",
 		items: [{
-			item: "contenttweaker:refinedchaoscrystal"
+			item: "technological_journey:refinedchaoscrystal"
 		}]
 	}]
 }

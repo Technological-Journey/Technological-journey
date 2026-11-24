@@ -10,13 +10,13 @@
 		uid: "2ad79b71",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32539"
+			item: "gcyl:gcyl_meta_item 1 539"
 		}]
 	}],
 	rewards: [{
 		uid: "f2565476",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2856",
+		item: "gcyl:meta_dust 1 174",
 		count: 16
 	}]
 }

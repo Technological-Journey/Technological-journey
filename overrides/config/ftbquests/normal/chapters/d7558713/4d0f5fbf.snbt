@@ -1,0 +1,18 @@
+{
+	icon: "gcyl:gcyl_meta_item 1 464",
+	x: 5.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	or_tasks: 1b,
+	tasks: [{
+		uid: "5e1ba33a",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 464"
+		}]
+	},
+	{
+		uid: "cee0488a",
+		type: "checkmark"
+	}]
+}

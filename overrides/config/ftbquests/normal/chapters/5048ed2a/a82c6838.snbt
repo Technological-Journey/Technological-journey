@@ -1,6 +1,7 @@
 {
-	x: 2.5d,
-	y: 8.0d,
+	x: 6.0d,
+	y: 5.0d,
+	shape: "hexagon",
 	dependencies: [
 		"6b5460a0"
 	],
@@ -8,7 +9,7 @@
 		uid: "3c446eb5",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2074"
+			item: "gregtech:meta_dust 1 115"
 		}]
 	}]
 }

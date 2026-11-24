@@ -9,34 +9,34 @@
 		uid: "de5307ba",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32537"
+			item: "gcyl:gcyl_meta_item 1 537"
 		}]
 	},
 	{
 		uid: "56048a59",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32536"
+			item: "gcyl:gcyl_meta_item 1 536"
 		}]
 	},
 	{
 		uid: "6512f79a",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32535"
+			item: "gcyl:gcyl_meta_item 1 535"
 		}]
 	},
 	{
 		uid: "fafa3eae",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32534"
+			item: "gcyl:gcyl_meta_item 1 534"
 		}]
 	}],
 	rewards: [{
 		uid: "45de85d8",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2721",
+		item: "gcyl:meta_dust 1 49",
 		count: 32
 	}]
 }

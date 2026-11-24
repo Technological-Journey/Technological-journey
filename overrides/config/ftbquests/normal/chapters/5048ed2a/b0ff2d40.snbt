@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 9.5d,
+	shape: "rsquare",
+	optional: 1b,
+	tasks: [{
+		uid: "00ddf9c6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 309"
+		}],
+		count: 18L
+	}]
+}

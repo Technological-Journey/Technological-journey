@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: 3.5d,
+	or_tasks: 1b,
+	tasks: [{
+		uid: "466651e8",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_cleanroom_casing 1 1"
+		}]
+	},
+	{
+		uid: "038d3038",
+		type: "item",
+		items: [{
+			item: "gcyl:mte 1 28"
+		}]
+	}]
+}
